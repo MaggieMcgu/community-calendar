@@ -9,10 +9,10 @@ used across all city feeds, identified by their PRODID header.
 |----------|-------------|--------|------:|
 | **Meetup** | ICS export from meetup.com groups. | bloomington, davis, montclair, petaluma, raleighdurham, santarosa, toronto | 127 |
 | **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, montclair, petaluma, raleighdurham, santarosa, toronto | 66 |
-| **Google Calendar** | Public Google Calendar ICS export. | bloomington, montclair, petaluma, raleighdurham, santarosa, toronto | 38 |
-| **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | bloomington, montclair, raleighdurham, santarosa | 35 |
+| **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | bloomington, moab, montclair, raleighdurham, santarosa | 41 |
+| **Google Calendar** | Public Google Calendar ICS export. | bloomington, moab, montclair, petaluma, raleighdurham, santarosa, toronto | 39 |
 | **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, raleighdurham | 19 |
-| **MaxPreps** | High school sports schedules. | montclair, petaluma, santarosa | 10 |
+| **MaxPreps** | High school sports schedules. | moab, montclair, petaluma, santarosa | 11 |
 | **Tockify** | Embeddable calendar widget with public ICS feeds. | bloomington, petaluma, santarosa, toronto | 8 |
 | **GrowthZone** | Chamber of commerce / association management platform. | montclair, petaluma, raleighdurham | 5 |
 | **Modern Events Calendar (WordPress)** | WordPress plugin by Webnus. PRODID references wp-events-plugin.com. | petaluma, raleighdurham, toronto | 5 |
@@ -58,11 +58,27 @@ WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
 **toronto** (23): bata_shoe_museum, bloor_west_village, boulderzclimbing, buddies_theatre, factory_theatre, gardiner_museum, grossmans_tavern, high_park_nature, indigenous, jazz_bistro, knitters_guild, now_toronto, ontario_historical_society, ontario_nature, scadding_court, sunshinecentres, textile_museum, toronto_botanical, union_station, uoft_engineering, uoft_indigenous, uoft_philosophy, uoft_socialwork
 
-### Google Calendar (38 feeds)
+### CivicPlus (ical.net) (41 feeds)
+
+Government CMS using ical.net library. Common for city/county websites.
+
+**bloomington** (1): iu_campuslabs
+
+**moab** (6): city_of_moab_recreation, city_of_moab_special, grand_county, grand_county_library, moab_city_council, old_spanish_trail_arena
+
+**montclair** (1): montclair_engage_events_ics
+
+**raleighdurham** (1): durham_gov
+
+**santarosa** (32): SRCity_Art_in_Public_Places_Committee, SRCity_Board_of_Building_Regulation_Appeals, SRCity_COVID-19_Business_Webinars, SRCity_Charter_Review_Committee, SRCity_CityBus, SRCity_City_Council, SRCity_City_Offices_Closed, SRCity_Climate_Action_Subcommittee, SRCity_Community_Advisory_Board, SRCity_Community_Calendar, SRCity_Creek_Stewardship, SRCity_Cultural_Heritage_Board, SRCity_Design_Review_Board, SRCity_Downtown_Subcommittee, SRCity_Economic_Development_Subcommittee, SRCity_Events, SRCity_HCS_and_Code, SRCity_Main_Calendar, SRCity_Neighborhood_Meetings, SRCity_Parking, SRCity_Planning_Commission, SRCity_Planning_and_Economic_Development, SRCity_Police, SRCity_Public_Works, SRCity_Recreation_and_Parks, SRCity_Santa_Rosa_Water, SRCity_Subdivision_Committee, SRCity_Tourism_Business_Improvement_Area_Advisory_Board, SRCity_Transportation_and_Public_Works, SRCity_Waterways_Advisory_Committee, SRCity_Wildfire_Ready, SRCity_Zoning_Administrator
+
+### Google Calendar (39 feeds)
 
 Public Google Calendar ICS export.
 
 **bloomington** (16): bloominglabs, bloomington_gov, bsquare_bptc, bsquare_critical_mass, bsquare_government, bsquare_misc_civic, btonline_events, btonline_food, btonline_shopping, calendar_bloomington_in_gov_c657mi332p5sjpq2lcht9i, calendar_cuc66guoam1hhcqq2rnaniinl8_40group_calend, calendar_r5lf3al9blontcsjnedbr2f2u0_40group_calend, calendar_shweekend_40gmail_com_public, city_boards_commissions, farmers_market, parks_and_rec
+
+**moab** (1): center_street
 
 **montclair** (2): fcc_montclair, uu_montclair
 
@@ -74,18 +90,6 @@ Public Google Calendar ICS export.
 
 **toronto** (3): cita_local_events, cita_seminars, cita_special_events
 
-### CivicPlus (ical.net) (35 feeds)
-
-Government CMS using ical.net library. Common for city/county websites.
-
-**bloomington** (1): iu_campuslabs
-
-**montclair** (1): montclair_engage_events_ics
-
-**raleighdurham** (1): durham_gov
-
-**santarosa** (32): SRCity_Art_in_Public_Places_Committee, SRCity_Board_of_Building_Regulation_Appeals, SRCity_COVID-19_Business_Webinars, SRCity_Charter_Review_Committee, SRCity_CityBus, SRCity_City_Council, SRCity_City_Offices_Closed, SRCity_Climate_Action_Subcommittee, SRCity_Community_Advisory_Board, SRCity_Community_Calendar, SRCity_Creek_Stewardship, SRCity_Cultural_Heritage_Board, SRCity_Design_Review_Board, SRCity_Downtown_Subcommittee, SRCity_Economic_Development_Subcommittee, SRCity_Events, SRCity_HCS_and_Code, SRCity_Main_Calendar, SRCity_Neighborhood_Meetings, SRCity_Parking, SRCity_Planning_Commission, SRCity_Planning_and_Economic_Development, SRCity_Police, SRCity_Public_Works, SRCity_Recreation_and_Parks, SRCity_Santa_Rosa_Water, SRCity_Subdivision_Committee, SRCity_Tourism_Business_Improvement_Area_Advisory_Board, SRCity_Transportation_and_Public_Works, SRCity_Waterways_Advisory_Committee, SRCity_Wildfire_Ready, SRCity_Zoning_Administrator
-
 ### Localist (19 feeds)
 
 Campus/community event platform by Concept3D (Indiana University instance).
@@ -94,9 +98,11 @@ Campus/community event platform by Concept3D (Indiana University instance).
 
 **raleighdurham** (3): nc_cultural_resources, ncsu, unc_chapel_hill
 
-### MaxPreps (10 feeds)
+### MaxPreps (11 feeds)
 
 High school sports schedules.
+
+**moab** (1): maxpreps_grand_county
 
 **montclair** (2): maxpreps_mka, maxpreps_montclair_high
 

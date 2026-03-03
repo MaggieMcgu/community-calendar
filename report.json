@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-03T06:47:49.966581",
+  "generated": "2026-03-03T18:40:26.133670",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -21403,6 +21403,225 @@
             "source": "North Essex Chamber of Commerce",
             "events": 12,
             "unique_urls": 12,
+            "specificity_pct": 100
+          }
+        ]
+      }
+    },
+    "moab": {
+      "feeds": {
+        "back_of_beyond": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 10
+            }
+          ]
+        },
+        "center_street": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 9
+            }
+          ]
+        },
+        "city_of_moab_recreation": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 24
+            }
+          ]
+        },
+        "city_of_moab_special": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 20
+            }
+          ]
+        },
+        "climb_moab": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 1
+            }
+          ]
+        },
+        "grand_county": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 51
+            }
+          ]
+        },
+        "grand_county_library": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 130
+            }
+          ]
+        },
+        "maxpreps_grand_county": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 12
+            }
+          ]
+        },
+        "moab_city_council": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 36
+            }
+          ]
+        },
+        "moab_museum": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 5
+            }
+          ]
+        },
+        "old_spanish_trail_arena": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 396
+            }
+          ]
+        },
+        "wellness_collective": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 0
+            }
+          ]
+        }
+      },
+      "url_quality": {
+        "total_with_url": 770,
+        "total_events": 770,
+        "unique_urls": 34,
+        "generic_count": 743,
+        "generic_domains": [
+          {
+            "domain": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30",
+            "events": 396,
+            "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"
+          },
+          {
+            "domain": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28",
+            "events": 130,
+            "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"
+          },
+          {
+            "domain": "wellnesscollectivemoab.com",
+            "events": 98,
+            "url": "https://wellnesscollectivemoab.com/calendar"
+          },
+          {
+            "domain": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+            "events": 51,
+            "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"
+          },
+          {
+            "domain": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23",
+            "events": 36,
+            "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"
+          },
+          {
+            "domain": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29",
+            "events": 24,
+            "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29"
+          },
+          {
+            "domain": "calendar.google.com",
+            "events": 8,
+            "url": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"
+          }
+        ],
+        "http_count": 0,
+        "http_domains": 0,
+        "source_specificity": [
+          {
+            "source": "Old Spanish Trail Arena",
+            "events": 396,
+            "unique_urls": 1,
+            "specificity_pct": 0
+          },
+          {
+            "source": "Grand County Public Library",
+            "events": 130,
+            "unique_urls": 1,
+            "specificity_pct": 1
+          },
+          {
+            "source": "Wellness Collective Moab",
+            "events": 98,
+            "unique_urls": 1,
+            "specificity_pct": 1
+          },
+          {
+            "source": "Grand County",
+            "events": 51,
+            "unique_urls": 1,
+            "specificity_pct": 2
+          },
+          {
+            "source": "Moab City Council",
+            "events": 36,
+            "unique_urls": 1,
+            "specificity_pct": 3
+          },
+          {
+            "source": "City of Moab Recreation",
+            "events": 24,
+            "unique_urls": 1,
+            "specificity_pct": 4
+          },
+          {
+            "source": "Grand County High School",
+            "events": 11,
+            "unique_urls": 11,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Back of Beyond Books",
+            "events": 10,
+            "unique_urls": 10,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Center Street Gym / Arena",
+            "events": 8,
+            "unique_urls": 1,
+            "specificity_pct": 12
+          },
+          {
+            "source": "Moab Museum",
+            "events": 4,
+            "unique_urls": 4,
+            "specificity_pct": 100
+          },
+          {
+            "source": "City of Moab Special Events",
+            "events": 1,
+            "unique_urls": 1,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Climb Moab",
+            "events": 1,
+            "unique_urls": 1,
             "specificity_pct": 100
           }
         ]

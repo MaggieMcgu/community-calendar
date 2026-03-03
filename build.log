@@ -52397,3 +52397,27 @@ Wrote 13 events to cities/petaluma/srjc_petaluma.ics
 2026-03-03 06:46:48,584 - INFO - Fetching https://cicadacinema.com/products.json
 2026-03-03 06:46:49,002 - INFO - Found 6 events
 2026-03-03 06:46:49,004 - INFO - Written to cities/bloomington/cicada_cinema.ics
+2026-03-03 18:40:20,081 - MoabMuseumScraper - INFO - Scraping Moab Museum
+2026-03-03 18:40:20,081 - MoabMuseumScraper - INFO - Fetching https://moabmuseum.org/calendar-of-events/
+2026-03-03 18:40:20,507 - MoabMuseumScraper - INFO - Found 6 JSON-LD events on https://moabmuseum.org/calendar-of-events/
+2026-03-03 18:40:20,508 - MoabMuseumScraper - INFO - Total: 5 events
+2026-03-03 18:40:20,508 - MoabMuseumScraper - INFO - Found 5 events
+2026-03-03 18:40:20,510 - MoabMuseumScraper - INFO - Written to cities/moab/moab_museum.ics
+2026-03-03 18:40:20,655 - ClimbMoabScraper - INFO - Scraping Climb Moab
+2026-03-03 18:40:20,655 - ClimbMoabScraper - INFO - Fetching https://climbmoabgym.com/events?format=json
+2026-03-03 18:40:21,234 - ClimbMoabScraper - INFO - Found 1 upcoming events
+2026-03-03 18:40:21,234 - ClimbMoabScraper - INFO - Found 1 events
+2026-03-03 18:40:21,235 - ClimbMoabScraper - INFO - Written to cities/moab/climb_moab.ics
+2026-03-03 18:40:21,550 - BackOfBeyondScraper - INFO - Scraping Back of Beyond Books
+2026-03-03 18:40:21,551 - BackOfBeyondScraper - INFO - Fetching https://backofbeyondbooks.com/happenings/
+2026-03-03 18:40:21,551 - lib.utils - INFO - Fetching: https://backofbeyondbooks.com/happenings/
+2026-03-03 18:40:22,544 - BackOfBeyondScraper - INFO - Found 23 events
+2026-03-03 18:40:22,544 - BackOfBeyondScraper - INFO - Filtered 11 events beyond 6 months out
+2026-03-03 18:40:22,544 - BackOfBeyondScraper - INFO - Found 12 events
+2026-03-03 18:40:22,547 - BackOfBeyondScraper - INFO - Written to cities/moab/back_of_beyond.ics
+2026-03-03 18:40:22,699 - WellnessCollectiveScraper - INFO - Scraping Wellness Collective Moab
+2026-03-03 18:40:22,699 - WellnessCollectiveScraper - INFO - Fetching https://calendar.apps.secureserver.net/v1/events/850abeb2-a96f-4bb3-941d-245ce2f0e203/9c296a07-7f6a-4f27-a79a-bc4c6982a216/f33a9bca-c60a-4de5-8fa4-b78b6fd1c4ba
+2026-03-03 18:40:23,819 - WellnessCollectiveScraper - INFO - API returned 100 events
+2026-03-03 18:40:23,822 - WellnessCollectiveScraper - INFO - Parsed 98 events
+2026-03-03 18:40:23,823 - WellnessCollectiveScraper - INFO - Found 98 events
+2026-03-03 18:40:23,842 - WellnessCollectiveScraper - INFO - Written to cities/moab/wellness_collective.ics
