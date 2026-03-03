@@ -674,6 +674,7 @@ jobs:
         curl -sL "https://calendar.google.com/calendar/ical/moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com/public/basic.ics" -o center_street.ics || true
         cd ../..
         python scripts/combine_ics.py --input-dir cities/moab --output cities/moab/combined.ics --name "Moab Community Calendar"
+        python scripts/combine_ics.py --input-dir cities/moab --output cities/moab/new-sources.ics --name "Moab New Sources" --exclude grand_county_library,grand_county,old_spanish_trail_arena,moab_city_council,city_of_moab_special,city_of_moab_recreation,center_street
 
     # ==========================================
     # Post-processing (all cities)
