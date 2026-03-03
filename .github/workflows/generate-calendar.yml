@@ -59,7 +59,7 @@ jobs:
       run: |
         INPUT="${{ github.event.inputs.locations }}"
         if [ -z "$INPUT" ] || [ "$INPUT" = "all" ]; then
-          echo "list=santarosa,bloomington,davis,petaluma,toronto,montclair" >> $GITHUB_OUTPUT
+          echo "list=santarosa,bloomington,davis,petaluma,toronto,montclair,moab" >> $GITHUB_OUTPUT
         else
           echo "list=$INPUT" >> $GITHUB_OUTPUT
         fi
@@ -632,6 +632,50 @@ jobs:
         python scripts/combine_ics.py --input-dir cities/montclair --output cities/montclair/combined.ics --name "Montclair Community Calendar"
 
     # ==========================================
+    # Moab
+    # ==========================================
+    - name: Scrape Moab sources
+      if: contains(steps.locations.outputs.list, 'moab') && github.event.inputs.regenerate_only != 'true'
+      run: |
+        echo "Scraping Moab..."
+        python scrapers/maxpreps.py --school grand-county-red-devils --output cities/moab/maxpreps_grand_county.ics || true
+        python scrapers/moab_museum.py --output cities/moab/moab_museum.ics || true
+        python scrapers/climb_moab.py --output cities/moab/climb_moab.ics || true
+        python scrapers/back_of_beyond.py --output cities/moab/back_of_beyond.ics || true
+        python scrapers/wellness_collective.py --output cities/moab/wellness_collective.ics || true
+
+        echo "\n=== Moab Scraper Results ==="
+        for f in cities/moab/*.ics; do
+          if [ -f "$f" ]; then
+            events=$(grep -c 'BEGIN:VEVENT' "$f" 2>/dev/null) || events=0
+            size=$(stat -f%z "$f" 2>/dev/null || stat -c%s "$f" 2>/dev/null || echo 0)
+            name=$(basename "$f")
+            if [ "$events" -gt 0 ]; then
+              echo "  ✅ $name: $events events"
+            elif [ "$size" -gt 100 ]; then
+              echo "  ⚠️ $name: no events (but file exists)"
+            else
+              echo "  ❌ $name: empty or missing"
+            fi
+          fi
+        done
+      continue-on-error: true
+
+    - name: Download Moab live feeds and combine ICS
+      if: contains(steps.locations.outputs.list, 'moab')
+      run: |
+        cd cities/moab
+        curl -sL "https://grandcountyutah.net/common/modules/iCalendar/iCalendar.aspx?catID=28&feed=calendar" -o grand_county_library.ics || true
+        curl -sL "https://grandcountyutah.net/common/modules/iCalendar/iCalendar.aspx?catID=14&feed=calendar" -o grand_county.ics || true
+        curl -sL "https://grandcountyutah.net/common/modules/iCalendar/iCalendar.aspx?catID=30&feed=calendar" -o old_spanish_trail_arena.ics || true
+        curl -sL "https://moabcity.org/common/modules/iCalendar/iCalendar.aspx?catID=23&feed=calendar" -o moab_city_council.ics || true
+        curl -sL "https://www.moabcity.gov/common/modules/iCalendar/iCalendar.aspx?catID=25&feed=calendar" -o city_of_moab_special.ics || true
+        curl -sL "https://www.moabcity.gov/common/modules/iCalendar/iCalendar.aspx?catID=29&feed=calendar" -o city_of_moab_recreation.ics || true
+        curl -sL "https://calendar.google.com/calendar/ical/moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com/public/basic.ics" -o center_street.ics || true
+        cd ../..
+        python scripts/combine_ics.py --input-dir cities/moab --output cities/moab/combined.ics --name "Moab Community Calendar"
+
+    # ==========================================
     # Post-processing (all cities)
     # ==========================================
     - name: Convert ICS to JSON for Supabase
@@ -671,7 +715,7 @@ jobs:
         git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
         
         # Save generated files before any git operations
-        for city in santarosa bloomington davis petaluma toronto raleighdurham montclair; do
+        for city in santarosa bloomington davis petaluma toronto raleighdurham montclair moab; do
           if [ -f "cities/$city/events.json" ]; then
             cp "cities/$city/events.json" "/tmp/${city}_events.json"
           fi
@@ -686,7 +730,7 @@ jobs:
             fi
             echo "Push failed, restoring generated files and retrying..."
             # Restore generated files that may have been clobbered by rebase
-            for city in santarosa bloomington davis petaluma toronto raleighdurham montclair; do
+            for city in santarosa bloomington davis petaluma toronto raleighdurham montclair moab; do
               if [ -f "/tmp/${city}_events.json" ]; then
                 cp "/tmp/${city}_events.json" "cities/$city/events.json"
               fi

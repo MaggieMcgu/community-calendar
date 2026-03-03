@@ -404,6 +404,19 @@ SOURCE_NAMES = {
     'turtle_back_zoo': 'Turtle Back Zoo',
     'raptor_trust': 'The Raptor Trust',
     'sycamore_land_trust': 'Sycamore Land Trust',
+    # Moab
+    'grand_county_library': 'Grand County Public Library',
+    'grand_county': 'Grand County',
+    'old_spanish_trail_arena': 'Old Spanish Trail Arena',
+    'moab_city_council': 'Moab City Council',
+    'city_of_moab_special': 'City of Moab Special Events',
+    'city_of_moab_recreation': 'City of Moab Recreation',
+    'center_street': 'Center Street Gym / Arena',
+    'maxpreps_grand_county': 'Grand County High School Athletics',
+    'moab_museum': 'Moab Museum',
+    'climb_moab': 'Climb Moab',
+    'back_of_beyond': 'Back of Beyond Books',
+    'wellness_collective': 'Wellness Collective Moab',
 }
 
 # Fallback URLs for sources whose ICS events lack a URL property.
@@ -575,6 +588,19 @@ SOURCE_URLS = {
     'turtle_back_zoo': 'https://www.turtlebackzoo.com/events/',
     'raptor_trust': 'https://www.theraptortrust.org/events',
     'maxpreps_montclair_high': 'https://www.maxpreps.com/nj/montclair/montclair-mounties/events/',
+    # Moab
+    'grand_county_library': 'https://grandcountyutah.net/Calendar.aspx?CID=28',
+    'grand_county': 'https://grandcountyutah.net/Calendar.aspx?CID=14',
+    'old_spanish_trail_arena': 'https://grandcountyutah.net/Calendar.aspx?CID=30',
+    'moab_city_council': 'https://moabcity.org/Calendar.aspx?CID=23',
+    'city_of_moab_special': 'https://www.moabcity.gov/Calendar.aspx?CID=25',
+    'city_of_moab_recreation': 'https://www.moabcity.gov/Calendar.aspx?CID=29',
+    'center_street': 'https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com',
+    'maxpreps_grand_county': 'https://www.maxpreps.com/ut/moab/grand-county-red-devils/events/',
+    'moab_museum': 'https://moabmuseum.org/calendar-of-events/',
+    'climb_moab': 'https://climbmoabgym.com/events',
+    'back_of_beyond': 'https://backofbeyondbooks.com/happenings/',
+    'wellness_collective': 'https://wellnesscollectivemoab.com/calendar',
 }
 
 
