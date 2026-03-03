@@ -77,6 +77,18 @@ def extract_jsonld_blocks(html: str) -> list[dict]:
     return blocks
 
 
+def _type_matches(item_type, event_types: set[str]) -> bool:
+    """Check if a JSON-LD @type matches any of the target event types.
+
+    Handles @type as a string or a list (e.g., ['Event', 'MusicEvent']).
+    """
+    if isinstance(item_type, str):
+        return item_type in event_types
+    if isinstance(item_type, list):
+        return any(t in event_types for t in item_type if isinstance(t, str))
+    return False
+
+
 def extract_events_from_blocks(blocks: list[dict], event_types: set[str] = EVENT_TYPES) -> list[dict]:
     """Extract Event objects from JSON-LD blocks.
 
@@ -85,19 +97,20 @@ def extract_events_from_blocks(blocks: list[dict], event_types: set[str] = EVENT
     - Arrays of objects
     - @graph arrays
     - Events nested under other types (e.g., HighSchool.event)
+    - @type as string or list (e.g., ['Event', 'MusicEvent'])
     """
     events = []
     for data in blocks:
         if isinstance(data, list):
             for item in data:
-                if isinstance(item, dict) and item.get('@type') in event_types:
+                if isinstance(item, dict) and _type_matches(item.get('@type'), event_types):
                     events.append(item)
         elif isinstance(data, dict):
-            if data.get('@type') in event_types:
+            if _type_matches(data.get('@type'), event_types):
                 events.append(data)
             # Check @graph
             for item in data.get('@graph', []):
-                if isinstance(item, dict) and item.get('@type') in event_types:
+                if isinstance(item, dict) and _type_matches(item.get('@type'), event_types):
                     events.append(item)
             # Check nested event arrays (e.g., HighSchool.event)
             for item in data.get('event', []):

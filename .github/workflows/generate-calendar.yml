@@ -643,6 +643,9 @@ jobs:
         python scrapers/climb_moab.py --output cities/moab/climb_moab.ics || true
         python scrapers/back_of_beyond.py --output cities/moab/back_of_beyond.ics || true
         python scrapers/wellness_collective.py --output cities/moab/wellness_collective.ics || true
+        python scrapers/slickrock_cinemas.py --output cities/moab/slickrock_cinemas.ics || true
+        python scrapers/moab_music_festival.py --output cities/moab/moab_music_festival.ics || true
+        python scrapers/moab_folk_festival.py --output cities/moab/moab_folk_festival.ics || true
 
         echo "\n=== Moab Scraper Results ==="
         for f in cities/moab/*.ics; do
