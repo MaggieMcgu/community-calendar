@@ -37,25 +37,6 @@ UID:16601
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga @ the Grand Center-Sam
-DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20260303T143000
-DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20260303T153000
-UID:ab24c6c10c2d9d6d33e6f11bf70341f7@wellnesscollectivemoab.com
-DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
-  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
- ctive yoga instructors. Each teacher brings their own style and expertise\
- , while sharing a common focus on safety\, choice\, and ease in the body. 
- This class is especially supportive for older adults and anyone who prefer
- s to stay off the floor\, has limited mobility\, uses a chair for stabilit
- y\, or is simply looking for a calm\, nourishing way to move. All poses a.
- ..
-LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County High School": "https://www.maxpreps.com/games/03-03-2026/jv-softball-26/grand-county-vs-monticello.htm?c=4WRZVHKhmECZIEI5MhqPvg"}
 X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/03-03-2026/jv-softball-26/grand-county-vs-monticello.htm?c=2PtI-L7QHkemFxhQ3cIQTw"}
 X-SOURCE-ID:maxpreps_grand_county
@@ -108,7 +89,7 @@ URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailp
 DTSTART;TZID=America/Denver:20260303T160000
 DTEND;TZID=America/Denver:20260303T161500
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20260420T055959Z;BYDAY=TU,TH
-DTSTAMP:20260303T190412Z
+DTSTAMP:20260303T220434Z
 UID:64d2rknphi35l54megjkh7kco9@google.com
 CREATED:20260225T160212Z
 LAST-MODIFIED:20260302T221807Z
@@ -160,7 +141,7 @@ URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailp
 DTSTART;TZID=America/Denver:20260303T173000
 DTEND;TZID=America/Denver:20260419T193000
 RRULE:FREQ=WEEKLY;UNTIL=20260310T055959Z;BYDAY=TU
-DTSTAMP:20260303T190412Z
+DTSTAMP:20260303T220434Z
 UID:2bd5plecb3u98gtpdjcajhl7ac_R20260304T003000@google.com
 CREATED:20260219T225416Z
 LAST-MODIFIED:20260225T154942Z
@@ -428,13 +409,52 @@ URL:https://www.maxpreps.com/games/03-05-2026/jv-soccer-spring-26/grand-co
 X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/i-can-only-imagine-2-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:I Can Only Imagine 2 — Slickrock Cinemas
+DTSTART;TZID=MST;VALUE=DATE-TIME:20260305T190000
+DTEND;TZID=MST;VALUE=DATE-TIME:20260305T210000
+UID:a863f5b69134ff1dccb8be09861ea1b5@cinemaclock.com
+DESCRIPTION:PG G G G G G G 2026 Drama Arielle Kebbel & Dennis Quaid\n\nhtt
+ ps://www.cinemaclock.com/movies/i-can-only-imagine-2-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/i-can-only-imagine-2-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/scream-7-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Scream 7 — Slickrock Cinemas
+DTSTART;TZID=MST;VALUE=DATE-TIME:20260305T190000
+DTEND;TZID=MST;VALUE=DATE-TIME:20260305T210000
+UID:09d17060539d9c5b6965111518176ce9@cinemaclock.com
+DESCRIPTION:R 13+ 14A 14A 14A 14A 14A 2026 1h54m Horror Neve Campbell & Co
+ urteney Cox\n\nhttps://www.cinemaclock.com/movies/scream-7-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/scream-7-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/shelter-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Shelter — Slickrock Cinemas
+DTSTART;TZID=MST;VALUE=DATE-TIME:20260305T190000
+DTEND;TZID=MST;VALUE=DATE-TIME:20260305T210000
+UID:2f4353d7c35fcc2a9e078f35eec0ebf0@cinemaclock.com
+DESCRIPTION:13+ 14A 14A 14A 14A 14A 2026 Action thriller Jason Statham & B
+ ill Nighy 4th week\n\nhttps://www.cinemaclock.com/movies/shelter-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/shelter-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
 X-SOURCE-ID:center_street
 X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260306
 DTEND;VALUE=DATE:20260308
-DTSTAMP:20260303T190412Z
+DTSTAMP:20260303T220434Z
 UID:3f4ic7s23cfg5qol91i65ovl4m@google.com
 CREATED:20250929T154941Z
 LAST-MODIFIED:20260209T211742Z
@@ -632,6 +652,45 @@ URL:https://www.maxpreps.com/games/03-06-2026/jv-soccer-spring-26/grand-co
 X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/i-can-only-imagine-2-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:I Can Only Imagine 2 — Slickrock Cinemas
+DTSTART;TZID=MST;VALUE=DATE-TIME:20260306T190000
+DTEND;TZID=MST;VALUE=DATE-TIME:20260306T210000
+UID:63e59d0d6ef1f9ba20bb3d5c56ab5389@cinemaclock.com
+DESCRIPTION:PG G G G G G G 2026 Drama Arielle Kebbel & Dennis Quaid\n\nhtt
+ ps://www.cinemaclock.com/movies/i-can-only-imagine-2-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/i-can-only-imagine-2-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/scream-7-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Scream 7 — Slickrock Cinemas
+DTSTART;TZID=MST;VALUE=DATE-TIME:20260306T190000
+DTEND;TZID=MST;VALUE=DATE-TIME:20260306T210000
+UID:bb9937a39eeb669a24c2f663048e7ee7@cinemaclock.com
+DESCRIPTION:R 13+ 14A 14A 14A 14A 14A 2026 1h54m Horror Neve Campbell & Co
+ urteney Cox\n\nhttps://www.cinemaclock.com/movies/scream-7-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/scream-7-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/shelter-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Shelter — Slickrock Cinemas
+DTSTART;TZID=MST;VALUE=DATE-TIME:20260306T190000
+DTEND;TZID=MST;VALUE=DATE-TIME:20260306T210000
+UID:a81d7749f307e08348315a3eea2fe21b@cinemaclock.com
+DESCRIPTION:13+ 14A 14A 14A 14A 14A 2026 Action thriller Jason Statham & B
+ ill Nighy 4th week\n\nhttps://www.cinemaclock.com/movies/shelter-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/shelter-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -708,6 +767,48 @@ LOCATION:Grand County High School\, 608 S 400 E\, Moab\, UT 84532
 URL:https://www.maxpreps.com/games/03-07-2026/softball-26/grand-county-vs-
  mountain-view.htm?c=lp0w-Y24HE-ikA8eh5Hxlg
 X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/i-can-only-imagine-2-2026"}
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/i-can-only-imagine-2-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:I Can Only Imagine 2 — Slickrock Cinemas
+DTSTART;TZID=MST;VALUE=DATE-TIME:20260307T130000
+DTEND;TZID=MST;VALUE=DATE-TIME:20260307T150000
+UID:792fbf5e7f58a5d9aa7a3dd52d1f703c@cinemaclock.com
+DESCRIPTION:PG G G G G G G 2026 Drama Arielle Kebbel & Dennis Quaid\n\nhtt
+ ps://www.cinemaclock.com/movies/i-can-only-imagine-2-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/i-can-only-imagine-2-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/scream-7-2026"}
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/scream-7-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Scream 7 — Slickrock Cinemas
+DTSTART;TZID=MST;VALUE=DATE-TIME:20260307T130000
+DTEND;TZID=MST;VALUE=DATE-TIME:20260307T150000
+UID:7b6bea5319b50eff0ad68a7fe56a23b0@cinemaclock.com
+DESCRIPTION:R 13+ 14A 14A 14A 14A 14A 2026 1h54m Horror Neve Campbell & Co
+ urteney Cox\n\nhttps://www.cinemaclock.com/movies/scream-7-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/scream-7-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/shelter-2026"}
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/shelter-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Shelter — Slickrock Cinemas
+DTSTART;TZID=MST;VALUE=DATE-TIME:20260307T130000
+DTEND;TZID=MST;VALUE=DATE-TIME:20260307T150000
+UID:594d59a80435b72a99726dd1bb5dde73@cinemaclock.com
+DESCRIPTION:13+ 14A 14A 14A 14A 14A 2026 Action thriller Jason Statham & B
+ ill Nighy 4th week\n\nhttps://www.cinemaclock.com/movies/shelter-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/shelter-2026
+X-SOURCE:Slickrock Cinemas
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -957,7 +1058,7 @@ URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailp
 DTSTART;TZID=America/Denver:20260310T173000
 DTEND;TZID=America/Denver:20260310T193000
 RRULE:FREQ=WEEKLY;BYDAY=TU
-DTSTAMP:20260303T190412Z
+DTSTAMP:20260303T220434Z
 UID:128bdl9h3jri7ggnj8hv64j6vr@google.com
 CREATED:20260219T225304Z
 LAST-MODIFIED:20260219T225304Z
@@ -989,7 +1090,7 @@ URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailp
 DTSTART;TZID=America/Denver:20260310T200000
 DTEND;TZID=America/Denver:20260310T230000
 RRULE:FREQ=WEEKLY;BYDAY=TU
-DTSTAMP:20260303T190412Z
+DTSTAMP:20260303T220434Z
 UID:42q1864ip09mnhi5egh9tajo1t@google.com
 CREATED:20260226T173519Z
 LAST-MODIFIED:20260226T173519Z
@@ -1859,7 +1960,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260321
 DTEND;VALUE=DATE:20260322
-DTSTAMP:20260303T190412Z
+DTSTAMP:20260303T220434Z
 UID:1er9q4bp53pneq8mirb30kdgme@google.com
 CREATED:20251208T161107Z
 LAST-MODIFIED:20260204T232705Z
@@ -2207,36 +2308,6 @@ SEQUENCE:0
 SUMMARY:The Storied Self: Moab's Story Slam "Beginnings"
 UID:16465
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Moab Museum": "https://moabmuseum.org/events/2026-annual-museum-gala/"}
-X-SOURCE-ID:moab_museum
-SUMMARY:2026 Annual Museum Gala
-DTSTART;VALUE=DATE-TIME:20260326T000000
-DTEND;VALUE=DATE-TIME:20260326T000000
-UID:683f59fe86f867292d942eb9c05cd56d@moabmuseum.org
-DESCRIPTION:You are invited to an evening of spirited celebration in suppo
- rt of the Moab Museum. Costumes and creative attire are warmly encouraged!
-  Bring a copy of your ticket (printed or on your phone) and prepare for a 
- night where Moab’s early days come alive. This year’s Gala channels th
- e spirit of Robbers Roost\, boomtown saloons\, and Prohibition-era intrigu
- e—reimagined with style\, wit\, and a touch of mischief. Guests will enj
- oy: A lively cocktail hour in a transformed saloon-inspired setting Immers
- ive moments with outlaws\, sheriffs\, card games\, and surprise encounters
-  A plated dinner with curated beverage options The only live auction in to
- wn\, featuring exceptional regional experiences\, artwork\, and one-of-a-k
- ind adventures Awards honoring community partners\, volunteers\, and Museu
- m collaborators A vintage-style photo booth to capture the night’s best 
- looks and worst alibis This is the Moab Museum’s signature fundraiser—
- supporting exhibitions\, education programs\, and the preservation of the 
- stories that made this place what it is today. Early Bird (through Februar
- y 18): Members: $75 General Admission: $100 After February 18: Members: $9
- 0 General Admission: $115 Seating is limited. Early ticket purchase is str
- ongly encouraged.
-LOCATION:Hoodoo Hotel\, Curio Collection by Hilton\, 111 N 100 W\, Moab\, 
- UT 84532
-URL:https://moabmuseum.org/events/2026-annual-museum-gala/
-X-SOURCE:Moab Museum
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
@@ -2819,18 +2890,6 @@ DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
  /join-a-class-or-workshop/ola/services/community-yoga
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Moab Museum": "https://moabmuseum.org/events/april-art-walk/"}
-X-SOURCE-ID:moab_museum
-SUMMARY:April Art Walk
-DTSTART;VALUE=DATE-TIME:20260403T000000
-DTEND;VALUE=DATE-TIME:20260403T000000
-UID:9468bc0761465da398443718c53b3155@moabmuseum.org
-DESCRIPTION:Join us for Art Walk! Friday from 5 - 8 pm - FREE!
-LOCATION:Moab Museum\, 118 E. Center St.\, Moab\, UT 84532
-URL:https://moabmuseum.org/events/april-art-walk/
-X-SOURCE:Moab Museum
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
@@ -4373,35 +4432,6 @@ DESCRIPTION:Join Tom for Dharma Recovery-a peer-led community space that i
  rvices/dharma-recovery-1
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Moab Museum": "https://moabmuseum.org/events/lowrider-culture-in-the-american-southwest-members-opening/"}
-X-SOURCE-URLS:{"Moab Museum": "https://moabmuseum.org/events/lowrider-culture-in-the-american-southwest-cultura-lowrider-en-el-suroeste-estadounidense/"}
-X-SOURCE-ID:moab_museum
-SUMMARY:Lowrider Culture in the American Southwest / Cultura Lowrider en e
- l suroeste estadounidense FREE Opening
-DTSTART;VALUE=DATE-TIME:20260424T000000
-DTEND;VALUE=DATE-TIME:20260424T000000
-UID:00c6c3c3df2d4fe5056ef17424114821@moabmuseum.org
-DESCRIPTION:Lowriding is a quintessential Chicano tradition started by Mex
- ican American communities in the 1940s to assert their space and empower t
- heir lives. This unique car-making tradition is infused with Latino/a soul
- \, entrepreneurship\, and ingenuity. A mix of innovation and tradition\, l
- owriding is an affirmation of identity and values that have reached beyond
-  the United States to influence popular culture worldwide. The exhibition 
- is FREE all day and will be followed by a private opening available to cur
- rent members and donors of the Museum\, which kicks off at 5:30pm. About t
- he Semiquincentennial: The semiquincentennial is a chance for everyone to 
- feel a part of this major milestone in our nation. We can celebrate courag
- e\, liberty\, and sacrifice\, while also reckoning with difficult truths. 
- By fostering a sense of belonging and coming together with our local commu
- nities\, we can ensure that Utahns of all ages and backgrounds see themsel
- ves in American history. Next up: Buffalo Soldiers Heritage Trail opening 
- July 28th\, 2026!
-LOCATION:Moab Museum\, 118 E. Center St.\, Moab\, UT 84532
-URL:https://moabmuseum.org/events/lowrider-culture-in-the-american-southwe
- st-cultura-lowrider-en-el-suroeste-estadounidense/
-X-SOURCE:Moab Museum
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -6571,6 +6601,19 @@ UID:9056
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Folk Festival": "https://www.moabfreeconcerts.com/"}
+X-SOURCE-ID:moab_folk_festival
+SUMMARY:Moab Free Concert Series
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260626T180000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260626T210000
+UID:5b601bfcdfcca7c4a4227b81a2b733e0@moabfolkfestival.com
+DESCRIPTION:Free community concert at Swanny Park. Part of the Moab Free C
+ oncert Series presented by Friends of the Moab Folk Festival.
+LOCATION:Swanny Park\, 100 E 100 N\, Moab\, UT 84532
+URL:https://www.moabfreeconcerts.com/
+X-SOURCE:Moab Folk Festival
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -6918,6 +6961,19 @@ UID:1248
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Folk Festival": "https://www.moabfreeconcerts.com/"}
+X-SOURCE-ID:moab_folk_festival
+SUMMARY:Moab Free Concert Series
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260710T180000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260710T210000
+UID:79ba0e2ca733ce8e5ff4ac7f004283fd@moabfolkfestival.com
+DESCRIPTION:Free community concert at Swanny Park. Part of the Moab Free C
+ oncert Series presented by Friends of the Moab Folk Festival.
+LOCATION:Swanny Park\, 100 E 100 N\, Moab\, UT 84532
+URL:https://www.moabfreeconcerts.com/
+X-SOURCE:Moab Folk Festival
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -7195,7 +7251,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260720
 DTEND;VALUE=DATE:20260808
-DTSTAMP:20260303T190412Z
+DTSTAMP:20260303T220434Z
 UID:29i5bmefogj8n3r53vsup449eg@google.com
 CREATED:20260129T215055Z
 LAST-MODIFIED:20260224T151259Z
@@ -7355,21 +7411,6 @@ UID:1381
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Moab Museum": "https://moabmuseum.org/events/annual-pioneer-day-ice-cream-social/"}
-X-SOURCE-ID:moab_museum
-SUMMARY:Annual Pioneer Day Ice Cream Social
-DTSTART;VALUE=DATE-TIME:20260724T000000
-DTEND;VALUE=DATE-TIME:20260724T000000
-UID:ab0dde3450de401fc66209a6284a9cd2@moabmuseum.org
-DESCRIPTION:Join the Moab Museum on Friday\, July 24th from 6-8pm for ice 
- cream\, live music\, lawn games\, and MORE! The Annual Ice Cream Social wi
- ll feature delicious Aggie Ice Cream ice generously donated by USU Moab an
- d Sweet Serendipity!
-LOCATION:Moab Museum West Lawn\, 118 E Center St.\, Moab\, UT\, 84532
-URL:https://moabmuseum.org/events/annual-pioneer-day-ice-cream-social/
-X-SOURCE:Moab Museum
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -7399,6 +7440,19 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16057
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Folk Festival": "https://www.moabfreeconcerts.com/"}
+X-SOURCE-ID:moab_folk_festival
+SUMMARY:Moab Free Concert Series
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260724T180000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260724T210000
+UID:bc7c178244c0e25f10c7719f8dd07688@moabfolkfestival.com
+DESCRIPTION:Free community concert at Swanny Park. Part of the Moab Free C
+ oncert Series presented by Friends of the Moab Folk Festival.
+LOCATION:Swanny Park\, 100 E 100 N\, Moab\, UT 84532
+URL:https://www.moabfreeconcerts.com/
+X-SOURCE:Moab Folk Festival
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -7807,6 +7861,19 @@ UID:1244
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Folk Festival": "https://www.moabfreeconcerts.com/"}
+X-SOURCE-ID:moab_folk_festival
+SUMMARY:Moab Free Concert Series
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260807T180000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260807T210000
+UID:db116156e64ab627a63324f984a3709e@moabfolkfestival.com
+DESCRIPTION:Free community concert at Swanny Park. Part of the Moab Free C
+ oncert Series presented by Friends of the Moab Folk Festival.
+LOCATION:Swanny Park\, 100 E 100 N\, Moab\, UT 84532
+URL:https://www.moabfreeconcerts.com/
+X-SOURCE:Moab Folk Festival
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -8176,7 +8243,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20261010
-DTSTAMP:20260303T190412Z
+DTSTAMP:20260303T220434Z
 UID:48rdqkjcg5r4rjec3qi8reeuev@google.com
 CREATED:20260120T150241Z
 LAST-MODIFIED:20260120T150241Z
@@ -8440,6 +8507,18 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16097
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/grottoi-fantasy/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Grotto I:<br>Fantasy<br>
+DTSTART;VALUE=DATE-TIME:20260903T000000
+DTEND;VALUE=DATE-TIME:20260903T000000
+UID:cef4589fc23271c3f24c7bf04bd60d23@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Colorado River Wilderness Grotto\, 
+URL:https://moabmusicfest.org/events/grottoi-fantasy/
+X-SOURCE:Moab Music Festival
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
