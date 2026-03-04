@@ -23,6 +23,35 @@ TZOFFSETTO:-0800
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260303T130000
+DTEND;TZID=America/Los_Angeles:20260303T140000
+SUMMARY:Transfer Talks
+DESCRIPTION:If you have questions about transferring\, we have answers! B
+ ring your lunch and join us for casual conversations regarding transferri
+ ng to a four-year university.Location: Bertolini Student Center. 2nd floo
+ r Room 4731
+X-ALT-DESC;FMTTYPE=text/html:If you have questions about transferring\, w
+ e have answers! Bring your lunch and join us for casual conversations reg
+ arding transferring to a four-year university.<br />Location: Bertolini S
+ tudent Center. 2nd floor Room 4731
+UID:20260303T210000Z-13715@calendar.santarosa.edu
+DTSTAMP:20260120T094144Z
+URL:https://calendar.santarosa.edu/event/13715-transfer-talks
+LAST-MODIFIED:20260302T200335Z
+RRULE:FREQ=WEEKLY;UNTIL=20260514T200000Z;INTERVAL=1;BYDAY=TU,TH
+EXDATE:20260212T210000Z,20260317T200000Z,20260319T200000Z,20260331T200000Z
+ATTACH:https://calendar.santarosa.edu/live/image/gid/3/width/80/height/80
+ /crop/1/src_region/0,0,500,500/33_Transfer_Graphic_Tile.rev.1722891740.pn
+ g
+X-LIVEWHALE-TYPE:events
+X-LIVEWHALE-ID:13715
+X-LIVEWHALE-TIMEZONE:America/Los_Angeles
+X-LIVEWHALE-IMAGE:https://calendar.santarosa.edu/live/image/gid/3/width/8
+ 0/height/80/crop/1/src_region/0\,0\,500\,500/33_Transfer_Graphic_Tile.rev
+ .1722891740.png
+X-LIVEWHALE-REPEATS-UNTIL:2026-05-14 20:00:00
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260304T133000
 DTEND;TZID=America/Los_Angeles:20260304T143000
 LOCATION:Bertolini Student Center\, 3rd floor\, DCC - Santa Rosa Campus
@@ -181,35 +210,6 @@ X-LIVEWHALE-TIMEZONE:America/Los_Angeles
 X-LIVEWHALE-IMAGE:https://calendar.santarosa.edu/live/image/gid/3/width/8
  0/height/80/crop/1/src_region/0\,0\,500\,500/33_Transfer_Graphic_Tile.rev
  .1722891740.png
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Los_Angeles:20260305T130000
-DTEND;TZID=America/Los_Angeles:20260305T140000
-SUMMARY:Transfer Talks
-DESCRIPTION:If you have questions about transferring\, we have answers! B
- ring your lunch and join us for casual conversations regarding transferri
- ng to a four-year university.Location: Bertolini Student Center. 2nd floo
- r Room 4731
-X-ALT-DESC;FMTTYPE=text/html:If you have questions about transferring\, w
- e have answers! Bring your lunch and join us for casual conversations reg
- arding transferring to a four-year university.<br />Location: Bertolini S
- tudent Center. 2nd floor Room 4731
-UID:20260305T210000Z-13716@calendar.santarosa.edu
-DTSTAMP:20260120T094144Z
-URL:https://calendar.santarosa.edu/event/13716-transfer-talks
-LAST-MODIFIED:20260302T200335Z
-RRULE:FREQ=WEEKLY;UNTIL=20260514T200000Z;INTERVAL=1;BYDAY=TU,TH
-EXDATE:20260212T210000Z,20260317T200000Z,20260319T200000Z,20260331T200000Z
-ATTACH:https://calendar.santarosa.edu/live/image/gid/3/width/80/height/80
- /crop/1/src_region/0,0,500,500/33_Transfer_Graphic_Tile.rev.1722891740.pn
- g
-X-LIVEWHALE-TYPE:events
-X-LIVEWHALE-ID:13716
-X-LIVEWHALE-TIMEZONE:America/Los_Angeles
-X-LIVEWHALE-IMAGE:https://calendar.santarosa.edu/live/image/gid/3/width/8
- 0/height/80/crop/1/src_region/0\,0\,500\,500/33_Transfer_Graphic_Tile.rev
- .1722891740.png
-X-LIVEWHALE-REPEATS-UNTIL:2026-05-14 20:00:00
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Los_Angeles:20260305T130000

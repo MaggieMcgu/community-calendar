@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-03T22:33:42.243248",
+  "generated": "2026-03-03T22:04:42.213734",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -2735,7 +2735,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 14
+              "count": 18
             }
           ]
         },
@@ -2879,7 +2879,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 4
+              "count": 3
             }
           ]
         },
@@ -2951,7 +2951,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 1050
+              "count": 1967
             }
           ]
         },
@@ -4319,7 +4319,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 67
+              "count": 205
             }
           ]
         },
@@ -4463,7 +4463,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 12
+              "count": 16
             }
           ]
         },
@@ -4535,7 +4535,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 28
+              "count": 38
             }
           ]
         },
@@ -4839,7 +4839,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 1
+              "count": 2
             }
           ]
         },
@@ -4887,7 +4887,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 44
+              "count": 46
             }
           ]
         },
@@ -4983,7 +4983,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 24
+              "count": 26
             }
           ]
         },
@@ -5455,7 +5455,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 5
+              "count": 8
             }
           ]
         },
@@ -5497,10 +5497,10 @@
         }
       },
       "url_quality": {
-        "total_with_url": 3725,
-        "total_events": 3725,
-        "unique_urls": 2921,
-        "generic_count": 430,
+        "total_with_url": 4758,
+        "total_events": 4758,
+        "unique_urls": 3939,
+        "generic_count": 434,
         "generic_domains": [
           {
             "domain": "www.duttonestate.com",
@@ -5539,7 +5539,7 @@
           },
           {
             "domain": "lagunitas.com",
-            "events": 21,
+            "events": 23,
             "url": "https://lagunitas.com/taproom/petaluma/"
           },
           {
@@ -5564,7 +5564,7 @@
           },
           {
             "domain": "shop.sportsbasement.com",
-            "events": 9,
+            "events": 11,
             "url": "https://shop.sportsbasement.com/pages/calendar"
           },
           {
@@ -5628,24 +5628,24 @@
             "url": "https://www.russianriverhall.com/2026/02/18/march-13-29-the-glass-menagerie/"
           }
         ],
-        "http_count": 143,
+        "http_count": 279,
         "http_domains": 31,
         "source_specificity": [
           {
-            "source": "North Bay Bohemian",
-            "events": 1046,
-            "unique_urls": 768,
-            "specificity_pct": 73
-          },
-          {
             "source": "Sonoma County Library",
-            "events": 568,
-            "unique_urls": 568,
+            "events": 1439,
+            "unique_urls": 1439,
             "specificity_pct": 100
           },
           {
+            "source": "North Bay Bohemian",
+            "events": 1045,
+            "unique_urls": 766,
+            "specificity_pct": 73
+          },
+          {
             "source": "North Bay Bohemian, Press Democrat",
-            "events": 470,
+            "events": 472,
             "unique_urls": 222,
             "specificity_pct": 47
           },
@@ -5657,14 +5657,20 @@
           },
           {
             "source": "North Bay Bohemian, Sonoma County Library",
-            "events": 299,
-            "unique_urls": 299,
+            "events": 301,
+            "unique_urls": 301,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Sonoma County Government",
+            "events": 202,
+            "unique_urls": 202,
             "specificity_pct": 100
           },
           {
             "source": "Press Democrat",
-            "events": 189,
-            "unique_urls": 103,
+            "events": 188,
+            "unique_urls": 102,
             "specificity_pct": 54
           },
           {
@@ -5672,12 +5678,6 @@
             "events": 94,
             "unique_urls": 88,
             "specificity_pct": 94
-          },
-          {
-            "source": "Sonoma County Government",
-            "events": 66,
-            "unique_urls": 66,
-            "specificity_pct": 100
           },
           {
             "source": "Press Democrat, Sonoma County Library",
@@ -5692,6 +5692,12 @@
             "specificity_pct": 2
           },
           {
+            "source": "Santa Rosa Cycling Club",
+            "events": 38,
+            "unique_urls": 18,
+            "specificity_pct": 47
+          },
+          {
             "source": "Sebastopol Center for the Arts",
             "events": 30,
             "unique_urls": 30,
@@ -5704,22 +5710,16 @@
             "specificity_pct": 100
           },
           {
-            "source": "Santa Rosa Cycling Club",
-            "events": 28,
-            "unique_urls": 17,
-            "specificity_pct": 61
-          },
-          {
             "source": "Charles M. Schulz Museum",
             "events": 28,
             "unique_urls": 28,
             "specificity_pct": 100
           },
           {
-            "source": "GoLocal Cooperative",
-            "events": 25,
-            "unique_urls": 25,
-            "specificity_pct": 100
+            "source": "Lagunitas Brewing Company",
+            "events": 26,
+            "unique_urls": 4,
+            "specificity_pct": 15
           }
         ]
       }
@@ -5866,7 +5866,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 277
+              "count": 283
             }
           ]
         },
@@ -6226,7 +6226,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 190
+              "count": 198
             }
           ]
         },
@@ -6442,7 +6442,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 69
+              "count": 70
             }
           ]
         },
@@ -6514,7 +6514,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 450
+              "count": 461
             }
           ]
         },
@@ -6586,7 +6586,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 268
+              "count": 601
             }
           ]
         },
@@ -6794,7 +6794,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 23
+              "count": 24
             }
           ]
         },
@@ -7050,7 +7050,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 23
+              "count": 31
             }
           ]
         },
@@ -7490,7 +7490,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 54
+              "count": 55
             }
           ]
         },
@@ -7538,7 +7538,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 188
+              "count": 196
             }
           ]
         },
@@ -7610,7 +7610,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 1140
+              "count": 1156
             }
           ]
         },
@@ -7646,7 +7646,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 24
+              "count": 25
             }
           ]
         },
@@ -7718,7 +7718,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 62
+              "count": 59
             }
           ]
         },
@@ -7910,7 +7910,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 21
+              "count": 45
             }
           ]
         },
@@ -7922,7 +7922,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 23
+              "count": 32
             }
           ]
         },
@@ -7954,20 +7954,20 @@
           "history": [
             {
               "date": "2026-03-03",
-              "count": 87
+              "count": 86
             }
           ]
         }
       },
       "url_quality": {
-        "total_with_url": 2842,
-        "total_events": 2965,
-        "unique_urls": 2692,
-        "generic_count": 81,
+        "total_with_url": 3209,
+        "total_events": 3350,
+        "unique_urls": 3048,
+        "generic_count": 89,
         "generic_domains": [
           {
             "domain": "bloomington.in.gov",
-            "events": 81,
+            "events": 89,
             "url": "https://bloomington.in.gov/"
           }
         ],
@@ -7976,26 +7976,26 @@
         "source_specificity": [
           {
             "source": "IU beINvolved Student Orgs",
-            "events": 1027,
-            "unique_urls": 1027,
+            "events": 1043,
+            "unique_urls": 1043,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Bloomington Library",
+            "events": 594,
+            "unique_urls": 594,
             "specificity_pct": 100
           },
           {
             "source": "IU Jacobs School of Music",
-            "events": 414,
-            "unique_urls": 401,
+            "events": 425,
+            "unique_urls": 412,
             "specificity_pct": 97
           },
           {
-            "source": "Bloomington Library",
-            "events": 261,
-            "unique_urls": 261,
-            "specificity_pct": 100
-          },
-          {
             "source": "Bloomington Arts",
-            "events": 234,
-            "unique_urls": 234,
+            "events": 221,
+            "unique_urls": 221,
             "specificity_pct": 100
           },
           {
@@ -8006,7 +8006,7 @@
           },
           {
             "source": "Bloomington Government",
-            "events": 81,
+            "events": 89,
             "unique_urls": 1,
             "specificity_pct": 1
           },
@@ -8018,15 +8018,27 @@
           },
           {
             "source": "IU Maurer School of Law",
-            "events": 57,
-            "unique_urls": 55,
+            "events": 54,
+            "unique_urls": 52,
             "specificity_pct": 96
           },
           {
             "source": "IU Hamilton Lugar School",
-            "events": 48,
-            "unique_urls": 46,
+            "events": 47,
+            "unique_urls": 45,
             "specificity_pct": 96
+          },
+          {
+            "source": "Monroe County Master Gardeners",
+            "events": 32,
+            "unique_urls": 32,
+            "specificity_pct": 100
+          },
+          {
+            "source": "The Comedy Attic",
+            "events": 31,
+            "unique_urls": 14,
+            "specificity_pct": 45
           },
           {
             "source": "First United Church",
@@ -8047,21 +8059,9 @@
             "specificity_pct": 100
           },
           {
-            "source": "The Comedy Attic",
-            "events": 26,
-            "unique_urls": 12,
-            "specificity_pct": 46
-          },
-          {
             "source": "Eskenazi Museum of Art, IU Arts & Humanities Institute",
             "events": 26,
             "unique_urls": 26,
-            "specificity_pct": 100
-          },
-          {
-            "source": "IU Bloomington Libraries",
-            "events": 24,
-            "unique_urls": 24,
             "specificity_pct": 100
           }
         ]
@@ -8209,7 +8209,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 15
+              "count": 29
             }
           ]
         },
@@ -8929,7 +8929,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 211
+              "count": 210
             }
           ]
         },
@@ -9001,7 +9001,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 192
+              "count": 198
             }
           ]
         },
@@ -9073,7 +9073,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 53
+              "count": 52
             }
           ]
         },
@@ -9217,15 +9217,15 @@
             },
             {
               "date": "2026-03-03",
-              "count": 126
+              "count": 124
             }
           ]
         }
       },
       "url_quality": {
-        "total_with_url": 668,
-        "total_events": 668,
-        "unique_urls": 613,
+        "total_with_url": 678,
+        "total_events": 678,
+        "unique_urls": 624,
         "generic_count": 20,
         "generic_domains": [
           {
@@ -9239,32 +9239,38 @@
         "source_specificity": [
           {
             "source": "UC Davis CampusGroups",
-            "events": 190,
-            "unique_urls": 190,
+            "events": 191,
+            "unique_urls": 191,
             "specificity_pct": 100
           },
           {
             "source": "UC Davis Athletics",
-            "events": 166,
-            "unique_urls": 166,
+            "events": 165,
+            "unique_urls": 165,
             "specificity_pct": 100
           },
           {
             "source": "Yolo Library",
-            "events": 124,
-            "unique_urls": 124,
+            "events": 122,
+            "unique_urls": 122,
             "specificity_pct": 100
           },
           {
             "source": "UC Davis Library",
-            "events": 52,
+            "events": 51,
             "unique_urls": 16,
             "specificity_pct": 31
           },
           {
             "source": "UC Davis Arts",
-            "events": 34,
-            "unique_urls": 34,
+            "events": 33,
+            "unique_urls": 33,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Davis Downtown",
+            "events": 29,
+            "unique_urls": 29,
             "specificity_pct": 100
           },
           {
@@ -9274,25 +9280,19 @@
             "specificity_pct": 5
           },
           {
-            "source": "Davis Downtown",
-            "events": 15,
-            "unique_urls": 15,
-            "specificity_pct": 100
-          },
-          {
             "source": "Davis Chamber of Commerce",
             "events": 15,
             "unique_urls": 15,
             "specificity_pct": 100
           },
           {
-            "source": "Meetup: Mindful Embodied Spirituality",
+            "source": "Meetup: Yolo Board Game Gathering",
             "events": 10,
             "unique_urls": 10,
             "specificity_pct": 100
           },
           {
-            "source": "Meetup: Yolo Board Game Gathering",
+            "source": "Meetup: Mindful Embodied Spirituality",
             "events": 10,
             "unique_urls": 10,
             "specificity_pct": 100
@@ -9616,7 +9616,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 48
+              "count": 30
             }
           ]
         },
@@ -11416,7 +11416,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 3
+              "count": 4
             }
           ]
         },
@@ -13936,7 +13936,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 8
+              "count": 15
             }
           ]
         },
@@ -14224,7 +14224,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 30
+              "count": 24
             }
           ]
         },
@@ -14296,7 +14296,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 0
+              "count": 27
             }
           ]
         },
@@ -14368,7 +14368,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 0
+              "count": 4
             }
           ]
         },
@@ -14584,7 +14584,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 1509
+              "count": 1653
             }
           ]
         },
@@ -14800,7 +14800,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 166
+              "count": 168
             }
           ]
         },
@@ -14872,7 +14872,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 2579
+              "count": 2598
             }
           ]
         },
@@ -14944,7 +14944,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 15
+              "count": 14
             }
           ]
         },
@@ -15088,7 +15088,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 146
+              "count": 164
             }
           ]
         },
@@ -15160,7 +15160,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 7
+              "count": 8
             }
           ]
         },
@@ -15232,7 +15232,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 3
+              "count": 2
             }
           ]
         },
@@ -15440,7 +15440,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 14
+              "count": 13
             }
           ]
         },
@@ -15784,7 +15784,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 0
+              "count": 30
             }
           ]
         },
@@ -15862,42 +15862,47 @@
         }
       },
       "url_quality": {
-        "total_with_url": 4689,
-        "total_events": 4689,
-        "unique_urls": 4488,
-        "generic_count": 14,
+        "total_with_url": 4893,
+        "total_events": 4893,
+        "unique_urls": 4680,
+        "generic_count": 37,
         "generic_domains": [
           {
+            "domain": "showuptoronto.ca",
+            "events": 24,
+            "url": "https://showuptoronto.ca/"
+          },
+          {
             "domain": "www.cita.utoronto.ca",
-            "events": 14,
+            "events": 13,
             "url": "https://www.cita.utoronto.ca/events/event-calendar/"
           }
         ],
-        "http_count": 13,
+        "http_count": 12,
         "http_domains": 3,
         "source_specificity": [
           {
             "source": "Toronto Public Library",
-            "events": 2070,
-            "unique_urls": 2070,
+            "events": 2089,
+            "unique_urls": 2089,
             "specificity_pct": 100
           },
           {
             "source": "Toronto Events (Tockify)",
-            "events": 1476,
-            "unique_urls": 1476,
+            "events": 1609,
+            "unique_urls": 1609,
             "specificity_pct": 100
           },
           {
             "source": "City of Toronto Meetings",
-            "events": 166,
+            "events": 168,
             "unique_urls": 1,
             "specificity_pct": 1
           },
           {
             "source": "University of Toronto",
-            "events": 119,
-            "unique_urls": 118,
+            "events": 130,
+            "unique_urls": 129,
             "specificity_pct": 99
           },
           {
@@ -15919,25 +15924,19 @@
             "specificity_pct": 100
           },
           {
-            "source": "CultureLink Settlement Services",
-            "events": 47,
-            "unique_urls": 35,
-            "specificity_pct": 74
-          },
-          {
             "source": "Repair Cafe Toronto",
             "events": 40,
             "unique_urls": 40,
             "specificity_pct": 100
           },
           {
-            "source": "Scadding Court Community Centre",
+            "source": "Toronto Botanical Garden",
             "events": 30,
             "unique_urls": 30,
             "specificity_pct": 100
           },
           {
-            "source": "Toronto Botanical Garden",
+            "source": "CultureLink Settlement Services",
             "events": 30,
             "unique_urls": 30,
             "specificity_pct": 100
@@ -15949,6 +15948,12 @@
             "specificity_pct": 100
           },
           {
+            "source": "Golatindance",
+            "events": 29,
+            "unique_urls": 29,
+            "specificity_pct": 100
+          },
+          {
             "source": "Grossman's Tavern",
             "events": 28,
             "unique_urls": 28,
@@ -15956,8 +15961,8 @@
           },
           {
             "source": "UofT Engineering",
-            "events": 25,
-            "unique_urls": 25,
+            "events": 26,
+            "unique_urls": 26,
             "specificity_pct": 100
           },
           {
@@ -16039,7 +16044,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 11
+              "count": 0
             }
           ]
         },
@@ -16111,7 +16116,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 79
+              "count": 82
             }
           ]
         },
@@ -16255,7 +16260,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 48
+              "count": 65
             }
           ]
         },
@@ -16543,7 +16548,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 10
+              "count": 12
             }
           ]
         },
@@ -16759,7 +16764,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 137
+              "count": 136
             }
           ]
         },
@@ -16831,7 +16836,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 12
+              "count": 10
             }
           ]
         },
@@ -16903,7 +16908,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 12
+              "count": 11
             }
           ]
         },
@@ -17407,7 +17412,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 0
+              "count": 1
             }
           ]
         },
@@ -18631,7 +18636,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 7
+              "count": 6
             }
           ]
         },
@@ -18991,7 +18996,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 13
+              "count": 12
             }
           ]
         },
@@ -19031,7 +19036,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 1321
+              "count": 1266
             }
           ]
         },
@@ -19071,41 +19076,26 @@
             },
             {
               "date": "2026-03-03",
-              "count": 1375
+              "count": 1322
             }
           ]
         }
       },
       "url_quality": {
-        "total_with_url": 2239,
-        "total_events": 2239,
-        "unique_urls": 1759,
-        "generic_count": 276,
+        "total_with_url": 2193,
+        "total_events": 2193,
+        "unique_urls": 1738,
+        "generic_count": 269,
         "generic_domains": [
-          {
-            "domain": "www.duttonestate.com",
-            "events": 54,
-            "url": "https://www.duttonestate.com/visit-us/tasting-reservations/"
-          },
           {
             "domain": "www.lakecountyca.gov",
             "events": 52,
             "url": "https://www.lakecountyca.gov/calendar.aspx?CID=24&showPastEvents=false"
           },
           {
-            "domain": "www.upstairsartgallery.net",
-            "events": 19,
-            "url": "http://www.upstairsartgallery.net"
-          },
-          {
-            "domain": "sonomabg.org",
-            "events": 18,
-            "url": "https://sonomabg.org/visit/bonsai-and-blossoms/"
-          },
-          {
-            "domain": "www.sebastopolgallery.com",
-            "events": 18,
-            "url": "https://www.sebastopolgallery.com"
+            "domain": "www.duttonestate.com",
+            "events": 51,
+            "url": "https://www.duttonestate.com/visit-us/tasting-reservations/"
           },
           {
             "domain": "www.taradickinson.com",
@@ -19113,8 +19103,23 @@
             "url": "https://www.taradickinson.com/project-page/workshops"
           },
           {
-            "domain": "markhamvineyards.com",
+            "domain": "www.upstairsartgallery.net",
+            "events": 18,
+            "url": "http://www.upstairsartgallery.net"
+          },
+          {
+            "domain": "sonomabg.org",
             "events": 17,
+            "url": "https://sonomabg.org/visit/bonsai-and-blossoms/"
+          },
+          {
+            "domain": "www.sebastopolgallery.com",
+            "events": 17,
+            "url": "https://www.sebastopolgallery.com"
+          },
+          {
+            "domain": "markhamvineyards.com",
+            "events": 16,
             "url": "https://markhamvineyards.com/visit/winery-experiences/"
           },
           {
@@ -19124,8 +19129,13 @@
           },
           {
             "domain": "www.marincultural.org",
-            "events": 13,
+            "events": 12,
             "url": "https://www.marincultural.org/exhibitions"
+          },
+          {
+            "domain": "petalumagardenclub.org",
+            "events": 11,
+            "url": "https://petalumagardenclub.org/calendar/"
           },
           {
             "domain": "gratongallery.net",
@@ -19133,19 +19143,14 @@
             "url": "http://gratongallery.net"
           },
           {
-            "domain": "petalumagardenclub.org",
-            "events": 9,
-            "url": "https://petalumagardenclub.org/calendar/"
-          },
-          {
-            "domain": "healdsburgcenterforthearts.org",
-            "events": 8,
-            "url": "https://healdsburgcenterforthearts.org/an-abstract-vision/"
-          },
-          {
             "domain": "www.visitsantarosa.com",
             "events": 8,
             "url": "https://www.visitsantarosa.com/events/#jlupcoming-events"
+          },
+          {
+            "domain": "healdsburgcenterforthearts.org",
+            "events": 7,
+            "url": "https://healdsburgcenterforthearts.org/an-abstract-vision/"
           },
           {
             "domain": "www.sebarts.org",
@@ -19163,20 +19168,20 @@
             "url": "https://www.valley-players.com/2025/11/30/the-savannah-sipping-society/"
           }
         ],
-        "http_count": 54,
+        "http_count": 53,
         "http_domains": 18,
         "source_specificity": [
           {
             "source": "North Bay Bohemian",
-            "events": 853,
-            "unique_urls": 663,
+            "events": 817,
+            "unique_urls": 641,
             "specificity_pct": 78
           },
           {
             "source": "North Bay Bohemian, Press Democrat",
-            "events": 328,
-            "unique_urls": 161,
-            "specificity_pct": 49
+            "events": 315,
+            "unique_urls": 156,
+            "specificity_pct": 50
           },
           {
             "source": "Griffo Distillery",
@@ -19186,8 +19191,8 @@
           },
           {
             "source": "Press Democrat",
-            "events": 215,
-            "unique_urls": 147,
+            "events": 212,
+            "unique_urls": 145,
             "specificity_pct": 68
           },
           {
@@ -19198,20 +19203,20 @@
           },
           {
             "source": "Aqus Community",
-            "events": 78,
-            "unique_urls": 78,
+            "events": 81,
+            "unique_urls": 81,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Brewsters Beer Garden",
+            "events": 65,
+            "unique_urls": 65,
             "specificity_pct": 100
           },
           {
             "source": "Petaluma Chamber of Commerce",
             "events": 54,
             "unique_urls": 54,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Brewsters Beer Garden",
-            "events": 48,
-            "unique_urls": 48,
             "specificity_pct": 100
           },
           {
@@ -19233,28 +19238,28 @@
             "specificity_pct": 8
           },
           {
+            "source": "Petaluma Garden Club",
+            "events": 11,
+            "unique_urls": 1,
+            "specificity_pct": 9
+          },
+          {
             "source": "Casa Grande High School",
-            "events": 12,
-            "unique_urls": 12,
+            "events": 10,
+            "unique_urls": 10,
             "specificity_pct": 100
           },
           {
-            "source": "Petaluma High School",
-            "events": 11,
-            "unique_urls": 11,
+            "source": "Meetup: Mindful Petaluma",
+            "events": 10,
+            "unique_urls": 10,
             "specificity_pct": 100
           },
           {
-            "source": "SRJC Petaluma Campus",
-            "events": 11,
-            "unique_urls": 11,
+            "source": "Meetup Sonoma Outdoors",
+            "events": 10,
+            "unique_urls": 10,
             "specificity_pct": 100
-          },
-          {
-            "source": "Adobe Road Winery",
-            "events": 11,
-            "unique_urls": 8,
-            "specificity_pct": 73
           }
         ]
       }
@@ -20810,7 +20815,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 162
+              "count": 175
             }
           ]
         },
@@ -20858,7 +20863,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 32
+              "count": 33
             }
           ]
         },
@@ -20954,7 +20959,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 835
+              "count": 842
             }
           ]
         },
@@ -21026,7 +21031,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 96
+              "count": 188
             }
           ]
         },
@@ -21086,7 +21091,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 1
+              "count": 0
             }
           ]
         },
@@ -21182,7 +21187,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 136
+              "count": 133
             }
           ]
         },
@@ -21206,7 +21211,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 30
+              "count": 28
             }
           ]
         },
@@ -21218,7 +21223,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 28
+              "count": 27
             }
           ]
         },
@@ -21254,7 +21259,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 80
+              "count": 82
             }
           ]
         },
@@ -21278,7 +21283,7 @@
             },
             {
               "date": "2026-03-03",
-              "count": 4
+              "count": 5
             }
           ]
         },
@@ -21296,19 +21301,19 @@
         }
       },
       "url_quality": {
-        "total_with_url": 1438,
-        "total_events": 1438,
-        "unique_urls": 1303,
+        "total_with_url": 1490,
+        "total_events": 1490,
+        "unique_urls": 1355,
         "generic_count": 106,
         "generic_domains": [
           {
             "domain": "www.uumontclair.org",
-            "events": 79,
+            "events": 80,
             "url": "https://www.uumontclair.org/events"
           },
           {
             "domain": "shomrei.org",
-            "events": 27,
+            "events": 26,
             "url": "https://shomrei.org/calendar/"
           }
         ],
@@ -21317,32 +21322,32 @@
         "source_specificity": [
           {
             "source": "Montclair State University",
-            "events": 739,
-            "unique_urls": 739,
+            "events": 748,
+            "unique_urls": 748,
             "specificity_pct": 100
           },
           {
             "source": "Montclair Public Library",
-            "events": 153,
-            "unique_urls": 153,
+            "events": 159,
+            "unique_urls": 159,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Montclair Film",
+            "events": 86,
+            "unique_urls": 86,
             "specificity_pct": 100
           },
           {
             "source": "UU Congregation of Montclair",
-            "events": 79,
+            "events": 80,
             "unique_urls": 1,
             "specificity_pct": 1
           },
           {
             "source": "MSU Red Hawks Athletics",
-            "events": 56,
-            "unique_urls": 56,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Montclair Film",
-            "events": 45,
-            "unique_urls": 45,
+            "events": 57,
+            "unique_urls": 57,
             "specificity_pct": 100
           },
           {
@@ -21352,27 +21357,15 @@
             "specificity_pct": 36
           },
           {
-            "source": "Essex County Parks",
+            "source": "Lackawanna Station",
             "events": 31,
             "unique_urls": 31,
             "specificity_pct": 100
           },
           {
-            "source": "Temple Ner Tamid",
-            "events": 30,
-            "unique_urls": 30,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Lackawanna Station",
-            "events": 30,
-            "unique_urls": 30,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Union Congregational Church",
-            "events": 30,
-            "unique_urls": 30,
+            "source": "Essex County Parks",
+            "events": 31,
+            "unique_urls": 31,
             "specificity_pct": 100
           },
           {
@@ -21382,27 +21375,302 @@
             "specificity_pct": 100
           },
           {
+            "source": "Union Congregational Church",
+            "events": 29,
+            "unique_urls": 29,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Temple Ner Tamid",
+            "events": 28,
+            "unique_urls": 28,
+            "specificity_pct": 100
+          },
+          {
             "source": "Congregation Shomrei Emunah",
-            "events": 26,
+            "events": 25,
             "unique_urls": 1,
             "specificity_pct": 4
           },
           {
-            "source": "MHA of Essex and Morris",
+            "source": "Montclair Local News",
             "events": 19,
             "unique_urls": 19,
             "specificity_pct": 100
           },
           {
-            "source": "Montclair Local News",
-            "events": 18,
-            "unique_urls": 18,
+            "source": "MHA of Essex and Morris",
+            "events": 17,
+            "unique_urls": 17,
             "specificity_pct": 100
           },
           {
             "source": "North Essex Chamber of Commerce",
             "events": 12,
             "unique_urls": 12,
+            "specificity_pct": 100
+          }
+        ]
+      }
+    },
+    "moab": {
+      "feeds": {
+        "back_of_beyond": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 10
+            }
+          ]
+        },
+        "center_street": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 9
+            }
+          ]
+        },
+        "city_of_moab_recreation": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 24
+            }
+          ]
+        },
+        "city_of_moab_special": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 20
+            }
+          ]
+        },
+        "climb_moab": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 1
+            }
+          ]
+        },
+        "grand_county": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 51
+            }
+          ]
+        },
+        "grand_county_library": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 130
+            }
+          ]
+        },
+        "maxpreps_grand_county": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 12
+            }
+          ]
+        },
+        "moab_city_council": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 36
+            }
+          ]
+        },
+        "moab_museum": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 0
+            }
+          ]
+        },
+        "old_spanish_trail_arena": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 396
+            }
+          ]
+        },
+        "wellness_collective": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 0
+            }
+          ]
+        },
+        "new-sources": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 36
+            }
+          ]
+        },
+        "moab_folk_festival": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 4
+            }
+          ]
+        },
+        "moab_music_festival": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 1
+            }
+          ]
+        },
+        "slickrock_cinemas": {
+          "history": [
+            {
+              "date": "2026-03-03",
+              "count": 15
+            }
+          ]
+        }
+      },
+      "url_quality": {
+        "total_with_url": 779,
+        "total_events": 779,
+        "unique_urls": 35,
+        "generic_count": 742,
+        "generic_domains": [
+          {
+            "domain": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30",
+            "events": 396,
+            "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"
+          },
+          {
+            "domain": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28",
+            "events": 130,
+            "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"
+          },
+          {
+            "domain": "wellnesscollectivemoab.com",
+            "events": 97,
+            "url": "https://wellnesscollectivemoab.com/calendar"
+          },
+          {
+            "domain": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+            "events": 51,
+            "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"
+          },
+          {
+            "domain": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23",
+            "events": 36,
+            "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"
+          },
+          {
+            "domain": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29",
+            "events": 24,
+            "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29"
+          },
+          {
+            "domain": "calendar.google.com",
+            "events": 8,
+            "url": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"
+          }
+        ],
+        "http_count": 0,
+        "http_domains": 0,
+        "source_specificity": [
+          {
+            "source": "Old Spanish Trail Arena",
+            "events": 396,
+            "unique_urls": 1,
+            "specificity_pct": 0
+          },
+          {
+            "source": "Grand County Public Library",
+            "events": 130,
+            "unique_urls": 1,
+            "specificity_pct": 1
+          },
+          {
+            "source": "Wellness Collective Moab",
+            "events": 97,
+            "unique_urls": 1,
+            "specificity_pct": 1
+          },
+          {
+            "source": "Grand County",
+            "events": 51,
+            "unique_urls": 1,
+            "specificity_pct": 2
+          },
+          {
+            "source": "Moab City Council",
+            "events": 36,
+            "unique_urls": 1,
+            "specificity_pct": 3
+          },
+          {
+            "source": "City of Moab Recreation",
+            "events": 24,
+            "unique_urls": 1,
+            "specificity_pct": 4
+          },
+          {
+            "source": "Grand County High School",
+            "events": 11,
+            "unique_urls": 11,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Back of Beyond Books",
+            "events": 10,
+            "unique_urls": 10,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Slickrock Cinemas",
+            "events": 9,
+            "unique_urls": 3,
+            "specificity_pct": 33
+          },
+          {
+            "source": "Center Street Gym / Arena",
+            "events": 8,
+            "unique_urls": 1,
+            "specificity_pct": 12
+          },
+          {
+            "source": "Moab Folk Festival",
+            "events": 4,
+            "unique_urls": 1,
+            "specificity_pct": 25
+          },
+          {
+            "source": "City of Moab Special Events",
+            "events": 1,
+            "unique_urls": 1,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Climb Moab",
+            "events": 1,
+            "unique_urls": 1,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Moab Music Festival",
+            "events": 1,
+            "unique_urls": 1,
             "specificity_pct": 100
           }
         ]
@@ -21811,12 +22079,28 @@
       "feed": "sycamore_land_trust"
     },
     {
-      "type": "significant_drop",
-      "message": "Events dropped 67% (206 \u2192 67)",
-      "severity": "medium",
+      "type": "zero_events",
+      "message": "Feed returned 0 events (was 11)",
+      "severity": "high",
       "date": "2026-03-03",
-      "city": "santarosa",
-      "feed": "sonoma_county_gov"
+      "city": "petaluma",
+      "feed": "adobe_road"
+    },
+    {
+      "type": "zero_events",
+      "message": "Feed returned 0 events (was 1)",
+      "severity": "high",
+      "date": "2026-03-03",
+      "city": "montclair",
+      "feed": "maxpreps_mka"
+    },
+    {
+      "type": "zero_events",
+      "message": "Feed returned 0 events (was 5)",
+      "severity": "high",
+      "date": "2026-03-03",
+      "city": "moab",
+      "feed": "moab_museum"
     }
   ],
   "errors": [
@@ -21928,6 +22212,56 @@
     {
       "date": "2026-03-03",
       "line": "2026-03-03 02:39:17,157 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
+      "source": null
+    },
+    {
+      "date": "2026-03-03",
+      "line": "TimeoutError: timed out",
+      "source": "connection"
+    },
+    {
+      "date": "2026-03-03",
+      "line": "urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7ff914d9f4f0>, 'Connection to creativesonoma.org timed out. (connect timeout=30)')",
+      "source": "connection"
+    },
+    {
+      "date": "2026-03-03",
+      "line": "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='creativesonoma.org', port=443): Max retries exceeded with url: /event/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff914d9f4f0>, 'Connection to creativesonoma.org timed out. (connect timeout=30)'))",
+      "source": "retry"
+    },
+    {
+      "date": "2026-03-03",
+      "line": "requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='creativesonoma.org', port=443): Max retries exceeded with url: /event/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff914d9f4f0>, 'Connection to creativesonoma.org timed out. (connect timeout=30)'))",
+      "source": "adapters"
+    },
+    {
+      "date": "2026-03-03",
+      "line": "urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f1234564550>, 'Connection to buskirkchumley.org timed out. (connect timeout=30)')",
+      "source": "connection"
+    },
+    {
+      "date": "2026-03-03",
+      "line": "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='buskirkchumley.org', port=443): Max retries exceeded with url: /events/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f1234564550>, 'Connection to buskirkchumley.org timed out. (connect timeout=30)'))",
+      "source": "retry"
+    },
+    {
+      "date": "2026-03-03",
+      "line": "requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='buskirkchumley.org', port=443): Max retries exceeded with url: /events/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f1234564550>, 'Connection to buskirkchumley.org timed out. (connect timeout=30)'))",
+      "source": "adapters"
+    },
+    {
+      "date": "2026-03-03",
+      "line": "subprocess.TimeoutExpired: Command '['curl', '-sL', 'https://sycamorelandtrust.org/bulletin-board/events-calendar/']' timed out after 30 seconds",
+      "source": "subprocess"
+    },
+    {
+      "date": "2026-03-03",
+      "line": "2026-03-03 21:44:29,284 - UUDavisScraper - ERROR - Error fetching https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics: 404 Client Error: Not Found for url: https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics",
+      "source": null
+    },
+    {
+      "date": "2026-03-03",
+      "line": "2026-03-03 21:50:47,281 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
       "source": null
     }
   ]
