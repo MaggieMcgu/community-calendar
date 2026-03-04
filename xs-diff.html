@@ -1789,6 +1789,61 @@
        *   2. Simple function references like: functionName (when code is just a name)
        * Excludes: method calls (obj.method), built-ins, keywords
        */
+      /**
+       * Classify handler code into a category for display.
+       * Shared by renderTraceGroupPretty and renderTraceRaw.
+       */
+      function parseHandlerCode(code) {
+        const trimmed = code.trim();
+        const xsFuncMatch = trimmed.match(/^(\w+)\(\)$/);
+        const windowMatch = trimmed.match(/^\{\s*window\.(\w+)\s*\([^)]*\)\s*\}$/);
+        const simpleFuncMatch = trimmed.match(/^\{\s*(\w+)\s*\([^)]*\)\s*\}$/);
+        const arrowMatch = trimmed.match(/^\([^)]*\)\s*=>\s*\{/);
+        const apiCallMatch = trimmed.match(/Actions\.callApi\s*\(\s*\{[^}]*method:\s*["']?([^"',}]+)["']?\s*,[^}]*url:\s*["']?([^"',}]+)["']?/s) ||
+                             trimmed.match(/Actions\.callApi\s*\(\s*\{[^}]*url:\s*["']?([^"',}]+)["']?\s*,[^}]*method:\s*["']?([^"',}]+)["']?/s);
+
+        if (apiCallMatch) {
+          const [, first, second] = apiCallMatch;
+          const hasSlash = (s) => s && s.includes("/");
+          const method = hasSlash(first) ? normalizeMethod(second) : normalizeMethod(first);
+          const url = hasSlash(first) ? first : second;
+          return { type: "apiCall", method, url, code: trimmed };
+        }
+        if (xsFuncMatch) return { type: "xsFunc", funcName: xsFuncMatch[1], code: trimmed };
+        if (windowMatch) return { type: "windowFunc", funcName: windowMatch[1], code: trimmed };
+        if (simpleFuncMatch && !windowMatch) return { type: "simpleFunc", funcName: simpleFuncMatch[1], code: trimmed };
+        if (arrowMatch) return { type: "arrow", firstLine: trimmed.split('\n')[0], code: trimmed };
+        if (trimmed.startsWith("{") && trimmed.endsWith("}")) {
+          return { type: "inline", innerCode: trimmed.slice(1, -1).trim(), code: trimmed };
+        }
+        return { type: "other", code: trimmed };
+      }
+
+      /**
+       * Classify a diff item into a category for rendering.
+       * Shared by pretty and raw views to avoid duplicated if/else chains.
+       */
+      function classifyDiffItem(d) {
+        const before = d.before;
+        const after = d.after;
+        if (Array.isArray(before) && Array.isArray(after) && (isKeyedArray(before) || isKeyedArray(after))) {
+          return { type: "keyedArrayDiff", before, after, path: d.path };
+        }
+        if (before === undefined && Array.isArray(after) && isKeyedArray(after)) {
+          return { type: "keyedArrayInit", after, path: d.path };
+        }
+        if (Array.isArray(before) && after === undefined && isKeyedArray(before)) {
+          return { type: "keyedArrayCleared", before, path: d.path };
+        }
+        if (before && after && typeof before === "object" && typeof after === "object" && !Array.isArray(before) && !Array.isArray(after)) {
+          return { type: "objectDiff", before, after, path: d.path };
+        }
+        if (before === undefined && after === undefined) {
+          return { type: "noop", path: d.path };
+        }
+        return { type: "scalarDiff", before, after, path: d.path };
+      }
+
       function extractFunctionCalls(code) {
         if (!code) return [];
         const builtIns = new Set([
@@ -2127,6 +2182,16 @@
         };
       }
 
+      /**
+       * Determine whether a trace item has enough content to display.
+       * Shared by groupSimilarTraces, renderPrettyView, and renderRawView.
+       */
+      function shouldIncludeTrace(item) {
+        const isStartup = item.traceId && item.traceId.startsWith("startup-");
+        const hasContent = item.summary.changeCount > 0 || item.summary.hasError || item.summary.startCount > 0 || item.summary.behavioralEventCount > 0;
+        return hasContent || isStartup;
+      }
+
       function buildTraceSummary(traceEntries) {
         const starts = traceEntries.filter((e) => e.kind === "handler:start");
         const error = traceEntries.find((e) => e.kind === "handler:error");
@@ -2156,6 +2221,7 @@
           componentText = parts.join(" ");
         } else {
           const interaction = traceEntries.find((e) => e.kind === "interaction");
+          const nativeEvent = traceEntries.find((e) => e.kind?.startsWith("native:"));
           if (interaction) {
             const label = interaction.componentLabel || interaction.uid || "Unknown";
             const action = interaction.interaction || interaction.eventName || "";
@@ -2163,6 +2229,15 @@
             const hasOnlyTag = /^[a-z]+$/.test(label);
             const contextText = hasOnlyTag && detailTextContent && detailTextContent.length < 40 ? ` "${detailTextContent}"` : "";
             componentText = action ? `${label}${contextText} ${action}` : label + contextText;
+            // If there's also a native event with a displayLabel, append it
+            if (nativeEvent && nativeEvent.displayLabel) {
+              componentText += ` → "${nativeEvent.displayLabel}"`;
+            }
+          } else if (nativeEvent) {
+            const type = nativeEvent.componentType || nativeEvent.componentLabel || "Unknown";
+            const eventName = nativeEvent.eventName || nativeEvent.kind?.replace("native:", "") || "";
+            const displayLabel = nativeEvent.displayLabel ? ` "${nativeEvent.displayLabel}"` : "";
+            componentText = `${type} ${eventName}${displayLabel}`;
           }
         }
 
@@ -2185,7 +2260,34 @@
           if (nav) componentText = "Navigation";
         }
 
+        // Fallback: derive title from first behavioral event (focus:change, selection:change, etc.)
+        if (!componentText) {
+          const infrastructureForTitle = new Set([
+            "interaction", "handler:start", "handler:complete", "handler:error",
+            "state:changes", "component:vars:init", "component:vars:change",
+            "api:start", "api:complete", "api:error", "navigate",
+          ]);
+          const behavioral = traceEntries.find((e) => !infrastructureForTitle.has(e.kind));
+          if (behavioral) {
+            const parts = [behavioral.kind];
+            if (behavioral.component) parts.push(behavioral.component);
+            if (behavioral.displayLabel) parts.push(`"${behavioral.displayLabel}"`);
+            else if (behavioral.componentLabel) parts.push(`"${behavioral.componentLabel}"`);
+            componentText = parts.join(" ");
+          }
+        }
+
         const changeCount = stateChanges.reduce((acc, e) => acc + (e.diffJson ? e.diffJson.length : 0), 0);
+
+        // Count behavioral events — any kind not part of the handler/state/vars infrastructure.
+        // This ensures new event kinds (focus:change, selection:change, etc.) are treated as content.
+        const infrastructureKinds = new Set([
+          "interaction", "handler:start", "handler:complete", "handler:error",
+          "state:changes", "component:vars:init", "component:vars:change",
+          "api:start", "api:complete", "api:error", "navigate",
+        ]);
+        const behavioralEventCount = traceEntries.filter((e) => !infrastructureKinds.has(e.kind)).length;
+
         const handlerNames = starts.map((s) => s.eventName || "unknown");
 
         // Calculate trace duration from perfTs
@@ -2347,6 +2449,7 @@
         return {
           componentText: componentText || "Unknown trace",
           changeCount,
+          behavioralEventCount,
           hasError: !!error,
           multipleStarts: handlerNames.length > 1,
           handlerNames,
@@ -2384,6 +2487,9 @@
         // Track API call deduplication (for polling detection)
         const apiCompleteCounts = new Map(); // fingerprint -> { entry, count, meta }
         const apiStartCounts = new Map(); // method:url -> { entry, count, meta }
+
+        // Track value:change/focus:change/native:* — group by component, collapse to range
+        const valueChangeRanges = new Map(); // groupKey -> { firstEntry, lastEntry, count, firstValue, lastValue, meta }
 
         // Track handler deduplication (for repeated handlers from polling)
         const handlerCounts = new Map(); // fingerprint -> { entry, count, meta }
@@ -2484,6 +2590,26 @@
             return; // Will add after loop
           }
 
+          // Collapse value:change, focus:change, and native:* into ranges per component
+          if (e.kind === "value:change" || e.kind === "focus:change" || (e.kind && e.kind.startsWith("native:"))) {
+            const comp = e.componentLabel || e.component || "";
+            const val = e.displayLabel || "";
+            const groupKey = `${e.kind}|${e.eventName || ""}|${comp}`;
+            if (valueChangeRanges.has(groupKey)) {
+              const tracking = valueChangeRanges.get(groupKey);
+              tracking.lastEntry = e;
+              tracking.lastValue = val;
+              tracking.count += 1;
+              return;
+            }
+            valueChangeRanges.set(groupKey, {
+              firstEntry: e, lastEntry: e, count: 1,
+              firstValue: val, lastValue: val,
+              meta: buildEntryMeta(e),
+            });
+            return;
+          }
+
           // Deduplicate component:vars events with identical values
           if (e.kind === "component:vars:init" || e.kind === "component:vars:change") {
             const varName = e.eventName || "unknown";
@@ -2505,12 +2631,45 @@
           if (e.kind === "handler:complete" && e.duration !== undefined) {
             eventTitle += ` (${e.duration.toFixed(1)}ms)`;
           }
+
+          // Build a descriptive label: combine componentLabel/componentType with displayLabel
+          let label = "";
+          const compName = e.componentLabel || e.component || "";
+          if (compName && e.displayLabel) {
+            label = `${compName} "${e.displayLabel}"`;
+          } else if (e.displayLabel) {
+            label = `"${e.displayLabel}"`;
+          } else if (compName) {
+            label = compName;
+          }
+
           events.push({
             entry: e, meta,
             eventTitle,
-            label: e.componentLabel ? `"${e.componentLabel}"` : "",
+            label,
           });
         });
+
+        // Add collapsed value:change/focus:change/native:* ranges
+        for (const [, data] of valueChangeRanges) {
+          const { firstEntry, count, firstValue, lastValue, meta } = data;
+          const compType = firstEntry.component || "";
+          const compId = firstEntry.componentLabel || "";
+          const compName = compType && compId && compType !== compId ? `${compType} "${compId}"` : compId || compType;
+          let label;
+          if (count === 1 || firstValue === lastValue) {
+            label = compName && firstValue ? `${compName} "${firstValue}"` : firstValue ? `"${firstValue}"` : compName;
+          } else {
+            label = compName ? `${compName} "${firstValue}" → "${lastValue}"` : `"${firstValue}" → "${lastValue}"`;
+          }
+          events.push({
+            entry: { ...firstEntry, _dedupCount: count },
+            meta,
+            eventTitle: firstEntry.kind + (firstEntry.eventName ? ` ${firstEntry.eventName}` : ""),
+            label,
+          });
+          if (count > 1) dedupedCount += count - 1;
+        }
 
         // Add deduplicated component:vars events with counts
         for (const [, data] of componentVarsCounts) {
@@ -2839,14 +2998,16 @@
 
             // Get all handler:start events
             const handlers = traceEntries.filter(e => e.kind === "handler:start");
-            if (handlers.length === 0) {
-              // Trace with no handlers - skip (might be interaction-only)
+            const hasNativeEvents = traceEntries.some(e => e.kind?.startsWith("native:"));
+            if (handlers.length === 0 && !hasNativeEvents) {
+              // Trace with no handlers and no native events - skip (might be interaction-only)
               continue;
             }
 
             // Check if ALL handlers are "loaded" handlers (polling)
-            const allAreLoaded = handlers.every(h => h.eventName === "loaded");
-            if (allAreLoaded) {
+            // But don't merge native-event traces — they represent real user interactions
+            const allAreLoaded = handlers.length > 0 && handlers.every(h => h.eventName === "loaded");
+            if (allAreLoaded && !hasNativeEvents) {
               pollingTracesToMerge.push(traceId);
             }
           }
@@ -3163,10 +3324,7 @@
 
         items.forEach((item) => {
           if (item.type === "trace") {
-            // Skip traces with no meaningful content (but keep startup traces and traces with handlers)
-            const isStartup = item.traceId && item.traceId.startsWith("startup-");
-            const hasContent = item.summary.changeCount > 0 || item.summary.hasError || item.summary.startCount > 0;
-            if (!hasContent && !isStartup) return;
+            if (!shouldIncludeTrace(item)) return;
 
             if (!currentGroup) {
               currentGroup = { type: "trace-group", traces: [item] };
@@ -3225,9 +3383,7 @@
             }
           } else if (item.type === "trace") {
             // Should not happen after grouping, but handle just in case
-            const isStartup = item.traceId && item.traceId.startsWith("startup-");
-            const hasContent = item.summary.changeCount > 0 || item.summary.hasError || item.summary.startCount > 0;
-            if (!hasContent && !isStartup) return;
+            if (!shouldIncludeTrace(item)) return;
             blocks.push(renderTraceGroupPretty(item));
           } else if (item.type === "interaction") {
             blocks.push(renderInteractionPretty(item));
@@ -3546,15 +3702,15 @@
               // Check if this is an array diff that should be summarized
               if (e.diff.length === 1) {
                 const only = e.diff[0];
-                if (Array.isArray(only.before) && Array.isArray(only.after) && (isKeyedArray(only.before) || isKeyedArray(only.after))) {
-                  const analysis = analyzeArrayDiff(only.before, only.after);
+                const classified = classifyDiffItem(only);
+                if (classified.type === "keyedArrayDiff") {
+                  const analysis = analyzeArrayDiff(classified.before, classified.after);
                   if (analysis.isSignificant) {
                     bodyHtml += `<div>${renderArrayDiffSummary(analysis)}</div>`;
                     usedArraySummary = true;
                   }
-                } else if (only.before === undefined && Array.isArray(only.after) && isKeyedArray(only.after)) {
-                  // Init case: undefined → array
-                  bodyHtml += `<div class="text-success">${only.after.length} item${only.after.length !== 1 ? "s" : ""} initialized</div>`;
+                } else if (classified.type === "keyedArrayInit") {
+                  bodyHtml += `<div class="text-success">${classified.after.length} item${classified.after.length !== 1 ? "s" : ""} initialized</div>`;
                   usedArraySummary = true;
                 }
               }
@@ -3600,59 +3756,41 @@
 
             // Show handler code if available
             if (e.handlerCode) {
-              const code = e.handlerCode.trim();
-              // Check if it's a .xs function call (just function name with parens, like "functionName()")
-              const xsFuncMatch = code.match(/^(\w+)\(\)$/);
-              // Check if it's a window function call pattern
-              const windowMatch = code.match(/^\{\s*window\.(\w+)\s*\([^)]*\)\s*\}$/);
-              // Check if it's a simple function call inside braces
-              const simpleFuncMatch = code.match(/^\{\s*(\w+)\s*\([^)]*\)\s*\}$/);
-              // Check if it's an arrow function like (data) => { ... } or () => { ... }
-              const arrowMatch = code.match(/^\([^)]*\)\s*=>\s*\{/);
-              // Check if it's an APICall handler - extract method and url
-              const apiCallMatch = code.match(/Actions\.callApi\s*\(\s*\{[^}]*method:\s*["']?([^"',}]+)["']?\s*,[^}]*url:\s*["']?([^"',}]+)["']?/s) ||
-                                   code.match(/Actions\.callApi\s*\(\s*\{[^}]*url:\s*["']?([^"',}]+)["']?\s*,[^}]*method:\s*["']?([^"',}]+)["']?/s);
-
-              if (apiCallMatch) {
-                // APICall handler - show summarized method/url
-                const [, first, second] = apiCallMatch;
-                // Determine which is method vs url based on content
-                const hasSlash = (s) => s && s.includes("/");
-                const method = hasSlash(first) ? normalizeMethod(second) : normalizeMethod(first);
-                const url = hasSlash(first) ? first : second;
-                bodyHtml += `<div class="trace-meta">APICall: <code>${method} ${url}</code></div>`;
-                // Show full code in collapsed details for reference
-                bodyHtml += `<details><summary>Full Handler</summary><pre class="source-code">${code.replace(/</g, "&lt;")}</pre></details>`;
-              } else if (xsFuncMatch) {
-                // .xs function reference
-                bodyHtml += `<div class="trace-meta">.xs: <code>${xsFuncMatch[1]}()</code></div>`;
-              } else if (windowMatch) {
-                // Window function call
-                bodyHtml += `<div class="trace-meta">window: <code>${windowMatch[1]}()</code></div>`;
-              } else if (simpleFuncMatch && !windowMatch) {
-                // Simple function call (probably from .xs)
-                bodyHtml += `<div class="trace-meta">calls: <code>${simpleFuncMatch[1]}()</code></div>`;
-              } else if (arrowMatch) {
-                // Arrow function - show in expander (usually longer code)
-                bodyHtml += `<details><summary>Handler Code</summary><pre class="source-code">${code.replace(/</g, "&lt;")}</pre></details>`;
-              } else if (code.startsWith("{") && code.endsWith("}")) {
-                // Inline handler code
-                const innerCode = code.slice(1, -1).trim();
-                if (innerCode.length < 80) {
-                  bodyHtml += `<div class="trace-meta">inline: <code>${innerCode.replace(/</g, "&lt;")}</code></div>`;
-                } else {
-                  bodyHtml += `<details><summary>Inline Handler</summary><pre class="source-code">${innerCode.replace(/</g, "&lt;")}</pre></details>`;
-                }
-              } else if (code.length < 100) {
-                // Other short code
-                bodyHtml += `<div class="trace-meta">code: <code>${code.replace(/</g, "&lt;")}</code></div>`;
-              } else {
-                // Longer code - show in expander
-                bodyHtml += `<details><summary>Handler Code</summary><pre class="source-code">${code.replace(/</g, "&lt;")}</pre></details>`;
+              const parsed = parseHandlerCode(e.handlerCode);
+              switch (parsed.type) {
+                case "apiCall":
+                  bodyHtml += `<div class="trace-meta">APICall: <code>${parsed.method} ${parsed.url}</code></div>`;
+                  bodyHtml += `<details><summary>Full Handler</summary><pre class="source-code">${parsed.code.replace(/</g, "&lt;")}</pre></details>`;
+                  break;
+                case "xsFunc":
+                  bodyHtml += `<div class="trace-meta">.xs: <code>${parsed.funcName}()</code></div>`;
+                  break;
+                case "windowFunc":
+                  bodyHtml += `<div class="trace-meta">window: <code>${parsed.funcName}()</code></div>`;
+                  break;
+                case "simpleFunc":
+                  bodyHtml += `<div class="trace-meta">calls: <code>${parsed.funcName}()</code></div>`;
+                  break;
+                case "arrow":
+                  bodyHtml += `<details><summary>Handler Code</summary><pre class="source-code">${parsed.code.replace(/</g, "&lt;")}</pre></details>`;
+                  break;
+                case "inline":
+                  if (parsed.innerCode.length < 80) {
+                    bodyHtml += `<div class="trace-meta">inline: <code>${parsed.innerCode.replace(/</g, "&lt;")}</code></div>`;
+                  } else {
+                    bodyHtml += `<details><summary>Inline Handler</summary><pre class="source-code">${parsed.innerCode.replace(/</g, "&lt;")}</pre></details>`;
+                  }
+                  break;
+                default:
+                  if (parsed.code.length < 100) {
+                    bodyHtml += `<div class="trace-meta">code: <code>${parsed.code.replace(/</g, "&lt;")}</code></div>`;
+                  } else {
+                    bodyHtml += `<details><summary>Handler Code</summary><pre class="source-code">${parsed.code.replace(/</g, "&lt;")}</pre></details>`;
+                  }
               }
 
               // Extract and show function source lookups for called functions
-              const calledFuncs = extractFunctionCalls(code);
+              const calledFuncs = extractFunctionCalls(e.handlerCode);
               if (calledFuncs.length > 0) {
                 const sourceFile = evt.meta.resolvedFile || "";
                 calledFuncs.forEach(funcName => {
@@ -3665,7 +3803,7 @@
               }
 
               // Extract and show Action source lookups for .execute() calls
-              const actionRefs = extractActionReferences(code);
+              const actionRefs = extractActionReferences(e.handlerCode);
               if (actionRefs.length > 0) {
                 const sourceFile = evt.meta.resolvedFile || "";
                 actionRefs.forEach(actionId => {
@@ -3681,7 +3819,7 @@
               const appStateMethodPattern = /(\w+)\.value\.(\w+)\s*\(/g;
               let appStateMatch;
               const seenAppStateMethods = new Set();
-              while ((appStateMatch = appStateMethodPattern.exec(code)) !== null) {
+              while ((appStateMatch = appStateMethodPattern.exec(e.handlerCode)) !== null) {
                 const stateId = appStateMatch[1];
                 const methodName = appStateMatch[2];
                 const key = `${stateId}.${methodName}`;
@@ -3718,11 +3856,25 @@
             bodyHtml += `<div class="trace-event-header">interaction ${interactionType}${evt.label ? ` ${evt.label}` : ""}${metaInline}</div>`;
           } else {
             const bootstrapBadge = e._bootstrap ? ` <span class="badge-bootstrap">bootstrap</span>` : "";
-            bodyHtml += `<div class="trace-event-header">${evt.eventTitle}${evt.label ? ` ${evt.label}` : ""}${bootstrapBadge}${metaInline}</div>`;
+            const dedupCount = e._dedupCount || 1;
+            const dedupInfo = dedupCount > 1 ? ` <span class="badge-muted">\u00d7${dedupCount}</span>` : "";
+            bodyHtml += `<div class="trace-event-header">${evt.eventTitle}${dedupInfo}${evt.label ? ` ${evt.label}` : ""}${bootstrapBadge}${metaInline}</div>`;
 
-            // Show source range for non-DataSource events too
-            if (evt.meta.hasSource) {
-              bodyHtml += `<div class="trace-meta">source ${evt.meta.sourceRange}</div>`;
+            // Show XMLUI source expander for events that carry source info
+            if (evt.meta.hasSource && evt.meta.resolvedFile) {
+              const [startChar, endChar] = evt.meta.sourceRange.split("-").map(Number);
+              if (e.kind && e.kind.startsWith("native:")) {
+                // Native events: plain source expander (event isn't declared in XMLUI markup)
+                bodyHtml += `<details class="source-loader" data-file="${evt.meta.resolvedFile}" data-start="${startChar}" data-end="${endChar}">`;
+              } else {
+                // value:change, focus:change, etc.: search for the handler attribute in source
+                const eventName = e.eventName || "";
+                const componentLabel = e.componentLabel || "";
+                bodyHtml += `<details class="source-loader" data-file="${evt.meta.resolvedFile}" data-handler-name="${eventName}" data-component-label="${componentLabel}" data-search-handler="true">`;
+              }
+              bodyHtml += `<summary>XMLUI Source</summary>`;
+              bodyHtml += `<pre class="source-code">Click to load...</pre>`;
+              bodyHtml += `</details>`;
             }
           }
 
@@ -3732,17 +3884,18 @@
             let arrayBefore = null, arrayAfter = null;
             if (e.diffJson.length === 1) {
               const only = e.diffJson[0];
-              if (Array.isArray(only.before) && Array.isArray(only.after) && (isKeyedArray(only.before) || isKeyedArray(only.after))) {
-                const analysis = analyzeArrayDiff(only.before, only.after);
+              const classified = classifyDiffItem(only);
+              if (classified.type === "keyedArrayDiff") {
+                const analysis = analyzeArrayDiff(classified.before, classified.after);
                 if (analysis.isSignificant) {
                   bodyHtml += `<div>${renderArrayDiffSummary(analysis)}</div>`;
                   usedArraySummary = true;
                   // Save arrays for full diff with context
-                  arrayBefore = only.before;
-                  arrayAfter = only.after;
+                  arrayBefore = classified.before;
+                  arrayAfter = classified.after;
                 }
-              } else if (Array.isArray(only.before) && only.after === undefined && isKeyedArray(only.before)) {
-                bodyHtml += `<div class="text-error">${only.before.length} item${only.before.length !== 1 ? "s" : ""} → cleared</div>`;
+              } else if (classified.type === "keyedArrayCleared") {
+                bodyHtml += `<div class="text-error">${classified.before.length} item${classified.before.length !== 1 ? "s" : ""} → cleared</div>`;
                 usedArraySummary = true;
               }
             }
@@ -3848,14 +4001,15 @@
               let usedArraySummary = false;
               if (e.diffJson.length === 1) {
                 const only = e.diffJson[0];
-                if (Array.isArray(only.before) && Array.isArray(only.after) && (isKeyedArray(only.before) || isKeyedArray(only.after))) {
-                  const analysis = analyzeArrayDiff(only.before, only.after);
+                const classified = classifyDiffItem(only);
+                if (classified.type === "keyedArrayDiff") {
+                  const analysis = analyzeArrayDiff(classified.before, classified.after);
                   if (analysis.isSignificant) {
                     html += `<div>${renderArrayDiffSummary(analysis)}</div>`;
                     usedArraySummary = true;
                   }
-                } else if (Array.isArray(only.before) && only.after === undefined && isKeyedArray(only.before)) {
-                  html += `<div class="text-error">${only.before.length} item${only.before.length !== 1 ? "s" : ""} → cleared</div>`;
+                } else if (classified.type === "keyedArrayCleared") {
+                  html += `<div class="text-error">${classified.before.length} item${classified.before.length !== 1 ? "s" : ""} → cleared</div>`;
                   usedArraySummary = true;
                 }
               }
@@ -3888,14 +4042,15 @@
           let usedArraySummary = false;
           if (entry.diffJson.length === 1) {
             const only = entry.diffJson[0];
-            if (Array.isArray(only.before) && Array.isArray(only.after) && (isKeyedArray(only.before) || isKeyedArray(only.after))) {
-              const analysis = analyzeArrayDiff(only.before, only.after);
+            const classified = classifyDiffItem(only);
+            if (classified.type === "keyedArrayDiff") {
+              const analysis = analyzeArrayDiff(classified.before, classified.after);
               if (analysis.isSignificant) {
                 html += `<div>${renderArrayDiffSummary(analysis)}</div>`;
                 usedArraySummary = true;
               }
-            } else if (Array.isArray(only.before) && only.after === undefined && isKeyedArray(only.before)) {
-              html += `<div class="text-error">${only.before.length} item${only.before.length !== 1 ? "s" : ""} → cleared</div>`;
+            } else if (classified.type === "keyedArrayCleared") {
+              html += `<div class="text-error">${classified.before.length} item${classified.before.length !== 1 ? "s" : ""} → cleared</div>`;
               usedArraySummary = true;
             }
           }
@@ -3927,10 +4082,7 @@
         let traceIndex = 0;
         processed.timelineItems.forEach((item) => {
           if (item.type === "trace") {
-            // Skip traces with no meaningful content (but keep startup traces and traces with handlers)
-            const isStartup = item.traceId && item.traceId.startsWith("startup-");
-            const hasContent = item.summary.changeCount > 0 || item.summary.hasError || item.summary.startCount > 0;
-            if (!hasContent && !isStartup) return;
+            if (!shouldIncludeTrace(item)) return;
             traceIndex++;
             lines.push(...renderTraceRaw(item, traceIndex));
             lines.push("");
@@ -3955,37 +4107,40 @@
               lines.push(`        Update ${i + 1} @ ${item.relTime}`);
               if (e.diffJson) {
                 e.diffJson.forEach((d) => {
-                  if (Array.isArray(d.before) && Array.isArray(d.after) && (isKeyedArray(d.before) || isKeyedArray(d.after))) {
-                    const summary = summarizeArrayDiff(d.before, d.after);
-                    lines.push(`            ${d.path}:`);
-                    summary.split("\n").forEach((line) => lines.push(`                ${line}`));
-                  } else if (Array.isArray(d.after) && d.before === undefined && isKeyedArray(d.after)) {
-                    lines.push(`            ${d.path}: initialized with ${d.after.length} items`);
-                  } else if (Array.isArray(d.before) && d.after === undefined && isKeyedArray(d.before)) {
-                    lines.push(`            ${d.path}: ${d.before.length} items → cleared`);
-                  } else if (d.before && d.after && typeof d.before === "object" && typeof d.after === "object" && !Array.isArray(d.before) && !Array.isArray(d.after)) {
-                    // Object diff - show which fields changed
-                    const allKeys = new Set([...Object.keys(d.before), ...Object.keys(d.after)]);
-                    const changedKeys = [];
-                    allKeys.forEach((key) => {
-                      const bv = JSON.stringify(d.before[key]);
-                      const av = JSON.stringify(d.after[key]);
-                      if (bv !== av) changedKeys.push(key);
-                    });
-                    if (changedKeys.length === 0) {
-                      lines.push(`            ${d.path}: (no visible change)`);
-                    } else {
+                  const classified = classifyDiffItem(d);
+                  switch (classified.type) {
+                    case "keyedArrayDiff": {
+                      const summary = summarizeArrayDiff(classified.before, classified.after);
                       lines.push(`            ${d.path}:`);
-                      changedKeys.forEach((key) => {
-                        const bv = d.before[key];
-                        const av = d.after[key];
-                        const bvStr = bv === undefined ? "undefined" : JSON.stringify(bv)?.slice(0, 60) || "null";
-                        const avStr = av === undefined ? "undefined" : JSON.stringify(av)?.slice(0, 60) || "null";
-                        lines.push(`                ${key}: ${bvStr} → ${avStr}`);
-                      });
+                      summary.split("\n").forEach((line) => lines.push(`                ${line}`));
+                      break;
                     }
-                  } else {
-                    lines.push(`            ${d.path}: ${JSON.stringify(d.before)?.slice(0, 80) || "undefined"} → ${JSON.stringify(d.after)?.slice(0, 80) || "undefined"}`);
+                    case "keyedArrayInit":
+                      lines.push(`            ${d.path}: initialized with ${classified.after.length} items`);
+                      break;
+                    case "keyedArrayCleared":
+                      lines.push(`            ${d.path}: ${classified.before.length} items → cleared`);
+                      break;
+                    case "objectDiff": {
+                      const allKeys = new Set([...Object.keys(classified.before), ...Object.keys(classified.after)]);
+                      const changedKeys = [];
+                      allKeys.forEach((key) => {
+                        if (JSON.stringify(classified.before[key]) !== JSON.stringify(classified.after[key])) changedKeys.push(key);
+                      });
+                      if (changedKeys.length === 0) {
+                        lines.push(`            ${d.path}: (no visible change)`);
+                      } else {
+                        lines.push(`            ${d.path}:`);
+                        changedKeys.forEach((key) => {
+                          const bvStr = classified.before[key] === undefined ? "undefined" : JSON.stringify(classified.before[key])?.slice(0, 60) || "null";
+                          const avStr = classified.after[key] === undefined ? "undefined" : JSON.stringify(classified.after[key])?.slice(0, 60) || "null";
+                          lines.push(`                ${key}: ${bvStr} → ${avStr}`);
+                        });
+                      }
+                      break;
+                    }
+                    default:
+                      lines.push(`            ${d.path}: ${JSON.stringify(d.before)?.slice(0, 80) || "undefined"} → ${JSON.stringify(d.after)?.slice(0, 80) || "undefined"}`);
                   }
                 });
               }
@@ -4119,43 +4274,36 @@
             }
             // Show handler code if available
             if (e.handlerCode) {
-              const code = e.handlerCode.trim();
-              const xsFuncMatch = code.match(/^(\w+)\(\)$/);
-              const windowMatch = code.match(/^\{\s*window\.(\w+)\s*\([^)]*\)\s*\}$/);
-              const simpleFuncMatch = code.match(/^\{\s*(\w+)\s*\([^)]*\)\s*\}$/);
-              const arrowMatch = code.match(/^\([^)]*\)\s*=>\s*\{/);
-              // Check if it's an APICall handler - extract method and url
-              const apiCallMatch = code.match(/Actions\.callApi\s*\(\s*\{[^}]*method:\s*["']?([^"',}]+)["']?\s*,[^}]*url:\s*["']?([^"',}]+)["']?/s) ||
-                                   code.match(/Actions\.callApi\s*\(\s*\{[^}]*url:\s*["']?([^"',}]+)["']?\s*,[^}]*method:\s*["']?([^"',}]+)["']?/s);
-
-              if (apiCallMatch) {
-                // APICall handler - show summarized method/url
-                const [, first, second] = apiCallMatch;
-                const hasSlash = (s) => s && s.includes("/");
-                const method = hasSlash(first) ? normalizeMethod(second) : normalizeMethod(first);
-                const url = hasSlash(first) ? first : second;
-                lines.push(`      APICall: ${method} ${url}`);
-              } else if (xsFuncMatch) {
-                lines.push(`      .xs: ${xsFuncMatch[1]}()`);
-              } else if (windowMatch) {
-                lines.push(`      window: ${windowMatch[1]}()`);
-              } else if (simpleFuncMatch && !windowMatch) {
-                lines.push(`      calls: ${simpleFuncMatch[1]}()`);
-              } else if (arrowMatch) {
-                // Arrow function - show first line
-                const firstLine = code.split('\n')[0];
-                lines.push(`      arrow: ${firstLine.length < 60 ? firstLine : firstLine.substring(0, 60) + "..."}`);
-              } else if (code.startsWith("{") && code.endsWith("}")) {
-                const innerCode = code.slice(1, -1).trim();
-                if (innerCode.length < 60) {
-                  lines.push(`      inline: ${innerCode}`);
-                } else {
-                  lines.push(`      inline: ${innerCode.substring(0, 60)}...`);
-                }
-              } else if (code.length < 80) {
-                lines.push(`      code: ${code}`);
-              } else {
-                lines.push(`      code: ${code.substring(0, 80)}...`);
+              const parsed = parseHandlerCode(e.handlerCode);
+              switch (parsed.type) {
+                case "apiCall":
+                  lines.push(`      APICall: ${parsed.method} ${parsed.url}`);
+                  break;
+                case "xsFunc":
+                  lines.push(`      .xs: ${parsed.funcName}()`);
+                  break;
+                case "windowFunc":
+                  lines.push(`      window: ${parsed.funcName}()`);
+                  break;
+                case "simpleFunc":
+                  lines.push(`      calls: ${parsed.funcName}()`);
+                  break;
+                case "arrow":
+                  lines.push(`      arrow: ${parsed.firstLine.length < 60 ? parsed.firstLine : parsed.firstLine.substring(0, 60) + "..."}`);
+                  break;
+                case "inline":
+                  if (parsed.innerCode.length < 60) {
+                    lines.push(`      inline: ${parsed.innerCode}`);
+                  } else {
+                    lines.push(`      inline: ${parsed.innerCode.substring(0, 60)}...`);
+                  }
+                  break;
+                default:
+                  if (parsed.code.length < 80) {
+                    lines.push(`      code: ${parsed.code}`);
+                  } else {
+                    lines.push(`      code: ${parsed.code.substring(0, 80)}...`);
+                  }
               }
             }
             return;
@@ -4186,66 +4334,71 @@
             // Summarize each var change
             e.diff.forEach((d) => {
               const varName = d.path || "value";
-              if (Array.isArray(d.before) && Array.isArray(d.after) && (isKeyedArray(d.before) || isKeyedArray(d.after))) {
-                // Array diff - summarize
-                const summary = summarizeArrayDiff(d.before, d.after);
-                lines.push(`        ${varName}:`);
-                summary.split("\n").forEach((line) => lines.push(`            ${line}`));
-              } else if (Array.isArray(d.after) && d.before === undefined && isKeyedArray(d.after)) {
-                // Init with array
-                lines.push(`        ${varName}: initialized with ${d.after.length} items`);
-                d.after.slice(0, 5).forEach((item) => lines.push(`            • ${getItemLabel(item)}`));
-                if (d.after.length > 5) lines.push(`            … and ${d.after.length - 5} more`);
-              } else if (d.after === undefined && d.before === undefined) {
-                // Skip no-op
-              } else {
-                // Simple value change - show compact
-                const beforeStr = d.before === undefined ? "undefined" : JSON.stringify(d.before);
-                const afterStr = d.after === undefined ? "undefined" : JSON.stringify(d.after);
-                // Truncate if too long
-                const maxLen = 80;
-                const beforeDisplay = beforeStr.length > maxLen ? beforeStr.slice(0, maxLen) + "..." : beforeStr;
-                const afterDisplay = afterStr.length > maxLen ? afterStr.slice(0, maxLen) + "..." : afterStr;
-                lines.push(`        ${varName}: ${beforeDisplay} → ${afterDisplay}`);
+              const classified = classifyDiffItem(d);
+              switch (classified.type) {
+                case "keyedArrayDiff": {
+                  const summary = summarizeArrayDiff(classified.before, classified.after);
+                  lines.push(`        ${varName}:`);
+                  summary.split("\n").forEach((line) => lines.push(`            ${line}`));
+                  break;
+                }
+                case "keyedArrayInit":
+                  lines.push(`        ${varName}: initialized with ${classified.after.length} items`);
+                  classified.after.slice(0, 5).forEach((item) => lines.push(`            • ${getItemLabel(item)}`));
+                  if (classified.after.length > 5) lines.push(`            … and ${classified.after.length - 5} more`);
+                  break;
+                case "noop":
+                  break;
+                default: {
+                  const beforeStr = d.before === undefined ? "undefined" : JSON.stringify(d.before);
+                  const afterStr = d.after === undefined ? "undefined" : JSON.stringify(d.after);
+                  const maxLen = 80;
+                  const beforeDisplay = beforeStr.length > maxLen ? beforeStr.slice(0, maxLen) + "..." : beforeStr;
+                  const afterDisplay = afterStr.length > maxLen ? afterStr.slice(0, maxLen) + "..." : afterStr;
+                  lines.push(`        ${varName}: ${beforeDisplay} → ${afterDisplay}`);
+                }
               }
             });
           }
 
           if (e.kind === "state:changes" && e.diffJson) {
             e.diffJson.forEach((d) => {
-              if (Array.isArray(d.before) && Array.isArray(d.after) && (isKeyedArray(d.before) || isKeyedArray(d.after))) {
-                const summary = summarizeArrayDiff(d.before, d.after);
-                lines.push(`        ${d.path}:`);
-                summary.split("\n").forEach((line) => lines.push(`            ${line}`));
-              } else if (Array.isArray(d.after) && d.before === undefined && isKeyedArray(d.after)) {
-                lines.push(`        ${d.path}: initialized with ${d.after.length} items`);
-                d.after.slice(0, 5).forEach((item) => lines.push(`            • ${getItemLabel(item)}`));
-                if (d.after.length > 5) lines.push(`            … and ${d.after.length - 5} more`);
-              } else if (Array.isArray(d.before) && d.after === undefined && isKeyedArray(d.before)) {
-                lines.push(`        ${d.path}: ${d.before.length} items → cleared`);
-              } else if (d.before && d.after && typeof d.before === "object" && typeof d.after === "object" && !Array.isArray(d.before) && !Array.isArray(d.after)) {
-                // Object diff - show which fields changed
-                const allKeys = new Set([...Object.keys(d.before), ...Object.keys(d.after)]);
-                const changedKeys = [];
-                allKeys.forEach((key) => {
-                  const bv = JSON.stringify(d.before[key]);
-                  const av = JSON.stringify(d.after[key]);
-                  if (bv !== av) changedKeys.push(key);
-                });
-                if (changedKeys.length === 0) {
-                  lines.push(`        ${d.path}: (no visible change)`);
-                } else {
+              const classified = classifyDiffItem(d);
+              switch (classified.type) {
+                case "keyedArrayDiff": {
+                  const summary = summarizeArrayDiff(classified.before, classified.after);
                   lines.push(`        ${d.path}:`);
-                  changedKeys.forEach((key) => {
-                    const bv = d.before[key];
-                    const av = d.after[key];
-                    const bvStr = bv === undefined ? "undefined" : JSON.stringify(bv)?.slice(0, 60) || "null";
-                    const avStr = av === undefined ? "undefined" : JSON.stringify(av)?.slice(0, 60) || "null";
-                    lines.push(`            ${key}: ${bvStr} → ${avStr}`);
-                  });
+                  summary.split("\n").forEach((line) => lines.push(`            ${line}`));
+                  break;
                 }
-              } else {
-                lines.push(`        ${d.path}: ${JSON.stringify(d.before)?.slice(0, 80) || "undefined"} → ${JSON.stringify(d.after)?.slice(0, 80) || "undefined"}`);
+                case "keyedArrayInit":
+                  lines.push(`        ${d.path}: initialized with ${classified.after.length} items`);
+                  classified.after.slice(0, 5).forEach((item) => lines.push(`            • ${getItemLabel(item)}`));
+                  if (classified.after.length > 5) lines.push(`            … and ${classified.after.length - 5} more`);
+                  break;
+                case "keyedArrayCleared":
+                  lines.push(`        ${d.path}: ${classified.before.length} items → cleared`);
+                  break;
+                case "objectDiff": {
+                  const allKeys = new Set([...Object.keys(classified.before), ...Object.keys(classified.after)]);
+                  const changedKeys = [];
+                  allKeys.forEach((key) => {
+                    if (JSON.stringify(classified.before[key]) !== JSON.stringify(classified.after[key])) changedKeys.push(key);
+                  });
+                  if (changedKeys.length === 0) {
+                    lines.push(`        ${d.path}: (no visible change)`);
+                  } else {
+                    lines.push(`        ${d.path}:`);
+                    changedKeys.forEach((key) => {
+                      const bvStr = classified.before[key] === undefined ? "undefined" : JSON.stringify(classified.before[key])?.slice(0, 60) || "null";
+                      const avStr = classified.after[key] === undefined ? "undefined" : JSON.stringify(classified.after[key])?.slice(0, 60) || "null";
+                      lines.push(`            ${key}: ${bvStr} → ${avStr}`);
+                    });
+                  }
+                  break;
+                }
+                default:
+                  lines.push(`        ${d.path}: ${JSON.stringify(d.before)?.slice(0, 80) || "undefined"} → ${JSON.stringify(d.after)?.slice(0, 80) || "undefined"}`);
               }
             });
           }
@@ -5107,6 +5260,21 @@
               perfTs: opts.perfTs || TestFramework.perfTs(),
               ownerFileId: opts.fileId,
               diffJson: opts.diffs,
+            };
+          },
+
+          nativeEvent(type, opts = {}) {
+            return {
+              kind: `native:${type}`,
+              eventName: type,
+              componentType: opts.componentType || "BigCalendar",
+              componentLabel: opts.componentLabel || "BigCalendar",
+              displayLabel: opts.displayLabel,
+              traceId: opts.traceId,
+              ts: opts.ts || TestFramework.ts(),
+              perfTs: opts.perfTs || TestFramework.perfTs(),
+              ownerFileId: opts.fileId,
+              sourceCharRange: opts.sourceCharRange,
             };
           },
 
@@ -6094,6 +6262,97 @@
           assertEqual(handlerStarts.length, 2, "Handlers with different code should remain separate");
         });
 
+        test("Deduplication", "value:change events on same component collapse to range", () => {
+          const traceId = "test-value-range";
+          const events = [
+            { kind: "value:change", eventName: "didChange", componentLabel: "Gauge", displayLabel: "42", traceId, perfTs: 100 },
+            { kind: "value:change", eventName: "didChange", componentLabel: "Gauge", displayLabel: "44.21", traceId, perfTs: 101 },
+            { kind: "value:change", eventName: "didChange", componentLabel: "Gauge", displayLabel: "46.9", traceId, perfTs: 102 },
+          ];
+          const { events: processedEvents, dedupedCount } = processTraceEvents(events);
+          assertEqual(processedEvents.length, 1, "Should collapse to 1 range event");
+          assertEqual(processedEvents[0].entry._dedupCount, 3, "Should have count 3");
+          assertContains(processedEvents[0].label, "42", "Label should include first value");
+          assertContains(processedEvents[0].label, "46.9", "Label should include last value");
+          assertEqual(dedupedCount, 2, "Should report 2 deduped");
+        });
+
+        test("Deduplication", "value:change on different components stay separate", () => {
+          const traceId = "test-value-diff-comp";
+          const events = [
+            { kind: "value:change", eventName: "didChange", componentLabel: "Gauge", displayLabel: "42", traceId, perfTs: 100 },
+            { kind: "value:change", eventName: "didChange", componentLabel: "Slider", displayLabel: "50", traceId, perfTs: 101 },
+          ];
+          const { events: processedEvents } = processTraceEvents(events);
+          assertEqual(processedEvents.length, 2, "Different components should remain separate");
+        });
+
+        test("Deduplication", "native:* events on same component collapse to range", () => {
+          const traceId = "test-native-range";
+          const events = [
+            { kind: "native:mousemove", componentLabel: "EChart", displayLabel: "hover: bar 3", traceId, perfTs: 100 },
+            { kind: "native:mousemove", componentLabel: "EChart", displayLabel: "hover: bar 5", traceId, perfTs: 101 },
+          ];
+          const { events: processedEvents, dedupedCount } = processTraceEvents(events);
+          assertEqual(processedEvents.length, 1, "Should collapse to 1 range event");
+          assertEqual(processedEvents[0].entry._dedupCount, 2, "Should have count 2");
+          assertEqual(dedupedCount, 1, "Should report 1 deduped");
+        });
+
+        // =========================================================================
+        // TEST SUITE: Native Event Traces
+        // =========================================================================
+        test("Native Events", "trace header shows displayLabel when interaction + native event co-occur", () => {
+          const traceId = TestFramework.interactionTraceId();
+          const events = [
+            TestFramework.events.interaction("click", "Next", { traceId, perfTs: 100 }),
+            TestFramework.events.nativeEvent("navigate", { traceId, displayLabel: "April 2026", perfTs: 101 }),
+          ];
+          const summary = buildTraceSummary(events);
+          assertContains(summary.componentText, "Next", "Should include interaction label");
+          assertContains(summary.componentText, "April 2026", "Should include native displayLabel");
+          assertContains(summary.componentText, "\u2192", "Should have arrow separator");
+        });
+
+        test("Native Events", "trace header built from native event when no interaction", () => {
+          const traceId = TestFramework.traceId();
+          const events = [
+            TestFramework.events.nativeEvent("viewChange", { traceId, displayLabel: "week", perfTs: 100 }),
+          ];
+          const summary = buildTraceSummary(events);
+          assertContains(summary.componentText, "BigCalendar", "Should include component type");
+          assertContains(summary.componentText, "viewChange", "Should include event name");
+          assertContains(summary.componentText, "week", "Should include displayLabel");
+        });
+
+        test("Native Events", "native-only traces not merged into polling", () => {
+          const startupTraceId = "startup-test";
+          const nativeTraceId = TestFramework.interactionTraceId();
+          const entries = [
+            // Startup trace with a loaded handler
+            TestFramework.events.handlerStart("loaded", { traceId: startupTraceId, perfTs: 100 }),
+            TestFramework.events.handlerComplete("loaded", { traceId: startupTraceId, perfTs: 110, duration: 10 }),
+            // Native-only trace (no handlers)
+            TestFramework.events.interaction("click", "Week", { traceId: nativeTraceId, perfTs: 200 }),
+            TestFramework.events.nativeEvent("viewChange", { traceId: nativeTraceId, displayLabel: "week", perfTs: 201 }),
+          ];
+          const processed = processAllEntries(entries);
+          const nativeTrace = processed.timelineItems.find(
+            item => item.type === "trace" && item.traceId === nativeTraceId
+          );
+          assertTrue(!!nativeTrace, "Native event trace should exist as its own trace");
+        });
+
+        test("Native Events", "native events counted as content in hasContent check", () => {
+          const traceId = TestFramework.interactionTraceId();
+          const events = [
+            TestFramework.events.interaction("click", "Month", { traceId, perfTs: 100 }),
+            TestFramework.events.nativeEvent("viewChange", { traceId, displayLabel: "month", perfTs: 101 }),
+          ];
+          const summary = buildTraceSummary(events);
+          assertTrue(summary.behavioralEventCount > 0, "Native events should count as behavioral");
+        });
+
         // =========================================================================
         // TEST SUITE: Function Source Lookup
         // =========================================================================
@@ -6383,6 +6642,375 @@
           const xmlui = new XmluiSource(source, "test.xmlui");
           const btn = xmlui.findById("staticId");
           assertTrue(btn !== null, "Should find element with static id");
+        });
+
+        // =========================================================================
+        // TEST SUITE: shouldIncludeTrace
+        // =========================================================================
+        test("shouldIncludeTrace", "returns false for empty trace", () => {
+          const item = { traceId: "t-test", summary: { changeCount: 0, hasError: false, startCount: 0, behavioralEventCount: 0 } };
+          assertEqual(shouldIncludeTrace(item), false, "Empty trace should not be included");
+        });
+
+        test("shouldIncludeTrace", "returns true for trace with changes", () => {
+          const item = { traceId: "t-test", summary: { changeCount: 1, hasError: false, startCount: 0, behavioralEventCount: 0 } };
+          assertEqual(shouldIncludeTrace(item), true, "Trace with changes should be included");
+        });
+
+        test("shouldIncludeTrace", "returns true for trace with error", () => {
+          const item = { traceId: "t-test", summary: { changeCount: 0, hasError: true, startCount: 0, behavioralEventCount: 0 } };
+          assertEqual(shouldIncludeTrace(item), true, "Trace with error should be included");
+        });
+
+        test("shouldIncludeTrace", "returns true for trace with handlers", () => {
+          const item = { traceId: "t-test", summary: { changeCount: 0, hasError: false, startCount: 1, behavioralEventCount: 0 } };
+          assertEqual(shouldIncludeTrace(item), true, "Trace with handlers should be included");
+        });
+
+        test("shouldIncludeTrace", "returns true for trace with behavioral events", () => {
+          const item = { traceId: "t-test", summary: { changeCount: 0, hasError: false, startCount: 0, behavioralEventCount: 1 } };
+          assertEqual(shouldIncludeTrace(item), true, "Trace with behavioral events should be included");
+        });
+
+        test("shouldIncludeTrace", "returns true for empty startup trace", () => {
+          const item = { traceId: "startup-test", summary: { changeCount: 0, hasError: false, startCount: 0, behavioralEventCount: 0 } };
+          assertEqual(shouldIncludeTrace(item), true, "Startup trace should always be included");
+        });
+
+        // =========================================================================
+        // TEST SUITE: parseHandlerCode
+        // =========================================================================
+        test("parseHandlerCode", "detects apiCall with method before url", () => {
+          const result = parseHandlerCode('Actions.callApi({ method: "GET", url: "/api/items" })');
+          assertEqual(result.type, "apiCall");
+          assertEqual(result.method, "GET");
+          assertEqual(result.url, "/api/items");
+        });
+
+        test("parseHandlerCode", "detects apiCall with url before method", () => {
+          const result = parseHandlerCode('Actions.callApi({ url: "/api/items", method: "post" })');
+          assertEqual(result.type, "apiCall");
+          assertEqual(result.method, "POST");
+          assertEqual(result.url, "/api/items");
+        });
+
+        test("parseHandlerCode", "detects xsFunc pattern", () => {
+          const result = parseHandlerCode("myFunction()");
+          assertEqual(result.type, "xsFunc");
+          assertEqual(result.funcName, "myFunction");
+        });
+
+        test("parseHandlerCode", "detects windowFunc pattern", () => {
+          const result = parseHandlerCode("{ window.doStuff(arg1) }");
+          assertEqual(result.type, "windowFunc");
+          assertEqual(result.funcName, "doStuff");
+        });
+
+        test("parseHandlerCode", "detects simpleFunc pattern", () => {
+          const result = parseHandlerCode("{ handleClick(e) }");
+          assertEqual(result.type, "simpleFunc");
+          assertEqual(result.funcName, "handleClick");
+        });
+
+        test("parseHandlerCode", "detects arrow function", () => {
+          const result = parseHandlerCode("(e) => {\n  doStuff(e);\n}");
+          assertEqual(result.type, "arrow");
+          assertEqual(result.firstLine, "(e) => {");
+        });
+
+        test("parseHandlerCode", "detects inline code", () => {
+          const result = parseHandlerCode("{ x = 42 }");
+          assertEqual(result.type, "inline");
+          assertEqual(result.innerCode, "x = 42");
+        });
+
+        test("parseHandlerCode", "falls back to other for plain code", () => {
+          const result = parseHandlerCode("some random code");
+          assertEqual(result.type, "other");
+          assertEqual(result.code, "some random code");
+        });
+
+        // =========================================================================
+        // TEST SUITE: classifyDiffItem
+        // =========================================================================
+        test("classifyDiffItem", "detects keyed array diff", () => {
+          const d = { before: [{id: 1, name: "a"}], after: [{id: 1, name: "b"}], path: "items" };
+          const result = classifyDiffItem(d);
+          assertEqual(result.type, "keyedArrayDiff");
+        });
+
+        test("classifyDiffItem", "detects keyed array init", () => {
+          const d = { before: undefined, after: [{id: 1}], path: "items" };
+          const result = classifyDiffItem(d);
+          assertEqual(result.type, "keyedArrayInit");
+        });
+
+        test("classifyDiffItem", "detects keyed array cleared", () => {
+          const d = { before: [{id: 1}], after: undefined, path: "items" };
+          const result = classifyDiffItem(d);
+          assertEqual(result.type, "keyedArrayCleared");
+        });
+
+        test("classifyDiffItem", "detects object diff", () => {
+          const d = { before: {x: 1}, after: {x: 2}, path: "config" };
+          const result = classifyDiffItem(d);
+          assertEqual(result.type, "objectDiff");
+        });
+
+        test("classifyDiffItem", "detects noop", () => {
+          const d = { before: undefined, after: undefined, path: "empty" };
+          const result = classifyDiffItem(d);
+          assertEqual(result.type, "noop");
+        });
+
+        test("classifyDiffItem", "detects scalar diff", () => {
+          const d = { before: "old", after: "new", path: "name" };
+          const result = classifyDiffItem(d);
+          assertEqual(result.type, "scalarDiff");
+        });
+
+        test("classifyDiffItem", "scalar for non-keyed arrays", () => {
+          const d = { before: [1, 2], after: [3, 4], path: "nums" };
+          const result = classifyDiffItem(d);
+          assertEqual(result.type, "scalarDiff");
+        });
+
+        // =========================================================================
+        // TEST SUITE: Trace Filtering
+        // =========================================================================
+        test("Trace Filtering", "empty trace is hidden in both views", () => {
+          // Trace with no state changes, no errors, no handlers, no behavioral events
+          const traceId = TestFramework.interactionTraceId();
+          const entries = [
+            TestFramework.events.interaction("click", "EmptyButton", { traceId, perfTs: 100 }),
+          ];
+          const processed = processAllEntries(entries);
+          const pretty = renderPrettyView(processed);
+          const raw = renderRawView(processed);
+          assertTrue(!pretty.includes("EmptyButton"), "Empty trace should be hidden in pretty view");
+          assertTrue(!raw.includes("EmptyButton"), "Empty trace should be hidden in raw view");
+        });
+
+        test("Trace Filtering", "trace with only state changes is shown", () => {
+          const traceId = TestFramework.interactionTraceId();
+          const entries = [
+            TestFramework.events.interaction("click", "SaveBtn", { traceId, perfTs: 100 }),
+            TestFramework.events.stateChange("click", [
+              { path: "saved", before: false, after: true }
+            ], { traceId, perfTs: 101 }),
+          ];
+          const processed = processAllEntries(entries);
+          const pretty = renderPrettyView(processed);
+          const raw = renderRawView(processed);
+          assertContains(pretty, "SaveBtn", "Trace with changes should appear in pretty view");
+          assertContains(raw, "SaveBtn", "Trace with changes should appear in raw view");
+        });
+
+        test("Trace Filtering", "trace with only error is shown", () => {
+          const traceId = TestFramework.interactionTraceId();
+          const entries = [
+            TestFramework.events.interaction("click", "ErrorBtn", { traceId, perfTs: 100 }),
+            TestFramework.events.handlerStart("click", { traceId, componentLabel: "ErrorBtn", perfTs: 101 }),
+            TestFramework.events.handlerError("click", new Error("boom"), { traceId, componentLabel: "ErrorBtn", perfTs: 102 }),
+          ];
+          const processed = processAllEntries(entries);
+          const pretty = renderPrettyView(processed);
+          const raw = renderRawView(processed);
+          assertContains(pretty, "ErrorBtn", "Trace with error should appear in pretty view");
+          assertContains(raw, "ErrorBtn", "Trace with error should appear in raw view");
+        });
+
+        test("Trace Filtering", "trace with only handlers is shown", () => {
+          const traceId = TestFramework.interactionTraceId();
+          const entries = [
+            TestFramework.events.interaction("click", "HandlerBtn", { traceId, perfTs: 100 }),
+            TestFramework.events.handlerStart("click", { traceId, componentLabel: "HandlerBtn", perfTs: 101 }),
+            TestFramework.events.handlerComplete("click", { traceId, componentLabel: "HandlerBtn", perfTs: 110, duration: 9 }),
+          ];
+          const processed = processAllEntries(entries);
+          const pretty = renderPrettyView(processed);
+          const raw = renderRawView(processed);
+          assertContains(pretty, "HandlerBtn", "Trace with handlers should appear in pretty view");
+          assertContains(raw, "HandlerBtn", "Trace with handlers should appear in raw view");
+        });
+
+        test("Trace Filtering", "trace with only behavioral events is shown", () => {
+          const traceId = TestFramework.interactionTraceId();
+          const entries = [
+            TestFramework.events.interaction("click", "NativeBtn", { traceId, perfTs: 100 }),
+            TestFramework.events.nativeEvent("viewChange", { traceId, displayLabel: "month", perfTs: 101 }),
+          ];
+          const processed = processAllEntries(entries);
+          const pretty = renderPrettyView(processed);
+          const raw = renderRawView(processed);
+          assertContains(pretty, "NativeBtn", "Trace with behavioral events should appear in pretty view");
+          assertContains(raw, "NativeBtn", "Trace with behavioral events should appear in raw view");
+        });
+
+        test("Trace Filtering", "startup trace shown even with no content", () => {
+          const traceId = "startup-test-empty";
+          const entries = [
+            // Startup trace with only a vars init (no handlers, no state changes, no errors)
+            TestFramework.events.componentVarsInit("isOpen", "Dialog", { traceId, perfTs: 100 }),
+          ];
+          const processed = processAllEntries(entries);
+          const pretty = renderPrettyView(processed);
+          const raw = renderRawView(processed);
+          assertContains(pretty, "Startup", "Empty startup trace should appear in pretty view");
+          assertContains(raw, "Startup", "Empty startup trace should appear in raw view");
+        });
+
+        // =========================================================================
+        // TEST SUITE: Trace Grouping
+        // =========================================================================
+        test("Trace Grouping", "single trace renders without ellipsis", () => {
+          const events = TestFramework.scenarios.buttonClick();
+          const processed = processAllEntries(events);
+          const grouped = groupSimilarTraces(processed.timelineItems);
+          const traceGroups = grouped.filter(g => g.type === "trace-group");
+          assertEqual(traceGroups.length, 1, "Should have 1 trace group");
+          assertEqual(traceGroups[0].traces.length, 1, "Group should have 1 trace");
+          const html = renderPrettyView(processed);
+          assertTrue(!html.includes("more similar"), "Single trace should not show ellipsis");
+        });
+
+        test("Trace Grouping", "two similar traces both render", () => {
+          const traceId1 = TestFramework.interactionTraceId();
+          const traceId2 = TestFramework.interactionTraceId();
+          const entries = [
+            TestFramework.events.interaction("click", "Refresh", { traceId: traceId1, perfTs: 100 }),
+            TestFramework.events.handlerStart("click", { traceId: traceId1, componentLabel: "Refresh", perfTs: 101 }),
+            TestFramework.events.handlerComplete("click", { traceId: traceId1, componentLabel: "Refresh", perfTs: 110, duration: 9 }),
+            TestFramework.events.interaction("click", "Refresh", { traceId: traceId2, perfTs: 200 }),
+            TestFramework.events.handlerStart("click", { traceId: traceId2, componentLabel: "Refresh", perfTs: 201 }),
+            TestFramework.events.handlerComplete("click", { traceId: traceId2, componentLabel: "Refresh", perfTs: 210, duration: 9 }),
+          ];
+          const processed = processAllEntries(entries);
+          const grouped = groupSimilarTraces(processed.timelineItems);
+          const traceGroups = grouped.filter(g => g.type === "trace-group");
+          assertEqual(traceGroups.length, 1, "Two similar traces should form 1 group");
+          assertEqual(traceGroups[0].traces.length, 2, "Group should have 2 traces");
+          const html = renderPrettyView(processed);
+          assertTrue(!html.includes("more similar"), "Two traces should not show ellipsis");
+        });
+
+        test("Trace Grouping", "3+ similar traces show ellipsis", () => {
+          const entries = [];
+          for (let i = 0; i < 4; i++) {
+            const traceId = TestFramework.interactionTraceId();
+            entries.push(
+              TestFramework.events.interaction("click", "Poll", { traceId, perfTs: 100 + i * 100 }),
+              TestFramework.events.handlerStart("click", { traceId, componentLabel: "Poll", perfTs: 101 + i * 100 }),
+              TestFramework.events.handlerComplete("click", { traceId, componentLabel: "Poll", perfTs: 110 + i * 100, duration: 9 }),
+            );
+          }
+          const processed = processAllEntries(entries);
+          const grouped = groupSimilarTraces(processed.timelineItems);
+          const traceGroups = grouped.filter(g => g.type === "trace-group");
+          assertEqual(traceGroups.length, 1, "4 similar traces should form 1 group");
+          assertEqual(traceGroups[0].traces.length, 4, "Group should have 4 traces");
+          const html = renderPrettyView(processed);
+          assertContains(html, "more similar", "3+ traces should show ellipsis");
+        });
+
+        test("Trace Grouping", "dissimilar traces not grouped together", () => {
+          const traceId1 = TestFramework.interactionTraceId();
+          const traceId2 = TestFramework.interactionTraceId();
+          const entries = [
+            TestFramework.events.interaction("click", "Save", { traceId: traceId1, perfTs: 100 }),
+            TestFramework.events.handlerStart("click", { traceId: traceId1, componentLabel: "Save", perfTs: 101 }),
+            TestFramework.events.handlerComplete("click", { traceId: traceId1, componentLabel: "Save", perfTs: 110, duration: 9 }),
+            TestFramework.events.interaction("click", "Delete", { traceId: traceId2, perfTs: 200 }),
+            TestFramework.events.handlerStart("click", { traceId: traceId2, componentLabel: "Delete", perfTs: 201 }),
+            TestFramework.events.handlerComplete("click", { traceId: traceId2, componentLabel: "Delete", perfTs: 210, duration: 9 }),
+          ];
+          const processed = processAllEntries(entries);
+          const grouped = groupSimilarTraces(processed.timelineItems);
+          const traceGroups = grouped.filter(g => g.type === "trace-group");
+          assertEqual(traceGroups.length, 2, "Dissimilar traces should form separate groups");
+          assertEqual(traceGroups[0].traces.length, 1, "Each group should have 1 trace");
+          assertEqual(traceGroups[1].traces.length, 1, "Each group should have 1 trace");
+        });
+
+        test("Trace Grouping", "non-trace item breaks grouping sequence", () => {
+          const traceId1 = TestFramework.interactionTraceId();
+          const traceId2 = TestFramework.interactionTraceId();
+          // Two similar traces separated by a standalone interaction
+          const entries = [
+            TestFramework.events.interaction("click", "Refresh", { traceId: traceId1, perfTs: 100 }),
+            TestFramework.events.handlerStart("click", { traceId: traceId1, componentLabel: "Refresh", perfTs: 101 }),
+            TestFramework.events.handlerComplete("click", { traceId: traceId1, componentLabel: "Refresh", perfTs: 110, duration: 9 }),
+            // Standalone interaction (no traceId matching a trace)
+            TestFramework.events.interaction("click", "Standalone", { perfTs: 150 }),
+            TestFramework.events.interaction("click", "Refresh", { traceId: traceId2, perfTs: 200 }),
+            TestFramework.events.handlerStart("click", { traceId: traceId2, componentLabel: "Refresh", perfTs: 201 }),
+            TestFramework.events.handlerComplete("click", { traceId: traceId2, componentLabel: "Refresh", perfTs: 210, duration: 9 }),
+          ];
+          const processed = processAllEntries(entries);
+          const grouped = groupSimilarTraces(processed.timelineItems);
+          // The standalone interaction should break the grouping
+          const traceGroups = grouped.filter(g => g.type === "trace-group");
+          assertEqual(traceGroups.length, 2, "Interrupted similar traces should form separate groups");
+        });
+
+        // =========================================================================
+        // TEST SUITE: Cross-View Consistency
+        // =========================================================================
+        test("Cross-View Consistency", "pretty and raw show same trace count for button click", () => {
+          const events = TestFramework.scenarios.buttonClick();
+          const processed = processAllEntries(events);
+          const pretty = renderPrettyView(processed);
+          const raw = renderRawView(processed);
+          const prettyCount = (pretty.match(/trace-group/g) || []).length;
+          const rawCount = (raw.match(/--- Trace \d+:/g) || []).length;
+          assertEqual(prettyCount, rawCount, "Pretty and raw should show same trace count");
+        });
+
+        test("Cross-View Consistency", "pretty and raw show same trace count for mixed scenario", () => {
+          const traceId1 = TestFramework.interactionTraceId();
+          const traceId2 = TestFramework.interactionTraceId();
+          const traceId3 = TestFramework.interactionTraceId();
+          const entries = [
+            // Trace with handler
+            TestFramework.events.interaction("click", "Save", { traceId: traceId1, perfTs: 100 }),
+            TestFramework.events.handlerStart("click", { traceId: traceId1, componentLabel: "Save", perfTs: 101 }),
+            TestFramework.events.handlerComplete("click", { traceId: traceId1, componentLabel: "Save", perfTs: 110, duration: 9 }),
+            // Trace with native event only
+            TestFramework.events.interaction("click", "Next", { traceId: traceId2, perfTs: 200 }),
+            TestFramework.events.nativeEvent("navigate", { traceId: traceId2, displayLabel: "April 2026", perfTs: 201 }),
+            // Empty trace (should be hidden in both)
+            TestFramework.events.interaction("click", "Empty", { traceId: traceId3, perfTs: 300 }),
+          ];
+          const processed = processAllEntries(entries);
+          const pretty = renderPrettyView(processed);
+          const raw = renderRawView(processed);
+          const prettyCount = (pretty.match(/trace-group/g) || []).length;
+          const rawCount = (raw.match(/--- Trace \d+:/g) || []).length;
+          assertEqual(prettyCount, rawCount, "Pretty and raw should show same trace count for mixed scenario");
+          // Both should show 2 traces (handler + native), not the empty one
+          assertEqual(rawCount, 2, "Should show 2 traces (handler + native event), not empty");
+        });
+
+        test("Cross-View Consistency", "startup trace appears in both views", () => {
+          const events = TestFramework.scenarios.startup();
+          const processed = processAllEntries(events);
+          const pretty = renderPrettyView(processed);
+          const raw = renderRawView(processed);
+          assertContains(pretty, "Startup", "Startup should appear in pretty view");
+          assertContains(raw, "Startup", "Startup should appear in raw view");
+        });
+
+        test("Cross-View Consistency", "native event displayLabel in both view headers", () => {
+          const traceId = TestFramework.interactionTraceId();
+          const entries = [
+            TestFramework.events.interaction("click", "Next", { traceId, perfTs: 100 }),
+            TestFramework.events.nativeEvent("navigate", { traceId, displayLabel: "April 2026", perfTs: 101 }),
+          ];
+          const processed = processAllEntries(entries);
+          const pretty = renderPrettyView(processed);
+          const raw = renderRawView(processed);
+          assertContains(pretty, "April 2026", "Pretty view should show displayLabel");
+          assertContains(raw, "April 2026", "Raw view should show displayLabel");
         });
 
         // =========================================================================

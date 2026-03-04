@@ -52397,51 +52397,1608 @@ Wrote 13 events to cities/petaluma/srjc_petaluma.ics
 2026-03-03 06:46:48,584 - INFO - Fetching https://cicadacinema.com/products.json
 2026-03-03 06:46:49,002 - INFO - Found 6 events
 2026-03-03 06:46:49,004 - INFO - Written to cities/bloomington/cicada_cinema.ics
-2026-03-03 18:40:20,081 - MoabMuseumScraper - INFO - Scraping Moab Museum
-2026-03-03 18:40:20,081 - MoabMuseumScraper - INFO - Fetching https://moabmuseum.org/calendar-of-events/
-2026-03-03 18:40:20,507 - MoabMuseumScraper - INFO - Found 6 JSON-LD events on https://moabmuseum.org/calendar-of-events/
-2026-03-03 18:40:20,508 - MoabMuseumScraper - INFO - Total: 5 events
-2026-03-03 18:40:20,508 - MoabMuseumScraper - INFO - Found 5 events
-2026-03-03 18:40:20,510 - MoabMuseumScraper - INFO - Written to cities/moab/moab_museum.ics
-2026-03-03 18:40:20,655 - ClimbMoabScraper - INFO - Scraping Climb Moab
-2026-03-03 18:40:20,655 - ClimbMoabScraper - INFO - Fetching https://climbmoabgym.com/events?format=json
-2026-03-03 18:40:21,234 - ClimbMoabScraper - INFO - Found 1 upcoming events
-2026-03-03 18:40:21,234 - ClimbMoabScraper - INFO - Found 1 events
-2026-03-03 18:40:21,235 - ClimbMoabScraper - INFO - Written to cities/moab/climb_moab.ics
-2026-03-03 18:40:21,550 - BackOfBeyondScraper - INFO - Scraping Back of Beyond Books
-2026-03-03 18:40:21,551 - BackOfBeyondScraper - INFO - Fetching https://backofbeyondbooks.com/happenings/
-2026-03-03 18:40:21,551 - lib.utils - INFO - Fetching: https://backofbeyondbooks.com/happenings/
-2026-03-03 18:40:22,544 - BackOfBeyondScraper - INFO - Found 23 events
-2026-03-03 18:40:22,544 - BackOfBeyondScraper - INFO - Filtered 11 events beyond 6 months out
-2026-03-03 18:40:22,544 - BackOfBeyondScraper - INFO - Found 12 events
-2026-03-03 18:40:22,547 - BackOfBeyondScraper - INFO - Written to cities/moab/back_of_beyond.ics
-2026-03-03 18:40:22,699 - WellnessCollectiveScraper - INFO - Scraping Wellness Collective Moab
-2026-03-03 18:40:22,699 - WellnessCollectiveScraper - INFO - Fetching https://calendar.apps.secureserver.net/v1/events/850abeb2-a96f-4bb3-941d-245ce2f0e203/9c296a07-7f6a-4f27-a79a-bc4c6982a216/f33a9bca-c60a-4de5-8fa4-b78b6fd1c4ba
-2026-03-03 18:40:23,819 - WellnessCollectiveScraper - INFO - API returned 100 events
-2026-03-03 18:40:23,822 - WellnessCollectiveScraper - INFO - Parsed 98 events
-2026-03-03 18:40:23,823 - WellnessCollectiveScraper - INFO - Found 98 events
-2026-03-03 18:40:23,842 - WellnessCollectiveScraper - INFO - Written to cities/moab/wellness_collective.ics
-2026-03-03 19:04:06,824 - MoabMuseumScraper - INFO - Scraping Moab Museum
-2026-03-03 19:04:06,824 - MoabMuseumScraper - INFO - Fetching https://moabmuseum.org/calendar-of-events/
-2026-03-03 19:04:07,424 - MoabMuseumScraper - INFO - Found 6 JSON-LD events on https://moabmuseum.org/calendar-of-events/
-2026-03-03 19:04:07,424 - MoabMuseumScraper - INFO - Total: 5 events
-2026-03-03 19:04:07,424 - MoabMuseumScraper - INFO - Found 5 events
-2026-03-03 19:04:07,426 - MoabMuseumScraper - INFO - Written to cities/moab/moab_museum.ics
-2026-03-03 19:04:07,575 - ClimbMoabScraper - INFO - Scraping Climb Moab
-2026-03-03 19:04:07,576 - ClimbMoabScraper - INFO - Fetching https://climbmoabgym.com/events?format=json
-2026-03-03 19:04:08,173 - ClimbMoabScraper - INFO - Found 1 upcoming events
-2026-03-03 19:04:08,173 - ClimbMoabScraper - INFO - Found 1 events
-2026-03-03 19:04:08,174 - ClimbMoabScraper - INFO - Written to cities/moab/climb_moab.ics
-2026-03-03 19:04:08,493 - BackOfBeyondScraper - INFO - Scraping Back of Beyond Books
-2026-03-03 19:04:08,493 - BackOfBeyondScraper - INFO - Fetching https://backofbeyondbooks.com/happenings/
-2026-03-03 19:04:08,493 - lib.utils - INFO - Fetching: https://backofbeyondbooks.com/happenings/
-2026-03-03 19:04:08,685 - BackOfBeyondScraper - INFO - Found 23 events
-2026-03-03 19:04:08,685 - BackOfBeyondScraper - INFO - Filtered 11 events beyond 6 months out
-2026-03-03 19:04:08,685 - BackOfBeyondScraper - INFO - Found 12 events
-2026-03-03 19:04:08,689 - BackOfBeyondScraper - INFO - Written to cities/moab/back_of_beyond.ics
-2026-03-03 19:04:08,847 - WellnessCollectiveScraper - INFO - Scraping Wellness Collective Moab
-2026-03-03 19:04:08,847 - WellnessCollectiveScraper - INFO - Fetching https://calendar.apps.secureserver.net/v1/events/850abeb2-a96f-4bb3-941d-245ce2f0e203/9c296a07-7f6a-4f27-a79a-bc4c6982a216/f33a9bca-c60a-4de5-8fa4-b78b6fd1c4ba
-2026-03-03 19:04:09,976 - WellnessCollectiveScraper - INFO - API returned 100 events
-2026-03-03 19:04:09,980 - WellnessCollectiveScraper - INFO - Parsed 98 events
-2026-03-03 19:04:09,980 - WellnessCollectiveScraper - INFO - Found 98 events
-2026-03-03 19:04:10,000 - WellnessCollectiveScraper - INFO - Written to cities/moab/wellness_collective.ics
+2026-03-03 22:29:33,515 - LibraryScraper - INFO - Scraping Sonoma County Library
+2026-03-03 22:29:33,515 - LibraryScraper - INFO - Scraping page 1
+2026-03-03 22:29:36,002 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-04 14:00:00-08:00
+2026-03-03 22:29:36,002 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-04 14:00:00-08:00
+2026-03-03 22:29:36,002 - LibraryScraper - INFO - Found event: After School Hang Out (Grades 6-12) on 2026-03-04 14:00:00-08:00
+2026-03-03 22:29:36,003 - LibraryScraper - INFO - Found event: Teen Hangout! Universal Yums on 2026-03-04 14:45:00-08:00
+2026-03-03 22:29:36,003 - LibraryScraper - INFO - Found event: Game On! for Teens on 2026-03-04 15:00:00-08:00
+2026-03-03 22:29:36,003 - LibraryScraper - INFO - Found event: ¡Lotería! on 2026-03-04 15:00:00-08:00
+2026-03-03 22:29:36,004 - LibraryScraper - INFO - Found event: Petaluma Chess Club on 2026-03-04 15:00:00-08:00
+2026-03-03 22:29:36,004 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-04 15:30:00-08:00
+2026-03-03 22:29:36,004 - LibraryScraper - INFO - Found event: Children's Manga Book Club on 2026-03-04 16:00:00-08:00
+2026-03-03 22:29:36,005 - LibraryScraper - INFO - Found event: Teen Hangout: Game On! on 2026-03-04 16:00:00-08:00
+2026-03-03 22:29:36,005 - LibraryScraper - INFO - Found event: Bedazzle Your Favorite Book! on 2026-03-04 16:00:00-08:00
+2026-03-03 22:29:36,005 - LibraryScraper - INFO - Found event: Teens Create Club! on 2026-03-04 16:00:00-08:00
+2026-03-03 22:29:36,006 - LibraryScraper - INFO - Found event: Drop-in Teen Volunteering on 2026-03-04 16:00:00-08:00
+2026-03-03 22:29:36,006 - LibraryScraper - INFO - Found event: Game On! for Teens on 2026-03-04 16:30:00-08:00
+2026-03-03 22:29:36,006 - LibraryScraper - INFO - Found event: Teen Advisory Group Meeting on 2026-03-04 16:30:00-08:00
+2026-03-03 22:29:36,007 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-03-04 17:00:00-08:00
+2026-03-03 22:29:36,007 - LibraryScraper - INFO - Found event: Lawyers in the Library on 2026-03-04 17:00:00-08:00
+2026-03-03 22:29:36,007 - LibraryScraper - INFO - Found event: Free Citizenship Classes in Spanish on 2026-03-04 17:30:00-08:00
+2026-03-03 22:29:36,008 - LibraryScraper - INFO - Found event: Creative Club: Monoprints with Watercolor on 2026-03-04 18:00:00-08:00
+2026-03-03 22:29:36,008 - LibraryScraper - INFO - Found event: Sewing in Community on 2026-03-04 18:00:00-08:00
+2026-03-03 22:29:36,008 - LibraryScraper - INFO - Found event: Library Commission Regular Meeting on 2026-03-04 18:00:00-08:00
+2026-03-03 22:29:36,009 - LibraryScraper - INFO - Found event: Pajama Family Storytime on 2026-03-04 18:30:00-08:00
+2026-03-03 22:29:36,009 - LibraryScraper - INFO - Found event: Sound Studio Basics - Rincon Valley on 2026-03-05 10:00:00-08:00
+2026-03-03 22:29:36,009 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-05 10:00:00-08:00
+2026-03-03 22:29:36,009 - LibraryScraper - INFO - Scraping page 2
+2026-03-03 22:29:38,042 - LibraryScraper - INFO - Found event: Babytime on 2026-03-05 10:15:00-08:00
+2026-03-03 22:29:38,043 - LibraryScraper - INFO - Found event: Bilingual Babytime on 2026-03-05 10:30:00-08:00
+2026-03-03 22:29:38,043 - LibraryScraper - INFO - Found event: Family Storytime on 2026-03-05 10:30:00-08:00
+2026-03-03 22:29:38,044 - LibraryScraper - INFO - Found event: Family is a Rainbow Storytime on 2026-03-05 10:30:00-08:00
+2026-03-03 22:29:38,044 - LibraryScraper - INFO - Found event: Create and Build: Thursday fun days on 2026-03-05 10:30:00-08:00
+2026-03-03 22:29:38,044 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-03-05 11:00:00-08:00
+2026-03-03 22:29:38,045 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-03-05 11:00:00-08:00
+2026-03-03 22:29:38,045 - LibraryScraper - INFO - Found event: Stay & Play! on 2026-03-05 11:00:00-08:00
+2026-03-03 22:29:38,045 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-03-05 11:00:00-08:00
+2026-03-03 22:29:38,046 - LibraryScraper - INFO - Found event: BiblioBus at Cazadero History Learning Center on 2026-03-05 12:00:00-08:00
+2026-03-03 22:29:38,046 - LibraryScraper - INFO - Found event: Let's Talk English Conversation Class on 2026-03-05 13:00:00-08:00
+2026-03-03 22:29:38,046 - LibraryScraper - INFO - Found event: Scanning Station - Playback Memory Lab on 2026-03-05 13:00:00-08:00
+2026-03-03 22:29:38,047 - LibraryScraper - INFO - Found event: VHS Station - Playback Memory Lab on 2026-03-05 13:00:00-08:00
+2026-03-03 22:29:38,047 - LibraryScraper - INFO - Found event: Tween Game Lounge on 2026-03-05 13:15:00-08:00
+2026-03-03 22:29:38,047 - LibraryScraper - INFO - Found event: BiblioBus at Monte Rio Community Center on 2026-03-05 14:00:00-08:00
+2026-03-03 22:29:38,048 - LibraryScraper - INFO - Found event: Jueves de juegos on 2026-03-05 15:00:00-08:00
+2026-03-03 22:29:38,048 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-05 15:30:00-08:00
+2026-03-03 22:29:38,048 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-05 15:30:00-08:00
+2026-03-03 22:29:38,049 - LibraryScraper - INFO - Found event: Tabletop Role-Playing Game Club on 2026-03-05 15:30:00-08:00
+2026-03-03 22:29:38,049 - LibraryScraper - INFO - Found event: Lego & Build Club on 2026-03-05 16:00:00-08:00
+2026-03-03 22:29:38,049 - LibraryScraper - INFO - Found event: Sonoma Mystery Book Club on 2026-03-05 16:00:00-08:00
+2026-03-03 22:29:38,050 - LibraryScraper - INFO - Found event: Book Buddies (Grades TK-3rd) on 2026-03-05 16:00:00-08:00
+2026-03-03 22:29:38,050 - LibraryScraper - INFO - Found event: Bedazzle Your Favorite Book! on 2026-03-05 16:00:00-08:00
+2026-03-03 22:29:38,050 - LibraryScraper - INFO - Found event: Intercambio on 2026-03-05 16:30:00-08:00
+2026-03-03 22:29:38,050 - LibraryScraper - INFO - Scraping page 3
+2026-03-03 22:29:39,474 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-06 10:00:00-08:00
+2026-03-03 22:29:39,474 - LibraryScraper - INFO - Found event: Cultivating Your Inner Landscape on 2026-03-06 10:00:00-08:00
+2026-03-03 22:29:39,475 - LibraryScraper - INFO - Found event: Cultivating Your Inner Landscape: a 10-session series on 2026-03-06 10:00:00-08:00
+2026-03-03 22:29:39,475 - LibraryScraper - INFO - Found event: Friends of the Santa Rosa Libraries Book Sale (Member Preview) on 2026-03-06 10:00:00-08:00
+2026-03-03 22:29:39,476 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-06 10:15:00-08:00
+2026-03-03 22:29:39,476 - LibraryScraper - INFO - Found event: Bilingual Baby and Toddler Storytime on 2026-03-06 10:30:00-08:00
+2026-03-03 22:29:39,477 - LibraryScraper - INFO - Found event: Common Ground Book Club: books by & about people with disabilities on 2026-03-06 10:30:00-08:00
+2026-03-03 22:29:39,477 - LibraryScraper - INFO - Found event: Family Storytime on 2026-03-06 10:30:00-08:00
+2026-03-03 22:29:39,478 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-06 11:00:00-08:00
+2026-03-03 22:29:39,478 - LibraryScraper - INFO - Found event: Baby Village on 2026-03-06 11:15:00-08:00
+2026-03-03 22:29:39,479 - LibraryScraper - INFO - Found event: Baby Village on 2026-03-06 11:30:00-08:00
+2026-03-03 22:29:39,479 - LibraryScraper - INFO - Found event: Friends of the Santa Rosa Libraries Book Sale on 2026-03-06 12:00:00-08:00
+2026-03-03 22:29:39,480 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-06 12:15:00-08:00
+2026-03-03 22:29:39,480 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-03-06 13:00:00-08:00
+2026-03-03 22:29:39,480 - LibraryScraper - INFO - Found event: Scanning Station - Playback Memory Lab on 2026-03-06 13:00:00-08:00
+2026-03-03 22:29:39,481 - LibraryScraper - INFO - Found event: VHS Station - Playback Memory Lab on 2026-03-06 13:00:00-08:00
+2026-03-03 22:29:39,481 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-06 13:15:00-08:00
+2026-03-03 22:29:39,481 - LibraryScraper - INFO - Found event: Seeds and Reads: The True Story of Poison Oak on 2026-03-06 15:30:00-08:00
+2026-03-03 22:29:39,482 - LibraryScraper - INFO - Found event: Friday Flicks on 2026-03-06 15:45:00-08:00
+2026-03-03 22:29:39,482 - LibraryScraper - INFO - Found event: First Friday Build Club on 2026-03-06 16:00:00-08:00
+2026-03-03 22:29:39,483 - LibraryScraper - INFO - Found event: Bedazzle Your Favorite Book! on 2026-03-06 16:30:00-08:00
+2026-03-03 22:29:39,483 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-03-07 10:00:00-08:00
+2026-03-03 22:29:39,483 - LibraryScraper - INFO - Found event: BiblioBus at Annual Lake Sonoma Steelhead Festival on 2026-03-07 10:00:00-08:00
+2026-03-03 22:29:39,484 - LibraryScraper - INFO - Found event: Friends of the Santa Rosa Libraries Book Sale on 2026-03-07 10:00:00-08:00
+2026-03-03 22:29:39,484 - LibraryScraper - INFO - Scraping page 4
+2026-03-03 22:29:41,561 - LibraryScraper - INFO - Found event: Weekend Family Storytime on 2026-03-07 10:30:00-08:00
+2026-03-03 22:29:41,561 - LibraryScraper - INFO - Found event: Weekend Storytime on 2026-03-07 11:00:00-08:00
+2026-03-03 22:29:41,562 - LibraryScraper - INFO - Found event: Women's History Crawl 2026 on 2026-03-07 11:00:00-08:00
+2026-03-03 22:29:41,562 - LibraryScraper - INFO - Found event: For the Love of Comics 2026 on 2026-03-07 12:00:00-08:00
+2026-03-03 22:29:41,562 - LibraryScraper - INFO - Found event: SOVA Lion Dancing at Sebastopol Center for the Arts on 2026-03-07 12:00:00-08:00
+2026-03-03 22:29:41,563 - LibraryScraper - INFO - Found event: Creative Writing Class on 2026-03-07 13:00:00-08:00
+2026-03-03 22:29:41,563 - LibraryScraper - INFO - Found event: Repair Fair on 2026-03-07 13:00:00-08:00
+2026-03-03 22:29:41,563 - LibraryScraper - INFO - Found event: Keenan Webster - Afro Roots World Music on 2026-03-07 14:00:00-08:00
+2026-03-03 22:29:41,564 - LibraryScraper - INFO - Found event: Mushrooms: Wonders of the Woods! on 2026-03-07 14:00:00-08:00
+2026-03-03 22:29:41,564 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-03-07 16:00:00-08:00
+2026-03-03 22:29:41,564 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-03-07 16:30:00-08:00
+2026-03-03 22:29:41,565 - LibraryScraper - INFO - Found event: Friends of the Santa Rosa Libraries Book Sale on 2026-03-08 13:00:00-07:00
+2026-03-03 22:29:41,565 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-08 14:00:00-07:00
+2026-03-03 22:29:41,565 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-08 14:00:00-07:00
+2026-03-03 22:29:41,566 - LibraryScraper - INFO - Found event: Computer Basics: Cybersecurity on 2026-03-08 14:00:00-07:00
+2026-03-03 22:29:41,566 - LibraryScraper - INFO - Found event: Django Reinhardt Style Open Music Jam on 2026-03-08 14:00:00-07:00
+2026-03-03 22:29:41,566 - LibraryScraper - INFO - Found event: Sound Studio Basics on 2026-03-09 10:00:00-07:00
+2026-03-03 22:29:41,567 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-09 10:00:00-07:00
+2026-03-03 22:29:41,567 - LibraryScraper - INFO - Found event: Babytime! on 2026-03-09 10:30:00-07:00
+2026-03-03 22:29:41,567 - LibraryScraper - INFO - Found event: Join Our Podcast! on 2026-03-09 10:45:00-07:00
+2026-03-03 22:29:41,568 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-03-09 11:00:00-07:00
+2026-03-03 22:29:41,568 - LibraryScraper - INFO - Found event: Computer Basics: Cybersecurity on 2026-03-09 11:00:00-07:00
+2026-03-03 22:29:41,568 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-09 14:00:00-07:00
+2026-03-03 22:29:41,568 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-09 14:00:00-07:00
+2026-03-03 22:29:41,569 - LibraryScraper - INFO - Scraping page 5
+2026-03-03 22:29:43,449 - LibraryScraper - INFO - Found event: **Drop-In Camera Help on 2026-03-09 14:30:00-07:00
+2026-03-03 22:29:43,450 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-09 15:00:00-07:00
+2026-03-03 22:29:43,450 - LibraryScraper - INFO - Found event: Intergenerational Chess Club on 2026-03-09 15:15:00-07:00
+2026-03-03 22:29:43,451 - LibraryScraper - INFO - Found event: Kids & Family Bilingual Yoga on 2026-03-09 15:30:00-07:00
+2026-03-03 22:29:43,451 - LibraryScraper - INFO - Found event: Sit & Stitch on 2026-03-09 15:30:00-07:00
+2026-03-03 22:29:43,451 - LibraryScraper - INFO - Found event: Sit & Stitch 3:30 to 5:30 on 2026-03-09 15:30:00-07:00
+2026-03-03 22:29:43,452 - LibraryScraper - INFO - Found event: Early Reader Book Club on 2026-03-09 16:00:00-07:00
+2026-03-03 22:29:43,452 - LibraryScraper - INFO - Found event: 1:1 Tech Help on 2026-03-10 10:15:00-07:00
+2026-03-03 22:29:43,453 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-03-10 10:30:00-07:00
+2026-03-03 22:29:43,453 - LibraryScraper - INFO - Found event: Family Storytime on 2026-03-10 11:00:00-07:00
+2026-03-03 22:29:43,453 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-03-10 11:00:00-07:00
+2026-03-03 22:29:43,454 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-03-10 11:00:00-07:00
+2026-03-03 22:29:43,454 - LibraryScraper - INFO - Found event: Chair Yoga with Gail Gaskins on 2026-03-10 11:00:00-07:00
+2026-03-03 22:29:43,454 - LibraryScraper - INFO - Found event: Baby Village on 2026-03-10 11:00:00-07:00
+2026-03-03 22:29:43,455 - LibraryScraper - INFO - Found event: Chair Yoga with Lavender Lotus on 2026-03-10 13:00:00-07:00
+2026-03-03 22:29:43,455 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-10 13:00:00-07:00
+2026-03-03 22:29:43,456 - LibraryScraper - INFO - Found event: Windsor Tuesday Book Club on 2026-03-10 14:00:00-07:00
+2026-03-03 22:29:43,456 - LibraryScraper - INFO - Found event: BiblioBus at Bodega Bay School on 2026-03-10 14:30:00-07:00
+2026-03-03 22:29:43,456 - LibraryScraper - INFO - Found event: Teen Volunteer Tuesday on 2026-03-10 15:15:00-07:00
+2026-03-03 22:29:43,457 - LibraryScraper - INFO - Found event: Homework Help on 2026-03-10 15:30:00-07:00
+2026-03-03 22:29:43,457 - LibraryScraper - INFO - Found event: Studio Ghibli Film Club: My Neighbor Totoro on 2026-03-10 15:30:00-07:00
+2026-03-03 22:29:43,458 - LibraryScraper - INFO - Found event: BABYTIME (Tickets Required) on 2026-03-10 16:00:00-07:00
+2026-03-03 22:29:43,458 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-10 16:00:00-07:00
+2026-03-03 22:29:43,458 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-10 16:00:00-07:00
+2026-03-03 22:29:43,458 - LibraryScraper - INFO - Scraping page 6
+2026-03-03 22:29:46,144 - LibraryScraper - INFO - Found event: Windsor Library Advisory Board Meeting on 2026-03-10 16:00:00-07:00
+2026-03-03 22:29:46,145 - LibraryScraper - INFO - Found event: Crafting with Creativebug: Monoprints with Watercolor on 2026-03-10 16:00:00-07:00
+2026-03-03 22:29:46,145 - LibraryScraper - INFO - Found event: Spanish First Chapter Book Club on 2026-03-10 16:30:00-07:00
+2026-03-03 22:29:46,146 - LibraryScraper - INFO - Found event: Evening Family Storytime: Stuffed Animal Sleepover on 2026-03-10 17:00:00-07:00
+2026-03-03 22:29:46,146 - LibraryScraper - INFO - Found event: Central Santa Rosa Book Club on 2026-03-10 18:00:00-07:00
+2026-03-03 22:29:46,147 - LibraryScraper - INFO - Found event: Cloverdale Library Book Club on 2026-03-10 18:00:00-07:00
+2026-03-03 22:29:46,147 - LibraryScraper - INFO - Found event: Pajama Family Storytime on 2026-03-10 18:30:00-07:00
+2026-03-03 22:29:46,148 - LibraryScraper - INFO - Found event: Friends of the Healdsburg Library Book Sale on 2026-03-11 10:00:00-07:00
+2026-03-03 22:29:46,148 - LibraryScraper - INFO - Found event: Bilingual Family Storytime on 2026-03-11 10:30:00-07:00
+2026-03-03 22:29:46,149 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-03-11 10:30:00-07:00
+2026-03-03 22:29:46,149 - LibraryScraper - INFO - Found event: Family Storytime on 2026-03-11 10:30:00-07:00
+2026-03-03 22:29:46,150 - LibraryScraper - INFO - Found event: Family Law Consultations at Sonoma County Public Law Library on 2026-03-11 10:30:00-07:00
+2026-03-03 22:29:46,150 - LibraryScraper - INFO - Found event: Tai Chi with David Chung on 2026-03-11 11:00:00-07:00
+2026-03-03 22:29:46,150 - LibraryScraper - INFO - Found event: Let's Talk English Conversation Class on 2026-03-11 11:00:00-07:00
+2026-03-03 22:29:46,151 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-03-11 13:00:00-07:00
+2026-03-03 22:29:46,151 - LibraryScraper - INFO - Found event: OLLI Cinema Club on 2026-03-11 13:00:00-07:00
+2026-03-03 22:29:46,152 - LibraryScraper - INFO - Found event: Tween Game On! on 2026-03-11 13:15:00-07:00
+2026-03-03 22:29:46,152 - LibraryScraper - INFO - Found event: Rincon Valley Book Club on 2026-03-11 13:30:00-07:00
+2026-03-03 22:29:46,153 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-11 13:30:00-07:00
+2026-03-03 22:29:46,153 - LibraryScraper - INFO - Found event: **iMovie Editing on 2026-03-11 13:30:00-07:00
+2026-03-03 22:29:46,154 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-11 14:00:00-07:00
+2026-03-03 22:29:46,154 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-11 14:00:00-07:00
+2026-03-03 22:29:46,154 - LibraryScraper - INFO - Found event: After School Hang Out (Grades 6-12) on 2026-03-11 14:00:00-07:00
+2026-03-03 22:29:46,155 - LibraryScraper - INFO - Found event: Club de Cultura on 2026-03-11 15:00:00-07:00
+2026-03-03 22:29:46,155 - LibraryScraper - INFO - Scraping page 7
+2026-03-03 22:29:48,284 - LibraryScraper - INFO - Found event: Petaluma Chess Club on 2026-03-11 15:00:00-07:00
+2026-03-03 22:29:48,285 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-11 15:30:00-07:00
+2026-03-03 22:29:48,285 - LibraryScraper - INFO - Found event: First Chapter Book Club on 2026-03-11 16:00:00-07:00
+2026-03-03 22:29:48,285 - LibraryScraper - INFO - Found event: Universal Yums on 2026-03-11 16:00:00-07:00
+2026-03-03 22:29:48,286 - LibraryScraper - INFO - Found event: Bedazzle Your Favorite Book! on 2026-03-11 16:00:00-07:00
+2026-03-03 22:29:48,286 - LibraryScraper - INFO - Found event: Teens Create Club! on 2026-03-11 16:00:00-07:00
+2026-03-03 22:29:48,286 - LibraryScraper - INFO - Found event: Drop-in Teen Volunteering on 2026-03-11 16:00:00-07:00
+2026-03-03 22:29:48,287 - LibraryScraper - INFO - Found event: Crime Scene Investigations for Teens on 2026-03-11 16:30:00-07:00
+2026-03-03 22:29:48,287 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-03-11 17:00:00-07:00
+2026-03-03 22:29:48,287 - LibraryScraper - INFO - Found event: Healdsburg Library Advisory Board on 2026-03-11 17:00:00-07:00
+2026-03-03 22:29:48,288 - LibraryScraper - INFO - Found event: Guerneville Library Advisory Board Meeting on 2026-03-11 18:00:00-07:00
+2026-03-03 22:29:48,288 - LibraryScraper - INFO - Found event: Queer Book Club on 2026-03-11 18:00:00-07:00
+2026-03-03 22:29:48,288 - LibraryScraper - INFO - Found event: Art Journaling Workshop on 2026-03-11 18:00:00-07:00
+2026-03-03 22:29:48,289 - LibraryScraper - INFO - Found event: Pajama Family Storytime on 2026-03-11 18:30:00-07:00
+2026-03-03 22:29:48,289 - LibraryScraper - INFO - Found event: Sound Studio Basics - Rincon Valley on 2026-03-12 10:00:00-07:00
+2026-03-03 22:29:48,289 - LibraryScraper - INFO - Found event: BiblioBus at Petaluma Senior Center on 2026-03-12 10:00:00-07:00
+2026-03-03 22:29:48,290 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-12 10:00:00-07:00
+2026-03-03 22:29:48,290 - LibraryScraper - INFO - Found event: Friends of the Healdsburg Library Book Sale on 2026-03-12 10:00:00-07:00
+2026-03-03 22:29:48,290 - LibraryScraper - INFO - Found event: Babytime on 2026-03-12 10:15:00-07:00
+2026-03-03 22:29:48,291 - LibraryScraper - INFO - Found event: Bilingual Babytime on 2026-03-12 10:30:00-07:00
+2026-03-03 22:29:48,291 - LibraryScraper - INFO - Found event: Family Storytime (Tickets Required) on 2026-03-12 10:30:00-07:00
+2026-03-03 22:29:48,291 - LibraryScraper - INFO - Found event: Family Storytime on 2026-03-12 10:30:00-07:00
+2026-03-03 22:29:48,292 - LibraryScraper - INFO - Found event: Create and Build: Thursday fun days on 2026-03-12 10:30:00-07:00
+2026-03-03 22:29:48,292 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-03-12 11:00:00-07:00
+2026-03-03 22:29:48,292 - LibraryScraper - INFO - Scraping page 8
+2026-03-03 22:29:49,683 - LibraryScraper - INFO - Found event: Sonoma Gymnastics Academy on 2026-03-12 11:00:00-07:00
+2026-03-03 22:29:49,684 - LibraryScraper - INFO - Found event: Stay & Play! on 2026-03-12 11:00:00-07:00
+2026-03-03 22:29:49,684 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-03-12 11:00:00-07:00
+2026-03-03 22:29:49,684 - LibraryScraper - INFO - Found event: BiblioBus at Rohnert Park Senior Center on 2026-03-12 12:00:00-07:00
+2026-03-03 22:29:49,685 - LibraryScraper - INFO - Found event: Northwest Library Book Club on 2026-03-12 12:00:00-07:00
+2026-03-03 22:29:49,685 - LibraryScraper - INFO - Found event: Petaluma Library Book Club on 2026-03-12 12:00:00-07:00
+2026-03-03 22:29:49,686 - LibraryScraper - INFO - Found event: Lawyers in the Library: Employment & Civil Law on 2026-03-12 12:00:00-07:00
+2026-03-03 22:29:49,686 - LibraryScraper - INFO - Found event: Let's Talk English Conversation Class on 2026-03-12 13:00:00-07:00
+2026-03-03 22:29:49,686 - LibraryScraper - INFO - Found event: Scanning Station - Playback Memory Lab on 2026-03-12 13:00:00-07:00
+2026-03-03 22:29:49,687 - LibraryScraper - INFO - Found event: VHS Station - Playback Memory Lab on 2026-03-12 13:00:00-07:00
+2026-03-03 22:29:49,687 - LibraryScraper - INFO - Found event: Tween Game Lounge on 2026-03-12 13:15:00-07:00
+2026-03-03 22:29:49,688 - LibraryScraper - INFO - Found event: BiblioBus at The Palms on 2026-03-12 15:00:00-07:00
+2026-03-03 22:29:49,688 - LibraryScraper - INFO - Found event: Jueves de juegos on 2026-03-12 15:00:00-07:00
+2026-03-03 22:29:49,688 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-12 15:30:00-07:00
+2026-03-03 22:29:49,689 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-12 15:30:00-07:00
+2026-03-03 22:29:49,689 - LibraryScraper - INFO - Found event: Tabletop Role-Playing Game Club on 2026-03-12 15:30:00-07:00
+2026-03-03 22:29:49,690 - LibraryScraper - INFO - Found event: Universal Yums! on 2026-03-12 15:45:00-07:00
+2026-03-03 22:29:49,690 - LibraryScraper - INFO - Found event: Author Talks: Journeys of Literary Magic with Kate Quinn on 2026-03-12 16:00:00-07:00
+2026-03-03 22:29:49,690 - LibraryScraper - INFO - Found event: Lego & Build Club on 2026-03-12 16:00:00-07:00
+2026-03-03 22:29:49,691 - LibraryScraper - INFO - Found event: Sonoma Valley Library Advisory Board Meeting on 2026-03-12 16:00:00-07:00
+2026-03-03 22:29:49,691 - LibraryScraper - INFO - Found event: Book Buddies (Grades TK-3rd) on 2026-03-12 16:00:00-07:00
+2026-03-03 22:29:49,691 - LibraryScraper - INFO - Found event: Nintendo Switch 2: Free Play on 2026-03-12 16:00:00-07:00
+2026-03-03 22:29:49,692 - LibraryScraper - INFO - Found event: Intercambio on 2026-03-12 16:30:00-07:00
+2026-03-03 22:29:49,692 - LibraryScraper - INFO - Found event: Mujeres Unidas on 2026-03-12 17:00:00-07:00
+2026-03-03 22:29:49,692 - LibraryScraper - INFO - Scraping page 9
+2026-03-03 22:29:51,689 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-13 10:00:00-07:00
+2026-03-03 22:29:51,689 - LibraryScraper - INFO - Found event: Cultivating Your Inner Landscape: a 10-session series on 2026-03-13 10:00:00-07:00
+2026-03-03 22:29:51,690 - LibraryScraper - INFO - Found event: Friends of the Healdsburg Library Book Sale on 2026-03-13 10:00:00-07:00
+2026-03-03 22:29:51,690 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-13 10:15:00-07:00
+2026-03-03 22:29:51,690 - LibraryScraper - INFO - Found event: Family Storytime on 2026-03-13 10:30:00-07:00
+2026-03-03 22:29:51,691 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-13 11:00:00-07:00
+2026-03-03 22:29:51,691 - LibraryScraper - INFO - Found event: Tai Chi with David Chung on 2026-03-13 11:00:00-07:00
+2026-03-03 22:29:51,692 - LibraryScraper - INFO - Found event: Kids & Family Bilingual Yoga on 2026-03-13 11:30:00-07:00
+2026-03-03 22:29:51,692 - LibraryScraper - INFO - Found event: Baby Village on 2026-03-13 11:30:00-07:00
+2026-03-03 22:29:51,693 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-13 12:15:00-07:00
+2026-03-03 22:29:51,693 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-03-13 13:00:00-07:00
+2026-03-03 22:29:51,693 - LibraryScraper - INFO - Found event: Scanning Station - Playback Memory Lab on 2026-03-13 13:00:00-07:00
+2026-03-03 22:29:51,694 - LibraryScraper - INFO - Found event: VHS Station - Playback Memory Lab on 2026-03-13 13:00:00-07:00
+2026-03-03 22:29:51,694 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-13 13:15:00-07:00
+2026-03-03 22:29:51,695 - LibraryScraper - INFO - Found event: Seeds and Reads: The True Story of Poison Oak on 2026-03-13 15:30:00-07:00
+2026-03-03 22:29:51,695 - LibraryScraper - INFO - Found event: Studio Ghibli Movie Series on 2026-03-13 15:30:00-07:00
+2026-03-03 22:29:51,696 - LibraryScraper - INFO - Found event: 404 Found: Robotics Workshops - Week 1 (Ages 9-17) on 2026-03-13 16:00:00-07:00
+2026-03-03 22:29:51,696 - LibraryScraper - INFO - Found event: Create Teen! Derby Cars on 2026-03-13 16:30:00-07:00
+2026-03-03 22:29:51,697 - LibraryScraper - INFO - Found event: Friends of the Healdsburg Library Book Sale on 2026-03-14 10:00:00-07:00
+2026-03-03 22:29:51,697 - LibraryScraper - INFO - Found event: BiblioBus at Andy's Unity Park on 2026-03-14 10:30:00-07:00
+2026-03-03 22:29:51,697 - LibraryScraper - INFO - Found event: Coventry & Kaluza Show on 2026-03-14 10:30:00-07:00
+2026-03-03 22:29:51,698 - LibraryScraper - INFO - Found event: Lego Club on 2026-03-14 10:30:00-07:00
+2026-03-03 22:29:51,698 - LibraryScraper - INFO - Found event: Weekend Family Storytime on 2026-03-14 10:30:00-07:00
+2026-03-03 22:29:51,699 - LibraryScraper - INFO - Found event: Weekend Storytime on 2026-03-14 11:00:00-07:00
+2026-03-03 22:29:51,699 - LibraryScraper - INFO - Scraping page 10
+2026-03-03 22:29:53,658 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-14 11:00:00-07:00
+2026-03-03 22:29:53,659 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-03-14 11:30:00-07:00
+2026-03-03 22:29:53,659 - LibraryScraper - INFO - Found event: Spanish Family Storytime on 2026-03-14 11:30:00-07:00
+2026-03-03 22:29:53,660 - LibraryScraper - INFO - Found event: For the Love of Comics 2026 on 2026-03-14 12:00:00-07:00
+2026-03-03 22:29:53,660 - LibraryScraper - INFO - Found event: Cookbook Club on 2026-03-14 12:00:00-07:00
+2026-03-03 22:29:53,661 - LibraryScraper - INFO - Found event: Creative Writing Class on 2026-03-14 13:00:00-07:00
+2026-03-03 22:29:53,661 - LibraryScraper - INFO - Found event: Scanning Station - Playback Memory Lab on 2026-03-14 13:00:00-07:00
+2026-03-03 22:29:53,662 - LibraryScraper - INFO - Found event: VHS Station - Playback Memory Lab on 2026-03-14 13:00:00-07:00
+2026-03-03 22:29:53,662 - LibraryScraper - INFO - Found event: One on One Tech Help on 2026-03-14 14:00:00-07:00
+2026-03-03 22:29:53,662 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-03-14 16:00:00-07:00
+2026-03-03 22:29:53,663 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-03-14 16:30:00-07:00
+2026-03-03 22:29:53,663 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-15 14:00:00-07:00
+2026-03-03 22:29:53,664 - LibraryScraper - INFO - Found event: TCG Club: Pokemon & Magic the Gathering on 2026-03-15 14:30:00-07:00
+2026-03-03 22:29:53,664 - LibraryScraper - INFO - Found event: Sound Studio Basics on 2026-03-16 10:00:00-07:00
+2026-03-03 22:29:53,665 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-16 10:00:00-07:00
+2026-03-03 22:29:53,665 - LibraryScraper - INFO - Found event: Babytime! on 2026-03-16 10:30:00-07:00
+2026-03-03 22:29:53,665 - LibraryScraper - INFO - Found event: Join Our Podcast! on 2026-03-16 10:45:00-07:00
+2026-03-03 22:29:53,666 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-03-16 11:00:00-07:00
+2026-03-03 22:29:53,666 - LibraryScraper - INFO - Found event: Meet Me at the FAIR!! Panama Pacific International Expo 1915 on 2026-03-16 13:00:00-07:00
+2026-03-03 22:29:53,667 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-16 14:00:00-07:00
+2026-03-03 22:29:53,667 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-16 14:00:00-07:00
+2026-03-03 22:29:53,668 - LibraryScraper - INFO - Found event: Monday Movie Matinee for Adults: Big on 2026-03-16 14:00:00-07:00
+2026-03-03 22:29:53,668 - LibraryScraper - INFO - Found event: **Drop-In Camera Help on 2026-03-16 14:30:00-07:00
+2026-03-03 22:29:53,668 - LibraryScraper - INFO - Scraping page 11
+2026-03-03 22:29:55,158 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-16 15:00:00-07:00
+2026-03-03 22:29:55,158 - LibraryScraper - INFO - Found event: Intergenerational Chess Club on 2026-03-16 15:15:00-07:00
+2026-03-03 22:29:55,159 - LibraryScraper - INFO - Found event: LEGO Build Club & Rubik's Cube Corner on 2026-03-16 15:30:00-07:00
+2026-03-03 22:29:55,159 - LibraryScraper - INFO - Found event: Kids & Family Bilingual Yoga on 2026-03-16 16:00:00-07:00
+2026-03-03 22:29:55,160 - LibraryScraper - INFO - Found event: Healdsburg Senior Center Book Club on 2026-03-17 10:00:00-07:00
+2026-03-03 22:29:55,160 - LibraryScraper - INFO - Found event: 1:1 Tech Help on 2026-03-17 10:15:00-07:00
+2026-03-03 22:29:55,160 - LibraryScraper - INFO - Found event: Family Storytime on 2026-03-17 10:30:00-07:00
+2026-03-03 22:29:55,160 - LibraryScraper - INFO - Found event: BiblioBus at Living Room Life Center on 2026-03-17 10:30:00-07:00
+2026-03-03 22:29:55,161 - LibraryScraper - INFO - Found event: Little Chefs’ & Gardeners’ Story Hour on 2026-03-17 10:30:00-07:00
+2026-03-03 22:29:55,161 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-03-17 11:00:00-07:00
+2026-03-03 22:29:55,162 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-03-17 11:00:00-07:00
+2026-03-03 22:29:55,162 - LibraryScraper - INFO - Found event: Chair Yoga with Gail Gaskins on 2026-03-17 11:00:00-07:00
+2026-03-03 22:29:55,162 - LibraryScraper - INFO - Found event: Junk Journaling on 2026-03-17 11:00:00-07:00
+2026-03-03 22:29:55,163 - LibraryScraper - INFO - Found event: Rohnert Park Book Club on 2026-03-17 11:00:00-07:00
+2026-03-03 22:29:55,163 - LibraryScraper - INFO - Found event: Baby Village on 2026-03-17 11:00:00-07:00
+2026-03-03 22:29:55,163 - LibraryScraper - INFO - Found event: BiblioBus at Silvercrest Apartments on 2026-03-17 13:00:00-07:00
+2026-03-03 22:29:55,164 - LibraryScraper - INFO - Found event: Chair Yoga with Lavender Lotus on 2026-03-17 13:00:00-07:00
+2026-03-03 22:29:55,164 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-17 13:00:00-07:00
+2026-03-03 22:29:55,164 - LibraryScraper - INFO - Found event: **Create A Digital Story on 2026-03-17 13:30:00-07:00
+2026-03-03 22:29:55,165 - LibraryScraper - INFO - Found event: Teen Volunteer Tuesday on 2026-03-17 15:15:00-07:00
+2026-03-03 22:29:55,165 - LibraryScraper - INFO - Found event: BABYTIME (Tickets Required) on 2026-03-17 16:00:00-07:00
+2026-03-03 22:29:55,165 - LibraryScraper - INFO - Found event: French Family Storytime on 2026-03-17 16:00:00-07:00
+2026-03-03 22:29:55,165 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-17 16:00:00-07:00
+2026-03-03 22:29:55,166 - LibraryScraper - INFO - Found event: Stay and Make on 2026-03-17 16:00:00-07:00
+2026-03-03 22:29:55,166 - LibraryScraper - INFO - Scraping page 12
+2026-03-03 22:29:57,044 - LibraryScraper - INFO - Found event: One on One Tech Help on 2026-03-17 17:00:00-07:00
+2026-03-03 22:29:57,044 - LibraryScraper - INFO - Found event: Bilingual Paint Party on 2026-03-17 17:00:00-07:00
+2026-03-03 22:29:57,044 - LibraryScraper - INFO - Found event: Bilingual Family Storytime on 2026-03-18 10:30:00-07:00
+2026-03-03 22:29:57,045 - LibraryScraper - INFO - Found event: Family Storytime on 2026-03-18 10:30:00-07:00
+2026-03-03 22:29:57,045 - LibraryScraper - INFO - Found event: Family Storytime on 2026-03-18 10:30:00-07:00
+2026-03-03 22:29:57,046 - LibraryScraper - INFO - Found event: Baby Storytime on 2026-03-18 11:00:00-07:00
+2026-03-03 22:29:57,046 - LibraryScraper - INFO - Found event: Tai Chi with David Chung on 2026-03-18 11:00:00-07:00
+2026-03-03 22:29:57,046 - LibraryScraper - INFO - Found event: Let's Talk English Conversation Class on 2026-03-18 11:00:00-07:00
+2026-03-03 22:29:57,047 - LibraryScraper - INFO - Found event: Spanish Sensory Craft & Create: Fuzzy Fidgets on 2026-03-18 11:30:00-07:00
+2026-03-03 22:29:57,047 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-03-18 13:00:00-07:00
+2026-03-03 22:29:57,047 - LibraryScraper - INFO - Found event: Tween Game On! on 2026-03-18 13:15:00-07:00
+2026-03-03 22:29:57,048 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-18 13:30:00-07:00
+2026-03-03 22:29:57,048 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-18 14:00:00-07:00
+2026-03-03 22:29:57,049 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-18 14:00:00-07:00
+2026-03-03 22:29:57,049 - LibraryScraper - INFO - Found event: Game On! for Teens on 2026-03-18 15:00:00-07:00
+2026-03-03 22:29:57,049 - LibraryScraper - INFO - Found event: Sustainability Series: Bike Commute for Teens (pedal & e-bike) on 2026-03-18 15:00:00-07:00
+2026-03-03 22:29:57,050 - LibraryScraper - INFO - Found event: Petaluma Chess Club on 2026-03-18 15:00:00-07:00
+2026-03-03 22:29:57,050 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-18 15:30:00-07:00
+2026-03-03 22:29:57,051 - LibraryScraper - INFO - Found event: Teen Hangout: Trinket Dishes on 2026-03-18 16:00:00-07:00
+2026-03-03 22:29:57,051 - LibraryScraper - INFO - Found event: Bilingual Paint Party on 2026-03-18 16:00:00-07:00
+2026-03-03 22:29:57,052 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-03-18 17:00:00-07:00
+2026-03-03 22:29:57,052 - LibraryScraper - INFO - Found event: Free Citizenship Classes in Spanish on 2026-03-18 17:30:00-07:00
+2026-03-03 22:29:57,053 - LibraryScraper - INFO - Found event: Honoring Trans Day of Visibility: A Panel Discussion on 2026-03-18 18:00:00-07:00
+2026-03-03 22:29:57,053 - LibraryScraper - INFO - Found event: Petaluma before Columbus: Exploring a model of indigenous regenerative sustainability on 2026-03-18 18:00:00-07:00
+2026-03-03 22:29:57,053 - LibraryScraper - INFO - Scraping page 13
+2026-03-03 22:29:58,497 - LibraryScraper - INFO - Found event: Russian River Zine Club on 2026-03-18 18:00:00-07:00
+2026-03-03 22:29:58,498 - LibraryScraper - INFO - Found event: Sewing in Community on 2026-03-18 18:00:00-07:00
+2026-03-03 22:29:58,498 - LibraryScraper - INFO - Found event: Roseland Book Club on 2026-03-18 18:30:00-07:00
+2026-03-03 22:29:58,499 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-19 10:00:00-07:00
+2026-03-03 22:29:58,499 - LibraryScraper - INFO - Found event: Babytime on 2026-03-19 10:15:00-07:00
+2026-03-03 22:29:58,499 - LibraryScraper - INFO - Found event: Bilingual Babytime on 2026-03-19 10:30:00-07:00
+2026-03-03 22:29:58,500 - LibraryScraper - INFO - Found event: Family Storytime (Tickets Required) on 2026-03-19 10:30:00-07:00
+2026-03-03 22:29:58,500 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-03-19 11:00:00-07:00
+2026-03-03 22:29:58,500 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-03-19 11:00:00-07:00
+2026-03-03 22:29:58,500 - LibraryScraper - INFO - Found event: Stay & Play! on 2026-03-19 11:00:00-07:00
+2026-03-03 22:29:58,501 - LibraryScraper - INFO - Found event: Rohnert Park Senior Center Mystery Book Club on 2026-03-19 11:00:00-07:00
+2026-03-03 22:29:58,501 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-03-19 11:00:00-07:00
+2026-03-03 22:29:58,501 - LibraryScraper - INFO - Found event: BiblioBus at Cazadero History Learning Center on 2026-03-19 12:00:00-07:00
+2026-03-03 22:29:58,502 - LibraryScraper - INFO - Found event: Central Solve the Mystery Book Club on 2026-03-19 13:00:00-07:00
+2026-03-03 22:29:58,502 - LibraryScraper - INFO - Found event: Let's Talk English Conversation Class on 2026-03-19 13:00:00-07:00
+2026-03-03 22:29:58,502 - LibraryScraper - INFO - Found event: Scanning Station - Playback Memory Lab on 2026-03-19 13:00:00-07:00
+2026-03-03 22:29:58,503 - LibraryScraper - INFO - Found event: VHS Station - Playback Memory Lab on 2026-03-19 13:00:00-07:00
+2026-03-03 22:29:58,503 - LibraryScraper - INFO - Found event: BiblioBus at Monte Rio Community Center on 2026-03-19 14:00:00-07:00
+2026-03-03 22:29:58,503 - LibraryScraper - INFO - Found event: Sonoma Reads! Book Club on 2026-03-19 14:00:00-07:00
+2026-03-03 22:29:58,504 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-19 15:30:00-07:00
+2026-03-03 22:29:58,504 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-19 15:30:00-07:00
+2026-03-03 22:29:58,504 - LibraryScraper - INFO - Found event: Tabletop Role-Playing Game Club on 2026-03-19 15:30:00-07:00
+2026-03-03 22:29:58,505 - LibraryScraper - INFO - Found event: Teen Hangout & Volunteer Hour on 2026-03-19 15:45:00-07:00
+2026-03-03 22:29:58,505 - LibraryScraper - INFO - Found event: TTRPG Club (Tabletop Role-Playing Game Club) on 2026-03-19 16:00:00-07:00
+2026-03-03 22:29:58,505 - LibraryScraper - INFO - Scraping page 14
+2026-03-03 22:30:00,402 - LibraryScraper - INFO - Found event: Let's Draw! Cartoon Expressions on 2026-03-19 16:00:00-07:00
+2026-03-03 22:30:00,402 - LibraryScraper - INFO - Found event: Intercambio on 2026-03-19 16:30:00-07:00
+2026-03-03 22:30:00,403 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-20 10:00:00-07:00
+2026-03-03 22:30:00,403 - LibraryScraper - INFO - Found event: Cultivating Your Inner Landscape: a 10-session series on 2026-03-20 10:00:00-07:00
+2026-03-03 22:30:00,403 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-20 10:15:00-07:00
+2026-03-03 22:30:00,404 - LibraryScraper - INFO - Found event: Kids & Family Bilingual Yoga on 2026-03-20 10:30:00-07:00
+2026-03-03 22:30:00,404 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-20 11:00:00-07:00
+2026-03-03 22:30:00,404 - LibraryScraper - INFO - Found event: Coventry & Kaluza Show on 2026-03-20 11:00:00-07:00
+2026-03-03 22:30:00,405 - LibraryScraper - INFO - Found event: Baby Village on 2026-03-20 11:30:00-07:00
+2026-03-03 22:30:00,405 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-20 12:15:00-07:00
+2026-03-03 22:30:00,405 - LibraryScraper - INFO - Found event: Jefferson Elementary Visit on 2026-03-20 12:30:00-07:00
+2026-03-03 22:30:00,406 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-03-20 13:00:00-07:00
+2026-03-03 22:30:00,406 - LibraryScraper - INFO - Found event: Scanning Station - Playback Memory Lab on 2026-03-20 13:00:00-07:00
+2026-03-03 22:30:00,406 - LibraryScraper - INFO - Found event: VHS Station (2) - Playback Memory Lab on 2026-03-20 13:00:00-07:00
+2026-03-03 22:30:00,407 - LibraryScraper - INFO - Found event: VHS Station - Playback Memory Lab on 2026-03-20 13:00:00-07:00
+2026-03-03 22:30:00,407 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-20 13:15:00-07:00
+2026-03-03 22:30:00,407 - LibraryScraper - INFO - Found event: Let's Draw! Cartoon Expressions on 2026-03-20 15:30:00-07:00
+2026-03-03 22:30:00,408 - LibraryScraper - INFO - Found event: Seeds and Reads: The True Story of Poison Oak on 2026-03-20 16:00:00-07:00
+2026-03-03 22:30:00,408 - LibraryScraper - INFO - Found event: Crafting with Creativebug: Punch Needle Embroidery on 2026-03-20 16:00:00-07:00
+2026-03-03 22:30:00,408 - LibraryScraper - INFO - Found event: 404 Found: Robotics Workshops - Week 2 (Ages 9-17) on 2026-03-20 16:00:00-07:00
+2026-03-03 22:30:00,409 - LibraryScraper - INFO - Found event: Create Teen! Tie-Dye on 2026-03-20 16:30:00-07:00
+2026-03-03 22:30:00,409 - LibraryScraper - INFO - Found event: BiblioBus at Santa Rosa Original Certified Farmers Market on 2026-03-21 09:00:00-07:00
+2026-03-03 22:30:00,409 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-03-21 10:00:00-07:00
+2026-03-03 22:30:00,410 - LibraryScraper - INFO - Found event: Community Gardening Workshop on 2026-03-21 10:00:00-07:00
+2026-03-03 22:30:00,410 - LibraryScraper - INFO - Scraping page 15
+2026-03-03 22:30:02,375 - LibraryScraper - INFO - Found event: Weekend Family Storytime on 2026-03-21 10:30:00-07:00
+2026-03-03 22:30:02,376 - LibraryScraper - INFO - Found event: Weekend Storytime on 2026-03-21 11:00:00-07:00
+2026-03-03 22:30:02,376 - LibraryScraper - INFO - Found event: Coventry & Kaluza Show on 2026-03-21 11:00:00-07:00
+2026-03-03 22:30:02,376 - LibraryScraper - INFO - Found event: Crafting with Creativebug: Punch Needle Embroidery on 2026-03-21 11:00:00-07:00
+2026-03-03 22:30:02,377 - LibraryScraper - INFO - Found event: UC Master Gardeners - Installing & Operating a Drip Watering System on 2026-03-21 11:00:00-07:00
+2026-03-03 22:30:02,377 - LibraryScraper - INFO - Found event: For the Love of Comics 2026 on 2026-03-21 12:00:00-07:00
+2026-03-03 22:30:02,378 - LibraryScraper - INFO - Found event: Scanning Station - Playback Memory Lab on 2026-03-21 13:00:00-07:00
+2026-03-03 22:30:02,378 - LibraryScraper - INFO - Found event: VHS Station (2) - Playback Memory Lab on 2026-03-21 13:00:00-07:00
+2026-03-03 22:30:02,378 - LibraryScraper - INFO - Found event: VHS Station - Playback Memory Lab on 2026-03-21 13:00:00-07:00
+2026-03-03 22:30:02,379 - LibraryScraper - INFO - Found event: Keenan Webster - Afro Roots World Music on 2026-03-21 14:00:00-07:00
+2026-03-03 22:30:02,379 - LibraryScraper - INFO - Found event: Documenting Current Events Through Poetry: A Workshop on 2026-03-21 14:00:00-07:00
+2026-03-03 22:30:02,379 - LibraryScraper - INFO - Found event: Global Goodies on 2026-03-21 14:00:00-07:00
+2026-03-03 22:30:02,380 - LibraryScraper - INFO - Found event: Puzzle Swap on 2026-03-21 15:30:00-07:00
+2026-03-03 22:30:02,380 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-03-21 16:00:00-07:00
+2026-03-03 22:30:02,380 - LibraryScraper - INFO - Found event: Dungeons & Dragons Beginner Campaign on 2026-03-21 16:00:00-07:00
+2026-03-03 22:30:02,381 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-03-21 16:30:00-07:00
+2026-03-03 22:30:02,381 - LibraryScraper - INFO - Found event: BiblioBus at Community Housing & Resource Fair on 2026-03-22 13:00:00-07:00
+2026-03-03 22:30:02,381 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-22 14:00:00-07:00
+2026-03-03 22:30:02,382 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-22 14:00:00-07:00
+2026-03-03 22:30:02,382 - LibraryScraper - INFO - Found event: UC Master Gardeners - Growing Avocados in Sonoma County on 2026-03-22 14:00:00-07:00
+2026-03-03 22:30:02,382 - LibraryScraper - INFO - Found event: Coventry & Kaluza Show on 2026-03-22 14:30:00-07:00
+2026-03-03 22:30:02,382 - LibraryScraper - INFO - Found event: Puzzle Swap on 2026-03-22 15:30:00-07:00
+2026-03-03 22:30:02,383 - LibraryScraper - INFO - Found event: Sound Studio Basics on 2026-03-23 10:00:00-07:00
+2026-03-03 22:30:02,383 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-03-23 10:00:00-07:00
+2026-03-03 22:30:02,383 - LibraryScraper - INFO - Scraping page 16
+2026-03-03 22:30:04,169 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-03-23 10:00:00-07:00
+2026-03-03 22:30:04,169 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-23 10:00:00-07:00
+2026-03-03 22:30:04,170 - LibraryScraper - INFO - Found event: Babytime! on 2026-03-23 10:30:00-07:00
+2026-03-03 22:30:04,170 - LibraryScraper - INFO - Found event: Join Our Podcast! on 2026-03-23 10:45:00-07:00
+2026-03-03 22:30:04,170 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-03-23 11:00:00-07:00
+2026-03-03 22:30:04,171 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-03-23 11:30:00-07:00
+2026-03-03 22:30:04,171 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-23 14:00:00-07:00
+2026-03-03 22:30:04,172 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-23 14:00:00-07:00
+2026-03-03 22:30:04,172 - LibraryScraper - INFO - Found event: **Drop-In Camera Help on 2026-03-23 14:30:00-07:00
+2026-03-03 22:30:04,172 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-23 15:00:00-07:00
+2026-03-03 22:30:04,173 - LibraryScraper - INFO - Found event: Intergenerational Chess Club on 2026-03-23 15:15:00-07:00
+2026-03-03 22:30:04,173 - LibraryScraper - INFO - Found event: Kids & Family Bilingual Yoga on 2026-03-23 15:30:00-07:00
+2026-03-03 22:30:04,173 - LibraryScraper - INFO - Found event: Copy of Sit & Stitch 3:30 to 5:30 on 2026-03-23 15:30:00-07:00
+2026-03-03 22:30:04,174 - LibraryScraper - INFO - Found event: Sit & Stitch 3:30 to 5:30 on 2026-03-23 15:30:00-07:00
+2026-03-03 22:30:04,174 - LibraryScraper - INFO - Found event: 1:1 Tech Help on 2026-03-24 10:15:00-07:00
+2026-03-03 22:30:04,175 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-03-24 10:30:00-07:00
+2026-03-03 22:30:04,175 - LibraryScraper - INFO - Found event: Family Yoga on 2026-03-24 10:30:00-07:00
+2026-03-03 22:30:04,175 - LibraryScraper - INFO - Found event: Computer Basics: Mouse and Keyboard on 2026-03-24 10:30:00-07:00
+2026-03-03 22:30:04,176 - LibraryScraper - INFO - Found event: Family Storytime on 2026-03-24 11:00:00-07:00
+2026-03-03 22:30:04,176 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-03-24 11:00:00-07:00
+2026-03-03 22:30:04,176 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-03-24 11:00:00-07:00
+2026-03-03 22:30:04,177 - LibraryScraper - INFO - Found event: Author Talks: America’s Failed Response to the Opioid Crisis with Shoshana Walter on 2026-03-24 11:00:00-07:00
+2026-03-03 22:30:04,177 - LibraryScraper - INFO - Found event: Chair Yoga with Gail Gaskins on 2026-03-24 11:00:00-07:00
+2026-03-03 22:30:04,178 - LibraryScraper - INFO - Found event: Baby Village on 2026-03-24 11:00:00-07:00
+2026-03-03 22:30:04,178 - LibraryScraper - INFO - Scraping page 17
+2026-03-03 22:30:07,326 - LibraryScraper - INFO - Found event: Chair Yoga with Lavender Lotus on 2026-03-24 13:00:00-07:00
+2026-03-03 22:30:07,326 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-24 13:00:00-07:00
+2026-03-03 22:30:07,327 - LibraryScraper - INFO - Found event: Guerneville Book Club on 2026-03-24 13:30:00-07:00
+2026-03-03 22:30:07,327 - LibraryScraper - INFO - Found event: Bilingual Paint Party on 2026-03-24 13:45:00-07:00
+2026-03-03 22:30:07,328 - LibraryScraper - INFO - Found event: Computer Basics: Cybersecurity on 2026-03-24 14:00:00-07:00
+2026-03-03 22:30:07,328 - LibraryScraper - INFO - Found event: BiblioBus at Bodega Bay School on 2026-03-24 14:30:00-07:00
+2026-03-03 22:30:07,329 - LibraryScraper - INFO - Found event: Teen Volunteer Tuesday on 2026-03-24 15:15:00-07:00
+2026-03-03 22:30:07,329 - LibraryScraper - INFO - Found event: Bedazzle Your Favorite Book! on 2026-03-24 15:30:00-07:00
+2026-03-03 22:30:07,330 - LibraryScraper - INFO - Found event: Homework Help on 2026-03-24 15:30:00-07:00
+2026-03-03 22:30:07,330 - LibraryScraper - INFO - Found event: BABYTIME (Tickets Required) on 2026-03-24 16:00:00-07:00
+2026-03-03 22:30:07,330 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-24 16:00:00-07:00
+2026-03-03 22:30:07,331 - LibraryScraper - INFO - Found event: Universal Yums for Teens: Korea on 2026-03-24 16:00:00-07:00
+2026-03-03 22:30:07,331 - LibraryScraper - INFO - Found event: Seeds and Reads on 2026-03-24 16:00:00-07:00
+2026-03-03 22:30:07,332 - LibraryScraper - INFO - Found event: Dungeons & Dragons Beginner Campaign on 2026-03-24 16:00:00-07:00
+2026-03-03 22:30:07,332 - LibraryScraper - INFO - Found event: Asian Cuisine Cooking Demo - Dumplings! on 2026-03-24 18:00:00-07:00
+2026-03-03 22:30:07,333 - LibraryScraper - INFO - Found event: Read BIPOC Book Club on 2026-03-24 18:00:00-07:00
+2026-03-03 22:30:07,333 - LibraryScraper - INFO - Found event: Roseland Teen Manga Club on 2026-03-24 18:00:00-07:00
+2026-03-03 22:30:07,333 - LibraryScraper - INFO - Found event: Canon Book Club on 2026-03-24 18:00:00-07:00
+2026-03-03 22:30:07,334 - LibraryScraper - INFO - Found event: Crafting with Creativebug: Monoprints with Watercolor on 2026-03-24 18:00:00-07:00
+2026-03-03 22:30:07,334 - LibraryScraper - INFO - Found event: Bilingual Family Storytime on 2026-03-25 10:30:00-07:00
+2026-03-03 22:30:07,335 - LibraryScraper - INFO - Found event: Family Storytime on 2026-03-25 10:30:00-07:00
+2026-03-03 22:30:07,335 - LibraryScraper - INFO - Found event: Family Storytime on 2026-03-25 10:30:00-07:00
+2026-03-03 22:30:07,336 - LibraryScraper - INFO - Found event: Tai Chi with David Chung on 2026-03-25 11:00:00-07:00
+2026-03-03 22:30:07,336 - LibraryScraper - INFO - Found event: Let's Talk English Conversation Class on 2026-03-25 11:00:00-07:00
+2026-03-03 22:30:07,336 - LibraryScraper - INFO - Scraping page 18
+2026-03-03 22:30:09,086 - LibraryScraper - INFO - Found event: Get Your Content On TV on 2026-03-25 12:30:00-07:00
+2026-03-03 22:30:09,087 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-03-25 13:00:00-07:00
+2026-03-03 22:30:09,087 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-03-25 13:00:00-07:00
+2026-03-03 22:30:09,088 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-03-25 13:00:00-07:00
+2026-03-03 22:30:09,088 - LibraryScraper - INFO - Found event: Tween Game On! on 2026-03-25 13:15:00-07:00
+2026-03-03 22:30:09,089 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-25 13:30:00-07:00
+2026-03-03 22:30:09,089 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-25 14:00:00-07:00
+2026-03-03 22:30:09,089 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-25 14:00:00-07:00
+2026-03-03 22:30:09,090 - LibraryScraper - INFO - Found event: After School Hang Out (Grades 6-12) on 2026-03-25 14:00:00-07:00
+2026-03-03 22:30:09,090 - LibraryScraper - INFO - Found event: Teen Hangout: Game On! on 2026-03-25 14:45:00-07:00
+2026-03-03 22:30:09,091 - LibraryScraper - INFO - Found event: Let's Draw! Cartoon Expressions on 2026-03-25 15:00:00-07:00
+2026-03-03 22:30:09,091 - LibraryScraper - INFO - Found event: Bedazzle Your Favorite Book! on 2026-03-25 15:00:00-07:00
+2026-03-03 22:30:09,092 - LibraryScraper - INFO - Found event: Petaluma Chess Club on 2026-03-25 15:00:00-07:00
+2026-03-03 22:30:09,092 - LibraryScraper - INFO - Found event: Forestville Book Club on 2026-03-25 15:30:00-07:00
+2026-03-03 22:30:09,092 - LibraryScraper - INFO - Found event: Graphic Novel Book Club on 2026-03-25 15:30:00-07:00
+2026-03-03 22:30:09,093 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-25 15:30:00-07:00
+2026-03-03 22:30:09,093 - LibraryScraper - INFO - Found event: Teen Hangout: Universal Yums on 2026-03-25 16:00:00-07:00
+2026-03-03 22:30:09,094 - LibraryScraper - INFO - Found event: Smartphone Camera Club on 2026-03-25 16:00:00-07:00
+2026-03-03 22:30:09,094 - LibraryScraper - INFO - Found event: Petaluma Library Advisory Board on 2026-03-25 16:00:00-07:00
+2026-03-03 22:30:09,095 - LibraryScraper - INFO - Found event: Teens Create Club! on 2026-03-25 16:00:00-07:00
+2026-03-03 22:30:09,095 - LibraryScraper - INFO - Found event: Drop-in Teen Volunteering on 2026-03-25 16:00:00-07:00
+2026-03-03 22:30:09,095 - LibraryScraper - INFO - Found event: Healthy Relationships with VOICES Sonoma on 2026-03-25 16:30:00-07:00
+2026-03-03 22:30:09,096 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-03-25 17:00:00-07:00
+2026-03-03 22:30:09,096 - LibraryScraper - INFO - Found event: Free Citizenship Classes in Spanish on 2026-03-25 17:30:00-07:00
+2026-03-03 22:30:09,096 - LibraryScraper - INFO - Scraping page 19
+2026-03-03 22:30:11,159 - LibraryScraper - INFO - Found event: Pajama Storytime on 2026-03-25 18:00:00-07:00
+2026-03-03 22:30:11,160 - LibraryScraper - INFO - Found event: Santa Rosa Library Advisory Board Meeting on 2026-03-25 18:00:00-07:00
+2026-03-03 22:30:11,160 - LibraryScraper - INFO - Found event: Pajama Family Storytime on 2026-03-25 18:30:00-07:00
+2026-03-03 22:30:11,160 - LibraryScraper - INFO - Found event: BiblioBus at Petaluma Senior Center on 2026-03-26 10:00:00-07:00
+2026-03-03 22:30:11,161 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-26 10:00:00-07:00
+2026-03-03 22:30:11,161 - LibraryScraper - INFO - Found event: Babytime on 2026-03-26 10:15:00-07:00
+2026-03-03 22:30:11,162 - LibraryScraper - INFO - Found event: Bilingual Babytime on 2026-03-26 10:30:00-07:00
+2026-03-03 22:30:11,162 - LibraryScraper - INFO - Found event: Family Storytime (Tickets Required) on 2026-03-26 10:30:00-07:00
+2026-03-03 22:30:11,162 - LibraryScraper - INFO - Found event: Family Storytime on 2026-03-26 10:30:00-07:00
+2026-03-03 22:30:11,163 - LibraryScraper - INFO - Found event: Stay & Play on 2026-03-26 10:30:00-07:00
+2026-03-03 22:30:11,163 - LibraryScraper - INFO - Found event: Create and Build: Thursday fun days on 2026-03-26 10:30:00-07:00
+2026-03-03 22:30:11,163 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-03-26 11:00:00-07:00
+2026-03-03 22:30:11,164 - LibraryScraper - INFO - Found event: Stay & Play! on 2026-03-26 11:00:00-07:00
+2026-03-03 22:30:11,164 - LibraryScraper - INFO - Found event: Family is a Rainbow on 2026-03-26 11:00:00-07:00
+2026-03-03 22:30:11,165 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-03-26 11:00:00-07:00
+2026-03-03 22:30:11,165 - LibraryScraper - INFO - Found event: BiblioBus at Rohnert Park Senior Center on 2026-03-26 12:00:00-07:00
+2026-03-03 22:30:11,165 - LibraryScraper - INFO - Found event: Let's Talk English Conversation Class on 2026-03-26 13:00:00-07:00
+2026-03-03 22:30:11,166 - LibraryScraper - INFO - Found event: Scanning Station - Playback Memory Lab on 2026-03-26 13:00:00-07:00
+2026-03-03 22:30:11,166 - LibraryScraper - INFO - Found event: VHS Station - Playback Memory Lab on 2026-03-26 13:00:00-07:00
+2026-03-03 22:30:11,166 - LibraryScraper - INFO - Found event: Tween Game Lounge on 2026-03-26 13:15:00-07:00
+2026-03-03 22:30:11,167 - LibraryScraper - INFO - Found event: 4-H STEM Club on 2026-03-26 15:00:00-07:00
+2026-03-03 22:30:11,167 - LibraryScraper - INFO - Found event: BiblioBus at The Palms on 2026-03-26 15:00:00-07:00
+2026-03-03 22:30:11,167 - LibraryScraper - INFO - Found event: Jueves de juegos on 2026-03-26 15:00:00-07:00
+2026-03-03 22:30:11,167 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-26 15:30:00-07:00
+2026-03-03 22:30:11,168 - LibraryScraper - INFO - Scraping page 20
+2026-03-03 22:30:12,805 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-26 15:30:00-07:00
+2026-03-03 22:30:12,806 - LibraryScraper - INFO - Found event: Tabletop Role-Playing Game Club on 2026-03-26 15:30:00-07:00
+2026-03-03 22:30:12,806 - LibraryScraper - INFO - Found event: Teen Hangout & Volunteer Hour on 2026-03-26 15:45:00-07:00
+2026-03-03 22:30:12,807 - LibraryScraper - INFO - Found event: Lego & Build Club on 2026-03-26 16:00:00-07:00
+2026-03-03 22:30:12,807 - LibraryScraper - INFO - Found event: First Chapter Book Club on 2026-03-26 16:00:00-07:00
+2026-03-03 22:30:12,808 - LibraryScraper - INFO - Found event: Book Buddies (Grades TK-3rd) on 2026-03-26 16:00:00-07:00
+2026-03-03 22:30:12,808 - LibraryScraper - INFO - Found event: Intercambio on 2026-03-26 16:30:00-07:00
+2026-03-03 22:30:12,809 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-27 10:00:00-07:00
+2026-03-03 22:30:12,809 - LibraryScraper - INFO - Found event: Cultivating Your Inner Landscape: a 10-session series on 2026-03-27 10:00:00-07:00
+2026-03-03 22:30:12,810 - LibraryScraper - INFO - Found event: Reading in Community on 2026-03-27 10:00:00-07:00
+2026-03-03 22:30:12,810 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-27 10:15:00-07:00
+2026-03-03 22:30:12,810 - LibraryScraper - INFO - Found event: Kids & Family Bilingual Yoga on 2026-03-27 10:30:00-07:00
+2026-03-03 22:30:12,811 - LibraryScraper - INFO - Found event: Bilingual Baby and Toddler Storytime on 2026-03-27 10:30:00-07:00
+2026-03-03 22:30:12,811 - LibraryScraper - INFO - Found event: Babytime! on 2026-03-27 10:30:00-07:00
+2026-03-03 22:30:12,812 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-27 11:00:00-07:00
+2026-03-03 22:30:12,812 - LibraryScraper - INFO - Found event: Baby Village on 2026-03-27 11:15:00-07:00
+2026-03-03 22:30:12,812 - LibraryScraper - INFO - Found event: Baby Village on 2026-03-27 11:30:00-07:00
+2026-03-03 22:30:12,813 - LibraryScraper - INFO - Found event: Stay & Play on 2026-03-27 11:30:00-07:00
+2026-03-03 22:30:12,813 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-27 12:15:00-07:00
+2026-03-03 22:30:12,814 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-03-27 13:00:00-07:00
+2026-03-03 22:30:12,814 - LibraryScraper - INFO - Found event: Scanning Station - Playback Memory Lab on 2026-03-27 13:00:00-07:00
+2026-03-03 22:30:12,814 - LibraryScraper - INFO - Found event: VHS Station (2) - Playback Memory Lab on 2026-03-27 13:00:00-07:00
+2026-03-03 22:30:12,815 - LibraryScraper - INFO - Found event: VHS Station - Playback Memory Lab on 2026-03-27 13:00:00-07:00
+2026-03-03 22:30:12,815 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-27 13:15:00-07:00
+2026-03-03 22:30:12,815 - LibraryScraper - INFO - Scraping page 21
+2026-03-03 22:30:13,707 - LibraryScraper - INFO - Found event: Explore STEAM for Tweens on 2026-03-27 15:30:00-07:00
+2026-03-03 22:30:13,708 - LibraryScraper - INFO - Found event: 4-H STEM Club on 2026-03-27 16:00:00-07:00
+2026-03-03 22:30:13,708 - LibraryScraper - INFO - Found event: Seeds and Reads: The True Story of Poison Oak on 2026-03-27 16:00:00-07:00
+2026-03-03 22:30:13,708 - LibraryScraper - INFO - Found event: 404 Found: Robotics Workshops - Week 3 (Ages 9-17) on 2026-03-27 16:00:00-07:00
+2026-03-03 22:30:13,709 - LibraryScraper - INFO - Found event: Create Teen! Minute-to-Win-It Games on 2026-03-27 16:30:00-07:00
+2026-03-03 22:30:13,709 - LibraryScraper - INFO - Found event: K-POP Club on 2026-03-27 16:30:00-07:00
+2026-03-03 22:30:13,709 - LibraryScraper - INFO - Found event: BiblioBus at Climate Ready Cotati on 2026-03-28 10:00:00-07:00
+2026-03-03 22:30:13,710 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-03-28 10:30:00-07:00
+2026-03-03 22:30:13,710 - LibraryScraper - INFO - Found event: Weekend Family Storytime on 2026-03-28 10:30:00-07:00
+2026-03-03 22:30:13,710 - LibraryScraper - INFO - Found event: UC Master Gardeners - Climate Adaptation in Your Yard on 2026-03-28 10:30:00-07:00
+2026-03-03 22:30:13,711 - LibraryScraper - INFO - Found event: Weekend Storytime on 2026-03-28 11:00:00-07:00
+2026-03-03 22:30:13,711 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-28 11:00:00-07:00
+2026-03-03 22:30:13,711 - LibraryScraper - INFO - Found event: Teen STEM Saturdays on 2026-03-28 11:00:00-07:00
+2026-03-03 22:30:13,712 - LibraryScraper - INFO - Found event: For the Love of Comics 2026 on 2026-03-28 12:00:00-07:00
+2026-03-03 22:30:13,712 - LibraryScraper - INFO - Found event: Scanning Station - Playback Memory Lab on 2026-03-28 13:00:00-07:00
+2026-03-03 22:30:13,712 - LibraryScraper - INFO - Found event: VHS Station (2) - Playback Memory Lab on 2026-03-28 13:00:00-07:00
+2026-03-03 22:30:13,713 - LibraryScraper - INFO - Found event: VHS Station - Playback Memory Lab on 2026-03-28 13:00:00-07:00
+2026-03-03 22:30:13,713 - LibraryScraper - INFO - Found event: Classics You Missed Book Club on 2026-03-28 14:00:00-07:00
+2026-03-03 22:30:13,713 - LibraryScraper - INFO - Found event: Computer Basics: Email (Bilingual) on 2026-03-28 14:00:00-07:00
+2026-03-03 22:30:13,714 - LibraryScraper - INFO - Found event: Computer Basics: Cybersecurity on 2026-03-28 14:00:00-07:00
+2026-03-03 22:30:13,714 - LibraryScraper - INFO - Found event: Crafting with Creativebug: Punch Needle Embroidery on 2026-03-28 14:00:00-07:00
+2026-03-03 22:30:13,714 - LibraryScraper - INFO - Found event: Master Gardeners - Climate Adaptation in Your Yard - RESCHEDULED on 2026-03-28 14:00:00-07:00
+2026-03-03 22:30:13,715 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-03-28 16:00:00-07:00
+2026-03-03 22:30:13,715 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-03-28 16:30:00-07:00
+2026-03-03 22:30:13,715 - LibraryScraper - INFO - Scraping page 22
+2026-03-03 22:30:15,305 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-03-29 13:00:00-07:00
+2026-03-03 22:30:15,306 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-03-29 13:00:00-07:00
+2026-03-03 22:30:15,306 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-29 14:00:00-07:00
+2026-03-03 22:30:15,306 - LibraryScraper - INFO - Found event: Crafters Society on 2026-03-29 14:00:00-07:00
+2026-03-03 22:30:15,307 - LibraryScraper - INFO - Found event: Mosaic Workshop– Sunflower on 2026-03-29 14:00:00-07:00
+2026-03-03 22:30:15,307 - LibraryScraper - INFO - Found event: Sound Studio Basics on 2026-03-30 10:00:00-07:00
+2026-03-03 22:30:15,308 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-03-30 10:00:00-07:00
+2026-03-03 22:30:15,308 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-03-30 10:00:00-07:00
+2026-03-03 22:30:15,309 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-03-30 10:00:00-07:00
+2026-03-03 22:30:15,309 - LibraryScraper - INFO - Found event: Babytime! on 2026-03-30 10:30:00-07:00
+2026-03-03 22:30:15,309 - LibraryScraper - INFO - Found event: Join Our Podcast! on 2026-03-30 10:45:00-07:00
+2026-03-03 22:30:15,310 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-03-30 11:00:00-07:00
+2026-03-03 22:30:15,310 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-30 14:00:00-07:00
+2026-03-03 22:30:15,311 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-03-30 14:00:00-07:00
+2026-03-03 22:30:15,311 - LibraryScraper - INFO - Found event: **Drop-In Camera Help on 2026-03-30 14:30:00-07:00
+2026-03-03 22:30:15,311 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-03-30 15:00:00-07:00
+2026-03-03 22:30:15,312 - LibraryScraper - INFO - Found event: Intergenerational Chess Club on 2026-03-30 15:15:00-07:00
+2026-03-03 22:30:15,312 - LibraryScraper - INFO - Found event: Tween Hangout! Universal Yums on 2026-03-30 15:30:00-07:00
+2026-03-03 22:30:15,313 - LibraryScraper - INFO - Found event: Family Storytime on 2026-04-01 10:30:00-07:00
+2026-03-03 22:30:15,313 - LibraryScraper - INFO - Found event: Family Storytime on 2026-04-01 10:30:00-07:00
+2026-03-03 22:30:15,314 - LibraryScraper - INFO - Found event: Tai Chi with David Chung on 2026-04-01 11:00:00-07:00
+2026-03-03 22:30:15,314 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-04-01 13:00:00-07:00
+2026-03-03 22:30:15,314 - LibraryScraper - INFO - Scraping page 23
+2026-03-03 22:30:16,832 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-01 13:00:00-07:00
+2026-03-03 22:30:16,832 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-01 13:00:00-07:00
+2026-03-03 22:30:16,832 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-04-01 14:00:00-07:00
+2026-03-03 22:30:16,833 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-01 14:00:00-07:00
+2026-03-03 22:30:16,833 - LibraryScraper - INFO - Found event: After School Hang Out (Grades 6-12) on 2026-04-01 14:00:00-07:00
+2026-03-03 22:30:16,833 - LibraryScraper - INFO - Found event: Teen Hangout! Universal Yums on 2026-04-01 14:45:00-07:00
+2026-03-03 22:30:16,834 - LibraryScraper - INFO - Found event: Game On! for Teens on 2026-04-01 15:00:00-07:00
+2026-03-03 22:30:16,834 - LibraryScraper - INFO - Found event: Petaluma Chess Club on 2026-04-01 15:00:00-07:00
+2026-03-03 22:30:16,834 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-01 15:30:00-07:00
+2026-03-03 22:30:16,835 - LibraryScraper - INFO - Found event: Bedroom Door Poster Design @ The Phoenix on 2026-04-01 16:00:00-07:00
+2026-03-03 22:30:16,835 - LibraryScraper - INFO - Found event: Teen Hangout: Game On! on 2026-04-01 16:00:00-07:00
+2026-03-03 22:30:16,835 - LibraryScraper - INFO - Found event: Teens Create Club! on 2026-04-01 16:00:00-07:00
+2026-03-03 22:30:16,836 - LibraryScraper - INFO - Found event: Game On! for Teens on 2026-04-01 16:30:00-07:00
+2026-03-03 22:30:16,836 - LibraryScraper - INFO - Found event: Teen Advisory Group Meeting on 2026-04-01 16:30:00-07:00
+2026-03-03 22:30:16,836 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-01 17:00:00-07:00
+2026-03-03 22:30:16,837 - LibraryScraper - INFO - Found event: Lawyers in the Library on 2026-04-01 17:00:00-07:00
+2026-03-03 22:30:16,837 - LibraryScraper - INFO - Found event: Free Citizenship Classes in Spanish on 2026-04-01 17:30:00-07:00
+2026-03-03 22:30:16,837 - LibraryScraper - INFO - Found event: Creative Club: Mosaic Workshop–Sunflower on 2026-04-01 18:00:00-07:00
+2026-03-03 22:30:16,838 - LibraryScraper - INFO - Found event: Sewing in Community on 2026-04-01 18:00:00-07:00
+2026-03-03 22:30:16,838 - LibraryScraper - INFO - Found event: Pajama Family Storytime on 2026-04-01 18:30:00-07:00
+2026-03-03 22:30:16,838 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-04-02 10:00:00-07:00
+2026-03-03 22:30:16,839 - LibraryScraper - INFO - Found event: Babytime on 2026-04-02 10:15:00-07:00
+2026-03-03 22:30:16,839 - LibraryScraper - INFO - Found event: Bilingual Babytime on 2026-04-02 10:30:00-07:00
+2026-03-03 22:30:16,839 - LibraryScraper - INFO - Found event: Family Storytime (Tickets Required) on 2026-04-02 10:30:00-07:00
+2026-03-03 22:30:16,839 - LibraryScraper - INFO - Scraping page 24
+2026-03-03 22:30:18,928 - LibraryScraper - INFO - Found event: Family Storytime on 2026-04-02 10:30:00-07:00
+2026-03-03 22:30:18,929 - LibraryScraper - INFO - Found event: Family Storytime on 2026-04-02 10:30:00-07:00
+2026-03-03 22:30:18,929 - LibraryScraper - INFO - Found event: Create and Build: Thursday fun days on 2026-04-02 10:30:00-07:00
+2026-03-03 22:30:18,930 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-04-02 11:00:00-07:00
+2026-03-03 22:30:18,930 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-02 11:00:00-07:00
+2026-03-03 22:30:18,931 - LibraryScraper - INFO - Found event: Stay & Play! on 2026-04-02 11:00:00-07:00
+2026-03-03 22:30:18,931 - LibraryScraper - INFO - Found event: Author Talks: The History of US Women Astronauts on 2026-04-02 11:00:00-07:00
+2026-03-03 22:30:18,931 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-04-02 11:00:00-07:00
+2026-03-03 22:30:18,932 - LibraryScraper - INFO - Found event: BiblioBus at Cazadero History Learning Center on 2026-04-02 12:00:00-07:00
+2026-03-03 22:30:18,932 - LibraryScraper - INFO - Found event: Tween Game Lounge on 2026-04-02 13:15:00-07:00
+2026-03-03 22:30:18,933 - LibraryScraper - INFO - Found event: BiblioBus at Monte Rio Community Center on 2026-04-02 14:00:00-07:00
+2026-03-03 22:30:18,933 - LibraryScraper - INFO - Found event: Jueves de juegos on 2026-04-02 15:00:00-07:00
+2026-03-03 22:30:18,934 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-02 15:30:00-07:00
+2026-03-03 22:30:18,934 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-02 15:30:00-07:00
+2026-03-03 22:30:18,935 - LibraryScraper - INFO - Found event: Tabletop Role-Playing Game Club on 2026-04-02 15:30:00-07:00
+2026-03-03 22:30:18,935 - LibraryScraper - INFO - Found event: Bedroom Door Poster Design on 2026-04-02 16:00:00-07:00
+2026-03-03 22:30:18,935 - LibraryScraper - INFO - Found event: Lego & Build Club on 2026-04-02 16:00:00-07:00
+2026-03-03 22:30:18,936 - LibraryScraper - INFO - Found event: Sonoma Mystery Book Club on 2026-04-02 16:00:00-07:00
+2026-03-03 22:30:18,936 - LibraryScraper - INFO - Found event: Book Buddies (Grades TK-3rd) on 2026-04-02 16:00:00-07:00
+2026-03-03 22:30:18,937 - LibraryScraper - INFO - Found event: Computer Basics: Files & Tools on 2026-04-02 16:00:00-07:00
+2026-03-03 22:30:18,937 - LibraryScraper - INFO - Found event: Intercambio on 2026-04-02 16:30:00-07:00
+2026-03-03 22:30:18,938 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-04-03 10:00:00-07:00
+2026-03-03 22:30:18,938 - LibraryScraper - INFO - Found event: Early Literacy Stay and Play on 2026-04-03 10:00:00-07:00
+2026-03-03 22:30:18,938 - LibraryScraper - INFO - Found event: Cultivating Your Inner Landscape: a 10-session series on 2026-04-03 10:00:00-07:00
+2026-03-03 22:30:18,938 - LibraryScraper - INFO - Scraping page 25
+2026-03-03 22:30:20,902 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-04-03 10:15:00-07:00
+2026-03-03 22:30:20,903 - LibraryScraper - INFO - Found event: Babytime! on 2026-04-03 10:30:00-07:00
+2026-03-03 22:30:20,903 - LibraryScraper - INFO - Found event: Common Ground Book Club: books by & about people with disabilities on 2026-04-03 10:30:00-07:00
+2026-03-03 22:30:20,903 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-04-03 11:00:00-07:00
+2026-03-03 22:30:20,904 - LibraryScraper - INFO - Found event: Baby Village on 2026-04-03 11:30:00-07:00
+2026-03-03 22:30:20,904 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-04-03 12:15:00-07:00
+2026-03-03 22:30:20,904 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-04-03 13:00:00-07:00
+2026-03-03 22:30:20,905 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-04-03 13:15:00-07:00
+2026-03-03 22:30:20,905 - LibraryScraper - INFO - Found event: Crafting with Creativebug: Punch Needle Embroidery on 2026-04-03 14:00:00-07:00
+2026-03-03 22:30:20,905 - LibraryScraper - INFO - Found event: Friday Flicks on 2026-04-03 15:45:00-07:00
+2026-03-03 22:30:20,906 - LibraryScraper - INFO - Found event: 404 Found: Robotics Workshops - Week 4 (Ages 9-17) on 2026-04-03 16:00:00-07:00
+2026-03-03 22:30:20,906 - LibraryScraper - INFO - Found event: Paying for College with Scholarships Series on 2026-04-03 16:30:00-07:00
+2026-03-03 22:30:20,906 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-04-04 10:00:00-07:00
+2026-03-03 22:30:20,907 - LibraryScraper - INFO - Found event: Weekend Family Storytime on 2026-04-04 10:30:00-07:00
+2026-03-03 22:30:20,907 - LibraryScraper - INFO - Found event: UC Master Gardeners: Good Bugs vs. Bad Bugs on 2026-04-04 10:30:00-07:00
+2026-03-03 22:30:20,907 - LibraryScraper - INFO - Found event: Santa Rosa Symphony on 2026-04-04 11:00:00-07:00
+2026-03-03 22:30:20,908 - LibraryScraper - INFO - Found event: Weekend Storytime on 2026-04-04 11:00:00-07:00
+2026-03-03 22:30:20,908 - LibraryScraper - INFO - Found event: For the Love of Comics 2026 on 2026-04-04 12:00:00-07:00
+2026-03-03 22:30:20,908 - LibraryScraper - INFO - Found event: Santa Rosa Symphony on 2026-04-04 14:00:00-07:00
+2026-03-03 22:30:20,909 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-04-04 16:00:00-07:00
+2026-03-03 22:30:20,909 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-04-04 16:30:00-07:00
+2026-03-03 22:30:20,909 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-05 13:00:00-07:00
+2026-03-03 22:30:20,909 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-05 13:00:00-07:00
+2026-03-03 22:30:20,910 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-05 14:00:00-07:00
+2026-03-03 22:30:20,910 - LibraryScraper - INFO - Scraping page 26
+2026-03-03 22:30:23,605 - LibraryScraper - INFO - Found event: Sound Studio Basics on 2026-04-06 10:00:00-07:00
+2026-03-03 22:30:23,606 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-06 10:00:00-07:00
+2026-03-03 22:30:23,606 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-06 10:00:00-07:00
+2026-03-03 22:30:23,607 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-04-06 10:00:00-07:00
+2026-03-03 22:30:23,607 - LibraryScraper - INFO - Found event: Babytime! on 2026-04-06 10:30:00-07:00
+2026-03-03 22:30:23,608 - LibraryScraper - INFO - Found event: Join Our Podcast! on 2026-04-06 10:45:00-07:00
+2026-03-03 22:30:23,608 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-06 11:00:00-07:00
+2026-03-03 22:30:23,609 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-04-06 14:00:00-07:00
+2026-03-03 22:30:23,609 - LibraryScraper - INFO - Found event: English Conversation Club on 2026-04-06 14:00:00-07:00
+2026-03-03 22:30:23,609 - LibraryScraper - INFO - Found event: **Drop-In Camera Help on 2026-04-06 14:30:00-07:00
+2026-03-03 22:30:23,610 - LibraryScraper - INFO - Found event: Windsor Senior Center - Monday Mystery Book Club on 2026-04-06 14:30:00-07:00
+2026-03-03 22:30:23,610 - LibraryScraper - INFO - Found event: Intergenerational Chess Club on 2026-04-06 15:15:00-07:00
+2026-03-03 22:30:23,611 - LibraryScraper - INFO - Found event: Club de cultura on 2026-04-06 15:30:00-07:00
+2026-03-03 22:30:23,611 - LibraryScraper - INFO - Found event: 4-H STEM Club on 2026-04-06 16:00:00-07:00
+2026-03-03 22:30:23,611 - LibraryScraper - INFO - Found event: 1:1 Tech Help on 2026-04-07 10:15:00-07:00
+2026-03-03 22:30:23,612 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-04-07 10:30:00-07:00
+2026-03-03 22:30:23,612 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-04-07 10:30:00-07:00
+2026-03-03 22:30:23,612 - LibraryScraper - INFO - Found event: BiblioBus at Living Room Life Center on 2026-04-07 10:30:00-07:00
+2026-03-03 22:30:23,613 - LibraryScraper - INFO - Found event: Coventry & Kaluza Show on 2026-04-07 10:30:00-07:00
+2026-03-03 22:30:23,613 - LibraryScraper - INFO - Found event: Family Storytime on 2026-04-07 11:00:00-07:00
+2026-03-03 22:30:23,614 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-04-07 11:00:00-07:00
+2026-03-03 22:30:23,614 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-07 11:00:00-07:00
+2026-03-03 22:30:23,614 - LibraryScraper - INFO - Found event: Baby Village on 2026-04-07 11:00:00-07:00
+2026-03-03 22:30:23,615 - LibraryScraper - INFO - Found event: Healdsburg Book Club on 2026-04-07 12:00:00-07:00
+2026-03-03 22:30:23,615 - LibraryScraper - INFO - Scraping page 27
+2026-03-03 22:30:27,415 - LibraryScraper - INFO - Found event: BiblioBus at Silvercrest Apartments on 2026-04-07 13:00:00-07:00
+2026-03-03 22:30:27,416 - LibraryScraper - INFO - Found event: Chair Yoga with Lavender Lotus on 2026-04-07 13:00:00-07:00
+2026-03-03 22:30:27,416 - LibraryScraper - INFO - Found event: Teen Hangout: Universal Yums on 2026-04-07 13:45:00-07:00
+2026-03-03 22:30:27,417 - LibraryScraper - INFO - Found event: Sonoma Ready: What is your Emergency APP-titude! on 2026-04-07 14:00:00-07:00
+2026-03-03 22:30:27,417 - LibraryScraper - INFO - Found event: Teen Volunteer Tuesday on 2026-04-07 15:15:00-07:00
+2026-03-03 22:30:27,418 - LibraryScraper - INFO - Found event: BABYTIME (Tickets Required) on 2026-04-07 16:00:00-07:00
+2026-03-03 22:30:27,418 - LibraryScraper - INFO - Found event: Build Club (Legos, Keva Planks and more) on 2026-04-07 16:00:00-07:00
+2026-03-03 22:30:27,418 - LibraryScraper - INFO - Found event: Bedazzle Your Favorite Book! on 2026-04-07 16:00:00-07:00
+2026-03-03 22:30:27,419 - LibraryScraper - INFO - Found event: What do Texts and Poems Have in Common? on 2026-04-07 16:00:00-07:00
+2026-03-03 22:30:27,419 - LibraryScraper - INFO - Found event: First Chapter Book Club on 2026-04-07 16:30:00-07:00
+2026-03-03 22:30:27,420 - LibraryScraper - INFO - Found event: Asian Cuisine Cooking Demo - Dumplings! on 2026-04-07 18:00:00-07:00
+2026-03-03 22:30:27,420 - LibraryScraper - INFO - Found event: History Talk: Shopping in Old Time Healdsburg:  Favorite Markets and Stores on 2026-04-07 18:00:00-07:00
+2026-03-03 22:30:27,421 - LibraryScraper - INFO - Found event: Paying for College with Scholarships Series on 2026-04-07 18:00:00-07:00
+2026-03-03 22:30:27,421 - LibraryScraper - INFO - Found event: Sonoma Co. Zine Club on 2026-04-07 18:00:00-07:00
+2026-03-03 22:30:27,421 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-04-08 10:30:00-07:00
+2026-03-03 22:30:27,422 - LibraryScraper - INFO - Found event: Family is a Rainbow Storytime on 2026-04-08 10:30:00-07:00
+2026-03-03 22:30:27,422 - LibraryScraper - INFO - Found event: Family Storytime on 2026-04-08 10:30:00-07:00
+2026-03-03 22:30:27,423 - LibraryScraper - INFO - Found event: Family Law Consultations at Sonoma County Public Law Library on 2026-04-08 10:30:00-07:00
+2026-03-03 22:30:27,423 - LibraryScraper - INFO - Found event: Tai Chi with David Chung on 2026-04-08 11:00:00-07:00
+2026-03-03 22:30:27,424 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-04-08 13:00:00-07:00
+2026-03-03 22:30:27,424 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-08 13:00:00-07:00
+2026-03-03 22:30:27,424 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-08 13:00:00-07:00
+2026-03-03 22:30:27,425 - LibraryScraper - INFO - Found event: Tween Game On! on 2026-04-08 13:15:00-07:00
+2026-03-03 22:30:27,425 - LibraryScraper - INFO - Found event: Rincon Valley Book Club on 2026-04-08 13:30:00-07:00
+2026-03-03 22:30:27,425 - LibraryScraper - INFO - Scraping page 28
+2026-03-03 22:30:29,221 - LibraryScraper - INFO - Found event: *iMovie Editing on 2026-04-08 13:30:00-07:00
+2026-03-03 22:30:29,222 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-08 14:00:00-07:00
+2026-03-03 22:30:29,222 - LibraryScraper - INFO - Found event: After School Hang Out (Grades 6-12) on 2026-04-08 14:00:00-07:00
+2026-03-03 22:30:29,222 - LibraryScraper - INFO - Found event: Bilingual Paint Party on 2026-04-08 14:45:00-07:00
+2026-03-03 22:30:29,223 - LibraryScraper - INFO - Found event: Club de Cultura on 2026-04-08 15:00:00-07:00
+2026-03-03 22:30:29,223 - LibraryScraper - INFO - Found event: Petaluma Chess Club on 2026-04-08 15:00:00-07:00
+2026-03-03 22:30:29,223 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-08 15:30:00-07:00
+2026-03-03 22:30:29,224 - LibraryScraper - INFO - Found event: First Chapter Book Club on 2026-04-08 16:00:00-07:00
+2026-03-03 22:30:29,224 - LibraryScraper - INFO - Found event: Universal Yums on 2026-04-08 16:00:00-07:00
+2026-03-03 22:30:29,224 - LibraryScraper - INFO - Found event: Bedazzle Your Favorite Book! on 2026-04-08 16:00:00-07:00
+2026-03-03 22:30:29,225 - LibraryScraper - INFO - Found event: What do Texts and Poems Have in Common? on 2026-04-08 16:00:00-07:00
+2026-03-03 22:30:29,225 - LibraryScraper - INFO - Found event: Paying for College with Scholarships Series on 2026-04-08 16:30:00-07:00
+2026-03-03 22:30:29,225 - LibraryScraper - INFO - Found event: River Friends of the Library Board meeting on 2026-04-08 16:30:00-07:00
+2026-03-03 22:30:29,226 - LibraryScraper - INFO - Found event: Sebastopol Library Advisory Board Meeting on 2026-04-08 16:30:00-07:00
+2026-03-03 22:30:29,226 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-08 17:00:00-07:00
+2026-03-03 22:30:29,226 - LibraryScraper - INFO - Found event: Free Citizenship Classes in Spanish on 2026-04-08 17:30:00-07:00
+2026-03-03 22:30:29,227 - LibraryScraper - INFO - Found event: Queer Book Club on 2026-04-08 18:00:00-07:00
+2026-03-03 22:30:29,227 - LibraryScraper - INFO - Found event: Sonoma Ready: What is your Emergency APP-titude! on 2026-04-08 18:00:00-07:00
+2026-03-03 22:30:29,227 - LibraryScraper - INFO - Found event: Library Commission Regular Meeting on 2026-04-08 18:00:00-07:00
+2026-03-03 22:30:29,228 - LibraryScraper - INFO - Found event: Pajama Family Storytime on 2026-04-08 18:30:00-07:00
+2026-03-03 22:30:29,228 - LibraryScraper - INFO - Found event: BiblioBus at Petaluma Senior Center on 2026-04-09 10:00:00-07:00
+2026-03-03 22:30:29,228 - LibraryScraper - INFO - Found event: Coventry & Kaluza Show on 2026-04-09 10:00:00-07:00
+2026-03-03 22:30:29,229 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-04-09 10:00:00-07:00
+2026-03-03 22:30:29,229 - LibraryScraper - INFO - Found event: Babytime on 2026-04-09 10:15:00-07:00
+2026-03-03 22:30:29,229 - LibraryScraper - INFO - Scraping page 29
+2026-03-03 22:30:31,073 - LibraryScraper - INFO - Found event: Bilingual Babytime on 2026-04-09 10:30:00-07:00
+2026-03-03 22:30:31,074 - LibraryScraper - INFO - Found event: Family Storytime (Tickets Required) on 2026-04-09 10:30:00-07:00
+2026-03-03 22:30:31,074 - LibraryScraper - INFO - Found event: Kids & Family Bilingual Yoga on 2026-04-09 10:30:00-07:00
+2026-03-03 22:30:31,074 - LibraryScraper - INFO - Found event: Family Storytime on 2026-04-09 10:30:00-07:00
+2026-03-03 22:30:31,075 - LibraryScraper - INFO - Found event: Create and Build: Thursday fun days on 2026-04-09 10:30:00-07:00
+2026-03-03 22:30:31,075 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-09 11:00:00-07:00
+2026-03-03 22:30:31,076 - LibraryScraper - INFO - Found event: Sonoma Gymnastics Academy on 2026-04-09 11:00:00-07:00
+2026-03-03 22:30:31,076 - LibraryScraper - INFO - Found event: Stay & Play! on 2026-04-09 11:00:00-07:00
+2026-03-03 22:30:31,076 - LibraryScraper - INFO - Found event: BiblioBus at Rohnert Park Senior Center on 2026-04-09 12:00:00-07:00
+2026-03-03 22:30:31,077 - LibraryScraper - INFO - Found event: Northwest Library Book Club on 2026-04-09 12:00:00-07:00
+2026-03-03 22:30:31,077 - LibraryScraper - INFO - Found event: Petaluma Library Book Club on 2026-04-09 12:00:00-07:00
+2026-03-03 22:30:31,077 - LibraryScraper - INFO - Found event: Lawyers in the Library: Employment & Civil Law on 2026-04-09 12:00:00-07:00
+2026-03-03 22:30:31,078 - LibraryScraper - INFO - Found event: Tween Game Lounge on 2026-04-09 13:15:00-07:00
+2026-03-03 22:30:31,078 - LibraryScraper - INFO - Found event: BiblioBus at The Palms on 2026-04-09 15:00:00-07:00
+2026-03-03 22:30:31,079 - LibraryScraper - INFO - Found event: Jueves de juegos on 2026-04-09 15:00:00-07:00
+2026-03-03 22:30:31,079 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-09 15:30:00-07:00
+2026-03-03 22:30:31,079 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-09 15:30:00-07:00
+2026-03-03 22:30:31,080 - LibraryScraper - INFO - Found event: Tabletop Role-Playing Game Club on 2026-04-09 15:30:00-07:00
+2026-03-03 22:30:31,080 - LibraryScraper - INFO - Found event: Lego & Build Club on 2026-04-09 16:00:00-07:00
+2026-03-03 22:30:31,080 - LibraryScraper - INFO - Found event: Make a Zine on 2026-04-09 16:00:00-07:00
+2026-03-03 22:30:31,081 - LibraryScraper - INFO - Found event: Sonoma Valley Library Advisory Board Meeting on 2026-04-09 16:00:00-07:00
+2026-03-03 22:30:31,081 - LibraryScraper - INFO - Found event: Book Buddies (Grades TK-3rd) on 2026-04-09 16:00:00-07:00
+2026-03-03 22:30:31,082 - LibraryScraper - INFO - Found event: Nintendo Switch 2: Free Play on 2026-04-09 16:00:00-07:00
+2026-03-03 22:30:31,082 - LibraryScraper - INFO - Found event: Intercambio on 2026-04-09 16:30:00-07:00
+2026-03-03 22:30:31,082 - LibraryScraper - INFO - Scraping page 30
+2026-03-03 22:30:33,404 - LibraryScraper - INFO - Found event: Paying for College with Scholarships Series on 2026-04-09 16:30:00-07:00
+2026-03-03 22:30:33,405 - LibraryScraper - INFO - Found event: Mujeres Unidas on 2026-04-09 17:00:00-07:00
+2026-03-03 22:30:33,405 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-04-10 10:00:00-07:00
+2026-03-03 22:30:33,406 - LibraryScraper - INFO - Found event: Cultivating Your Inner Landscape: a 10-session series on 2026-04-10 10:00:00-07:00
+2026-03-03 22:30:33,406 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-04-10 10:15:00-07:00
+2026-03-03 22:30:33,407 - LibraryScraper - INFO - Found event: Bilingual Baby and Toddler Storytime on 2026-04-10 10:30:00-07:00
+2026-03-03 22:30:33,407 - LibraryScraper - INFO - Found event: Family Storytime on 2026-04-10 10:30:00-07:00
+2026-03-03 22:30:33,407 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-04-10 11:00:00-07:00
+2026-03-03 22:30:33,408 - LibraryScraper - INFO - Found event: Tai Chi with David Chung on 2026-04-10 11:00:00-07:00
+2026-03-03 22:30:33,408 - LibraryScraper - INFO - Found event: Kids & Family Bilingual Yoga on 2026-04-10 11:30:00-07:00
+2026-03-03 22:30:33,409 - LibraryScraper - INFO - Found event: Baby Village on 2026-04-10 11:30:00-07:00
+2026-03-03 22:30:33,409 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-04-10 12:15:00-07:00
+2026-03-03 22:30:33,410 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-04-10 13:00:00-07:00
+2026-03-03 22:30:33,410 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-04-10 13:15:00-07:00
+2026-03-03 22:30:33,410 - LibraryScraper - INFO - Found event: Sensory Craft & Create: Fuzzy Fidgets on 2026-04-10 15:30:00-07:00
+2026-03-03 22:30:33,411 - LibraryScraper - INFO - Found event: Studio Ghibli Movie Series on 2026-04-10 15:30:00-07:00
+2026-03-03 22:30:33,411 - LibraryScraper - INFO - Found event: 404 Found: Robotics Workshops - Week 5 (Ages 9-17) on 2026-04-10 16:00:00-07:00
+2026-03-03 22:30:33,412 - LibraryScraper - INFO - Found event: Paying for College with Scholarships Series on 2026-04-10 16:30:00-07:00
+2026-03-03 22:30:33,412 - LibraryScraper - INFO - Found event: BiblioBus at Andy's Unity Park on 2026-04-11 10:30:00-07:00
+2026-03-03 22:30:33,413 - LibraryScraper - INFO - Found event: Weekend Family Storytime on 2026-04-11 10:30:00-07:00
+2026-03-03 22:30:33,413 - LibraryScraper - INFO - Found event: Lego & Build Club on 2026-04-11 11:00:00-07:00
+2026-03-03 22:30:33,413 - LibraryScraper - INFO - Found event: Dungeons & Dragons Beginner Campaign on 2026-04-11 11:00:00-07:00
+2026-03-03 22:30:33,414 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-04-11 11:30:00-07:00
+2026-03-03 22:30:33,414 - LibraryScraper - INFO - Found event: Cookbook Club on 2026-04-11 12:00:00-07:00
+2026-03-03 22:30:33,414 - LibraryScraper - INFO - Scraping page 31
+2026-03-03 22:30:35,901 - LibraryScraper - INFO - Found event: LoCura Music Trio on 2026-04-11 14:00:00-07:00
+2026-03-03 22:30:35,901 - LibraryScraper - INFO - Found event: One on One Tech Help on 2026-04-11 14:00:00-07:00
+2026-03-03 22:30:35,902 - LibraryScraper - INFO - Found event: Poetry Reading on 2026-04-11 14:00:00-07:00
+2026-03-03 22:30:35,902 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-04-11 16:00:00-07:00
+2026-03-03 22:30:35,903 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-04-11 16:30:00-07:00
+2026-03-03 22:30:35,903 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-12 13:00:00-07:00
+2026-03-03 22:30:35,903 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-12 13:00:00-07:00
+2026-03-03 22:30:35,904 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-12 14:00:00-07:00
+2026-03-03 22:30:35,904 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-12 14:00:00-07:00
+2026-03-03 22:30:35,905 - LibraryScraper - INFO - Found event: Let's Play Family Lotería! on 2026-04-12 14:30:00-07:00
+2026-03-03 22:30:35,905 - LibraryScraper - INFO - Found event: Sound Studio Basics on 2026-04-13 10:00:00-07:00
+2026-03-03 22:30:35,906 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-13 10:00:00-07:00
+2026-03-03 22:30:35,906 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-13 10:00:00-07:00
+2026-03-03 22:30:35,906 - LibraryScraper - INFO - Found event: AARP Tax-Aide on 2026-04-13 10:00:00-07:00
+2026-03-03 22:30:35,907 - LibraryScraper - INFO - Found event: Babytime! on 2026-04-13 10:30:00-07:00
+2026-03-03 22:30:35,907 - LibraryScraper - INFO - Found event: Join Our Podcast! on 2026-04-13 10:45:00-07:00
+2026-03-03 22:30:35,908 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-13 11:00:00-07:00
+2026-03-03 22:30:35,908 - LibraryScraper - INFO - Found event: **Drop-In Camera Help on 2026-04-13 14:30:00-07:00
+2026-03-03 22:30:35,909 - LibraryScraper - INFO - Found event: Intergenerational Chess Club on 2026-04-13 15:15:00-07:00
+2026-03-03 22:30:35,909 - LibraryScraper - INFO - Found event: Sit & Stitch 3:30 to 5:30 on 2026-04-13 15:30:00-07:00
+2026-03-03 22:30:35,910 - LibraryScraper - INFO - Found event: 1:1 Tech Help on 2026-04-14 10:15:00-07:00
+2026-03-03 22:30:35,910 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-04-14 10:30:00-07:00
+2026-03-03 22:30:35,910 - LibraryScraper - INFO - Found event: Family Storytime on 2026-04-14 11:00:00-07:00
+2026-03-03 22:30:35,911 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-04-14 11:00:00-07:00
+2026-03-03 22:30:35,911 - LibraryScraper - INFO - Scraping page 32
+2026-03-03 22:30:37,433 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-14 11:00:00-07:00
+2026-03-03 22:30:37,433 - LibraryScraper - INFO - Found event: Baby Village on 2026-04-14 11:00:00-07:00
+2026-03-03 22:30:37,434 - LibraryScraper - INFO - Found event: Bedazzle Your Favorite Book! on 2026-04-14 13:45:00-07:00
+2026-03-03 22:30:37,434 - LibraryScraper - INFO - Found event: Windsor Tuesday Book Club on 2026-04-14 14:00:00-07:00
+2026-03-03 22:30:37,434 - LibraryScraper - INFO - Found event: BiblioBus at Bodega Bay School on 2026-04-14 14:30:00-07:00
+2026-03-03 22:30:37,435 - LibraryScraper - INFO - Found event: Teen Volunteer Tuesday on 2026-04-14 15:15:00-07:00
+2026-03-03 22:30:37,435 - LibraryScraper - INFO - Found event: Homework Help on 2026-04-14 15:30:00-07:00
+2026-03-03 22:30:37,435 - LibraryScraper - INFO - Found event: BABYTIME (Tickets Required) on 2026-04-14 16:00:00-07:00
+2026-03-03 22:30:37,436 - LibraryScraper - INFO - Found event: Author Talks: On Writing Suspenseful Spycraft with Brad Taylor on 2026-04-14 16:00:00-07:00
+2026-03-03 22:30:37,436 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-14 16:00:00-07:00
+2026-03-03 22:30:37,436 - LibraryScraper - INFO - Found event: Crafting with Creativebug: Punch Needle Embroidery on 2026-04-14 16:00:00-07:00
+2026-03-03 22:30:37,437 - LibraryScraper - INFO - Found event: Spanish First Chapter Book Club on 2026-04-14 16:30:00-07:00
+2026-03-03 22:30:37,437 - LibraryScraper - INFO - Found event: Evening Family Storytime on 2026-04-14 17:00:00-07:00
+2026-03-03 22:30:37,437 - LibraryScraper - INFO - Found event: One on One Tech Help on 2026-04-14 17:00:00-07:00
+2026-03-03 22:30:37,438 - LibraryScraper - INFO - Found event: Healthy Relationships with VOICES Sonoma on 2026-04-14 17:30:00-07:00
+2026-03-03 22:30:37,438 - LibraryScraper - INFO - Found event: Central Santa Rosa Book Club on 2026-04-14 18:00:00-07:00
+2026-03-03 22:30:37,438 - LibraryScraper - INFO - Found event: Cloverdale Library Book Club on 2026-04-14 18:00:00-07:00
+2026-03-03 22:30:37,439 - LibraryScraper - INFO - Found event: Paying for College with Scholarships Series on 2026-04-14 18:00:00-07:00
+2026-03-03 22:30:37,439 - LibraryScraper - INFO - Found event: Bilingual Family Storytime on 2026-04-15 10:30:00-07:00
+2026-03-03 22:30:37,439 - LibraryScraper - INFO - Found event: Family Storytime on 2026-04-15 10:30:00-07:00
+2026-03-03 22:30:37,440 - LibraryScraper - INFO - Found event: Family Storytime on 2026-04-15 10:30:00-07:00
+2026-03-03 22:30:37,440 - LibraryScraper - INFO - Found event: Baby Storytime on 2026-04-15 11:00:00-07:00
+2026-03-03 22:30:37,440 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-04-15 13:00:00-07:00
+2026-03-03 22:30:37,440 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-15 13:00:00-07:00
+2026-03-03 22:30:37,441 - LibraryScraper - INFO - Scraping page 33
+2026-03-03 22:30:38,939 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-15 13:00:00-07:00
+2026-03-03 22:30:38,939 - LibraryScraper - INFO - Found event: Tween Game On! on 2026-04-15 13:15:00-07:00
+2026-03-03 22:30:38,939 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-15 14:00:00-07:00
+2026-03-03 22:30:38,940 - LibraryScraper - INFO - Found event: After School Hang Out (Grades 6-12) on 2026-04-15 14:00:00-07:00
+2026-03-03 22:30:38,940 - LibraryScraper - INFO - Found event: Bedazzle Your Favorite Book! on 2026-04-15 14:45:00-07:00
+2026-03-03 22:30:38,941 - LibraryScraper - INFO - Found event: Game On! for Teens on 2026-04-15 15:00:00-07:00
+2026-03-03 22:30:38,941 - LibraryScraper - INFO - Found event: Petaluma Chess Club on 2026-04-15 15:00:00-07:00
+2026-03-03 22:30:38,941 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-15 15:30:00-07:00
+2026-03-03 22:30:38,942 - LibraryScraper - INFO - Found event: Teen Hangout: Make a Zine on 2026-04-15 16:00:00-07:00
+2026-03-03 22:30:38,942 - LibraryScraper - INFO - Found event: Teens Create Club! on 2026-04-15 16:00:00-07:00
+2026-03-03 22:30:38,943 - LibraryScraper - INFO - Found event: Paying for College with Scholarships Series on 2026-04-15 16:30:00-07:00
+2026-03-03 22:30:38,943 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-15 17:00:00-07:00
+2026-03-03 22:30:38,943 - LibraryScraper - INFO - Found event: Members Only! Friends of the Rohnert Park Cotati Library Book Sale on 2026-04-15 17:00:00-07:00
+2026-03-03 22:30:38,944 - LibraryScraper - INFO - Found event: Poem in Your Pocket Preview on 2026-04-15 18:00:00-07:00
+2026-03-03 22:30:38,944 - LibraryScraper - INFO - Found event: Russian River Zine Club on 2026-04-15 18:00:00-07:00
+2026-03-03 22:30:38,944 - LibraryScraper - INFO - Found event: Sewing in Community on 2026-04-15 18:00:00-07:00
+2026-03-03 22:30:38,945 - LibraryScraper - INFO - Found event: Pajama Family Storytime on 2026-04-15 18:30:00-07:00
+2026-03-03 22:30:38,945 - LibraryScraper - INFO - Found event: Roseland Book Club on 2026-04-15 18:30:00-07:00
+2026-03-03 22:30:38,946 - LibraryScraper - INFO - Found event: Windsor Nonfiction Book Club on 2026-04-15 18:30:00-07:00
+2026-03-03 22:30:38,946 - LibraryScraper - INFO - Found event: Friends of the Rohnert Park Cotati Library Book Sale on 2026-04-16 10:00:00-07:00
+2026-03-03 22:30:38,946 - LibraryScraper - INFO - Found event: Bilingual Babytime on 2026-04-16 10:30:00-07:00
+2026-03-03 22:30:38,947 - LibraryScraper - INFO - Found event: Family Storytime (Tickets Required) on 2026-04-16 10:30:00-07:00
+2026-03-03 22:30:38,947 - LibraryScraper - INFO - Found event: Family Storytime on 2026-04-16 10:30:00-07:00
+2026-03-03 22:30:38,947 - LibraryScraper - INFO - Found event: The Book of Wonders on 2026-04-16 10:30:00-07:00
+2026-03-03 22:30:38,948 - LibraryScraper - INFO - Scraping page 34
+2026-03-03 22:30:40,610 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-04-16 11:00:00-07:00
+2026-03-03 22:30:40,610 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-16 11:00:00-07:00
+2026-03-03 22:30:40,611 - LibraryScraper - INFO - Found event: Stay & Play! on 2026-04-16 11:00:00-07:00
+2026-03-03 22:30:40,611 - LibraryScraper - INFO - Found event: Sensory Craft & Create: Fuzzy Fidgets on 2026-04-16 11:00:00-07:00
+2026-03-03 22:30:40,612 - LibraryScraper - INFO - Found event: Rohnert Park Senior Center Mystery Book Club on 2026-04-16 11:00:00-07:00
+2026-03-03 22:30:40,612 - LibraryScraper - INFO - Found event: BiblioBus at Cazadero History Learning Center on 2026-04-16 12:00:00-07:00
+2026-03-03 22:30:40,612 - LibraryScraper - INFO - Found event: Create and Build: Thursday fun days on 2026-04-16 12:30:00-07:00
+2026-03-03 22:30:40,613 - LibraryScraper - INFO - Found event: Central Solve the Mystery Book Club on 2026-04-16 13:00:00-07:00
+2026-03-03 22:30:40,613 - LibraryScraper - INFO - Found event: Tween Game Lounge on 2026-04-16 13:15:00-07:00
+2026-03-03 22:30:40,614 - LibraryScraper - INFO - Found event: BiblioBus at Monte Rio Community Center on 2026-04-16 14:00:00-07:00
+2026-03-03 22:30:40,614 - LibraryScraper - INFO - Found event: Sonoma Reads! Book Club on 2026-04-16 14:00:00-07:00
+2026-03-03 22:30:40,615 - LibraryScraper - INFO - Found event: Jueves de juegos on 2026-04-16 15:00:00-07:00
+2026-03-03 22:30:40,615 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-16 15:30:00-07:00
+2026-03-03 22:30:40,616 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-16 15:30:00-07:00
+2026-03-03 22:30:40,616 - LibraryScraper - INFO - Found event: Tabletop Role-Playing Game Club on 2026-04-16 15:30:00-07:00
+2026-03-03 22:30:40,616 - LibraryScraper - INFO - Found event: What do Texts and Poems Have in Common? on 2026-04-16 15:45:00-07:00
+2026-03-03 22:30:40,617 - LibraryScraper - INFO - Found event: TTRPG Club (Tabletop Role-Playing Game Club) on 2026-04-16 16:00:00-07:00
+2026-03-03 22:30:40,617 - LibraryScraper - INFO - Found event: Lego & Build Club on 2026-04-16 16:00:00-07:00
+2026-03-03 22:30:40,618 - LibraryScraper - INFO - Found event: First Chapter Book Club on 2026-04-16 16:00:00-07:00
+2026-03-03 22:30:40,618 - LibraryScraper - INFO - Found event: Book Buddies (Grades TK-3rd) on 2026-04-16 16:00:00-07:00
+2026-03-03 22:30:40,619 - LibraryScraper - INFO - Found event: Intercambio on 2026-04-16 16:30:00-07:00
+2026-03-03 22:30:40,619 - LibraryScraper - INFO - Found event: Paying for College with Scholarships Series on 2026-04-16 16:30:00-07:00
+2026-03-03 22:30:40,619 - LibraryScraper - INFO - Found event: Cultivating Your Inner Landscape: a 10-session series on 2026-04-17 10:00:00-07:00
+2026-03-03 22:30:40,620 - LibraryScraper - INFO - Found event: Friends of the Rohnert Park Cotati Library Book Sale on 2026-04-17 10:00:00-07:00
+2026-03-03 22:30:40,620 - LibraryScraper - INFO - Scraping page 35
+2026-03-03 22:30:43,124 - LibraryScraper - INFO - Found event: Kids & Family Bilingual Yoga on 2026-04-17 10:30:00-07:00
+2026-03-03 22:30:43,125 - LibraryScraper - INFO - Found event: Bilingual Baby and Toddler Storytime on 2026-04-17 10:30:00-07:00
+2026-03-03 22:30:43,125 - LibraryScraper - INFO - Found event: Baby Village on 2026-04-17 11:30:00-07:00
+2026-03-03 22:30:43,126 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-04-17 13:00:00-07:00
+2026-03-03 22:30:43,126 - LibraryScraper - INFO - Found event: Computer Basics: Files & Tools on 2026-04-17 16:00:00-07:00
+2026-03-03 22:30:43,126 - LibraryScraper - INFO - Found event: 404 Found: Robotics Workshops - Week 6 (Ages 9-17) on 2026-04-17 16:00:00-07:00
+2026-03-03 22:30:43,127 - LibraryScraper - INFO - Found event: Paying for College with Scholarships Series on 2026-04-17 16:30:00-07:00
+2026-03-03 22:30:43,127 - LibraryScraper - INFO - Found event: BiblioBus at Santa Rosa Original Certified Farmers Market on 2026-04-18 09:00:00-07:00
+2026-03-03 22:30:43,128 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-04-18 10:00:00-07:00
+2026-03-03 22:30:43,128 - LibraryScraper - INFO - Found event: Friends of the Rohnert Park Cotati Library Book Sale on 2026-04-18 10:00:00-07:00
+2026-03-03 22:30:43,128 - LibraryScraper - INFO - Found event: Community Gardening Workshop on 2026-04-18 10:00:00-07:00
+2026-03-03 22:30:43,129 - LibraryScraper - INFO - Found event: Weekend Storytime on 2026-04-18 11:00:00-07:00
+2026-03-03 22:30:43,129 - LibraryScraper - INFO - Found event: Mosaic Workshop– Sunflower on 2026-04-18 11:00:00-07:00
+2026-03-03 22:30:43,129 - LibraryScraper - INFO - Found event: Coventry & Kaluza Show on 2026-04-18 12:00:00-07:00
+2026-03-03 22:30:43,130 - LibraryScraper - INFO - Found event: Silent Book Club Healdsburg Regional Library on 2026-04-18 13:00:00-07:00
+2026-03-03 22:30:43,130 - LibraryScraper - INFO - Found event: Crafting with Creativebug: Punch Needle Embroidery on 2026-04-18 14:00:00-07:00
+2026-03-03 22:30:43,130 - LibraryScraper - INFO - Found event: Global Goodies on 2026-04-18 14:00:00-07:00
+2026-03-03 22:30:43,131 - LibraryScraper - INFO - Found event: Puzzle Swap on 2026-04-18 15:30:00-07:00
+2026-03-03 22:30:43,131 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-04-18 16:00:00-07:00
+2026-03-03 22:30:43,132 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-04-18 16:30:00-07:00
+2026-03-03 22:30:43,132 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-19 13:00:00-07:00
+2026-03-03 22:30:43,132 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-19 13:00:00-07:00
+2026-03-03 22:30:43,133 - LibraryScraper - INFO - Found event: Author Visit: San Francisco Bay Area: An Environmental History on 2026-04-19 14:00:00-07:00
+2026-03-03 22:30:43,133 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-19 14:00:00-07:00
+2026-03-03 22:30:43,133 - LibraryScraper - INFO - Scraping page 36
+2026-03-03 22:30:45,054 - LibraryScraper - INFO - Found event: The Librarians: Film Screening and Discussion on 2026-04-19 14:00:00-07:00
+2026-03-03 22:30:45,055 - LibraryScraper - INFO - Found event: TCG Club: Pokemon & Magic the Gathering on 2026-04-19 14:30:00-07:00
+2026-03-03 22:30:45,055 - LibraryScraper - INFO - Found event: Sound Studio Basics on 2026-04-20 10:00:00-07:00
+2026-03-03 22:30:45,055 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-20 10:00:00-07:00
+2026-03-03 22:30:45,056 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-20 10:00:00-07:00
+2026-03-03 22:30:45,056 - LibraryScraper - INFO - Found event: Babytime! on 2026-04-20 10:30:00-07:00
+2026-03-03 22:30:45,057 - LibraryScraper - INFO - Found event: Join Our Podcast! on 2026-04-20 10:45:00-07:00
+2026-03-03 22:30:45,057 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-20 11:00:00-07:00
+2026-03-03 22:30:45,057 - LibraryScraper - INFO - Found event: Monday Movie Matinee for Adults: Moonstruck on 2026-04-20 14:00:00-07:00
+2026-03-03 22:30:45,058 - LibraryScraper - INFO - Found event: **Drop-In Camera Help on 2026-04-20 14:30:00-07:00
+2026-03-03 22:30:45,058 - LibraryScraper - INFO - Found event: Intergenerational Chess Club on 2026-04-20 15:15:00-07:00
+2026-03-03 22:30:45,058 - LibraryScraper - INFO - Found event: Kids & Family Bilingual Yoga on 2026-04-20 15:30:00-07:00
+2026-03-03 22:30:45,059 - LibraryScraper - INFO - Found event: Healdsburg Senior Center Book Club on 2026-04-21 10:00:00-07:00
+2026-03-03 22:30:45,059 - LibraryScraper - INFO - Found event: 1:1 Tech Help on 2026-04-21 10:15:00-07:00
+2026-03-03 22:30:45,060 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-04-21 10:30:00-07:00
+2026-03-03 22:30:45,060 - LibraryScraper - INFO - Found event: BiblioBus at Living Room Life Center on 2026-04-21 10:30:00-07:00
+2026-03-03 22:30:45,060 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-04-21 11:00:00-07:00
+2026-03-03 22:30:45,061 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-21 11:00:00-07:00
+2026-03-03 22:30:45,061 - LibraryScraper - INFO - Found event: Rohnert Park Book Club on 2026-04-21 11:00:00-07:00
+2026-03-03 22:30:45,061 - LibraryScraper - INFO - Found event: Baby Village on 2026-04-21 11:00:00-07:00
+2026-03-03 22:30:45,062 - LibraryScraper - INFO - Found event: BiblioBus at Silvercrest Apartments on 2026-04-21 13:00:00-07:00
+2026-03-03 22:30:45,062 - LibraryScraper - INFO - Found event: Chair Yoga with Lavender Lotus on 2026-04-21 13:00:00-07:00
+2026-03-03 22:30:45,063 - LibraryScraper - INFO - Found event: Teen Hangout: Game On! on 2026-04-21 13:45:00-07:00
+2026-03-03 22:30:45,063 - LibraryScraper - INFO - Found event: Teen Volunteer Tuesday on 2026-04-21 15:15:00-07:00
+2026-03-03 22:30:45,063 - LibraryScraper - INFO - Scraping page 37
+2026-03-03 22:30:46,945 - LibraryScraper - INFO - Found event: What do Texts and Poems Have in Common? on 2026-04-21 15:30:00-07:00
+2026-03-03 22:30:46,945 - LibraryScraper - INFO - Found event: BABYTIME (Tickets Required) on 2026-04-21 16:00:00-07:00
+2026-03-03 22:30:46,946 - LibraryScraper - INFO - Found event: French Family Storytime on 2026-04-21 16:00:00-07:00
+2026-03-03 22:30:46,946 - LibraryScraper - INFO - Found event: Stay and Make on 2026-04-21 16:00:00-07:00
+2026-03-03 22:30:46,946 - LibraryScraper - INFO - Found event: Feminist Icons in Zine History on 2026-04-21 16:00:00-07:00
+2026-03-03 22:30:46,947 - LibraryScraper - INFO - Found event: Rohnert Park Cotati Library Advisory Board on 2026-04-21 17:00:00-07:00
+2026-03-03 22:30:46,947 - LibraryScraper - INFO - Found event: Asian Cuisine Cooking Demo - Dumplings! on 2026-04-21 18:00:00-07:00
+2026-03-03 22:30:46,947 - LibraryScraper - INFO - Found event: Paying for College with Scholarships Series on 2026-04-21 18:00:00-07:00
+2026-03-03 22:30:46,948 - LibraryScraper - INFO - Found event: Bilingual Family Storytime on 2026-04-22 10:30:00-07:00
+2026-03-03 22:30:46,948 - LibraryScraper - INFO - Found event: Family Storytime on 2026-04-22 10:30:00-07:00
+2026-03-03 22:30:46,949 - LibraryScraper - INFO - Found event: Family Storytime on 2026-04-22 10:30:00-07:00
+2026-03-03 22:30:46,949 - LibraryScraper - INFO - Found event: Author Talks: Lush Lyricism with Miranda Cowley Heller on 2026-04-22 11:00:00-07:00
+2026-03-03 22:30:46,949 - LibraryScraper - INFO - Found event: Get Your Content On TV on 2026-04-22 12:30:00-07:00
+2026-03-03 22:30:46,950 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-04-22 13:00:00-07:00
+2026-03-03 22:30:46,950 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-22 13:00:00-07:00
+2026-03-03 22:30:46,950 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-22 13:00:00-07:00
+2026-03-03 22:30:46,951 - LibraryScraper - INFO - Found event: Library Commission Budget Workshop on 2026-04-22 13:00:00-07:00
+2026-03-03 22:30:46,951 - LibraryScraper - INFO - Found event: Tween Game On! on 2026-04-22 13:15:00-07:00
+2026-03-03 22:30:46,952 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-22 14:00:00-07:00
+2026-03-03 22:30:46,952 - LibraryScraper - INFO - Found event: After School Hang Out (Grades 6-12) on 2026-04-22 14:00:00-07:00
+2026-03-03 22:30:46,953 - LibraryScraper - INFO - Found event: Teen Hangout: Game On! on 2026-04-22 14:45:00-07:00
+2026-03-03 22:30:46,953 - LibraryScraper - INFO - Found event: Petaluma Chess Club on 2026-04-22 15:00:00-07:00
+2026-03-03 22:30:46,953 - LibraryScraper - INFO - Found event: Graphic Novel Book Club on 2026-04-22 15:30:00-07:00
+2026-03-03 22:30:46,954 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-22 15:30:00-07:00
+2026-03-03 22:30:46,954 - LibraryScraper - INFO - Scraping page 38
+2026-03-03 22:30:48,688 - LibraryScraper - INFO - Found event: Bedroom Door Poster Design on 2026-04-22 16:00:00-07:00
+2026-03-03 22:30:48,688 - LibraryScraper - INFO - Found event: Teens Create Club! on 2026-04-22 16:00:00-07:00
+2026-03-03 22:30:48,689 - LibraryScraper - INFO - Found event: Paying for College with Scholarships Series on 2026-04-22 16:30:00-07:00
+2026-03-03 22:30:48,689 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-22 17:00:00-07:00
+2026-03-03 22:30:48,689 - LibraryScraper - INFO - Found event: Pajama Storytime on 2026-04-22 18:00:00-07:00
+2026-03-03 22:30:48,690 - LibraryScraper - INFO - Found event: Mosaic Workshop– Sunflower on 2026-04-22 18:00:00-07:00
+2026-03-03 22:30:48,690 - LibraryScraper - INFO - Found event: Pajama Family Storytime on 2026-04-22 18:30:00-07:00
+2026-03-03 22:30:48,690 - LibraryScraper - INFO - Found event: BiblioBus at Petaluma Senior Center on 2026-04-23 10:00:00-07:00
+2026-03-03 22:30:48,691 - LibraryScraper - INFO - Found event: Bilingual Babytime on 2026-04-23 10:30:00-07:00
+2026-03-03 22:30:48,691 - LibraryScraper - INFO - Found event: Family Storytime (Tickets Required) on 2026-04-23 10:30:00-07:00
+2026-03-03 22:30:48,691 - LibraryScraper - INFO - Found event: Family is a Rainbow on 2026-04-23 10:30:00-07:00
+2026-03-03 22:30:48,691 - LibraryScraper - INFO - Found event: Create and Build: Thursday fun days on 2026-04-23 10:30:00-07:00
+2026-03-03 22:30:48,692 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-04-23 11:00:00-07:00
+2026-03-03 22:30:48,692 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-23 11:00:00-07:00
+2026-03-03 22:30:48,692 - LibraryScraper - INFO - Found event: Stay & Play! on 2026-04-23 11:00:00-07:00
+2026-03-03 22:30:48,693 - LibraryScraper - INFO - Found event: BiblioBus at Rohnert Park Senior Center on 2026-04-23 12:00:00-07:00
+2026-03-03 22:30:48,693 - LibraryScraper - INFO - Found event: Tween Game Lounge on 2026-04-23 13:15:00-07:00
+2026-03-03 22:30:48,693 - LibraryScraper - INFO - Found event: 4-H STEM Club on 2026-04-23 15:00:00-07:00
+2026-03-03 22:30:48,694 - LibraryScraper - INFO - Found event: BiblioBus at The Palms on 2026-04-23 15:00:00-07:00
+2026-03-03 22:30:48,694 - LibraryScraper - INFO - Found event: Jueves de juegos on 2026-04-23 15:00:00-07:00
+2026-03-03 22:30:48,694 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-23 15:30:00-07:00
+2026-03-03 22:30:48,695 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-23 15:30:00-07:00
+2026-03-03 22:30:48,695 - LibraryScraper - INFO - Found event: Teen Hangout & Volunteer Hour on 2026-04-23 15:45:00-07:00
+2026-03-03 22:30:48,695 - LibraryScraper - INFO - Found event: Lego & Build Club ft. Zines! on 2026-04-23 16:00:00-07:00
+2026-03-03 22:30:48,695 - LibraryScraper - INFO - Scraping page 39
+2026-03-03 22:30:51,049 - LibraryScraper - INFO - Found event: Universal Yums for Teens: Greece and Germany on 2026-04-23 16:00:00-07:00
+2026-03-03 22:30:51,050 - LibraryScraper - INFO - Found event: Book Buddies (Grades TK-3rd) on 2026-04-23 16:00:00-07:00
+2026-03-03 22:30:51,050 - LibraryScraper - INFO - Found event: Computer Basics: Files & Tools (Spanish) on 2026-04-23 16:00:00-07:00
+2026-03-03 22:30:51,051 - LibraryScraper - INFO - Found event: Intercambio on 2026-04-23 16:30:00-07:00
+2026-03-03 22:30:51,051 - LibraryScraper - INFO - Found event: Paying for College with Scholarships Series on 2026-04-23 16:30:00-07:00
+2026-03-03 22:30:51,052 - LibraryScraper - INFO - Found event: Cultivating Your Inner Landscape: a 10-session series on 2026-04-24 10:00:00-07:00
+2026-03-03 22:30:51,052 - LibraryScraper - INFO - Found event: River Friends Book & Bake Sale on 2026-04-24 10:00:00-07:00
+2026-03-03 22:30:51,053 - LibraryScraper - INFO - Found event: Kids & Family Bilingual Yoga on 2026-04-24 10:30:00-07:00
+2026-03-03 22:30:51,053 - LibraryScraper - INFO - Found event: Bilingual Baby and Toddler Storytime on 2026-04-24 10:30:00-07:00
+2026-03-03 22:30:51,054 - LibraryScraper - INFO - Found event: Baby Village on 2026-04-24 11:30:00-07:00
+2026-03-03 22:30:51,054 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-04-24 13:00:00-07:00
+2026-03-03 22:30:51,054 - LibraryScraper - INFO - Found event: Seeds and Reads: The True Story of Poison Oak on 2026-04-24 15:30:00-07:00
+2026-03-03 22:30:51,055 - LibraryScraper - INFO - Found event: Crafting with Creativebug: Monoprints with Watercolor on 2026-04-24 16:00:00-07:00
+2026-03-03 22:30:51,055 - LibraryScraper - INFO - Found event: 404 Found: Robotics Workshops - Week 7 (Ages 9-17) on 2026-04-24 16:00:00-07:00
+2026-03-03 22:30:51,056 - LibraryScraper - INFO - Found event: UC Master Gardeners Succulent Swap on 2026-04-25 10:00:00-07:00
+2026-03-03 22:30:51,056 - LibraryScraper - INFO - Found event: River Friends Book & Bake Sale on 2026-04-25 10:00:00-07:00
+2026-03-03 22:30:51,056 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-04-25 10:30:00-07:00
+2026-03-03 22:30:51,057 - LibraryScraper - INFO - Found event: Weekend Family Storytime on 2026-04-25 10:30:00-07:00
+2026-03-03 22:30:51,057 - LibraryScraper - INFO - Found event: Let's Draw! Cartoon Expressions on 2026-04-25 11:00:00-07:00
+2026-03-03 22:30:51,058 - LibraryScraper - INFO - Found event: Weekend Storytime on 2026-04-25 11:00:00-07:00
+2026-03-03 22:30:51,058 - LibraryScraper - INFO - Found event: Teen STEM Saturdays on 2026-04-25 11:00:00-07:00
+2026-03-03 22:30:51,059 - LibraryScraper - INFO - Found event: One on One Tech Help on 2026-04-25 14:00:00-07:00
+2026-03-03 22:30:51,059 - LibraryScraper - INFO - Found event: Mosaic Workshop– Sunflower on 2026-04-25 14:00:00-07:00
+2026-03-03 22:30:51,059 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-04-25 16:00:00-07:00
+2026-03-03 22:30:51,059 - LibraryScraper - INFO - Scraping page 40
+2026-03-03 22:30:52,832 - LibraryScraper - INFO - Found event: Coventry & Kaluza Show on 2026-04-25 16:00:00-07:00
+2026-03-03 22:30:52,833 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-04-25 16:30:00-07:00
+2026-03-03 22:30:52,833 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-26 13:00:00-07:00
+2026-03-03 22:30:52,834 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-26 13:00:00-07:00
+2026-03-03 22:30:52,834 - LibraryScraper - INFO - Found event: River Friends Book & Bake Sale on 2026-04-26 13:00:00-07:00
+2026-03-03 22:30:52,834 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-26 14:00:00-07:00
+2026-03-03 22:30:52,835 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-26 14:00:00-07:00
+2026-03-03 22:30:52,835 - LibraryScraper - INFO - Found event: Puzzle Swap on 2026-04-26 15:30:00-07:00
+2026-03-03 22:30:52,836 - LibraryScraper - INFO - Found event: Sound Studio Basics on 2026-04-27 10:00:00-07:00
+2026-03-03 22:30:52,836 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-27 10:00:00-07:00
+2026-03-03 22:30:52,837 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-27 10:00:00-07:00
+2026-03-03 22:30:52,837 - LibraryScraper - INFO - Found event: Babytime! on 2026-04-27 10:30:00-07:00
+2026-03-03 22:30:52,837 - LibraryScraper - INFO - Found event: Join Our Podcast! on 2026-04-27 10:45:00-07:00
+2026-03-03 22:30:52,838 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-27 11:00:00-07:00
+2026-03-03 22:30:52,838 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-04-27 11:30:00-07:00
+2026-03-03 22:30:52,839 - LibraryScraper - INFO - Found event: **Drop-In Camera Help on 2026-04-27 14:30:00-07:00
+2026-03-03 22:30:52,839 - LibraryScraper - INFO - Found event: Intergenerational Chess Club on 2026-04-27 15:15:00-07:00
+2026-03-03 22:30:52,840 - LibraryScraper - INFO - Found event: LEGO Build Club & Rubik's Cube Corner on 2026-04-27 15:30:00-07:00
+2026-03-03 22:30:52,840 - LibraryScraper - INFO - Found event: Tween Hangout! Universal Yums (and Tambourine Craft) on 2026-04-27 15:30:00-07:00
+2026-03-03 22:30:52,840 - LibraryScraper - INFO - Found event: Chapter Chats 4th-6th Grade Book Club on 2026-04-27 16:00:00-07:00
+2026-03-03 22:30:52,841 - LibraryScraper - INFO - Found event: 1:1 Tech Help on 2026-04-28 10:15:00-07:00
+2026-03-03 22:30:52,841 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-04-28 10:30:00-07:00
+2026-03-03 22:30:52,842 - LibraryScraper - INFO - Found event: Family Storytime on 2026-04-28 11:00:00-07:00
+2026-03-03 22:30:52,842 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-04-28 11:00:00-07:00
+2026-03-03 22:30:52,842 - LibraryScraper - INFO - Scraping page 41
+2026-03-03 22:30:55,058 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-28 11:00:00-07:00
+2026-03-03 22:30:55,059 - LibraryScraper - INFO - Found event: Baby Village on 2026-04-28 11:00:00-07:00
+2026-03-03 22:30:55,059 - LibraryScraper - INFO - Found event: Chair Yoga with Lavender Lotus on 2026-04-28 13:00:00-07:00
+2026-03-03 22:30:55,060 - LibraryScraper - INFO - Found event: Guerneville Book Club on 2026-04-28 13:30:00-07:00
+2026-03-03 22:30:55,060 - LibraryScraper - INFO - Found event: BiblioBus at Bodega Bay School on 2026-04-28 14:30:00-07:00
+2026-03-03 22:30:55,060 - LibraryScraper - INFO - Found event: Teen Volunteer Tuesday on 2026-04-28 15:15:00-07:00
+2026-03-03 22:30:55,061 - LibraryScraper - INFO - Found event: Make a Zine on 2026-04-28 15:30:00-07:00
+2026-03-03 22:30:55,061 - LibraryScraper - INFO - Found event: Homework Help on 2026-04-28 15:30:00-07:00
+2026-03-03 22:30:55,062 - LibraryScraper - INFO - Found event: BABYTIME (Tickets Required) on 2026-04-28 16:00:00-07:00
+2026-03-03 22:30:55,062 - LibraryScraper - INFO - Found event: Seeds and Reads on 2026-04-28 16:00:00-07:00
+2026-03-03 22:30:55,063 - LibraryScraper - INFO - Found event: One on One Tech Help on 2026-04-28 17:00:00-07:00
+2026-03-03 22:30:55,063 - LibraryScraper - INFO - Found event: Asian Cuisine Cooking Demo - Dumplings! on 2026-04-28 18:00:00-07:00
+2026-03-03 22:30:55,064 - LibraryScraper - INFO - Found event: Read BIPOC Book Club on 2026-04-28 18:00:00-07:00
+2026-03-03 22:30:55,064 - LibraryScraper - INFO - Found event: Roseland Teen Manga Club on 2026-04-28 18:00:00-07:00
+2026-03-03 22:30:55,064 - LibraryScraper - INFO - Found event: Canon Book Club on 2026-04-28 18:00:00-07:00
+2026-03-03 22:30:55,065 - LibraryScraper - INFO - Found event: Bilingual Family Storytime on 2026-04-29 10:30:00-07:00
+2026-03-03 22:30:55,065 - LibraryScraper - INFO - Found event: Celebrate Día: Word Chains on 2026-04-29 10:30:00-07:00
+2026-03-03 22:30:55,066 - LibraryScraper - INFO - Found event: Family Storytime on 2026-04-29 10:30:00-07:00
+2026-03-03 22:30:55,066 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-04-29 13:00:00-07:00
+2026-03-03 22:30:55,067 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-29 13:00:00-07:00
+2026-03-03 22:30:55,067 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-04-29 13:00:00-07:00
+2026-03-03 22:30:55,068 - LibraryScraper - INFO - Found event: Tween Game On! on 2026-04-29 13:15:00-07:00
+2026-03-03 22:30:55,068 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-29 14:00:00-07:00
+2026-03-03 22:30:55,069 - LibraryScraper - INFO - Found event: After School Hang Out (Grades 6-12) on 2026-04-29 14:00:00-07:00
+2026-03-03 22:30:55,069 - LibraryScraper - INFO - Scraping page 42
+2026-03-03 22:30:57,119 - LibraryScraper - INFO - Found event: Petaluma Chess Club on 2026-04-29 15:00:00-07:00
+2026-03-03 22:30:57,120 - LibraryScraper - INFO - Found event: Bilingual Paint Party on 2026-04-29 15:00:00-07:00
+2026-03-03 22:30:57,120 - LibraryScraper - INFO - Found event: Forestville Book Club on 2026-04-29 15:30:00-07:00
+2026-03-03 22:30:57,121 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-29 15:30:00-07:00
+2026-03-03 22:30:57,121 - LibraryScraper - INFO - Found event: Dungeons & Dragons Beginner Campaign on 2026-04-29 15:30:00-07:00
+2026-03-03 22:30:57,121 - LibraryScraper - INFO - Found event: Teen Hangout: Universal Yums on 2026-04-29 16:00:00-07:00
+2026-03-03 22:30:57,122 - LibraryScraper - INFO - Found event: Smartphone Camera Club on 2026-04-29 16:00:00-07:00
+2026-03-03 22:30:57,122 - LibraryScraper - INFO - Found event: Teens Create Club! on 2026-04-29 16:00:00-07:00
+2026-03-03 22:30:57,123 - LibraryScraper - INFO - Found event: What do Texts and Poems Have in Common? on 2026-04-29 16:30:00-07:00
+2026-03-03 22:30:57,123 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-29 17:00:00-07:00
+2026-03-03 22:30:57,123 - LibraryScraper - INFO - Found event: Mosaic Workshop– Sunflower on 2026-04-29 18:00:00-07:00
+2026-03-03 22:30:57,124 - LibraryScraper - INFO - Found event: Sonoma Ready: What is your Emergency APP-titude! on 2026-04-29 18:00:00-07:00
+2026-03-03 22:30:57,124 - LibraryScraper - INFO - Found event: Pajama Family Storytime on 2026-04-29 18:30:00-07:00
+2026-03-03 22:30:57,124 - LibraryScraper - INFO - Found event: Bilingual Babytime on 2026-04-30 10:30:00-07:00
+2026-03-03 22:30:57,125 - LibraryScraper - INFO - Found event: Family Storytime (Tickets Required) on 2026-04-30 10:30:00-07:00
+2026-03-03 22:30:57,125 - LibraryScraper - INFO - Found event: Stay & Play on 2026-04-30 10:30:00-07:00
+2026-03-03 22:30:57,126 - LibraryScraper - INFO - Found event: Create and Build: Thursday fun days on 2026-04-30 10:30:00-07:00
+2026-03-03 22:30:57,126 - LibraryScraper - INFO - Found event: Toddler Storytime on 2026-04-30 11:00:00-07:00
+2026-03-03 22:30:57,126 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-04-30 11:00:00-07:00
+2026-03-03 22:30:57,127 - LibraryScraper - INFO - Found event: Stay & Play! on 2026-04-30 11:00:00-07:00
+2026-03-03 22:30:57,127 - LibraryScraper - INFO - Found event: Celebrate Día: Word Chains on 2026-04-30 11:00:00-07:00
+2026-03-03 22:30:57,128 - LibraryScraper - INFO - Found event: Tween Game Lounge on 2026-04-30 13:15:00-07:00
+2026-03-03 22:30:57,128 - LibraryScraper - INFO - Found event: Jueves de juegos on 2026-04-30 15:00:00-07:00
+2026-03-03 22:30:57,128 - LibraryScraper - INFO - Found event: Celebrate Día: Tambourines for Tweens on 2026-04-30 15:30:00-07:00
+2026-03-03 22:30:57,128 - LibraryScraper - INFO - Scraping page 43
+2026-03-03 22:30:58,986 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-30 15:30:00-07:00
+2026-03-03 22:30:58,987 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-04-30 15:30:00-07:00
+2026-03-03 22:30:58,987 - LibraryScraper - INFO - Found event: Tabletop Role-Playing Game Club on 2026-04-30 15:30:00-07:00
+2026-03-03 22:30:58,987 - LibraryScraper - INFO - Found event: Author Talks: Jason Reynolds on 2026-04-30 16:00:00-07:00
+2026-03-03 22:30:58,988 - LibraryScraper - INFO - Found event: Celebrate Día: Word Chains on 2026-04-30 16:00:00-07:00
+2026-03-03 22:30:58,988 - LibraryScraper - INFO - Found event: Celebrate Día: Tambourines for Tweens on 2026-04-30 16:00:00-07:00
+2026-03-03 22:30:58,989 - LibraryScraper - INFO - Found event: Make a Zine on 2026-04-30 16:00:00-07:00
+2026-03-03 22:30:58,989 - LibraryScraper - INFO - Found event: Book Buddies (Grades TK-3rd) on 2026-04-30 16:00:00-07:00
+2026-03-03 22:30:58,990 - LibraryScraper - INFO - Found event: Celebrate Día: Word Chains on 2026-04-30 16:30:00-07:00
+2026-03-03 22:30:58,990 - LibraryScraper - INFO - Found event: Celebrate Día: Tambourines for Tweens on 2026-04-30 16:30:00-07:00
+2026-03-03 22:30:58,991 - LibraryScraper - INFO - Found event: Intercambio on 2026-04-30 16:30:00-07:00
+2026-03-03 22:30:58,991 - LibraryScraper - INFO - Found event: Cultivating Your Inner Landscape: a 10-session series on 2026-05-01 10:00:00-07:00
+2026-03-03 22:30:58,991 - LibraryScraper - INFO - Found event: Common Ground Book Club: books by & about people with disabilities on 2026-05-01 10:30:00-07:00
+2026-03-03 22:30:58,992 - LibraryScraper - INFO - Found event: Kids & Family Bilingual Yoga on 2026-05-01 11:30:00-07:00
+2026-03-03 22:30:58,992 - LibraryScraper - INFO - Found event: Baby Village on 2026-05-01 11:30:00-07:00
+2026-03-03 22:30:58,993 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-05-01 13:00:00-07:00
+2026-03-03 22:30:58,993 - LibraryScraper - INFO - Found event: First Chapter Book Club on 2026-05-01 15:45:00-07:00
+2026-03-03 22:30:58,994 - LibraryScraper - INFO - Found event: Celebrate Día: Tambourines for Tweens on 2026-05-01 16:00:00-07:00
+2026-03-03 22:30:58,994 - LibraryScraper - INFO - Found event: Let's Play Family Loteria at Bayer Farm on 2026-05-01 16:00:00-07:00
+2026-03-03 22:30:58,995 - LibraryScraper - INFO - Found event: Let's Play Family Lotería! on 2026-05-01 16:00:00-07:00
+2026-03-03 22:30:58,995 - LibraryScraper - INFO - Found event: 404 Found: Robotics Workshops - Week 8 (Ages 9-17) on 2026-05-01 16:00:00-07:00
+2026-03-03 22:30:58,996 - LibraryScraper - INFO - Found event: Pajama Storytime on 2026-05-01 16:45:00-07:00
+2026-03-03 22:30:58,996 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-05-02 10:00:00-07:00
+2026-03-03 22:30:58,997 - LibraryScraper - INFO - Found event: Weekend Family Storytime on 2026-05-02 10:30:00-07:00
+2026-03-03 22:30:58,997 - LibraryScraper - INFO - Scraping page 44
+2026-03-03 22:31:01,003 - LibraryScraper - INFO - Found event: Celebrate Día: Word Chains on 2026-05-02 10:45:00-07:00
+2026-03-03 22:31:01,004 - LibraryScraper - INFO - Found event: Santa Rosa Zine Fest 2026 on 2026-05-02 12:00:00-07:00
+2026-03-03 22:31:01,004 - LibraryScraper - INFO - Found event: Classics You Missed Book Club on 2026-05-02 14:00:00-07:00
+2026-03-03 22:31:01,004 - LibraryScraper - INFO - Found event: UC Master Gardeners - Climate Adaptation in Your Yard on 2026-05-02 14:00:00-07:00
+2026-03-03 22:31:01,005 - LibraryScraper - INFO - Found event: Celebrate Reading with Comics! (FCBD) on 2026-05-02 14:00:00-07:00
+2026-03-03 22:31:01,005 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-05-02 16:00:00-07:00
+2026-03-03 22:31:01,005 - LibraryScraper - INFO - Found event: One-on-One Tech Help on 2026-05-02 16:30:00-07:00
+2026-03-03 22:31:01,006 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-05-03 13:00:00-07:00
+2026-03-03 22:31:01,006 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-05-03 13:00:00-07:00
+2026-03-03 22:31:01,006 - LibraryScraper - INFO - Found event: Keenan Webster - Afro Roots World Music on 2026-05-03 14:00:00-07:00
+2026-03-03 22:31:01,007 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-05-03 14:00:00-07:00
+2026-03-03 22:31:01,007 - LibraryScraper - INFO - Found event: Sound Studio Basics on 2026-05-04 10:00:00-07:00
+2026-03-03 22:31:01,007 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-05-04 10:00:00-07:00
+2026-03-03 22:31:01,008 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-05-04 10:00:00-07:00
+2026-03-03 22:31:01,008 - LibraryScraper - INFO - Found event: Babytime! on 2026-05-04 10:30:00-07:00
+2026-03-03 22:31:01,008 - LibraryScraper - INFO - Found event: Join Our Podcast! on 2026-05-04 10:45:00-07:00
+2026-03-03 22:31:01,009 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-05-04 11:00:00-07:00
+2026-03-03 22:31:01,009 - LibraryScraper - INFO - Found event: **Drop-In Camera Help on 2026-05-04 14:30:00-07:00
+2026-03-03 22:31:01,009 - LibraryScraper - INFO - Found event: Windsor Senior Center - Monday Mystery Book Club on 2026-05-04 14:30:00-07:00
+2026-03-03 22:31:01,010 - LibraryScraper - INFO - Found event: Intergenerational Chess Club on 2026-05-04 15:15:00-07:00
+2026-03-03 22:31:01,010 - LibraryScraper - INFO - Found event: Club de cultura on 2026-05-04 15:30:00-07:00
+2026-03-03 22:31:01,010 - LibraryScraper - INFO - Found event: 4-H STEM Club on 2026-05-04 16:00:00-07:00
+2026-03-03 22:31:01,010 - LibraryScraper - INFO - Found event: 1:1 Tech Help on 2026-05-05 10:15:00-07:00
+2026-03-03 22:31:01,011 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-05-05 10:30:00-07:00
+2026-03-03 22:31:01,011 - LibraryScraper - INFO - Scraping page 45
+2026-03-03 22:31:02,727 - LibraryScraper - INFO - Found event: BiblioBus at Living Room Life Center on 2026-05-05 10:30:00-07:00
+2026-03-03 22:31:02,727 - LibraryScraper - INFO - Found event: Family is a Rainbow Storytime on 2026-05-05 10:30:00-07:00
+2026-03-03 22:31:02,728 - LibraryScraper - INFO - Found event: Family Storytime on 2026-05-05 11:00:00-07:00
+2026-03-03 22:31:02,728 - LibraryScraper - INFO - Found event: Spanish Music & Movement on 2026-05-05 11:00:00-07:00
+2026-03-03 22:31:02,729 - LibraryScraper - INFO - Found event: One-On-One Tech Help on 2026-05-05 11:00:00-07:00
+2026-03-03 22:31:02,729 - LibraryScraper - INFO - Found event: Baby Village on 2026-05-05 11:00:00-07:00
+2026-03-03 22:31:02,730 - LibraryScraper - INFO - Found event: Healdsburg Book Club on 2026-05-05 12:00:00-07:00
+2026-03-03 22:31:02,730 - LibraryScraper - INFO - Found event: BiblioBus at Silvercrest Apartments on 2026-05-05 13:00:00-07:00
+2026-03-03 22:31:02,731 - LibraryScraper - INFO - Found event: Chair Yoga with Lavender Lotus on 2026-05-05 13:00:00-07:00
+2026-03-03 22:31:02,731 - LibraryScraper - INFO - Found event: Teen Hangout: Universal Yums on 2026-05-05 13:45:00-07:00
+2026-03-03 22:31:02,731 - LibraryScraper - INFO - Found event: Teen Volunteer Tuesday on 2026-05-05 15:15:00-07:00
+2026-03-03 22:31:02,732 - LibraryScraper - INFO - Found event: Build Club (Legos, Keva Planks and more) on 2026-05-05 16:00:00-07:00
+2026-03-03 22:31:02,732 - LibraryScraper - INFO - Found event: Healthy Relationships with VOICES Sonoma on 2026-05-05 16:00:00-07:00
+2026-03-03 22:31:02,733 - LibraryScraper - INFO - Found event: Computer Basics: Mouse and Keyboard on 2026-05-05 18:00:00-07:00
+2026-03-03 22:31:02,733 - LibraryScraper - INFO - Found event: Sonoma Co. Zine Club on 2026-05-05 18:00:00-07:00
+2026-03-03 22:31:02,734 - LibraryScraper - INFO - Found event: Bilingual Family Storytime on 2026-05-06 10:30:00-07:00
+2026-03-03 22:31:02,734 - LibraryScraper - INFO - Found event: Family Storytime at Ives Park on 2026-05-06 10:30:00-07:00
+2026-03-03 22:31:02,734 - LibraryScraper - INFO - Found event: Family Storytime on 2026-05-06 10:30:00-07:00
+2026-03-03 22:31:02,735 - LibraryScraper - INFO - Found event: One-on-One Genealogy Research Help on 2026-05-06 13:00:00-07:00
+2026-03-03 22:31:02,735 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-05-06 13:00:00-07:00
+2026-03-03 22:31:02,736 - LibraryScraper - INFO - Found event: BiblioBus at Rincon Valley Library on 2026-05-06 13:00:00-07:00
+2026-03-03 22:31:02,736 - LibraryScraper - INFO - Found event: Tween Game On! on 2026-05-06 13:15:00-07:00
+2026-03-03 22:31:02,737 - LibraryScraper - INFO - Found event: Read to a Dog on 2026-05-06 14:00:00-07:00
+2026-03-03 22:31:02,737 - LibraryScraper - INFO - Found event: After School Hang Out (Grades 6-12) on 2026-05-06 14:00:00-07:00
+2026-03-03 22:31:02,737 - LibraryScraper - INFO - Stopping: page 45 events are beyond 2 months
+2026-03-03 22:31:02,739 - LibraryScraper - INFO - Filtered 3 events beyond 2 months out
+2026-03-03 22:31:02,739 - LibraryScraper - INFO - Found 1050 events
+2026-03-03 22:31:02,968 - LibraryScraper - INFO - Written to cities/santarosa/library_intercept.ics
+2026-03-03 22:31:03,131 - BohemianScraper - INFO - Scraping North Bay Bohemian
+2026-03-03 22:31:03,131 - BohemianScraper - INFO - Fetching page at skip=0
+2026-03-03 22:31:03,276 - BohemianScraper - INFO - Fetching page at skip=100
+2026-03-03 22:31:03,397 - BohemianScraper - INFO - Fetching page at skip=200
+2026-03-03 22:31:03,516 - BohemianScraper - INFO - Fetching page at skip=300
+2026-03-03 22:31:03,638 - BohemianScraper - INFO - Fetching page at skip=400
+2026-03-03 22:31:03,750 - BohemianScraper - INFO - Fetching page at skip=500
+2026-03-03 22:31:03,876 - BohemianScraper - INFO - Fetching page at skip=600
+2026-03-03 22:31:03,992 - BohemianScraper - INFO - Fetching page at skip=700
+2026-03-03 22:31:04,105 - BohemianScraper - INFO - Fetching page at skip=800
+2026-03-03 22:31:04,225 - BohemianScraper - INFO - Fetching page at skip=900
+2026-03-03 22:31:04,335 - BohemianScraper - INFO - Fetching page at skip=1000
+2026-03-03 22:31:04,453 - BohemianScraper - INFO - Fetching page at skip=1100
+2026-03-03 22:31:04,572 - BohemianScraper - INFO - Fetching page at skip=1200
+2026-03-03 22:31:04,683 - BohemianScraper - INFO - Fetching page at skip=1300
+2026-03-03 22:31:04,799 - BohemianScraper - INFO - Fetching page at skip=1400
+2026-03-03 22:31:04,907 - BohemianScraper - INFO - Fetching page at skip=1500
+2026-03-03 22:31:05,019 - BohemianScraper - INFO - Fetching page at skip=1600
+2026-03-03 22:31:05,134 - BohemianScraper - INFO - Fetching page at skip=1700
+2026-03-03 22:31:05,250 - BohemianScraper - INFO - Fetching page at skip=1800
+2026-03-03 22:31:05,366 - BohemianScraper - INFO - Fetching page at skip=1900
+2026-03-03 22:31:05,488 - BohemianScraper - INFO - Fetching page at skip=2000
+2026-03-03 22:31:05,600 - BohemianScraper - INFO - Fetching page at skip=2100
+2026-03-03 22:31:05,643 - BohemianScraper - INFO - Found 2100 events
+2026-03-03 22:31:06,101 - BohemianScraper - INFO - Written to cities/santarosa/bohemian.ics
+2026-03-03 22:31:06,262 - PressDemocratScraper - INFO - Scraping Press Democrat
+2026-03-03 22:31:06,262 - PressDemocratScraper - INFO - Fetching page at skip=0
+2026-03-03 22:31:06,415 - PressDemocratScraper - INFO - Fetching page at skip=100
+2026-03-03 22:31:06,561 - PressDemocratScraper - INFO - Fetching page at skip=200
+2026-03-03 22:31:06,702 - PressDemocratScraper - INFO - Fetching page at skip=300
+2026-03-03 22:31:06,836 - PressDemocratScraper - INFO - Fetching page at skip=400
+2026-03-03 22:31:06,970 - PressDemocratScraper - INFO - Fetching page at skip=500
+2026-03-03 22:31:07,111 - PressDemocratScraper - INFO - Fetching page at skip=600
+2026-03-03 22:31:07,241 - PressDemocratScraper - INFO - Fetching page at skip=700
+2026-03-03 22:31:07,376 - PressDemocratScraper - INFO - Fetching page at skip=800
+2026-03-03 22:31:07,525 - PressDemocratScraper - INFO - Fetching page at skip=900
+2026-03-03 22:31:07,661 - PressDemocratScraper - INFO - Fetching page at skip=1000
+2026-03-03 22:31:07,791 - PressDemocratScraper - INFO - Fetching page at skip=1100
+2026-03-03 22:31:07,941 - PressDemocratScraper - INFO - Fetching page at skip=1200
+2026-03-03 22:31:08,082 - PressDemocratScraper - INFO - Fetching page at skip=1300
+2026-03-03 22:31:08,214 - PressDemocratScraper - INFO - Fetching page at skip=1400
+2026-03-03 22:31:08,355 - PressDemocratScraper - INFO - Fetching page at skip=1500
+2026-03-03 22:31:08,503 - PressDemocratScraper - INFO - Fetching page at skip=1600
+2026-03-03 22:31:08,649 - PressDemocratScraper - INFO - Fetching page at skip=1700
+2026-03-03 22:31:08,783 - PressDemocratScraper - INFO - Fetching page at skip=1800
+2026-03-03 22:31:08,933 - PressDemocratScraper - INFO - Fetching page at skip=1900
+2026-03-03 22:31:09,066 - PressDemocratScraper - INFO - Fetching page at skip=2000
+2026-03-03 22:31:09,207 - PressDemocratScraper - INFO - Fetching page at skip=2100
+2026-03-03 22:31:09,248 - PressDemocratScraper - INFO - Found 2100 events
+2026-03-03 22:31:09,719 - PressDemocratScraper - INFO - Written to cities/santarosa/pressdemocrat.ics
+2026-03-03 22:31:09,955 - SonomaParksScraper - INFO - Scraping Sonoma County Parks
+2026-03-03 22:31:09,955 - SonomaParksScraper - INFO - Fetching https://parks.sonomacounty.ca.gov/play/calendar
+2026-03-03 22:31:10,213 - SonomaParksScraper - INFO - Found 0 events
+2026-03-03 22:31:10,214 - SonomaParksScraper - INFO - Written to cities/santarosa/sonoma_parks.ics
+2026-03-03 22:31:10,445 - CalTheatreScraper - INFO - Scraping Cal Theatre
+2026-03-03 22:31:10,445 - CalTheatreScraper - INFO - Fetching https://www.caltheatre.com/calendar
+2026-03-03 22:31:12,780 - CalTheatreScraper - WARNING - No events found with static fetch - Wix may require JavaScript
+2026-03-03 22:31:12,780 - CalTheatreScraper - INFO - Found 0 events
+2026-03-03 22:31:12,781 - CalTheatreScraper - INFO - Written to cities/santarosa/cal_theatre.ics
+2026-03-03 22:31:13,012 - CopperfieldsScraper - INFO - Scraping Copperfield's Books
+2026-03-03 22:31:13,012 - CopperfieldsScraper - INFO - Fetching https://copperfieldsbooks.com/upcoming-events
+2026-03-03 22:31:13,999 - CopperfieldsScraper - INFO - Found event: CARLA KAPLAN & IRIS JAMAHL DUNKLE on 2026-03-03 18:00:00
+2026-03-03 22:31:14,000 - CopperfieldsScraper - INFO - Found event: ERIC MAISEL M&G on 2026-03-07 18:00:00
+2026-03-03 22:31:14,001 - CopperfieldsScraper - INFO - Found event: KIM FAY on 2026-03-13 18:00:00
+2026-03-03 22:31:14,002 - CopperfieldsScraper - INFO - Found event: RACHAEL DEVAUX & NICOLE KESHISHIAN on 2026-03-14 18:00:00
+2026-03-03 22:31:14,003 - CopperfieldsScraper - INFO - Found event: CRYSTAL WAHPEPAH & DR. ERICA TOM on 2026-03-20 18:00:00
+2026-03-03 22:31:14,004 - CopperfieldsScraper - INFO - Found event: M&G: MARY STEPHENS, JEN FERRIS & BARBARA SAPIENZA on 2026-03-21 18:00:00
+2026-03-03 22:31:14,005 - CopperfieldsScraper - INFO - Found event: MYRTLE HEERY M&G on 2026-03-21 18:00:00
+2026-03-03 22:31:14,006 - CopperfieldsScraper - INFO - Found event: PETER RUSSELL on 2026-03-27 18:00:00
+2026-03-03 22:31:14,007 - CopperfieldsScraper - INFO - Found event: MARISSA MEYER & TAMARA MOSS on 2026-04-06 18:00:00
+2026-03-03 22:31:14,008 - CopperfieldsScraper - INFO - Found event: VICTORIA TATUM & JENNIFER MYGATT on 2026-04-10 18:00:00
+2026-03-03 22:31:14,009 - CopperfieldsScraper - INFO - Found event: PETER RICHARDSON & TIM LYNCH on 2026-04-17 18:00:00
+2026-03-03 22:31:14,010 - CopperfieldsScraper - INFO - Found event: JANE SMILEY on 2026-04-23 18:00:00
+2026-03-03 22:31:14,011 - CopperfieldsScraper - INFO - Found event: ROY REMER & SCOTT EBERLE on 2026-05-01 18:00:00
+2026-03-03 22:31:14,012 - CopperfieldsScraper - INFO - Found event: TJ KLUNE on 2026-05-03 18:00:00
+2026-03-03 22:31:14,013 - CopperfieldsScraper - INFO - Found event: DAVID SEDARIS on 2026-05-08 18:00:00
+2026-03-03 22:31:14,014 - CopperfieldsScraper - INFO - Found event: MAC BARNETT on 2026-05-17 18:00:00
+2026-03-03 22:31:14,015 - CopperfieldsScraper - INFO - Found event: KAILEA ROSE LOFTEN & KATE ROSE WEINER on 2026-05-19 18:00:00
+2026-03-03 22:31:14,016 - CopperfieldsScraper - INFO - Found event: ELISA SUNGA on 2026-06-13 18:00:00
+2026-03-03 22:31:14,017 - CopperfieldsScraper - INFO - Filtered 4 events beyond 2 months out
+2026-03-03 22:31:14,017 - CopperfieldsScraper - INFO - Found 14 events
+2026-03-03 22:31:14,020 - CopperfieldsScraper - INFO - Written to cities/santarosa/copperfields.ics
+2026-03-03 22:31:14,183 - SonomaCountyGovScraper - INFO - Scraping Sonoma County Government
+2026-03-03 22:31:14,183 - SonomaCountyGovScraper - INFO - Fetching events from 2026-03-01 to 2026-04-01
+2026-03-03 22:31:15,618 - SonomaCountyGovScraper - INFO - Found event: Coast Municipal Advisory Council (MAC) Meeting March 26, 2026 on 2026-03-26 17:30:00
+2026-03-03 22:31:15,618 - SonomaCountyGovScraper - INFO - Found event: Dry Creek Valley Citizens Advisory Council Meeting on 2026-03-19 18:00:00
+2026-03-03 22:31:15,618 - SonomaCountyGovScraper - INFO - Found event: Lower Russian River Municipal Advisory Council Meeting March 12, 2026 on 2026-03-12 17:30:00
+2026-03-03 22:31:15,618 - SonomaCountyGovScraper - INFO - Found event: Mark West Area Municipal Advisory Council (MWAMAC) Meeting on 2026-03-11 18:00:00
+2026-03-03 22:31:15,618 - SonomaCountyGovScraper - INFO - Found event: North Sonoma Valley Municipal Advisory Council Meeting on 2026-03-17 17:30:00
+2026-03-03 22:31:15,619 - SonomaCountyGovScraper - INFO - Found event: Sonoma Valley Community Advisory Commission Meeting on 2026-03-25 18:30:00
+2026-03-03 22:31:15,619 - SonomaCountyGovScraper - INFO - Found event: Historical Records Commission Meeting on 2026-03-12 16:00:00
+2026-03-03 22:31:15,619 - SonomaCountyGovScraper - INFO - Found event: Measure H Oversight Committee Meeting on 2026-03-25 17:00:00
+2026-03-03 22:31:15,619 - SonomaCountyGovScraper - INFO - Found event: Commission on the Status of Women Meeting on 2026-03-12 18:00:00
+2026-03-03 22:31:15,619 - SonomaCountyGovScraper - INFO - Found event: Commission on Human Rights Meeting on 2026-03-24 17:30:00
+2026-03-03 22:31:15,619 - SonomaCountyGovScraper - INFO - Found event: Civil Service Commission Meeting on 2026-03-19 15:00:00
+2026-03-03 22:31:15,619 - SonomaCountyGovScraper - INFO - Found event: Community Advisory Council (CAC) Meeting on 2026-03-11 18:00:00
+2026-03-03 22:31:15,619 - SonomaCountyGovScraper - INFO - Found event: Cities & Towns Advisory Committee on 2026-03-18 10:00:00
+2026-03-03 22:31:15,619 - SonomaCountyGovScraper - INFO - Found event: Community Development Committee Meeting on 2026-03-18 10:00:00
+2026-03-03 22:31:15,619 - SonomaCountyGovScraper - INFO - Found event: Homeless Coalition Board Meeting on 2026-03-25 13:00:00
+2026-03-03 22:31:15,619 - SonomaCountyGovScraper - INFO - Found event: Coordinated Entry Advisory Committee Meeting April 1, 2026 on 2026-04-01 12:00:00
+2026-03-03 22:31:15,619 - SonomaCountyGovScraper - INFO - Found event: Behavioral Health Board Meeting on 2026-03-17 17:00:00
+2026-03-03 22:31:15,619 - SonomaCountyGovScraper - INFO - Found event: Behavioral Health Board Executive Meeting on 2026-03-04 10:30:00
+2026-03-03 22:31:15,619 - SonomaCountyGovScraper - INFO - Found event: Behavioral Health Board Executive Meeting on 2026-04-01 10:30:00
+2026-03-03 22:31:15,619 - SonomaCountyGovScraper - INFO - Found event: Aging & Disability Commission Meeting on 2026-03-18 13:00:00
+2026-03-03 22:31:15,620 - SonomaCountyGovScraper - INFO - Found event: Aging & Disability Commission: Executive Committee Meeting on 2026-03-10 11:00:00
+2026-03-03 22:31:15,620 - SonomaCountyGovScraper - INFO - Found event: Data Management and Evaluation Subcommittee Meeting on 2026-03-02 11:00:00
+2026-03-03 22:31:15,620 - SonomaCountyGovScraper - INFO - Found event: Fish and Wildlife Commission Meeting on 2026-03-19 19:00:00
+2026-03-03 22:31:15,620 - SonomaCountyGovScraper - INFO - Found event: Holiday Closure: Cesar Chavez Day 2026 on 2026-03-31 00:00:00
+2026-03-03 22:31:15,620 - SonomaCountyGovScraper - INFO - Found event: Foundational Anti-Racist Results-Based Accountability (AR-RBA) Training on 2026-03-04 10:00:00
+2026-03-03 22:31:15,620 - SonomaCountyGovScraper - INFO - Found event: AR-RBA Office Hours on 2026-03-18 13:00:00
+2026-03-03 22:31:15,620 - SonomaCountyGovScraper - INFO - Found event: Parks and Recreation Advisory Commission Meeting on 2026-04-01 17:30:00
+2026-03-03 22:31:15,620 - SonomaCountyGovScraper - INFO - Found event: March 18, 2026 Fire Memorial Task Force Meeting on 2026-03-18 15:00:00
+2026-03-03 22:31:15,620 - SonomaCountyGovScraper - INFO - Found event: 2026 Perspectiva Económica on 2026-03-05 09:00:00
+2026-03-03 22:31:15,620 - SonomaCountyGovScraper - INFO - Found event: 2026 Economic Perspective on 2026-03-05 09:00:00
+2026-03-03 22:31:15,620 - SonomaCountyGovScraper - INFO - Found event: EDC Regular and Foundation Meeting March 2026 on 2026-03-25 07:30:00
+2026-03-03 22:31:15,620 - SonomaCountyGovScraper - INFO - Found event: Airport Land Use Commission Meeting on 2026-03-09 09:00:00
+2026-03-03 22:31:15,620 - SonomaCountyGovScraper - INFO - Found event: Zoning Administrator Meeting on 2026-03-12 13:00:00
+2026-03-03 22:31:15,620 - SonomaCountyGovScraper - INFO - Found event: Zoning Administrator Meeting on 2026-03-26 13:00:00
+2026-03-03 22:31:15,620 - SonomaCountyGovScraper - INFO - Found event: Planning Commission Meeting on 2026-03-19 13:00:00
+2026-03-03 22:31:15,621 - SonomaCountyGovScraper - INFO - Found event: Design Review Committee Meeting on 2026-03-18 13:30:00
+2026-03-03 22:31:15,621 - SonomaCountyGovScraper - INFO - Found event: Design Review Committee Meeting on 2026-04-01 13:30:00
+2026-03-03 22:31:15,621 - SonomaCountyGovScraper - INFO - Fetching events from 2026-04-01 to 2026-05-01
+2026-03-03 22:31:17,048 - SonomaCountyGovScraper - INFO - Found event: Dry Creek Valley Citizens Advisory Council Meeting on 2026-04-16 18:00:00
+2026-03-03 22:31:17,048 - SonomaCountyGovScraper - INFO - Found event: Lower Russian River Municipal Advisory Council Meeting April 9, 2026 on 2026-04-09 17:30:00
+2026-03-03 22:31:17,048 - SonomaCountyGovScraper - INFO - Found event: Mark West Area Municipal Advisory Council (MWAMAC) Meeting on 2026-04-08 18:00:00
+2026-03-03 22:31:17,048 - SonomaCountyGovScraper - INFO - Found event: North Sonoma Valley Municipal Advisory Council Meeting on 2026-04-21 17:30:00
+2026-03-03 22:31:17,048 - SonomaCountyGovScraper - INFO - Found event: Sonoma Valley Community Advisory Commission Meeting on 2026-04-22 18:30:00
+2026-03-03 22:31:17,048 - SonomaCountyGovScraper - INFO - Found event: Historical Records Commission Meeting on 2026-04-09 16:00:00
+2026-03-03 22:31:17,048 - SonomaCountyGovScraper - INFO - Found event: Measure H Oversight Committee Meeting on 2026-04-30 17:00:00
+2026-03-03 22:31:17,048 - SonomaCountyGovScraper - INFO - Found event: Commission on the Status of Women Meeting on 2026-04-09 18:00:00
+2026-03-03 22:31:17,048 - SonomaCountyGovScraper - INFO - Found event: Commission on Human Rights Meeting on 2026-04-28 17:30:00
+2026-03-03 22:31:17,048 - SonomaCountyGovScraper - INFO - Found event: Civil Service Commission Meeting on 2026-04-02 15:00:00
+2026-03-03 22:31:17,049 - SonomaCountyGovScraper - INFO - Found event: Civil Service Commission Meeting on 2026-04-16 15:00:00
+2026-03-03 22:31:17,049 - SonomaCountyGovScraper - INFO - Found event: Community Advisory Council (CAC) Meeting on 2026-04-08 18:00:00
+2026-03-03 22:31:17,049 - SonomaCountyGovScraper - INFO - Found event: Cities & Towns Advisory Committee on 2026-04-15 10:00:00
+2026-03-03 22:31:17,049 - SonomaCountyGovScraper - INFO - Found event: Community Development Committee Meeting on 2026-04-15 10:00:00
+2026-03-03 22:31:17,049 - SonomaCountyGovScraper - INFO - Found event: Homeless Coalition Board Meeting on 2026-04-22 13:00:00
+2026-03-03 22:31:17,049 - SonomaCountyGovScraper - INFO - Found event: Sonoma County Homeless Coalition Quarterly Membership Meeting on 2026-04-16 13:00:00
+2026-03-03 22:31:17,049 - SonomaCountyGovScraper - INFO - Found event: Behavioral Health Board Meeting on 2026-04-21 17:00:00
+2026-03-03 22:31:17,049 - SonomaCountyGovScraper - INFO - Found event: Aging & Disability Commission Meeting on 2026-04-15 13:00:00
+2026-03-03 22:31:17,049 - SonomaCountyGovScraper - INFO - Found event: Aging & Disability Commission: Executive Committee Meeting on 2026-04-07 11:00:00
+2026-03-03 22:31:17,049 - SonomaCountyGovScraper - INFO - Found event: Fish and Wildlife Commission Meeting on 2026-04-16 19:00:00
+2026-03-03 22:31:17,049 - SonomaCountyGovScraper - INFO - Found event: Equity in Data Training on 2026-04-15 09:30:00
+2026-03-03 22:31:17,049 - SonomaCountyGovScraper - INFO - Found event: April 15, 2026 Fire Memorial Task Force Meeting on 2026-04-15 15:00:00
+2026-03-03 22:31:17,049 - SonomaCountyGovScraper - INFO - Found event: Airport Land Use Commission Meeting on 2026-04-13 09:00:00
+2026-03-03 22:31:17,050 - SonomaCountyGovScraper - INFO - Found event: Planning Agency Meeting on 2026-04-30 14:00:00
+2026-03-03 22:31:17,050 - SonomaCountyGovScraper - INFO - Found event: Zoning Administrator Meeting on 2026-04-09 13:00:00
+2026-03-03 22:31:17,050 - SonomaCountyGovScraper - INFO - Found event: Zoning Administrator Meeting on 2026-04-23 13:00:00
+2026-03-03 22:31:17,050 - SonomaCountyGovScraper - INFO - Found event: Planning Commission Meeting on 2026-04-02 13:00:00
+2026-03-03 22:31:17,050 - SonomaCountyGovScraper - INFO - Found event: Planning Commission Meeting on 2026-04-16 13:00:00
+2026-03-03 22:31:17,050 - SonomaCountyGovScraper - INFO - Found event: Environmental Review Committee Meeting on 2026-04-07 09:00:00
+2026-03-03 22:31:17,050 - SonomaCountyGovScraper - INFO - Found event: Design Review Committee Meeting on 2026-04-15 13:30:00
+2026-03-03 22:31:17,050 - SonomaCountyGovScraper - INFO - Found event: Landmarks Commission Meeting on 2026-04-07 15:00:00
+2026-03-03 22:31:17,050 - SonomaCountyGovScraper - INFO - Fetching events from 2026-05-01 to 2026-06-01
+2026-03-03 22:31:18,650 - SonomaCountyGovScraper - INFO - Found event: Coast Municipal Advisory Council (MAC) Meeting May 28, 2026 on 2026-05-28 17:30:00
+2026-03-03 22:31:18,650 - SonomaCountyGovScraper - INFO - Found event: Dry Creek Valley Citizens Advisory Council Meeting on 2026-05-21 18:00:00
+2026-03-03 22:31:18,650 - SonomaCountyGovScraper - INFO - Found event: Lower Russian River Municipal Advisory Council Meeting May 14, 2026 on 2026-05-14 17:30:00
+2026-03-03 22:31:18,650 - SonomaCountyGovScraper - INFO - Found event: Mark West Area Municipal Advisory Council (MWAMAC) Meeting on 2026-05-13 18:00:00
+2026-03-03 22:31:18,650 - SonomaCountyGovScraper - INFO - Found event: Sonoma Valley Community Advisory Commission Meeting on 2026-05-27 18:30:00
+2026-03-03 22:31:18,650 - SonomaCountyGovScraper - INFO - Found event: Historical Records Commission Meeting on 2026-05-14 16:00:00
+2026-03-03 22:31:18,650 - SonomaCountyGovScraper - INFO - Found event: Commission on the Status of Women Meeting on 2026-05-14 18:00:00
+2026-03-03 22:31:18,650 - SonomaCountyGovScraper - INFO - Found event: Commission on Human Rights  Meeting on 2026-05-26 17:30:00
+2026-03-03 22:31:18,650 - SonomaCountyGovScraper - INFO - Found event: Civil Service Commission Meeting on 2026-05-07 15:00:00
+2026-03-03 22:31:18,651 - SonomaCountyGovScraper - INFO - Found event: Civil Service Commission Meeting on 2026-05-21 15:00:00
+2026-03-03 22:31:18,651 - SonomaCountyGovScraper - INFO - Found event: Community Advisory Council (CAC) Meeting on 2026-05-13 18:00:00
+2026-03-03 22:31:18,651 - SonomaCountyGovScraper - INFO - Found event: Cities & Towns Advisory Committee on 2026-05-20 10:00:00
+2026-03-03 22:31:18,651 - SonomaCountyGovScraper - INFO - Found event: Community Development Committee Meeting on 2026-05-20 10:00:00
+2026-03-03 22:31:18,651 - SonomaCountyGovScraper - INFO - Found event: Homeless Coalition Board Meeting on 2026-05-27 13:00:00
+2026-03-03 22:31:18,651 - SonomaCountyGovScraper - INFO - Found event: Coordinated Entry Advisory Committee Meeting May 6, 2026 on 2026-05-06 12:00:00
+2026-03-03 22:31:18,651 - SonomaCountyGovScraper - INFO - Found event: Homeless Management Information Systems (HMIS) Data Committee Meeting on 2026-05-11 10:00:00
+2026-03-03 22:31:18,651 - SonomaCountyGovScraper - INFO - Found event: Behavioral Health Board Meeting on 2026-05-19 17:00:00
+2026-03-03 22:31:18,651 - SonomaCountyGovScraper - INFO - Found event: Behavioral Health Board Executive Meeting on 2026-05-06 10:30:00
+2026-03-03 22:31:18,651 - SonomaCountyGovScraper - INFO - Found event: Aging & Disability Commission Meeting on 2026-05-20 13:00:00
+2026-03-03 22:31:18,651 - SonomaCountyGovScraper - INFO - Found event: Aging & Disability Commission: Executive Committee Meeting on 2026-05-12 11:00:00
+2026-03-03 22:31:18,651 - SonomaCountyGovScraper - INFO - Found event: Fish and Wildlife Commission Meeting on 2026-05-21 19:00:00
+2026-03-03 22:31:18,651 - SonomaCountyGovScraper - INFO - Found event: Holiday Closure: Memorial Day 2026 on 2026-05-25 00:00:00
+2026-03-03 22:31:18,651 - SonomaCountyGovScraper - INFO - Found event: Foundational Anti-Racist Results-Based Accountability (AR-RBA) Training on 2026-05-12 10:00:00
+2026-03-03 22:31:18,651 - SonomaCountyGovScraper - INFO - Found event: Parks Measure M Citizens Oversight Committee Meeting on 2026-05-18 17:30:00
+2026-03-03 22:31:18,652 - SonomaCountyGovScraper - INFO - Found event: May 20, 2026 Fire Memorial Task Force Meeting on 2026-05-20 15:00:00
+2026-03-03 22:31:18,652 - SonomaCountyGovScraper - INFO - Found event: Airport Land Use Commission Meeting on 2026-05-11 09:00:00
+2026-03-03 22:31:18,652 - SonomaCountyGovScraper - INFO - Found event: Zoning Administrator Meeting on 2026-05-14 13:00:00
+2026-03-03 22:31:18,652 - SonomaCountyGovScraper - INFO - Found event: Zoning Administrator Meeting on 2026-05-28 13:00:00
+2026-03-03 22:31:18,652 - SonomaCountyGovScraper - INFO - Found event: Planning Commission Meeting on 2026-05-07 13:00:00
+2026-03-03 22:31:18,652 - SonomaCountyGovScraper - INFO - Found event: Planning Commission Meeting on 2026-05-21 13:00:00
+2026-03-03 22:31:18,652 - SonomaCountyGovScraper - INFO - Found event: Environmental Review Committee Meeting on 2026-05-05 09:00:00
+2026-03-03 22:31:18,652 - SonomaCountyGovScraper - INFO - Found event: Design Review Committee Meeting on 2026-05-06 13:30:00
+2026-03-03 22:31:18,652 - SonomaCountyGovScraper - INFO - Found event: Design Review Committee Meeting on 2026-05-20 13:30:00
+2026-03-03 22:31:18,652 - SonomaCountyGovScraper - INFO - Found event: Landmarks Commission Meeting on 2026-05-05 15:00:00
+2026-03-03 22:31:18,652 - SonomaCountyGovScraper - INFO - Filtered 34 events beyond 2 months out
+2026-03-03 22:31:18,653 - SonomaCountyGovScraper - INFO - Found 68 events
+2026-03-03 22:31:18,663 - SonomaCountyGovScraper - INFO - Written to cities/santarosa/sonoma_county_gov.ics
+2026-03-03 22:31:18,811 - CafeFridaScraper - INFO - Scraping Cafe Frida Gallery
+2026-03-03 22:31:18,811 - CafeFridaScraper - INFO - Fetching https://www.cafefridagallery.com/events
+2026-03-03 22:31:19,066 - CafeFridaScraper - INFO - Found event: Son Chévere on 2026-02-27 18:00:00-08:00
+2026-03-03 22:31:19,066 - CafeFridaScraper - INFO - Found event: Jack Gobetti Quartet feat. Lynne Morrow on 2026-03-05 11:30:00-08:00
+2026-03-03 22:31:19,066 - CafeFridaScraper - INFO - Found event: Kevin Hutchinson on 2026-03-11 11:30:00-07:00
+2026-03-03 22:31:19,066 - CafeFridaScraper - INFO - Found event: Plexus on 2026-03-01 11:30:00-08:00
+2026-03-03 22:31:19,066 - CafeFridaScraper - INFO - Found event: Batacha on 2026-03-06 18:00:00-08:00
+2026-03-03 22:31:19,066 - CafeFridaScraper - INFO - Found event: Gabacool Provisions on 2026-03-12 16:00:00-07:00
+2026-03-03 22:31:19,067 - CafeFridaScraper - INFO - Found event: SR Laws on 2026-03-04 11:30:00-08:00
+2026-03-03 22:31:19,067 - CafeFridaScraper - INFO - Found event: Mo's Art Jazz Band on 2026-03-08 11:30:00-07:00
+2026-03-03 22:31:19,067 - CafeFridaScraper - INFO - Found event: G3 on 2026-03-13 11:30:00-07:00
+2026-03-03 22:31:19,067 - CafeFridaScraper - INFO - Found 9 events
+2026-03-03 22:31:19,069 - CafeFridaScraper - INFO - Written to cities/santarosa/cafefrida.ics
+2026-03-03 22:31:19,290 - SRCCScraper - INFO - Scraping Santa Rosa Cycling Club
+2026-03-03 22:31:19,290 - SRCCScraper - INFO - Fetching RSS feed: https://srcc.com/Calendar/RSS
+2026-03-03 22:31:20,371 - SRCCScraper - INFO - Found 44 entries in RSS feed
+2026-03-03 22:31:20,379 - SRCCScraper - INFO - Found event: Cotati-Petaluma • 2-3/AB&B/35 • Cotati Veteran's Hall on 2026-03-03 09:30:00-08:00
+2026-03-03 22:31:20,390 - SRCCScraper - INFO - Found event: Team Wednesday • AB & B Pace Ride on 2026-03-04 09:30:00-08:00
+2026-03-03 22:31:20,401 - SRCCScraper - INFO - Found event: C/D Peloton • C & D Paces • Various Locations on 2026-03-04 09:30:00-08:00
+2026-03-03 22:31:20,403 - SRCCScraper - INFO - Found event: Executive Board Meeting on 2026-03-04 18:30:00-08:00
+2026-03-03 22:31:20,408 - SRCCScraper - INFO - Found event: Geyserville to Cloverdale • 2/AB&B/32 • Geyserville Park 'n Ride on 2026-03-05 09:30:00-08:00
+2026-03-03 22:31:20,417 - SRCCScraper - INFO - Found event: Friendly Friday Rides • First Friday • Ragle Park on 2026-03-06 10:00:00-08:00
+2026-03-03 22:31:20,425 - SRCCScraper - INFO - Found event: Chain Gang Pine Flat • 3-4/AB&B/39 • Healdsburg City Hall on 2026-03-07 09:30:00-08:00
+2026-03-03 22:31:20,438 - SRCCScraper - INFO - Found event: Tailwinds • AB & B Pace Ride on 2026-03-09 09:30:00-07:00
+2026-03-03 22:31:20,444 - SRCCScraper - INFO - Found event: Howarth-Henno-Glen Ellen • 2/AB&B/37 • Howarth Park, Santa Rosa on 2026-03-10 09:30:00-07:00
+2026-03-03 22:31:20,453 - SRCCScraper - INFO - Found event: Team Wednesday • AB & B Pace Ride on 2026-03-11 09:30:00-07:00
+2026-03-03 22:31:20,464 - SRCCScraper - INFO - Found event: C/D Peloton • C & D Paces • Various Locations on 2026-03-11 09:30:00-07:00
+2026-03-03 22:31:20,467 - SRCCScraper - INFO - Found event: Club Monthly Meeting on 2026-03-11 18:30:00-07:00
+2026-03-03 22:31:20,473 - SRCCScraper - INFO - Found event: Petaluma to Novato with a twist • 3/AB&B/31 • Walnut Park, Petaluma on 2026-03-12 09:30:00-07:00
+2026-03-03 22:31:20,482 - SRCCScraper - INFO - Found event: Friendly Friday B Ride • Second Friday • Cotati on 2026-03-13 09:00:00-07:00
+2026-03-03 22:31:20,492 - SRCCScraper - INFO - Found event: Friendly Friday A & AB Ride • Second Friday • Cotati on 2026-03-13 09:30:00-07:00
+2026-03-03 22:31:20,504 - SRCCScraper - INFO - Found event: Tailwinds • AB & B Pace Ride on 2026-03-16 09:30:00-07:00
+2026-03-03 22:31:20,513 - SRCCScraper - INFO - Found event: Team Wednesday • AB & B Pace Ride on 2026-03-18 09:30:00-07:00
+2026-03-03 22:31:20,525 - SRCCScraper - INFO - Found event: C/D Peloton • C & D Paces • Various Locations on 2026-03-18 09:30:00-07:00
+2026-03-03 22:31:20,542 - SRCCScraper - INFO - Found event: Friendly Friday Rides • Third Friday • Howarth Park on 2026-03-20 10:00:00-07:00
+2026-03-03 22:31:20,554 - SRCCScraper - INFO - Found event: Tailwinds • AB & B Pace Ride on 2026-03-23 09:30:00-07:00
+2026-03-03 22:31:20,563 - SRCCScraper - INFO - Found event: Team Wednesday • AB & B Pace Ride on 2026-03-25 09:30:00-07:00
+2026-03-03 22:31:20,574 - SRCCScraper - INFO - Found event: C/D Peloton • C & D Paces • Various Locations on 2026-03-25 09:30:00-07:00
+2026-03-03 22:31:20,584 - SRCCScraper - INFO - Found event: Friendly Friday Rides • Fourth Friday • Healdsburg City Hall on 2026-03-27 09:30:00-07:00
+2026-03-03 22:31:20,596 - SRCCScraper - INFO - Found event: Tailwinds • AB & B Pace Ride on 2026-03-30 09:30:00-07:00
+2026-03-03 22:31:20,598 - SRCCScraper - INFO - Found event: Executive Board Meeting on 2026-04-01 18:30:00-07:00
+2026-03-03 22:31:20,601 - SRCCScraper - INFO - Found event: Club Monthly Meeting on 2026-04-08 18:30:00-07:00
+2026-03-03 22:31:20,602 - SRCCScraper - INFO - Found event: Wine Country Century 2026 on 2026-05-02 06:00:00-07:00
+2026-03-03 22:31:20,618 - SRCCScraper - INFO - Found event: 2026 WCC Workers' Ride & Volunteer Appreciation Party on 2026-05-03 06:30:00-07:00
+2026-03-03 22:31:20,620 - SRCCScraper - INFO - Found event: Executive Board Meeting on 2026-05-06 18:30:00-07:00
+2026-03-03 22:31:20,624 - SRCCScraper - INFO - Found event: Club Monthly Meeting on 2026-05-13 18:30:00-07:00
+2026-03-03 22:31:20,626 - SRCCScraper - INFO - Found event: Executive Board Meeting on 2026-06-03 18:30:00-07:00
+2026-03-03 22:31:20,629 - SRCCScraper - INFO - Found event: Club Monthly Meeting on 2026-06-10 18:30:00-07:00
+2026-03-03 22:31:20,631 - SRCCScraper - INFO - Found event: Executive Board Meeting on 2026-07-01 18:30:00-07:00
+2026-03-03 22:31:20,634 - SRCCScraper - INFO - Found event: Club Monthly Meeting on 2026-07-08 18:30:00-07:00
+2026-03-03 22:31:20,640 - SRCCScraper - INFO - Found event: Del Norte Tour 2026 on 2026-07-25 00:00:00-07:00
+2026-03-03 22:31:20,641 - SRCCScraper - INFO - Found event: Executive Board Meeting on 2026-08-05 18:30:00-07:00
+2026-03-03 22:31:20,644 - SRCCScraper - INFO - Found event: Club Monthly Meeting on 2026-08-12 18:30:00-07:00
+2026-03-03 22:31:20,646 - SRCCScraper - INFO - Found event: Executive Board Meeting on 2026-09-02 18:30:00-07:00
+2026-03-03 22:31:20,649 - SRCCScraper - INFO - Found event: Club Monthly Meeting on 2026-09-09 18:30:00-07:00
+2026-03-03 22:31:20,651 - SRCCScraper - INFO - Found event: Executive Board Meeting on 2026-10-07 18:30:00-07:00
+2026-03-03 22:31:20,654 - SRCCScraper - INFO - Found event: Club Monthly Meeting on 2026-10-14 18:30:00-07:00
+2026-03-03 22:31:20,656 - SRCCScraper - INFO - Found event: Executive Board Meeting on 2026-11-04 18:30:00-08:00
+2026-03-03 22:31:20,659 - SRCCScraper - INFO - Found event: Club Monthly Meeting on 2026-11-11 18:30:00-08:00
+2026-03-03 22:31:20,662 - SRCCScraper - INFO - Found event: Club Monthly Meeting on 2026-12-09 18:30:00-08:00
+2026-03-03 22:31:20,662 - SRCCScraper - INFO - Filtered 16 events beyond 2 months out
+2026-03-03 22:31:20,662 - SRCCScraper - INFO - Found 28 events
+2026-03-03 22:31:20,667 - SRCCScraper - INFO - Written to cities/santarosa/srcc.ics
+Fetching: https://barrelprooflounge.com/
+Found 5 events
+  03/03 04:00PM - Live Music Happy Hour – The Hutchinsons: Sonoma Seasoned Ame
+  03/03 08:00PM - Tuesday Night Comedy Showcase with Tony Sparks
+  03/04 05:00PM - Live Music Happy Hour – The Ukulele Ramblers – Open Uke Jam!
+  03/04 06:00PM - Wednesday Night Comedy Open Mic
+  03/04 09:00PM - Big Stage Karaoke Wednesdays with KJ Danny D
+Written to cities/santarosa/barrel_proof.ics
+2026-03-03 22:31:21,276 - SportsBasementScraper - INFO - Scraping Sports Basement
+2026-03-03 22:31:21,276 - SportsBasementScraper - INFO - Fetching Elfsight data for widget c18b022b-4e3e-4ab7-9baa-a3214cef181f
+2026-03-03 22:31:21,424 - SportsBasementScraper - INFO - Loaded 296 events, 17 locations, 10 event types
+2026-03-03 22:31:21,427 - SportsBasementScraper - INFO - Expanded to 12 event occurrences
+2026-03-03 22:31:21,427 - SportsBasementScraper - INFO - Found 12 events
+2026-03-03 22:31:21,429 - SportsBasementScraper - INFO - Written to cities/santarosa/sportsbasement.ics
+2026-03-03 22:31:21,649 - SebArtsScraper - INFO - Scraping Sebastopol Center for the Arts
+2026-03-03 22:31:21,649 - SebArtsScraper - INFO - Fetching https://www.sebarts.org/classes-and-events
+2026-03-03 22:31:21,649 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-and-events
+2026-03-03 22:31:22,043 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/intro-to-observational-drawing
+2026-03-03 22:31:22,309 - SebArtsScraper - INFO - Found event: Intro to Observational Drawing — Sebastopol Center For the Arts, California on 2026-03-04 00:00:00
+2026-03-03 22:31:24,311 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/jizo-peace-project-clay-gathering-mar
+2026-03-03 22:31:24,899 - SebArtsScraper - INFO - Found event: Jizo Peace Project: Clay Gathering — Sebastopol Center For the Arts, California on 2026-03-06 00:00:00
+2026-03-03 22:31:26,901 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/life-drawing-meet-up-mar-2026-7r6jw
+2026-03-03 22:31:27,507 - SebArtsScraper - INFO - Found event: Life Drawing Meet-Up — Sebastopol Center For the Arts, California on 2026-03-09 00:00:00
+2026-03-03 22:31:29,510 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/colored-pencil-with-nina-antze-mar-10-2026
+2026-03-03 22:31:29,779 - SebArtsScraper - INFO - Found event: Colored Pencil with Nina Antze — Sebastopol Center For the Arts, California on 2026-03-10 00:00:00
+2026-03-03 22:31:31,781 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/poetic-medicine-03/10/26
+2026-03-03 22:31:32,411 - SebArtsScraper - INFO - Found event: Poetic Medicine: 03/10/26 — Sebastopol Center For the Arts, California on 2026-03-10 00:00:00
+2026-03-03 22:31:34,413 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/handbuilding-wednesdays-3/11-3/25-2026
+2026-03-03 22:31:34,938 - SebArtsScraper - INFO - Found event: Handbuilding Wednesdays: 3/11 - 3/25, 2026 — Sebastopol Center For the Arts, California on 2026-03-11 00:00:00
+2026-03-03 22:31:36,940 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/clay-exploration-evenings-lvl-2
+2026-03-03 22:31:37,488 - SebArtsScraper - INFO - Found event: Clay Exploration Evenings: Lvl 2 — Sebastopol Center For the Arts, California on 2026-03-12 00:00:00
+2026-03-03 22:31:39,490 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/bauhaus-to-pond-farm-a-legacy-on-film
+2026-03-03 22:31:39,757 - SebArtsScraper - INFO - Found event: Bauhaus to Pond Farm: a Legacy on Film — Sebastopol Center For the Arts, California on 2026-03-13 00:00:00
+2026-03-03 22:31:41,759 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/books-at-the-source
+2026-03-03 22:31:42,016 - SebArtsScraper - INFO - Found event: Books at the Source: Literary Arts Summit — Sebastopol Center For the Arts, California on 2026-03-14 00:00:00
+2026-03-03 22:31:44,018 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/book-arts-opening-reception
+2026-03-03 22:31:44,541 - SebArtsScraper - INFO - Found event: Book Arts Opening Reception — Sebastopol Center For the Arts, California on 2026-03-15 00:00:00
+2026-03-03 22:31:46,543 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/life-drawing-meet-up-mar-2026-7r6jw-g8zkt
+2026-03-03 22:31:47,156 - SebArtsScraper - INFO - Found event: Life Drawing Meet-Up — Sebastopol Center For the Arts, California on 2026-03-16 00:00:00
+2026-03-03 22:31:49,158 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/floor-loom-weaving-exploring-lace-weave
+2026-03-03 22:31:49,697 - SebArtsScraper - INFO - Found event: Floor Loom Weaving: Exploring Lace Weave — Sebastopol Center For the Arts, California on 2026-03-19 00:00:00
+2026-03-03 22:31:51,699 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/spring-bloom-watercolors
+2026-03-03 22:31:51,964 - SebArtsScraper - INFO - Found event: Spring Bloom Watercolors — Sebastopol Center For the Arts, California on 2026-03-21 00:00:00
+2026-03-03 22:31:53,967 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/remembering-jerry-a-tribute-celebration
+2026-03-03 22:31:54,471 - SebArtsScraper - INFO - Found event: Remembering Jerry: A Tribute Concert — Sebastopol Center For the Arts, California on 2026-03-22 00:00:00
+2026-03-03 22:31:56,474 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/life-drawing-meet-up-mar-2026-7r6jw-g8zkt-lmlhe
+2026-03-03 22:31:57,050 - SebArtsScraper - INFO - Found event: Life Drawing Meet-Up — Sebastopol Center For the Arts, California on 2026-03-23 00:00:00
+2026-03-03 22:31:59,052 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/intro-to-peaceful-pottery-03/25-4/22-2026
+2026-03-03 22:31:59,596 - SebArtsScraper - INFO - Found event: Intro to Peaceful Pottery: 03/25- 4/22, 2026 — Sebastopol Center For the Arts, California on 2026-03-25 00:00:00
+2026-03-03 22:32:01,599 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/upcycled-journal-workshop-03/26/26
+2026-03-03 22:32:02,187 - SebArtsScraper - INFO - Found event: Upcycled Journal Workshop — Sebastopol Center For the Arts, California on 2026-03-26 00:00:00
+2026-03-03 22:32:04,189 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/distant-voices-an-introduction-to-asemic-writing
+2026-03-03 22:32:04,726 - SebArtsScraper - INFO - Found event: Distant Voices: An Introduction to Asemic Writing — Sebastopol Center For the Arts, California on 2026-03-28 00:00:00
+2026-03-03 22:32:06,728 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/explore-gel-plate-printing
+2026-03-03 22:32:07,297 - SebArtsScraper - INFO - Found event: Explore Gel Plate Printing — Sebastopol Center For the Arts, California on 2026-03-28 00:00:00
+2026-03-03 22:32:09,299 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/wabi-sabi-ink-painting-finding-beauty-in-imperfection
+2026-03-03 22:32:09,842 - SebArtsScraper - INFO - Found event: Wabi Sabi Ink Painting: Finding Beauty in Imperfection — Sebastopol Center For the Arts, California on 2026-03-29 00:00:00
+2026-03-03 22:32:11,844 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/life-drawing-meet-up-mar-2026-7r6jw-g8zkt-lmlhe-brjm7
+2026-03-03 22:32:12,404 - SebArtsScraper - INFO - Found event: Life Drawing Meet-Up — Sebastopol Center For the Arts, California on 2026-03-30 00:00:00
+2026-03-03 22:32:14,407 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/observational-drawing-3-week-course
+2026-03-03 22:32:15,030 - SebArtsScraper - INFO - Found event: Observational Drawing 3-Week Course — Sebastopol Center For the Arts, California on 2026-04-01 00:00:00
+2026-03-03 22:32:17,032 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/ceramic-garden-poles-04/02-05/14-2026
+2026-03-03 22:32:17,648 - SebArtsScraper - INFO - Found event: Ceramic Garden Poles: 04/02-05/14 2026 — Sebastopol Center For the Arts, California on 2026-04-02 00:00:00
+2026-03-03 22:32:19,650 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/eco-petals-crafting-a-recycled-bouquet
+2026-03-03 22:32:20,187 - SebArtsScraper - INFO - Found event: Eco Petals: Crafting a Recycled Bouquet — Sebastopol Center For the Arts, California on 2026-04-02 00:00:00
+2026-03-03 22:32:22,188 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/jizo-peace-project-clay-gathering-apr
+2026-03-03 22:32:22,875 - SebArtsScraper - INFO - Found event: Jizo Peace Project: Clay Gathering — Sebastopol Center For the Arts, California on 2026-04-03 00:00:00
+2026-03-03 22:32:24,878 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/pt-1-modifying-thrown-forms-focusing-on-teapot-making-with-ping-zhong
+2026-03-03 22:32:25,442 - SebArtsScraper - INFO - Found event: Pt 1: Modifying Thrown Forms – Focusing on Teapot Making with Ping Zhong — Sebastopol Center For the Arts, California on 2026-04-04 00:00:00
+2026-03-03 22:32:27,444 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/collage-on-panel-from-start-to-finish-44
+2026-03-03 22:32:27,983 - SebArtsScraper - INFO - Found event: Collage on Panel from Start to Finish — Sebastopol Center For the Arts, California on 2026-04-04 00:00:00
+2026-03-03 22:32:29,985 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/life-drawing-meet-up-apr-2026
+2026-03-03 22:32:30,562 - SebArtsScraper - INFO - Found event: Life Drawing Meet-Up — Sebastopol Center For the Arts, California on 2026-04-06 00:00:00
+2026-03-03 22:32:32,564 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/handbuilding-wednesdays-4/8-4/22-2026
+2026-03-03 22:32:33,142 - SebArtsScraper - INFO - Found event: Handbuilding Wednesdays: 4/8 - 4/22, 2026 — Sebastopol Center For the Arts, California on 2026-04-08 00:00:00
+2026-03-03 22:32:35,143 - lib.utils - INFO - Fetching: https://www.sebarts.org/classes-lectures/sebastopol-documentary-film-festival-2026
+2026-03-03 22:32:35,682 - SebArtsScraper - INFO - Found event: Sebastopol Documentary Film Festival — Sebastopol Center For the Arts, California on 2026-04-09 00:00:00
+2026-03-03 22:32:37,684 - SebArtsScraper - INFO - Found 30 events
+2026-03-03 22:32:37,695 - SebArtsScraper - INFO - Written to cities/santarosa/sebarts.ics
+2026-03-03 22:32:37,943 - INFO - Fetching: https://santarosaartscenter.org/events/
+2026-03-03 22:32:38,894 - INFO - Found: Speakeasy on 2026-03-12 18:00:00
+2026-03-03 22:32:38,894 - INFO - Found: Creation Station on 2026-03-11 18:00:00
+2026-03-03 22:32:38,894 - INFO - Found 2 events for 2026/03
+2026-03-03 22:32:38,894 - INFO - Fetching: https://santarosaartscenter.org/events/
+2026-03-03 22:32:39,745 - INFO - Found 0 events for 2026/04
+2026-03-03 22:32:39,746 - INFO - Wrote cities/santarosa/santa_rosa_arts_center.ics
+2026-03-03 22:32:39,973 - INFO - Fetching: https://www.movingwriting.com/workshops
+2026-03-03 22:32:40,214 - INFO - Found: MovingWriting Weekend Workshop on 2026-03-21 14:00:00
+2026-03-03 22:32:40,215 - INFO - Found: MovingWriting Women's Circle on 2026-03-06 10:00:00
+2026-03-03 22:32:40,215 - INFO - Found 2 events for 2026/03
+2026-03-03 22:32:40,215 - INFO - Fetching: https://www.movingwriting.com/workshops
+2026-03-03 22:32:40,446 - INFO - Found: MovingWriting Women's Circle on 2026-04-03 10:00:00
+2026-03-03 22:32:40,446 - INFO - Found 1 events for 2026/04
+2026-03-03 22:32:40,447 - INFO - Wrote cities/santarosa/movingwriting.ics
+Fetched 8 events from Legistar
+Wrote cities/santarosa/legistar.ics
+2026-03-03 22:32:41,566 - SpreckelsScraper - INFO - Scraping Spreckels Performing Arts Center
+2026-03-03 22:32:41,567 - SpreckelsScraper - INFO - Fetching https://spreckelsonline.com/wp-json/tribe/events/v1/events
+2026-03-03 22:32:42,067 - SpreckelsScraper - INFO - Found: Hands on a Hardbody on 2026-02-13
+2026-03-03 22:32:42,067 - SpreckelsScraper - INFO - Found: Hands on a Hardbody on 2026-02-14
+2026-03-03 22:32:42,067 - SpreckelsScraper - INFO - Found: Hands on a Hardbody on 2026-02-15
+2026-03-03 22:32:42,067 - SpreckelsScraper - INFO - Found: Hands on a Hardbody on 2026-02-19
+2026-03-03 22:32:42,067 - SpreckelsScraper - INFO - Found 4 events
+2026-03-03 22:32:42,068 - SpreckelsScraper - INFO - Written to cities/santarosa/spreckels.ics
+2026-03-03 22:32:42,290 - LagunitasScraper - INFO - Scraping Lagunitas Brewing Company
+2026-03-03 22:32:42,290 - LagunitasScraper - INFO - Fetching https://lagunitas.com/taproom/petaluma/
+2026-03-03 22:32:42,993 - LagunitasScraper - INFO - Found: Taproom Eats - Cousins Maine Lobster on 2026-03-04 12:00
+2026-03-03 22:32:42,993 - LagunitasScraper - INFO - Found: Trivia Night on 2026-03-04 17:30
+2026-03-03 22:32:42,994 - LagunitasScraper - INFO - Found: Music Bingo on 2026-03-05 17:30
+2026-03-03 22:32:42,995 - LagunitasScraper - INFO - Found: Live Music - Morris LeGrande on 2026-03-07 15:30
+2026-03-03 22:32:42,995 - LagunitasScraper - INFO - Found: Live Music - Jason Bodlovich on 2026-03-08 14:30
+2026-03-03 22:32:42,996 - LagunitasScraper - INFO - Found: Trivia Night on 2026-03-11 17:30
+2026-03-03 22:32:42,996 - LagunitasScraper - INFO - Found: Music Bingo on 2026-03-12 17:30
+2026-03-03 22:32:42,996 - LagunitasScraper - INFO - Found: St. Patrick's Day Party on 2026-03-14 12:00
+2026-03-03 22:32:42,997 - LagunitasScraper - INFO - Found: Live Music - Timothy O'Neill & Friends on 2026-03-15 14:30
+2026-03-03 22:32:42,997 - LagunitasScraper - INFO - Found: Taproom Eats - Cousins Maine Lobster on 2026-03-17 12:00
+2026-03-03 22:32:42,998 - LagunitasScraper - INFO - Found: Trivia Night on 2026-03-18 17:30
+2026-03-03 22:32:42,998 - LagunitasScraper - INFO - Found: Music Bingo on 2026-03-19 17:30
+2026-03-03 22:32:42,999 - LagunitasScraper - INFO - Found: Live Music - Bitter Blues Bands on 2026-03-21 15:30
+2026-03-03 22:32:42,999 - LagunitasScraper - INFO - Found: Live Music - Dan Durkin (Solo) on 2026-03-22 14:30
+2026-03-03 22:32:43,000 - LagunitasScraper - INFO - Found: Trivia Night on 2026-03-25 17:30
+2026-03-03 22:32:43,000 - LagunitasScraper - INFO - Found: Music Bingo on 2026-03-26 17:30
+2026-03-03 22:32:43,001 - LagunitasScraper - INFO - Found: Board Game Social Night on 2026-03-27 16:00
+2026-03-03 22:32:43,001 - LagunitasScraper - INFO - Found: Live Music - Solid Air Trio on 2026-03-28 15:30
+2026-03-03 22:32:43,002 - LagunitasScraper - INFO - Found: Live Music - Nate Lopez on 2026-03-29 14:30
+2026-03-03 22:32:43,002 - LagunitasScraper - INFO - Found: Trivia Night on 2026-04-01 17:30
+2026-03-03 22:32:43,003 - LagunitasScraper - INFO - Found: Music Bingo on 2026-04-02 17:30
+2026-03-03 22:32:43,003 - LagunitasScraper - INFO - Found: Trivia Night on 2026-04-08 17:30
+2026-03-03 22:32:43,004 - LagunitasScraper - INFO - Found: Music Bingo on 2026-04-09 17:30
+2026-03-03 22:32:43,004 - LagunitasScraper - INFO - Found: Board Game Social Night on 2026-04-24 16:00
+2026-03-03 22:32:43,005 - LagunitasScraper - INFO - Found: Mother's Day Tea Party on 2026-05-10 12:00
+2026-03-03 22:32:43,005 - LagunitasScraper - INFO - Found: Board Game Social Night on 2026-05-29 16:00
+2026-03-03 22:32:43,006 - LagunitasScraper - INFO - Filtered 2 events beyond 2 months out
+2026-03-03 22:32:43,006 - LagunitasScraper - INFO - Found 24 events
+2026-03-03 22:32:43,009 - LagunitasScraper - INFO - Written to cities/santarosa/lagunitas.ics
+2026-03-03 22:32:43,244 - CreativeSonomaScraper - INFO - Scraping Creative Sonoma
+2026-03-03 22:32:43,244 - CreativeSonomaScraper - INFO - Fetching page 1: https://creativesonoma.org/event/
+2026-03-03 22:32:43,704 - CreativeSonomaScraper - INFO - Found: Conversation with Dr. Caroline Collins on 2026-03-05
+2026-03-03 22:32:43,704 - CreativeSonomaScraper - INFO - Found: CONTRA-TIEMPO Activist Dance Theater joyUS justUS on 2026-03-05
+2026-03-03 22:32:43,705 - CreativeSonomaScraper - INFO - Found: The Arts Guild of Sonoma Presents: A Fresh New Season of Art on 2026-03-07
+2026-03-03 22:32:43,706 - CreativeSonomaScraper - INFO - Found: Tutus and Tapas on 2026-03-07
+2026-03-03 22:32:43,706 - CreativeSonomaScraper - INFO - Found: Art Opening! New paintings by Anna M. Simson at Slough City Gallery on 2026-03-07
+2026-03-03 22:32:43,707 - CreativeSonomaScraper - INFO - Found: Lila Downs on 2026-03-07
+2026-03-03 22:32:43,708 - CreativeSonomaScraper - INFO - Found: Sonoma County Artists Invited to Participate in Art & Found Day on March 12 on 2026-03-12
+2026-03-03 22:32:43,708 - CreativeSonomaScraper - INFO - Found: Raven Gala 2026 on 2026-03-13
+2026-03-03 22:32:43,709 - CreativeSonomaScraper - INFO - Found: Saturday in the Museum with Sondheim on 2026-03-14
+2026-03-03 22:32:43,710 - CreativeSonomaScraper - INFO - Found: Outback Presents Whitney Cummings: The Big Baby Tour on 2026-03-14
+2026-03-03 22:32:43,710 - CreativeSonomaScraper - INFO - Found: Second Saturday: Free Family Day at MSC on 2026-03-14
+2026-03-03 22:32:43,711 - CreativeSonomaScraper - INFO - Found: In Vivo: Within the Living on 2026-03-03
+2026-03-03 22:32:43,711 - CreativeSonomaScraper - INFO - Found: Ralph Barbosa: The Red 40 Tour on 2026-03-15
+2026-03-03 22:32:43,712 - CreativeSonomaScraper - INFO - Found: Art Lounge at the Santa Rosa Arts Center on 2026-03-15
+2026-03-03 22:32:43,712 - CreativeSonomaScraper - INFO - Found: MovingWriting: Embodied Expressive Writing on 2026-03-21
+2026-03-03 22:32:43,713 - CreativeSonomaScraper - INFO - Found: David Nihill: Taking Tangents on 2026-03-22
+2026-03-03 22:32:43,714 - CreativeSonomaScraper - INFO - Found: Disney's Descendants: The Musical on 2026-03-04
+2026-03-03 22:32:43,714 - CreativeSonomaScraper - INFO - Found: Santa Rosa Symphony - Rossini & Schubert on 2026-03-21
+2026-03-03 22:32:43,715 - CreativeSonomaScraper - INFO - Found: Natalie MacMaster, Donnell Leahy and the Celtic All-Stars on 2026-03-26
+2026-03-03 22:32:43,715 - CreativeSonomaScraper - INFO - Found: Free Family Day with La Mezcla on 2026-03-28
+2026-03-03 22:32:43,716 - CreativeSonomaScraper - INFO - Found: Community Flow @ SlowCo on 2026-03-28
+2026-03-03 22:32:43,717 - CreativeSonomaScraper - INFO - Found: The Journey: A Painter's Narrative on 2026-03-03
+2026-03-03 22:32:43,717 - CreativeSonomaScraper - INFO - Found: Voices of the Valley and Broken Theatre on 2026-03-28
+2026-03-03 22:32:43,718 - CreativeSonomaScraper - INFO - Found: Sonoma International Film Festival on 2026-03-25
+2026-03-03 22:32:43,718 - CreativeSonomaScraper - INFO - Found: Flora & Fauna - Watercolor Course with Hannah Day at Bohemian Flowers Farm on 2026-03-08
+2026-03-03 22:32:43,718 - CreativeSonomaScraper - INFO - Fetching page 2: https://creativesonoma.org/event/?page=2
+2026-03-03 22:32:44,152 - CreativeSonomaScraper - INFO - Found: Art Exhibit: Celebrating Women on 2026-03-03
+2026-03-03 22:32:44,153 - CreativeSonomaScraper - INFO - Found: Pure Imagination: A Broadway Junior Revue on 2026-03-03
+2026-03-03 22:32:44,153 - CreativeSonomaScraper - INFO - Found: Becky Robinson on 2026-04-04
+2026-03-03 22:32:44,154 - CreativeSonomaScraper - INFO - Found: Amy Goodman on 2026-04-07
+2026-03-03 22:32:44,155 - CreativeSonomaScraper - INFO - Found: Emmet Cohen presents: Miles and Coltrane at 100 on 2026-04-10
+2026-03-03 22:32:44,155 - CreativeSonomaScraper - INFO - Found: Classical Impressions: Music of the Fin de Siècle on 2026-04-11
+2026-03-03 22:32:44,156 - CreativeSonomaScraper - INFO - Found: Santa Rosa Symphony - Celebrate America! on 2026-04-12
+2026-03-03 22:32:44,156 - CreativeSonomaScraper - INFO - Found: Emmylou Harris on 2026-04-17
+2026-03-03 22:32:44,157 - CreativeSonomaScraper - INFO - Found: Outback Presents Justin Willman: One for the Ages Tour on 2026-04-18
+2026-03-03 22:32:44,158 - CreativeSonomaScraper - INFO - Found: Painting Workshop with Maria De Los Angeles on 2026-04-19
+2026-03-03 22:32:44,158 - CreativeSonomaScraper - INFO - Found: Sonoma Guitar Series New Century Chamber Orchestra on 2026-04-23
+2026-03-03 22:32:44,159 - CreativeSonomaScraper - INFO - Found: Gary Owen: No Hard Feelings Tour on 2026-04-24
+2026-03-03 22:32:44,159 - CreativeSonomaScraper - INFO - Found: Ukulele Orchestra of Great Britain on 2026-04-26
+2026-03-03 22:32:44,160 - CreativeSonomaScraper - INFO - Found: Old Wine, New Bottle on 2026-04-26
+2026-03-03 22:32:44,160 - CreativeSonomaScraper - INFO - Found: Maija Peeples-Bright: Life is Just a Bowl of Terriers on 2026-03-04
+2026-03-03 22:32:44,161 - CreativeSonomaScraper - INFO - Found: The Art Of Acrylics on 2026-03-04
+2026-03-03 22:32:44,162 - CreativeSonomaScraper - INFO - Found: Visiting Artist Lecture Series at Sonoma State University on 2026-03-05
+2026-03-03 22:32:44,162 - CreativeSonomaScraper - INFO - Found: Santa Rosa Symphony - Shakespeare in Music on 2026-05-02
+2026-03-03 22:32:44,163 - CreativeSonomaScraper - INFO - Found: An Evening with David Sedaris on 2026-05-08
+2026-03-03 22:32:44,163 - CreativeSonomaScraper - INFO - Found: Sonoma Storytellers - women's writing retreat on 2026-05-05
+2026-03-03 22:32:44,164 - CreativeSonomaScraper - INFO - Found: Bobby Rush & North Mississippi Allstars on 2026-05-09
+2026-03-03 22:32:44,165 - CreativeSonomaScraper - INFO - Found: Native Arts Festival on 2026-05-09
+2026-03-03 22:32:44,165 - CreativeSonomaScraper - INFO - Found: Pond Farm Artist in Residence 2026 on 2026-05-01
+2026-03-03 22:32:44,166 - CreativeSonomaScraper - INFO - Found: Voces y Pasos: A Cultural Celebration on 2026-05-28
+2026-03-03 22:32:44,166 - CreativeSonomaScraper - INFO - Found: Miles Davis at 100: A Centennial Celebration on 2026-05-30
+2026-03-03 22:32:44,166 - CreativeSonomaScraper - INFO - Fetching page 3: https://creativesonoma.org/event/?page=3
+2026-03-03 22:32:44,503 - CreativeSonomaScraper - INFO - Found: Santa Rosa Symphony - Road to 100, Year 3 on 2026-05-31
+2026-03-03 22:32:44,503 - CreativeSonomaScraper - INFO - Fetching page 4: https://creativesonoma.org/event/?page=4
+2026-03-03 22:32:44,826 - CreativeSonomaScraper - INFO - No events on page 4, stopping
+2026-03-03 22:32:44,826 - CreativeSonomaScraper - INFO - Filtered 7 events beyond 2 months out
+2026-03-03 22:32:44,826 - CreativeSonomaScraper - INFO - Found 44 events
+2026-03-03 22:32:44,833 - CreativeSonomaScraper - INFO - Written to cities/santarosa/creative_sonoma.ics
+2026-03-03 22:32:45,061 - CinnabarScraper - INFO - Scraping Cinnabar Theater
+2026-03-03 22:32:45,061 - CinnabarScraper - INFO - Fetching https://cinnabartheater.org/shows/
+2026-03-03 22:32:46,087 - CinnabarScraper - INFO - Found: Sherwood (September 12–28, 2025)
+2026-03-03 22:32:46,087 - CinnabarScraper - INFO - Found: The Holiday Songbook (December 19-21, 2025)
+2026-03-03 22:32:46,088 - CinnabarScraper - INFO - Found: My Fair Lady (January 23–February 8, 2026)
+2026-03-03 22:32:46,089 - CinnabarScraper - INFO - Found: The Christians (April 10–26, 2026)
+2026-03-03 22:32:46,089 - CinnabarScraper - INFO - Found: The Secret Garden (June 12-June 28, 2026)
+2026-03-03 22:32:46,089 - CinnabarScraper - INFO - Filtered 1 events beyond 2 months out
+2026-03-03 22:32:46,089 - CinnabarScraper - INFO - Found 4 events
+2026-03-03 22:32:46,091 - CinnabarScraper - INFO - Written to cities/santarosa/cinnabar.ics
+2026-03-03 22:32:46,320 - GreenMusicCenterScraper - INFO - Scraping Green Music Center
+2026-03-03 22:32:46,320 - GreenMusicCenterScraper - INFO - Fetching https://gmc.sonoma.edu/all-events/
+2026-03-03 22:32:46,717 - GreenMusicCenterScraper - INFO - Found: CONTRA-TIEMPOActivist Dance TheaterjoyUS justUS on 2026-03-05
+2026-03-03 22:32:46,719 - GreenMusicCenterScraper - INFO - Found: Lila Downs on 2026-03-07
+2026-03-03 22:32:46,720 - GreenMusicCenterScraper - INFO - Found: Rossini & Schubert on 2026-03-21
+2026-03-03 22:32:46,721 - GreenMusicCenterScraper - INFO - Found: Natalie MacMaster, Donnell Leahyand the Celtic All-Stars on 2026-03-26
+2026-03-03 22:32:46,722 - GreenMusicCenterScraper - INFO - Found: Free Family Day with La Mezcla on 2026-03-28
+2026-03-03 22:32:46,723 - GreenMusicCenterScraper - INFO - Found: Amy Goodman on 2026-04-07
+2026-03-03 22:32:46,724 - GreenMusicCenterScraper - INFO - Found: Emmet Cohen presents:Miles and Coltrane at 100 on 2026-04-10
+2026-03-03 22:32:46,725 - GreenMusicCenterScraper - INFO - Found: Sonoma BachJohannes Brahms and the Geometry of Hope on 2026-04-11
+2026-03-03 22:32:46,727 - GreenMusicCenterScraper - INFO - Found: Celebrate America! on 2026-04-12
+2026-03-03 22:32:46,728 - GreenMusicCenterScraper - INFO - Found: Sonoma Guitar SeriesNew Century Chamber Orchestra on 2026-04-23
+2026-03-03 22:32:46,728 - GreenMusicCenterScraper - INFO - Found 10 events
+2026-03-03 22:32:46,730 - GreenMusicCenterScraper - INFO - Written to cities/santarosa/green_music_center.ics
+2026-03-03 22:32:50,472 - JackLondonParkScraper - INFO - Scraping Jack London State Historic Park
+2026-03-03 22:32:50,472 - JackLondonParkScraper - INFO - Fetching https://jacklondonpark.com/events/
+2026-03-03 22:33:28,834 - JackLondonParkScraper - INFO - Filtered 3 events beyond 2 months out
+2026-03-03 22:33:28,834 - JackLondonParkScraper - INFO - Found 5 events
+2026-03-03 22:33:28,836 - JackLondonParkScraper - INFO - Written to cities/santarosa/jack_london_park.ics

@@ -123,7 +123,7 @@ class GoDaddyScraper(BaseScraper):
         desc = html_mod.unescape(desc)
         desc = re.sub(r'<[^>]+>', ' ', desc).strip()
         desc = re.sub(r'\s+', ' ', desc)
-        # Truncate very long descriptions (wellness class descriptions can be huge)
+        # Truncate very long descriptions (some GoDaddy calendar entries can be huge)
         if len(desc) > 500:
             desc = desc[:497] + '...'
 
