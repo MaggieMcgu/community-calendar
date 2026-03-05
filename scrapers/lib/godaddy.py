@@ -97,10 +97,15 @@ class GoDaddyScraper(BaseScraper):
         except (ValueError, TypeError):
             return None
 
-        # Localize naive datetimes to the scraper's configured timezone
+        # Ensure all datetimes use the scraper's IANA timezone.
+        # GoDaddy API may return UTC-offset tzinfo (e.g., UTC-07:00) which
+        # icalendar serializes as TZID="UTC-07:00" — not a valid IANA ID and
+        # breaks parsers that split on colons inside the TZID value.
+        tz = ZoneInfo(self.timezone) if isinstance(self.timezone, str) else self.timezone
         if dtstart.tzinfo is None:
-            tz = ZoneInfo(self.timezone) if isinstance(self.timezone, str) else self.timezone
             dtstart = dtstart.replace(tzinfo=tz)
+        else:
+            dtstart = dtstart.astimezone(tz)
 
         # Skip past events
         now = datetime.now(timezone.utc)
@@ -113,8 +118,9 @@ class GoDaddyScraper(BaseScraper):
             try:
                 dtend = datetime.fromisoformat(end_str)
                 if dtend.tzinfo is None:
-                    tz = ZoneInfo(self.timezone) if isinstance(self.timezone, str) else self.timezone
                     dtend = dtend.replace(tzinfo=tz)
+                else:
+                    dtend = dtend.astimezone(tz)
             except (ValueError, TypeError):
                 pass
 
