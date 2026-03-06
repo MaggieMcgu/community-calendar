@@ -129,9 +129,15 @@ class GoDaddyScraper(BaseScraper):
         desc = html_mod.unescape(desc)
         desc = re.sub(r'<[^>]+>', ' ', desc).strip()
         desc = re.sub(r'\s+', ' ', desc)
-        # Truncate very long descriptions (some GoDaddy calendar entries can be huge)
-        if len(desc) > 500:
-            desc = desc[:497] + '...'
+        # Truncate very long descriptions at sentence boundary
+        if len(desc) > 1000:
+            # Find last sentence-ending punctuation before the limit
+            truncated = desc[:1000]
+            last_period = max(truncated.rfind('. '), truncated.rfind('! '), truncated.rfind('? '))
+            if last_period > 400:
+                desc = truncated[:last_period + 1]
+            else:
+                desc = truncated.rstrip() + '...'
 
         location = item.get('location', '').strip() or self.default_location
 
