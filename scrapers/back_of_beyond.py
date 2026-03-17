@@ -2,9 +2,12 @@
 """
 Scraper for Back of Beyond Books (Moab, UT) events.
 
-WordPress site with no JSON-LD event data. Events are listed on /happenings/
-as h3 headings with title ~ date ~ time ~ location separated by tildes,
-followed by div.excerpt (description) and div.more (permalink).
+WordPress site with a custom `happening` post type exposed via REST API.
+Uses /wp-json/wp/v2/happening?after=... to fetch only current-year posts,
+avoiding stale 2022/2023 events that appear on the /happenings/ listing page.
+
+Each post's title uses the format: title ~ date ~ time ~ location
+Description and URL come from the REST API response fields.
 
 Usage:
     python scrapers/back_of_beyond.py -o cities/moab/back_of_beyond.ics
@@ -14,6 +17,7 @@ import sys
 sys.path.insert(0, str(__file__).rsplit('/', 1)[0])
 
 import re
+import json
 from datetime import datetime, timedelta
 from typing import Any, Optional
 from zoneinfo import ZoneInfo
@@ -24,6 +28,7 @@ from lib.base import BaseScraper
 from lib.utils import DEFAULT_HEADERS, fetch_with_retry, MONTH_MAP
 
 MOUNTAIN = ZoneInfo('America/Denver')
+API_BASE = "https://backofbeyondbooks.com/wp-json/wp/v2/happening"
 
 # Pattern: "Thursday, April 16th" or "Tuesday, March 3rd"
 DATE_PATTERN = re.compile(
@@ -46,29 +51,49 @@ class BackOfBeyondScraper(BaseScraper):
     timezone = "America/Denver"
 
     def fetch_events(self) -> list[dict[str, Any]]:
-        url = "https://backofbeyondbooks.com/happenings/"
-        self.logger.info(f"Fetching {url}")
-        html = fetch_with_retry(url, headers=DEFAULT_HEADERS)
+        now = datetime.now(MOUNTAIN)
+        after = f"{now.year}-01-01T00:00:00"
+        url = f"{API_BASE}?after={after}&per_page=100&orderby=modified&order=desc"
+        self.logger.info(f"Fetching REST API: {url}")
 
-        soup = BeautifulSoup(html, 'lxml')
+        raw = fetch_with_retry(url, headers=DEFAULT_HEADERS)
+        try:
+            posts = json.loads(raw)
+        except (json.JSONDecodeError, TypeError):
+            self.logger.warning("REST API returned non-JSON — falling back to empty list")
+            return []
+
+        if not isinstance(posts, list):
+            self.logger.warning(f"Unexpected REST API response shape: {type(posts)}")
+            return []
+
         events = []
-
-        for h3 in soup.select('h3'):
-            heading_text = h3.get_text(strip=True)
-            if not heading_text or '~' not in heading_text:
+        for post in posts:
+            title_raw = post.get('title', {}).get('rendered', '')
+            # Strip any HTML entities (e.g. &#8211; → –)
+            title_text = BeautifulSoup(title_raw, 'html.parser').get_text()
+            if '~' not in title_text:
                 continue
 
-            parsed = self._parse_heading(heading_text, h3)
+            # Description from excerpt or content
+            excerpt_html = post.get('excerpt', {}).get('rendered', '')
+            content_html = post.get('content', {}).get('rendered', '')
+            description_html = excerpt_html or content_html
+            description = BeautifulSoup(description_html, 'html.parser').get_text(separator='\n').strip()
+            # Trim to first 3 paragraphs worth
+            description = '\n'.join(description.splitlines()[:6])
+
+            post_url = post.get('link', '')
+
+            parsed = self._parse_heading(title_text, description=description, url=post_url)
             if parsed:
                 events.append(parsed)
 
-        if not events and soup.select('h3'):
-            self.logger.warning("Page has h3 elements but no events parsed — format may have changed")
         self.logger.info(f"Found {len(events)} events")
         return events
 
-    def _parse_heading(self, heading: str, h3_tag) -> Optional[dict[str, Any]]:
-        """Parse an event from the h3 heading and sibling elements."""
+    def _parse_heading(self, heading: str, description: str = '', url: str = '') -> Optional[dict[str, Any]]:
+        """Parse an event from the post title (format: title ~ date ~ time ~ location)."""
         parts = [p.strip() for p in heading.split('~')]
         if len(parts) < 2:
             return None
@@ -109,7 +134,7 @@ class BackOfBeyondScraper(BaseScraper):
         dtstart = datetime(year, month, day, hour, minute, tzinfo=MOUNTAIN)
         dtend = dtstart + timedelta(hours=2)
 
-        # Location — look for known location names in parts after date
+        # Location — look for known location names in parts
         location = "Back of Beyond Books, 83 N Main St, Moab, UT 84532"
         for part in parts:
             lower = part.lower()
@@ -119,27 +144,6 @@ class BackOfBeyondScraper(BaseScraper):
                 location = "Castle Valley Town Hall, Castle Valley, UT"
             elif 'library' in lower:
                 location = "Grand County Public Library, 257 E Center St, Moab, UT 84532"
-
-        # Description from div.excerpt sibling
-        description = ''
-        excerpt_div = h3_tag.find_next_sibling('div', class_='excerpt')
-        if excerpt_div:
-            # Get text, skip img tags
-            desc_parts = []
-            for p in excerpt_div.find_all('p'):
-                text = p.get_text(strip=True)
-                # Skip image-only paragraphs and "Read More" links
-                if text and not p.find('img', recursive=False):
-                    desc_parts.append(text)
-            description = '\n'.join(desc_parts[:3])  # first 3 paragraphs
-
-        # URL from div.more sibling
-        url = ''
-        more_div = h3_tag.find_next_sibling('div', class_='more')
-        if more_div:
-            link = more_div.find('a')
-            if link and link.get('href'):
-                url = link['href']
 
         return {
             'title': title,
