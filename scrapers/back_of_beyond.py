@@ -30,10 +30,12 @@ from lib.utils import DEFAULT_HEADERS, fetch_with_retry, MONTH_MAP
 MOUNTAIN = ZoneInfo('America/Denver')
 API_BASE = "https://backofbeyondbooks.com/wp-json/wp/v2/happening"
 
-# Pattern: "Thursday, April 16th" or "Tuesday, March 3rd"
+# Pattern: "Thursday, April 16th" or "Tuesday, March 3rd" or "April, 23rd"
+# Weekday prefix is optional since some BoBB posts omit it (e.g. "Music in the
+# Bookstore ~ April, 23rd ~ 6-9 pm").
 DATE_PATTERN = re.compile(
-    r'(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s+'
-    r'(January|February|March|April|May|June|July|August|September|October|November|December)\s+'
+    r'(?:(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s+)?'
+    r'(January|February|March|April|May|June|July|August|September|October|November|December),?\s+'
     r'(\d{1,2})(?:st|nd|rd|th)?',
     re.IGNORECASE
 )
@@ -134,16 +136,52 @@ class BackOfBeyondScraper(BaseScraper):
         dtstart = datetime(year, month, day, hour, minute, tzinfo=MOUNTAIN)
         dtend = dtstart + timedelta(hours=2)
 
-        # Location — look for known location names in parts
+        # Location — use the last tilde-separated segment as the venue name.
+        # BoBB's title format is: "Speaker ~ Day, Date ~ Time ~ Venue"
+        # If the 4th segment exists and isn't a date/time, use it; otherwise
+        # default to the bookstore. Known venues get full addresses from
+        # VENUE_ADDRESSES; unknown ones pass through as bare names (MSN's
+        # msn_find_or_create_venue handles the rest).
         location = "Back of Beyond Books, 83 N Main St, Moab, UT 84532"
+        VENUE_ADDRESSES = {
+            'back of beyond books': "Back of Beyond Books, 83 N Main St, Moab, UT 84532",
+            'star hall': "Star Hall, 159 E Center St, Moab, UT 84532",
+            'grand county public library': "Grand County Public Library, 257 E Center St, Moab, UT 84532",
+            'grand county library': "Grand County Public Library, 257 E Center St, Moab, UT 84532",
+            'castle valley town hall': "Castle Valley Town Hall, Castle Valley, UT",
+            'moab arts & recreation center': "Moab Arts and Recreation Center (MARC), 111 E 100 N, Moab, UT 84532",
+            'moab arts and recreation center': "Moab Arts and Recreation Center (MARC), 111 E 100 N, Moab, UT 84532",
+            'marc': "Moab Arts and Recreation Center (MARC), 111 E 100 N, Moab, UT 84532",
+            'spanish valley vineyard & winery': "Spanish Valley Vineyard & Winery, 4710 Zimmerman Ln, Moab, UT 84532",
+            'spanish valley vineyard and winery': "Spanish Valley Vineyard & Winery, 4710 Zimmerman Ln, Moab, UT 84532",
+            'spanish valley winery': "Spanish Valley Vineyard & Winery, 4710 Zimmerman Ln, Moab, UT 84532",
+        }
+
+        # Try the last tilde-separated segment first (the title format's venue slot)
+        venue_candidate = None
+        if len(parts) >= 4:
+            last = parts[-1].strip()
+            # Skip if the last segment is actually a time/date leftover
+            if last and not DATE_PATTERN.search(last) and not TIME_PATTERN.fullmatch(last):
+                venue_candidate = last
+
+        if venue_candidate:
+            key = venue_candidate.lower()
+            if key in VENUE_ADDRESSES:
+                location = VENUE_ADDRESSES[key]
+            else:
+                # Unknown venue — pass through the bare name. MSN side will
+                # create a TEC venue record for it on import.
+                location = venue_candidate
+
+        # Fallback: also scan all parts for known venue substrings (covers
+        # older posts where venue isn't in the last segment).
         for part in parts:
             lower = part.lower()
-            if 'star hall' in lower:
-                location = "Star Hall, 159 E Center St, Moab, UT 84532"
-            elif 'castle valley' in lower and 'town hall' in lower:
-                location = "Castle Valley Town Hall, Castle Valley, UT"
-            elif 'library' in lower:
-                location = "Grand County Public Library, 257 E Center St, Moab, UT 84532"
+            for key, addr in VENUE_ADDRESSES.items():
+                if key in lower and location == "Back of Beyond Books, 83 N Main St, Moab, UT 84532":
+                    location = addr
+                    break
 
         return {
             'title': title,
