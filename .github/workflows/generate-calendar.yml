@@ -1,5 +1,11 @@
 name: Generate Calendar
 
+# Runs daily at 00:00 UTC + on-demand via workflow_dispatch.
+# Re-armed 2026-04-11 — schedule never fired since creation 2026-03-03
+# because the workflow file had no edits after creation. GitHub Actions
+# schedule triggers need the workflow file itself to be updated at least
+# once to register the cron. Touching this comment does that.
+
 permissions:
   contents: write
 
