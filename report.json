@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-11T14:05:33.241277",
+  "generated": "2026-04-11T14:36:40.843603",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -3191,7 +3191,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 0
+              "count": 30
             }
           ]
         },
@@ -5163,7 +5163,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 0
+              "count": 55
             }
           ]
         },
@@ -5579,7 +5579,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 0
+              "count": 1
             }
           ]
         },
@@ -5819,15 +5819,15 @@
             },
             {
               "date": "2026-04-11",
-              "count": 0
+              "count": 30
             }
           ]
         }
       },
       "url_quality": {
-        "total_with_url": 5063,
-        "total_events": 5063,
-        "unique_urls": 4094,
+        "total_with_url": 5133,
+        "total_events": 5133,
+        "unique_urls": 4163,
         "generic_count": 412,
         "generic_domains": [
           {
@@ -5972,21 +5972,21 @@
           },
           {
             "source": "North Bay Bohemian",
-            "events": 1128,
-            "unique_urls": 876,
+            "events": 1115,
+            "unique_urls": 869,
             "specificity_pct": 78
-          },
-          {
-            "source": "North Bay Bohemian, Press Democrat",
-            "events": 505,
-            "unique_urls": 268,
-            "specificity_pct": 53
           },
           {
             "source": "Riley Street Art Supply",
             "events": 496,
             "unique_urls": 496,
             "specificity_pct": 100
+          },
+          {
+            "source": "North Bay Bohemian, Press Democrat",
+            "events": 491,
+            "unique_urls": 258,
+            "specificity_pct": 53
           },
           {
             "source": "Santa Rosa Junior College",
@@ -5996,8 +5996,8 @@
           },
           {
             "source": "Press Democrat",
-            "events": 263,
-            "unique_urls": 166,
+            "events": 261,
+            "unique_urls": 164,
             "specificity_pct": 63
           },
           {
@@ -6043,16 +6043,16 @@
             "specificity_pct": 100
           },
           {
+            "source": "Uptowntheatrenapa",
+            "events": 28,
+            "unique_urls": 28,
+            "specificity_pct": 100
+          },
+          {
             "source": "Charles M. Schulz Museum",
             "events": 25,
             "unique_urls": 25,
             "specificity_pct": 100
-          },
-          {
-            "source": "Sonoma County DSA",
-            "events": 23,
-            "unique_urls": 1,
-            "specificity_pct": 4
           }
         ]
       }
@@ -7391,7 +7391,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 0
+              "count": 29
             }
           ]
         },
@@ -8535,7 +8535,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 0
+              "count": 158
             }
           ]
         },
@@ -8553,9 +8553,9 @@
         }
       },
       "url_quality": {
-        "total_with_url": 2306,
-        "total_events": 2450,
-        "unique_urls": 2147,
+        "total_with_url": 2470,
+        "total_events": 2614,
+        "unique_urls": 2311,
         "generic_count": 80,
         "generic_domains": [
           {
@@ -8587,8 +8587,14 @@
           },
           {
             "source": "Bloomington Arts",
-            "events": 220,
-            "unique_urls": 220,
+            "events": 201,
+            "unique_urls": 201,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Sycamore Land Trust",
+            "events": 157,
+            "unique_urls": 157,
             "specificity_pct": 100
           },
           {
@@ -8649,12 +8655,6 @@
             "source": "Brown County Playhouse",
             "events": 26,
             "unique_urls": 26,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Monroe County Master Gardeners",
-            "events": 20,
-            "unique_urls": 20,
             "specificity_pct": 100
           }
         ]
@@ -8734,7 +8734,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 18
+              "count": 21
             }
           ]
         },
@@ -9646,7 +9646,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 187
+              "count": 184
             }
           ]
         },
@@ -9798,7 +9798,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 18
+              "count": 17
             }
           ]
         },
@@ -9880,14 +9880,14 @@
         }
       },
       "url_quality": {
-        "total_with_url": 571,
-        "total_events": 571,
+        "total_with_url": 570,
+        "total_events": 570,
         "unique_urls": 529,
-        "generic_count": 18,
+        "generic_count": 17,
         "generic_domains": [
           {
             "domain": "uudavis.org",
-            "events": 18,
+            "events": 17,
             "url": "https://uudavis.org/calendar/"
           }
         ],
@@ -9896,8 +9896,8 @@
         "source_specificity": [
           {
             "source": "UC Davis CampusGroups",
-            "events": 180,
-            "unique_urls": 180,
+            "events": 177,
+            "unique_urls": 177,
             "specificity_pct": 100
           },
           {
@@ -9931,16 +9931,16 @@
             "specificity_pct": 100
           },
           {
-            "source": "UU Davis",
-            "events": 18,
-            "unique_urls": 1,
-            "specificity_pct": 6
+            "source": "Davis Chamber of Commerce",
+            "events": 19,
+            "unique_urls": 19,
+            "specificity_pct": 100
           },
           {
-            "source": "Davis Chamber of Commerce",
-            "events": 16,
-            "unique_urls": 16,
-            "specificity_pct": 100
+            "source": "UU Davis",
+            "events": 17,
+            "unique_urls": 1,
+            "specificity_pct": 6
           },
           {
             "source": "Meetup: Mindful Embodied Spirituality",
@@ -10213,7 +10213,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 0
+              "count": 11
             }
           ]
         },
@@ -10669,7 +10669,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 0
+              "count": 12
             }
           ]
         },
@@ -15153,7 +15153,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 0
+              "count": 30
             }
           ]
         },
@@ -15837,7 +15837,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 2167
+              "count": 487
             }
           ]
         },
@@ -16891,9 +16891,9 @@
         }
       },
       "url_quality": {
-        "total_with_url": 4513,
-        "total_events": 4513,
-        "unique_urls": 4299,
+        "total_with_url": 3239,
+        "total_events": 3239,
+        "unique_urls": 3025,
         "generic_count": 70,
         "generic_domains": [
           {
@@ -16911,15 +16911,15 @@
         "http_domains": 2,
         "source_specificity": [
           {
-            "source": "Toronto Public Library",
-            "events": 1758,
-            "unique_urls": 1758,
-            "specificity_pct": 100
-          },
-          {
             "source": "Toronto Events (Tockify)",
             "events": 1697,
             "unique_urls": 1697,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Toronto Public Library",
+            "events": 433,
+            "unique_urls": 433,
             "specificity_pct": 100
           },
           {
@@ -16965,6 +16965,12 @@
             "specificity_pct": 100
           },
           {
+            "source": "Scadding Court Community Centre",
+            "events": 30,
+            "unique_urls": 30,
+            "specificity_pct": 100
+          },
+          {
             "source": "Grossman's Tavern",
             "events": 30,
             "unique_urls": 30,
@@ -16992,12 +16998,6 @@
             "source": "Golatindance",
             "events": 27,
             "unique_urls": 27,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Toronto Botanical Garden",
-            "events": 26,
-            "unique_urls": 26,
             "specificity_pct": 100
           }
         ]
@@ -17077,7 +17077,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 0
+              "count": 10
             }
           ]
         },
@@ -20287,9 +20287,9 @@
         }
       },
       "url_quality": {
-        "total_with_url": 816,
-        "total_events": 816,
-        "unique_urls": 779,
+        "total_with_url": 826,
+        "total_events": 826,
+        "unique_urls": 787,
         "generic_count": 34,
         "generic_domains": [
           {
@@ -20391,10 +20391,10 @@
             "specificity_pct": 100
           },
           {
-            "source": "Meetup: Sonoma-Marin Brat Pack",
-            "events": 9,
-            "unique_urls": 9,
-            "specificity_pct": 100
+            "source": "Adobe Road Winery",
+            "events": 10,
+            "unique_urls": 8,
+            "specificity_pct": 80
           }
         ]
       }
@@ -21954,7 +21954,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 188
+              "count": 187
             }
           ]
         },
@@ -22242,7 +22242,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 155
+              "count": 153
             }
           ]
         },
@@ -22482,7 +22482,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 0
+              "count": 30
             }
           ]
         },
@@ -22600,10 +22600,10 @@
         }
       },
       "url_quality": {
-        "total_with_url": 1254,
-        "total_events": 1254,
-        "unique_urls": 1146,
-        "generic_count": 94,
+        "total_with_url": 1281,
+        "total_events": 1281,
+        "unique_urls": 1176,
+        "generic_count": 91,
         "generic_domains": [
           {
             "domain": "www.uumontclair.org",
@@ -22612,7 +22612,7 @@
           },
           {
             "domain": "shomrei.org",
-            "events": 20,
+            "events": 17,
             "url": "https://shomrei.org/calendar/"
           },
           {
@@ -22679,6 +22679,12 @@
             "specificity_pct": 100
           },
           {
+            "source": "Temple Ner Tamid",
+            "events": 27,
+            "unique_urls": 27,
+            "specificity_pct": 100
+          },
+          {
             "source": "MSU Red Hawks Athletics",
             "events": 22,
             "unique_urls": 22,
@@ -22691,27 +22697,21 @@
             "specificity_pct": 100
           },
           {
-            "source": "Congregation Shomrei Emunah",
-            "events": 19,
-            "unique_urls": 1,
-            "specificity_pct": 5
-          },
-          {
             "source": "MHA of Essex and Morris",
             "events": 17,
             "unique_urls": 17,
             "specificity_pct": 100
           },
           {
+            "source": "Congregation Shomrei Emunah",
+            "events": 17,
+            "unique_urls": 1,
+            "specificity_pct": 6
+          },
+          {
             "source": "North Essex Chamber of Commerce",
             "events": 13,
             "unique_urls": 13,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Meetup: Let's Walk!!",
-            "events": 10,
-            "unique_urls": 10,
             "specificity_pct": 100
           }
         ]
@@ -22727,7 +22727,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 2
+              "count": 3
             }
           ]
         },
@@ -22835,7 +22835,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 0
+              "count": 3
             }
           ]
         },
@@ -22871,7 +22871,7 @@
             },
             {
               "date": "2026-04-11",
-              "count": 131
+              "count": 135
             }
           ]
         },
@@ -22913,9 +22913,9 @@
         }
       },
       "url_quality": {
-        "total_with_url": 665,
-        "total_events": 665,
-        "unique_urls": 38,
+        "total_with_url": 669,
+        "total_events": 669,
+        "unique_urls": 42,
         "generic_count": 631,
         "generic_domains": [
           {
@@ -23025,8 +23025,14 @@
           },
           {
             "source": "Back of Beyond Books",
-            "events": 2,
-            "unique_urls": 2,
+            "events": 3,
+            "unique_urls": 3,
+            "specificity_pct": 100
+          },
+          {
+            "source": "Moab Museum",
+            "events": 3,
+            "unique_urls": 3,
             "specificity_pct": 100
           }
         ]
@@ -23889,6 +23895,14 @@
       "date": "2026-04-11",
       "city": "moab",
       "feed": "maxpreps_grand_county"
+    },
+    {
+      "type": "significant_drop",
+      "message": "Events dropped 78% (2167 \u2192 487)",
+      "severity": "medium",
+      "date": "2026-04-11",
+      "city": "toronto",
+      "feed": "tpl_events"
     }
   ],
   "errors": [
@@ -24075,6 +24089,16 @@
     {
       "date": "2026-04-11",
       "line": "2026-04-11 14:01:22,693 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
+      "source": null
+    },
+    {
+      "date": "2026-04-11",
+      "line": "2026-04-11 14:31:06,413 - UUDavisScraper - ERROR - Error fetching https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics: 404 Client Error: Not Found for url: https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics",
+      "source": null
+    },
+    {
+      "date": "2026-04-11",
+      "line": "2026-04-11 14:32:24,453 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
       "source": null
     }
   ]

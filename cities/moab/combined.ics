@@ -523,7 +523,8 @@ DTSTART;TZID=MDT;VALUE=DATE-TIME:20260415T190000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260415T210000
 UID:6db2ff481bc9d7f5d4eb2929448040a4@backofbeyondbooks.com
 DESCRIPTION:
-LOCATION:Back of Beyond Books\, 83 N Main St\, Moab\, UT 84532
+LOCATION:Moab Arts and Recreation Center (MARC)\, 111 E 100 N\, Moab\, UT 
+ 84532
 URL:https://backofbeyondbooks.com/happenings/jeremy-collins-wednesday-apri
  l-15th-7-pm-grand-county-public-library/
 X-SOURCE:Back of Beyond Books
@@ -620,7 +621,8 @@ DTSTART;TZID=MDT;VALUE=DATE-TIME:20260416T160000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260416T180000
 UID:258e786ce6a44f1abfcc9851bd9bbbe1@backofbeyondbooks.com
 DESCRIPTION:
-LOCATION:Back of Beyond Books\, 83 N Main St\, Moab\, UT 84532
+LOCATION:Spanish Valley Vineyard & Winery\, 4710 Zimmerman Ln\, Moab\, UT 
+ 84532
 URL:https://backofbeyondbooks.com/happenings/brianna-madia-thursday-april-
  16th-4-6-pm-back-of-beyond-books/
 X-SOURCE:Back of Beyond Books
@@ -767,7 +769,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260417T220000Z
 DTEND:20260418T000000Z
-DTSTAMP:20260411T140526Z
+DTSTAMP:20260411T143635Z
 UID:01p77d1s3ojeaj4emo1khsb36j@google.com
 CREATED:20260316T145034Z
 LAST-MODIFIED:20260318T161045Z
@@ -1251,6 +1253,19 @@ UID:16635
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/music-in-the-bookstore-april-23rd-6-9-pm-back-of-beyond-books/"}
+X-SOURCE-ID:back_of_beyond
+SUMMARY:Music in the Bookstore
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260423T180000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260423T200000
+UID:daa726010fc698cc3c5e7f3550b7e9e4@backofbeyondbooks.com
+DESCRIPTION:
+LOCATION:Back of Beyond Books\, 83 N Main St\, Moab\, UT 84532
+URL:https://backofbeyondbooks.com/happenings/music-in-the-bookstore-april-
+ 23rd-6-9-pm-back-of-beyond-books/
+X-SOURCE:Back of Beyond Books
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab City Council": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"}
 X-SOURCE-ID:moab_city_council
 X-SOURCE:Moab City Council
@@ -1281,6 +1296,55 @@ DESCRIPTION:Join Tom for Dharma Recovery-a peer-led community space that i
  s free.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Museum": "https://moabmuseum.org/events/lowrider-culture-in-the-american-southwest-cultura-lowrider-en-el-suroeste-estadounidense/"}
+X-SOURCE-ID:moab_museum
+SUMMARY:Lowrider Culture in the American Southwest / Cultura Lowrider en e
+ l suroeste estadounidense FREE Opening
+DTSTART;VALUE=DATE-TIME:20260424T000000
+DTEND;VALUE=DATE-TIME:20260424T000000
+UID:00c6c3c3df2d4fe5056ef17424114821@moabmuseum.org
+DESCRIPTION:The Museum is excited to announce our upcoming exhibition\, Lo
+ wrider Culture in the American Southwest. Presented in collaboration with 
+ the National Hispanic Cultural Center and renowned artists\, the exhibitio
+ n opens with a special presentation by Art Limon\, founder of the Los Ange
+ les Lowrider Alliance. From 4-7 pm\, guests can celebrate lowrider culture
+  with food\, music\, and complimentary Museum admission. Members of Duke
+ ’s Car Club of Salt Lake City\, UT and other local participants will sho
+ wcase their vehicles along Center Street. In the words of Limon\, we are e
+ xcited to present this exhibition here and now “because the moment has a
+ rrived when people are finally ready to understand the culture\, not just 
+ the cars.” Emerging from Mexican American communities in the 1940s\, low
+ riding is a vibrant expression of Chicano identity\, blending artistry\, e
+ ngineering\, and community pride. The broader region\, including nearby Sa
+ n Juan County\, has a long history of Hispanic influence in cattle driving
+ \, with vaqueros working alongside other cowboys to shape the ranching tra
+ ditions of the American Southwest. Lowrider Culture in the American Southw
+ est highlights this living tradition\, connecting the creativity and innov
+ ation of lowriders today with the enduring cultural contributions of Hispa
+ nic communities in the region. About our Guest Speaker: Art Limon is the p
+ roud founder of the Los Angeles Lowrider Alliance\, a volunteer Think Tank
+  organization dedicated to preserving and promoting Lowrider culture and C
+ hicano history through education\, advocacy\, and community engagement. Hi
+ s work has helped bring Lowrider culture into museum spaces\, including co
+ ntributions to the Smithsonian Lowrider Culture in the United States trave
+ ling exhibition. A recognized cultural leader\, Art has also participated 
+ with major organizations to support underserved communities and has been i
+ nvited to speak at institutions such as the American Alliance of Museums N
+ ational Conference. Through his leadership\, he continues to elevate Lowri
+ ding as a powerful expression of Art\, identity\, and cultural heritage. A
+ bout the Semiquincentennial: The semiquincentennial is a chance for everyo
+ ne to feel a part of this major milestone in our nation. We can celebrate 
+ courage\, liberty\, and sacrifice\, while also reckoning with difficult tr
+ uths. By fostering a sense of belonging and coming together with our local
+  communities\, we can ensure that Utahns of all ages and backgrounds see t
+ hemselves in American history. Next up: Buffalo Soldiers Heritage Trail op
+ ening July 28th\, 2026!
+LOCATION:Moab Museum\, 118 E. Center St.\, Moab\, UT 84532
+URL:https://moabmuseum.org/events/lowrider-culture-in-the-american-southwe
+ st-cultura-lowrider-en-el-suroeste-estadounidense/
+X-SOURCE:Moab Museum
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -1398,7 +1462,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260424T220000Z
 DTEND:20260425T000000Z
-DTSTAMP:20260411T140526Z
+DTSTAMP:20260411T143635Z
 UID:2c3vnr9i6of21a5cfedt7bi8gj@google.com
 CREATED:20260316T171043Z
 LAST-MODIFIED:20260318T161103Z
@@ -1481,7 +1545,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260426
 DTEND;VALUE=DATE:20260504
-DTSTAMP:20260411T140526Z
+DTSTAMP:20260411T143635Z
 UID:71ikodmlmln0t5ar01bh1o75ga@google.com
 CREATED:20250414T213140Z
 LAST-MODIFIED:20260318T161128Z
@@ -5335,7 +5399,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260720
 DTEND;VALUE=DATE:20260808
-DTSTAMP:20260411T140526Z
+DTSTAMP:20260411T143635Z
 UID:29i5bmefogj8n3r53vsup449eg@google.com
 CREATED:20260129T215055Z
 LAST-MODIFIED:20260316T170216Z
@@ -5493,6 +5557,21 @@ SEQUENCE:0
 SUMMARY:Moab City Planning Commission - Regular Meeting
 UID:1381
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Museum": "https://moabmuseum.org/events/annual-pioneer-day-ice-cream-social/"}
+X-SOURCE-ID:moab_museum
+SUMMARY:Annual Pioneer Day Ice Cream Social
+DTSTART;VALUE=DATE-TIME:20260724T000000
+DTEND;VALUE=DATE-TIME:20260724T000000
+UID:ab0dde3450de401fc66209a6284a9cd2@moabmuseum.org
+DESCRIPTION:Join the Moab Museum on Friday\, July 24th from 6-8pm for ice 
+ cream\, live music\, lawn games\, and MORE! The Annual Ice Cream Social wi
+ ll feature delicious Aggie Ice Cream ice generously donated by USU Moab an
+ d Sweet Serendipity!
+LOCATION:Moab Museum West Lawn\, 118 E Center St.\, Moab\, UT\, 84532
+URL:https://moabmuseum.org/events/annual-pioneer-day-ice-cream-social/
+X-SOURCE:Moab Museum
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -5915,6 +5994,18 @@ UID:16070
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Museum": "https://moabmuseum.org/events/april-art-walk-769/"}
+X-SOURCE-ID:moab_museum
+SUMMARY:August Art Walk
+DTSTART;VALUE=DATE-TIME:20260807T000000
+DTEND;VALUE=DATE-TIME:20260807T000000
+UID:7cc65b0783989db90174109b6dfe85bc@moabmuseum.org
+DESCRIPTION:Join us for Art Walk! Friday from 5 - 8 pm - FREE!
+LOCATION:Moab Museum\, 118 E. Center St.\, Moab\, UT 84532
+URL:https://moabmuseum.org/events/april-art-walk-769/
+X-SOURCE:Moab Museum
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -6312,7 +6403,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20261010
-DTSTAMP:20260411T140526Z
+DTSTAMP:20260411T143635Z
 UID:48rdqkjcg5r4rjec3qi8reeuev@google.com
 CREATED:20260120T150241Z
 LAST-MODIFIED:20260120T150241Z
@@ -7956,7 +8047,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260411T140526Z
+DTSTAMP:20260411T143635Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -9639,7 +9730,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260411T140526Z
+DTSTAMP:20260411T143635Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st

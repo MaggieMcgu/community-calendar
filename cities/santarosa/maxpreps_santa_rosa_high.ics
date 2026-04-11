@@ -3,4 +3,16 @@ VERSION:2.0
 PRODID:-//Santa Rosa High School//maxpreps.com//
 X-WR-CALNAME:Santa Rosa High School
 X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VEVENT
+SUMMARY:Santa Rosa Varsity Baseball @ Liberty
+DTSTART;TZID=PDT;VALUE=DATE-TIME:20260411T100000
+DTEND;TZID=PDT;VALUE=DATE-TIME:20260411T114500
+UID:150f116ee1bff68b06a852955e05e6ee@maxpreps.com
+DESCRIPTION:Boys Varsity Baseball\nThe Santa Rosa varsity baseball team ha
+ s an away tournament game @  Liberty (Brentwood\, CA) today @ 10a.
+LOCATION:LIVERMORE SPRING BREAK TOURNAMENT-MONTE VISTA HS
+URL:https://www.maxpreps.com/games/04-11-2026/baseball-26/liberty-vs-santa
+ -rosa.htm?c=YCUsMXwY-0q1MOtuhej7vg
+X-SOURCE:Santa Rosa High School
+END:VEVENT
 END:VCALENDAR
