@@ -7,8 +7,8 @@ used across all city feeds, identified by their PRODID header.
 
 | Platform | Description | Cities | Feeds |
 |----------|-------------|--------|------:|
-| **Meetup** | ICS export from meetup.com groups. | bloomington, davis, montclair, petaluma, raleighdurham, santarosa, toronto | 127 |
-| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, montclair, petaluma, raleighdurham, santarosa, toronto | 69 |
+| **Meetup** | ICS export from meetup.com groups. | bloomington, davis, montclair, petaluma, raleighdurham, santarosa, toronto | 125 |
+| **The Events Calendar (WordPress)** | WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version. | bloomington, montclair, petaluma, raleighdurham, santarosa, toronto | 59 |
 | **CivicPlus (ical.net)** | Government CMS using ical.net library. Common for city/county websites. | bloomington, moab, montclair, raleighdurham, santarosa | 41 |
 | **Google Calendar** | Public Google Calendar ICS export. | bloomington, moab, montclair, petaluma, raleighdurham, santarosa, toronto | 39 |
 | **Localist** | Campus/community event platform by Concept3D (Indiana University instance). | bloomington, raleighdurham | 19 |
@@ -16,7 +16,7 @@ used across all city feeds, identified by their PRODID header.
 | **Tockify** | Embeddable calendar widget with public ICS feeds. | bloomington, petaluma, santarosa, toronto | 8 |
 | **GrowthZone** | Chamber of commerce / association management platform. | montclair, petaluma, raleighdurham | 5 |
 | **LibCal (Springshare)** | Library event management platform. | bloomington, montclair, raleighdurham | 4 |
-| **Modern Events Calendar (WordPress)** | WordPress plugin by Webnus. PRODID references wp-events-plugin.com. | petaluma, raleighdurham, toronto | 4 |
+| **Modern Events Calendar (WordPress)** | WordPress plugin by Webnus. PRODID references wp-events-plugin.com. | petaluma, raleighdurham | 3 |
 | **BiblioCommons** | Library discovery platform with event listings. | toronto | 2 |
 | **MembershipWorks** | Membership management platform with event calendar. | petaluma | 1 |
 | **Bedework** | Open-source enterprise calendar (Java). Used by Duke and some universities. | raleighdurham | 1 |
@@ -24,7 +24,7 @@ used across all city feeds, identified by their PRODID header.
 
 ## Detail
 
-### Meetup (127 feeds)
+### Meetup (125 feeds)
 
 ICS export from meetup.com groups.
 
@@ -34,29 +34,29 @@ ICS export from meetup.com groups.
 
 **montclair** (12): meetup_btcnj, meetup_everwalk_nj, meetup_exploring_montclair, meetup_lets_walkprogram, meetup_lwv_montclair, meetup_metrotrails, meetup_montclair_gamenights_and_social_networking_meetup_group, meetup_nj_bvt_sports, meetup_nj_code_coffee, meetup_somocon, meetup_themindfulstream, meetup_west_african_drumming_nj
 
-**petaluma** (15): meetup_active_20_30, meetup_book_brew, meetup_brat_pack, meetup_candlelight_yoga, meetup_contra_dance, meetup_figure_drawing, meetup_go_wild_hikers, meetup_meditate_monk, meetup_mindful_petaluma, meetup_mindfull_hikes, meetup_north_bay_adventure, meetup_petaluma_salon, meetup_rebel_craft, meetup_sonoma_boomers, meetup_sonoma_outdoors
+**petaluma** (14): meetup_active_20_30, meetup_book_brew, meetup_brat_pack, meetup_candlelight_yoga, meetup_contra_dance, meetup_figure_drawing, meetup_go_wild_hikers, meetup_meditate_monk, meetup_mindful_petaluma, meetup_mindfull_hikes, meetup_north_bay_adventure, meetup_petaluma_salon, meetup_rebel_craft, meetup_sonoma_outdoors
 
 **raleighdurham** (31): meetup_adventures, meetup_all_things_ai, meetup_all_things_open_rtp_meetup, meetup_blacks_in_tech_bit_rdu_durham_raleigh_meetup, meetup_chad2015, meetup_chicktech_rdu, meetup_code_for_america, meetup_csa_triangle, meetup_data_science_raleigh, meetup_discover_durham_together, meetup_downtown_techies_durham, meetup_durham_geeks, meetup_durham_writers, meetup_futureofdata_triangle, meetup_modern_web_triangle, meetup_outdoor_flow_yogis, meetup_plum_village_meditation, meetup_pydata_triangle, meetup_raleigh_ai_ml_cv, meetup_raleigh_triangle_activities, meetup_raleigh_wordpress_meetup_group, meetup_research_triangle_analysts, meetup_splatspace, meetup_triangle_board_games, meetup_triangle_devops, meetup_triangle_devs, meetup_triangle_techbreakfast, meetup_triangle_transitional, meetup_triangleai, meetup_tripython, meetup_yoga_in_nature
 
-**santarosa** (10): meetup_amorc, meetup_boomers, meetup_creativity, meetup_go_wild_hikers, meetup_sarogn, meetup_scottish_dancing, meetup_shutupandwrite, meetup_toastmasters, meetup_womens_wine_club, meetup_yoga
+**santarosa** (9): meetup_amorc, meetup_creativity, meetup_go_wild_hikers, meetup_sarogn, meetup_scottish_dancing, meetup_shutupandwrite, meetup_toastmasters, meetup_womens_wine_club, meetup_yoga
 
 **toronto** (50): meetup_20s30s_social, meetup_ai_ml, meetup_arts_crafts, meetup_arts_culture, meetup_bike_toronto, meetup_board_games_to, meetup_book_club_abcd, meetup_bruce_trail, meetup_canoe_trippers, meetup_devops, meetup_experience_to, meetup_founders_running, meetup_gta_hiking, meetup_heavy_boardgames, meetup_high_park_yoga, meetup_hiking_boots, meetup_hiking_network, meetup_improv_friends, meetup_improv_to, meetup_jpn_eng_exchange, meetup_lang_exchange_to, meetup_little_sunbeams, meetup_medieval_sca, meetup_mindful_movement, meetup_mini_me, meetup_movies_social, meetup_ms_reactor, meetup_photography_to, meetup_postapoc_books, meetup_postgres_to, meetup_python_to, meetup_sai_dham_volunteer, meetup_salsa_gta, meetup_scifi_books, meetup_silent_books, meetup_singles_social, meetup_soul_city, meetup_sup_kayak, meetup_tech_stack, meetup_techto, meetup_tile_language, meetup_toronto_dads, meetup_toronto_history_walks, meetup_toronto_paddlers, meetup_toronto_wellness, meetup_torontobabel, meetup_torontojs, meetup_try_new_things, meetup_wilderness_union, meetup_women_biz
 
-### The Events Calendar (WordPress) (69 feeds)
+### The Events Calendar (WordPress) (59 feeds)
 
 WordPress plugin (aka "Tribe Events"). PRODID includes site name + ECP version.
 
-**bloomington** (7): bgc_bloomington, bloomspinweave, brown_county_playhouse, community_band, first_united_church, hoosierflyfishers_list, lotusfest
+**bloomington** (6): bgc_bloomington, bloomspinweave, brown_county_playhouse, first_united_church, hoosierflyfishers_list, lotusfest
 
-**montclair** (9): mhainspire, montclairfoundation_calendar_of_events, montclairlocal, neearth, nertamid, njaudubon, peakperfs, unioncong, whartonarts
+**montclair** (8): mhainspire, montclairfoundation_calendar_of_events, montclairlocal, neearth, njaudubon, peakperfs, unioncong, whartonarts
 
-**petaluma** (3): bigeasy, mcnears, polly_klaas
+**petaluma** (2): mcnears, polly_klaas
 
 **raleighdurham** (17): ackland_art, aps_durham, downtown_durham, duke_gardens, durham_central_park, gardens, hope_animal_rescue, morehead_planetarium, nasher_museum, nc_botanical_garden, nc_humanities, nc_natural_sciences, nc_wildlife_federation, resilient_durham, second_chance_pets, transitions_lifecare, triangle_land
 
-**santarosa** (7): golocal_coop, luther_burbank_center, schulz_museum, sonoma_com, sonoma_county_aa, srsymphony, uptowntheatrenapa
+**santarosa** (4): golocal_coop, schulz_museum, sonoma_com, sonoma_county_aa
 
-**toronto** (26): bata_shoe_museum, bloor_west_village, boulderzclimbing, buddies_theatre, culturelink, factory_theatre, gardiner_museum, golatindance, grossmans_tavern, high_park_nature, indigenous, jazz_bistro, knitters_guild, now_toronto, ontario_historical_society, ontario_nature, scadding_court, site3, sunshinecentres, textile_museum, toronto_botanical, union_station, uoft_engineering, uoft_indigenous, uoft_philosophy, uoft_socialwork
+**toronto** (22): bata_shoe_museum, bloor_west_village, boulderzclimbing, culturelink, factory_theatre, gardiner_museum, golatindance, grossmans_tavern, indigenous, jazz_bistro, knitters_guild, ontario_historical_society, ontario_nature, site3, sunshinecentres, textile_museum, toronto_botanical, union_station, uoft_engineering, uoft_indigenous, uoft_philosophy, uoft_socialwork
 
 ### CivicPlus (ical.net) (41 feeds)
 
@@ -142,15 +142,13 @@ Library event management platform.
 
 **raleighdurham** (1): durham_library
 
-### Modern Events Calendar (WordPress) (4 feeds)
+### Modern Events Calendar (WordPress) (3 feeds)
 
 WordPress plugin by Webnus. PRODID references wp-events-plugin.com.
 
 **petaluma** (1): petaluma_bounty
 
 **raleighdurham** (2): american_tobacco_campus, gathering_place_games
-
-**toronto** (1): torontodance
 
 ### BiblioCommons (2 feeds)
 

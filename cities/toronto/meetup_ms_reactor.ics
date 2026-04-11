@@ -25,287 +25,281 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_312752607@meetup.com
+UID:event_314072685@meetup.com
 SEQUENCE:1
-DTSTAMP:20260303T215745Z
-DTSTART;TZID=America/Toronto:20260303T200000
-DTEND;TZID=America/Toronto:20260303T210000
-SUMMARY:Creación y Gestión de Agentes: De Cero a Producción
-DESCRIPTION:Microsoft Reactor Toronto\n¡Los agentes son el siguiente nive
- l de la productividad con IA\, y tú aprenderás a gestionarlos!\n\nEn est
- a clase\, exploraremos cómo configurar accesos y permisos\, crear y publi
- car agentes\, gestionar el proceso de aprobación y monitorear todo el cic
- lo de vida de los agentes usando el Microsoft 365 Admin Center y Power Pla
- tform.\n\n**¿Qué aprenderás?**\n\n- Configurar acceso y permisos de usu
- arios para agentes\n- Crear\, editar\, probar y publicar agentes\n- Gestio
- nar aprobación y gobernanza de agentes\n- Monitorear uso y ciclo de vida 
- de los agentes
-URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3127
- 52607/
+DTSTAMP:20260411T140323Z
+DTSTART;TZID=America/Toronto:20260414T110000
+DTEND;TZID=America/Toronto:20260414T120000
+SUMMARY:The Future of AI in Microsoft Fabric: Data Agents and Beyond
+DESCRIPTION:Microsoft Reactor Toronto\nThe first session in the FabCon and
+  SQLCon recap series will will cover how Fabric brings AI to your data usi
+ ng interoperable Data Agents that work across the AI ecosystem to unlock d
+ eeper insights.\n\nYou'll also learn how AI-powered data engineering and d
+ ata science capabilities help teams create intelligent\, enterprise-ready 
+ solutions.\n\n📍 This session is a part of a series. [Learn more here](h
+ ttps://developer.microsoft.com/reactor/series/S-1660/?wt.mc_id=meetup_S-16
+ 60_webpage_reactor)
+URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3140
+ 72685/
 STATUS:CONFIRMED
-CREATED:20260106T182902Z
-LAST-MODIFIED:20260106T182902Z
+CREATED:20260401T152208Z
+LAST-MODIFIED:20260401T152208Z
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
-UID:event_313212947@meetup.com
+UID:event_313511082@meetup.com
 SEQUENCE:1
-DTSTAMP:20260303T215745Z
-DTSTART;TZID=America/Toronto:20260304T110000
-DTEND;TZID=America/Toronto:20260304T120000
-SUMMARY:End-to-End Model Development on Microsoft Foundry
-DESCRIPTION:Microsoft Reactor Toronto\nIn this session\, we explore the en
- d-to-end journey of designing and developing AI solutions with Microsoft F
- oundry models. The session is structured around four key phases of the mod
- el development journey.\n\nWe begin with Model Understanding\, where you d
- iscover the Foundry model catalog and build intuition around core model ca
- pabilities. Next is Model Selection\, focusing on how to choose the right 
- model for a given use case using benchmarks\, evaluations\, and leaderboar
- ds. We then move into Model Customization\, covering how models can be ada
- pted through techniques such as context engineering\, fine‑tuning\, and 
- compression to better meet application needs. Finally\, we close with Mode
- l Observability\, highlighting how evaluations\, tracing\, and monitoring 
- help ensure models behave safely\, reliably\, and effectively at scale.\n\
- n-----------------------------------------------\n[The Java-Script AI Buil
- d-a-thon](https://aka.ms/JSAIBuildathon)\n\n📌 This session is a part of
-  a series! Learn more [here](https://developer.microsoft.com/reactor/serie
- s/S-1628/?wt.mc_id=meetup_S-1628_webpage_reactor)
+DTSTAMP:20260411T140323Z
+DTSTART;TZID=America/Toronto:20260414T120000
+DTEND;TZID=America/Toronto:20260414T130000
+SUMMARY:Build Enterprise Worthy LLM Inference with Open Source and Kuberne
+ tes
+DESCRIPTION:Microsoft Reactor Toronto\nScaling LLMs to production introduc
+ es critical challenges: How do you orchestrate multi-node execution?\n\nOp
+ timize GPU scheduling? Achieve low-latency data transfers between nodes? T
+ his session reveals how NVIDIA Dynamo and Azure Kubernetes Service solve t
+ hese challenges together.\n\nThrough a real-world e-commerce recommendatio
+ n scenario\, discover how open-source frameworks and managed Kubernetes un
+ lock enterprise-grade inference performance.\n\nLearn to harness advanced 
+ hardware like GB200 NVL72\, optimize distributed workloads on AKS\, and de
+ liver cost-efficient AI at scale to turn infrastructure complexity into co
+ mpetitive advantage.
+URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3135
+ 11082/
+STATUS:CONFIRMED
+CREATED:20260224T202242Z
+LAST-MODIFIED:20260224T202242Z
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313244028@meetup.com
+SEQUENCE:1
+DTSTAMP:20260411T140323Z
+DTSTART;TZID=America/Toronto:20260414T130000
+DTEND;TZID=America/Toronto:20260414T140000
+SUMMARY:Moving Fast Without Breaking Things Using GitHub Code Quality
+DESCRIPTION:Microsoft Reactor Toronto\nAI tools like GitHub Copilot are ac
+ celerating development—but speed alone doesn’t guarantee sustainable c
+ ode. Without clear signals and prioritization\, teams risk accumulating te
+ chnical debt faster than they can understand it. This talk introduces GitH
+ ub Code Quality\, a developer-first approach to maintaining reliability an
+ d maintainability in AI-assisted codebases.\n\nYou’ll learn how Code Qua
+ lity highlights the issues that matter most\, avoids noisy backlogs\, and 
+ enables automated fixes—helping teams ship faster while staying in contr
+ ol of long-term code health.\n\n📌 This session is a part of a series! [
+ Learn more here](https://developer.microsoft.com/reactor/series/S-1625/?wt
+ .mc_id=meetup_S-1625_webpage_reactor)
 URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3132
- 12947/
+ 44028/
 STATUS:CONFIRMED
-CREATED:20260205T005756Z
-LAST-MODIFIED:20260205T005756Z
+CREATED:20260206T233517Z
+LAST-MODIFIED:20260206T233517Z
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
-UID:event_312735118@meetup.com
+UID:event_313945922@meetup.com
 SEQUENCE:1
-DTSTAMP:20260303T215745Z
-DTSTART;TZID=America/Toronto:20260304T120000
-DTEND;TZID=America/Toronto:20260304T130000
-SUMMARY:Continuidad del negocio y recuperación ante desastres
-DESCRIPTION:Microsoft Reactor Toronto\nExplora las capacidades de Azure pa
- ra garantizar la disponibilidad de tus servicios críticos. Conoce cómo i
- mplementar soluciones de respaldo y recuperación ante desastres con Azure
-  Backup y Site Recovery.
+DTSTAMP:20260411T140323Z
+DTSTART;TZID=America/Toronto:20260415T100000
+DTEND;TZID=America/Toronto:20260415T110000
+SUMMARY:OpenClawNet - Scaffolding + Gateway + Local Chat
+DESCRIPTION:Microsoft Reactor Toronto\nIn this session we will build a ful
+ ly connected .NET 10 solution that will be the core of OpenClawNet. We wil
+ l wire up .NET Aspire for service orchestration\, build the Gateway API us
+ ing Minimal APIs\, add real-time chat with SignalR\, create a Blazor web U
+ I\, connect to Ollama for local AI inference\, and persist chat history wi
+ th SQLite and EF Core.\n\nAt the end we will have a fully functional local
+  chatbot in your browser. Send a message\, watch it stream back from your 
+ local LLM\, and see it persist to the database. A solid foundation for eve
+ rything that comes next.\n\n**Key Topics & Technologies:**\n\n* Solution a
+ rchitecture and project organization\n* Aspire service orchestration and h
+ ealth checks\n* ASP.NET Core Minimal APIs and endpoint design\n* SignalR f
+ or real-time WebSocket communication\n* Blazor (Server-side rendering) for
+  interactive UI\n* Ollama integration for local LLM inference\n* SQLite wi
+ th EF Core for session persistence\n* Gateway routing and middleware\n\nPr
+ e-requisites:\n\n* **Experience:** Intermediate C# and ASP.NET Core knowle
+ dge (not a .NET 101)\n* **Environment:** .NET 10 SDK\, VS Code + GitHub Co
+ pilot (or Visual Studio)\, Docker (for Ollama)\n* **Optional:** Azure subs
+ cription (for Sessions 3–4\, but local development works fine throughout
+ )\n* **Mindset:** Curiosity about AI agents\, willingness to follow along 
+ live and ask questions
+URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3139
+ 45922/
+STATUS:CONFIRMED
+CREATED:20260325T174738Z
+LAST-MODIFIED:20260325T174738Z
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313872447@meetup.com
+SEQUENCE:1
+DTSTAMP:20260411T140323Z
+DTSTART;TZID=America/Toronto:20260415T110000
+DTEND;TZID=America/Toronto:20260415T120000
+SUMMARY:GitHub Copilot CLI Hands-On: First Steps\, Context\, and Conversat
+ ions
+DESCRIPTION:Microsoft Reactor Toronto\nChapters Covered: Overview\, 01 –
+  First Steps\, 02 – Context and Conversations\n\n-----------------------
+ ---------------------------------\n\nWhat is GitHub Copilot CLI and how ca
+ n you get started using it?\n\nIn this first session you'll get answers to
+  those questions and run your first Copilot CLI commands against a coding 
+ project. From there you'll learn about the three interaction modes that ar
+ e available: Interactive\, Plan\, and Programmatic. You'll then learn how 
+ to give Copilot better context with the @ syntax\, work across files and d
+ irectories\, and carry conversations forward across multiple turns and ses
+ sions.\n\nWith the skills you learn in this session\, you'll be able to re
+ view and summarize existing code with context across multiple files\, plan
+  new projects\, and generate code and documentation.\n\nThis is the first 
+ of four sessions that walk you through the [**GitHub Copilot CLI for Begin
+ ners course**](https://github.com/github/copilot-cli-for-beginners).\n\nTh
+ is session is a part of a series. Learn more [here](https://developer.micr
+ osoft.com/reactor/series/S-1648/?wt.mc_id=meetup_S-1648_webpage_reactor)\n
+ \nPre-requisites:\nComplete [**Chapter 00**](https://github.com/github/cop
+ ilot-cli-for-beginners/blob/main/00-quick-start/README.md) of the course t
+ o install GitHub Copilot CLI and sign in.\n\n-----------------------------
+ ----------------------------\n\n[⏱🌎 This series is offered in two tim
+ e zones for your convenience. Looking for our APAC sessions? Click here.](
+ https://developer.microsoft.com/reactor/series/S-1651/?wt.mc_id=1reg_26896
+ _webpage_reactor)
+URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3138
+ 72447/
+STATUS:CONFIRMED
+CREATED:20260320T200019Z
+LAST-MODIFIED:20260320T200019Z
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:event_314075298@meetup.com
+SEQUENCE:1
+DTSTAMP:20260411T140323Z
+DTSTART;TZID=America/Toronto:20260415T110000
+DTEND;TZID=America/Toronto:20260415T120000
+SUMMARY:Get Certified: Fabric Data Engineer (DP-700 Accelerated)
+DESCRIPTION:Microsoft Reactor Toronto\nThis session was so popular\, we ha
+ d to do it again. In this one-hour session\, we’ll walk through the key 
+ differences between Synapse and Fabric\, highlight the new concepts covere
+ d in the DP-700 exam\, and share practical tips for making the transition.
+  You’ll leave with a clear roadmap of what to study\, where to focus.\n\
+ n📍 This session is a part of a series. [Learn more here](https://develo
+ per.microsoft.com/reactor/series/S-1622/?wt.mc_id=meetup_S-1622_webpage_re
+ actor)
+URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3140
+ 75298/
+STATUS:CONFIRMED
+CREATED:20260401T173829Z
+LAST-MODIFIED:20260401T173829Z
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:event_312735697@meetup.com
+SEQUENCE:1
+DTSTAMP:20260411T140323Z
+DTSTART;TZID=America/Toronto:20260415T130000
+DTEND;TZID=America/Toronto:20260415T140000
+SUMMARY:Azure VMware Solutions
+DESCRIPTION:Microsoft Reactor Toronto\nConoce cómo ejecutar cargas de tra
+ bajo de VMware nativas en Azure sin necesidad de refactorización. Ideal p
+ ara escenarios de migración rápida y continuidad operativa.
 URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3127
- 35118/
+ 35697/
 STATUS:CONFIRMED
-CREATED:20260105T173539Z
-LAST-MODIFIED:20260105T173539Z
+CREATED:20260105T180549Z
+LAST-MODIFIED:20260105T180549Z
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
-UID:event_312845942@meetup.com
+UID:event_313761508@meetup.com
 SEQUENCE:1
-DTSTAMP:20260303T215745Z
-DTSTART;TZID=America/Toronto:20260304T133000
-DTEND;TZID=America/Toronto:20260304T143000
-SUMMARY:Python + Agents: Orchestrating advanced multi-agent workflows
-DESCRIPTION:Microsoft Reactor Toronto\nIn Session 5 of our **Python + Agen
- ts** series\, we’ll go beyond workflow fundamentals and explore how to o
- rchestrate **advanced\, multi‑agent workflows** using the Microsoft Agen
- t Framework.\n\nThis session focuses on patterns that coordinate multiple 
- steps or multiple agents at once\, enabling more powerful and flexible **A
- I‑driven systems**. We’ll begin by comparing **sequential vs. concurre
- nt execution**\, then dive into techniques for running workflow steps in p
- arallel.\n\nYou’ll learn how fan‑out and fan‑in edges enable multipl
- e branches to run at the same time\, how to aggregate their results\, and 
- how concurrency allows workflows to scale across tasks efficiently.\n\nFro
- m there\, we’ll introduce two multi‑agent orchestration approaches tha
- t are built into the framework. We’ll start with **handoff**\, where con
- trol moves entirely from one agent to another based on workflow logic\, wh
- ich is useful for routing tasks to the right agent as the workflow progres
- ses.\n\nWe’ll then look at **Magentic**\, a planning‑oriented supervis
- or that generates a high‑level plan for completing a task and delegates 
- portions of that plan to other agents.\n\nFinally\, we'll wrap up with a d
- emo of an E2E application that showcases a concurrent multi-agent workflow
-  in action.\n\n**Prerequisites:** To follow along with the live examples\,
-  sign up for a free GitHub account. If you are brand new to generative AI 
- with Python\, start with [our 9-part Python + AI series](https://aka.ms/py
- thonai/rewatch)\, which covers LLMs\, embedding models\, RAG\, tool callin
- g\, MCP\, and more.\n\nPre-requisites:\nTo follow along with the live exam
- ples\, sign up for a free GitHub account. If you are brand new to generati
- ve AI with Python\, start with our [our 9-part Python + AI series](https:/
- /aka.ms/pythonai/rewatch)\, which covers LLMs\, embedding models\, RAG\, t
- ool calling\, MCP\, and more.
-URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3128
- 45942/
+DTSTAMP:20260411T140323Z
+DTSTART;TZID=America/Toronto:20260415T150000
+DTEND;TZID=America/Toronto:20260415T160000
+SUMMARY:Azure Decoded: Vibe Coding on Azure Cosmos DB: Build an AI App
+DESCRIPTION:Microsoft Reactor Toronto\nJoin us for a fast kickoff to Azure
+  Cosmos DB\, then watch a live\, end-to-end build in Visual Studio Code wh
+ ere we create a new Cosmos DB database and wire up an app using modern dev
+ eloper workflows.\n\nWe'll demo agent-based vibe coding with the Azure Cos
+ mos DB Agent Kit\, showing how it plugs into agent-compatible coding assis
+ tants (including GitHub Copilot in VS Code) to apply Cosmos DB best practi
+ ces as you design data models\, choose distribution strategies\, and tune 
+ queries and indexing.\n\nWe’ll wrap with practical guidance on integrati
+ ng Cosmos DB with other Azure services—skills that align directly to the
+  Microsoft Certified: Azure Cosmos DB Developer Specialty (DP-420 certific
+ ation).\n\n**What you’ll learn:**\n• What is and how to get started wi
+ th Azure Cosmos DB\n• Setting up your Azure Cosmos DB AI Development Kit
+  (VS Code\, GitHub Copilot Chat\, Cosmos DB Extension\, GitHub Copilot for
+  Azure\, Azure MCP – 3 points suggested\n• Creating a CRUD application
+  with natural language\n\n**Who should attend:**\nDevelopers building clou
+ d-native applications who want to skill up on Azure Cosmos DB and learn mo
+ dern\, agent-assisted workflows in their IDE—plus anyone planning to att
+ end Cosmos DB Conf or pursue the DP-420 Azure Cosmos DB Developer Specialt
+ y certification.\n\n***\n\n[Azure Cosmos DB Agent Kit for AI coding assist
+ ants](https://learn.microsoft.com/azure/cosmos-db/gen-ai/agent-kit/?wt.mc_
+ id=meetup_26885_webpage_reactor)\n[Get started with Azure Cosmos DB for No
+ SQL](https://learn.microsoft.com/training/paths/get-started-azure-cosmos-d
+ b-sql-api/?wt.mc_id=meetup_26885_webpage_reactor)\n[Get started with AI-as
+ sisted development](https://learn.microsoft.com/training/paths/accelerate-
+ app-development-using-github-copilot/?wt.mc_id=meetup_26885_webpage_reacto
+ r)\n[Get started with GitHub Copilot](https://learn.microsoft.com/training
+ /modules/get-started-github-copilot/?wt.mc_id=meetup_26885_webpage_reactor
+ )
+URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3137
+ 61508/
 STATUS:CONFIRMED
-CREATED:20260112T142908Z
-LAST-MODIFIED:20260112T142908Z
+CREATED:20260312T195028Z
+LAST-MODIFIED:20260312T195028Z
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
-UID:event_313422942@meetup.com
+UID:event_313792857@meetup.com
 SEQUENCE:1
-DTSTAMP:20260303T215745Z
-DTSTART;TZID=America/Toronto:20260304T150000
-DTEND;TZID=America/Toronto:20260304T160000
-SUMMARY:Azure Decoded: When Agents Work Together: Multi-Agent Orchestratio
- n on Azure
-DESCRIPTION:Microsoft Reactor Toronto\nOne agent is powerful. Multiple age
- nts working together? That's transformational.\n\nIn this session\, we exp
- lore multi-agent orchestration patterns: how to design agent teams\, deleg
- ate tasks\, and coordinate complex workflows. Using Microsoft Agent Framew
- ork and Microsoft Foundry\, you'll see how to build agent systems that div
- ide and conquer problems too complex for a single agent.\n\n**What you'll 
- learn:**\n• When single agents aren't enough (and when they are)\n• Mu
- lti-agent architecture patterns: delegation\, collaboration\, debate\n• 
- Building agent teams with Microsoft Agent Framework\n• Coordinating comp
- lex workflows across agents\n• Real-world use cases: research assistants
- \, code review teams\, customer service escalation\n\n**Who should attend:
- ** Developers who've built their first agent and want to scale up to multi
- -agent solutions.\n\n-----------------------------------------------------
- --\nExplore the Learn paths:\n- [Build a foundation to build AI agents and
-  extend Microsoft 365 Copilot](https://learn.microsoft.com/training/paths/
- build-foundation-extend-microsoft-365-copilot/?wt.mc_id=meetup_26843_webpa
- ge_reactor)\n- [Develop AI agents on Azure](https://learn.microsoft.com/tr
- aining/paths/develop-ai-agents-on-azure/?wt.mc_id=meetup_26843_webpage_rea
- ctor)\n\n📌 This session is a part of a series! Learn more [**here**](ht
- tps://developer.microsoft.com/reactor/series/S-1644/?wt.mc_id=meetup_S-164
- 4_webpage_reactor)
-URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3134
- 22942/
+DTSTAMP:20260411T140323Z
+DTSTART;TZID=America/Toronto:20260416T100000
+DTEND;TZID=America/Toronto:20260416T110000
+SUMMARY:Azure Decoded: Gobernanza en un Lakehouse moderno con Databricks\,
+  Fabric y OneLa
+DESCRIPTION:Microsoft Reactor Toronto\nEn esta sesión\, aprenderás cómo
+  **Azure Databricks**\, **Microsoft Fabric** y **OneLake** se integran par
+ a ofrecer una arquitectura de Lakehouse moderna y unificada. Analizaremos 
+ cómo los datos fluyen de forma fluida entre las plataformas\, cómo se ma
+ ntiene la coherencia de los metadatos y cómo se aplica una gobernanza com
+ partida de extremo a extremo utilizando **Unity Catalog** y **Microsoft Pu
+ rview**.\n\nVerás cómo la seguridad\, el linaje y los controles de acces
+ o se extienden a través de ambos ecosistemas\, lo que permite a los equip
+ os operar con un único marco de gobernanza mientras aprovechan las fortal
+ ezas de cada plataforma.\n\n**Lo que aprenderás:**\n\n* Cómo Azure Datab
+ ricks\, Microsoft Fabric y OneLake se alinean para ofrecer una arquitectur
+ a de Lakehouse cohesiva.\n* Cómo funciona la gobernanza unificada en amba
+ s plataformas utilizando Unity Catalog y Microsoft Purview.\n* Patrones pr
+ ácticos para integrar Databricks y Fabric\, incluyendo el intercambio de 
+ datos entre plataformas y la coherencia de metadatos.\n\n**¿A quién va d
+ irigido?**\nDesarrolladores\, arquitectos de soluciones y profesionales t
+ écnicos que desean prepararse para la certificación **DP-750 Azure Datab
+ ricks Data Engineer**.
+URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3137
+ 92857/
 STATUS:CONFIRMED
-CREATED:20260219T014254Z
-LAST-MODIFIED:20260219T014254Z
+CREATED:20260316T153315Z
+LAST-MODIFIED:20260316T153315Z
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
-UID:event_313498424@meetup.com
+UID:event_312369347@meetup.com
 SEQUENCE:1
-DTSTAMP:20260303T215745Z
-DTSTART;TZID=America/Toronto:20260304T150000
-DTEND;TZID=America/Toronto:20260304T160000
-SUMMARY:PBI Dataviz World Champs - Meet the finalists
-DESCRIPTION:Microsoft Reactor Toronto\nEver wondered what separates great 
- data visualization from world‑class? This is your chance to find out\, s
- traight from the best in the world.\n\nJoin us for an exclusive session wi
- th the four finalists heading to FabCon on March 18th\, where they’ll ba
- ttle it out for the title of 2026 Power BI DataViz World Champion. Before 
- they step onto the global stage\, you’ll get an inside look at how these
-  elite designers think\, create\, and win.\n\nThe finalists will walk thro
- ugh their preliminary‑round winning reports\, unpack their design decisi
- ons\, and share the creative and analytical processes behind their standou
- t work. Expect real‑world insights\, practical tips you can immediately 
- apply\, and four distinct perspectives on what exceptional Power BI design
-  really looks like.\n\nCome ready to learn\, get inspired\, and see what
- ’s possible when data visualization is pushed to its limits.\n\nCheck ou
- t their reports at https://aka.ms/pbidvwc26/finalists
-URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3134
- 98424/
+DTSTAMP:20260411T140323Z
+DTSTART;TZID=America/Toronto:20260416T110000
+DTEND;TZID=America/Toronto:20260416T130000
+SUMMARY:VS Code Live: April Recap of Releases
+DESCRIPTION:Microsoft Reactor Toronto\nJoin us for VS Code Live! This is y
+ our chance to catch up on all the major updates to VS Code and GitHub Copi
+ lot\, with live demos from members of the product teams - you won't want t
+ o miss this!\n\n📌 This session is a part of a series\, [**learn more he
+ re!**](https://developer.microsoft.com/reactor/series/S-1521/?wt.mc_id=mee
+ tup_26590_webpage_reactor)
+URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3123
+ 69347/
 STATUS:CONFIRMED
-CREATED:20260223T224241Z
-LAST-MODIFIED:20260223T224241Z
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:event_312298303@meetup.com
-SEQUENCE:1
-DTSTAMP:20260303T215745Z
-DTSTART;TZID=America/Toronto:20260305T070000
-DTEND;TZID=America/Toronto:20260305T080000
-SUMMARY:Tools\, MCP and Agents with LangChain4j
-DESCRIPTION:Microsoft Reactor Toronto\nMove from "text generator" to "acti
- on taker." You'll expose Java methods as tools using @Tool annotations and
-  watch the AI chain them automatically with the ReAct pattern. Then you'll
-  explore Model Context Protocol (MCP)—an open standard for AI-to-tool co
- mmunication—and build a Supervisor Agent that dynamically orchestrates s
- ub-agents to read files\, analyze content\, and summarize results\n\nPre-r
- equisites:\nCheck out the LangChain4j beginners series: https://aka.ms/lan
- gchain4j-for-beginners\nSign up for an Azure free trial: https://aka.ms/Az
- ureFreeTrialDevRelAll
-URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3122
- 98303/
-STATUS:CONFIRMED
-CREATED:20251204T151438Z
-LAST-MODIFIED:20251204T151438Z
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:event_313045974@meetup.com
-SEQUENCE:1
-DTSTAMP:20260303T215745Z
-DTSTART;TZID=America/Toronto:20260305T110000
-DTEND;TZID=America/Toronto:20260305T120000
-SUMMARY:Maximize the Cost Efficiency of AI Agents on Azure
-DESCRIPTION:Microsoft Reactor Toronto\nAs organizations accelerate their a
- doption of AI agents\, the need to balance innovation with financial disci
- pline has never been more critical. In this Reactor session\, you'll learn
-  how to make cost conscious\, strategic decisions that maximize the ROI of
-  your AI agent investments across their entire lifecycle.\n\n***\n\n**Reso
- urces**\n\n* [Learn More here](https://aka.ms/maximize-cost-efficiency-ai-
- agents)
-URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3130
- 45974/
-STATUS:CONFIRMED
-CREATED:20260125T081420Z
-LAST-MODIFIED:20260125T081420Z
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:event_312846207@meetup.com
-SEQUENCE:1
-DTSTAMP:20260303T215745Z
-DTSTART;TZID=America/Toronto:20260305T133000
-DTEND;TZID=America/Toronto:20260305T143000
-SUMMARY:Python + Agents: Adding a human in the loop to agentic workflows
-DESCRIPTION:Microsoft Reactor Toronto\nIn the final session of our **Pytho
- n + Agents** series\, we’ll explore how to incorporate **human‑in‑th
- e‑loop (HITL)** interactions into agentic workflows using the Microsoft 
- Agent Framework.\n\nThis session focuses on adding points where a workflow
-  can pause\, request input or approval from a user\, and then resume once 
- the human has responded. HITL is especially important because LLMs can pro
- duce uncertain or inconsistent outputs\, and human checkpoints provide an 
- added layer of accuracy and oversight.\n\nWe’ll begin with the framework
- ’s **requests‑and‑responses** model\, which provides a structured wa
- y for workflows to ask questions\, collect human input\, and continue exec
- ution with that data.\n\nWe'll move onto **tool approval**\, one of the mo
- st frequent reasons an agent requests input from a human\, and see how wor
- kflows can surface pending tool calls for approval or rejection.\n\nNext\,
-  we’ll cover **checkpoints and resuming**\, which allow workflows to pau
- se and be restarted later. This is especially important for HITL scenarios
-  where the human may not be available immediately.\n\nWe’ll walk through
-  examples that demonstrate how checkpoints store progress\, how resuming p
- icks up the workflow state\, and how this mechanism supports longer‑runn
- ing or multi‑step review cycles.\n\nThis session brings together everyth
- ing from the series—agents\, workflows\, branching\, orchestration—and
-  shows how to integrate humans thoughtfully into AI‑driven processes\, e
- specially when reliability and judgment matter most.\n\n**Prerequisites**:
-  To follow along with the live examples\, sign up for a free GitHub accoun
- t. If you are brand new to generative AI with Python\, start with [our 9-p
- art Python + AI series](https://aka.ms/pythonai/rewatch)\, which covers LL
- Ms\, embedding models\, RAG\, tool calling\, MCP\, and more.\n\nPre-requis
- ites:\nTo follow along with the live examples\, sign up for a free GitHub 
- account. If you are brand new to generative AI with Python\, start with ou
- r [our 9-part Python + AI series](https://aka.ms/pythonai/rewatch)\, which
-  covers LLMs\, embedding models\, RAG\, tool calling\, MCP\, and more.
-URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3128
- 46207/
-STATUS:CONFIRMED
-CREATED:20260112T143739Z
-LAST-MODIFIED:20260112T143739Z
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:event_312752655@meetup.com
-SEQUENCE:1
-DTSTAMP:20260303T215745Z
-DTSTART;TZID=America/Toronto:20260305T200000
-DTEND;TZID=America/Toronto:20260305T210000
-SUMMARY:Exam Prep: AB-900: Fundamentos de administración de Copilot y Age
- nte
-DESCRIPTION:Microsoft Reactor Toronto\nEn esta clase final\, revisaremos l
- os principales temas de la certificación AB-900 y realizaremos un simulac
- ro completo con preguntas al estilo del examen oficial.\n\n**¿Qué aprend
- erás?**\n\n* Revisar los conceptos clave de la certificación AB-900\n* P
- racticar con preguntas al estilo del examen oficial
-URL;VALUE=URI:https://www.meetup.com/microsoft-reactor-toronto/events/3127
- 52655/
-STATUS:CONFIRMED
-CREATED:20260106T183233Z
-LAST-MODIFIED:20260106T183233Z
+CREATED:20251209T192649Z
+LAST-MODIFIED:20251209T192649Z
 CLASS:PUBLIC
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/microsoft-reactor-toronto/events/ica

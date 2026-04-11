@@ -25,20 +25,49 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313518148@meetup.com
+UID:event_313972492@meetup.com
 SEQUENCE:1
-DTSTAMP:20260303T215742Z
-DTSTART;TZID=America/Toronto:20260307T143000
-DTEND;TZID=America/Toronto:20260307T170000
-SUMMARY:Silent Bookclub Meeting #63
-DESCRIPTION:Silent Book Club (Toronto)\nThe next event is happening on Sat
- urday March 7 at 2:30PM at Danu Social House!\n\nPlease RSVP if you're pla
- nning on coming so we can plan appropriately!
+DTSTAMP:20260411T140320Z
+DTSTART;TZID=America/Toronto:20260415T183000
+DTEND;TZID=America/Toronto:20260415T210000
+SUMMARY:Silent Bookclub Meeting #68
+DESCRIPTION:Silent Book Club (Toronto)\nThe next event is happening on Wed
+ nesday April 15 at 630 PM at Steadfast Brewery!\n\nPlease RSVP if you're p
+ lanning on coming so we can plan appropriately!\n\nTo help cover the costs
+  of meetup fees\, we will be taking optional donations for this event. If 
+ you're inclined to\, feel free to send any amount you're comfortable with 
+ to harresh.s@hotmail.com\, or bring cash to the event. Please note that th
+ is is entirely optional and not required to join the event! All proceeds w
+ ill go towards fees for this event and future events\, as well as meetup f
+ ees.
 URL;VALUE=URI:https://www.meetup.com/toronto-silent-book-club-meetup-group
- /events/313518148/
+ /events/313972492/
 STATUS:CONFIRMED
-CREATED:20260225T043829Z
-LAST-MODIFIED:20260225T043829Z
+CREATED:20260327T011132Z
+LAST-MODIFIED:20260327T011132Z
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313972519@meetup.com
+SEQUENCE:1
+DTSTAMP:20260411T140320Z
+DTSTART;TZID=America/Toronto:20260418T143000
+DTEND;TZID=America/Toronto:20260418T170000
+SUMMARY:Silent Bookclub Meeting #69
+DESCRIPTION:Silent Book Club (Toronto)\nThe next event is happening on Sat
+ urday April 18 at 2:30PM at Danu Social House!\n\nPlease RSVP if you're pl
+ anning on coming so we can plan appropriately!\n\nTo help cover the costs 
+ of meetup fees\, we will be taking optional donations for this event. If y
+ ou're inclined to\, feel free to send any amount you're comfortable with t
+ o harresh.s@hotmail.com\, or bring cash to the event. Please note that thi
+ s is entirely optional and not required to join the event! All proceeds wi
+ ll go towards fees for this event and future events\, as well as meetup fe
+ es.
+URL;VALUE=URI:https://www.meetup.com/toronto-silent-book-club-meetup-group
+ /events/313972519/
+STATUS:CONFIRMED
+CREATED:20260327T011526Z
+LAST-MODIFIED:20260327T011526Z
 CLASS:PUBLIC
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/toronto-silent-book-club-meetup-grou

@@ -25,31 +25,74 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313617613@meetup.com
+UID:event_314141124@meetup.com
 SEQUENCE:1
-DTSTAMP:20260303T215734Z
-DTSTART;TZID=America/Toronto:20260307T103000
-DTEND;TZID=America/Toronto:20260307T153000
-SUMMARY:Join us for a Saturday Hike in the Rouge
-DESCRIPTION:These Boots Are Made for Hiking\nMeetUp Point: 55 Twyn Rivers 
- Drive\n\nI love the Rouge and I also love to sleep in! So this weeks hike 
- is close by and on **Saturday** to give everyone a chance to sleep in on S
- unday. We have had a busy February and even leaders need some r&r.\n\nJoin
-  us for an iconic **Saturday hike** for a looped hike in this treasured gr
- een space where there is a variety of green space and nice challenges.\n\n
- Near the rivers it can be extremely icy so while spring is upon us\, make 
- sure you come with crampons please!
+DTSTAMP:20260411T140311Z
+DTSTART;TZID=America/Toronto:20260412T103000
+DTEND;TZID=America/Toronto:20260412T153000
+SUMMARY:Same Hike But Backwards!
+DESCRIPTION:These Boots Are Made for Hiking\n**Meetup Point: 10443 Nassaga
+ weya-Esquesing Halton Hills**\n**Coordinates: 43.556893\, -79.984225**\n**
+ PS: Please follow the address and coordinates. Not the pin.**\n\nHey All: 
+ Because we liked today's hike so much we are going back next week and comi
+ ng in from the opposite direction. It's a large area so we want to do it a
+ gain from the opposite side - there are lots of side trails.\nThere are so
+ me single track side trails that are more moderate or hard as well\, and t
+ he route is a great option. Overall\, this is a beautiful place with lots 
+ of trail options whether you want to have a leisurely walk or challenge yo
+ urself a bit.\nYou can expect rocks\, flat areas and forest. Its a lovely 
+ mixed bag!\nIts a different point of view!\nThis is a 15km hike. If your u
+ p for it we can always make it a longer hike. It might be muddy so wear wa
+ terproof boots and hiking poles are helpful. We will be stopping for lunch
+  at 1pm so bring lots of water and nibbles.\nPS: A note on car pooling. Pl
+ ease offer a ride to someone. Many people want to come and can't find ride
+ s. This is part of the BOOTS Community. We help each other out. Also\, you
+  can ask for gas money remember your passenger is not there to fill your t
+ ank but to contribute to gas. $10. to $15\, is the max you should ask. If 
+ there are multiple people\, $10\, per person.
 URL;VALUE=URI:https://www.meetup.com/these-boots-are-made-for-hiking/event
- s/313617613/
+ s/314141124/
 STATUS:CONFIRMED
-CREATED:20260303T141532Z
-LAST-MODIFIED:20260303T141532Z
+CREATED:20260406T014739Z
+LAST-MODIFIED:20260406T014739Z
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313749628@meetup.com
+SEQUENCE:1
+DTSTAMP:20260411T140311Z
+DTSTART;TZID=America/Toronto:20260418T090000
+DTEND;TZID=America/Toronto:20260419T170000
+SUMMARY:Time to learn New Skills - Trecking Training  - Two Day Hike with 
+ Full Gear
+DESCRIPTION:These Boots Are Made for Hiking\nZoom Call: Monday March 23\, 
+ 7:30pm\n\nMeet up Point: 6700 Salmon Lake Road\, Sydenham\, ON K0H 2T0\, C
+ anada\n**Two days...sat and sun**\n**Fee for Trekking Training: $99.**\n\n
+ We have a secret and an agenda. We want you (and all our members) out Trek
+ ing. At least once. Don't give up your Sunday hikes\, but hey it's time to
+  up your hiking game!\nWhich is why we are offering skills training for fu
+ ture trekkers so they can join in on trekking adventures outside of Ontari
+ o.\nThere is a lot to learn to prepare for a multi day trekk\, and we want
+  you to be prepared. It is not just knowing what equipment to buy\, how mu
+ ch to carry\, tent set up\, it's also food prep\, attitude\, and emergency
+  skills and so much more!\nSo\, in order for you to ensure you have a safe
+  and the very BEST trekking experience we are offering a day in Big Salmon
+  Lake.\n**Experienced Boots Trekkers feel free to hop in and show them how
+  it's done!**\nWe will cover in one weekend -\n\n* your weighted pack\n* p
+ ack pacing\n* water filtering\n* trail etiquette\n* safety\n* equipment mu
+ st haves\n* first aid\n* attittude adjustment\n* fire starting\n* navigati
+ on\n* ...and more
+URL;VALUE=URI:https://www.meetup.com/these-boots-are-made-for-hiking/event
+ s/313749628/
+STATUS:CONFIRMED
+CREATED:20260311T223549Z
+LAST-MODIFIED:20260311T223549Z
 CLASS:PUBLIC
 END:VEVENT
 BEGIN:VEVENT
 UID:event_312915819@meetup.com
 SEQUENCE:1
-DTSTAMP:20260303T215734Z
+DTSTAMP:20260411T140311Z
 DTSTART;TZID=America/Toronto:20260606T090000
 DTEND;TZID=America/Toronto:20260606T120000
 SUMMARY:Feel the burn folks on this Bike Ride led by ITALO!
@@ -73,7 +116,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_313240228@meetup.com
 SEQUENCE:1
-DTSTAMP:20260303T215734Z
+DTSTAMP:20260411T140311Z
 DTSTART;TZID=America/Toronto:20260711T193000
 DTEND;TZID=America/Toronto:20260718T213000
 SUMMARY:Mangiare\, Hike\, Repeat 
@@ -112,7 +155,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event_312916088@meetup.com
 SEQUENCE:1
-DTSTAMP:20260303T215734Z
+DTSTAMP:20260411T140311Z
 DTSTART;TZID=America/Toronto:20260808T070000
 DTEND;TZID=America/Toronto:20260808T180000
 SUMMARY:Niagara Falls! Here we come by BIKE!
@@ -133,6 +176,47 @@ URL;VALUE=URI:https://www.meetup.com/these-boots-are-made-for-hiking/event
 STATUS:CONFIRMED
 CREATED:20260116T175906Z
 LAST-MODIFIED:20260116T175906Z
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:event_314217175@meetup.com
+SEQUENCE:1
+DTSTAMP:20260411T140311Z
+DTSTART;TZID=America/Toronto:20260808T070000
+DTEND;TZID=America/Toronto:20260816T090000
+SUMMARY:Come to BC With Us!
+DESCRIPTION:These Boots Are Made for Hiking\nGrab your Hiking boots and po
+ les and come to BC with us!\nThis is a week of day hikes - some challengin
+ g and some just downright beautiful. We will be day hiking for 7 days begi
+ nning in Vancouver heading to Tofino Beach then back to Vancouver.\nThe it
+ inerary looks something like this:\n\n1\\. Day 1\\- Sat\\. August 8 – Va
+ ncouver\nStay overnight\n2\\. Day 2 – Sun\\. August 9 – 9am departure 
+ \\- Day trip to Squamish to hike Squamish Valley/ or Garibaldi national pa
+ rk\n3\\. Day 3 – Mon\\. August 10 – Leave at 7am to catch the Horsehoe
+  Bay Ferry Terminal to Nanaimo\nHike Neck Point Lake in the afternoon/ sta
+ y at painted Turtle Guesthouse if available\n4\\. Day 4 – Tues\\. August
+  11 – 7am departure to Ucuelet \\-along the way we stop at the old fores
+ t and falls at Cathedral Grove\\. We might check out Mount Benson given ti
+ me constraints\\.\nStay at C&N Backpackers Hostel depending on availabilit
+ y\n5\\. Day 5 \\-Wed\\. August 12 – 9am departure – Hike Wild Pacific 
+ Trail and swim at Florencia Bay\n6\\. Day 6 – Thurs\\. August 13 – 10a
+ m departure \\- Pacific Rim to Tofino – Rain forest trail\\\, Long Beach
+  and explore the town – optional tour if interested\n7\\. Day 7 – Fri\
+ \. August 14 – 7 am departure – Catch the water taxi – 30\\.return p
+ lus 10\\. Park fee\\. Hike Lone Cone Trail then head back to Vancouver\n8\
+ \. Day 8 – Sat\\. Aug 15 – Head back to Vancouver\n9\\. Day 9 \\- Sun\
+ \. Aug 16 – Return to Toronto\nJoin our zoom call Wed. April 22\nsherry 
+ bagnato is inviting you to a scheduled Zoom meeting.\nTopic: BC Here we co
+ me!\nTime: Apr 22\, 2026 07:30 PM Eastern Time (US and Canada)\nJoin the Z
+ oom Meeting for details!\nhttps://us05web.zoom.us/j/82687571918?pwd=dJniSd
+ 1V70Ai6miGXG2YDpo1gHcPNN.1\nMeeting ID: 826 8757 1918\nPasscode: KEcQ6D\nJ
+ oin instructions\nhttps://us05web.zoom.us/meetings/82687571918/invitations
+ ?signature=uTr6fHNG9vPac2AOb1mrkxZsXUq2KFiRTiCw5fQfaXo
+URL;VALUE=URI:https://www.meetup.com/these-boots-are-made-for-hiking/event
+ s/314217175/
+STATUS:CONFIRMED
+CREATED:20260410T172521Z
+LAST-MODIFIED:20260410T172521Z
 CLASS:PUBLIC
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/these-boots-are-made-for-hiking/even

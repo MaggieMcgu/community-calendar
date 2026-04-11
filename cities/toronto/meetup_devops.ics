@@ -25,68 +25,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:event_313279153@meetup.com
-SEQUENCE:1
-DTSTAMP:20260303T215746Z
-DTSTART;TZID=America/Toronto:20260319T171500
-DTEND;TZID=America/Toronto:20260319T201500
-SUMMARY:GitHub Copilot Dev Days | Toronto
-DESCRIPTION:Toronto Enterprise DevOps User Group\nJoin us for a community-
- led developer event focused on **AI-assisted coding with GitHub Copilot**.
-  This event brings together developers to explore practical workflows\, re
- al-world use cases\, and hands-on experiences using GitHub Copilot.\n\nWhe
- ther you are new to GitHub Copilot or already using it\, this event will h
- elp you better understand how to apply AI-assisted coding techniques in ev
- eryday development.\n\n* **Total duration:** approximately 3 hours\n* Incl
- udes: **2 technical sessions AND hands-on workshop (1 hour)**\n\n> ***Impo
- rtant*** *This event includes hands-on labs\, so you will need to bring yo
- ur **own laptop** (and power cord)\, if you would like to participate in t
- he lab.*\n\n**Agenda:**\n5:15-5:30pm – Check-in & Networking\n5:30pm –
-  Welcome & Opening\n5:45pm – Session 1: GitHub Copilot in Practice (Dave
-  Lloyd & Max Yermakhanov)\n6:15pm – Session 2: From Copilot to Colleague
- s: Building an AI DevOps Agent Team (Kaan Turgut)\n6:45pm – Workshop: Ha
- nds-on with GitHub Copilot\n7:45pm – Closing & Next Steps
-URL;VALUE=URI:https://www.meetup.com/toronto-enterprise-devops-user-group/
- events/313279153/
-STATUS:CONFIRMED
-CREATED:20260209T143303Z
-LAST-MODIFIED:20260209T143303Z
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
-UID:event_312978750@meetup.com
-SEQUENCE:1
-DTSTAMP:20260303T215746Z
-DTSTART;TZID=America/Toronto:20260409T173000
-DTEND;TZID=America/Toronto:20260409T193000
-SUMMARY:Enterprise‑Grade DevOps for Microsoft Fabric
-DESCRIPTION:Toronto Enterprise DevOps User Group\nModern Microsoft Fabric 
- projects often start with built‑in Git integration and deployment pipeli
- nes—but at enterprise scale\, those capabilities alone are rarely suffic
- ient. As environments grow in size and complexity teams need more advanced
-  tools and patterns to manage Fabric artifacts reliably across development
- \, test\, and production.\n\nIn this session\, we will:\n\\- Review common
-  enterprise lifecycle challenges in Microsoft Fabric\n\\- Introduce advanc
- ed DevOps tooling and automation patterns used to address them\n\\- Walk t
- hrough a realistic implementation pattern that shows how these tools fit t
- ogether in practice\n\nThis session is designed for data and platform engi
- neers and architects responsible for operating Microsoft Fabric in product
- ion. If you’re already using Git integration and deployment pipelines an
- d are looking to extend them with more scalable\, repeatable\, and enterpr
- ise‑ready CI/CD practices\, this session will help you understand when a
- nd how to go beyond the defaults.\n\n*Come at 5:30 pm have some pizza and 
- chat for a bit. The presentation starts at 6:00 pm.*
-URL;VALUE=URI:https://www.meetup.com/toronto-enterprise-devops-user-group/
- events/312978750/
-STATUS:CONFIRMED
-CREATED:20260120T225247Z
-LAST-MODIFIED:20260120T225247Z
-CLASS:PUBLIC
-END:VEVENT
-BEGIN:VEVENT
 UID:event_312948236@meetup.com
 SEQUENCE:1
-DTSTAMP:20260303T215746Z
+DTSTAMP:20260411T140324Z
 DTSTART;TZID=America/Toronto:20260514T173000
 DTEND;TZID=America/Toronto:20260514T193000
 SUMMARY:Adopting GitHub in the Enterprise: Best Practices and Strategies
@@ -118,6 +59,35 @@ URL;VALUE=URI:https://www.meetup.com/toronto-enterprise-devops-user-group/
 STATUS:CONFIRMED
 CREATED:20260118T222704Z
 LAST-MODIFIED:20260118T222704Z
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313910537@meetup.com
+SEQUENCE:1
+DTSTAMP:20260411T140324Z
+DTSTART;TZID=America/Toronto:20260611T173000
+DTEND;TZID=America/Toronto:20260611T193000
+SUMMARY:Vibe Coding the Platform: Agentic DevOps with Claude Code & Codex
+DESCRIPTION:Toronto Enterprise DevOps User Group\nLLM chat was the warm-up
+ .\n\nAsk a question. Copy. Paste. Tweak.\nUseful — but capped.\n\nThe re
+ al shift is agentic DevOps workflows using tools like Claude Code and the 
+ OpenAI Codex App — systems that can reason across repositories\, plan mu
+ lti-step changes\, modify infrastructure\, and operate closer to how real 
+ engineers build.\n\nThis session is both 101 and 201.\n\nIf you’re new t
+ o agentic tooling\, you’ll understand what’s fundamentally different f
+ rom chat-based usage.\nIf you’re already experimenting\, you’ll leave 
+ with practical agentic patterns for workflow design\, context control\, in
+ frastructure changes\, and avoiding unstructured vibe coding.\n\nNot using
+  agentic tooling in DevOps today is starting to feel like refusing to use 
+ the internet in 2003.\n\nThis isn’t about hype.\nIt’s about leverage.\
+ n\nIt’s a great time to be a builder — if you build with agents.\n\n*C
+ ome at 5:30 pm have some pizza and chat for a bit. The presentation starts
+  at 6:00 pm.*
+URL;VALUE=URI:https://www.meetup.com/toronto-enterprise-devops-user-group/
+ events/313910537/
+STATUS:CONFIRMED
+CREATED:20260323T143404Z
+LAST-MODIFIED:20260323T143404Z
 CLASS:PUBLIC
 END:VEVENT
 X-ORIGINAL-URL:https://www.meetup.com/toronto-enterprise-devops-user-group

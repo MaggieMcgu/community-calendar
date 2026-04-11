@@ -4,68 +4,57 @@ PRODID:-//University of Toronto//utoronto.ca//
 X-WR-CALNAME:University of Toronto
 X-WR-TIMEZONE:America/Toronto
 BEGIN:VEVENT
-SUMMARY:CAST Seminar: Sebastian Jaimungal
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:84b3389ec184d1afc74bd6f29a5f1358@utoronto.ca
-DESCRIPTION:Department: CANSSI
-LOCATION:CANSSI\, University of Toronto
-URL:https://canssiontario.utoronto.ca/event/cast-seminar-sebastian-jaimung
- al/
+SUMMARY:OISE reception at AERA 2026 in Los Angeles
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+UID:bbf1e5cd31bc9ed79fa5e19826ca09b0@utoronto.ca
+DESCRIPTION:Department: OISE
+LOCATION:OISE\, University of Toronto
+URL:https://www.oise.utoronto.ca/about/events/04-11-26-oise-reception-aera
+ -2026-los-angeles
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Asper Centre Constitutional Roundtable with Justice Colin Feasby
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:c24d5e024bd260e07b9c03ce0f93d8e4@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:https://jackmanlaw.utoronto.ca/asper/event/asper-centre-constitutional
- -roundtable-justice-colin-feasby
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The (Un)Restricted Knowledge Speaker Series: Bodies and Rights Und
- er Attack
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:15a6177d6a40a8537809f8689c4368b0@utoronto.ca
-DESCRIPTION:Department: Munk
-LOCATION:Munk\, University of Toronto
-URL:https://munkschool.utoronto.ca/event/unrestricted-knowledge-speaker-se
- ries-bodies-and-rights-under-attack
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:AI & Business Law
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:3628d3826678282935d6c35141b101ec@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:https://jackmanlaw.utoronto.ca/event/ai-business-law
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Strengthening the Sage for Transformative Leadership
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:88f50faed177c793d4f6818c4e3339f0@utoronto.ca
-DESCRIPTION:Department: UTE
-LOCATION:UTE\, University of Toronto
-URL:https://entrepreneurs.utoronto.ca/event/strengthening-the-sage-for-tra
- nsformative-leadership/
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Crosstalk Series 2025-26
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20250922T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20250922T000000
-UID:9bc4641a6afd6866d929a8af078d650f@utoronto.ca
+SUMMARY:U of T Black Alumni Conference
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+UID:8b933798a05e0e9778db4c504215f4ac@utoronto.ca
 DESCRIPTION:Department: Alumni
 LOCATION:Alumni\, University of Toronto
-URL:https://alumni.utoronto.ca/events/crosstalk-series-2025-26
+URL:https://alumni.utoronto.ca/events/u-t-black-alumni-conference
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FRIENDS OF THE LIBRARY | 2026 ARCHIBALD LAMPMAN POETRY READING WIT
+ H GEORGE ELLIOTT CLARK
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+UID:7ca6b7d64126b510cb73d31e479c2cd4@utoronto.ca
+DESCRIPTION:Department: Trinity
+LOCATION:Trinity\, University of Toronto
+URL:https://www.trinity.utoronto.ca/feed/events_calendar/?id=48105
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MinoFest: The Racialized Reproductive and Maternal Health Conferen
+ ce
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+UID:b10be829044cec1062701f1931c7eba3@utoronto.ca
+DESCRIPTION:Department: DallaLana
+LOCATION:DallaLana\, University of Toronto
+URL:https://www.dlsph.utoronto.ca/event/minofest-the-racialized-reproducti
+ ve-and-maternal-health-conference/
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mediaeval Symposium: Mappa Mundi
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+UID:df2c02c0efaf1b988445b89416078ebe@utoronto.ca
+DESCRIPTION:Department: Michaels
+LOCATION:Michaels\, University of Toronto
+URL:https://stmikes.utoronto.ca/event/mediaeval-symposium-mappa-mundi
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
@@ -81,38 +70,47 @@ URL:https://alumni.utoronto.ca/events/demand-new-pope-and-role-women-churc
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:U of T Alumni Virtual Book Club - Gabriel's Moon
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260102T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:5de8d7fac3f359cb1de71b067de38731@utoronto.ca
+SUMMARY:U of T Black Alumni Conference
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+UID:8b933798a05e0e9778db4c504215f4ac@utoronto.ca
 DESCRIPTION:Department: Alumni
 LOCATION:Alumni\, University of Toronto
-URL:https://alumni.utoronto.ca/events/u-t-alumni-virtual-book-club-gabriel
- s-moon
+URL:https://alumni.utoronto.ca/events/u-t-black-alumni-conference
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:In Conversation with Maple Bear: Innovating in Education through P
- ractice\, Partnership\, and Purpose
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:8cbe8f844ab1e0c580eb6491692720aa@utoronto.ca
+SUMMARY:Alumni Career Series: Values-Driven Career Strategy in a Changing 
+ Economy
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+UID:8a0f410079967779411c36e39ef0a23f@utoronto.ca
 DESCRIPTION:Department: Alumni
 LOCATION:Alumni\, University of Toronto
-URL:https://alumni.utoronto.ca/events/conversation-maple-bear-innovating-e
- ducation-through-practice-partnership-and-purpose
+URL:https://alumni.utoronto.ca/events/alumni-career-series-values-driven-c
+ areer-strategy-changing-economy
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Depending on Strangers: Love\, Fear\, and the Making of the Modern
-  World
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:204121f979f039321a37674986aa8dde@utoronto.ca
+SUMMARY:Rotman on the Road: San Francisco
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+UID:ed4b5c92aa7bf1e6ef09f08e69e92a33@utoronto.ca
 DESCRIPTION:Department: Alumni
 LOCATION:Alumni\, University of Toronto
-URL:https://alumni.utoronto.ca/events/depending-strangers-love-fear-and-ma
- king-modern-world
+URL:https://alumni.utoronto.ca/events/rotman-road-san-francisco
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:U of T Where You Are: Midlife\, Myth-Free: Empowering Truths abo
+ ut Menopause & Perimenopause
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+UID:14caa10ccaeab940e0a54f3f185ed7c2@utoronto.ca
+DESCRIPTION:Department: Alumni
+LOCATION:Alumni\, University of Toronto
+URL:https://alumni.utoronto.ca/events/u-t-where-you-are-midlife-myth-free-
+ empowering-truths-about-menopause-perimenopause
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
@@ -159,118 +157,97 @@ URL:https://brn.utoronto.ca/event/land-sea-sugar-salt-terrestrial-and-aqua
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:JHI How-to: Compose a Compelling SSHRC Connection Grant
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-UID:31d7d9a91795d09fb5e8533f59f1faf8@utoronto.ca
+SUMMARY:Promoting your Scholarly Book – CRIS
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+UID:6af6255ebdfacd3f8a3a831ad41d52ff@utoronto.ca
 DESCRIPTION:Department: Black Research Network
 LOCATION:Black Research Network\, University of Toronto
-URL:https://brn.utoronto.ca/event/jhi-how-to-compose-a-compelling-sshrc-co
- nnection-grant/
+URL:https://brn.utoronto.ca/event/promoting-your-scholarly-book-cris/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Community Research Data Toolkit – CRIS
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-UID:448bede92ca5fe779f4b89b0ace74a29@utoronto.ca
+SUMMARY:OISE Annual Equity in Action Symposium 2026
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260417T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260417T000000
+UID:63a9dc171cfaa35c3db97f1b5443808a@utoronto.ca
 DESCRIPTION:Department: Black Research Network
 LOCATION:Black Research Network\, University of Toronto
-URL:https://brn.utoronto.ca/event/community-research-data-toolkit-cris/
+URL:https://brn.utoronto.ca/event/oise-annual-equity-in-action-symposium-2
+ 026/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Narrative CV: What is it and why do I need one? – CRIS
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260325T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260325T000000
-UID:fa3a4573c0a4c47293093e9137e2469a@utoronto.ca
+SUMMARY:SSHRC Partnership Program – Models and Strategies for Success
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260508T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260508T000000
+UID:8f3b9da7c84c1e28d3018e42da5223af@utoronto.ca
 DESCRIPTION:Department: Black Research Network
 LOCATION:Black Research Network\, University of Toronto
-URL:https://brn.utoronto.ca/event/narrative-cv-what-is-it-and-why-do-i-nee
- d-one-cris/
+URL:https://brn.utoronto.ca/event/sshrc-partnership-program-models-and-str
+ ategies-for-success/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Women in Leadership – Leslie Dan Faculty of Pharmacy
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260326T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260326T000000
-UID:cce2bd09e7b28262453437df27ac1870@utoronto.ca
+SUMMARY:Absolutely Interdisciplinary 2026 – Schwartz Reisman Institute f
+ or Technology and Society
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260513T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260513T000000
+UID:4ba59614b35ce0ebee59412b2bb0d64c@utoronto.ca
 DESCRIPTION:Department: Black Research Network
 LOCATION:Black Research Network\, University of Toronto
-URL:https://brn.utoronto.ca/event/women-in-leadership-leslie-dan-faculty-o
- f-pharmacy/
+URL:https://brn.utoronto.ca/event/absolutely-interdisciplinary-2026-schwar
+ tz-reisman-institute-for-technology-and-society/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SPARK Networking Event
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:c624415abdf7bc8214dfa85db12fa90b@utoronto.ca
+SUMMARY:CAST Seminar: Radu Craiu
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+UID:6c8217c96d9597117baa619bfccc533b@utoronto.ca
 DESCRIPTION:Department: CANSSI
 LOCATION:CANSSI\, University of Toronto
-URL:https://canssiontario.utoronto.ca/event/spark-networking-event-mar3/
+URL:https://canssiontario.utoronto.ca/event/cast-seminar-radu-craiu/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CAST Seminar: Sebastian Jaimungal
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:84b3389ec184d1afc74bd6f29a5f1358@utoronto.ca
+SUMMARY:CAST Seminar: Bingxin Zhao
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+UID:a2c48bdf8705341e3fdaa40b23f8e841@utoronto.ca
 DESCRIPTION:Department: CANSSI
 LOCATION:CANSSI\, University of Toronto
-URL:https://canssiontario.utoronto.ca/event/cast-seminar-sebastian-jaimung
- al/
+URL:https://canssiontario.utoronto.ca/event/ares-bingxin-zhao/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:STAGE ISSS: Elana Fertig
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260306T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260306T000000
-UID:ed7eedf7c7ab59dea404d5124abf56b1@utoronto.ca
+SUMMARY:STAGE ISSS: Panos Roussos
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260501T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260501T000000
+UID:24cc1620b8f31973ecc2a26a1016cc72@utoronto.ca
 DESCRIPTION:Department: CANSSI
 LOCATION:CANSSI\, University of Toronto
-URL:https://canssiontario.utoronto.ca/event/isss-elana-fertig/
+URL:https://canssiontario.utoronto.ca/event/isss-panos-roussos/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Data Sciences Speaker Series: Timothy Christensen
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260309T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260309T000000
-UID:5d757ba5fc4e9f7d1d7ae6acf5bd35dc@utoronto.ca
+SUMMARY:STAGE ISSS: Marjanka Schmidt
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260502T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260502T000000
+UID:985addb68f8af73b4a9fb7d243dd55ea@utoronto.ca
 DESCRIPTION:Department: CANSSI
 LOCATION:CANSSI\, University of Toronto
-URL:https://canssiontario.utoronto.ca/event/dsss-timothy-christensen/
+URL:https://canssiontario.utoronto.ca/event/isss-marjanka-schmidt/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CAST Seminar: Vianey Leos Barajas
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260314T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260314T000000
-UID:45e6b54b17e66f89e1425067bf249b29@utoronto.ca
+SUMMARY:CAST Seminar: Marcel Nutz
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260506T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260506T000000
+UID:4f625bdf2372daec4b407a3c4cfcbac9@utoronto.ca
 DESCRIPTION:Department: CANSSI
 LOCATION:CANSSI\, University of Toronto
-URL:https://canssiontario.utoronto.ca/event/cast-vianey-leos-barajas/
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:2026 CDTPS Mainstage Show: Kostroma
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260308T000000
-UID:61a5062c6276136b32422e075f5cf324@utoronto.ca
-DESCRIPTION:Department: CDTPS
-LOCATION:CDTPS\, University of Toronto
-URL:https://uoft.me/kostroma
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BMO Lab Diagonal Speakers Series with Caden Manson
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:d6fe7e0017866d36cab35a35ae95b562@utoronto.ca
-DESCRIPTION:Department: CDTPS
-LOCATION:CDTPS\, University of Toronto
-URL:https://www.cdtps.utoronto.ca/events/bmo-lab-diagonal-speakers-series-
- caden-manson
+URL:https://canssiontario.utoronto.ca/event/cast-seminar-marcel-nutz/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
@@ -284,67 +261,63 @@ URL:https://www.cdtps.utoronto.ca/events/365days-365plays
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:U of T Entrepreneurship Week
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260302T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260306T000000
-UID:1b78046b20fee047e567125af0f0066f@utoronto.ca
-DESCRIPTION:Department: Entrepreneurship
-LOCATION:Entrepreneurship\, University of Toronto
-URL:https://uoft.me/uteweek-2026
+SUMMARY:Dalla Lana Fellowship in Journalism and Health Impact Video Open H
+ ouse
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260326T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260426T000000
+UID:a7fbcd81e14801359a6a03c5927a3db7@utoronto.ca
+DESCRIPTION:Department: Public Health
+LOCATION:Public Health\, University of Toronto
+URL:https://www.dlsph.utoronto.ca/event/dalla-lana-fellowship-in-journalis
+ m-and-health-impact-video-open-house-4/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bodies and Rights Under Attack
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:ac872c025987b1116d426c5bea24ad27@utoronto.ca
+SUMMARY:MinoFest: The Racialized Reproductive and Maternal Health Conferen
+ ce
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+UID:b10be829044cec1062701f1931c7eba3@utoronto.ca
 DESCRIPTION:Department: Public Health
 LOCATION:Public Health\, University of Toronto
-URL:https://www.dlsph.utoronto.ca/event/bodies-and-rights-under-attack/
+URL:https://www.dlsph.utoronto.ca/event/minofest-the-racialized-reproducti
+ ve-and-maternal-health-conference/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:“What is Buddhist Medicine?” with Dr. Pierce Salguero
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260304T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260304T000000
-UID:ec39a7f8a0730d1b214988d9460e67f6@utoronto.ca
+SUMMARY:PHS Health Futures
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+UID:9ca4c04716eeaf8c6a6b3f1cfd1b76dc@utoronto.ca
 DESCRIPTION:Department: Public Health
 LOCATION:Public Health\, University of Toronto
-URL:https://www.dlsph.utoronto.ca/event/what-is-buddhist-medicine-with-dr-
- pierce-salguero/
+URL:https://www.dlsph.utoronto.ca/event/phs-health-futures/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:STAGE International Speaker Seminar Series (ISSS): Elana Fertig
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260306T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260306T000000
-UID:7ca91b855c88bc8ee7483c52101bd066@utoronto.ca
+SUMMARY:2026 Special Rehab Grand Rounds: ‘Considerations for Outcome Mea
+ surement in Long COVID Clinical Practice and Research: Findings from the M
+ easurement and Assessment Paradigm for Long COVID (MAPLC) Study’
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+UID:f214af127c9034d41302263ebcf3a836@utoronto.ca
 DESCRIPTION:Department: Public Health
 LOCATION:Public Health\, University of Toronto
-URL:https://www.dlsph.utoronto.ca/event/stage-isss-elana-fertig/
+URL:https://www.dlsph.utoronto.ca/event/2026-special-rehab-grand-rounds-co
+ nsiderations-for-outcome-measurement-in-long-covid-clinical-practice-and-r
+ esearch-findings-from-the-measurement-and-assessment-paradigm-for-long-cov
+ id-map/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Teaching for Transformation (TforT) Conference
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260309T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260309T000000
-UID:a04779c10ebd6f01a04a9975ffaeb9d9@utoronto.ca
+SUMMARY:Reconnecting with the Land: Regulating Mind\, Body\, Spirit
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+UID:446bcd438bce36b8b46d84893bbf343b@utoronto.ca
 DESCRIPTION:Department: Public Health
 LOCATION:Public Health\, University of Toronto
-URL:https://www.dlsph.utoronto.ca/event/teaching-for-transformation-tfort-
- conference/
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Health Inc Seminar Series | Uncovering the Conditions of Data Work
- : The Human Costs of AI
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-UID:64f60e3656ef2a32bcdb163cd769a71c@utoronto.ca
-DESCRIPTION:Department: Public Health
-LOCATION:Public Health\, University of Toronto
-URL:https://www.dlsph.utoronto.ca/event/health-inc-seminar-series-uncoveri
- ng-the-conditions-of-data-work-the-human-costs-of-ai/
+URL:https://www.dlsph.utoronto.ca/event/reconnecting-with-the-land-regulat
+ ing-mind-body-spirit-2/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
@@ -360,10 +333,44 @@ URL:https://www.daniels.utoronto.ca/events/1767589200/tours-daniels-buildi
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Daniels De-stress Series: Bookbinding
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+UID:6a56a4c72f64f9e4095bcb4f8bdbed36@utoronto.ca
+DESCRIPTION:Department: Daniels
+LOCATION:Daniels\, University of Toronto
+URL:https://www.daniels.utoronto.ca/events/1776200400/daniels-de-stress-se
+ ries-bookbinding
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visual Studies Undergraduate Thesis Exhibition
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+UID:386dca35c4372f2d4e312949a9f95834@utoronto.ca
+DESCRIPTION:Department: Daniels
+LOCATION:Daniels\, University of Toronto
+URL:https://www.daniels.utoronto.ca/events/1776312000/visual-studies-under
+ graduate-thesis-exhibition
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tours of the Daniels Building for Prospective & Newly Admitted stu
+ dents
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260501T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260501T000000
+UID:058017c329da8fdc0de4293b61efc98f@utoronto.ca
+DESCRIPTION:Department: Daniels
+LOCATION:Daniels\, University of Toronto
+URL:https://www.daniels.utoronto.ca/events/1767589200/tours-daniels-buildi
+ ng-prospective-newly-admitted-students
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Unravelling a Colonial Legacy: Grounding Landscape Architecture
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:4cab971edf03c672e12d8c9b34579636@utoronto.ca
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260503T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260503T000000
+UID:da437e6eeb319b038a06928ccfe969c1@utoronto.ca
 DESCRIPTION:Department: Daniels
 LOCATION:Daniels\, University of Toronto
 URL:https://www.daniels.utoronto.ca/events/1772753400/unravelling-colonial
@@ -371,306 +378,216 @@ URL:https://www.daniels.utoronto.ca/events/1772753400/unravelling-colonial
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lucy Raven\, Artist
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260310T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260310T000000
-UID:48abe4fb170060e1a4ac0f7e7fd743c6@utoronto.ca
-DESCRIPTION:Department: Daniels
-LOCATION:Daniels\, University of Toronto
-URL:https://www.daniels.utoronto.ca/events/1773181800/lucy-raven-artist
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The Social Life of Small Urban Spaces
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260312T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260312T000000
-UID:2741fafb73f5c897a05eb2bd2b65d32e@utoronto.ca
-DESCRIPTION:Department: Daniels
-LOCATION:Daniels\, University of Toronto
-URL:https://www.daniels.utoronto.ca/events/1773354600/social-life-small-ur
- ban-spaces
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Land Narratives & Protopian Futures: From Fictions to the Just Cit
- y
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260319T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260319T000000
-UID:89cb2920565c7fad5d2cb87eb6d1c871@utoronto.ca
-DESCRIPTION:Department: Daniels
-LOCATION:Daniels\, University of Toronto
-URL:https://www.daniels.utoronto.ca/events/1773959400/land-narratives-prot
- opian-futures-fictions-just-city
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Logic and Philosophy of Science Group Talk (Sorin Bangu\, Bergen)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260312T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260312T000000
-UID:e4f9bac03264ce6af61dd74da5faeab2@utoronto.ca
+SUMMARY:2026 Roseman Lecture in Practical Ethics (Sally Haslanger\, MIT)
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+UID:be86b999cdb39ae3b97fb6f4ea91b3fd@utoronto.ca
 DESCRIPTION:Department: Philosophy
 LOCATION:Philosophy\, University of Toronto
-URL:https://philosophy.utoronto.ca/event/logic-philosophy-of-science-sorin
- -bangu-bergen/
+URL:https://philosophy.utoronto.ca/event/roseman-lecture-practical-ethics-
+ sally-haslanger-mit/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Continental Philosophy Research Group Talk (Karen Ng\, Vanderbilt)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260320T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260320T000000
-UID:decf8c681699ee7488af4faf130d6854@utoronto.ca
+SUMMARY:Logic and Philosophy of Science Group Talk (Isaac Wilhelm)
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260417T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260417T000000
+UID:57ea0f87e221e59ad3663d785ff21e38@utoronto.ca
+DESCRIPTION:Department: Philosophy
+LOCATION:Philosophy\, University of Toronto
+URL:https://philosophy.utoronto.ca/event/logic-and-philosophy-of-science-g
+ roup-talk-isaac-wilhelm/
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Continental Philosophy Research Group Talk (Jacob McNulty\, Yale)
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260417T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260417T000000
+UID:9e38b513f85b755cf0134d112964491d@utoronto.ca
 DESCRIPTION:Department: Philosophy
 LOCATION:Philosophy\, University of Toronto
 URL:https://philosophy.utoronto.ca/event/continental-philosophy-research-g
- roup-talk-karen-ng-vanderbilt/
+ roup-talk-jacob-mcnulty-yale/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Colloquium (Mitzi Lee\, Colorado\, Boulder)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260326T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260326T000000
-UID:4f97f7a26d3f3bc78f6321ad50329bfd@utoronto.ca
+SUMMARY:Spinoza on Religion and Politics Conference
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260423T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260423T000000
+UID:339f86cdd3928c2b7578ac5b0256ba38@utoronto.ca
 DESCRIPTION:Department: Philosophy
 LOCATION:Philosophy\, University of Toronto
-URL:https://philosophy.utoronto.ca/event/colloquium-mitzi-lee-colorado-bou
- lder/
+URL:https://philosophy.utoronto.ca/event/spinoza-on-religion-and-politics-
+ conference/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Global Philosophy Research Interest Group Talk (Sayeh Meisami\, Da
- yton)
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260402T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260402T000000
-UID:80e5c1c5b67a686d8e8af2b41c56d778@utoronto.ca
+SUMMARY:Kant & Post-Kantian Philosophy Group Talk (Myriam Stihl\, HU-Berli
+ n)
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260423T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260423T000000
+UID:dd6f4346802edb1c7aead79ca5fd7b15@utoronto.ca
 DESCRIPTION:Department: Philosophy
 LOCATION:Philosophy\, University of Toronto
-URL:https://philosophy.utoronto.ca/event/global-philosophy-research-intere
- st-group-talk-sayeh-meisami-dayton/
+URL:https://philosophy.utoronto.ca/event/kant-and-post-kantian-research-gr
+ oup-talk-myriam-stihl-hu-berlin/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:History of Philosophy Research Group Talk (Amy Schmitter\, Alberta
- )
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260410T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260410T000000
-UID:3234f5f6470fb15d260b9f031aee913a@utoronto.ca
-DESCRIPTION:Department: Philosophy
-LOCATION:Philosophy\, University of Toronto
-URL:https://philosophy.utoronto.ca/event/history-philosophy-group-talk-amy
- -schmitter-alberta/
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FIFSW Postdoc Talks: “Navigating Antiretroviral Therapy Access i
- n Colombia: An Exploratory Study with Venezuelan Migrant and Colombian Gay
-  and Bisexual Men Living with HIV\,” with Dr. Julien Brisson
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260309T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260309T000000
-UID:b792d146c42a82450d4042eb074bf6cf@utoronto.ca
+SUMMARY:FIFSWAA Series: Grief\, Loss\, and Bereavement Across the Life Cou
+ rse
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260413T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260413T000000
+UID:f5b155d97d9e7cef6fc35741fae38eed@utoronto.ca
 DESCRIPTION:Department: Social Work
 LOCATION:Social Work\, University of Toronto
-URL:https://socialwork.utoronto.ca/event/fifsw-postdoc-talks-navigating-an
- tiretroviral-therapy-access-in-colombia-an-exploratory-study-with-venezuel
- an-migrant-and-colombian-gay-and-bisexual-men-living-with-hiv-with-dr-juli
- en-brisson/
+URL:https://socialwork.utoronto.ca/event/fifswaa-series-grief-loss-and-ber
+ eavement-across-the-life-course/
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:After\, Still: A Documentary on Navigating Same-Sex Marriage in Ta
+ iwan
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+UID:aae2043ce1cf1d376cab6623813c23f7@utoronto.ca
+DESCRIPTION:Department: Social Work
+LOCATION:Social Work\, University of Toronto
+URL:https://socialwork.utoronto.ca/event/after-still-a-documentary-on-navi
+ gating-same-sex-marriage-in-taiwan/
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:INQYR Beyond Limits: The Conference — Mobilizing innovative glob
+ al social research for 2SLGBTQIA+ youth joy and resilience
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20261002T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20261002T000000
+UID:206dbe840a38caedcebb7c938abb5f70@utoronto.ca
+DESCRIPTION:Department: Social Work
+LOCATION:Social Work\, University of Toronto
+URL:https://socialwork.utoronto.ca/event/inqyr-beyond-limits-the-conferenc
+ e-mobilizing-innovative-global-social-research-for-2slgbtqia-youth-joy-and
+ -resilience/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ChemE Master of Engineering (MEng) Online Application Support Drop
  -In
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:4b1b7fbc70d89edd97fd954410d610c6@utoronto.ca
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+UID:21686efa317eba6964ad045542cdcc87@utoronto.ca
 DESCRIPTION:Department: Engineering
 LOCATION:Engineering\, University of Toronto
 URL:https://www.engineering.utoronto.ca/event/cheme-master-of-engineering-
- meng-online-application-support-drop-in/2026-03-03/
+ meng-online-application-support-drop-in/2026-04-14/
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Robotics Institute Seminar: Risto Ojala\, “Perception solutions 
+ for enabling automated driving in winter conditions”
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260417T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260417T000000
+UID:48eb4f1d59333a64f6ede25a139b1795@utoronto.ca
+DESCRIPTION:Department: Engineering
+LOCATION:Engineering\, University of Toronto
+URL:https://www.engineering.utoronto.ca/event/robotics-institute-seminar-r
+ isto-ojala-perception-solutions-for-enabling-automated-driving-in-winter-c
+ onditions/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ChemE Master of Engineering (MEng) Online Application Support Drop
  -In
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260310T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260310T000000
-UID:e3dae74424a6019170ff588e6a995401@utoronto.ca
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260421T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260421T000000
+UID:cd8c7b60ef40ddeb9ccd2ecda58ac095@utoronto.ca
 DESCRIPTION:Department: Engineering
 LOCATION:Engineering\, University of Toronto
 URL:https://www.engineering.utoronto.ca/event/cheme-master-of-engineering-
- meng-online-application-support-drop-in/2026-03-10/
+ meng-online-application-support-drop-in/2026-04-21/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Skule Nite 2T6 – Alumni night!
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-UID:3fb5357733fb48e90cdd8e8b861eed68@utoronto.ca
+SUMMARY:ChemE Master of Engineering (MEng) Online Application Support Drop
+ -In
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260428T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260428T000000
+UID:4c9b825a7c5ba051864fee75d2bd09cf@utoronto.ca
 DESCRIPTION:Department: Engineering
 LOCATION:Engineering\, University of Toronto
-URL:https://www.engineering.utoronto.ca/event/skule-nite-2t6-alumni-night/
+URL:https://www.engineering.utoronto.ca/event/cheme-master-of-engineering-
+ meng-online-application-support-drop-in/2026-04-28/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2026 Fred Kan Distinguished Lecture in Engineering Ethics
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-UID:de44adf78c51bd3ad17893a6b154e3a8@utoronto.ca
+SUMMARY:ChemE Master of Engineering (MEng) Online Application Support Drop
+ -In
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260505T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260505T000000
+UID:02499935f0a017e57a4abe29533e99d6@utoronto.ca
 DESCRIPTION:Department: Engineering
 LOCATION:Engineering\, University of Toronto
-URL:https://www.engineering.utoronto.ca/event/2026-fred-kan-distinguished-
- lecture-in-engineering-ethics/
+URL:https://www.engineering.utoronto.ca/event/cheme-master-of-engineering-
+ meng-online-application-support-drop-in/2026-05-05/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:What Inspires Ethical Research? Lessons from Biomedical Engineerin
- g Faculty
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-UID:77ebd09e7b643a341e4b1169101ff959@utoronto.ca
-DESCRIPTION:Department: Engineering
-LOCATION:Engineering\, University of Toronto
-URL:https://www.engineering.utoronto.ca/event/what-inspires-ethical-resear
- ch-lessons-from-biomedical-engineering-faculty/
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Depending on Strangers: Love\, Fear\, and the Making of the Modern
-  World (with some help from Harold Inni...
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:19a55319949ef855a8dcdcff7adbef7b@utoronto.ca
+SUMMARY:Do the Immigration and Minimum Wage Literatures Contradict Each Ot
+ her?
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+UID:f07a39d495836703884b214292f592d9@utoronto.ca
 DESCRIPTION:Department: Arts & Science
 LOCATION:Arts & Science\, University of Toronto
-URL:https://www.artsci.utoronto.ca/events/depending-strangers-love-fear-an
- d-making-modern-world-some-help-harold-innis
+URL:https://www.artsci.utoronto.ca/events/do-immigration-and-minimum-wage-
+ literatures-contradict-each-other
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Share Your Spark: The Honourable Tony Clement\, P.C. in conversati
- on with Jeanue Chung
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:dae2a46929794d0302f17ee370cc73d6@utoronto.ca
+SUMMARY:Distinguished Lecture Series: Yejin Choi\, “The Art of (Artifici
+ al) Reasoning\,” Stanford University
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+UID:38b72d70a4addb05cc42871b98fec26c@utoronto.ca
 DESCRIPTION:Department: Arts & Science
 LOCATION:Arts & Science\, University of Toronto
-URL:https://www.entrepreneurship.artsci.utoronto.ca/shareyourspark
+URL:https://www.artsci.utoronto.ca/events/distinguished-lecture-series-yej
+ in-choi-art-artificial-reasoning-stanford-university
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:What is Buddhist Medicine? with Dr. Pierce Salguero
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260304T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260304T000000
-UID:855c46e741397d85ac2a724ad35f76fb@utoronto.ca
+SUMMARY:Care peaks\, plateaus\, and loops: Narrative insights on stress fr
+ om family caregivers for seniors
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260417T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260417T000000
+UID:e0deac4f87b5930d2233076c963489a0@utoronto.ca
 DESCRIPTION:Department: Arts & Science
 LOCATION:Arts & Science\, University of Toronto
-URL:https://www.artsci.utoronto.ca/events/what-buddhist-medicine-dr-pierce
- -salguero
+URL:https://www.artsci.utoronto.ca/events/care-peaks-plateaus-and-loops-na
+ rrative-insights-stress-family-caregivers-seniors
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mapping Massacres in Postwar El Salvador: Community-Led Documentat
- ion and Participatory Research with C...
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:ffc289062bb765a43a5b8134e3eb58d0@utoronto.ca
+SUMMARY:2026 CDTPS Alumni Show: 365 Days/365 Plays
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260423T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260423T000000
+UID:62e9a630f8cad9edfbf8a3afc42fe7e1@utoronto.ca
 DESCRIPTION:Department: Arts & Science
 LOCATION:Arts & Science\, University of Toronto
-URL:https://www.artsci.utoronto.ca/events/mapping-massacres-postwar-el-sal
- vador-community-led-documentation-and-participatory-research
+URL:https://www.artsci.utoronto.ca/events/2026-cdtps-alumni-show-365-days3
+ 65-plays
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:K.R.L. Seminar Series: Installment 3
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260306T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260306T000000
-UID:a9c7e9ce0fa3384684e19e4d6c699ff8@utoronto.ca
+SUMMARY:Alumni Café - The Power of Food: Threats and Opportunities for Su
+ stainability and Human Health
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260423T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260423T000000
+UID:3f2005d257d74487a28f48355d15b317@utoronto.ca
 DESCRIPTION:Department: Arts & Science
 LOCATION:Arts & Science\, University of Toronto
-URL:https://www.artsci.utoronto.ca/events/krl-seminar-series-installment-3
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Group Advising: Planning for Second Year and Beyond
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:2745ae577fc5aa026e3c2ce31fb4d664@utoronto.ca
-DESCRIPTION:Department: KPE
-LOCATION:KPE\, University of Toronto
-URL:https://kpe.utoronto.ca/tue-03032026-1530/group-advising-planning-seco
- nd-year-and-beyond
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:KPE Grad Productivity Group
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260306T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260306T000000
-UID:6dff8b8b62a120cf0844089c27206f6a@utoronto.ca
-DESCRIPTION:Department: KPE
-LOCATION:KPE\, University of Toronto
-URL:https://kpe.utoronto.ca/fri-03062026-1110/kpe-grad-productivity-group
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Strengthen Your Skills: Learning Strategy Workshops
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260306T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260306T000000
-UID:92813b8588ead3762a181a29ac1c80c5@utoronto.ca
-DESCRIPTION:Department: KPE
-LOCATION:KPE\, University of Toronto
-URL:https://kpe.utoronto.ca/fri-03062026-1400/strengthen-your-skills-learn
- ing-strategy-workshops
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Connect with Dean Kerr
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-UID:6b86e5fff4b1e1c5976f4fc5fa13979e@utoronto.ca
-DESCRIPTION:Department: KPE
-LOCATION:KPE\, University of Toronto
-URL:https://kpe.utoronto.ca/wed-03112026-1400/connect-dean-kerr
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Outta My Endzone: Heated Rivalry\, Desire and the Queering of Spor
- t
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260312T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260312T000000
-UID:c85cf53aceec12ff8eaac0c57c0fb710@utoronto.ca
-DESCRIPTION:Department: KPE
-LOCATION:KPE\, University of Toronto
-URL:https://kpe.utoronto.ca/thu-03122026-1800/outta-my-endzone-heated-riva
- lry-desire-and-queering-sport
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Programming in University Mathematics Education in the Gen AI Era
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260313T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260313T000000
-UID:8d749d779a3f119e29b91d64d9df99ee@utoronto.ca
-DESCRIPTION:Department: Fields Institute
-LOCATION:Fields Institute\, University of Toronto
-URL:http://www.fields.utoronto.ca/activities/25-26/university-math-educati
- on
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MathEd Forum: March 2026
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260328T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260328T000000
-UID:82ad9b64ac489935336eca25393ae597@utoronto.ca
-DESCRIPTION:Department: Fields Institute
-LOCATION:Fields Institute\, University of Toronto
-URL:http://www.fields.utoronto.ca/activities/25-26/meforum-Mar
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Math in Storytelling
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260328T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260328T000000
-UID:c4bd5f97e580a236e8d689ec437fcaa3@utoronto.ca
-DESCRIPTION:Department: Fields Institute
-LOCATION:Fields Institute\, University of Toronto
-URL:http://www.fields.utoronto.ca/activities/25-26/math-storytelling
+URL:https://www.artsci.utoronto.ca/events/alumni-caf-power-food-threats-an
+ d-opportunities-sustainability-and-human-health
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
@@ -695,66 +612,44 @@ URL:http://www.fields.utoronto.ca/activities/25-26/meforum-Apr
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Proposal Deadline for Innis Student Services Funding
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:a3b39a2efadc3f31b2c406f26b00ced3@utoronto.ca
-DESCRIPTION:Department: Innis College
-LOCATION:Innis College\, University of Toronto
-URL:https://innis.utoronto.ca/events/ssc-deadline-2026/
+SUMMARY:Postdoc Day
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260507T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260507T000000
+UID:487e57cef3bd860bd7c27c4c765c16f4@utoronto.ca
+DESCRIPTION:Department: Fields Institute
+LOCATION:Fields Institute\, University of Toronto
+URL:http://www.fields.utoronto.ca/activities/25-26/postdoc-day
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2026 Innis Alumni Lecture
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:e774a25ddc7c306dca2c1547aa2baf2b@utoronto.ca
-DESCRIPTION:Department: Innis College
-LOCATION:Innis College\, University of Toronto
-URL:https://innis.utoronto.ca/events/2026-alumni-lecture/
+SUMMARY:FUSRP 2026 Orientation
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260602T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260602T000000
+UID:f5f9826d006780ff464764465bfc27f7@utoronto.ca
+DESCRIPTION:Department: Fields Institute
+LOCATION:Fields Institute\, University of Toronto
+URL:http://www.fields.utoronto.ca/activities/25-26/FUSRP-orientation
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Saints and Warriors Indigenous Film Collective Screening
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260318T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260318T000000
-UID:89c2ee80bbca0bf6aac2a7040578715e@utoronto.ca
-DESCRIPTION:Department: Innis College
-LOCATION:Innis College\, University of Toronto
-URL:https://innis.utoronto.ca/events/saints-and-warriors-ifc/
+SUMMARY:World Meeting for Women in Mathematics (WM)² Conference
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260722T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260722T000000
+UID:b9fb08730f4198aa12082c0cb5de35d8@utoronto.ca
+DESCRIPTION:Department: Fields Institute
+LOCATION:Fields Institute\, University of Toronto
+URL:http://www.fields.utoronto.ca/activities/26-27/women-math
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:JHI How-to: Compose a Compelling Connection Grant
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-UID:f2d5f9cc59aaae18c868afa6fd2415ec@utoronto.ca
+SUMMARY:JHI How-to: Convert Your CV into a Resume
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+UID:f27eb3b841b55dee48e8a5248bf3a433@utoronto.ca
 DESCRIPTION:Department: Events
 LOCATION:Events\, University of Toronto
-URL:https://www.humanities.utoronto.ca/events/jhi-how-compose-compelling-c
- onnection-grant
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:In Stone: World Première of Eve Egoyan's New Composition for Augm
- ented Acoustic Piano
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260312T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260312T000000
-UID:3f400cd2320dfa3f32aa3236ae024a18@utoronto.ca
-DESCRIPTION:Department: Events
-LOCATION:Events\, University of Toronto
-URL:https://www.humanities.utoronto.ca/events/in-stone-world-premiere
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Not My Mother's Tongue: Engagements With AI
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260324T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260324T000000
-UID:ce247caae0f3c40ca0411d2792638d17@utoronto.ca
-DESCRIPTION:Department: Events
-LOCATION:Events\, University of Toronto
-URL:https://www.humanities.utoronto.ca/events/not-my-mothers-tongue-engage
- ments-ai
+URL:https://www.humanities.utoronto.ca/events/jhi-how-convert-your-cv-resu
+ me
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
@@ -770,6 +665,28 @@ URL:https://www.humanities.utoronto.ca/events/new-approaches-slaving-and-s
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Promoting your Scholarly Book
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+UID:a1e2b803457015f021b37e6a3e0d990f@utoronto.ca
+DESCRIPTION:Department: Events
+LOCATION:Events\, University of Toronto
+URL:https://www.humanities.utoronto.ca/events/promoting-your-scholarly-boo
+ k
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Miles Away: Film Screening and Director's Panel
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+UID:329a983c08aa1d2e808ebfe2d89baa02@utoronto.ca
+DESCRIPTION:Department: Events
+LOCATION:Events\, University of Toronto
+URL:https://www.humanities.utoronto.ca/events/miles-away-film-screening-an
+ d-directors-panel
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:New Approaches to Slaving and Slave-Trading In The Ancient and Med
  ieval Mediterranean (Day 2)
 DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T000000
@@ -782,382 +699,182 @@ URL:https://www.humanities.utoronto.ca/events/new-approaches-slaving-and-s
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Asper Centre Constitutional Roundtable with Justice Colin Feasby
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:c24d5e024bd260e07b9c03ce0f93d8e4@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:https://jackmanlaw.utoronto.ca/asper/event/asper-centre-constitutional
- -roundtable-justice-colin-feasby
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:AI & Business Law
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:3628d3826678282935d6c35141b101ec@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:https://jackmanlaw.utoronto.ca/event/ai-business-law
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Indigenous Law Students' Association Open House
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260304T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260304T000000
-UID:d9ba6b6afa84f90a4dca4261452cb358@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:https://jackmanlaw.utoronto.ca/event/indigenous-law-students-associati
- on-open-house
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Journées d'études de droit en français (French Legal Study Days
- )
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:ad624d18b567dbc4ec01e050176f8464@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:https://jackmanlaw.utoronto.ca/event/journees-detudes-de-droit-en-fran
- cais-french-legal-study-days
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Looking Ahead: Neurotechnology\, AI\, & Regulation
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:32024b90392732c528788d34fe5135db@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:https://jackmanlaw.utoronto.ca/event/looking-ahead-neurotechnology-ai-
- regulation
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Leveraging Data for Useful Evaluation in Pharmacy Education
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:ce763a6b2b16089193fbd84d36798760@utoronto.ca
+SUMMARY:Oxidative stress in disease and drug toxicity
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260424T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260424T000000
+UID:34c24fd47bcdd6b2bf47c996a3d7221c@utoronto.ca
 DESCRIPTION:Department: Pharmacy
 LOCATION:Pharmacy\, University of Toronto
-URL:https://www.pharmacy.utoronto.ca/events/leveraging-data-useful-evaluat
- ion-pharmacy-education
+URL:https://www.pharmacy.utoronto.ca/events/oxidative-stress-disease-and-d
+ rug-toxicity
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:PharmaSEE Mentorship Program Speed Networking: Conflict Management
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260310T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260310T000000
-UID:8544d47e5998ceff972f11fa5e520c71@utoronto.ca
+SUMMARY:DiCE: A Network Perturbation Framework for Prioritizing Regulatory
+  Genes from Transcriptomic Data
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260429T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260429T000000
+UID:ef0b507b85860c04895e1479afa32fe3@utoronto.ca
 DESCRIPTION:Department: Pharmacy
 LOCATION:Pharmacy\, University of Toronto
-URL:https://www.pharmacy.utoronto.ca/events/pharmasee-mentorship-program-s
- peed-networking-conflict-management
+URL:https://www.pharmacy.utoronto.ca/events/dice-network-perturbation-fram
+ ework-prioritizing-regulatory-genes-transcriptomic-data
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Diverse Careers - Women in Leadership
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260326T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260326T000000
-UID:5050296108b641560b35811689c141c6@utoronto.ca
+SUMMARY:Toronto Centre for Real World Evidence Launch Event
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260429T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260429T000000
+UID:9f36ec6059a8b4697b73307f3e1bf7f5@utoronto.ca
 DESCRIPTION:Department: Pharmacy
 LOCATION:Pharmacy\, University of Toronto
-URL:https://www.pharmacy.utoronto.ca/events/diverse-careers-women-leadersh
- ip
+URL:https://www.pharmacy.utoronto.ca/events/toronto-centre-real-world-evid
+ ence-launch-event
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2026 PharmD Business Plan Competition - The Grand Finale
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260331T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260331T000000
-UID:71c0236be4ac22d207596bc598fb32c6@utoronto.ca
+SUMMARY:Pharmacy Class of 7T6: 50th Anniversary Reunion
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260528T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260528T000000
+UID:d482859d6a975c1a72b2aab594d6725b@utoronto.ca
 DESCRIPTION:Department: Pharmacy
 LOCATION:Pharmacy\, University of Toronto
-URL:https://www.pharmacy.utoronto.ca/events/2026-pharmd-business-plan-comp
- etition-grand-finale
+URL:https://www.pharmacy.utoronto.ca/events/pharmacy-class-7t6-50th-annive
+ rsary-reunion
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Making Research Matter: Approaches for Policy-Driven Pharmaceutica
- l Research
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260407T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260407T000000
-UID:33e9532adb93427a534f5245a795c626@utoronto.ca
+SUMMARY:Pharmacy Class of 8T6: 40th Anniversary Reunion
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260528T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260528T000000
+UID:70c1f9b48c234784165a195ccbb020d9@utoronto.ca
 DESCRIPTION:Department: Pharmacy
 LOCATION:Pharmacy\, University of Toronto
-URL:https://www.pharmacy.utoronto.ca/events/making-research-matter-approac
- hes-policy-driven-pharmaceutical-research
+URL:https://www.pharmacy.utoronto.ca/events/pharmacy-class-8t6-40th-annive
+ rsary-reunion
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bloomberg Nursing Rounds: Samantha Mayo
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260326T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260326T000000
-UID:3975b5868af1e00c05888b0ed344a8db@utoronto.ca
-DESCRIPTION:Department: Nursing
-LOCATION:Nursing\, University of Toronto
-URL:https://bloomberg.nursing.utoronto.ca/event/bloomberg-nursing-rounds-s
- amantha-mayo/
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bloomberg Nursing Rounds: Samantha Mayo
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260330T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260330T000000
-UID:ed2fcba46546cce74fd23ef38a6fa366@utoronto.ca
-DESCRIPTION:Department: Nursing
-LOCATION:Nursing\, University of Toronto
-URL:https://bloomberg.nursing.utoronto.ca/event/bloomberg-nursing-rounds-s
- amantha-mayo/
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Working for Change 2026 Conference
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260306T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260306T000000
-UID:6e1d9e3f93b6b870969dda0a55036ab0@utoronto.ca
-DESCRIPTION:Department: New College
-LOCATION:New College\, University of Toronto
-URL:https://www.newcollege.utoronto.ca/event/working-for-change-2026-confe
- rence/
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:In Conversation with Maple Bear Global Schools: Innovating in Educ
- ation Through Practice\, Partnership & Purpose
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:efb1306ef4baf4ed7bdcd43aa2cda298@utoronto.ca
+SUMMARY:OISE reception at AERA 2026 in Los Angeles
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+UID:bbf1e5cd31bc9ed79fa5e19826ca09b0@utoronto.ca
 DESCRIPTION:Department: OISE
 LOCATION:OISE\, University of Toronto
-URL:https://21zpj.share.hsforms.com/2Ymr5TznWRQKjzRXngnFy2g
+URL:https://www.oise.utoronto.ca/about/events/04-11-26-oise-reception-aera
+ -2026-los-angeles
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Win Two Tickets to the 2026 Decolonizing Conference!
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:f5fa9637e0c5afb0eaa3c5bc92ebcf8d@utoronto.ca
+SUMMARY:Spring Anishinaabemowin (Ojibwe) Language Course
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+UID:3bc955457a57e42b79a9f6f9289305e3@utoronto.ca
 DESCRIPTION:Department: OISE
 LOCATION:OISE\, University of Toronto
-URL:https://oise.jotform.com/neumannb/oise-raffle-decolonizing-conf
+URL:https://www.naturalcuriosity.ca/ojibwe-language-course
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Call for Exhibits/Activities: U of T Science Rendezvous 2026
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260306T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260306T000000
-UID:1878abcfb89dd6c2a2bb35b6a02715e2@utoronto.ca
+SUMMARY:Environmental Learning in Action: Teacher Inquiry in the TDSB
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+UID:9a777461d8890a183ec9f2290b096348@utoronto.ca
 DESCRIPTION:Department: OISE
 LOCATION:OISE\, University of Toronto
-URL:https://docs.google.com/forms/d/e/1FAIpQLSdkDMNLmr41RDBpNf_yQ0s6jNb0uM
- gI-UFmXNgKhTCcTo-Dpw/viewform
+URL:https://www.oise.utoronto.ca/scan/events/04-15-26-environmental-learni
+ ng-action-teacher-inquiry-tdsb
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CIDEC Seminar with Dr. Hayley H. Brooks: "Internationalizing Curri
- culum for Gender Justice: Inviting Transnational Feminist Media and Cultur
- al Archives into the K-12 Classroom"
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260306T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260306T000000
-UID:028b94633e7988498309ae94182ec633@utoronto.ca
+SUMMARY:Re-centering Voices of Displacement: Refugee-Background Educators 
+ and the Politics of Belonging in Canadian Education
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+UID:c564cbd3359aa78f68fec35f65d30662@utoronto.ca
 DESCRIPTION:Department: OISE
 LOCATION:OISE\, University of Toronto
-URL:https://www.oise.utoronto.ca/cidec/about/events/03-06-26-cidec-seminar
- -dr-hayley-h-brooks-internationalizing-curriculum-gender
+URL:https://www.oise.utoronto.ca/cld/events/04-16-26-re-centering-voices-d
+ isplacement-refugee-background-educators-and-politics
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Land Trusts Across Toronto: Resisting Displacement Through Collect
- ive Ownership
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260306T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260306T000000
-UID:5b1f7e060399969a77af0e4c509e8fef@utoronto.ca
+SUMMARY:Annual Equity in Action Symposium 2026
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260417T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260417T000000
+UID:b7ec2a62acc318bdfeea93ab95815043@utoronto.ca
 DESCRIPTION:Department: OISE
 LOCATION:OISE\, University of Toronto
-URL:https://www.oise.utoronto.ca/clsew/events/03-06-26-land-trusts-across-
- toronto-resisting-displacement-through-collective
+URL:https://docs.google.com/forms/d/e/1FAIpQLSdH4DDTpnWc0yrCuLjo52mGEq0MTW
+ L_SHQWwuruBcn5S38oyA/viewform?pli=1
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2026 Edelman Trust Barometer: Trust Amid Insularity
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:1f5fb141fd6a9d6c8faa160f97c7d370@utoronto.ca
-DESCRIPTION:Department: Rotman
-LOCATION:Rotman\, University of Toronto
-URL:https://www.rotman.utoronto.ca/news-events-and-ideas/public-events/eve
- nts-listings/2026/march-2026/march-3-2026-edelman-trust-barometer/
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Daniel Waldinger (MIT\, Sloan School of Management)\, Feldman Cent
- re for Real Estate and Urban Economics (FCREUE) Seminar Series
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:ef73d7f4fd9305f05b96fc958be23a82@utoronto.ca
+SUMMARY:Matthew Osborne (University of Toronto)\, EAP Seminar Series
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260413T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260413T000000
+UID:21eae49981f499cc4c4642dbfba2e63a@utoronto.ca
 DESCRIPTION:Department: Rotman
 LOCATION:Rotman\, University of Toronto
 URL:https://www.rotman.utoronto.ca/faculty-and-research/academic-areas/eco
- nomic-analysis-and-policy/seminars/daniel-waldinger-mit-sloan-school-of-ma
- nagement-fcreue/
+ nomic-analysis-and-policy/seminars/matthew-osborne-university-of-toronto-e
+ ap/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Tosen Nwadei (UTSC/Rotman School of Management)\, OBHRM Seminar Se
- ries
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260304T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260304T000000
-UID:8ed77c3cd78974602de07c83b72a14bf@utoronto.ca
+SUMMARY:Pathways to Leadership Symposium
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+UID:b76fd45d19b5c2d2f1f6bde458e620a4@utoronto.ca
 DESCRIPTION:Department: Rotman
 LOCATION:Rotman\, University of Toronto
-URL:https://www.rotman.utoronto.ca/faculty-and-research/academic-areas/org
- anizational-behaviour-and-human-resource-management/seminars/tosen-nwadei-
- utscrotman-school-at-management-obhrm-seminar-series/
+URL:https://community.rotman.utoronto.ca/events/s/special-event/a1VJQ00000
+ 8Phef/pathways-to-leadership-symposium
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Jacob Hirsh (UTM/Rotman School at Management)\, OBHRM Seminar Seri
- es
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260304T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260304T000000
-UID:c5b1bf9c7288405b5bd924a091a21900@utoronto.ca
+SUMMARY:Rotman in San Francisco
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+UID:2633504f7464d509adba4f010dbe5e6d@utoronto.ca
 DESCRIPTION:Department: Rotman
 LOCATION:Rotman\, University of Toronto
-URL:https://www.rotman.utoronto.ca/faculty-and-research/academic-areas/org
- anizational-behaviour-and-human-resource-management/seminars/jacob-hirsh-u
- tmrotman-school-at-management-obhrm-seminar-series/
+URL:https://www.rotman.utoronto.ca/alumni-and-giving/alumni/traditions-and
+ -events/sanfrancisco260415/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Post City's 2026 Real Estate Roundtable
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260304T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260304T000000
-UID:8cccb1dfab671f6b8e5ec58e738857ee@utoronto.ca
+SUMMARY:Peter Zhang\, Carnegie Mellon\, OMS Seminar Series
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+UID:676049541ebbb190798765ddd757f593@utoronto.ca
 DESCRIPTION:Department: Rotman
 LOCATION:Rotman\, University of Toronto
-URL:https://www.rotman.utoronto.ca/news-events-and-ideas/public-events/eve
- nts-listings/2026/march-2026/march-4---post-citys-2026-real-estate-roundta
- ble/
+URL:https://www.rotman.utoronto.ca/faculty-and-research/academic-areas/ope
+ rations-management-and-statistics/seminars/peter-zhang-carnegie-mellon-oms
+ -seminar-series/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Universities on Fire: Academia Confronts the Climate Crisis in the
-  Polycrisis with Dr. Bryan Alexander
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:09c42fd7e739e8951dc4be99984d0e8b@utoronto.ca
-DESCRIPTION:Department: Environment
-LOCATION:Environment\, University of Toronto
-URL:https://www.environment.utoronto.ca/events/universities-on-fire-keynot
- e
+SUMMARY:Reciprocity Ring
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+UID:b7ffb9f935bc98752ed39a98fd77fbbb@utoronto.ca
+DESCRIPTION:Department: Rotman
+LOCATION:Rotman\, University of Toronto
+URL:https://www.rotman.utoronto.ca/alumni-and-giving/alumni/traditions-and
+ -events/reciprocity-ring/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Navigating the Planetary Crisis through the Arts: The University a
- nd the Polycrisis
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260304T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260304T000000
-UID:dee27915d92f501e47ea634d30664d65@utoronto.ca
-DESCRIPTION:Department: Environment
-LOCATION:Environment\, University of Toronto
-URL:https://www.environment.utoronto.ca/events/navigating-planetary-crisis
- -through-arts-panel
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Certificate in Sustainability Open House
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:03d9db76c4248578625ee154ceda958c@utoronto.ca
-DESCRIPTION:Department: Environment
-LOCATION:Environment\, University of Toronto
-URL:https://www.environment.utoronto.ca/events/certificate-sustainability-
- open-house-2026
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Environment and Health Seminar Series: One Health in Action: Wildl
- ife Conservation and Disease Preventi...
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260312T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260312T000000
-UID:be0304c83a63f0676794029b394f18ce@utoronto.ca
-DESCRIPTION:Department: Environment
-LOCATION:Environment\, University of Toronto
-URL:https://www.environment.utoronto.ca/events/environment-and-health-semi
- nar-series-one-health-action-wildlife-conservation-and-disease
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Environment Seminar Series: Climate Action - What will it take? wi
- th Peter Tabuns
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260313T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260313T000000
-UID:72ef45ce513b4b202a866aab13eaa420@utoronto.ca
-DESCRIPTION:Department: Environment
-LOCATION:Environment\, University of Toronto
-URL:https://www.environment.utoronto.ca/events/environment-seminar-series-
- climate-action-what-will-it-take-peter-tabuns
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SRI Seminar Series: Joel Z. Leibo\, “A pragmatic view of AI pers
- onhood”
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260304T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260304T000000
-UID:514730bd66d9c3e64c1028fc26cd2d9c@utoronto.ca
+SUMMARY:Absolutely Interdisciplinary 2026
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260513T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260513T000000
+UID:24d18386dd8e167a02844c2b663a1b61@utoronto.ca
 DESCRIPTION:Department: SRI
 LOCATION:SRI\, University of Toronto
-URL:https://srinstitute.utoronto.ca/events-archive/seminar-2026-joel-z-lei
- bo
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Mutual Aid\, Life\, and Computation
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260309T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260309T000000
-UID:c6978bbdce75d5271c20a9aac76e0698@utoronto.ca
-DESCRIPTION:Department: SRI
-LOCATION:SRI\, University of Toronto
-URL:https://srinstitute.utoronto.ca/events-archive/mutual-aid-life-and-com
- putation
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SRI Seminar Series: Zhijing Jin\, University of Toronto
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260318T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260318T000000
-UID:f352c927fc933305b5fdc26dfad569f7@utoronto.ca
-DESCRIPTION:Department: SRI
-LOCATION:SRI\, University of Toronto
-URL:https://srinstitute.utoronto.ca/events-archive/seminar-2026-zhijing-ji
- n
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SRI Seminar Series: Kyle Mahowald\, “How linguistics learned to 
- stop worrying and love the language models”
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260325T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260325T000000
-UID:b957a174b04c8d26c77cb5d587ec2dbf@utoronto.ca
-DESCRIPTION:Department: SRI
-LOCATION:SRI\, University of Toronto
-URL:https://srinstitute.utoronto.ca/events-archive/seminar-2026-kyle-mahow
- ald
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Seeking Alignment: Religious Imaginaries in the Past and Future of
-  AI
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260408T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260408T000000
-UID:a5bc344f3654efaf08ffcece86b259ce@utoronto.ca
-DESCRIPTION:Department: SRI
-LOCATION:SRI\, University of Toronto
-URL:https://srinstitute.utoronto.ca/events-archive/seeking-alignment
+URL:https://srinstitute.utoronto.ca/events-archive/absolutely-interdiscipl
+ inary-2026
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
@@ -1172,348 +889,360 @@ URL:https://spacesandexperiences.utoronto.ca/event/2025-pride-collection-l
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SMC Undergraduate Research Colloquium
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:f678260557f1c30a85c36427001c63fc@utoronto.ca
+SUMMARY:Mediaeval Symposium: Mappa Mundi
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+UID:df2c02c0efaf1b988445b89416078ebe@utoronto.ca
 DESCRIPTION:Department: St. Michael
 LOCATION:St. Michael\, University of Toronto
-URL:https://stmikes.utoronto.ca/event/smc-undergraduate-research-colloquiu
- m
+URL:https://stmikes.utoronto.ca/event/mediaeval-symposium-mappa-mundi
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:The Merton Lecture
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260310T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260310T000000
-UID:6f47255a543457d0cdce2395f97a631c@utoronto.ca
+SUMMARY:Hope in Action: Leading Through Chaos
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+UID:7202705a3bdf838414a6b4e79f768aed@utoronto.ca
 DESCRIPTION:Department: St. Michael
 LOCATION:St. Michael\, University of Toronto
-URL:https://stmikes.utoronto.ca/event/the-merton-lecture
+URL:https://stmikes.utoronto.ca/event/hope-in-action-leading-through-chaos
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Spring Senate Meeting
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260323T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260323T000000
-UID:c5eaef6dafeda2cae7a7812f163ba387@utoronto.ca
-DESCRIPTION:Department: St. Michael
-LOCATION:St. Michael\, University of Toronto
-URL:https://stmikes.utoronto.ca/event/spring-senate-meeting
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The Art of Public Infrastructure
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:bdab0dd4bf1f8b970bbdf706b3f14a21@utoronto.ca
+SUMMARY:Knowledge Café: Navigating the underground city
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+UID:23ac1b438fcdb876e018c08b43592ff7@utoronto.ca
 DESCRIPTION:Department: School of Cities
 LOCATION:School of Cities\, University of Toronto
-URL:https://schoolofcities.utoronto.ca/event/the-art-of-public-infrastruct
- ure/
+URL:https://schoolofcities.utoronto.ca/event/knowledge-cafe-navigating-the
+ -underground-city/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SOCIAL: The walkability gap in Indian metro cities
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260311T000000
-UID:15291b89fa47594dd59a973501decb1c@utoronto.ca
+SUMMARY:Migrant belongings: “Good employers” & “educational infrastr
+ uctures”
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260421T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260421T000000
+UID:249a066e9b240016fc39baf11da78c4c@utoronto.ca
 DESCRIPTION:Department: School of Cities
 LOCATION:School of Cities\, University of Toronto
-URL:https://schoolofcities.utoronto.ca/event/social-the-walkability-gap-in
- -indian-metro-cities/
+URL:https://schoolofcities.utoronto.ca/event/migrant-belongings-good-emplo
+ yers-educational-infrastructures/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Held Together by Glitter Tape
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260312T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260312T000000
-UID:0dfdb0bcb970877094e994d94e92e61a@utoronto.ca
+SUMMARY:Embodied Greenhouse Gas Symposium 2026
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260430T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260430T000000
+UID:12996aecb366636adbb300ff471ab1b8@utoronto.ca
 DESCRIPTION:Department: School of Cities
 LOCATION:School of Cities\, University of Toronto
-URL:https://schoolofcities.utoronto.ca/event/held-together-by-glitter-tape
- /
+URL:https://schoolofcities.utoronto.ca/event/embodied-greenhouse-gas-sympo
+ sium-2026/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Knowledge Café: Data collection challenge for Vision Zero
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260318T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260318T000000
-UID:5fd80b36114529910be26272b0b4799e@utoronto.ca
+SUMMARY:Asian Computations: Consciousness\, liveliness\, emergent subjecti
+ vities
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260501T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260501T000000
+UID:d293482c2edb52ab63e1766f494a0c2f@utoronto.ca
 DESCRIPTION:Department: School of Cities
 LOCATION:School of Cities\, University of Toronto
-URL:https://schoolofcities.utoronto.ca/event/knowledge-cafe-data-collectio
- n-challenge-for-vision-zero/
+URL:https://schoolofcities.utoronto.ca/event/asian-computations-consciousn
+ ess-liveliness-emergent-subjectivities/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:North: The Future of Post-Climate America
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260324T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260324T000000
-UID:8ba997b79850b3baf4fdc570ff9d3464@utoronto.ca
+SUMMARY:Songs and Stories of Hope
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260624T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260624T000000
+UID:fb93ff052ee8fbd74a5d390bbd01293d@utoronto.ca
 DESCRIPTION:Department: School of Cities
 LOCATION:School of Cities\, University of Toronto
-URL:https://schoolofcities.utoronto.ca/event/north-the-future-of-post-clim
- ate-america/
+URL:https://schoolofcities.utoronto.ca/event/songs-and-stories-of-hope/
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ted Rogers Centre for Heart Research Education Fund Competition
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260202T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260330T000000
-UID:af2c214d6479cac147c4b382b8ef72cf@utoronto.ca
+SUMMARY:Computing in Medicine Program: Machine Learning (Registration Dead
+ line: April13)
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260413T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260413T000000
+UID:69e2c6c71db753e173bf54a2d8852092@utoronto.ca
 DESCRIPTION:Department: Temerty
 LOCATION:Temerty\, University of Toronto
-URL:https://temertymedicine.utoronto.ca/event/ted-rogers-centre-heart-rese
- arch-education-fund-competition
+URL:https://temertymedicine.utoronto.ca/event/computing-medicine-program-m
+ achine-learning-registration-deadline-april-13
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Virtual Culinary Medicine Series
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260210T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260310T000000
-UID:dfcbaf34949b588c596edcddfb708802@utoronto.ca
+SUMMARY:Planning Inclusive Educational Events Workshop for Staff
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+UID:b3d8f537164cada4bfcec88f46ab5bb8@utoronto.ca
 DESCRIPTION:Department: Temerty
 LOCATION:Temerty\, University of Toronto
-URL:https://temertymedicine.utoronto.ca/event/virtual-culinary-medicine-se
- ries
+URL:https://temertymedicine.utoronto.ca/event/planning-inclusive-education
+ al-events-workshop-staff
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:From Student Life to Startup Life: Share Your Spark with Hon. Tony
-  Clement and Jeanue Chung
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:bd9811cf784e70d7f197abab292b6bb6@utoronto.ca
+SUMMARY:Update in General Surgery
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260418T000000
+UID:1c0f59ddc89cbb8c916c6cb737fa67ac@utoronto.ca
 DESCRIPTION:Department: Temerty
 LOCATION:Temerty\, University of Toronto
-URL:https://temertymedicine.utoronto.ca/event/student-life-startup-life-sh
- are-your-spark-hon-tony-clement-and-jeanue-chung
+URL:https://temertymedicine.utoronto.ca/event/update-general-surgery-3
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Demystifying Horizon Europe: Opportunities in Cluster 4 (Digital\,
-  Industry\, and Space) and Beyond
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260304T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260304T000000
-UID:c8048fc0c5091fa72d7d20010789d65a@utoronto.ca
+SUMMARY:School Food Community Engagement in Action: Fireside Chat
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+UID:aab5b6b53efc9aae90cf1fdf9e8a0de7@utoronto.ca
 DESCRIPTION:Department: Temerty
 LOCATION:Temerty\, University of Toronto
-URL:https://temertymedicine.utoronto.ca/event/demystifying-horizon-europe-
- opportunities-cluster-4-digital-industry-and-space-and-beyond
+URL:https://temertymedicine.utoronto.ca/event/school-food-community-engage
+ ment-action-fireside-chat
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Culinary Medicine
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:3d84e8be7c640498a9552d8e7ec3a1d1@utoronto.ca
+SUMMARY:36th Annual Jack Crawford Day Conference
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260417T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260417T000000
+UID:552436a89c792da91193885f0f2935f3@utoronto.ca
 DESCRIPTION:Department: Temerty
 LOCATION:Temerty\, University of Toronto
-URL:https://temertymedicine.utoronto.ca/event/culinary-medicine
+URL:https://temertymedicine.utoronto.ca/event/36th-annual-jack-crawford-da
+ y-conference
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DOES INTERNATIONAL LAW STILL MATTER? TRINITY MINDS ON HOT TOPICS
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:b321a0867498995fde3a371fc26a363b@utoronto.ca
+SUMMARY:FRIENDS OF THE LIBRARY | 2026 ARCHIBALD LAMPMAN POETRY READING WIT
+ H GEORGE ELLIOTT CLARK
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+UID:7ca6b7d64126b510cb73d31e479c2cd4@utoronto.ca
 DESCRIPTION:Department: Trinity College
 LOCATION:Trinity College\, University of Toronto
-URL:https://www.trinity.utoronto.ca/feed/events_calendar/?id=46867
+URL:https://www.trinity.utoronto.ca/feed/events_calendar/?id=48105
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FACULTY OF DIVINITY INFORMATION SESSION
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:c00465ffad83f0d95381dfe2b1a5bdf1@utoronto.ca
+SUMMARY:FACULTY OF DIVINITY | SACRED SPACE: FINDING\, FABRICATING\, FASHIO
+ NING
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260412T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260412T000000
+UID:89dba0208e9ef808f6322fa4f90ad1e2@utoronto.ca
 DESCRIPTION:Department: Trinity College
 LOCATION:Trinity College\, University of Toronto
-URL:https://www.trinity.utoronto.ca/feed/events_calendar/?id=46880
+URL:https://www.trinity.utoronto.ca/feed/events_calendar/?id=47813
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MARGARET MACMILLAN TRINITY ONE PROGRAM: VIRTUAL OPEN HOUSE
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260307T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260307T000000
-UID:48f544cfb83b55f294d847e1653962e6@utoronto.ca
+SUMMARY:MEET & GREET LUNCH WITH PROVOST TERPSTRA | VANCOUVER
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260419T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260419T000000
+UID:e0e7c939b8315d54e1bcec2b660fcd59@utoronto.ca
 DESCRIPTION:Department: Trinity College
 LOCATION:Trinity College\, University of Toronto
-URL:https://www.trinity.utoronto.ca/feed/events_calendar/?id=46305
+URL:https://www.trinity.utoronto.ca/feed/events_calendar/?id=46895
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:U OF T | INTERNATIONAL WOMEN’S DAY
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260308T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260308T000000
-UID:c7d1a33de10d0380675ccbb3badcfcb1@utoronto.ca
+SUMMARY:BILL GRAHAM CENTRE | DOES CANADA NEED A FOREIGN INTELLIGENCE AGENC
+ Y?
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260421T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260421T000000
+UID:ad8039bced197253ddb581609313fd53@utoronto.ca
 DESCRIPTION:Department: Trinity College
 LOCATION:Trinity College\, University of Toronto
-URL:https://www.trinity.utoronto.ca/feed/events_calendar/?id=46593
+URL:https://www.trinity.utoronto.ca/feed/events_calendar/?id=47855
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:TRINITY READS X EMERGING WRITERS READING SERIES: LIVING ROOM READI
- NGS
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260309T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260309T000000
-UID:252bc31aab0ac9bae118124db29fb36b@utoronto.ca
+SUMMARY:SACRED MUSIC IN A SACRED SPACE AT 12:15 PM IN THE TRINITY CHAPEL: 
+ ALL ARE WELCOME TO ATTEND
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260424T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260424T000000
+UID:f02cb55ef556fff57b590edfb58edee5@utoronto.ca
 DESCRIPTION:Department: Trinity College
 LOCATION:Trinity College\, University of Toronto
-URL:https://www.trinity.utoronto.ca/feed/events_calendar/?id=47444
+URL:https://www.trinity.utoronto.ca/feed/events_calendar/?id=46468
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:UC Speed Mentorship Shaker
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260324T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260324T000000
-UID:7fa463d4a6393bff10ab32e1b6b9da19@utoronto.ca
-DESCRIPTION:Department: UC
-LOCATION:UC\, University of Toronto
-URL:https://www.uc.utoronto.ca/events/uc-speed-mentorship-shaker-0
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:2025-26 W. J. Alexander Lecture in English Literature
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260331T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260331T000000
-UID:b674a352dca6578d5d3e0e7399fedd2c@utoronto.ca
-DESCRIPTION:Department: UC
-LOCATION:UC\, University of Toronto
-URL:https://www.uc.utoronto.ca/events/2025-26-w-j-alexander-lecture-englis
- h-literature
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Strengthening the Sage for Transformative Leadership
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:88f50faed177c793d4f6818c4e3339f0@utoronto.ca
+SUMMARY:Expert x Founder Strategy Sessions
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+UID:6cb1ffb70cb4a356ca243961454d7875@utoronto.ca
 DESCRIPTION:Department: UTE
 LOCATION:UTE\, University of Toronto
-URL:https://entrepreneurs.utoronto.ca/event/strengthening-the-sage-for-tra
- nsformative-leadership/
+URL:https://luma.com/i7byycb7
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Schwartz Reisman Innovation Campus Ecosystem Tour - March 3rd
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:4964cd9f966eb808ab0c8bd265cb2923@utoronto.ca
+SUMMARY:The Legal Lens Workshop Series: Macroeconomics of Innovation: Mone
+ tary Policy\, Fiscal Stimulus\, and Direct Investment
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+UID:6123d66a690c81a35e54f4dbdf146d07@utoronto.ca
 DESCRIPTION:Department: UTE
 LOCATION:UTE\, University of Toronto
-URL:https://entrepreneurs.utoronto.ca/event/schwartz-reisman-innovation-ca
- mpus-ecosystem-tour-mar-3/
+URL:https://admissions.sgs.utoronto.ca/register/?id=8df19ddd-5da7-42c5-9d0
+ 5-cae08cbc8b03&utm_source=UTE&utm_medium=Events
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:In Conversation with Maple Bear: Innovating in Education Through P
- ractice\, Partnership\, and Purpose
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:6fdb062b19b578a2f3aaeb35cd567d03@utoronto.ca
+SUMMARY:Access to Innovation (A2I) Info Session
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+UID:83ab730328282d090f3abfd7e4e34a91@utoronto.ca
 DESCRIPTION:Department: UTE
 LOCATION:UTE\, University of Toronto
-URL:https://entrepreneurs.utoronto.ca/event/in-conversation-with-maple-bea
- r-innovating-in-education-through-practice-partnership-and-purpose/
+URL:https://luma.com/kxmwi6qj
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Share Your Spark: The Honourable Tony Clement\, P.C. in conversati
- on with Jeanue Chung
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:dae2a46929794d0302f17ee370cc73d6@utoronto.ca
+SUMMARY:Brand Positioning & Founder Foundations
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+UID:834986532abc0ec7b23a535a838638be@utoronto.ca
 DESCRIPTION:Department: UTE
 LOCATION:UTE\, University of Toronto
-URL:https://entrepreneurs.utoronto.ca/event/share-your-spark-the-honourabl
- e-tony-clement-p-c-in-conversation-with-jeanue-chung-2/
+URL:https://luma.com/j7yp1ijd?lm_api_id=cal-3rHuUgbEtCDA1ra&lm_medium=news
+ letter&lm_source=calendar
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Fireside at FemSTEM: Liz Munro
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:316d33920bc1ee68e6d6a4ab702eed45@utoronto.ca
+SUMMARY:How Finance Teams Actually Use AI
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260421T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260421T000000
+UID:e10f30c720fbd545b580f368a06bb16b@utoronto.ca
 DESCRIPTION:Department: UTE
 LOCATION:UTE\, University of Toronto
-URL:https://entrepreneurs.utoronto.ca/event/fireside-at-femstem-liz-munro/
+URL:https://luma.com/yeuuahq9
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rapid Resume Review: In-Person Drop-in
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:2efa75d925d4e88666d80c26d8c784d1@utoronto.ca
+SUMMARY:UTM Library Hours open 24 hours
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260410T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260424T000000
+UID:0e35dc659a6ad6d0c157bfc772380242@utoronto.ca
+DESCRIPTION:Department: UTM
+LOCATION:UTM\, University of Toronto
+URL:https://library.utm.utoronto.ca/hours
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:UTM Library Hours open 24 hours
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260411T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260424T000000
+UID:ca09179fcfdab226c5dcb85ff2cfa80f@utoronto.ca
+DESCRIPTION:Department: UTM
+LOCATION:UTM\, University of Toronto
+URL:https://library.utm.utoronto.ca/hours
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bhangra Fitness Class: Move at Lunch Series
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+UID:f232d15455f3ca465552545964aebdb5@utoronto.ca
+DESCRIPTION:Department: UTM
+LOCATION:UTM\, University of Toronto
+URL:https://www.utm.utoronto.ca/athletics/bhangra-fitness-class-move-lunch
+ -series
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(Re)Constructing the past: Critical Approaches to Historical Recon
+ struction
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260422T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260422T000000
+UID:4a580fc43ae6be45a5b7c86c2676d2cd@utoronto.ca
+DESCRIPTION:Department: UTM
+LOCATION:UTM\, University of Toronto
+URL:https://uoft.me/CDRS-wksp
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Earth Day: Plant your own herb garden
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260422T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260422T000000
+UID:8903a361ce9ca28ccea703d4a54fec4a@utoronto.ca
+DESCRIPTION:Department: UTM
+LOCATION:UTM\, University of Toronto
+URL:https://connectandrefreshearthday.rsvpify.com/
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Midlife\, Myth‑Free: Empowering Truths about Menopause & Perimen
+ opause
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260415T000000
+UID:77e1f8857307766ca20f456318fb79bb@utoronto.ca
+DESCRIPTION:Department: UTSC
+LOCATION:UTSC\, University of Toronto
+URL:https://alumni.utoronto.ca/events/u-t-where-you-are-midlife-myth-free-
+ empowering-truths-about-menopause-perimenopause
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Veeva Exam Jam
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+UID:165dcb76bbbf5023f31a486d7134b0fe@utoronto.ca
 DESCRIPTION:Department: UTSC
 LOCATION:UTSC\, University of Toronto
 URL:https://www.utsc.utoronto.ca/webapps/webforms/feeds/displayDetails?id=
- 1&event_id=8853
+ 1&event_id=8881
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Law School Prep 101 - INFO Session
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260304T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260304T000000
-UID:9122402786b33c417bad137dec72cd74@utoronto.ca
+SUMMARY:Veeva Virtual Hiring Manager Meet & Greet
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260420T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260420T000000
+UID:f4009e4f2dcb45b6fde9f29b5ff20cc3@utoronto.ca
 DESCRIPTION:Department: UTSC
 LOCATION:UTSC\, University of Toronto
 URL:https://www.utsc.utoronto.ca/webapps/webforms/feeds/displayDetails?id=
- 1&event_id=8871
+ 1&event_id=8882
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Rapid Resume Review: In-Person Drop-in
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260304T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260304T000000
-UID:6df1b63ebd18302198c0d8edb9ce34d1@utoronto.ca
+SUMMARY:Get Hired Career Development Conference 2026
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260428T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260428T000000
+UID:bdfa393af4cc7eed84445d81be1cb07d@utoronto.ca
 DESCRIPTION:Department: UTSC
 LOCATION:UTSC\, University of Toronto
 URL:https://www.utsc.utoronto.ca/webapps/webforms/feeds/displayDetails?id=
- 1&event_id=8854
+ 1&event_id=8847
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Law School Prep Program at UTSC - INFO Session
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260304T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260304T000000
-UID:f911e7e4dce94a72ee28201dc03878fc@utoronto.ca
-DESCRIPTION:Department: UTSC
-LOCATION:UTSC\, University of Toronto
-URL:https://www.utsc.utoronto.ca/webapps/webforms/feeds/displayDetails?id=
- 1&event_id=8851
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Law School Prep Program at UTSC - INFO Session
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260304T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260304T000000
-UID:f911e7e4dce94a72ee28201dc03878fc@utoronto.ca
-DESCRIPTION:Department: UTSC
-LOCATION:UTSC\, University of Toronto
-URL:https://www.utsc.utoronto.ca/webapps/webforms/feeds/displayDetails?id=
- 1&event_id=8869
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Research Day 2026
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260330T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260330T000000
-UID:b6aa008aba9efd3d8bbf76e0aa7847b9@utoronto.ca
+SUMMARY:2026 Emmanuel College Alumni Day and Awards Celebration
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260511T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260511T000000
+UID:537755a1ce602f9674fce6c9882eada3@utoronto.ca
 DESCRIPTION:Department: Victoria
 LOCATION:Victoria\, University of Toronto
-URL:https://vicu.utoronto.ca/whats-happening/research-day
+URL:https://vicu.utoronto.ca/whats-happening/2026-emmanuel-college-alumni-
+ day-and-awards-celebration
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Winter Engineering Outreach Programs
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260315T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260315T000000
-UID:329e25958ee4cfa50d71f7e60f150f9c@utoronto.ca
-DESCRIPTION:Department: Alumni
-LOCATION:Alumni\, University of Toronto
-URL:https://alumni.utoronto.ca/events/winter-engineering-outreach-programs
+SUMMARY:Campus (Re)Conciliations Conference
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260608T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260608T000000
+UID:9ce1e1a22fc5e66c08c872e7c511078d@utoronto.ca
+DESCRIPTION:Department: Victoria
+LOCATION:Victoria\, University of Toronto
+URL:https://vicu.utoronto.ca/whats-happening/campus-reconciliations-confer
+ ence
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
@@ -1539,82 +1268,122 @@ URL:https://alumni.utoronto.ca/events/hangama-amiri-partingfraq
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Share Your Spark: The Honourable Tony Clement\, P.C. in conversati
- on with Jeanue Chung
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:dae2a46929794d0302f17ee370cc73d6@utoronto.ca
+SUMMARY:Unruly Intelligences: Body\, Tools\, AI
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260427T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260427T000000
+UID:5db305b366006c0d443f601477a3686c@utoronto.ca
 DESCRIPTION:Department: Alumni
 LOCATION:Alumni\, University of Toronto
-URL:https://alumni.utoronto.ca/events/share-your-spark-honourable-tony-cle
- ment-pc-conversation-jeanue-chung
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:2026 CDTPS Mainstage Show: Kostroma
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:61a5062c6276136b32422e075f5cf324@utoronto.ca
-DESCRIPTION:Department: CDTPS
-LOCATION:CDTPS\, University of Toronto
-URL:https://www.cdtps.utoronto.ca/events/kostroma
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Share Your Spark: The Honourable Tony Clement\, P.C. in conversati
- on with Jeanue Chung
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:dae2a46929794d0302f17ee370cc73d6@utoronto.ca
-DESCRIPTION:Department: Entrepreneurship
-LOCATION:Entrepreneurship\, University of Toronto
-URL:https://www.entrepreneurship.artsci.utoronto.ca/events/share-your-spar
- k-honourable-tony-clement-pc-conversation-jeanue-chung
+URL:https://alumni.utoronto.ca/events/unruly-intelligences-body-tools-ai-0
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Startup Brainstorming Sessions
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260312T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260312T000000
-UID:f84e33965a481816a8fcc35c13622f97@utoronto.ca
-DESCRIPTION:Department: Entrepreneurship
-LOCATION:Entrepreneurship\, University of Toronto
-URL:https://www.entrepreneurship.artsci.utoronto.ca/events/startup-brainst
- orming-sessions
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260430T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260430T000000
+UID:5fa9614cba53d587ed570373a71336dc@utoronto.ca
+DESCRIPTION:Department: Alumni
+LOCATION:Alumni\, University of Toronto
+URL:https://alumni.utoronto.ca/events/startup-brainstorming-sessions
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Leading through Authenticity & Meaningful Relationships: A Worksho
- p with Sapna Saleem
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260326T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260326T000000
-UID:f7219223250782ee2e5e5e219efa9576@utoronto.ca
-DESCRIPTION:Department: Entrepreneurship
-LOCATION:Entrepreneurship\, University of Toronto
-URL:https://www.entrepreneurship.artsci.utoronto.ca/events/leading-through
- -authenticity-meaningful-relationships-workshop-sapna-saleem
+SUMMARY:U of T Alumni Virtual Book Club - Denison Avenue
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260515T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260515T000000
+UID:0f44d89f009a565720fcb502d836083c@utoronto.ca
+DESCRIPTION:Department: Alumni
+LOCATION:Alumni\, University of Toronto
+URL:https://alumni.utoronto.ca/events/u-t-alumni-virtual-book-club-denison
+ -avenue
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Startup Legal Advice
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260408T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260408T000000
-UID:27323eefcf1154e848a1cdcfb5feed47@utoronto.ca
-DESCRIPTION:Department: Entrepreneurship
-LOCATION:Entrepreneurship\, University of Toronto
-URL:https://www.entrepreneurship.artsci.utoronto.ca/events/startup-legal-a
- dvice
+SUMMARY:Prototyping Consultation Sessions
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260429T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260429T000000
+UID:206bcce4f13c1bdbc047ecf036b5cd96@utoronto.ca
+DESCRIPTION:Department: Alumni
+LOCATION:Alumni\, University of Toronto
+URL:https://alumni.utoronto.ca/events/prototyping-consultation-sessions
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Unravelling a Colonial Legacy: Grounding Landscape Architecture
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:4cab971edf03c672e12d8c9b34579636@utoronto.ca
+SUMMARY:Hong Kong\, SAR: U of T Dragon Boat Competition
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260619T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260619T000000
+UID:9fd428de58255035d4e562b71df89c4a@utoronto.ca
+DESCRIPTION:Department: Alumni
+LOCATION:Alumni\, University of Toronto
+URL:https://alumni.utoronto.ca/events/hong-kong-sar-u-t-dragon-boat-compet
+ ition
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Visual Studies Undergraduate Thesis Exhibition
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260416T000000
+UID:386dca35c4372f2d4e312949a9f95834@utoronto.ca
 DESCRIPTION:Department: Daniels
 LOCATION:Daniels\, University of Toronto
-URL:http://daniels.utoronto.ca/events/1772753400/unravelling-colonial-lega
- cy-grounding-landscape-architecture
+URL:http://daniels.utoronto.ca/events/1776376800/visual-studies-undergradu
+ ate-thesis-exhibition
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Town of Perth hosts Tay Basin Landscape Design Competition Showcas
+ e of Daniels student work
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260410T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260410T000000
+UID:daf66e8fd27b9406769e2c493bae4129@utoronto.ca
+DESCRIPTION:Department: Daniels
+LOCATION:Daniels\, University of Toronto
+URL:http://daniels.utoronto.ca/events/1775862000/town-perth-hosts-tay-basi
+ n-landscape-design-competition-showcase-daniels-student
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Closing April 27 — Unruly Intelligences: Body\, Tools\, AI
+DTSTART;TZID=EST;VALUE=DATE-TIME:20260226T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20260226T000000
+UID:f56b9077f7470b4250c7e0956fb695c4@utoronto.ca
+DESCRIPTION:Department: Daniels
+LOCATION:Daniels\, University of Toronto
+URL:http://daniels.utoronto.ca/events/1772082000/unruly-intelligences-body
+ -tools-ai
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Daniels De-stress Series: April 10-17
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260410T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260410T000000
+UID:07202e22018be0372ae99c3bafdb25c8@utoronto.ca
+DESCRIPTION:Department: Daniels
+LOCATION:Daniels\, University of Toronto
+URL:http://daniels.utoronto.ca/events/1775793600/daniels-de-stress-series-
+ april-10-17
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:U of T Alumni Reunion
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260614T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260614T000000
+UID:31a72679aa47723458e76692eb327ccd@utoronto.ca
+DESCRIPTION:Department: Daniels
+LOCATION:Daniels\, University of Toronto
+URL:http://daniels.utoronto.ca/events/1781409600/u-t-alumni-reunion
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Closing April 3 — The New Stone Age: Towards an Ethical Architec
+ ture
+DTSTART;TZID=EST;VALUE=DATE-TIME:20260123T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20260123T000000
+UID:1488bef7c96d9275dafefef19f475791@utoronto.ca
+DESCRIPTION:Department: Daniels
+LOCATION:Daniels\, University of Toronto
+URL:http://daniels.utoronto.ca/events/1769144400/new-stone-age-towards-eth
+ ical-architecture
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
@@ -1630,90 +1399,27 @@ URL:http://daniels.utoronto.ca/events/1772427600/tours-daniels-building-pr
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Unruly Intelligences: Body\, Tools\, AI
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260226T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260226T000000
-UID:29a92a0f02267a38c1262c604bee23ea@utoronto.ca
+SUMMARY:Sikumit Aisimajugut - At Home on Ice - ᓯᑯᒥᑦ ᐊᐃᓯᒪ
+ ᔪᒍᑦ
+DTSTART;TZID=EST;VALUE=DATE-TIME:20260116T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20260116T000000
+UID:32d86064fd5d3c464f9301c5790303f8@utoronto.ca
 DESCRIPTION:Department: Daniels
 LOCATION:Daniels\, University of Toronto
-URL:http://daniels.utoronto.ca/events/1772082000/unruly-intelligences-body
- -tools-ai
+URL:http://daniels.utoronto.ca/events/1768572000/sikumit-aisimajugut-home-
+ ice-sikumit-aisimajugut
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lucy Raven\, Artist
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260310T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260310T000000
-UID:48abe4fb170060e1a4ac0f7e7fd743c6@utoronto.ca
+SUMMARY:Sikumit Aisimajugut - At Home on Ice - ᓯᑯᒥᑦ ᐊᐃᓯᒪ
+ ᔪᒍᑦ
+DTSTART;TZID=EST;VALUE=DATE-TIME:20251209T000000
+DTEND;TZID=EST;VALUE=DATE-TIME:20251209T000000
+UID:863157c521c0884b311544fea8d38b7b@utoronto.ca
 DESCRIPTION:Department: Daniels
 LOCATION:Daniels\, University of Toronto
-URL:http://daniels.utoronto.ca/events/1773181800/lucy-raven-artist
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:NOW ON VIEW — The New Stone Age: Towards an Ethical Architecture
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260123T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260123T000000
-UID:548ae37694de1bcf460b32cf72190d09@utoronto.ca
-DESCRIPTION:Department: Daniels
-LOCATION:Daniels\, University of Toronto
-URL:http://daniels.utoronto.ca/events/1769144400/new-stone-age-towards-eth
- ical-architecture
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The Social Life of Small Urban Spaces
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260312T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260312T000000
-UID:2741fafb73f5c897a05eb2bd2b65d32e@utoronto.ca
-DESCRIPTION:Department: Daniels
-LOCATION:Daniels\, University of Toronto
-URL:http://daniels.utoronto.ca/events/1773354600/social-life-small-urban-s
- paces
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Land Narratives & Protopian Futures: From Fictions to the Just Cit
- y
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260319T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260319T000000
-UID:89cb2920565c7fad5d2cb87eb6d1c871@utoronto.ca
-DESCRIPTION:Department: Daniels
-LOCATION:Daniels\, University of Toronto
-URL:http://daniels.utoronto.ca/events/1773959400/land-narratives-protopian
- -futures-fictions-just-city
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The Harold Solomon Kaplan Lecture: Public Act
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260326T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260326T000000
-UID:ff5037a60d981ee222049c1d6cb1079f@utoronto.ca
-DESCRIPTION:Department: Daniels
-LOCATION:Daniels\, University of Toronto
-URL:http://daniels.utoronto.ca/events/1774564200/harold-solomon-kaplan-lec
- ture-public-act
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Juliet Kothe\, Curator
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260324T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260324T000000
-UID:feb7290ed79a4976100c4e7392020156@utoronto.ca
-DESCRIPTION:Department: Daniels
-LOCATION:Daniels\, University of Toronto
-URL:http://daniels.utoronto.ca/events/1774391400/juliet-kothe-curator
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Alexandre Singh\, Artist & Filmmaker
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260331T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260331T000000
-UID:cde8ee65f57134d57fb4edf3b61cba34@utoronto.ca
-DESCRIPTION:Department: Daniels
-LOCATION:Daniels\, University of Toronto
-URL:http://daniels.utoronto.ca/events/1774996200/alexandre-singh-artist-fi
- lmmaker
+URL:http://daniels.utoronto.ca/events/1765256400/sikumit-aisimajugut-home-
+ ice-sikumit-aisimajugut
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
@@ -1741,92 +1447,58 @@ URL:http://daniels.utoronto.ca/events/1726180200/gehry-chair-lecture-urban
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sustainability Thinking Exhibition
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:7a835dd820838bbe44a33c19311d5ea8@utoronto.ca
+SUMMARY:Reconciliation Reflections: Six Student Projects
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20240620T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20240620T000000
+UID:302babeef4a36cf5288c1da5f638e2c1@utoronto.ca
+DESCRIPTION:Department: Daniels
+LOCATION:Daniels\, University of Toronto
+URL:http://daniels.utoronto.ca/events/1718856000/reconciliation-reflection
+ s-six-student-projects
+X-SOURCE:University of Toronto
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pathways to Leadership Symposium
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260414T000000
+UID:b76fd45d19b5c2d2f1f6bde458e620a4@utoronto.ca
 DESCRIPTION:Department: Arts & Science
 LOCATION:Arts & Science\, University of Toronto
-URL:https://www.artsci.utoronto.ca/events/sustainability-thinking-exhibiti
- on-0
+URL:https://www.artsci.utoronto.ca/events/pathways-leadership-symposium
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Share your Spark: The Honourable Tony Clement\, P.C. in conversati
- on with Jeanue Chung
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:0beaf83abb55992433bdb48884ada45e@utoronto.ca
+SUMMARY:Vancouver: “Thinking Out Loud Together: Why Civil Discourse Matt
+ ers On and Off Campus” An exclusive talk on civil discourse by Professor
+  Randy Boyagoda
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260427T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260427T000000
+UID:300cb060084153a4813a3007db3f2e88@utoronto.ca
 DESCRIPTION:Department: Arts & Science
 LOCATION:Arts & Science\, University of Toronto
-URL:https://www.artsci.utoronto.ca/events/share-your-spark-honourable-tony
- -clement-pc-conversation-jeanue-chung
+URL:https://www.artsci.utoronto.ca/events/vancouver-thinking-out-loud-toge
+ ther-why-civil-discourse-matters-and-campus-exclusive-talk
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BMO Lab Diagonal Speakers Series with Caden Manson
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:d6fe7e0017866d36cab35a35ae95b562@utoronto.ca
+SUMMARY:Queer & Trans Negativity Symposium Keynote Address
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260430T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260430T000000
+UID:2ac874a79c5867b9f5a3facfe66df5df@utoronto.ca
 DESCRIPTION:Department: Arts & Science
 LOCATION:Arts & Science\, University of Toronto
-URL:https://www.artsci.utoronto.ca/events/bmo-lab-diagonal-speakers-series
- -caden-manson
+URL:https://www.artsci.utoronto.ca/events/queer-trans-negativity-symposium
+ -keynote-address
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2026 CDTPS Mainstage Show: Kostroma
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:61a5062c6276136b32422e075f5cf324@utoronto.ca
+SUMMARY:Queer & Trans Negativity Symposium
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260501T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260501T000000
+UID:f55171b169e0fc1a9ecabb2f08c37512@utoronto.ca
 DESCRIPTION:Department: Arts & Science
 LOCATION:Arts & Science\, University of Toronto
-URL:https://www.artsci.utoronto.ca/events/2026-cdtps-mainstage-show-kostro
- ma
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Working for Change 2026 Conference
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260306T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260306T000000
-UID:6e1d9e3f93b6b870969dda0a55036ab0@utoronto.ca
-DESCRIPTION:Department: Arts & Science
-LOCATION:Arts & Science\, University of Toronto
-URL:https://www.artsci.utoronto.ca/events/working-change-2026-conference
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Siobhain Bly Calkin\, Writing Passion Relic Agency in Pilgrim Tale
- s of Christian-Muslim Contexts
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260306T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260306T000000
-UID:a2307dbf7e9378f373278d909db18deb@utoronto.ca
-DESCRIPTION:Department: Arts & Science
-LOCATION:Arts & Science\, University of Toronto
-URL:https://www.artsci.utoronto.ca/events/siobhain-bly-calkin-writing-pass
- ion-relic-agency-pilgrim-tales-christian-muslim-contexts
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Queer & Trans Negativity Screening: Lan Yu with Director Q&A
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260402T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260402T000000
-UID:2f35caebc3c828d79170f09399f0926c@utoronto.ca
-DESCRIPTION:Department: Events
-LOCATION:Events\, University of Toronto
-URL:https://www.humanities.utoronto.ca/events/queer-trans-negativity-scree
- ning-lan-yu-director-qa
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Promoting your Scholarly Book
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260415T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260415T000000
-UID:a1e2b803457015f021b37e6a3e0d990f@utoronto.ca
-DESCRIPTION:Department: Events
-LOCATION:Events\, University of Toronto
-URL:https://www.humanities.utoronto.ca/events/promoting-your-scholarly-boo
- k
+URL:https://www.artsci.utoronto.ca/events/queer-trans-negativity-symposium
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
@@ -1842,166 +1514,58 @@ URL:https://www.humanities.utoronto.ca/events/new-approaches-slaving-and-s
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:15th Annual PromiseAuction
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260302T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260302T000000
-UID:a106f9e9a1ffe96ccc7b5e86a5bef9dd@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:http://www.law.utoronto.ca/event/15th-annual-promise-auction
+SUMMARY:Sarah Thornton on Tits Up: The Top Half of Women’s Liberation
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260422T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260422T000000
+UID:4b9075ee0603832ebe19f9b034753a92@utoronto.ca
+DESCRIPTION:Department: Events
+LOCATION:Events\, University of Toronto
+URL:https://www.humanities.utoronto.ca/events/sarah-thornton-tits-top-half
+ -women%E2%80%99s-liberation
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AI & BusinessLaw
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:f9056d32d13c97cd47e13b66d392b7c3@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:http://www.law.utoronto.ca/event/ai-business-law
+SUMMARY:Islands As ‘Other’ Spaces in Latin Poetry
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260425T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260425T000000
+UID:165115bbeaec222b2b83aa57aedcd794@utoronto.ca
+DESCRIPTION:Department: Events
+LOCATION:Events\, University of Toronto
+URL:https://www.humanities.utoronto.ca/events/islands-%E2%80%98other%E2%80
+ %99-spaces-latin-poetry
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Asper Centre Constitutional Roundtable with Justice ColinFeasby
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:cbf0a037c86eb59bd1c95b3ab0794f06@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:http://www.law.utoronto.ca/asper/event/asper-centre-constitutional-rou
- ndtable-justice-colin-feasby
+SUMMARY:Into the Archives with Jamelie Hassan: Reflections on Muslim Place
+ -making and Art-making in Canada
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260429T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260429T000000
+UID:8ab73d1de1d61f4926c105ee507d74ff@utoronto.ca
+DESCRIPTION:Department: Events
+LOCATION:Events\, University of Toronto
+URL:https://www.humanities.utoronto.ca/events/archives-jamelie-hassan-refl
+ ections-muslim-place-making-and-art-making-canada
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Indigenous Law Students' Association OpenHouse
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260304T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260304T000000
-UID:b21cb9fac36e682406e3501752001069@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:http://www.law.utoronto.ca/event/indigenous-law-students-association-o
- pen-house
+SUMMARY:Queer Cinema and the Nothing
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260430T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260430T000000
+UID:a66b540d42c9c5f4acb4d7fa98091714@utoronto.ca
+DESCRIPTION:Department: Events
+LOCATION:Events\, University of Toronto
+URL:https://www.humanities.utoronto.ca/events/queer-cinema-and-nothing
 X-SOURCE:University of Toronto
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Journées d'études de droit en français (French Legal StudyDays)
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:d276e6de63be6cf3ff0e4b309f41a347@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:http://www.law.utoronto.ca/event/journees-detudes-de-droit-en-francais
- -french-legal-study-days
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Julie Thorburn\, ONCA: Bilingualism FiresideChat
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:71e98778ccd5bfa35f053798704b700b@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:http://www.law.utoronto.ca/event/julie-thorburn-onca-bilingualism-fire
- side-chat
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Looking Ahead: Neurotechnology\, AI\, &Regulation
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:30f10ae793dba55d07ab827327b84473@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:http://www.law.utoronto.ca/event/looking-ahead-neurotechnology-ai-regu
- lation
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Promise Auction: TriviaNight!
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260305T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260305T000000
-UID:1ef7d5ddd3ca43058fec7c772325127a@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:http://www.law.utoronto.ca/event/promise-auction-trivia-night
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Kanatenhs – When the Pine Needles Fall with Katsi’tsakwas Elle
- nGabriel
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260309T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260309T000000
-UID:6532899035c86c62ef722fc480ca8e11@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:http://www.law.utoronto.ca/event/kanatenhs-when-pine-needles-fall-kats
- itsakwas-ellen-gabriel
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Magna Carta to ModernCommerce
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260310T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260310T000000
-UID:97a348fd9827f5e015b6ad7285c308b0@utoronto.ca
-DESCRIPTION:Department: Law
-LOCATION:Law\, University of Toronto
-URL:http://www.law.utoronto.ca/event/magna-carta-modern-commerce
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Making Research Matter: Approaches to Strengthen Connections betwe
- en Research\, Policy\, and Community
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260407T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260407T000000
-UID:14318250ca10f23a75c02a491f10208e@utoronto.ca
+SUMMARY:Research Paths Pursued and Key Career Decisions Made
+DTSTART;TZID=EDT;VALUE=DATE-TIME:20260410T000000
+DTEND;TZID=EDT;VALUE=DATE-TIME:20260410T000000
+UID:293a73008fc15d53f0c35e0339c89205@utoronto.ca
 DESCRIPTION:Department: Pharmacy
 LOCATION:Pharmacy\, University of Toronto
-URL:https://www.pharmacy.utoronto.ca/events/making-research-matter-approac
- hes-strengthen-connections-between-research-policy-and-community
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Pharmacy Class of 8T6: 40th Anniversary Reunion
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260528T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260528T000000
-UID:70c1f9b48c234784165a195ccbb020d9@utoronto.ca
-DESCRIPTION:Department: Pharmacy
-LOCATION:Pharmacy\, University of Toronto
-URL:https://www.pharmacy.utoronto.ca/events/pharmacy-class-8t6-40th-annive
- rsary-reunion
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sustainability Thinking Exhibition 2026
-DTSTART;TZID=EST;VALUE=DATE-TIME:20260303T000000
-DTEND;TZID=EST;VALUE=DATE-TIME:20260303T000000
-UID:4a3e20082dd85e1a307c1b44cfa7bae8@utoronto.ca
-DESCRIPTION:Department: Environment
-LOCATION:Environment\, University of Toronto
-URL:https://www.environment.utoronto.ca/events/sustainability-thinking-exh
- ibition-2026
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Environment and Health Seminar Series: Fleeting\, yet insidious: W
- hen sounds of the city become health hazards with Dr. Tor Oiamo
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260326T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260326T000000
-UID:3719d2564afc4d95bf74c109cb7cb27c@utoronto.ca
-DESCRIPTION:Department: Environment
-LOCATION:Environment\, University of Toronto
-URL:https://www.environment.utoronto.ca/events/environment-and-health-semi
- nar-series-fleeting-yet-insidious-when-sounds-city-become-health
-X-SOURCE:University of Toronto
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Research Day 2026
-DTSTART;TZID=EDT;VALUE=DATE-TIME:20260407T000000
-DTEND;TZID=EDT;VALUE=DATE-TIME:20260407T000000
-UID:0d5c9c522979fbfa54bf42a80006932b@utoronto.ca
-DESCRIPTION:Department: Environment
-LOCATION:Environment\, University of Toronto
-URL:https://www.environment.utoronto.ca/events/research-day-2026
+URL:https://www.pharmacy.utoronto.ca/events/research-paths-pursued-and-key
+ -career-decisions-made
 X-SOURCE:University of Toronto
 END:VEVENT
 END:VCALENDAR

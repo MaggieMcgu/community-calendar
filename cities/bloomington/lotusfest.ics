@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Lotus - ECPv6.15.17//NONSGML v1.0//EN
+PRODID:-//Lotus - ECPv6.15.18//NONSGML v1.0//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Lotus
@@ -51,7 +51,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART;TZID=America/Indiana/Indianapolis:20260101T170000
 DTEND;TZID=America/Indiana/Indianapolis:20261203T180000
-DTSTAMP:20260303T164346
+DTSTAMP:20260411T095908
 CREATED:20251217T125625Z
 LAST-MODIFIED:20251217T125725Z
 UID:27012-1767286800-1796320800@www.lotusfest.org
@@ -63,101 +63,87 @@ CATEGORIES:Arts Activity,Free Event
 ATTACH;FMTTYPE=image/webp:https://www.lotusfest.org/wp-content/uploads/2025/12/ATP-poster-sem-2.webp
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Indiana/Indianapolis:20260306T173000
-DTEND;TZID=America/Indiana/Indianapolis:20260306T200000
-DTSTAMP:20260303T164346
-CREATED:20260218T023249Z
-LAST-MODIFIED:20260218T024616Z
-UID:27107-1772818200-1772827200@www.lotusfest.org
-SUMMARY:Threads Between Us
-DESCRIPTION:March 6th from 5:30p to 8:00p\nJoin us for Threads Between Us\, a hands-on community weaving experience in partnership with Art Remains ReUse Center. Together\, we’ll complete the Community Lotus\, the project was created by artist Sue McCrackin. Together we will weave with t-shirt yarn made from Lotus Festival shirts of years past. \nThis is more than an art project. It’s a living tapestry of threads from festivals\, memories\, music\, and moments\, all woven into something new. Each strand carries a story. Each hand adds strength. \nDrop in\, take a turn at the loom\, and become part of the design. No weaving experience needed\, just a willingness to connect\, create\, and continue the story. \nLet’s finish the lotus together!
-URL:https://www.lotusfest.org/event/threads-between-us/
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260501
+DTSTAMP:20260411T095908
+CREATED:20260312T002505Z
+LAST-MODIFIED:20260312T002729Z
+UID:27168-1775005200-1777510799@www.lotusfest.org
+SUMMARY:Resource Drive for Exodus Refugee
+DESCRIPTION:Month of April\nSupport New Neighbors: Resource Drive for Exodus Refugee Immigration\nJoin us in welcoming new families to our community by contributing to our April Resource Drive for Exodus Refugee. Your donations help provide essential everyday items to refugee families as they settle into life in the Bloomington area. Even small contributions can make a meaningful difference in helping families feel safe\, supported\, and at home. \nWhere to Drop Off Donations\nDonations can be dropped off: \n\nAt any of our public events in April\nAt the Lotus Firebay\n\nMonday\, Wednesday\, Friday: 12:00 PM – 1:00 PM *Unless there is a conflicting lotus event.\nThursdays: 3:00 PM – 6:00 PM\n\n\nQuestions or want to coordinate a drop-off?\nEmail Kirsten (KP) at associatedirector@lotusfest.org. \nItems Currently Needed\nToiletry Items (new only):\n\nShampoo / Conditioner\nHand Soap\nToothbrushes & Toothpaste\nDeodorant\nRazors\nToilet Paper\nSanitary Napkins\n\nHousehold Food Staples:\n\nDry Beans (pinto or black)\nRice\nMasa Flour\nSalt\nOil\nFufu\n\nGift Cards:\n\nGrocery stores (Walmart\, Kroger\, Aldi\, etc.)\nUber or Lyft\n\nItems We Cannot Accept\nTo ensure safety and storage capacity\, the following items cannot be accepted: \n\nUsed beds\, mattresses\, car seats\, cribs\, or pack & plays\nClothing (except outerwear)\nDesks or shelves (including bookshelves)\n\nTogether we can help new families build a foundation in our community. Thank you for supporting neighbors who are just beginning their journey here.
+URL:https://www.lotusfest.org/event/resource-drive-for-exodus-refugee/
 LOCATION:Lotus Firebay\, 105 S Rogers Street\, Bloomington\, IN\, 47404\, United States
-CATEGORIES:Lotus Event
-ATTACH;FMTTYPE=image/webp:https://www.lotusfest.org/wp-content/uploads/2026/02/Call-Out-Meeting-4.webp
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Indiana/Indianapolis:20260306T200000
-DTEND;TZID=America/Indiana/Indianapolis:20260306T230000
-DTSTAMP:20260303T164346
-CREATED:20260218T024330Z
-LAST-MODIFIED:20260218T025001Z
-UID:27111-1772827200-1772838000@www.lotusfest.org
-SUMMARY:SlumberJam
-DESCRIPTION:March 6th from 8:00pm to 11:00pm\nA Teen-Exclusive Night of Music\, Creativity & Connection\nWe’re launching the very first Lotus SlumberJam\, a teen-only night designed for good vibes\, new friendships\, and creative freedom. \nPizza will be provided. Bring your instrument\, your voice\, your beats\, or just yourself. Come ready to jam\, collaborate\, laugh\, and find your people. Whether you’re into acoustic sets\, freestyle rhythms\, or just hanging out\, this is your space. \nWe’ll also have Mario Kart out in the world for a little friendly competition between sets. \nAnd this night begins with something meaningful. \nSlumberJam will grow directly out of Threads Between Us\, our collaborative weaving experience with Art Remains ReUse Center. Together\, we’re completing the Community Lotus design created by artist Sue McCrackin\, woven from t-shirt yarn made from Lotus Festival shirts of years past. Every thread carries a memory. Every hand strengthens the whole. \nWe’ll start by adding our strands to the loom\, then carry that same spirit of connection into the night through music\, laughter\, and shared creativity. \nCome weave.\nCome jam.\nCome be part of the story.
-URL:https://www.lotusfest.org/event/slumber-jam/
-LOCATION:Lotus Firebay\, 105 S Rogers Street\, Bloomington\, IN\, 47404\, United States
-CATEGORIES:Lotus Event
-ATTACH;FMTTYPE=image/webp:https://www.lotusfest.org/wp-content/uploads/2026/02/Call-Out-Meeting-1-1.webp
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Indiana/Indianapolis:20260327T200000
-DTEND;TZID=America/Indiana/Indianapolis:20260327T200000
-DTSTAMP:20260303T164346
-CREATED:20260203T135631Z
-LAST-MODIFIED:20260203T144106Z
-UID:27066-1774641600-1774641600@www.lotusfest.org
-SUMMARY:Lotus Presents: Making Movies
-DESCRIPTION:Friday March 27th at 8:00 pm\n*doors open at 7:00 pm \nWhere: The BlockHouse Bar 21+\, 205 S College Ave\nSliding fee $10 – $25\, Pay at the door \n \nAbout Making Movies\nMaking Movies (3/25/26 – 3/27/26) A dynamic band that blends Afro-Latino rhythms and rock ’n’ roll with African-derived percussion and styles like rumba\, merengue\, mambo\, and cumbia. Founded by Enrique Chi—a Panamanian songwriter\, musician\, filmmaker\, and cultural producer—the Latin Grammy-nominated band serves as the primary platform for Chi’s creative mission. Armed with electric guitars and a mejoranera\, a folkloric guitar native to Panamá\, the band interweaves styles as divergent as cumbia and blues\, salsa\, soul\, and rock’n’roll––all boiled down into their own original sound.
-URL:https://www.lotusfest.org/event/lotus-presents-making-movies/
-LOCATION:Blockhouse Bar\, 205 S. College Avenue\, Bloomington\, Indiana\, 47404\, United States
-CATEGORIES:Lotus Blossoms,Lotus Blossoms Public Event
-ATTACH;FMTTYPE=image/webp:https://www.lotusfest.org/wp-content/uploads/2026/02/20240404_MakingMovies_BlockHouse_ShakilaShrestha-_-130.webp
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Indiana/Indianapolis:20260331T173000
-DTEND;TZID=America/Indiana/Indianapolis:20260331T173000
-DTSTAMP:20260303T164346
-CREATED:20260215T154050Z
-LAST-MODIFIED:20260215T165514Z
-UID:27080-1774978200-1774978200@www.lotusfest.org
-SUMMARY:A Night in Argentina with Eleanor & Dario and Continuo
-DESCRIPTION:Tuesday\, March 31\nDinner at 5:30 / Concert at 6:30\nBlueberry Hill Estate\n1493 IN-56 Paoli\, IN \n$25 concert only / $50 Dinner & Concert \nOrder Tickets Here\nPresented in partnership by Lotus Blossoms\, Let Music Speak\, and Team Peace Argentinian dinner prepared by Lost River Coop & Cafe. \nAbout Eleanor & Dario\nEleanor Dubinsky (cello\, vocals) and Darío Acosta Teich (guitar) take audiences on a trip around the world with multilingual original songs and fresh interpretations of jazz and beloved classics in Spanish\, French\, Portuguese. Their elegant performances transcend genre and geography\, celebrating the beautiful diversity of our world. They serve as cultural ambassadors via the US Department of State Bureau of Educational and Cultural Affairs Arts Envoy program and African Regional Services. \n \nAbout Continuo\nContinuo is an expandable cast of classical+ musicians collaborating and creating to bring captivating performances to a variety of venues. From duo to chamber orchestra\, Continuo performs a wide swath of genres\, including original compositions and the storied classical cannon\, contemporary works\, and arrangements of traditional\, pop and folk songs. Founded by Diana Flores and Jordana Greenberg in 2023\, Continuo’s mission is to create\, collaborate\, and connect\, through the indistinguishable art of music. \n \n 
-URL:https://www.lotusfest.org/event/a-night-in-argentina-with-eleanor-dario-and-continuo/
-LOCATION:Blueberry Hill Estate\, 1493 IN-56\, Paoli\, IN\, United States
-CATEGORIES:Lotus Event
-ATTACH;FMTTYPE=image/webp:https://www.lotusfest.org/wp-content/uploads/2026/02/Poster.webp
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Indiana/Indianapolis:20260402T160000
-DTEND;TZID=America/Indiana/Indianapolis:20260402T190000
-DTSTAMP:20260303T164346
-CREATED:20260215T154140Z
-LAST-MODIFIED:20260215T154508Z
-UID:27087-1775145600-1775156400@www.lotusfest.org
-SUMMARY:IU Arts and Humanities First Thursday Performance by Eleanor & Dario
-DESCRIPTION:Thursday April 2nd\nEvent Time: 4:00 – 7:00 PM\nPerformance Time: TBD\nIU Fine Arts Plaza \nFree to the Public \nView the full event program \nAbout Eleanor & Dario\nEleanor Dubinsky (cello\, vocals) and Darío Acosta Teich (guitar) take audiences on a trip around the world with multilingual original songs and fresh interpretations of jazz and beloved classics in Spanish\, French\, Portuguese. Their elegant performances transcend genre and geography\, celebrating the beautiful diversity of our world. They serve as cultural ambassadors via the US Department of State Bureau of Educational and Cultural Affairs Arts Envoy program and African Regional Services. \n \n 
-URL:https://www.lotusfest.org/event/iu-arts-and-humanities-first-thursday-performance-by-eleanor-dario/
-LOCATION:IU Fine Arts Plaza\, 1296 E 7th St\, Bloomington\, IN\, 47405\, United States
-CATEGORIES:Lotus Event
-ATTACH;FMTTYPE=image/webp:https://www.lotusfest.org/wp-content/uploads/2026/02/ELEANOR-AND-DARIO-HORIZ-TAMBOURINE_CREDIT-ALEX-KOROLKOVAS.webp
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Indiana/Indianapolis:20260404T110000
-DTEND;TZID=America/Indiana/Indianapolis:20260404T150000
-DTSTAMP:20260303T164346
-CREATED:20260121T130336Z
-LAST-MODIFIED:20260121T130701Z
-UID:27049-1775300400-1775314800@www.lotusfest.org
-SUMMARY:Lotus Blossoms World Bazaar
-DESCRIPTION:Saturday April 4th\, 2026\n11a.m. – 3p.m.\nFairview Elementary School\n\nGet ready to travel the world—no passport required!\nThe Lotus Blossoms World Bazaar is a FREE\, all-ages celebration packed with art\, music\, and discovery. With 25+ hands-on activities\, kids and families can learn to play instruments\, write their names in different languages\, explore global traditions\, and uncover the rhythm of the world. \nBring your friends and family and experience the joy of the world together at Fairview Elementary School!
-URL:https://www.lotusfest.org/event/lotus-blossoms-world-bazaar/
-LOCATION:Fairview Elementary School\, 500 W. 7th St.\, Bloomington\, 47404\, United States
-CATEGORIES:Lotus Blossoms,Lotus Blossoms Public Event
-ATTACH;FMTTYPE=image/webp:https://www.lotusfest.org/wp-content/uploads/2026/01/20240323_132747.webp
+CATEGORIES:Free Event
+ATTACH;FMTTYPE=image/webp:https://www.lotusfest.org/wp-content/uploads/2026/03/Screenshot-2026-03-11-at-12.05.28-PM.webp
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Indiana/Indianapolis:20260414T190000
 DTEND;TZID=America/Indiana/Indianapolis:20260414T190000
-DTSTAMP:20260303T164346
+DTSTAMP:20260411T095908
 CREATED:20260215T154207Z
-LAST-MODIFIED:20260215T165552Z
+LAST-MODIFIED:20260310T221454Z
 UID:27083-1776193200-1776193200@www.lotusfest.org
 SUMMARY:Lotus Presents: Cécilia
-DESCRIPTION:Tuesday\, April 14\n7pm – Doors open at 6:30\nLotus Firebay\n105 S Rogers \nSliding Scale $10 – $25 – Pay at the door \nAbout Cécilia\nCécilia is a trio of fine Canadian musicians — Timi Turmel on accordion\, Erin Leahy on piano\, and Louis Schryer on fiddle. They bring fresh spirit to Quebecois and Celtic traditions that have been part of Canadian music for generations. Individually\, they have cred for miles: Timi was Quebecois Champion on accordion three years running; with her siblings in the band LEAHY\, Erin is a multiple JUNO Award winner; and Louis is the only eight-time Canadian Fiddle Champion (and a four-time Grand Masters Fiddle Champion). As Cécilia\, they invite audiences to share in the unmistakable\, irresistible vitality of their music and culture. \n \n 
+DESCRIPTION:Tuesday\, April 14\n7pm – Doors open at 6:30\nLotus Firebay\n105 S Rogers \nSliding Scale $10 – $25 – Pay at the door \nBuy Tickets for this Event \nAbout Cécilia\nCécilia is a trio of fine Canadian musicians — Timi Turmel on accordion\, Erin Leahy on piano\, and Louis Schryer on fiddle. They bring fresh spirit to Quebecois and Celtic traditions that have been part of Canadian music for generations. Individually\, they have cred for miles: Timi was Quebecois Champion on accordion three years running; with her siblings in the band LEAHY\, Erin is a multiple JUNO Award winner; and Louis is the only eight-time Canadian Fiddle Champion (and a four-time Grand Masters Fiddle Champion). As Cécilia\, they invite audiences to share in the unmistakable\, irresistible vitality of their music and culture. \n \n 
 URL:https://www.lotusfest.org/event/lotus-presents-cecilia/
 LOCATION:Lotus Firebay\, 105 S Rogers Street\, Bloomington\, IN\, 47404\, United States
 CATEGORIES:Lotus Event
 ATTACH;FMTTYPE=image/webp:https://www.lotusfest.org/wp-content/uploads/2026/02/Cecilia-Trio-1-ChantalGallant.webp
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Indiana/Indianapolis:20260417T173000
+DTEND;TZID=America/Indiana/Indianapolis:20260417T183000
+DTSTAMP:20260411T095908
+CREATED:20260402T115124Z
+LAST-MODIFIED:20260402T115124Z
+UID:27270-1776447000-1776450600@www.lotusfest.org
+SUMMARY:Mandala Mindfulness: A Community Event with Vibe Yoga + Lotus
+DESCRIPTION:Join Laura in the Air Studio for 60-minutes of Mandala Mindfulness\, designed to center your system and deepen your focus. Rooted in the Sanskrit word mandala\, meaning “circle” or “wholeness\,” this practice uses circular movement and imagery to cultivate focus\, balance\, and a sense of completion. \nThe session begins with a 30-minute gentle mandala yoga flow\, guiding you in a continuous\, circular sequence around your mat. You’ll then transition into a 30-minute mandala-inspired mindfulness activity\, encouraging reflection\, creativity\, and inner stillness. \nAfter class\, you’re invited to stay and connect with the community over light refreshments. This event is designed for all levels of experience—no prior experience is needed. \nThis is a donation-based offering\, with all proceeds supporting the Lotus Education and Arts Foundation. Space is limited\, so advance registration is encouraged. The event will be held outdoors; in case of inclement weather\, it will move to the Water Studio.
+URL:https://www.lotusfest.org/event/mandala-mindfulness-a-community-event-with-vibe-yoga-lotus/
+LOCATION:IN
+CATEGORIES:Lotus Event
+ATTACH;FMTTYPE=image/webp:https://www.lotusfest.org/wp-content/uploads/2026/04/4.17.26-Mandala-Mindfulness-Flyer.webp
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Indiana/Indianapolis:20260417T183000
+DTEND;TZID=America/Indiana/Indianapolis:20260417T183000
+DTSTAMP:20260411T095908
+CREATED:20260402T161636Z
+LAST-MODIFIED:20260402T161857Z
+UID:27273-1776450600-1776450600@www.lotusfest.org
+SUMMARY:Tuimbeni Presents An Evening with African and African Diaspora Musicians
+DESCRIPTION:A Night of Live Performance\, Storytelling\, and Connection\nApril 17th at 6:30PM\nLotus Firebay\, 105 S Rogers St.\nSome of the artists include: Dan Kusaya\, Sylvester Makobi\, Nikki Manso\, Giovani Malcolm\, and Kimberly Carballo \nBuy Tickets Here
+URL:https://www.lotusfest.org/event/tuimbeni-presents-an-evening-with-african-and-african-diaspora-musicians/
+LOCATION:Lotus Firebay\, 105 S Rogers Street\, Bloomington\, IN\, 47404\, United States
+CATEGORIES:Lotus Event
+ATTACH;FMTTYPE=image/webp:https://www.lotusfest.org/wp-content/uploads/2026/04/Tuimbeni-Horizontal.webp
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Indiana/Indianapolis:20260421T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260421T190000
+DTSTAMP:20260411T095908
+CREATED:20260312T001041Z
+LAST-MODIFIED:20260312T001351Z
+UID:27161-1776794400-1776798000@www.lotusfest.org
+SUMMARY:Exodus Refugee Presents: Refugee 101 at Lotus
+DESCRIPTION:Date: April 21st\nTime: 6 to 7pm\nLocation: Lotus Firebay 105 S. Rogers\n\nMark Your Calendars\nOn Tuesday\, April 21st at 6 p.m.\, Exodus Refugee Immigration is partnering with Lotus to offer a “Refugee 101” presentation! Come and learn about a brief overview of refugee resettlement in the U.S.\, the work that Exodus does\, and the impacts that have been felt under the current administration. This is a casual event\, open to all\, that will offer time after the presentation and for Q&A.
+URL:https://www.lotusfest.org/event/exodus-refugee-presents-refugee-101-at-lotus/
+LOCATION:Lotus Firebay\, 105 S Rogers Street\, Bloomington\, IN\, 47404\, United States
+CATEGORIES:Lotus Event
+ATTACH;FMTTYPE=image/webp:https://www.lotusfest.org/wp-content/uploads/2026/03/R101-at-Lotus-FB-event-graphic.webp
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Indiana/Indianapolis:20260505T180000
+DTEND;TZID=America/Indiana/Indianapolis:20260505T200000
+DTSTAMP:20260411T095908
+CREATED:20260319T033310Z
+LAST-MODIFIED:20260319T033634Z
+UID:27186-1778004000-1778011200@www.lotusfest.org
+SUMMARY:Lotus Volunteer Appreciation Party
+DESCRIPTION:Date: Tuesday May 5th\nTime: 6-8PM\nLocation: Lotus Firebay\, 105 S. Rogers\, Bloomington\, IN\nPlease RSVP to this event.
+URL:https://www.lotusfest.org/event/lotus-volunteer-appreciation-party-2026/
+LOCATION:Lotus Firebay\, 105 S Rogers Street\, Bloomington\, IN\, 47404\, United States
+CATEGORIES:Lotus Event
+ATTACH;FMTTYPE=image/webp:https://www.lotusfest.org/wp-content/uploads/2026/03/Appreciation-Party-1.webp
 END:VEVENT
 END:VCALENDAR
