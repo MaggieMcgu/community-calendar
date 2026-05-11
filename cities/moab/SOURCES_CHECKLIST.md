@@ -21,6 +21,7 @@
 | Climb Moab | `climb_moab.py` (Squarespace) | `?format=json` API, quarterly volume |
 | Back of Beyond Books | `back_of_beyond.py` (HTML) | WordPress, ~31 events/60d |
 | Wellness Collective Moab | `wellness_collective.py` (GoDaddy) | Client-side rendered, needs headless |
+| Moab Area Chamber of Commerce | `moab_chamber.py` (GrowthZone per-event .ics) | Walks listing in 30-day windows, fetches each event's .ics. ~10 events visible at once. |
 
 ## Non-Starters
 - **Facebook Events** — Meta killed `/events/ical/` in 2019
