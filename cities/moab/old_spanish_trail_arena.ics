@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 4.0//EN
+PRODID:iCalendar-Ruby
 VERSION:2.0
 X-WR-TIMEZONE:America/Denver
 BEGIN:VTIMEZONE
@@ -26,11 +26,11 @@ DTEND;TZID=America/Denver:20300903T183000
 DTSTAMP;TZID=America/Denver:20260211T112903
 DTSTART;TZID=America/Denver:20300903T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T112903
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16453
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -40,31 +40,31 @@ DTEND;TZID=America/Denver:20300604T183000
 DTSTAMP;TZID=America/Denver:20260211T112903
 DTSTART;TZID=America/Denver:20300604T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T112903
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16452
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=7272
-DTEND;TZID=America/Denver;VALUE=DATE:20300428
+DTEND;VALUE=DATE:20300428
 DTSTAMP;TZID=America/Denver:20201118T145027
-DTSTART;TZID=America/Denver;VALUE=DATE:20300423
+DTSTART;VALUE=DATE:20300423
 LAST-MODIFIED;TZID=America/Denver:20201118T145027
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Cruise Moab Indoor Arena & Racetrack
+SUMMARY:Cruise Moab Indoor Arena & Racetrack 
 UID:7272
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=7271
-DTEND;TZID=America/Denver;VALUE=DATE:20300420
+DTEND;VALUE=DATE:20300420
 DTSTAMP;TZID=America/Denver:20250318T132624
-DTSTART;TZID=America/Denver;VALUE=DATE:20300410
+DTSTART;VALUE=DATE:20300410
 LAST-MODIFIED;TZID=America/Denver:20250318T132624
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
@@ -78,11 +78,11 @@ DTEND;TZID=America/Denver:20300305T183000
 DTSTAMP;TZID=America/Denver:20260211T112903
 DTSTART;TZID=America/Denver:20300305T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T112903
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16451
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -92,8 +92,8 @@ DTEND;TZID=America/Denver:20291219T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20291219T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15074
@@ -105,11 +105,11 @@ DTEND;TZID=America/Denver:20291204T183000
 DTSTAMP;TZID=America/Denver:20260211T112903
 DTSTART;TZID=America/Denver:20291204T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T112903
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16450
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -119,8 +119,8 @@ DTEND;TZID=America/Denver:20291121T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20291121T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15073
@@ -132,8 +132,8 @@ DTEND;TZID=America/Denver:20291017T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20291017T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15072
@@ -145,8 +145,8 @@ DTEND;TZID=America/Denver:20290919T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20290919T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15071
@@ -158,11 +158,11 @@ DTEND;TZID=America/Denver:20290904T183000
 DTSTAMP;TZID=America/Denver:20260211T112903
 DTSTART;TZID=America/Denver:20290904T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T112903
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16449
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -172,8 +172,8 @@ DTEND;TZID=America/Denver:20290815T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20290815T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15070
@@ -185,8 +185,8 @@ DTEND;TZID=America/Denver:20290718T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20290718T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15069
@@ -198,8 +198,8 @@ DTEND;TZID=America/Denver:20290620T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20290620T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15068
@@ -211,11 +211,11 @@ DTEND;TZID=America/Denver:20290605T183000
 DTSTAMP;TZID=America/Denver:20260211T112903
 DTSTART;TZID=America/Denver:20290605T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T112903
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16448
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -225,8 +225,8 @@ DTEND;TZID=America/Denver:20290516T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20290516T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15067
@@ -238,8 +238,8 @@ DTEND;TZID=America/Denver:20290418T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20290418T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15066
@@ -247,13 +247,13 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=7270
-DTEND;TZID=America/Denver;VALUE=DATE:20290422
+DTEND;VALUE=DATE:20290422
 DTSTAMP;TZID=America/Denver:20201118T144722
-DTSTART;TZID=America/Denver;VALUE=DATE:20290416
+DTSTART;VALUE=DATE:20290416
 LAST-MODIFIED;TZID=America/Denver:20201118T144722
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Cruise Moab Indoor Arena & Racetrack
+SUMMARY:Cruise Moab Indoor Arena & Racetrack 
 UID:7270
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -263,8 +263,8 @@ DTEND;TZID=America/Denver:20290321T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20290321T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15065
@@ -272,9 +272,9 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=7269
-DTEND;TZID=America/Denver;VALUE=DATE:20290331
+DTEND;VALUE=DATE:20290331
 DTSTAMP;TZID=America/Denver:20250318T132607
-DTSTART;TZID=America/Denver;VALUE=DATE:20290321
+DTSTART;VALUE=DATE:20290321
 LAST-MODIFIED;TZID=America/Denver:20250318T132607
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
@@ -288,11 +288,11 @@ DTEND;TZID=America/Denver:20290306T183000
 DTSTAMP;TZID=America/Denver:20260211T112903
 DTSTART;TZID=America/Denver:20290306T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T112903
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16447
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -302,8 +302,8 @@ DTEND;TZID=America/Denver:20290221T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20290221T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15064
@@ -315,8 +315,8 @@ DTEND;TZID=America/Denver:20290117T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20290117T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15063
@@ -328,8 +328,8 @@ DTEND;TZID=America/Denver:20281220T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20281220T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15062
@@ -341,11 +341,11 @@ DTEND;TZID=America/Denver:20281205T183000
 DTSTAMP;TZID=America/Denver:20260211T112903
 DTSTART;TZID=America/Denver:20281205T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T112903
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16446
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -355,8 +355,8 @@ DTEND;TZID=America/Denver:20281115T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20281115T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15061
@@ -368,8 +368,8 @@ DTEND;TZID=America/Denver:20281018T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20281018T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15060
@@ -381,8 +381,8 @@ DTEND;TZID=America/Denver:20280920T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20280920T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15059
@@ -394,11 +394,11 @@ DTEND;TZID=America/Denver:20280905T183000
 DTSTAMP;TZID=America/Denver:20260211T112903
 DTSTART;TZID=America/Denver:20280905T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T112903
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16445
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -408,8 +408,8 @@ DTEND;TZID=America/Denver:20280816T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20280816T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15058
@@ -421,8 +421,8 @@ DTEND;TZID=America/Denver:20280719T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20280719T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15057
@@ -434,8 +434,8 @@ DTEND;TZID=America/Denver:20280621T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20280621T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15056
@@ -447,11 +447,11 @@ DTEND;TZID=America/Denver:20280606T183000
 DTSTAMP;TZID=America/Denver:20260211T112903
 DTSTART;TZID=America/Denver:20280606T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T112903
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16444
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -461,8 +461,8 @@ DTEND;TZID=America/Denver:20280517T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20280517T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15055
@@ -474,8 +474,8 @@ DTEND;TZID=America/Denver:20280419T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20280419T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15054
@@ -483,9 +483,9 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=7268
-DTEND;TZID=America/Denver;VALUE=DATE:20280423
+DTEND;VALUE=DATE:20280423
 DTSTAMP;TZID=America/Denver:20201118T144433
-DTSTART;TZID=America/Denver;VALUE=DATE:20280418
+DTSTART;VALUE=DATE:20280418
 LAST-MODIFIED;TZID=America/Denver:20201118T144433
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
@@ -495,9 +495,9 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=7267
-DTEND;TZID=America/Denver;VALUE=DATE:20280415
+DTEND;VALUE=DATE:20280415
 DTSTAMP;TZID=America/Denver:20250318T132530
-DTSTART;TZID=America/Denver;VALUE=DATE:20280405
+DTSTART;VALUE=DATE:20280405
 LAST-MODIFIED;TZID=America/Denver:20250318T132530
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
@@ -511,8 +511,8 @@ DTEND;TZID=America/Denver:20280315T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20280315T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15053
@@ -524,11 +524,11 @@ DTEND;TZID=America/Denver:20280307T183000
 DTSTAMP;TZID=America/Denver:20260211T112903
 DTSTART;TZID=America/Denver:20280307T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T112903
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16443
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -538,8 +538,8 @@ DTEND;TZID=America/Denver:20280216T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20280216T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15052
@@ -551,8 +551,8 @@ DTEND;TZID=America/Denver:20280119T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20280119T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15051
@@ -564,8 +564,8 @@ DTEND;TZID=America/Denver:20271215T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20271215T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15050
@@ -577,11 +577,11 @@ DTEND;TZID=America/Denver:20271207T183000
 DTSTAMP;TZID=America/Denver:20260211T112903
 DTSTART;TZID=America/Denver:20271207T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T112903
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16442
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -591,8 +591,8 @@ DTEND;TZID=America/Denver:20271117T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20271117T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15049
@@ -604,8 +604,8 @@ DTEND;TZID=America/Denver:20271020T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20271020T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15048
@@ -617,8 +617,8 @@ DTEND;TZID=America/Denver:20270915T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20270915T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15047
@@ -630,11 +630,11 @@ DTEND;TZID=America/Denver:20270907T183000
 DTSTAMP;TZID=America/Denver:20260211T112903
 DTSTART;TZID=America/Denver:20270907T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T112903
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16441
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -644,8 +644,8 @@ DTEND;TZID=America/Denver:20270818T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20270818T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15046
@@ -657,8 +657,8 @@ DTEND;TZID=America/Denver:20270721T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20270721T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15045
@@ -670,8 +670,8 @@ DTEND;TZID=America/Denver:20270616T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20270616T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15044
@@ -683,11 +683,11 @@ DTEND;TZID=America/Denver:20270601T183000
 DTSTAMP;TZID=America/Denver:20260211T112903
 DTSTART;TZID=America/Denver:20270601T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T112903
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16440
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -697,8 +697,8 @@ DTEND;TZID=America/Denver:20270519T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20270519T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15043
@@ -710,8 +710,8 @@ DTEND;TZID=America/Denver:20270421T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20270421T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15042
@@ -719,13 +719,13 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=7266
-DTEND;TZID=America/Denver;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270418
 DTSTAMP;TZID=America/Denver:20201118T144115
-DTSTART;TZID=America/Denver;VALUE=DATE:20270412
+DTSTART;VALUE=DATE:20270412
 LAST-MODIFIED;TZID=America/Denver:20201118T144115
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Cruise Moab Indoor Arena & Racetrack
+SUMMARY:Cruise Moab Indoor Arena & Racetrack 
 UID:7266
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -735,8 +735,8 @@ DTEND;TZID=America/Denver:20270317T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20270317T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15041
@@ -744,9 +744,9 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=7265
-DTEND;TZID=America/Denver;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270327
 DTSTAMP;TZID=America/Denver:20250318T132502
-DTSTART;TZID=America/Denver;VALUE=DATE:20270317
+DTSTART;VALUE=DATE:20270317
 LAST-MODIFIED;TZID=America/Denver:20250318T132502
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
@@ -760,11 +760,11 @@ DTEND;TZID=America/Denver:20270302T183000
 DTSTAMP;TZID=America/Denver:20260211T112903
 DTSTART;TZID=America/Denver:20270302T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T112903
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16439
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -774,8 +774,8 @@ DTEND;TZID=America/Denver:20270217T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20270217T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15040
@@ -787,8 +787,8 @@ DTEND;TZID=America/Denver:20270120T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20270120T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15039
@@ -802,8 +802,8 @@ DTSTART;TZID=America/Denver:20270101T080000
 LAST-MODIFIED;TZID=America/Denver:20260106T084435
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Main Arena Office CLOSED for New Year Day\, Indoor and Outdoor Are
- nas available.  Stalls and Pens Open
+SUMMARY:Main Arena Office CLOSED for New Year Day\, Indoor and Outdoor Aren
+ as available.  Stalls and Pens Open
 UID:15878
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -899,8 +899,8 @@ DTSTART;TZID=America/Denver:20261224T080000
 LAST-MODIFIED;TZID=America/Denver:20260106T084351
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Main Arena Office CLOSED for Christmas\, Indoor and Outdoor Arenas
-  available.  Stalls and Pens Open
+SUMMARY:Main Arena Office CLOSED for Christmas\, Indoor and Outdoor Arenas 
+ available.  Stalls and Pens Open
 UID:15877
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -1006,8 +1006,8 @@ DTEND;TZID=America/Denver:20261216T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20261216T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15038
@@ -1199,10 +1199,11 @@ DTEND;TZID=America/Denver:20261201T183000
 DTSTAMP;TZID=America/Denver:20250114T092616
 DTSTART;TZID=America/Denver:20261201T173000
 LAST-MODIFIED;TZID=America/Denver:20250114T092616
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Canyonlands PRCA Rodeo Meeting  5:30pm-6:30pm- OSTA Conference Room
+  
 UID:14162
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -1286,8 +1287,8 @@ DTSTART;TZID=America/Denver:20261125T080000
 LAST-MODIFIED;TZID=America/Denver:20260106T084301
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Main Arena Office CLOSED for Thanksgiving\, Indoor and Outdoor Are
- nas available.  Stalls and Pens Open
+SUMMARY:Main Arena Office CLOSED for Thanksgiving\, Indoor and Outdoor Aren
+ as available.  Stalls and Pens Open
 UID:15876
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -1381,8 +1382,8 @@ DTEND;TZID=America/Denver:20261118T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20261118T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15037
@@ -1450,9 +1451,9 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16288
-DTEND;TZID=America/Denver;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261114
 DTSTAMP;TZID=America/Denver:20260126T145229
-DTSTART;TZID=America/Denver;VALUE=DATE:20261114
+DTSTART;VALUE=DATE:20261114
 LAST-MODIFIED;TZID=America/Denver:20260126T145229
 LOCATION:OSTARC Facilities > Soccer Field 1 - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
@@ -1492,8 +1493,8 @@ DTSTART;TZID=America/Denver:20261111T080000
 LAST-MODIFIED;TZID=America/Denver:20260106T084213
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Main Arena Office CLOSED for Veterans Day\, Indoor and Outdoor Are
- nas available.  Stalls and Pens Open
+SUMMARY:Main Arena Office CLOSED for Veterans Day\, Indoor and Outdoor Aren
+ as available.  Stalls and Pens Open
 UID:15875
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -1515,11 +1516,11 @@ DTEND;TZID=America/Denver:20261110T183000
 DTSTAMP;TZID=America/Denver:20260211T113359
 DTSTART;TZID=America/Denver:20261110T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T113359
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16456
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -1613,10 +1614,11 @@ DTEND;TZID=America/Denver:20261103T183000
 DTSTAMP;TZID=America/Denver:20250114T092616
 DTSTART;TZID=America/Denver:20261103T173000
 LAST-MODIFIED;TZID=America/Denver:20250114T092616
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Canyonlands PRCA Rodeo Meeting  5:30pm-6:30pm- OSTA Conference Room
+  
 UID:14161
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -1662,8 +1664,8 @@ DTEND;TZID=America/Denver:20261031T183000
 DTSTAMP;TZID=America/Denver:20251117T095007
 DTSTART;TZID=America/Denver:20261031T160000
 LAST-MODIFIED;TZID=America/Denver:20251117T095007
-LOCATION:OSTARC Facilities > Ball fields Road - 3641 S Hwy 191  Moab UT 84
- 532
+LOCATION:OSTARC Facilities > Ball fields Road - 3641 S Hwy 191  Moab UT 845
+ 32
 SEQUENCE:0
 SUMMARY:Trunk or Treat - Ballfield Road 4pm - 6:30pm
 UID:15624
@@ -1689,7 +1691,7 @@ DTSTART;TZID=America/Denver:20261030T180000
 LAST-MODIFIED;TZID=America/Denver:20260107T115007
 LOCATION:OSTARC Facilities > Pavilion - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Skate Moab - Free Community Night - All Ages 6pm-8pm - Pavilion
+SUMMARY:Skate Moab - Free Community Night - All Ages 6pm-8pm - Pavilion 
 UID:15908
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -1719,9 +1721,9 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16287
-DTEND;TZID=America/Denver;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261031
 DTSTAMP;TZID=America/Denver:20260126T145128
-DTSTART;TZID=America/Denver;VALUE=DATE:20261029
+DTSTART;VALUE=DATE:20261029
 LAST-MODIFIED;TZID=America/Denver:20260126T145128
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
@@ -1767,9 +1769,9 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15476
-DTEND;TZID=America/Denver;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261025
 DTSTAMP;TZID=America/Denver:20251001T073456
-DTSTART;TZID=America/Denver;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20261024
 LAST-MODIFIED;TZID=America/Denver:20251001T073456
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
@@ -1803,14 +1805,14 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15587
-DTEND;TZID=America/Denver;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261024
 DTSTAMP;TZID=America/Denver:20251029T145600
-DTSTART;TZID=America/Denver;VALUE=DATE:20261022
+DTSTART;VALUE=DATE:20261022
 LAST-MODIFIED;TZID=America/Denver:20251029T145600
 LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Softball Tournament - Field of Screams - Ballfield #1 & #2 - All D
- ay
+SUMMARY:Softball Tournament - Field of Screams - Ballfield #1 & #2 - All Da
+ y
 UID:15587
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -1820,8 +1822,8 @@ DTEND;TZID=America/Denver:20261021T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20261021T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15036
@@ -1857,8 +1859,8 @@ DTEND;TZID=America/Denver:20261023T200000
 DTSTAMP;TZID=America/Denver:20250815T080640
 DTSTART;TZID=America/Denver:20261019T080000
 LAST-MODIFIED;TZID=America/Denver:20250815T080640
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Rigging for Rescue Training\, Arena Conference Room (All Day)
 UID:15201
@@ -1956,8 +1958,8 @@ DTSTART;TZID=America/Denver:20261012T080000
 LAST-MODIFIED;TZID=America/Denver:20260106T084112
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Main Arena Office CLOSED for Indigenous Peoples' Day\, Indoor and 
- Outdoor Arenas available.  Stalls and Pens Open
+SUMMARY:Main Arena Office CLOSED for Indigenous Peoples' Day\, Indoor and O
+ utdoor Arenas available.  Stalls and Pens Open
 UID:15874
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -2039,10 +2041,11 @@ DTEND;TZID=America/Denver:20261006T183000
 DTSTAMP;TZID=America/Denver:20250114T092616
 DTSTART;TZID=America/Denver:20261006T173000
 LAST-MODIFIED;TZID=America/Denver:20250114T092616
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Canyonlands PRCA Rodeo Meeting  5:30pm-6:30pm- OSTA Conference Room
+  
 UID:14160
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -2156,9 +2159,9 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15475
-DTEND;TZID=America/Denver;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260927
 DTSTAMP;TZID=America/Denver:20251002T072902
-DTSTART;TZID=America/Denver;VALUE=DATE:20260926
+DTSTART;VALUE=DATE:20260926
 LAST-MODIFIED;TZID=America/Denver:20251002T072902
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
@@ -2174,7 +2177,7 @@ DTSTART;TZID=America/Denver:20260925T180000
 LAST-MODIFIED;TZID=America/Denver:20260107T115007
 LOCATION:OSTARC Facilities > Pavilion - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Skate Moab - Free Community Night - All Ages 6pm-8pm - Pavilion
+SUMMARY:Skate Moab - Free Community Night - All Ages 6pm-8pm - Pavilion 
 UID:15907
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -2244,8 +2247,8 @@ DTEND;TZID=America/Denver:20260916T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20260916T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15035
@@ -2253,9 +2256,9 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=13581
-DTEND;TZID=America/Denver;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260920
 DTSTAMP;TZID=America/Denver:20250307T151358
-DTSTART;TZID=America/Denver;VALUE=DATE:20260916
+DTSTART;VALUE=DATE:20260916
 LAST-MODIFIED;TZID=America/Denver:20250307T151358
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
@@ -2367,8 +2370,8 @@ DTSTART;TZID=America/Denver:20260907T080000
 LAST-MODIFIED;TZID=America/Denver:20260106T084010
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Main Arena Office CLOSED for Labor Day\, Indoor and Outdoor Arenas
-  available.  Stalls and Pens Open
+SUMMARY:Main Arena Office CLOSED for Labor Day\, Indoor and Outdoor Arenas 
+ available.  Stalls and Pens Open
 UID:15873
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -2450,10 +2453,11 @@ DTEND;TZID=America/Denver:20260901T183000
 DTSTAMP;TZID=America/Denver:20250114T092616
 DTSTART;TZID=America/Denver:20260901T173000
 LAST-MODIFIED;TZID=America/Denver:20250114T092616
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Canyonlands PRCA Rodeo Meeting  5:30pm-6:30pm- OSTA Conference Room
+  
 UID:14159
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -2513,7 +2517,7 @@ DTSTART;TZID=America/Denver:20260828T180000
 LAST-MODIFIED;TZID=America/Denver:20260107T115007
 LOCATION:OSTARC Facilities > Pavilion - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Skate Moab - Free Community Night - All Ages 6pm-8pm - Pavilion
+SUMMARY:Skate Moab - Free Community Night - All Ages 6pm-8pm - Pavilion 
 UID:15906
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -2631,8 +2635,8 @@ DTEND;TZID=America/Denver:20260819T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20260819T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15034
@@ -2740,11 +2744,11 @@ DTEND;TZID=America/Denver:20260811T183000
 DTSTAMP;TZID=America/Denver:20260211T113221
 DTSTART;TZID=America/Denver:20260811T173000
 LAST-MODIFIED;TZID=America/Denver:20260211T113221
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16455
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -2838,10 +2842,11 @@ DTEND;TZID=America/Denver:20260804T183000
 DTSTAMP;TZID=America/Denver:20250114T092616
 DTSTART;TZID=America/Denver:20260804T173000
 LAST-MODIFIED;TZID=America/Denver:20250114T092616
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Canyonlands PRCA Rodeo Meeting  5:30pm-6:30pm- OSTA Conference Room
+  
 UID:14158
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -2901,7 +2906,7 @@ DTSTART;TZID=America/Denver:20260731T180000
 LAST-MODIFIED;TZID=America/Denver:20260107T115007
 LOCATION:OSTARC Facilities > Pavilion - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Skate Moab - Free Community Night - All Ages 6pm-8pm - Pavilion
+SUMMARY:Skate Moab - Free Community Night - All Ages 6pm-8pm - Pavilion 
 UID:15905
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -3045,8 +3050,8 @@ DTSTART;TZID=America/Denver:20260724T080000
 LAST-MODIFIED;TZID=America/Denver:20260106T083101
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Main Arena Office CLOSED for Pioneer Day\, Indoor and Outdoor Aren
- as available.  Stalls and Pens Open
+SUMMARY:Main Arena Office CLOSED for Pioneer Day\, Indoor and Outdoor Arena
+ s available.  Stalls and Pens Open
 UID:15872
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -3224,8 +3229,8 @@ DTEND;TZID=America/Denver:20260715T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20260715T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15033
@@ -3393,10 +3398,11 @@ DTEND;TZID=America/Denver:20260707T183000
 DTSTAMP;TZID=America/Denver:20250114T092616
 DTSTART;TZID=America/Denver:20260707T173000
 LAST-MODIFIED;TZID=America/Denver:20250114T092616
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Canyonlands PRCA Rodeo Meeting  5:30pm-6:30pm- OSTA Conference Room
+  
 UID:14157
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -3456,8 +3462,8 @@ DTSTART;TZID=America/Denver:20260703T080000
 LAST-MODIFIED;TZID=America/Denver:20260106T083023
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Main Arena Office CLOSED for Independence Day\, Indoor and Outdoor
-  Arenas available.  Stalls and Pens Open
+SUMMARY:Main Arena Office CLOSED for Independence Day\, Indoor and Outdoor 
+ Arenas available.  Stalls and Pens Open
 UID:15871
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -3487,9 +3493,9 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15583
-DTEND;TZID=America/Denver;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260704
 DTSTAMP;TZID=America/Denver:20251028T114206
-DTSTART;TZID=America/Denver;VALUE=DATE:20260702
+DTSTART;VALUE=DATE:20260702
 LAST-MODIFIED;TZID=America/Denver:20251028T114206
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
@@ -3541,7 +3547,7 @@ DTSTART;TZID=America/Denver:20260626T180000
 LAST-MODIFIED;TZID=America/Denver:20260107T115007
 LOCATION:OSTARC Facilities > Pavilion - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Skate Moab - Free Community Night - All Ages 6pm-8pm - Pavilion
+SUMMARY:Skate Moab - Free Community Night - All Ages 6pm-8pm - Pavilion 
 UID:15904
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -3601,8 +3607,8 @@ DTSTART;TZID=America/Denver:20260619T080000
 LAST-MODIFIED;TZID=America/Denver:20260106T082930
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Main Arena Office CLOSED for Juneteenth\, Indoor and Outdoor Arena
- s available.  Stalls and Pens Open
+SUMMARY:Main Arena Office CLOSED for Juneteenth\, Indoor and Outdoor Arenas
+  available.  Stalls and Pens Open
 UID:15870
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -3624,8 +3630,8 @@ DTEND;TZID=America/Denver:20260617T210000
 DTSTAMP;TZID=America/Denver:20251028T115320
 DTSTART;TZID=America/Denver:20260617T190000
 LAST-MODIFIED;TZID=America/Denver:20251028T115320
-LOCATION:OSTARC Facilities > Conference Rm 2 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 2 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15032
@@ -3668,6 +3674,18 @@ UID:16520
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15585
+DTEND;VALUE=DATE:20260625
+DTSTAMP;TZID=America/Denver:20260505T110852
+DTSTART;VALUE=DATE:20260614
+LAST-MODIFIED;TZID=America/Denver:20260505T110852
+LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Private Event - Indoor Arena - NO PUBLIC ACCESS
+UID:15585
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16519
 DTEND;TZID=America/Denver:20260611T190000
 DTSTAMP;TZID=America/Denver:20260226T153124
@@ -3689,18 +3707,6 @@ LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
 UID:16518
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15585
-DTEND;TZID=America/Denver;VALUE=DATE:20260625
-DTSTAMP;TZID=America/Denver:20251028T115444
-DTSTART;TZID=America/Denver;VALUE=DATE:20260610
-LAST-MODIFIED;TZID=America/Denver:20251028T115444
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Private Event - Indoor Arena - NO PUBLIC ACCESS
-UID:15585
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
@@ -3729,9 +3735,9 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15123
-DTEND;TZID=America/Denver;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260607
 DTSTAMP;TZID=America/Denver:20251028T114926
-DTSTART;TZID=America/Denver;VALUE=DATE:20260606
+DTSTART;VALUE=DATE:20260606
 LAST-MODIFIED;TZID=America/Denver:20251028T114926
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
@@ -3769,10 +3775,11 @@ DTEND;TZID=America/Denver:20260602T183000
 DTSTAMP;TZID=America/Denver:20250114T092616
 DTSTART;TZID=America/Denver:20260602T173000
 LAST-MODIFIED;TZID=America/Denver:20250114T092616
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Canyonlands PRCA Rodeo Meeting  5:30pm-6:30pm- OSTA Conference Room
+  
 UID:14156
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -3802,9 +3809,9 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15584
-DTEND;TZID=America/Denver;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260605
 DTSTAMP;TZID=America/Denver:20251028T115217
-DTSTART;TZID=America/Denver;VALUE=DATE:20260601
+DTSTART;VALUE=DATE:20260601
 LAST-MODIFIED;TZID=America/Denver:20251028T115217
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
@@ -3820,15 +3827,15 @@ DTSTART;TZID=America/Denver:20260529T180000
 LAST-MODIFIED;TZID=America/Denver:20260107T115007
 LOCATION:OSTARC Facilities > Pavilion - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Skate Moab - Free Community Night - All Ages 6pm-8pm - Pavilion
+SUMMARY:Skate Moab - Free Community Night - All Ages 6pm-8pm - Pavilion 
 UID:15903
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=14852
-DTEND;TZID=America/Denver;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260531
 DTSTAMP;TZID=America/Denver:20251028T113953
-DTSTART;TZID=America/Denver;VALUE=DATE:20260529
+DTSTART;VALUE=DATE:20260529
 LAST-MODIFIED;TZID=America/Denver:20251028T113953
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
@@ -3868,8 +3875,8 @@ DTSTART;TZID=America/Denver:20260527T163000
 LAST-MODIFIED;TZID=America/Denver:20260126T115824
 LOCATION:Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Indoor A
- rena
+SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Indoor Ar
+ ena
 UID:16279
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -3905,9 +3912,21 @@ DTSTART;TZID=America/Denver:20260525T080000
 LAST-MODIFIED;TZID=America/Denver:20260106T082839
 LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Main Arena Office CLOSED for Memorial Day\, Indoor and Outdoor Are
- nas available.  Stalls and Pens Open
+SUMMARY:Main Arena Office CLOSED for Memorial Day\, Indoor and Outdoor Aren
+ as available.  Stalls and Pens Open
 UID:15869
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16684
+DTEND;TZID=America/Denver:20260528T210000
+DTSTAMP;TZID=America/Denver:20260427T134057
+DTSTART;TZID=America/Denver:20260525T080000
+LAST-MODIFIED;TZID=America/Denver:20260427T134057
+LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Canyonlands PRCA Rodeo Setup and Prep
+UID:16684
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
@@ -3918,8 +3937,8 @@ DTSTART;TZID=America/Denver:20260524T163000
 LAST-MODIFIED;TZID=America/Denver:20260126T115812
 LOCATION:Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Indoor A
- rena
+SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Indoor Ar
+ ena
 UID:16237
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -3941,8 +3960,8 @@ DTEND;TZID=America/Denver:20260520T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
 DTSTART;TZID=America/Denver:20260520T190000
 LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
 SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
 UID:15031
@@ -3968,9 +3987,23 @@ DTSTART;TZID=America/Denver:20260520T163000
 LAST-MODIFIED;TZID=America/Denver:20260126T115621
 LOCATION:OSTARC Facilities > Outdoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Outdoor 
- Arena
+SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Outdoor A
+ rena
 UID:16278
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16683
+DTEND;TZID=America/Denver:20260519T183000
+DTSTAMP;TZID=America/Denver:20260427T133927
+DTSTART;TZID=America/Denver:20260519T173000
+LAST-MODIFIED;TZID=America/Denver:20260427T133927
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
+SEQUENCE:0
+SUMMARY:Canyonlands PRCA Rodeo Meeting  5:30pm-6:30pm- OSTA Conference Room
+  
+UID:16683
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
@@ -4005,16 +4038,41 @@ DTSTART;TZID=America/Denver:20260517T163000
 LAST-MODIFIED;TZID=America/Denver:20260126T115458
 LOCATION:OSTARC Facilities > Outdoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Outdoor 
- Arena
+SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Outdoor A
+ rena
 UID:16236
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16677
+DTEND;TZID=America/Denver:20260517T200000
+DTSTAMP;TZID=America/Denver:20260421T143712
+DTSTART;TZID=America/Denver:20260517T163000
+LAST-MODIFIED;TZID=America/Denver:20260421T143712
+LOCATION:OSTARC Facilities > Outdoor Arena - 3641 S Hwy 191  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Outdoor A
+ rena
+UID:16677
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=14855
+DTEND;VALUE=DATE:20260516
+DTSTAMP;TZID=America/Denver:20260427T090056
+DTSTART;VALUE=DATE:20260516
+LAST-MODIFIED;TZID=America/Denver:20260427T090056
+LOCATION:OSTARC Facilities > Soccer Field 1 - 3641 S Hwy 191  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Let's Go Fly a Kite - Soccer Fields
+UID:14855
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15474
-DTEND;TZID=America/Denver;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260517
 DTSTAMP;TZID=America/Denver:20251001T073530
-DTSTART;TZID=America/Denver;VALUE=DATE:20260516
+DTSTART;VALUE=DATE:20260516
 LAST-MODIFIED;TZID=America/Denver:20251001T073530
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
@@ -4047,30 +4105,44 @@ UID:16502
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16277
-DTEND;TZID=America/Denver:20260513T200000
-DTSTAMP;TZID=America/Denver:20260126T115350
-DTSTART;TZID=America/Denver:20260513T163000
-LAST-MODIFIED;TZID=America/Denver:20260126T115350
-LOCATION:OSTARC Facilities > Outdoor Arena - 3641 S Hwy 191  Moab UT 84532
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16676
+DTEND;TZID=America/Denver:20260513T203000
+DTSTAMP;TZID=America/Denver:20260421T143805
+DTSTART;TZID=America/Denver:20260513T170000
+LAST-MODIFIED;TZID=America/Denver:20260421T143805
+LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Outdoor 
- Arena
-UID:16277
+SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  5:00pm-8:30pm Indoor Ar
+ ena
+UID:16676
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16454
 DTEND;TZID=America/Denver:20260512T183000
-DTSTAMP;TZID=America/Denver:20260211T113150
+DTSTAMP;TZID=America/Denver:20260511T101747
 DTSTART;TZID=America/Denver:20260512T173000
-LAST-MODIFIED;TZID=America/Denver:20260211T113150
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
+LAST-MODIFIED;TZID=America/Denver:20260511T101747
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
 SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
-  Conference Room
+SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
+ Conference Room
 UID:16454
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16682
+DTEND;TZID=America/Denver:20260512T183000
+DTSTAMP;TZID=America/Denver:20260511T101654
+DTSTART;TZID=America/Denver:20260512T173000
+LAST-MODIFIED;TZID=America/Denver:20260511T101654
+LOCATION:<p>OSTARC Facilities &gt\; Conference Rm 2</p> - 3641 S Hwy 191  M
+ oab UT 84532
+SEQUENCE:0
+SUMMARY:Canyonlands PRCA Rodeo Meeting - CANCELED - 5:30pm-6:30pm- OSTA Con
+ ference Room 
+UID:16682
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
@@ -4098,435 +4170,40 @@ UID:16500
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=14855
-DTEND;TZID=America/Denver;VALUE=DATE:20260510
-DTSTAMP;TZID=America/Denver:20260129T112816
-DTSTART;TZID=America/Denver;VALUE=DATE:20260509
-LAST-MODIFIED;TZID=America/Denver:20260129T112816
-LOCATION:OSTARC Facilities > Soccer Field 1 - 3641 S Hwy 191  Moab UT 84532
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16790
+DTEND;TZID=America/Denver:20260511T180000
+DTSTAMP;TZID=America/Denver:20260508T144149
+DTSTART;TZID=America/Denver:20260511T170000
+LAST-MODIFIED;TZID=America/Denver:20260508T144149
+LOCATION:OSTARC Facilities - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Let's Go Fly a Kite - Soccer Fields
-UID:14855
+SUMMARY:Grand County Fair Board Meeting - 5:00pm - Arena Conference Room
+UID:16790
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16788
+DTEND;TZID=America/Denver:20260515T210000
+DTSTAMP;TZID=America/Denver:20260508T120841
+DTSTART;TZID=America/Denver:20260511T080000
+LAST-MODIFIED;TZID=America/Denver:20260508T120841
+LOCATION:OSTARC Facilities > Conference Rm 2 - 3641 S Hwy 191  Moab UT 8453
+ 2
+SEQUENCE:0
+SUMMARY:Scheduled Maintenance - Scorekeeper's Building CLOSED 
+UID:16788
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16471
-DTEND;TZID=America/Denver;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260515
 DTSTAMP;TZID=America/Denver:20260225T090831
-DTSTART;TZID=America/Denver;VALUE=DATE:20260508
+DTSTART;VALUE=DATE:20260508
 LAST-MODIFIED;TZID=America/Denver:20260225T090831
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Indoor Arena CLOSED for Spring Event season
 UID:16471
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16499
-DTEND;TZID=America/Denver:20260507T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260507T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16499
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16498
-DTEND;TZID=America/Denver:20260506T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260506T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16498
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16276
-DTEND;TZID=America/Denver:20260506T200000
-DTSTAMP;TZID=America/Denver:20260126T115115
-DTSTART;TZID=America/Denver:20260506T163000
-LAST-MODIFIED;TZID=America/Denver:20260126T115115
-LOCATION:OSTARC Facilities > Outdoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Outdoor 
- Arena
-UID:16276
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=14878
-DTEND;TZID=America/Denver;VALUE=DATE:20260510
-DTSTAMP;TZID=America/Denver:20251029T092605
-DTSTART;TZID=America/Denver;VALUE=DATE:20260506
-LAST-MODIFIED;TZID=America/Denver:20251029T092605
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Raptors on the Rocks- Main Arena\, Parking lot 4\,5 & 6
-UID:14878
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=14155
-DTEND;TZID=America/Denver:20260505T183000
-DTSTAMP;TZID=America/Denver:20250114T092616
-DTSTART;TZID=America/Denver:20260505T173000
-LAST-MODIFIED;TZID=America/Denver:20250114T092616
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
-SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Meeting  5:30pm-6:30pm- OSTA Conference Room
-UID:14155
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16497
-DTEND;TZID=America/Denver:20260505T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260505T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16497
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16496
-DTEND;TZID=America/Denver:20260504T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260504T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16496
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16234
-DTEND;TZID=America/Denver:20260503T200000
-DTSTAMP;TZID=America/Denver:20260126T115025
-DTSTART;TZID=America/Denver:20260503T163000
-LAST-MODIFIED;TZID=America/Denver:20260126T115025
-LOCATION:OSTARC Facilities > Outdoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Outdoor 
- Arena
-UID:16234
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16495
-DTEND;TZID=America/Denver:20260430T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260430T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16495
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=14853
-DTEND;TZID=America/Denver;VALUE=DATE:20260503
-DTSTAMP;TZID=America/Denver:20250509T095516
-DTSTART;TZID=America/Denver;VALUE=DATE:20260430
-LAST-MODIFIED;TZID=America/Denver:20250509T095516
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Moab Grenadier Gathering - Indoor Arena\, Lobby & Admin. Parking L
- ot
-UID:14853
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16494
-DTEND;TZID=America/Denver:20260429T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260429T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16494
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16275
-DTEND;TZID=America/Denver:20260429T200000
-DTSTAMP;TZID=America/Denver:20260126T114937
-DTSTART;TZID=America/Denver:20260429T163000
-LAST-MODIFIED;TZID=America/Denver:20260126T114937
-LOCATION:OSTARC Facilities > Outdoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Outdoor 
- Arena
-UID:16275
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16493
-DTEND;TZID=America/Denver:20260428T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260428T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16493
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16492
-DTEND;TZID=America/Denver:20260427T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260427T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16492
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16233
-DTEND;TZID=America/Denver:20260426T200000
-DTSTAMP;TZID=America/Denver:20260126T114859
-DTSTART;TZID=America/Denver:20260426T163000
-LAST-MODIFIED;TZID=America/Denver:20260126T114859
-LOCATION:OSTARC Facilities > Outdoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Outdoor 
- Arena
-UID:16233
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15902
-DTEND;TZID=America/Denver:20260424T200000
-DTSTAMP;TZID=America/Denver:20260107T115007
-DTSTART;TZID=America/Denver:20260424T180000
-LAST-MODIFIED;TZID=America/Denver:20260107T115007
-LOCATION:OSTARC Facilities > Pavilion - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Skate Moab - Free Community Night - All Ages 6pm-8pm - Pavilion
-UID:15902
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16568
-DTEND;TZID=America/Denver;VALUE=DATE:20260426
-DTSTAMP;TZID=America/Denver:20260226T153027
-DTSTART;TZID=America/Denver;VALUE=DATE:20260424
-LAST-MODIFIED;TZID=America/Denver:20260226T153027
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:ASA Softball Tournament - Ballfields
-UID:16568
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16491
-DTEND;TZID=America/Denver:20260423T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260423T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16491
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16490
-DTEND;TZID=America/Denver:20260422T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260422T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16490
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16274
-DTEND;TZID=America/Denver:20260422T200000
-DTSTAMP;TZID=America/Denver:20260126T114713
-DTSTART;TZID=America/Denver:20260422T163000
-LAST-MODIFIED;TZID=America/Denver:20260126T114713
-LOCATION:OSTARC Facilities > Outdoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Outdoor 
- Arena
-UID:16274
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16489
-DTEND;TZID=America/Denver:20260421T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260421T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16489
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Family friendly event April 23-25 https://grandcountyutah.net/
- calendar.aspx?EID=15582
-DTEND;TZID=America/Denver;VALUE=DATE:20260426
-DTSTAMP;TZID=America/Denver:20251028T113045
-DTSTART;TZID=America/Denver;VALUE=DATE:20260421
-LAST-MODIFIED;TZID=America/Denver:20251028T113045
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:RedRok Rally - Indoor Arena\, Parking lots1-6
-UID:15582
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16488
-DTEND;TZID=America/Denver:20260420T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260420T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16488
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16377
-DTEND;TZID=America/Denver:20260419T200000
-DTSTAMP;TZID=America/Denver:20260204T115012
-DTSTART;TZID=America/Denver:20260419T163000
-LAST-MODIFIED;TZID=America/Denver:20260204T115012
-LOCATION:OSTARC Facilities > Outdoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Outdoor 
- Arena
-UID:16377
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16487
-DTEND;TZID=America/Denver:20260416T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260416T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16487
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15030
-DTEND;TZID=America/Denver:20260415T210000
-DTSTAMP;TZID=America/Denver:20250619T120325
-DTSTART;TZID=America/Denver:20260415T190000
-LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 845
- 32
-SEQUENCE:0
-SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
-UID:15030
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16486
-DTEND;TZID=America/Denver:20260415T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260415T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16486
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16379
-DTEND;TZID=America/Denver:20260415T200000
-DTSTAMP;TZID=America/Denver:20260204T115858
-DTSTART;TZID=America/Denver:20260415T163000
-LAST-MODIFIED;TZID=America/Denver:20260204T115858
-LOCATION:OSTARC Facilities > Outdoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Outdoor 
- Arena
-UID:16379
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16485
-DTEND;TZID=America/Denver:20260414T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260414T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16485
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16484
-DTEND;TZID=America/Denver:20260413T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260413T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16484
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=7264
-DTEND;TZID=America/Denver;VALUE=DATE:20260419
-DTSTAMP;TZID=America/Denver:20201118T143830
-DTSTART;TZID=America/Denver;VALUE=DATE:20260413
-LAST-MODIFIED;TZID=America/Denver:20201118T143830
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Cruise Moab Indoor Arena & Racetrack
-UID:7264
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16376
-DTEND;TZID=America/Denver:20260412T200000
-DTSTAMP;TZID=America/Denver:20260204T114936
-DTSTART;TZID=America/Denver:20260412T163000
-LAST-MODIFIED;TZID=America/Denver:20260204T114936
-LOCATION:OSTARC Facilities > Outdoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Outdoor 
- Arena
-UID:16376
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16470
-DTEND;TZID=America/Denver;VALUE=DATE:20260507
-DTSTAMP;TZID=America/Denver:20260225T090631
-DTSTART;TZID=America/Denver;VALUE=DATE:20260316
-LAST-MODIFIED;TZID=America/Denver:20260225T090631
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Indoor Arena CLOSED for Spring Event season
-UID:16470
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 END:VCALENDAR

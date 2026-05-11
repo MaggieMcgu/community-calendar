@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 4.0//EN
+PRODID:iCalendar-Ruby
 VERSION:2.0
 X-WR-TIMEZONE:America/Denver
 BEGIN:VTIMEZONE
@@ -347,49 +347,13 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://www.moabcity.gov/calendar.aspx?EID=1343
 DTEND;TZID=America/Denver:20260512T235900
-DTSTAMP;TZID=America/Denver:20251215T102835
+DTSTAMP;TZID=America/Denver:20260507T162125
 DTSTART;TZID=America/Denver:20260512T180000
-LAST-MODIFIED;TZID=America/Denver:20251215T102835
+LAST-MODIFIED;TZID=America/Denver:20260507T162125
 LOCATION: - City Hall 217 E. Center Street Moab UT 84532
 SEQUENCE:0
 SUMMARY:Moab City Council Regular Meeting
 UID:1343
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.moabcity.gov/calendar.aspx?EID=1355
-DTEND;TZID=America/Denver:20260428T235900
-DTSTAMP;TZID=America/Denver:20251215T104314
-DTSTART;TZID=America/Denver:20260428T180000
-LAST-MODIFIED;TZID=America/Denver:20251215T104314
-LOCATION: - City Hall 217 E. Center Street Moab UT 84532
-SEQUENCE:0
-SUMMARY:Moab City Council Regular Meeting
-UID:1355
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.moabcity.gov/calendar.aspx?EID=1378
-DTEND;TZID=America/Denver:20260423T235900
-DTSTAMP;TZID=America/Denver:20251215T104549
-DTSTART;TZID=America/Denver:20260423T180000
-LAST-MODIFIED;TZID=America/Denver:20251215T104549
-LOCATION: - City Hall 217 E. Center Street Moab UT 84532
-SEQUENCE:0
-SUMMARY:Moab City Planning Commission - Regular Meeting
-UID:1378
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://www.moabcity.gov/calendar.aspx?EID=1342
-DTEND;TZID=America/Denver:20260414T235900
-DTSTAMP;TZID=America/Denver:20260409T161438
-DTSTART;TZID=America/Denver:20260414T180000
-LAST-MODIFIED;TZID=America/Denver:20260409T161438
-LOCATION: - City Hall 217 E. Center Street Moab UT 84532
-SEQUENCE:0
-SUMMARY:Moab City Council Regular Meeting
-UID:1342
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
 END:VEVENT
 END:VCALENDAR

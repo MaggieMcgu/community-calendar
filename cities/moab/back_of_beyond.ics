@@ -4,6 +4,39 @@ PRODID:-//Back of Beyond Books//backofbeyondbooks.com//
 X-WR-CALNAME:Back of Beyond Books
 X-WR-TIMEZONE:America/Denver
 BEGIN:VEVENT
+SUMMARY:Music in the Bookstore
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260423T180000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260423T200000
+UID:daa726010fc698cc3c5e7f3550b7e9e4@backofbeyondbooks.com
+DESCRIPTION:
+LOCATION:Back of Beyond Books\, 83 N Main St\, Moab\, UT 84532
+URL:https://backofbeyondbooks.com/happenings/music-in-the-bookstore-april-
+ 23rd-6-9-pm-back-of-beyond-books/
+X-SOURCE:Back of Beyond Books
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bridget A. Lyons
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260506T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260506T210000
+UID:5bd6d3f88918159fd171af636cb68636@backofbeyondbooks.com
+DESCRIPTION:
+LOCATION:Grand County Public Library\, 257 E Center St\, Moab\, UT 84532
+URL:https://backofbeyondbooks.com/happenings/bridget-a-lyons-wednesday-may
+ -6th-7pm-grand-county-public-library/
+X-SOURCE:Back of Beyond Books
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Music in the Bookstore
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260507T210000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260507T230000
+UID:86549e7f87a922ef0987d3f79393c5b7@backofbeyondbooks.com
+DESCRIPTION:
+LOCATION:Back of Beyond Books\, 83 N Main St\, Moab\, UT 84532
+URL:https://backofbeyondbooks.com/happenings/music-in-the-bookstore-may-7t
+ h-9-pm-back-of-beyond-books/
+X-SOURCE:Back of Beyond Books
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Brianna Madia
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260416T160000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260416T180000
@@ -25,40 +58,6 @@ LOCATION:Moab Arts and Recreation Center (MARC)\, 111 E 100 N\, Moab\, UT
  84532
 URL:https://backofbeyondbooks.com/happenings/jeremy-collins-wednesday-apri
  l-15th-7-pm-grand-county-public-library/
-X-SOURCE:Back of Beyond Books
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Music in the Bookstore
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260423T180000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260423T200000
-UID:daa726010fc698cc3c5e7f3550b7e9e4@backofbeyondbooks.com
-DESCRIPTION:
-LOCATION:Back of Beyond Books\, 83 N Main St\, Moab\, UT 84532
-URL:https://backofbeyondbooks.com/happenings/music-in-the-bookstore-april-
- 23rd-6-9-pm-back-of-beyond-books/
-X-SOURCE:Back of Beyond Books
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Terry Tempest Williams
-DTSTART;TZID=MST;VALUE=DATE-TIME:20260303T180000
-DTEND;TZID=MST;VALUE=DATE-TIME:20260303T200000
-UID:2ee7aac6f89517f67473c60d19f6073b@backofbeyondbooks.com
-DESCRIPTION:
-LOCATION:Castle Valley & Back of Beyond
-URL:https://backofbeyondbooks.com/happenings/terry-tempest-williams-tuesda
- y-march-3rd-sunrise-ceremony-afternoon-book-signing-castle-valley-back-of-
- beyond/
-X-SOURCE:Back of Beyond Books
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Local Author Steve Allen Presentation
-DTSTART;TZID=MST;VALUE=DATE-TIME:20260210T180000
-DTEND;TZID=MST;VALUE=DATE-TIME:20260210T200000
-UID:cf9836eb16355d673ef0de3380feaaf7@backofbeyondbooks.com
-DESCRIPTION:
-LOCATION:Star Hall\, 159 E Center St\, Moab\, UT 84532
-URL:https://backofbeyondbooks.com/happenings/local-author-steve-allen-pres
- entation-tuesday-february-10th-6-pm-star-hall/
 X-SOURCE:Back of Beyond Books
 END:VEVENT
 END:VCALENDAR
