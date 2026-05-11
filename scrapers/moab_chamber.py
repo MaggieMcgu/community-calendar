@@ -132,8 +132,14 @@ class MoabChamberScraper(BaseScraper):
         url = str(component.get('URL', '')).strip() or \
             f"https://business.moabchamber.com/eventcalendar/Details/{slug_id}"
 
-        # Preserve the chamber's UID so re-runs are idempotent across the pipeline.
-        uid = str(component.get('UID', '')).strip() or None
+        # Emit UID with @moabchamber.com so the MSN importer's
+        # msn_scraper_organizer_for_uid() can map it to the chamber's
+        # TEC Organizer record. Chamber's native UIDs are bare ids
+        # like "e.4410.1458663" with no domain — which the importer
+        # bails on. We keep the chamber's numeric id as the local part
+        # so re-runs stay idempotent across the pipeline.
+        native_uid = str(component.get('UID', '')).strip()
+        uid = f"chamber-{native_uid}@moabchamber.com" if native_uid else None
 
         return {
             'title': summary,
