@@ -653,7 +653,11 @@ jobs:
         python scrapers/moab_music_festival.py --output cities/moab/moab_music_festival.ics || true
         python scrapers/moab_folk_festival.py --output cities/moab/moab_folk_festival.ics || true
         python scrapers/moab_arts.py --output cities/moab/moab_arts.ics || true
-        python scrapers/moab_chamber.py --output cities/moab/moab_chamber.ics || true
+        # Moab Chamber scraper DEACTIVATED 2026-05-11 — chamber re-lists events from
+        # member venues (museum, MIC, etc.) so import created mis-attributed dupes.
+        # Revisit after the calendar-outbound embed widget exists; chamber may embed
+        # MSN's calendar instead of MSN scraping theirs.
+        # python scrapers/moab_chamber.py --output cities/moab/moab_chamber.ics || true
 
         echo "\n=== Moab Scraper Results ==="
         for f in cities/moab/*.ics; do

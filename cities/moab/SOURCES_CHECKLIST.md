@@ -21,10 +21,10 @@
 | Climb Moab | `climb_moab.py` (Squarespace) | `?format=json` API, quarterly volume |
 | Back of Beyond Books | `back_of_beyond.py` (HTML) | WordPress, ~31 events/60d |
 | Wellness Collective Moab | `wellness_collective.py` (GoDaddy) | Client-side rendered, needs headless |
-| Moab Area Chamber of Commerce | `moab_chamber.py` (GrowthZone per-event .ics) | Walks listing in 30-day windows, fetches each event's .ics. ~10 events visible at once. |
 
 ## Non-Starters
 - **Facebook Events** — Meta killed `/events/ical/` in 2019
+- **Moab Area Chamber of Commerce** — `moab_chamber.py` scraper built + deactivated 2026-05-11 same day. Chamber re-lists member-venue events (museum exhibits, MIC lectures) so the importer created mis-attributed dupes with chamber-as-organizer. Direction reversed: chamber will embed MSN's calendar (Calendar Outbound plan), not the other way around. Scraper code retained at `scrapers/moab_chamber.py` in case the chamber's behavior changes.
 
 ## Prospective Sources (Future)
 - Slickrock Cinemas (sponsorship + showtime feed)
