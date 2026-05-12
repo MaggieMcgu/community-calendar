@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T22:25:36.771501",
+  "generated": "2026-05-12T09:35:38.785155",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -22732,6 +22732,10 @@
             {
               "date": "2026-05-11",
               "count": 0
+            },
+            {
+              "date": "2026-05-12",
+              "count": 0
             }
           ]
         },
@@ -22747,6 +22751,10 @@
             },
             {
               "date": "2026-05-11",
+              "count": 4
+            },
+            {
+              "date": "2026-05-12",
               "count": 4
             }
           ]
@@ -22764,6 +22772,10 @@
             {
               "date": "2026-05-11",
               "count": 22
+            },
+            {
+              "date": "2026-05-12",
+              "count": 22
             }
           ]
         },
@@ -22779,6 +22791,10 @@
             },
             {
               "date": "2026-05-11",
+              "count": 18
+            },
+            {
+              "date": "2026-05-12",
               "count": 18
             }
           ]
@@ -22796,6 +22812,10 @@
             {
               "date": "2026-05-11",
               "count": 2
+            },
+            {
+              "date": "2026-05-12",
+              "count": 2
             }
           ]
         },
@@ -22812,6 +22832,10 @@
             {
               "date": "2026-05-11",
               "count": 74
+            },
+            {
+              "date": "2026-05-12",
+              "count": 72
             }
           ]
         },
@@ -22828,6 +22852,10 @@
             {
               "date": "2026-05-11",
               "count": 57
+            },
+            {
+              "date": "2026-05-12",
+              "count": 55
             }
           ]
         },
@@ -22843,6 +22871,10 @@
             },
             {
               "date": "2026-05-11",
+              "count": 0
+            },
+            {
+              "date": "2026-05-12",
               "count": 0
             }
           ]
@@ -22860,6 +22892,10 @@
             {
               "date": "2026-05-11",
               "count": 28
+            },
+            {
+              "date": "2026-05-12",
+              "count": 28
             }
           ]
         },
@@ -22875,6 +22911,10 @@
             },
             {
               "date": "2026-05-11",
+              "count": 4
+            },
+            {
+              "date": "2026-05-12",
               "count": 4
             }
           ]
@@ -22892,6 +22932,10 @@
             {
               "date": "2026-05-11",
               "count": 338
+            },
+            {
+              "date": "2026-05-12",
+              "count": 335
             }
           ]
         },
@@ -22908,6 +22952,10 @@
             {
               "date": "2026-05-11",
               "count": 98
+            },
+            {
+              "date": "2026-05-12",
+              "count": 97
             }
           ]
         },
@@ -22924,6 +22972,10 @@
             {
               "date": "2026-05-11",
               "count": 145
+            },
+            {
+              "date": "2026-05-12",
+              "count": 134
             }
           ]
         },
@@ -22939,6 +22991,10 @@
             },
             {
               "date": "2026-05-11",
+              "count": 4
+            },
+            {
+              "date": "2026-05-12",
               "count": 4
             }
           ]
@@ -22956,6 +23012,10 @@
             {
               "date": "2026-05-11",
               "count": 21
+            },
+            {
+              "date": "2026-05-12",
+              "count": 21
             }
           ]
         },
@@ -22972,6 +23032,10 @@
             {
               "date": "2026-05-11",
               "count": 9
+            },
+            {
+              "date": "2026-05-12",
+              "count": 6
             }
           ]
         },
@@ -22980,42 +23044,38 @@
             {
               "date": "2026-05-11",
               "count": 0
-            }
-          ]
-        },
-        "moab_chamber": {
-          "history": [
+            },
             {
-              "date": "2026-05-11",
-              "count": 8
+              "date": "2026-05-12",
+              "count": 0
             }
           ]
         }
       },
       "url_quality": {
-        "total_with_url": 645,
-        "total_events": 647,
-        "unique_urls": 45,
-        "generic_count": 594,
+        "total_with_url": 627,
+        "total_events": 629,
+        "unique_urls": 38,
+        "generic_count": 586,
         "generic_domains": [
           {
             "domain": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30",
-            "events": 337,
+            "events": 334,
             "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"
           },
           {
             "domain": "wellnesscollectivemoab.com",
-            "events": 98,
+            "events": 97,
             "url": "https://wellnesscollectivemoab.com/calendar"
           },
           {
             "domain": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28",
-            "events": 57,
+            "events": 55,
             "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"
           },
           {
             "domain": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
-            "events": 52,
+            "events": 50,
             "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"
           },
           {
@@ -23034,25 +23094,25 @@
         "source_specificity": [
           {
             "source": "Old Spanish Trail Arena",
-            "events": 337,
+            "events": 334,
             "unique_urls": 1,
             "specificity_pct": 0
           },
           {
             "source": "Wellness Collective Moab",
-            "events": 98,
+            "events": 97,
             "unique_urls": 1,
             "specificity_pct": 1
           },
           {
             "source": "Grand County Public Library",
-            "events": 57,
+            "events": 55,
             "unique_urls": 1,
             "specificity_pct": 2
           },
           {
             "source": "Grand County",
-            "events": 52,
+            "events": 50,
             "unique_urls": 1,
             "specificity_pct": 2
           },
@@ -23076,15 +23136,9 @@
           },
           {
             "source": "Slickrock Cinemas",
-            "events": 9,
+            "events": 6,
             "unique_urls": 3,
-            "specificity_pct": 33
-          },
-          {
-            "source": "Moab Area Chamber of Commerce",
-            "events": 7,
-            "unique_urls": 7,
-            "specificity_pct": 100
+            "specificity_pct": 50
           },
           {
             "source": "Moab Folk Festival",
@@ -23093,27 +23147,21 @@
             "specificity_pct": 25
           },
           {
+            "source": "Moab Museum",
+            "events": 4,
+            "unique_urls": 4,
+            "specificity_pct": 100
+          },
+          {
             "source": "Center Street Gym / Arena",
             "events": 4,
             "unique_urls": 1,
             "specificity_pct": 25
           },
           {
-            "source": "Moab Museum",
-            "events": 3,
-            "unique_urls": 3,
-            "specificity_pct": 100
-          },
-          {
             "source": "Climb Moab",
             "events": 2,
             "unique_urls": 2,
-            "specificity_pct": 100
-          },
-          {
-            "source": "Moab Area Chamber of Commerce, Moab Museum",
-            "events": 1,
-            "unique_urls": 1,
             "specificity_pct": 100
           }
         ]
@@ -24004,197 +24052,197 @@
   ],
   "errors": [
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "error: cannot rebase: You have unstaged changes.",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "error: Please commit or stash them.",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-02-22 02:36:00,974 - UUDavisScraper - ERROR - Error fetching https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics: 404 Client Error: Not Found for url: https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-02-22 02:37:20,210 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-02-23 02:37:04,503 - UUDavisScraper - ERROR - Error fetching https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics: 404 Client Error: Not Found for url: https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-02-23 02:39:00,095 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-02-24 02:33:36,922 - UUDavisScraper - ERROR - Error fetching https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics: 404 Client Error: Not Found for url: https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-02-24 02:35:14,883 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-02-25 02:35:01,834 - UUDavisScraper - ERROR - Error fetching https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics: 404 Client Error: Not Found for url: https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-02-25 02:36:49,667 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-02-26 02:31:19,114 - UUDavisScraper - ERROR - Error fetching https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics: 404 Client Error: Not Found for url: https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-02-26 02:33:21,260 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-02-27 02:29:40,994 - UUDavisScraper - ERROR - Error fetching https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics: 404 Client Error: Not Found for url: https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-02-27 02:31:12,040 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-02-28 02:12:48,485 - UUDavisScraper - ERROR - Error fetching https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics: 404 Client Error: Not Found for url: https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-02-28 02:14:38,270 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-03-01 02:42:42,478 - UUDavisScraper - ERROR - Error fetching https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics: 404 Client Error: Not Found for url: https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-03-01 02:44:33,471 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-03-02 02:32:32,904 - UUDavisScraper - ERROR - Error fetching https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics: 404 Client Error: Not Found for url: https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-03-02 02:36:13,264 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-03-03 02:37:15,837 - UUDavisScraper - ERROR - Error fetching https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics: 404 Client Error: Not Found for url: https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-03-03 02:39:17,157 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "TimeoutError: timed out",
       "source": "connection"
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7ff914d9f4f0>, 'Connection to creativesonoma.org timed out. (connect timeout=30)')",
       "source": "connection"
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='creativesonoma.org', port=443): Max retries exceeded with url: /event/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff914d9f4f0>, 'Connection to creativesonoma.org timed out. (connect timeout=30)'))",
       "source": "retry"
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='creativesonoma.org', port=443): Max retries exceeded with url: /event/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff914d9f4f0>, 'Connection to creativesonoma.org timed out. (connect timeout=30)'))",
       "source": "adapters"
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f1234564550>, 'Connection to buskirkchumley.org timed out. (connect timeout=30)')",
       "source": "connection"
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='buskirkchumley.org', port=443): Max retries exceeded with url: /events/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f1234564550>, 'Connection to buskirkchumley.org timed out. (connect timeout=30)'))",
       "source": "retry"
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='buskirkchumley.org', port=443): Max retries exceeded with url: /events/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f1234564550>, 'Connection to buskirkchumley.org timed out. (connect timeout=30)'))",
       "source": "adapters"
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "subprocess.TimeoutExpired: Command '['curl', '-sL', 'https://sycamorelandtrust.org/bulletin-board/events-calendar/']' timed out after 30 seconds",
       "source": "subprocess"
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-03-03 21:44:29,284 - UUDavisScraper - ERROR - Error fetching https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics: 404 Client Error: Not Found for url: https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-03-03 21:50:47,281 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://www.sassafrasaudubon.org/upcomingevents",
       "source": "models"
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-04-11 13:59:44,746 - UUDavisScraper - ERROR - Error fetching https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics: 404 Client Error: Not Found for url: https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://www.mondaviarts.org/events-and-tickets/",
       "source": "models"
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-04-11 13:59:48,197 - DavisChamberScraper - ERROR - XML parse error: no element found: line 1, column 0",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-04-11 14:01:22,693 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-04-11 14:31:06,413 - UUDavisScraper - ERROR - Error fetching https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics: 404 Client Error: Not Found for url: https://calendar.google.com/calendar/ical/0p5ed7hbg4p7b4atf3lgjmgic%40group.calendar.google.com/public/basic.ics",
       "source": null
     },
     {
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "line": "2026-04-11 14:32:24,453 - UofTEventsScraper - WARNING - Trinity College: fetch error: HTTPSConnectionPool(host='www.trinity.utoronto.ca', port=443): Max retries exceeded with url: /discover/calendar/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))",
       "source": null
     }

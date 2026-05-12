@@ -4,6 +4,15 @@ PRODID:-//Moab Arts & Recreation Center//moabarts.org//
 X-WR-CALNAME:Moab Arts & Recreation Center
 X-WR-TIMEZONE:America/Denver
 BEGIN:VEVENT
+SUMMARY:A Platform for your Voice\; Postcards & Protest Signs
+DTSTART;TZID="UTC-06:00";VALUE=DATE-TIME:20260512T180000
+DTEND;TZID="UTC-06:00";VALUE=DATE-TIME:20260512T200000
+UID:dda88a98a70482349b605424257bfc81@moabarts.org
+DESCRIPTION:with Kikibouba Press
+LOCATION:Location will be emailed to participants
+X-SOURCE:Moab Arts & Recreation Center
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:2026 Arts & Rec Summer Camp
 DTSTART;TZID="UTC-06:00";VALUE=DATE-TIME:20260601T090000
 DTEND;TZID="UTC-06:00";VALUE=DATE-TIME:20260626T160000
@@ -13,15 +22,6 @@ DESCRIPTION:Creativity will blossom in the art room and kids will stay act
  his June.
 LOCATION:Moab Arts and Recreation Center\, 111 E 100 N\, Moab\, UT 84532\,
   USA
-X-SOURCE:Moab Arts & Recreation Center
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:A Platform for your Voice\; Postcards & Protest Signs
-DTSTART;TZID="UTC-06:00";VALUE=DATE-TIME:20260512T180000
-DTEND;TZID="UTC-06:00";VALUE=DATE-TIME:20260512T200000
-UID:dda88a98a70482349b605424257bfc81@moabarts.org
-DESCRIPTION:with Kikibouba Press
-LOCATION:Location will be emailed to participants
 X-SOURCE:Moab Arts & Recreation Center
 END:VEVENT
 END:VCALENDAR
