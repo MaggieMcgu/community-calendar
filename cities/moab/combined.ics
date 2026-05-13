@@ -7,202 +7,6 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16612
-DTEND;VALUE=DATE:20260512
-DTSTAMP;TZID=America/Denver:20260302T101855
-DTSTART;VALUE=DATE:20260512
-LAST-MODIFIED;TZID=America/Denver:20260302T101855
-LOCATION:<p>Teen Center</p> - 321 E Center St.  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Teen Center Try it Tuesday
-UID:16612
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260512T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260512T074500
-UID:229b8776febe6a579a1274a30b1218d7@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga @ the Grand Center-Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260512T143000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260512T153000
-UID:320bd3e5419cfe02d570c801cb55ddfb@wellnesscollectivemoab.com
-DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
-  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
- ctive yoga instructors. Each teacher brings their own style and expertise\
- , while sharing a common focus on safety\, choice\, and ease in the body. 
- This class is especially supportive for older adults and anyone who prefer
- s to stay off the floor\, has limited mobility\, uses a chair for stabilit
- y\, or is simply looking for a calm\, nourishing way to move. All poses ar
- e done seated or standing with the support of a chair\, so you can experie
- nce the benefits of yoga without getting down on a mat.
-LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-ID:grand_county
-X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15725
-DTEND;TZID=America/Denver:20260512T160000
-DTSTAMP;TZID=America/Denver:20251204T121242
-DTSTART;TZID=America/Denver:20260512T150000
-LAST-MODIFIED;TZID=America/Denver:20251204T121242
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Moab Tourism Advisory Board
-UID:15725
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16697
-DTEND;TZID=America/Denver:20260512T163000
-DTSTAMP;TZID=America/Denver:20260428T141223
-DTSTART;TZID=America/Denver:20260512T153000
-LAST-MODIFIED;TZID=America/Denver:20260428T141223
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:16697
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16501
-DTEND;TZID=America/Denver:20260512T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260512T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16501
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Relaxing Yoga and Meditation
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260512T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260512T181500
-UID:b30ec6bb3cb867e53bfece366db71047@wellnesscollectivemoab.com
-DESCRIPTION:This is a slow\, supportive yoga practice designed to help the
-  body and mind settle. Classes blend gentle movement\, yin and restorative
-  postures\, and mindful transitions that prioritize comfort\, choice\, and
-  ease. Each class includes a 10-minute meditation practice. You are always
-  invited — never required — to participate in any way that feels right
-  for you This class is open to all bodies and experience levels\, accessib
- le and adaptable\, and focused on relaxation\, presence\, and nervous syst
- em balance. Come as you are. Rest is welcome here.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-ID:grand_county
-X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16761
-DTEND;TZID=America/Denver:20260512T183000
-DTSTAMP;TZID=America/Denver:20260429T084916
-DTSTART;TZID=America/Denver:20260512T173000
-LAST-MODIFIED;TZID=America/Denver:20260429T084916
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Old Spanish Trail Arena Advisory Board Meeting 
-UID:16761
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16454
-DTEND;TZID=America/Denver:20260512T183000
-DTSTAMP;TZID=America/Denver:20260511T101747
-DTSTART;TZID=America/Denver:20260512T173000
-LAST-MODIFIED;TZID=America/Denver:20260511T101747
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
- 2
-SEQUENCE:0
-SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
- Conference Room
-UID:16454
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16682
-DTEND;TZID=America/Denver:20260512T183000
-DTSTAMP;TZID=America/Denver:20260511T101654
-DTSTART;TZID=America/Denver:20260512T173000
-LAST-MODIFIED;TZID=America/Denver:20260511T101654
-LOCATION:<p>OSTARC Facilities &gt\; Conference Rm 2</p> - 3641 S Hwy 191  M
- oab UT 84532
-SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Meeting - CANCELED - 5:30pm-6:30pm- OSTA Con
- ference Room 
-UID:16682
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-ID:moab_arts
-SUMMARY:A Platform for your Voice\; Postcards & Protest Signs
-DTSTART;TZID="UTC-06:00";VALUE=DATE-TIME:20260512T180000
-DTEND;TZID="UTC-06:00";VALUE=DATE-TIME:20260512T200000
-UID:dda88a98a70482349b605424257bfc81@moabarts.org
-DESCRIPTION:with Kikibouba Press
-LOCATION:Location will be emailed to participants
-X-SOURCE:Moab Arts & Recreation Center
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Moab City Council": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"}
-X-SOURCE-ID:moab_city_council
-X-SOURCE:Moab City Council
-DESCRIPTION: https://www.moabcity.gov/calendar.aspx?EID=1343
-DTEND;TZID=America/Denver:20260512T235900
-DTSTAMP;TZID=America/Denver:20260507T162125
-DTSTART;TZID=America/Denver:20260512T180000
-LAST-MODIFIED;TZID=America/Denver:20260507T162125
-LOCATION: - City Hall 217 E. Center Street Moab UT 84532
-SEQUENCE:0
-SUMMARY:Moab City Council Regular Meeting
-UID:1343
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -357,47 +161,6 @@ SEQUENCE:0
 SUMMARY:Tarot\, Oracle & Art: Making a Spirit Deck with Daniel McNeil 
 UID:16673
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-devil-wears-prada-2-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:The Devil Wears Prada 2 — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260513T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260513T210000
-UID:fbb8f00ca66f0518ffaa24db4844a1c0@cinemaclock.com
-DESCRIPTION:PG-13 G PG PG PG PG G 1h59m Comedy-drama Meryl Streep & Anne H
- athaway 2nd week\n\nhttps://www.cinemaclock.com/movies/the-devil-wears-pra
- da-2-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/the-devil-wears-prada-2-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/mortal-kombat-ii-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:Mortal Kombat II — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260513T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260513T210000
-UID:d10f3769747079c31b722f608c6c8637@cinemaclock.com
-DESCRIPTION:R 13+ 14A 14A 14A 14A 14A 2026 1h56m Fantasy action adventure 
- Karl Urban & Ludi Lin 1st week\n\nhttps://www.cinemaclock.com/movies/morta
- l-kombat-ii-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/mortal-kombat-ii-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-sheep-detectives-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:The Sheep Detectives — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260513T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260513T210000
-UID:658a2bdc2ee74a2704607a431429df0e@cinemaclock.com
-DESCRIPTION:G PG PG G G G 2026 Mystery film Hugh Jackman & Nicholas Braun 
- 1st week\n\nhttps://www.cinemaclock.com/movies/the-sheep-detectives-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/the-sheep-detectives-2026
-X-SOURCE:Slickrock Cinemas
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
@@ -4047,6 +3810,25 @@ UID:16530
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Yoga with the 12 Steps of Recovery with Breann
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260701T171500
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260701T181500
+UID:7262910a282710b76f214e3b4536d686@wellnesscollectivemoab.com
+DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
+  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
+ tice followed by a brief group discussion based on the 12-steps. Open to e
+ veryone and anyone dealing with their own addictive behavior or affected b
+ y the addictive behavior of others. This is an open and inclusive group. A
+ ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
+ or a part of the 12-step program. Free class provided in partnership with 
+ USARA.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -4060,6 +3842,48 @@ SEQUENCE:0
 SUMMARY:Grand County Fair - Full Facility
 UID:15583
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Intro to Mind series with Dana
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260702T070000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260702T074500
+UID:7027f9a3101cffc0c2db86900a26c371@wellnesscollectivemoab.com
+DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
+  nine-week mind science series invites you to slow down\, notice\, and ste
+ ady your mind — especially in the face of uncertainty. Together\, we’l
+ l explore meditation in a practical\, approachable way. Each week explores
+  simple tools you can use in daily life — when sitting\, moving\, and co
+ nnecting with others. Over nine weeks\, we’ll also explore how water\, f
+ ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
+ ape how we live and how we experience the world — in a supportive commun
+ ity of fellow practitioners. The series is divided into three parts: Weeks
+  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
+  of rest and steadiness in the space between thoughts and in the face of s
+ ensations and emotions — especially when life feels busy or uncertain.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:70+ Resistance Band Strength Training
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260702T100000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260702T104500
+UID:4c32cccc8cb6ec29ef5f6c4adb04ffa1@wellnesscollectivemoab.com
+DESCRIPTION:This 45-minute resistance band strength class is for adults 70
+ + who want to build strength\, improve balance\, and stay active in a supp
+ ortive\, small-group setting. Classes focus on simple\, low-impact movemen
+ ts that support everyday mobility and confidence. Exercises are adaptable 
+ and meet participants where they are. Resistance bands are provided or you
+ ’re welcome to bring your own. Please wear comfortable clothing\, stable
+  shoes\, and bring a water bottle. Thursdays at 10:00 AM at Wellness Colle
+ ctive $10 per class To sign up\, text Susette at 435-260-2523. Or show up!
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -4652,7 +4476,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260720
 DTEND;VALUE=DATE:20260808
-DTSTAMP:20260512T093538Z
+DTSTAMP:20260513T093644Z
 UID:29i5bmefogj8n3r53vsup449eg@google.com
 CREATED:20260129T215055Z
 LAST-MODIFIED:20260316T170216Z
@@ -5706,7 +5530,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20261010
-DTSTAMP:20260512T093538Z
+DTSTAMP:20260513T093644Z
 UID:48rdqkjcg5r4rjec3qi8reeuev@google.com
 CREATED:20260120T150241Z
 LAST-MODIFIED:20260120T150241Z
@@ -7384,7 +7208,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260512T093538Z
+DTSTAMP:20260513T093644Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -9177,7 +9001,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260512T093538Z
+DTSTAMP:20260513T093644Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
