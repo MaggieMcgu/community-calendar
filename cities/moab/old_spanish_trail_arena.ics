@@ -3686,6 +3686,19 @@ UID:15585
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16810
+DTEND;TZID=America/Denver:20260613T120000
+DTSTAMP;TZID=America/Denver:20260518T104120
+DTSTART;TZID=America/Denver:20260613T080000
+LAST-MODIFIED;TZID=America/Denver:20260518T104120
+LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
+ 2
+SEQUENCE:0
+SUMMARY:Private Rental - Training - Conference Room - 8:00am - 12:00pm
+UID:16810
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16519
 DTEND;TZID=America/Denver:20260611T190000
 DTSTAMP;TZID=America/Denver:20260226T153124
@@ -4016,18 +4029,6 @@ LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
 UID:16505
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16504
-DTEND;TZID=America/Denver:20260518T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260518T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16504
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 END:VCALENDAR
