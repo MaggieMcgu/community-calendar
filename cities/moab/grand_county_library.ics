@@ -504,28 +504,4 @@ SUMMARY:Toddler Time
 UID:16756
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16704
-DTEND;TZID=America/Denver:20260519T163000
-DTSTAMP;TZID=America/Denver:20260428T141223
-DTSTART;TZID=America/Denver:20260519T153000
-LAST-MODIFIED;TZID=America/Denver:20260428T141223
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:16704
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16613
-DTEND;VALUE=DATE:20260519
-DTSTAMP;TZID=America/Denver:20260302T101855
-DTSTART;VALUE=DATE:20260519
-LAST-MODIFIED;TZID=America/Denver:20260302T101855
-LOCATION:<p>Teen Center</p> - 321 E Center St.  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Teen Center Try it Tuesday
-UID:16613
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
 END:VCALENDAR

@@ -7,145 +7,6 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16613
-DTEND;VALUE=DATE:20260519
-DTSTAMP;TZID=America/Denver:20260302T101855
-DTSTART;VALUE=DATE:20260519
-LAST-MODIFIED;TZID=America/Denver:20260302T101855
-LOCATION:<p>Teen Center</p> - 321 E Center St.  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Teen Center Try it Tuesday
-UID:16613
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260519T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260519T074500
-UID:1418a12234c39eb95ad1d6b0ab0a3954@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga @ the Grand Center-Amanda
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260519T143000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260519T153000
-UID:55de9dab59daa77e8b95d477daa00ab6@wellnesscollectivemoab.com
-DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
-  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
- ctive yoga instructors. Each teacher brings their own style and expertise\
- , while sharing a common focus on safety\, choice\, and ease in the body. 
- This class is especially supportive for older adults and anyone who prefer
- s to stay off the floor\, has limited mobility\, uses a chair for stabilit
- y\, or is simply looking for a calm\, nourishing way to move. All poses ar
- e done seated or standing with the support of a chair\, so you can experie
- nce the benefits of yoga without getting down on a mat.
-LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16704
-DTEND;TZID=America/Denver:20260519T163000
-DTSTAMP;TZID=America/Denver:20260428T141223
-DTSTART;TZID=America/Denver:20260519T153000
-LAST-MODIFIED;TZID=America/Denver:20260428T141223
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:16704
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-ID:grand_county
-X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15681
-DTEND;TZID=America/Denver:20260519T170000
-DTSTAMP;TZID=America/Denver:20251124T073803
-DTSTART;TZID=America/Denver:20260519T160000
-LAST-MODIFIED;TZID=America/Denver:20251124T073803
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Grand County Commission
-UID:15681
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16505
-DTEND;TZID=America/Denver:20260519T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260519T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16505
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Relaxing Yoga and Meditation
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260519T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260519T181500
-UID:7c4c7a9d2fafc5ef2b508f62ecd76427@wellnesscollectivemoab.com
-DESCRIPTION:This is a slow\, supportive yoga practice designed to help the
-  body and mind settle. Classes blend gentle movement\, yin and restorative
-  postures\, and mindful transitions that prioritize comfort\, choice\, and
-  ease. Each class includes a 10-minute meditation practice. You are always
-  invited — never required — to participate in any way that feels right
-  for you This class is open to all bodies and experience levels\, accessib
- le and adaptable\, and focused on relaxation\, presence\, and nervous syst
- em balance. Come as you are. Rest is welcome here.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16683
-DTEND;TZID=America/Denver:20260519T183000
-DTSTAMP;TZID=America/Denver:20260427T133927
-DTSTART;TZID=America/Denver:20260519T173000
-LAST-MODIFIED;TZID=America/Denver:20260427T133927
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
- 2
-SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Meeting  5:30pm-6:30pm- OSTA Conference Room
-  
-UID:16683
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -1520,28 +1381,6 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Acupuncture with Rob
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260602T183000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260602T193000
-UID:a81923a6083e12b20f6ace20a968ec53@wellnesscollectivemoab.com
-DESCRIPTION:Experience the healing benefits of acupuncture in a supportive
- \, community setting. Led by Rob\, a licensed acupuncturist and naturopath
- ic physician\, this group offering is designed to promote relaxation\, bal
- ance the nervous system\, and support whole-person wellness. During each s
- ession\, participants will receive gentle acupuncture while resting comfor
- tably in a reclined position. Treatments are tailored to common concerns s
- uch as stress\, anxiety\, fatigue\, sleep disturbances\, and emotional ove
- rwhelm. No prior experience is needed\, and Rob will walk you through the 
- process so you feel at ease. Group acupuncture makes this powerful healing
-  modality more accessible and affordable—while also allowing for shared 
- healing energy in community.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
 SUMMARY:Intro to Mind series with Dana
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260603T070000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260603T074500
@@ -1975,6 +1814,28 @@ SEQUENCE:0
 SUMMARY:Moab City Council Regular Meeting
 UID:1344
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Acupuncture with Rob
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260609T183000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260609T193000
+UID:f5c931e305002ffad6a0dd40cce779a9@wellnesscollectivemoab.com
+DESCRIPTION:Experience the healing benefits of acupuncture in a supportive
+ \, community setting. Led by Rob\, a licensed acupuncturist and naturopath
+ ic physician\, this group offering is designed to promote relaxation\, bal
+ ance the nervous system\, and support whole-person wellness. During each s
+ ession\, participants will receive gentle acupuncture while resting comfor
+ tably in a reclined position. Treatments are tailored to common concerns s
+ uch as stress\, anxiety\, fatigue\, sleep disturbances\, and emotional ove
+ rwhelm. No prior experience is needed\, and Rob will walk you through the 
+ process so you feel at ease. Group acupuncture makes this powerful healing
+  modality more accessible and affordable—while also allowing for shared 
+ healing energy in community.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
@@ -3245,28 +3106,6 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Acupuncture with Rob
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260630T183000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260630T193000
-UID:2a3dcd252b9e44536743c08af69fa058@wellnesscollectivemoab.com
-DESCRIPTION:Experience the healing benefits of acupuncture in a supportive
- \, community setting. Led by Rob\, a licensed acupuncturist and naturopath
- ic physician\, this group offering is designed to promote relaxation\, bal
- ance the nervous system\, and support whole-person wellness. During each s
- ession\, participants will receive gentle acupuncture while resting comfor
- tably in a reclined position. Treatments are tailored to common concerns s
- uch as stress\, anxiety\, fatigue\, sleep disturbances\, and emotional ove
- rwhelm. No prior experience is needed\, and Rob will walk you through the 
- process so you feel at ease. Group acupuncture makes this powerful healing
-  modality more accessible and affordable—while also allowing for shared 
- healing energy in community.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
 SUMMARY:Intro to Mind series with Dana
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260701T070000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260701T074500
@@ -3814,6 +3653,25 @@ UID:16534
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Yoga with the 12 Steps of Recovery with Breann
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260708T171500
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260708T181500
+UID:1badeda3254fbbf0f4cfa460eae9e349@wellnesscollectivemoab.com
+DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
+  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
+ tice followed by a brief group discussion based on the 12-steps. Open to e
+ veryone and anyone dealing with their own addictive behavior or affected b
+ y the addictive behavior of others. This is an open and inclusive group. A
+ ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
+ or a part of the 12-step program. Free class provided in partnership with 
+ USARA.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -3827,6 +3685,29 @@ SEQUENCE:0
 SUMMARY:2nd Wednesday Book Club
 UID:9004
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Intro to Mind series with Dana
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260709T070000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260709T074500
+UID:a36c917003d9edb8e055632b03e65fd5@wellnesscollectivemoab.com
+DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
+  nine-week mind science series invites you to slow down\, notice\, and ste
+ ady your mind — especially in the face of uncertainty. Together\, we’l
+ l explore meditation in a practical\, approachable way. Each week explores
+  simple tools you can use in daily life — when sitting\, moving\, and co
+ nnecting with others. Over nine weeks\, we’ll also explore how water\, f
+ ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
+ ape how we live and how we experience the world — in a supportive commun
+ ity of fellow practitioners. The series is divided into three parts: Weeks
+  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
+  of rest and steadiness in the space between thoughts and in the face of s
+ ensations and emotions — especially when life feels busy or uncertain.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -4194,7 +4075,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260720
 DTEND;VALUE=DATE:20260808
-DTSTAMP:20260519T093646Z
+DTSTAMP:20260520T093513Z
 UID:29i5bmefogj8n3r53vsup449eg@google.com
 CREATED:20260129T215055Z
 LAST-MODIFIED:20260316T170216Z
@@ -5248,7 +5129,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20261010
-DTSTAMP:20260519T093646Z
+DTSTAMP:20260520T093513Z
 UID:48rdqkjcg5r4rjec3qi8reeuev@google.com
 CREATED:20260120T150241Z
 LAST-MODIFIED:20260120T150241Z
@@ -6926,7 +6807,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260519T093646Z
+DTSTAMP:20260520T093513Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -8719,7 +8600,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260519T093646Z
+DTSTAMP:20260520T093513Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
