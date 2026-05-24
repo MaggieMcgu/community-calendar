@@ -7,76 +7,6 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Qi-Gong with Cody
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260523T080000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260523T090000
-UID:45012d998a96ddcae07e391e2711d39a@wellnesscollectivemoab.com
-DESCRIPTION:Zhineng Qigong is a powerful mind-body practice rooted in anci
- ent Chinese healing traditions and adapted for modern times. This gentle y
- et profound system blends slow movement\, sound\, visualization\, and medi
- tation to help individuals cultivate inner peace\, restore balance\, and e
- nhance vitality. By consciously connecting with the energy of life—what 
- some may call qi or universal life force—participants are invited into a
-  process of holistic healing: physically\, emotionally\, and spiritually. 
- One of the most accessible forms of Qigong\, Zhineng emphasizes connection
-  over complexity. Its principles can be embraced by people of all ages\, b
- ackgrounds\, and physical abilities. Cody teaches from a place of lived ex
- perience\, having found this practice deeply healing and transformative in
-  his own journey. His classes focus on cultivating shared energy through g
- roup practice\, empowering individuals to tap into their innate wisdom and
-  live with greater purpose and presence.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16719
-DTEND;TZID=America/Denver:20260523T235900
-DTSTAMP;TZID=America/Denver:20260428T142026
-DTSTART;TZID=America/Denver:20260523T103000
-LAST-MODIFIED;TZID=America/Denver:20260428T142026
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Saturday Storytime
-UID:16719
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16708
-DTEND;TZID=America/Denver:20260523T150000
-DTSTAMP;TZID=America/Denver:20260428T141742
-DTSTART;TZID=America/Denver:20260523T140000
-LAST-MODIFIED;TZID=America/Denver:20260428T141742
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:16708
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16813
-DTEND;TZID=America/Denver:20260523T180000
-DTSTAMP;TZID=America/Denver:20260521T153431
-DTSTART;TZID=America/Denver:20260523T150000
-LAST-MODIFIED;TZID=America/Denver:20260521T153431
-LOCATION:OSTARC Facilities > Warm up arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:D's Adventures - Riding Lessons - Warm Up Arena 3pm-6pm
-UID:16813
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
 X-SOURCE-ID:center_street
 X-SOURCE:Center Street Gym / Arena
@@ -84,7 +14,7 @@ URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailp
 DTSTART;TZID=America/Denver:20260523T190000
 DTEND;TZID=America/Denver:20260523T220000
 RRULE:FREQ=WEEKLY;BYDAY=SA
-DTSTAMP:20260523T093508Z
+DTSTAMP:20260524T093616Z
 UID:75iqtkr02l1l6m4vgftvd8simm_R20260524T010000@google.com
 CREATED:20210111T154623Z
 LAST-MODIFIED:20260521T235519Z
@@ -92,50 +22,6 @@ SEQUENCE:1
 STATUS:CONFIRMED
 SUMMARY:Adult Basketball
 TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/passenger-2026"}
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/passenger-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:Passenger — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260524T130000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260524T150000
-UID:f9b58b31cb58e26e00e8bad7db3a3780@cinemaclock.com
-DESCRIPTION:R 13+ 14A 14A 18A 18A 14A 1h34m Horror Melissa Leo & Lou Llobe
- ll 1st week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/passenger-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-sheep-detectives-2026"}
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-sheep-detectives-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:The Sheep Detectives — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260524T130000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260524T150000
-UID:02982a039ea2c41d6680a1c761b76936@cinemaclock.com
-DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 3rd w
- eek\n\nhttps://www.cinemaclock.com/movies/the-sheep-detectives-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/the-sheep-detectives-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:Star Wars: The Mandalorian and Grogu — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260524T130000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260524T150000
-UID:47a909a1cb8f95e4bf80e206615c074f@cinemaclock.com
-DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
- scal & Martin Scorsese 1st week\n\nhttps://www.cinemaclock.com/movies/star
- -wars-the-mandalorian-and-grogu-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
- -2026
-X-SOURCE:Slickrock Cinemas
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -889,6 +775,47 @@ UID:1318
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/passenger-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Passenger — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260529T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260529T210000
+UID:4a08dd3673e7f198ae975cf342192bbe@cinemaclock.com
+DESCRIPTION:R 13+ 14A 14A 18A 18A 14A 1h34m Horror Melissa Leo & Lou Llobe
+ ll 1st week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/passenger-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-sheep-detectives-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:The Sheep Detectives — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260529T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260529T210000
+UID:72c50f122c7eb164621e8a3149aa259b@cinemaclock.com
+DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 3rd w
+ eek\n\nhttps://www.cinemaclock.com/movies/the-sheep-detectives-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/the-sheep-detectives-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Star Wars: The Mandalorian and Grogu — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260529T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260529T210000
+UID:6d820a02a5f4694b8c6e77bb76227635@cinemaclock.com
+DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
+ scal & Martin Scorsese 1st week\n\nhttps://www.cinemaclock.com/movies/star
+ -wars-the-mandalorian-and-grogu-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
+ -2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -917,6 +844,50 @@ SEQUENCE:0
 SUMMARY:Saturday Storytime
 UID:16720
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/passenger-2026"}
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/passenger-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Passenger — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260530T130000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260530T150000
+UID:b99cf44742981ae3d2d810c7e731bc5b@cinemaclock.com
+DESCRIPTION:R 13+ 14A 14A 18A 18A 14A 1h34m Horror Melissa Leo & Lou Llobe
+ ll 1st week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/passenger-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-sheep-detectives-2026"}
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-sheep-detectives-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:The Sheep Detectives — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260530T130000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260530T150000
+UID:3acf10b85d48e826f135b8e8ca9e1a80@cinemaclock.com
+DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 3rd w
+ eek\n\nhttps://www.cinemaclock.com/movies/the-sheep-detectives-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/the-sheep-detectives-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Star Wars: The Mandalorian and Grogu — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260530T130000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260530T150000
+UID:41fcf01fd75d4cb4eb18129c5371eddf@cinemaclock.com
+DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
+ scal & Martin Scorsese 1st week\n\nhttps://www.cinemaclock.com/movies/star
+ -wars-the-mandalorian-and-grogu-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
+ -2026
+X-SOURCE:Slickrock Cinemas
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -4826,6 +4797,25 @@ UID:16049
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:70+ Resistance Band Strength Training
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260716T100000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260716T104500
+UID:a0a20978bb109083a829cb7fa5657ec8@wellnesscollectivemoab.com
+DESCRIPTION:This 45-minute resistance band strength class is for adults 70
+ + who want to build strength\, improve balance\, and stay active in a supp
+ ortive\, small-group setting. Classes focus on simple\, low-impact movemen
+ ts that support everyday mobility and confidence. Exercises are adaptable 
+ and meet participants where they are. Resistance bands are provided or you
+ ’re welcome to bring your own. Please wear comfortable clothing\, stable
+  shoes\, and bring a water bottle. Thursdays at 10:00 AM at Wellness Colle
+ ctive $10 per class To sign up\, text Susette at 435-260-2523. Or show up!
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -4869,6 +4859,21 @@ SEQUENCE:0
 SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
 UID:16539
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Community Yoga with Massey
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260716T171500
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260716T181500
+UID:df10677acaa0411e506ede66afc471eb@wellnesscollectivemoab.com
+DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
+ d props provided. Class suitable for all bodies and skill levels. Class pr
+ icing is by donation (recommended $10 per class). Sliding scale pricing av
+ ailable options! No one is turned away.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -4998,7 +5003,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260720
 DTEND;VALUE=DATE:20260808
-DTSTAMP:20260523T093508Z
+DTSTAMP:20260524T093616Z
 UID:29i5bmefogj8n3r53vsup449eg@google.com
 CREATED:20260129T215055Z
 LAST-MODIFIED:20260316T170216Z
@@ -6383,7 +6388,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20261010
-DTSTAMP:20260523T093508Z
+DTSTAMP:20260524T093616Z
 UID:48rdqkjcg5r4rjec3qi8reeuev@google.com
 CREATED:20260120T150241Z
 LAST-MODIFIED:20260120T150241Z
@@ -8031,7 +8036,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260523T093508Z
+DTSTAMP:20260524T093616Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -9824,7 +9829,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260523T093508Z
+DTSTAMP:20260524T093616Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
