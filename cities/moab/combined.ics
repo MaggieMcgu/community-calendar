@@ -7,39 +7,6 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
-X-SOURCE-ID:center_street
-X-SOURCE:Center Street Gym / Arena
-URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
-DTSTART;TZID=America/Denver:20260523T190000
-DTEND;TZID=America/Denver:20260523T220000
-RRULE:FREQ=WEEKLY;BYDAY=SA
-DTSTAMP:20260524T093616Z
-UID:75iqtkr02l1l6m4vgftvd8simm_R20260524T010000@google.com
-CREATED:20210111T154623Z
-LAST-MODIFIED:20260521T235519Z
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Adult Basketball
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16237
-DTEND;TZID=America/Denver:20260524T200000
-DTSTAMP;TZID=America/Denver:20260126T115812
-DTSTART;TZID=America/Denver:20260524T163000
-LAST-MODIFIED;TZID=America/Denver:20260126T115812
-LOCATION:Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo Drill Team Practice  4:30pm-8:00pm Indoor Ar
- ena
-UID:16237
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -905,6 +872,50 @@ UID:16715
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/passenger-2026"}
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/passenger-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Passenger — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260531T130000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260531T150000
+UID:fe35b87f019dd98a80d06bbdc45fe7f2@cinemaclock.com
+DESCRIPTION:R 13+ 14A 14A 18A 18A 14A 1h34m Horror Melissa Leo & Lou Llobe
+ ll 1st week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/passenger-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-sheep-detectives-2026"}
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-sheep-detectives-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:The Sheep Detectives — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260531T130000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260531T150000
+UID:8b9cc735367e5ce4833e3593a2e6c74d@cinemaclock.com
+DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 3rd w
+ eek\n\nhttps://www.cinemaclock.com/movies/the-sheep-detectives-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/the-sheep-detectives-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Star Wars: The Mandalorian and Grogu — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260531T130000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260531T150000
+UID:87208b5e76642062c4e3b92bdb974ec1@cinemaclock.com
+DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
+ scal & Martin Scorsese 1st week\n\nhttps://www.cinemaclock.com/movies/star
+ -wars-the-mandalorian-and-grogu-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
+ -2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"City of Moab Recreation": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29"}
 X-SOURCE-ID:city_of_moab_recreation
 X-SOURCE:City of Moab Recreation
@@ -1700,10 +1711,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Relaxing Yoga and Meditation with Breann
+SUMMARY:Relaxing Yoga and Meditation with Amanda
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260609T171500
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260609T181500
-UID:3fb1530badd417c0177e52dced7241a0@wellnesscollectivemoab.com
+UID:7d88d3b6a8651ecb047d77a59ab1cbc7@wellnesscollectivemoab.com
 DESCRIPTION:This is a slow\, supportive yoga practice designed to help the
   body and mind settle. Classes blend gentle movement\, yin and restorative
   postures\, and mindful transitions that prioritize comfort\, choice\, and
@@ -3956,10 +3967,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga @ the Grand Center-Massey
+SUMMARY:Chair Yoga @ the Grand Center-Bre
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260707T143000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260707T153000
-UID:707ae3480d345c8abec33b1eac196514@wellnesscollectivemoab.com
+UID:48cb5d31372e2cd689ed7b8e3f9e761b@wellnesscollectivemoab.com
 DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
   for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
  ctive yoga instructors. Each teacher brings their own style and expertise\
@@ -4876,6 +4887,23 @@ LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Dharma Recovery with Jan
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260716T183000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260716T193000
+UID:3c694f220db7e5cf1a592690cbbe7b74@wellnesscollectivemoab.com
+DESCRIPTION:Join Tom for Dharma Recovery-a peer-led community space that i
+ s unified by our trust in the potential of each of us to recover and find 
+ freedom from the suffering of addiction. We believe that the traditional B
+ uddhist teachings\, often referred to as the Dharma\, offer a powerful app
+ roach to healing from addiction and living a life of true freedom. Class i
+ s free.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -5003,7 +5031,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260720
 DTEND;VALUE=DATE:20260808
-DTSTAMP:20260524T093616Z
+DTSTAMP:20260525T093419Z
 UID:29i5bmefogj8n3r53vsup449eg@google.com
 CREATED:20260129T215055Z
 LAST-MODIFIED:20260316T170216Z
@@ -6388,7 +6416,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20261010
-DTSTAMP:20260524T093616Z
+DTSTAMP:20260525T093419Z
 UID:48rdqkjcg5r4rjec3qi8reeuev@google.com
 CREATED:20260120T150241Z
 LAST-MODIFIED:20260120T150241Z
@@ -8036,7 +8064,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260524T093616Z
+DTSTAMP:20260525T093419Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -9829,7 +9857,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260524T093616Z
+DTSTAMP:20260525T093419Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
