@@ -779,27 +779,15 @@ UID:16838
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16836
-DTEND;TZID=America/Denver:20260620T150000
-DTSTAMP;TZID=America/Denver:20260522T150007
-DTSTART;TZID=America/Denver:20260620T140000
-LAST-MODIFIED;TZID=America/Denver:20260522T150007
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16906
+DTEND;TZID=America/Denver:20260620T170000
+DTSTAMP;TZID=America/Denver:20260526T093550
+DTSTART;TZID=America/Denver:20260620T090000
+LAST-MODIFIED;TZID=America/Denver:20260526T093550
+LOCATION: -   Moab UT 84532
 SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:16836
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16890
-DTEND;TZID=America/Denver:20260620T235900
-DTSTAMP;TZID=America/Denver:20260522T151618
-DTSTART;TZID=America/Denver:20260620T103000
-LAST-MODIFIED;TZID=America/Denver:20260522T151618
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Saturday Storytime
-UID:16890
+SUMMARY:Library Closed
+UID:16906
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
@@ -1294,30 +1282,6 @@ LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Bilingual Storytime 
 UID:16758
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16711
-DTEND;TZID=America/Denver:20260526T163000
-DTSTAMP;TZID=America/Denver:20260428T141223
-DTSTART;TZID=America/Denver:20260526T153000
-LAST-MODIFIED;TZID=America/Denver:20260428T141223
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:16711
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16614
-DTEND;VALUE=DATE:20260526
-DTSTAMP;TZID=America/Denver:20260302T101855
-DTSTART;VALUE=DATE:20260526
-LAST-MODIFIED;TZID=America/Denver:20260302T101855
-LOCATION:<p>Teen Center</p> - 321 E Center St.  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Teen Center Try it Tuesday
-UID:16614
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 END:VCALENDAR

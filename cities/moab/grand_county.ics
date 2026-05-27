@@ -789,6 +789,18 @@ UID:15694
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16907
+DTEND;TZID=America/Denver:20260602T160000
+DTSTAMP;TZID=America/Denver:20260526T165606
+DTSTART;TZID=America/Denver:20260602T150000
+LAST-MODIFIED;TZID=America/Denver:20260526T165606
+LOCATION: -     
+SEQUENCE:0
+SUMMARY:Board of Equalization Meeting
+UID:16907
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16806
 DTEND;TZID=America/Denver:20260601T190000
 DTSTAMP;TZID=America/Denver:20260511T140819
@@ -846,30 +858,6 @@ LOCATION: -
 SEQUENCE:0
 SUMMARY:Library Board Regular Meeting
 UID:16787
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16386
-DTEND;TZID=America/Denver:20260526T183000
-DTSTAMP;TZID=America/Denver:20260206T090021
-DTSTART;TZID=America/Denver:20260526T173000
-LAST-MODIFIED;TZID=America/Denver:20260206T090021
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Grand County Planning Commission Regular Meeting
-UID:16386
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16811
-DTEND;TZID=America/Denver:20260526T130000
-DTSTAMP;TZID=America/Denver:20260520T082823
-DTSTART;TZID=America/Denver:20260526T120000
-LAST-MODIFIED;TZID=America/Denver:20260520T082823
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Grand County Local Emergency Planning Committee
-UID:16811
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 END:VCALENDAR
