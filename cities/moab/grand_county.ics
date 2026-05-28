@@ -790,26 +790,14 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16907
-DTEND;TZID=America/Denver:20260602T160000
-DTSTAMP;TZID=America/Denver:20260526T165606
-DTSTART;TZID=America/Denver:20260602T150000
-LAST-MODIFIED;TZID=America/Denver:20260526T165606
+DTEND;TZID=America/Denver:20260602T164500
+DTSTAMP;TZID=America/Denver:20260527T122224
+DTSTART;TZID=America/Denver:20260602T154500
+LAST-MODIFIED;TZID=America/Denver:20260527T122224
 LOCATION: -     
 SEQUENCE:0
 SUMMARY:Board of Equalization Meeting
 UID:16907
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16806
-DTEND;TZID=America/Denver:20260601T190000
-DTSTAMP;TZID=America/Denver:20260511T140819
-DTSTART;TZID=America/Denver:20260601T180000
-LAST-MODIFIED;TZID=America/Denver:20260511T140819
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:One Time Event
-UID:16806
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
@@ -822,42 +810,6 @@ LOCATION: -
 SEQUENCE:0
 SUMMARY:Airport Board
 UID:16764
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16807
-DTEND;TZID=America/Denver:20260601T170000
-DTSTAMP;TZID=America/Denver:20260511T140849
-DTSTART;TZID=America/Denver:20260601T160000
-LAST-MODIFIED;TZID=America/Denver:20260511T140849
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:One Time Event
-UID:16807
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15762
-DTEND;TZID=America/Denver:20260529T100000
-DTSTAMP;TZID=America/Denver:20251217T152136
-DTSTART;TZID=America/Denver:20260529T090000
-LAST-MODIFIED;TZID=America/Denver:20251217T152136
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Audit Committee Meeting 
-UID:15762
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16787
-DTEND;TZID=America/Denver:20260527T183000
-DTSTAMP;TZID=America/Denver:20260508T091015
-DTSTART;TZID=America/Denver:20260527T173000
-LAST-MODIFIED;TZID=America/Denver:20260508T091015
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Library Board Regular Meeting
-UID:16787
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 END:VCALENDAR
