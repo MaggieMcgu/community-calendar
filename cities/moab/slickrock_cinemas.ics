@@ -5,17 +5,6 @@ X-WR-CALNAME:Slickrock Cinemas
 X-WR-TIMEZONE:America/Denver
 BEGIN:VEVENT
 SUMMARY:Passenger — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260529T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260529T210000
-UID:4a08dd3673e7f198ae975cf342192bbe@cinemaclock.com
-DESCRIPTION:R 13+ 14A 14A 18A 18A 14A 1h34m Horror Melissa Leo & Lou Llobe
- ll 1st week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/passenger-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Passenger — Slickrock Cinemas
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260530T130000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260530T150000
 UID:b99cf44742981ae3d2d810c7e731bc5b@cinemaclock.com
@@ -81,14 +70,14 @@ URL:https://www.cinemaclock.com/movies/passenger-2026
 X-SOURCE:Slickrock Cinemas
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:The Sheep Detectives — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260529T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260529T210000
-UID:72c50f122c7eb164621e8a3149aa259b@cinemaclock.com
-DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 3rd w
- eek\n\nhttps://www.cinemaclock.com/movies/the-sheep-detectives-2026
+SUMMARY:Passenger — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260604T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260604T210000
+UID:7785f10f55369935e1e4559069f7bc04@cinemaclock.com
+DESCRIPTION:R 13+ 14A 14A 18A 18A 14A 1h34m Horror Melissa Leo & Lou Llobe
+ ll 1st week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
 LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/the-sheep-detectives-2026
+URL:https://www.cinemaclock.com/movies/passenger-2026
 X-SOURCE:Slickrock Cinemas
 END:VEVENT
 BEGIN:VEVENT
@@ -158,16 +147,14 @@ URL:https://www.cinemaclock.com/movies/the-sheep-detectives-2026
 X-SOURCE:Slickrock Cinemas
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Star Wars: The Mandalorian and Grogu — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260529T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260529T210000
-UID:6d820a02a5f4694b8c6e77bb76227635@cinemaclock.com
-DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
- scal & Martin Scorsese 1st week\n\nhttps://www.cinemaclock.com/movies/star
- -wars-the-mandalorian-and-grogu-2026
+SUMMARY:The Sheep Detectives — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260604T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260604T210000
+UID:9b51e787fd1b927e8d01ee01cf48d481@cinemaclock.com
+DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 3rd w
+ eek\n\nhttps://www.cinemaclock.com/movies/the-sheep-detectives-2026
 LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
- -2026
+URL:https://www.cinemaclock.com/movies/the-sheep-detectives-2026
 X-SOURCE:Slickrock Cinemas
 END:VEVENT
 BEGIN:VEVENT
@@ -240,6 +227,19 @@ SUMMARY:Star Wars: The Mandalorian and Grogu — Slickrock Cinemas
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260531T190000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260531T210000
 UID:1c67880bb46b273b9a6998fb2da17a74@cinemaclock.com
+DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
+ scal & Martin Scorsese 1st week\n\nhttps://www.cinemaclock.com/movies/star
+ -wars-the-mandalorian-and-grogu-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
+ -2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Star Wars: The Mandalorian and Grogu — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260604T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260604T210000
+UID:418a7af78d20178ebd14d97f163e9b51@cinemaclock.com
 DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
  scal & Martin Scorsese 1st week\n\nhttps://www.cinemaclock.com/movies/star
  -wars-the-mandalorian-and-grogu-2026
