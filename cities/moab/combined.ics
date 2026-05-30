@@ -7,146 +7,6 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=14852
-DTEND;VALUE=DATE:20260531
-DTSTAMP;TZID=America/Denver:20251028T113953
-DTSTART;VALUE=DATE:20260529
-LAST-MODIFIED;TZID=America/Denver:20251028T113953
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Canyonlands PRCA Rodeo - Indoor Arena
-UID:14852
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga with Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260529T083000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260529T093000
-UID:d3e7a61049d150018ace027f2cbc5631@wellnesscollectivemoab.com
-DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
- . Start your Friday with this all-levels yoga class designed to help you a
- waken the body\, center the mind\, and ease into your day with intention. 
- We’ll begin with slow\, fluid movement to energize and open\, followed b
- y longer-held stretches and restorative postures to help you release tensi
- on and reconnect with yourself. This class is inclusive\, beginner-friendl
- y\, and rooted in breath\, balance\, and compassionate movement. Whether y
- ou’re unwinding from your week or preparing for the weekend ahead\, Frid
- ay Flow is a chance to show up just as you are.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=9055
-DTEND;TZID=America/Denver:20260529T113000
-DTSTAMP;TZID=America/Denver:20230216T121501
-DTSTART;TZID=America/Denver:20260529T100000
-LAST-MODIFIED;TZID=America/Denver:20230216T121501
-LOCATION:<p>Castle Valley Library Branch</p> -   Moab UT 84532
-SEQUENCE:0
-SUMMARY:Castle Valley Book Club
-UID:9055
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260529T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260529T104500
-UID:92bdefa80313cd99e24c76d155669711@wellnesscollectivemoab.com
-DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16753
-DTEND;TZID=America/Denver:20260529T170000
-DTSTAMP;TZID=America/Denver:20260428T142258
-DTSTART;TZID=America/Denver:20260529T140000
-LAST-MODIFIED;TZID=America/Denver:20260428T142258
-LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Makerspace
-UID:16753
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16714
-DTEND;TZID=America/Denver:20260529T163000
-DTSTAMP;TZID=America/Denver:20260428T141223
-DTSTART;TZID=America/Denver:20260529T153000
-LAST-MODIFIED;TZID=America/Denver:20260428T141223
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:16714
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15903
-DTEND;TZID=America/Denver:20260529T200000
-DTSTAMP;TZID=America/Denver:20260107T115007
-DTSTART;TZID=America/Denver:20260529T180000
-LAST-MODIFIED;TZID=America/Denver:20260107T115007
-LOCATION:OSTARC Facilities > Pavilion - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Skate Moab - Free Community Night - All Ages 6pm-8pm - Pavilion 
-UID:15903
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"City of Moab Recreation": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29"}
-X-SOURCE-ID:city_of_moab_recreation
-X-SOURCE:City of Moab Recreation
-DESCRIPTION: https://www.moabcity.gov/calendar.aspx?EID=1318
-DTEND;TZID=America/Denver:20260529T230000
-DTSTAMP;TZID=America/Denver:20260317T105921
-DTSTART;TZID=America/Denver:20260529T190000
-LAST-MODIFIED;TZID=America/Denver:20260317T105921
-LOCATION:City Parks - Swanny City Park - 400 N. 100 W.  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Free Movie Moab Summer Film Series Screening: The Never Ending Stor
- y
-UID:1318
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16759
-DTEND;TZID=America/Denver:20260529T235900
-DTSTAMP;TZID=America/Denver:20260428T152825
-DTSTART;TZID=America/Denver:20260529T203000
-LAST-MODIFIED;TZID=America/Denver:20260428T152825
-LOCATION:<p>Swanny City Park</p> - 400 N 100 W  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Free Movie in the Park
-UID:16759
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -160,50 +20,6 @@ SEQUENCE:0
 SUMMARY:Saturday Storytime
 UID:16720
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/passenger-2026"}
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/passenger-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:Passenger — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260530T130000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260530T150000
-UID:b99cf44742981ae3d2d810c7e731bc5b@cinemaclock.com
-DESCRIPTION:R 13+ 14A 14A 18A 18A 14A 1h34m Horror Melissa Leo & Lou Llobe
- ll 1st week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/passenger-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-sheep-detectives-2026"}
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-sheep-detectives-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:The Sheep Detectives — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260530T130000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260530T150000
-UID:3acf10b85d48e826f135b8e8ca9e1a80@cinemaclock.com
-DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 3rd w
- eek\n\nhttps://www.cinemaclock.com/movies/the-sheep-detectives-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/the-sheep-detectives-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:Star Wars: The Mandalorian and Grogu — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260530T130000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260530T150000
-UID:41fcf01fd75d4cb4eb18129c5371eddf@cinemaclock.com
-DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
- scal & Martin Scorsese 1st week\n\nhttps://www.cinemaclock.com/movies/star
- -wars-the-mandalorian-and-grogu-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
- -2026
-X-SOURCE:Slickrock Cinemas
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -229,7 +45,7 @@ DTSTART;TZID=MDT;VALUE=DATE-TIME:20260531T130000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260531T150000
 UID:fe35b87f019dd98a80d06bbdc45fe7f2@cinemaclock.com
 DESCRIPTION:R 13+ 14A 14A 18A 18A 14A 1h34m Horror Melissa Leo & Lou Llobe
- ll 1st week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
+ ll 2nd week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
 LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
 URL:https://www.cinemaclock.com/movies/passenger-2026
 X-SOURCE:Slickrock Cinemas
@@ -242,7 +58,7 @@ SUMMARY:The Sheep Detectives — Slickrock Cinemas
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260531T130000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260531T150000
 UID:8b9cc735367e5ce4833e3593a2e6c74d@cinemaclock.com
-DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 3rd w
+DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 4th w
  eek\n\nhttps://www.cinemaclock.com/movies/the-sheep-detectives-2026
 LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
 URL:https://www.cinemaclock.com/movies/the-sheep-detectives-2026
@@ -257,7 +73,7 @@ DTSTART;TZID=MDT;VALUE=DATE-TIME:20260531T130000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260531T150000
 UID:87208b5e76642062c4e3b92bdb974ec1@cinemaclock.com
 DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
- scal & Martin Scorsese 1st week\n\nhttps://www.cinemaclock.com/movies/star
+ scal & Martin Scorsese 2nd week\n\nhttps://www.cinemaclock.com/movies/star
  -wars-the-mandalorian-and-grogu-2026
 LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
 URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
@@ -339,15 +155,47 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;TZID=America/Denver:20260601T120000
 DTEND;TZID=America/Denver:20260601T130000
-RRULE:FREQ=WEEKLY;WKST=SU;BYDAY=MO
-DTSTAMP:20260529T093140Z
-UID:4mpvm5ncuc70a5c3kdaklnk1js@google.com
-CREATED:20260528T143951Z
-LAST-MODIFIED:20260528T143952Z
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20260627T055959Z;BYDAY=MO,TU,WE,TH
+DTSTAMP:20260530T093556Z
+UID:3okomcg5eca05fjpo2ctuuc0rf@google.com
+CREATED:20260529T201055Z
+LAST-MODIFIED:20260529T201056Z
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Summer Camp
+SUMMARY:City Of Moab Summer Camp (registration required)
 TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
+X-SOURCE-ID:center_street
+X-SOURCE:Center Street Gym / Arena
+URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
+DTSTART;TZID=America/Denver:20260601T130000
+DTEND;TZID=America/Denver:20260601T160000
+DTSTAMP:20260530T093556Z
+UID:1oi8qi80ue7mbqd7djcmss59jf@google.com
+RECURRENCE-ID;TZID=America/Denver:20260601T120000
+CREATED:20250918T200058Z
+LAST-MODIFIED:20260529T203147Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Open Gym 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
+X-SOURCE-ID:grand_county
+X-SOURCE:Grand County
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16918
+DTEND;TZID=America/Denver:20260601T150000
+DTSTAMP;TZID=America/Denver:20260529T091212
+DTSTART;TZID=America/Denver:20260601T140000
+LAST-MODIFIED;TZID=America/Denver:20260529T091212
+LOCATION: -     
+SEQUENCE:0
+SUMMARY:Grand County Fair Board Meeting
+UID:16918
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -485,6 +333,21 @@ UID:16818
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16919
+DTEND;TZID=America/Denver:20260602T163000
+DTSTAMP;TZID=America/Denver:20260529T170036
+DTSTART;TZID=America/Denver:20260602T153000
+LAST-MODIFIED;TZID=America/Denver:20260529T170036
+LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
+SEQUENCE:0
+SUMMARY:LEGO Club
+UID:16919
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
@@ -566,22 +429,6 @@ UID:14156
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
-X-SOURCE-ID:center_street
-X-SOURCE:Center Street Gym / Arena
-URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
-DTSTART:20260602T180000Z
-DTEND:20260602T190000Z
-DTSTAMP:20260529T093140Z
-UID:349shtfhkuk74fpn935058aok4@google.com
-CREATED:20260528T144012Z
-LAST-MODIFIED:20260528T144012Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Summer Camp
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -635,6 +482,21 @@ UID:16819
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16924
+DTEND;TZID=America/Denver:20260603T190000
+DTSTAMP;TZID=America/Denver:20260529T170244
+DTSTART;TZID=America/Denver:20260603T160000
+LAST-MODIFIED;TZID=America/Denver:20260529T170244
+LOCATION:<p>Library Teen Center</p> - 321 E Center St.  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Teen Center Dungeons & Dragons
+UID:16924
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -667,22 +529,6 @@ DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
  USARA.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
-X-SOURCE-ID:center_street
-X-SOURCE:Center Street Gym / Arena
-URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
-DTSTART:20260603T180000Z
-DTEND:20260603T190000Z
-DTSTAMP:20260529T093140Z
-UID:58d383lt94ne82grbalonlu876@google.com
-CREATED:20260528T144050Z
-LAST-MODIFIED:20260528T144050Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Summer Camp 
-TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -788,22 +634,6 @@ LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
-X-SOURCE-ID:center_street
-X-SOURCE:Center Street Gym / Arena
-URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
-DTSTART:20260604T180000Z
-DTEND:20260604T190000Z
-DTSTAMP:20260529T093140Z
-UID:7gdo8m9jc53go50joi88nj2j5u@google.com
-CREATED:20260528T144111Z
-LAST-MODIFIED:20260528T144111Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Summer Camp
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -828,7 +658,7 @@ DTSTART;TZID=MDT;VALUE=DATE-TIME:20260604T190000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260604T210000
 UID:7785f10f55369935e1e4559069f7bc04@cinemaclock.com
 DESCRIPTION:R 13+ 14A 14A 18A 18A 14A 1h34m Horror Melissa Leo & Lou Llobe
- ll 1st week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
+ ll 2nd week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
 LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
 URL:https://www.cinemaclock.com/movies/passenger-2026
 X-SOURCE:Slickrock Cinemas
@@ -840,7 +670,7 @@ SUMMARY:The Sheep Detectives — Slickrock Cinemas
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260604T190000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260604T210000
 UID:9b51e787fd1b927e8d01ee01cf48d481@cinemaclock.com
-DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 3rd w
+DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 4th w
  eek\n\nhttps://www.cinemaclock.com/movies/the-sheep-detectives-2026
 LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
 URL:https://www.cinemaclock.com/movies/the-sheep-detectives-2026
@@ -854,7 +684,7 @@ DTSTART;TZID=MDT;VALUE=DATE-TIME:20260604T190000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260604T210000
 UID:418a7af78d20178ebd14d97f163e9b51@cinemaclock.com
 DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
- scal & Martin Scorsese 1st week\n\nhttps://www.cinemaclock.com/movies/star
+ scal & Martin Scorsese 2nd week\n\nhttps://www.cinemaclock.com/movies/star
  -wars-the-mandalorian-and-grogu-2026
 LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
 URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
@@ -894,6 +724,23 @@ LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
+X-SOURCE-ID:center_street
+X-SOURCE:Center Street Gym / Arena
+URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
+DTSTART;TZID=America/Denver:20260605T090000
+DTEND;TZID=America/Denver:20260605T113000
+DTSTAMP:20260530T093556Z
+UID:24k6c12mpt90qt418c3mhaing4@google.com
+RECURRENCE-ID;TZID=America/Denver:20260605T090000
+CREATED:20231219T004919Z
+LAST-MODIFIED:20260529T203150Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Pickleball
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -906,6 +753,23 @@ DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
  3 S 100 W\, Moab\, UT 84532
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
+X-SOURCE-ID:center_street
+X-SOURCE:Center Street Gym / Arena
+URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
+DTSTART;TZID=America/Denver:20260605T113000
+DTEND;TZID=America/Denver:20260605T123000
+RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20260627T055959Z;BYDAY=FR
+DTSTAMP:20260530T093556Z
+UID:0oarhcb105qd73h2bn7dq61lig@google.com
+CREATED:20260529T201321Z
+LAST-MODIFIED:20260529T201412Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:City Of Moab Summer Camp (registration required)
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -938,22 +802,6 @@ UID:16896
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
-X-SOURCE-ID:center_street
-X-SOURCE:Center Street Gym / Arena
-URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
-DTSTART:20260605T180000Z
-DTEND:20260605T190000Z
-DTSTAMP:20260529T093140Z
-UID:58erhatnlpqdf9il6hueu6eomp@google.com
-CREATED:20260528T144129Z
-LAST-MODIFIED:20260528T144129Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Summer Camp
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"City of Moab Recreation": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29"}
 X-SOURCE-ID:city_of_moab_recreation
 X-SOURCE:City of Moab Recreation
@@ -967,6 +815,47 @@ SEQUENCE:0
 SUMMARY:Free Movie Moab Summer Film Series Screening: Zootopia 2
 UID:1319
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/passenger-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Passenger — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260605T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260605T210000
+UID:a845132ed5209083baceb39c9ac2fbf5@cinemaclock.com
+DESCRIPTION:R 13+ 14A 14A 18A 18A 14A 1h34m Horror Melissa Leo & Lou Llobe
+ ll 2nd week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/passenger-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-sheep-detectives-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:The Sheep Detectives — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260605T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260605T210000
+UID:53d3605ea7b369826301bd46470ec1b6@cinemaclock.com
+DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 4th w
+ eek\n\nhttps://www.cinemaclock.com/movies/the-sheep-detectives-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/the-sheep-detectives-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Star Wars: The Mandalorian and Grogu — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260605T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260605T210000
+UID:642b3dfb3770b86eedd3a86e1cccedcf@cinemaclock.com
+DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
+ scal & Martin Scorsese 2nd week\n\nhttps://www.cinemaclock.com/movies/star
+ -wars-the-mandalorian-and-grogu-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
+ -2026
+X-SOURCE:Slickrock Cinemas
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -1227,6 +1116,21 @@ UID:16825
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16920
+DTEND;TZID=America/Denver:20260609T163000
+DTSTAMP;TZID=America/Denver:20260529T170036
+DTSTART;TZID=America/Denver:20260609T153000
+LAST-MODIFIED;TZID=America/Denver:20260529T170036
+LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
+SEQUENCE:0
+SUMMARY:LEGO Club
+UID:16920
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -1348,6 +1252,21 @@ LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Kids Cafe
 UID:16826
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16925
+DTEND;TZID=America/Denver:20260610T190000
+DTSTAMP;TZID=America/Denver:20260529T170244
+DTSTART;TZID=America/Denver:20260610T160000
+LAST-MODIFIED;TZID=America/Denver:20260529T170244
+LOCATION:<p>Library Teen Center</p> - 321 E Center St.  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Teen Center Dungeons & Dragons
+UID:16925
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
@@ -1868,6 +1787,21 @@ UID:16832
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16921
+DTEND;TZID=America/Denver:20260616T163000
+DTSTAMP;TZID=America/Denver:20260529T170036
+DTSTART;TZID=America/Denver:20260616T153000
+LAST-MODIFIED;TZID=America/Denver:20260529T170036
+LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
+SEQUENCE:0
+SUMMARY:LEGO Club
+UID:16921
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
@@ -2041,6 +1975,21 @@ LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Kids Cafe
 UID:16833
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16926
+DTEND;TZID=America/Denver:20260617T190000
+DTSTAMP;TZID=America/Denver:20260529T170244
+DTSTART;TZID=America/Denver:20260617T160000
+LAST-MODIFIED;TZID=America/Denver:20260529T170244
+LOCATION:<p>Library Teen Center</p> - 321 E Center St.  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Teen Center Dungeons & Dragons
+UID:16926
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
@@ -2520,6 +2469,21 @@ UID:16839
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16922
+DTEND;TZID=America/Denver:20260623T163000
+DTSTAMP;TZID=America/Denver:20260529T170036
+DTSTART;TZID=America/Denver:20260623T153000
+LAST-MODIFIED;TZID=America/Denver:20260529T170036
+LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
+SEQUENCE:0
+SUMMARY:LEGO Club
+UID:16922
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -2600,6 +2564,21 @@ LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Kids Cafe
 UID:16840
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16927
+DTEND;TZID=America/Denver:20260624T190000
+DTSTAMP;TZID=America/Denver:20260529T170244
+DTSTART;TZID=America/Denver:20260624T160000
+LAST-MODIFIED;TZID=America/Denver:20260529T170244
+LOCATION:<p>Library Teen Center</p> - 321 E Center St.  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Teen Center Dungeons & Dragons
+UID:16927
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
@@ -3033,6 +3012,21 @@ LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Kids Cafe
 UID:16846
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16923
+DTEND;TZID=America/Denver:20260630T163000
+DTSTAMP;TZID=America/Denver:20260529T170036
+DTSTART;TZID=America/Denver:20260630T153000
+LAST-MODIFIED;TZID=America/Denver:20260529T170036
+LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
+SEQUENCE:0
+SUMMARY:LEGO Club
+UID:16923
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
@@ -4686,13 +4680,13 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260720
 DTEND;VALUE=DATE:20260808
-DTSTAMP:20260529T093140Z
+DTSTAMP:20260530T093556Z
 UID:29i5bmefogj8n3r53vsup449eg@google.com
 CREATED:20260129T215055Z
-LAST-MODIFIED:20260316T170216Z
+LAST-MODIFIED:20260529T202113Z
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Phoenix Youth Circus Arts (PYCA)
+SUMMARY:Phoenix Youth Circus Arts (PYCA) - Center St Gym Closed
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -5048,6 +5042,21 @@ UID:16543
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Community Yoga with Breann
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260723T171500
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260723T181500
+UID:1814e9b39908586ada19b13f304f3e80@wellnesscollectivemoab.com
+DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
+ d props provided. Class suitable for all bodies and skill levels. Class pr
+ icing is by donation (recommended $10 per class). Sliding scale pricing av
+ ailable options! No one is turned away.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab City Council": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"}
 X-SOURCE-ID:moab_city_council
 X-SOURCE:Moab City Council
@@ -5107,6 +5116,40 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16057
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Flow into Friday Yoga with Bre
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260724T083000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260724T093000
+UID:dd0abcc6d894b36e5e84145d44307c8c@wellnesscollectivemoab.com
+DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
+ . Start your Friday with this all-levels yoga class designed to help you a
+ waken the body\, center the mind\, and ease into your day with intention. 
+ We’ll begin with slow\, fluid movement to energize and open\, followed b
+ y longer-held stretches and restorative postures to help you release tensi
+ on and reconnect with yourself. This class is inclusive\, beginner-friendl
+ y\, and rooted in breath\, balance\, and compassionate movement. Whether y
+ ou’re unwinding from your week or preparing for the weekend ahead\, Frid
+ ay Flow is a chance to show up just as you are.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Yoga at USARA with Breann
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260724T100000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260724T104500
+UID:e2abc957cd5e631eebe31fe138643365@wellnesscollectivemoab.com
+DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
+ ity members. A free class held inside at USARA. Mats provided. Location: 2
+ 3 S 100 W\, Moab\, UT 84532
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -6176,6 +6219,21 @@ UID:16086
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-22-2026/girls-soccer-26/enterprise-vs-grand-county.htm?c=dhnmBA-jaUarG0MJ_8EBoA"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Enterprise Girls Varsity Soccer @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260822T100000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260822T114500
+UID:c59b8c0cdc9fc5a2e583abed7457ea29@maxpreps.com
+DESCRIPTION:Girls Varsity Soccer\nThe Enterprise varsity soccer team has a
+ n away conference match @  Grand County (Moab\, UT) on Saturday\, August 2
+ 2 @ 10a.
+LOCATION:Grand County High School\, 608 S 400 E\, Moab\, UT 84532
+URL:https://www.maxpreps.com/games/08-22-2026/girls-soccer-26/enterprise-v
+ s-grand-county.htm?c=dhnmBA-jaUarG0MJ_8EBoA
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-22-2026/freshman-volleyball-26/enterprise-vs-grand-county.htm?c=LOJWQ92Uek69FOg01cCyjQ"}
 X-SOURCE-ID:maxpreps_grand_county
 SUMMARY:Grand County Girls Freshman Volleyball @ Enterprise
@@ -6242,7 +6300,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20261010
-DTSTAMP:20260529T093140Z
+DTSTAMP:20260530T093556Z
 UID:48rdqkjcg5r4rjec3qi8reeuev@google.com
 CREATED:20260120T150241Z
 LAST-MODIFIED:20260120T150241Z
@@ -7890,7 +7948,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260529T093140Z
+DTSTAMP:20260530T093556Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -9683,7 +9741,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260529T093140Z
+DTSTAMP:20260530T093556Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st

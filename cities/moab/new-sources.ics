@@ -7,84 +7,6 @@ X-WR-CALNAME:Moab New Sources
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga with Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260529T083000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260529T093000
-UID:d3e7a61049d150018ace027f2cbc5631@wellnesscollectivemoab.com
-DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
- . Start your Friday with this all-levels yoga class designed to help you a
- waken the body\, center the mind\, and ease into your day with intention. 
- We’ll begin with slow\, fluid movement to energize and open\, followed b
- y longer-held stretches and restorative postures to help you release tensi
- on and reconnect with yourself. This class is inclusive\, beginner-friendl
- y\, and rooted in breath\, balance\, and compassionate movement. Whether y
- ou’re unwinding from your week or preparing for the weekend ahead\, Frid
- ay Flow is a chance to show up just as you are.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260529T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260529T104500
-UID:92bdefa80313cd99e24c76d155669711@wellnesscollectivemoab.com
-DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/passenger-2026"}
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/passenger-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:Passenger — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260530T130000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260530T150000
-UID:b99cf44742981ae3d2d810c7e731bc5b@cinemaclock.com
-DESCRIPTION:R 13+ 14A 14A 18A 18A 14A 1h34m Horror Melissa Leo & Lou Llobe
- ll 1st week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/passenger-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-sheep-detectives-2026"}
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-sheep-detectives-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:The Sheep Detectives — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260530T130000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260530T150000
-UID:3acf10b85d48e826f135b8e8ca9e1a80@cinemaclock.com
-DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 3rd w
- eek\n\nhttps://www.cinemaclock.com/movies/the-sheep-detectives-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/the-sheep-detectives-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:Star Wars: The Mandalorian and Grogu — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260530T130000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260530T150000
-UID:41fcf01fd75d4cb4eb18129c5371eddf@cinemaclock.com
-DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
- scal & Martin Scorsese 1st week\n\nhttps://www.cinemaclock.com/movies/star
- -wars-the-mandalorian-and-grogu-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
- -2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/passenger-2026"}
 X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/passenger-2026"}
 X-SOURCE-ID:slickrock_cinemas
@@ -93,7 +15,7 @@ DTSTART;TZID=MDT;VALUE=DATE-TIME:20260531T130000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260531T150000
 UID:fe35b87f019dd98a80d06bbdc45fe7f2@cinemaclock.com
 DESCRIPTION:R 13+ 14A 14A 18A 18A 14A 1h34m Horror Melissa Leo & Lou Llobe
- ll 1st week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
+ ll 2nd week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
 LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
 URL:https://www.cinemaclock.com/movies/passenger-2026
 X-SOURCE:Slickrock Cinemas
@@ -106,7 +28,7 @@ SUMMARY:The Sheep Detectives — Slickrock Cinemas
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260531T130000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260531T150000
 UID:8b9cc735367e5ce4833e3593a2e6c74d@cinemaclock.com
-DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 3rd w
+DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 4th w
  eek\n\nhttps://www.cinemaclock.com/movies/the-sheep-detectives-2026
 LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
 URL:https://www.cinemaclock.com/movies/the-sheep-detectives-2026
@@ -121,7 +43,7 @@ DTSTART;TZID=MDT;VALUE=DATE-TIME:20260531T130000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260531T150000
 UID:87208b5e76642062c4e3b92bdb974ec1@cinemaclock.com
 DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
- scal & Martin Scorsese 1st week\n\nhttps://www.cinemaclock.com/movies/star
+ scal & Martin Scorsese 2nd week\n\nhttps://www.cinemaclock.com/movies/star
  -wars-the-mandalorian-and-grogu-2026
 LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
 URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
@@ -352,7 +274,7 @@ DTSTART;TZID=MDT;VALUE=DATE-TIME:20260604T190000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260604T210000
 UID:7785f10f55369935e1e4559069f7bc04@cinemaclock.com
 DESCRIPTION:R 13+ 14A 14A 18A 18A 14A 1h34m Horror Melissa Leo & Lou Llobe
- ll 1st week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
+ ll 2nd week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
 LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
 URL:https://www.cinemaclock.com/movies/passenger-2026
 X-SOURCE:Slickrock Cinemas
@@ -364,7 +286,7 @@ SUMMARY:The Sheep Detectives — Slickrock Cinemas
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260604T190000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260604T210000
 UID:9b51e787fd1b927e8d01ee01cf48d481@cinemaclock.com
-DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 3rd w
+DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 4th w
  eek\n\nhttps://www.cinemaclock.com/movies/the-sheep-detectives-2026
 LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
 URL:https://www.cinemaclock.com/movies/the-sheep-detectives-2026
@@ -378,7 +300,7 @@ DTSTART;TZID=MDT;VALUE=DATE-TIME:20260604T190000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260604T210000
 UID:418a7af78d20178ebd14d97f163e9b51@cinemaclock.com
 DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
- scal & Martin Scorsese 1st week\n\nhttps://www.cinemaclock.com/movies/star
+ scal & Martin Scorsese 2nd week\n\nhttps://www.cinemaclock.com/movies/star
  -wars-the-mandalorian-and-grogu-2026
 LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
 URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
@@ -430,6 +352,47 @@ DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
  3 S 100 W\, Moab\, UT 84532
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/passenger-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Passenger — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260605T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260605T210000
+UID:a845132ed5209083baceb39c9ac2fbf5@cinemaclock.com
+DESCRIPTION:R 13+ 14A 14A 18A 18A 14A 1h34m Horror Melissa Leo & Lou Llobe
+ ll 2nd week\n\nhttps://www.cinemaclock.com/movies/passenger-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/passenger-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-sheep-detectives-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:The Sheep Detectives — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260605T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260605T210000
+UID:53d3605ea7b369826301bd46470ec1b6@cinemaclock.com
+DESCRIPTION:G PG PG G G G Mystery film Hugh Jackman & Nicholas Braun 4th w
+ eek\n\nhttps://www.cinemaclock.com/movies/the-sheep-detectives-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/the-sheep-detectives-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Star Wars: The Mandalorian and Grogu — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260605T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260605T210000
+UID:642b3dfb3770b86eedd3a86e1cccedcf@cinemaclock.com
+DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
+ scal & Martin Scorsese 2nd week\n\nhttps://www.cinemaclock.com/movies/star
+ -wars-the-mandalorian-and-grogu-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
+ -2026
+X-SOURCE:Slickrock Cinemas
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
@@ -2181,6 +2144,21 @@ LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Community Yoga with Breann
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260723T171500
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260723T181500
+UID:1814e9b39908586ada19b13f304f3e80@wellnesscollectivemoab.com
+DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
+ d props provided. Class suitable for all bodies and skill levels. Class pr
+ icing is by donation (recommended $10 per class). Sliding scale pricing av
+ ailable options! No one is turned away.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab Museum": "https://moabmuseum.org/events/annual-pioneer-day-ice-cream-social/"}
 X-SOURCE-ID:moab_museum
 SUMMARY:Annual Pioneer Day Ice Cream Social
@@ -2194,6 +2172,40 @@ DESCRIPTION:Join the Moab Museum on Friday\, July 24th from 6-8pm for ice
 LOCATION:Moab Museum West Lawn\, 118 E Center St.\, Moab\, UT\, 84532
 URL:https://moabmuseum.org/events/annual-pioneer-day-ice-cream-social/
 X-SOURCE:Moab Museum
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Flow into Friday Yoga with Bre
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260724T083000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260724T093000
+UID:dd0abcc6d894b36e5e84145d44307c8c@wellnesscollectivemoab.com
+DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
+ . Start your Friday with this all-levels yoga class designed to help you a
+ waken the body\, center the mind\, and ease into your day with intention. 
+ We’ll begin with slow\, fluid movement to energize and open\, followed b
+ y longer-held stretches and restorative postures to help you release tensi
+ on and reconnect with yourself. This class is inclusive\, beginner-friendl
+ y\, and rooted in breath\, balance\, and compassionate movement. Whether y
+ ou’re unwinding from your week or preparing for the weekend ahead\, Frid
+ ay Flow is a chance to show up just as you are.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Yoga at USARA with Breann
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260724T100000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260724T104500
+UID:e2abc957cd5e631eebe31fe138643365@wellnesscollectivemoab.com
+DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
+ ity members. A free class held inside at USARA. Mats provided. Location: 2
+ 3 S 100 W\, Moab\, UT 84532
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab Folk Festival": "https://www.moabfreeconcerts.com/"}
@@ -2305,6 +2317,21 @@ DESCRIPTION:Girls Varsity Volleyball\nThe Grand County varsity volleyball
 LOCATION:Parowan High School
 URL:https://www.maxpreps.com/games/08-21-2026/volleyball-26/grand-county-v
  s-parowan.htm?c=17r6XZse9E2NUppqntfkVw
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-22-2026/girls-soccer-26/enterprise-vs-grand-county.htm?c=dhnmBA-jaUarG0MJ_8EBoA"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Enterprise Girls Varsity Soccer @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260822T100000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260822T114500
+UID:c59b8c0cdc9fc5a2e583abed7457ea29@maxpreps.com
+DESCRIPTION:Girls Varsity Soccer\nThe Enterprise varsity soccer team has a
+ n away conference match @  Grand County (Moab\, UT) on Saturday\, August 2
+ 2 @ 10a.
+LOCATION:Grand County High School\, 608 S 400 E\, Moab\, UT 84532
+URL:https://www.maxpreps.com/games/08-22-2026/girls-soccer-26/enterprise-v
+ s-grand-county.htm?c=dhnmBA-jaUarG0MJ_8EBoA
 X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT

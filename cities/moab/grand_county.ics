@@ -812,4 +812,16 @@ SUMMARY:Airport Board
 UID:16764
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16918
+DTEND;TZID=America/Denver:20260601T150000
+DTSTAMP;TZID=America/Denver:20260529T091212
+DTSTART;TZID=America/Denver:20260601T140000
+LAST-MODIFIED;TZID=America/Denver:20260529T091212
+LOCATION: -     
+SEQUENCE:0
+SUMMARY:Grand County Fair Board Meeting
+UID:16918
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
 END:VCALENDAR
