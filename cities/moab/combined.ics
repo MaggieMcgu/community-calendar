@@ -7,74 +7,6 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"City of Moab Recreation": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29"}
-X-SOURCE-ID:city_of_moab_recreation
-X-SOURCE:City of Moab Recreation
-DESCRIPTION: https://www.moabcity.gov/calendar.aspx?EID=1326
-DTEND;VALUE=DATE:20260601
-DTSTAMP;TZID=America/Denver:20251021T091118
-DTSTART;VALUE=DATE:20260601
-LAST-MODIFIED;TZID=America/Denver:20251021T091118
-LOCATION: - Moab Arts Center 111 E 100 N Moab UT 84532
-SEQUENCE:0
-SUMMARY:Arts & Recreation Summer Camp
-UID:1326
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15584
-DTEND;VALUE=DATE:20260605
-DTSTAMP;TZID=America/Denver:20251028T115217
-DTSTART;VALUE=DATE:20260601
-LAST-MODIFIED;TZID=America/Denver:20251028T115217
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Arena Closed - Event Clean up & Prep
-UID:15584
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-ID:moab_arts
-SUMMARY:2026 Arts & Rec Summer Camp
-DTSTART;TZID="UTC-06:00";VALUE=DATE-TIME:20260601T090000
-DTEND;TZID="UTC-06:00";VALUE=DATE-TIME:20260626T160000
-UID:6093ee5e998c6bd5dec34dbe694bc82a@moabarts.org
-DESCRIPTION:Creativity will blossom in the art room and kids will stay act
- ive with games and pool time! Join us for one or up to four weeks of fun t
- his June.
-LOCATION:Moab Arts and Recreation Center\, 111 E 100 N\, Moab\, UT 84532\,
-  USA
-X-SOURCE:Moab Arts & Recreation Center
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260601T090000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260601T100000
-UID:8872e8c74139c95bc6083a7acaa7e8b4@wellnesscollectivemoab.com
-DESCRIPTION:Chair Yoga – Mondays at 9 AM Join us every Monday morning at
-  9:00 AM for a gentle and accessible Chair Yoga class\, led by Breann\, a 
- certified trauma-sensitive yoga teacher and experienced massage therapist.
-  Breann brings over 20 years of experience in guiding others toward greate
- r body awareness\, healing\, and relaxation. This class is designed for ev
- eryone – whether you are new to yoga\, have limited mobility\, or are lo
- oking for a mindful and soothing way to start your week. Chair Yoga allows
-  you to experience the benefits of yoga without needing to get down on a m
- at. What to Expect: • Seated and standing postures using the chair for s
- upport • Gentle stretches to enhance flexibility • Breathing exercises
-  to calm the mind and body • Movements to promote better circulation and
-  balance ✨ No experience necessary – come as you are! Where: Wellness 
- Collective When: Every Monday at 9:00 AM Cost: By donation Let this practi
- ce be a moment of self-care and grounding in your week.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
 X-SOURCE-ID:center_street
 X-SOURCE:Center Street Gym / Arena
@@ -82,7 +14,7 @@ URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailp
 DTSTART;TZID=America/Denver:20260601T120000
 DTEND;TZID=America/Denver:20260601T130000
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20260627T055959Z;BYDAY=MO,TU,WE,TH
-DTSTAMP:20260601T093450Z
+DTSTAMP:20260602T093217Z
 UID:3okomcg5eca05fjpo2ctuuc0rf@google.com
 CREATED:20260529T201055Z
 LAST-MODIFIED:20260529T201056Z
@@ -98,7 +30,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;TZID=America/Denver:20260601T130000
 DTEND;TZID=America/Denver:20260601T160000
-DTSTAMP:20260601T093450Z
+DTSTAMP:20260602T093217Z
 UID:1oi8qi80ue7mbqd7djcmss59jf@google.com
 RECURRENCE-ID;TZID=America/Denver:20260601T120000
 CREATED:20250918T200058Z
@@ -107,141 +39,6 @@ SEQUENCE:1
 STATUS:CONFIRMED
 SUMMARY:Open Gym 
 TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-ID:grand_county
-X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16918
-DTEND;TZID=America/Denver:20260601T150000
-DTSTAMP;TZID=America/Denver:20260529T091212
-DTSTART;TZID=America/Denver:20260601T140000
-LAST-MODIFIED;TZID=America/Denver:20260529T091212
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Grand County Fair Board Meeting
-UID:16918
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16908
-DTEND;TZID=America/Denver:20260601T150000
-DTSTAMP;TZID=America/Denver:20260527T090010
-DTSTART;TZID=America/Denver:20260601T140000
-LAST-MODIFIED;TZID=America/Denver:20260527T090010
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
- 2
-SEQUENCE:0
-SUMMARY:Grand County Fair Board Meeting - 2:00pm - Arena Conference Room
-UID:16908
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16817
-DTEND;TZID=America/Denver:20260601T163000
-DTSTAMP;TZID=America/Denver:20260522T145631
-DTSTART;TZID=America/Denver:20260601T153000
-LAST-MODIFIED;TZID=America/Denver:20260522T145631
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:16817
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-ID:grand_county
-X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16764
-DTEND;TZID=America/Denver:20260601T170000
-DTSTAMP;TZID=America/Denver:20260511T160932
-DTSTART;TZID=America/Denver:20260601T160000
-LAST-MODIFIED;TZID=America/Denver:20260511T160932
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Airport Board
-UID:16764
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16512
-DTEND;TZID=America/Denver:20260601T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260601T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16512
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16909
-DTEND;TZID=America/Denver:20260601T203000
-DTSTAMP;TZID=America/Denver:20260527T090853
-DTSTART;TZID=America/Denver:20260601T190000
-LAST-MODIFIED;TZID=America/Denver:20260527T090853
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:City Rec. Baseball (Melissa Frandsen) Softball Field #1 7:00pm - 8:
- 30pm
-UID:16909
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260602T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260602T074500
-UID:0b3fd2e517e7c6befe606b06537922b9@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga @ the Grand Center-Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260602T143000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260602T153000
-UID:08877c44dad0cfeb73f7aee6997c4632@wellnesscollectivemoab.com
-DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
-  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
- ctive yoga instructors. Each teacher brings their own style and expertise\
- , while sharing a common focus on safety\, choice\, and ease in the body. 
- This class is especially supportive for older adults and anyone who prefer
- s to stay off the floor\, has limited mobility\, uses a chair for stabilit
- y\, or is simply looking for a calm\, nourishing way to move. All poses ar
- e done seated or standing with the support of a chair\, so you can experie
- nce the benefits of yoga without getting down on a mat.
-LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -319,25 +116,6 @@ UID:16513
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Relaxing Yoga and Meditation with Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260602T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260602T181500
-UID:7c171360e11d86ff3d489eb5cdbd6220@wellnesscollectivemoab.com
-DESCRIPTION:This is a slow\, supportive yoga practice designed to help the
-  body and mind settle. Classes blend gentle movement\, yin and restorative
-  postures\, and mindful transitions that prioritize comfort\, choice\, and
-  ease. Each class includes a 10-minute meditation practice. You are always
-  invited — never required — to participate in any way that feels right
-  for you This class is open to all bodies and experience levels\, accessib
- le and adaptable\, and focused on relaxation\, presence\, and nervous syst
- em balance. Come as you are. Rest is welcome here.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -353,29 +131,6 @@ SUMMARY:Canyonlands PRCA Rodeo Meeting  5:30pm-6:30pm- OSTA Conference Room
   
 UID:14156
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260603T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260603T074500
-UID:fcb2aecc8c85910f71f183407daf0ef7@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -438,25 +193,6 @@ UID:16514
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260603T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260603T181500
-UID:c4571a76c65ddc707cce1d95c7bc571c@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -471,48 +207,6 @@ SUMMARY:City Rec. Baseball (Melissa Frandsen) Softball Field #1 7:00pm - 8:
  30pm
 UID:16910
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260604T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260604T074500
-UID:bc4fbaa350a475370330118b371163e4@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:70+ Resistance Band Strength Training
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260604T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260604T104500
-UID:f86093acbdd9a7651c8e3f3675a89e6a@wellnesscollectivemoab.com
-DESCRIPTION:This 45-minute resistance band strength class is for adults 70
- + who want to build strength\, improve balance\, and stay active in a supp
- ortive\, small-group setting. Classes focus on simple\, low-impact movemen
- ts that support everyday mobility and confidence. Exercises are adaptable 
- and meet participants where they are. Resistance bands are provided or you
- ’re welcome to bring your own. Please wear comfortable clothing\, stable
-  shoes\, and bring a water bottle. Thursdays at 10:00 AM at Wellness Colle
- ctive $10 per class To sign up\, text Susette at 435-260-2523. Or show up!
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -543,38 +237,6 @@ SEQUENCE:0
 SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
 UID:16515
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Community Yoga with Amanda
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260604T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260604T181500
-UID:e718708fdca66ba08ddc1051b0bc12ac@wellnesscollectivemoab.com
-DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
- d props provided. Class suitable for all bodies and skill levels. Class pr
- icing is by donation (recommended $10 per class). Sliding scale pricing av
- ailable options! No one is turned away.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Dharma Recovery with Jan
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260604T183000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260604T193000
-UID:198d53494e5bba15f8783d387ee3ccaf@wellnesscollectivemoab.com
-DESCRIPTION:Join Tom for Dharma Recovery-a peer-led community space that i
- s unified by our trust in the potential of each of us to recover and find 
- freedom from the suffering of addiction. We believe that the traditional B
- uddhist teachings\, often referred to as the Dharma\, offer a powerful app
- roach to healing from addiction and living a life of true freedom. Class i
- s free.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/passenger-2026"}
@@ -630,33 +292,13 @@ URL:https://climbmoabgym.com/events/fems-thems
 X-SOURCE:Climb Moab
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga with Amanda
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260605T083000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260605T093000
-UID:1d0906ba2c5bcedfd2f009f6996dd491@wellnesscollectivemoab.com
-DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
- . Start your Friday with this all-levels yoga class designed to help you a
- waken the body\, center the mind\, and ease into your day with intention. 
- We’ll begin with slow\, fluid movement to energize and open\, followed b
- y longer-held stretches and restorative postures to help you release tensi
- on and reconnect with yourself. This class is inclusive\, beginner-friendl
- y\, and rooted in breath\, balance\, and compassionate movement. Whether y
- ou’re unwinding from your week or preparing for the weekend ahead\, Frid
- ay Flow is a chance to show up just as you are.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
 X-SOURCE-ID:center_street
 X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;TZID=America/Denver:20260605T090000
 DTEND;TZID=America/Denver:20260605T113000
-DTSTAMP:20260601T093450Z
+DTSTAMP:20260602T093217Z
 UID:24k6c12mpt90qt418c3mhaing4@google.com
 RECURRENCE-ID;TZID=America/Denver:20260605T090000
 CREATED:20231219T004919Z
@@ -667,20 +309,6 @@ SUMMARY:Pickleball
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260605T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260605T104500
-UID:de8c672d4100702f1322b4c00dd284bf@wellnesscollectivemoab.com
-DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
 X-SOURCE-ID:center_street
 X-SOURCE:Center Street Gym / Arena
@@ -688,7 +316,7 @@ URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailp
 DTSTART;TZID=America/Denver:20260605T113000
 DTEND;TZID=America/Denver:20260605T123000
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20260627T055959Z;BYDAY=FR
-DTSTAMP:20260601T093450Z
+DTSTAMP:20260602T093217Z
 UID:0oarhcb105qd73h2bn7dq61lig@google.com
 CREATED:20260529T201321Z
 LAST-MODIFIED:20260529T201412Z
@@ -797,31 +425,6 @@ SEQUENCE:0
 SUMMARY:2026 Crystal Festival- Indoor Arena
 UID:15123
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Qi-Gong with Cody
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260606T080000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260606T090000
-UID:a7751a117c354c3417638fee399592b3@wellnesscollectivemoab.com
-DESCRIPTION:Zhineng Qigong is a powerful mind-body practice rooted in anci
- ent Chinese healing traditions and adapted for modern times. This gentle y
- et profound system blends slow movement\, sound\, visualization\, and medi
- tation to help individuals cultivate inner peace\, restore balance\, and e
- nhance vitality. By consciously connecting with the energy of life—what 
- some may call qi or universal life force—participants are invited into a
-  process of holistic healing: physically\, emotionally\, and spiritually. 
- One of the most accessible forms of Qigong\, Zhineng emphasizes connection
-  over complexity. Its principles can be embraced by people of all ages\, b
- ackgrounds\, and physical abilities. Cody teaches from a place of lived ex
- perience\, having found this practice deeply healing and transformative in
-  his own journey. His classes focus on cultivating shared energy through g
- roup practice\, empowering individuals to tap into their innate wisdom and
-  live with greater purpose and presence.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -961,31 +564,6 @@ UID:1427
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260608T090000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260608T100000
-UID:1502f6d6afcc2ce6b894f0fca04bf17d@wellnesscollectivemoab.com
-DESCRIPTION:Chair Yoga – Mondays at 9 AM Join us every Monday morning at
-  9:00 AM for a gentle and accessible Chair Yoga class\, led by Breann\, a 
- certified trauma-sensitive yoga teacher and experienced massage therapist.
-  Breann brings over 20 years of experience in guiding others toward greate
- r body awareness\, healing\, and relaxation. This class is designed for ev
- eryone – whether you are new to yoga\, have limited mobility\, or are lo
- oking for a mindful and soothing way to start your week. Chair Yoga allows
-  you to experience the benefits of yoga without needing to get down on a m
- at. What to Expect: • Seated and standing postures using the chair for s
- upport • Gentle stretches to enhance flexibility • Breathing exercises
-  to calm the mind and body • Movements to promote better circulation and
-  balance ✨ No experience necessary – come as you are! Where: Wellness 
- Collective When: Every Monday at 9:00 AM Cost: By donation Let this practi
- ce be a moment of self-care and grounding in your week.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -1014,31 +592,6 @@ SEQUENCE:0
 SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
 UID:16516
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Tai Chi with Drew
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260608T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260608T181500
-UID:d9f9e192afbbbadc40a782006d4ee249@wellnesscollectivemoab.com
-DESCRIPTION:Among all forms of physical activity\, Tai Chi Ch’uan is per
- haps the most accessible\, convenient\, and economical way to improve both
-  physical health and mental well-being. As Yang Style Tai Chi master Cheng
-  Man-Ching once said\, ‘Those who understand the importance of exercise 
- for health will find Tai Chi Ch’uan indispensable.’ While Tai Chi may 
- not be easy to master\, consistent practice will yield results. In this cl
- ass\, we will focus on cultivating chi\, building endurance and strength\,
-  and developing core alignment\, all while learning to release tension. Ta
- i Chi training offers many levels of progression. In Yang Style\, when pra
- cticed correctly\, it becomes an aerobic workout\, despite minimal movemen
- t. Additionally\, it serves as a form of meditation. Please wear comfortab
- le clothing. Flat shoes\, socks\, or bare feet are ideal. Students are enc
- ouraged to train at their own pace\, and progression will vary from person
-  to person.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
@@ -1070,49 +623,6 @@ SUMMARY:City Rec. Baseball (Melissa Frandsen) Softball Field #1 7:00pm - 8:
  30pm
 UID:16911
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260609T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260609T074500
-UID:d34f587dddee164b40332b3fd4758acb@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga @ the Grand Center-Amanda
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260609T143000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260609T153000
-UID:acf94e13578d6deab501e7a537dd0d2c@wellnesscollectivemoab.com
-DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
-  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
- ctive yoga instructors. Each teacher brings their own style and expertise\
- , while sharing a common focus on safety\, choice\, and ease in the body. 
- This class is especially supportive for older adults and anyone who prefer
- s to stay off the floor\, has limited mobility\, uses a chair for stabilit
- y\, or is simply looking for a calm\, nourishing way to move. All poses ar
- e done seated or standing with the support of a chair\, so you can experie
- nce the benefits of yoga without getting down on a mat.
-LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -1160,25 +670,6 @@ UID:16517
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Relaxing Yoga and Meditation with Amanda
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260609T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260609T181500
-UID:7d88d3b6a8651ecb047d77a59ab1cbc7@wellnesscollectivemoab.com
-DESCRIPTION:This is a slow\, supportive yoga practice designed to help the
-  body and mind settle. Classes blend gentle movement\, yin and restorative
-  postures\, and mindful transitions that prioritize comfort\, choice\, and
-  ease. Each class includes a 10-minute meditation practice. You are always
-  invited — never required — to participate in any way that feels right
-  for you This class is open to all bodies and experience levels\, accessib
- le and adaptable\, and focused on relaxation\, presence\, and nervous syst
- em balance. Come as you are. Rest is welcome here.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab City Council": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"}
 X-SOURCE-ID:moab_city_council
 X-SOURCE:Moab City Council
@@ -1192,51 +683,6 @@ SEQUENCE:0
 SUMMARY:Moab City Council Regular Meeting
 UID:1344
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Acupuncture with Rob
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260609T183000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260609T193000
-UID:f5c931e305002ffad6a0dd40cce779a9@wellnesscollectivemoab.com
-DESCRIPTION:Experience the healing benefits of acupuncture in a supportive
- \, community setting. Led by Rob\, a licensed acupuncturist and naturopath
- ic physician\, this group offering is designed to promote relaxation\, bal
- ance the nervous system\, and support whole-person wellness. During each s
- ession\, participants will receive gentle acupuncture while resting comfor
- tably in a reclined position. Treatments are tailored to common concerns s
- uch as stress\, anxiety\, fatigue\, sleep disturbances\, and emotional ove
- rwhelm. No prior experience is needed\, and Rob will walk you through the 
- process so you feel at ease. Group acupuncture makes this powerful healing
-  modality more accessible and affordable—while also allowing for shared 
- healing energy in community.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260610T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260610T074500
-UID:a48db905441bcac077ff51ed0511490a@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -1299,25 +745,6 @@ UID:16518
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery with Jan
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260610T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260610T181500
-UID:71bf1a14a8554542ffbc368bf30fed53@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -1347,48 +774,6 @@ SUMMARY:City Rec. Baseball (Melissa Frandsen) Softball Field #1 7:00pm - 8:
  30pm
 UID:16912
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260611T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260611T074500
-UID:c848b606195de11e16603a1903108ed5@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:70+ Resistance Band Strength Training
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260611T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260611T104500
-UID:504c90d269585177ae386a710ee97f30@wellnesscollectivemoab.com
-DESCRIPTION:This 45-minute resistance band strength class is for adults 70
- + who want to build strength\, improve balance\, and stay active in a supp
- ortive\, small-group setting. Classes focus on simple\, low-impact movemen
- ts that support everyday mobility and confidence. Exercises are adaptable 
- and meet participants where they are. Resistance bands are provided or you
- ’re welcome to bring your own. Please wear comfortable clothing\, stable
-  shoes\, and bring a water bottle. Thursdays at 10:00 AM at Wellness Colle
- ctive $10 per class To sign up\, text Susette at 435-260-2523. Or show up!
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -1451,21 +836,6 @@ UID:16519
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Community Yoga with Amanda
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260611T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260611T181500
-UID:3d26eec935c82ed0fffcb3571180a75d@wellnesscollectivemoab.com
-DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
- d props provided. Class suitable for all bodies and skill levels. Class pr
- icing is by donation (recommended $10 per class). Sliding scale pricing av
- ailable options! No one is turned away.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab City Council": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"}
 X-SOURCE-ID:moab_city_council
 X-SOURCE:Moab City Council
@@ -1479,40 +849,6 @@ SEQUENCE:0
 SUMMARY:Moab City Planning Commission - Regular Meeting
 UID:1368
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga with Amanda
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260612T083000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260612T093000
-UID:df48dc7bc89ec0d4d9050a91e5251946@wellnesscollectivemoab.com
-DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
- . Start your Friday with this all-levels yoga class designed to help you a
- waken the body\, center the mind\, and ease into your day with intention. 
- We’ll begin with slow\, fluid movement to energize and open\, followed b
- y longer-held stretches and restorative postures to help you release tensi
- on and reconnect with yourself. This class is inclusive\, beginner-friendl
- y\, and rooted in breath\, balance\, and compassionate movement. Whether y
- ou’re unwinding from your week or preparing for the weekend ahead\, Frid
- ay Flow is a chance to show up just as you are.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA with Jan
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260612T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260612T104500
-UID:450e61ecae70f0ca1db39b0e1c5ee238@wellnesscollectivemoab.com
-DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -1563,30 +899,6 @@ SEQUENCE:0
 SUMMARY:Free Concert: Sean Gaskell and the Music of the Kora
 UID:16791
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Monthly Ayurveda Talk- Dinacharya
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260612T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260612T200000
-UID:74a0be30f02a7556f9ad7cd88a6fa344@wellnesscollectivemoab.com
-DESCRIPTION:Join Kathy for an introduction to Dinacharya\, the Ayurvedic p
- ractice of daily routine and rhythm. Rooted in a holistic system practiced
-  for thousands of years\, Ayurveda offers practical tools to support diges
- tion\, sleep\, nervous system regulation\, energy\, and overall well-being
-  through simple daily habits. In this workshop\, we’ll explore the Ayurv
- edic clock and how different times of day may influence energy\, rest\, fo
- cus\, digestion\, and mood. Together\, we’ll discuss supportive self-car
- e practices grounded in Ayurvedic wisdom and reflect on how these traditio
- ns can be adapted in realistic\, accessible ways in modern life. This work
- shop is intended to be educational\, reflective\, and approachable for any
- one curious about building more awareness and intention into their daily r
- outines. No prior experience with Ayurveda is needed. By Donation- Suggest
- ed $15-$25
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532\, USA
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -1672,31 +984,6 @@ URL:https://climbmoabgym.com/events/parents-night-out-june
 X-SOURCE:Climb Moab
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260615T090000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260615T100000
-UID:558ace2906c18b9877c7a369ec08c256@wellnesscollectivemoab.com
-DESCRIPTION:Chair Yoga – Mondays at 9 AM Join us every Monday morning at
-  9:00 AM for a gentle and accessible Chair Yoga class\, led by Breann\, a 
- certified trauma-sensitive yoga teacher and experienced massage therapist.
-  Breann brings over 20 years of experience in guiding others toward greate
- r body awareness\, healing\, and relaxation. This class is designed for ev
- eryone – whether you are new to yoga\, have limited mobility\, or are lo
- oking for a mindful and soothing way to start your week. Chair Yoga allows
-  you to experience the benefits of yoga without needing to get down on a m
- at. What to Expect: • Seated and standing postures using the chair for s
- upport • Gentle stretches to enhance flexibility • Breathing exercises
-  to calm the mind and body • Movements to promote better circulation and
-  balance ✨ No experience necessary – come as you are! Where: Wellness 
- Collective When: Every Monday at 9:00 AM Cost: By donation Let this practi
- ce be a moment of self-care and grounding in your week.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -1741,49 +1028,6 @@ SUMMARY:City Rec. Baseball (Melissa Frandsen) Softball Field #1 7:00pm - 8:
  30pm
 UID:16913
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260616T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260616T074500
-UID:34cd12e2e379bf21ec8bedb4f3dd3804@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga @ the Grand Center-Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260616T143000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260616T153000
-UID:57b88f10803352213becee65b00a6dae@wellnesscollectivemoab.com
-DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
-  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
- ctive yoga instructors. Each teacher brings their own style and expertise\
- , while sharing a common focus on safety\, choice\, and ease in the body. 
- This class is especially supportive for older adults and anyone who prefer
- s to stay off the floor\, has limited mobility\, uses a chair for stabilit
- y\, or is simply looking for a calm\, nourishing way to move. All poses ar
- e done seated or standing with the support of a chair\, so you can experie
- nce the benefits of yoga without getting down on a mat.
-LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -1846,25 +1090,6 @@ UID:16521
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Relaxing Yoga and Meditation with Amanda
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260616T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260616T181500
-UID:4fe3676977cf13daf450988ce44d2633@wellnesscollectivemoab.com
-DESCRIPTION:This is a slow\, supportive yoga practice designed to help the
-  body and mind settle. Classes blend gentle movement\, yin and restorative
-  postures\, and mindful transitions that prioritize comfort\, choice\, and
-  ease. Each class includes a 10-minute meditation practice. You are always
-  invited — never required — to participate in any way that feels right
-  for you This class is open to all bodies and experience levels\, accessib
- le and adaptable\, and focused on relaxation\, presence\, and nervous syst
- em balance. Come as you are. Rest is welcome here.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"City of Moab Recreation": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29"}
 X-SOURCE-ID:city_of_moab_recreation
 X-SOURCE:City of Moab Recreation
@@ -1899,51 +1124,6 @@ SEQUENCE:0
 SUMMARY:The Storied Self: Moab's Story Slam "Your Voice\, Your Vote" 
 UID:16681
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Acupuncture with Rob
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260616T183000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260616T193000
-UID:976d2f4f18a7804d1473e2aed204d449@wellnesscollectivemoab.com
-DESCRIPTION:Experience the healing benefits of acupuncture in a supportive
- \, community setting. Led by Rob\, a licensed acupuncturist and naturopath
- ic physician\, this group offering is designed to promote relaxation\, bal
- ance the nervous system\, and support whole-person wellness. During each s
- ession\, participants will receive gentle acupuncture while resting comfor
- tably in a reclined position. Treatments are tailored to common concerns s
- uch as stress\, anxiety\, fatigue\, sleep disturbances\, and emotional ove
- rwhelm. No prior experience is needed\, and Rob will walk you through the 
- process so you feel at ease. Group acupuncture makes this powerful healing
-  modality more accessible and affordable—while also allowing for shared 
- healing energy in community.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260617T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260617T074500
-UID:f82ba25ed030f5ca1ca3e434e5349209@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -2022,25 +1202,6 @@ UID:16522
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260617T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260617T181500
-UID:b8485ef96a7c76a391e5ac9e71a1e874@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -2073,48 +1234,6 @@ UID:16914
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260618T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260618T074500
-UID:f8ff5a6f783fda280f90202f3042fbbc@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:70+ Resistance Band Strength Training
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260618T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260618T104500
-UID:8a95d19026bced2370215701e5f63685@wellnesscollectivemoab.com
-DESCRIPTION:This 45-minute resistance band strength class is for adults 70
- + who want to build strength\, improve balance\, and stay active in a supp
- ortive\, small-group setting. Classes focus on simple\, low-impact movemen
- ts that support everyday mobility and confidence. Exercises are adaptable 
- and meet participants where they are. Resistance bands are provided or you
- ’re welcome to bring your own. Please wear comfortable clothing\, stable
-  shoes\, and bring a water bottle. Thursdays at 10:00 AM at Wellness Colle
- ctive $10 per class To sign up\, text Susette at 435-260-2523. Or show up!
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -2143,38 +1262,6 @@ SEQUENCE:0
 SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
 UID:16523
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Community Yoga with Amanda
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260618T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260618T181500
-UID:22da1d4548e1267102a878acf9eafe74@wellnesscollectivemoab.com
-DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
- d props provided. Class suitable for all bodies and skill levels. Class pr
- icing is by donation (recommended $10 per class). Sliding scale pricing av
- ailable options! No one is turned away.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Dharma Recovery with Jan
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260618T183000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260618T193000
-UID:a71451581ca26d43e2d242374af8b0e8@wellnesscollectivemoab.com
-DESCRIPTION:Join Tom for Dharma Recovery-a peer-led community space that i
- s unified by our trust in the potential of each of us to recover and find 
- freedom from the suffering of addiction. We believe that the traditional B
- uddhist teachings\, often referred to as the Dharma\, offer a powerful app
- roach to healing from addiction and living a life of true freedom. Class i
- s free.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -2210,26 +1297,6 @@ UID:15870
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga with Amanda
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260619T083000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260619T093000
-UID:73b7041c46a3c6cce9d9bbc804f5adcf@wellnesscollectivemoab.com
-DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
- . Start your Friday with this all-levels yoga class designed to help you a
- waken the body\, center the mind\, and ease into your day with intention. 
- We’ll begin with slow\, fluid movement to energize and open\, followed b
- y longer-held stretches and restorative postures to help you release tensi
- on and reconnect with yourself. This class is inclusive\, beginner-friendl
- y\, and rooted in breath\, balance\, and compassionate movement. Whether y
- ou’re unwinding from your week or preparing for the weekend ahead\, Frid
- ay Flow is a chance to show up just as you are.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -2243,20 +1310,6 @@ SEQUENCE:0
 SUMMARY:Library Closed
 UID:16878
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260619T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260619T104500
-UID:b8ab1a8ec35ab9d40494a9433bd5ee35@wellnesscollectivemoab.com
-DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"City of Moab Recreation": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29"}
@@ -2274,31 +1327,6 @@ UID:1320
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Qi-Gong with Cody
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260620T080000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260620T090000
-UID:ed380c9015269cd5b8c1022493f492f0@wellnesscollectivemoab.com
-DESCRIPTION:Zhineng Qigong is a powerful mind-body practice rooted in anci
- ent Chinese healing traditions and adapted for modern times. This gentle y
- et profound system blends slow movement\, sound\, visualization\, and medi
- tation to help individuals cultivate inner peace\, restore balance\, and e
- nhance vitality. By consciously connecting with the energy of life—what 
- some may call qi or universal life force—participants are invited into a
-  process of holistic healing: physically\, emotionally\, and spiritually. 
- One of the most accessible forms of Qigong\, Zhineng emphasizes connection
-  over complexity. Its principles can be embraced by people of all ages\, b
- ackgrounds\, and physical abilities. Cody teaches from a place of lived ex
- perience\, having found this practice deeply healing and transformative in
-  his own journey. His classes focus on cultivating shared energy through g
- roup practice\, empowering individuals to tap into their innate wisdom and
-  live with greater purpose and presence.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -2312,31 +1340,6 @@ SEQUENCE:0
 SUMMARY:Library Closed
 UID:16906
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260622T090000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260622T100000
-UID:3e404a1d4e185faf5f3c88e021a78cf2@wellnesscollectivemoab.com
-DESCRIPTION:Chair Yoga – Mondays at 9 AM Join us every Monday morning at
-  9:00 AM for a gentle and accessible Chair Yoga class\, led by Breann\, a 
- certified trauma-sensitive yoga teacher and experienced massage therapist.
-  Breann brings over 20 years of experience in guiding others toward greate
- r body awareness\, healing\, and relaxation. This class is designed for ev
- eryone – whether you are new to yoga\, have limited mobility\, or are lo
- oking for a mindful and soothing way to start your week. Chair Yoga allows
-  you to experience the benefits of yoga without needing to get down on a m
- at. What to Expect: • Seated and standing postures using the chair for s
- upport • Gentle stretches to enhance flexibility • Breathing exercises
-  to calm the mind and body • Movements to promote better circulation and
-  balance ✨ No experience necessary – come as you are! Where: Wellness 
- Collective When: Every Monday at 9:00 AM Cost: By donation Let this practi
- ce be a moment of self-care and grounding in your week.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -2369,31 +1372,6 @@ UID:16524
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Tai Chi with Drew
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260622T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260622T181500
-UID:c9a3129abcce3b72de81985b44727416@wellnesscollectivemoab.com
-DESCRIPTION:Among all forms of physical activity\, Tai Chi Ch’uan is per
- haps the most accessible\, convenient\, and economical way to improve both
-  physical health and mental well-being. As Yang Style Tai Chi master Cheng
-  Man-Ching once said\, ‘Those who understand the importance of exercise 
- for health will find Tai Chi Ch’uan indispensable.’ While Tai Chi may 
- not be easy to master\, consistent practice will yield results. In this cl
- ass\, we will focus on cultivating chi\, building endurance and strength\,
-  and developing core alignment\, all while learning to release tension. Ta
- i Chi training offers many levels of progression. In Yang Style\, when pra
- cticed correctly\, it becomes an aerobic workout\, despite minimal movemen
- t. Additionally\, it serves as a form of meditation. Please wear comfortab
- le clothing. Flat shoes\, socks\, or bare feet are ideal. Students are enc
- ouraged to train at their own pace\, and progression will vary from person
-  to person.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
@@ -2423,49 +1401,6 @@ SUMMARY:City Rec. Baseball (Melissa Frandsen) Softball Field #1 7:00pm - 8:
  30pm
 UID:16915
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260623T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260623T074500
-UID:051a6da33608bf5e5a02b8927ca6d1f0@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga @ the Grand Center-Maja
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260623T143000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260623T153000
-UID:a7a63af2501539ec5032f896638bfc1d@wellnesscollectivemoab.com
-DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
-  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
- ctive yoga instructors. Each teacher brings their own style and expertise\
- , while sharing a common focus on safety\, choice\, and ease in the body. 
- This class is especially supportive for older adults and anyone who prefer
- s to stay off the floor\, has limited mobility\, uses a chair for stabilit
- y\, or is simply looking for a calm\, nourishing way to move. All poses ar
- e done seated or standing with the support of a chair\, so you can experie
- nce the benefits of yoga without getting down on a mat.
-LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -2528,29 +1463,6 @@ UID:1357
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260624T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260624T074500
-UID:09f7c7e03b69c41455906572023e5212@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -2611,25 +1523,6 @@ UID:16526
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260624T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260624T181500
-UID:6e2e0c3934fbd4373e4cb42180eb234b@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -2644,48 +1537,6 @@ SUMMARY:City Rec. Baseball (Melissa Frandsen) Softball Field #1 7:00pm - 8:
  30pm
 UID:16916
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260625T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260625T074500
-UID:a03c3d88349873c42d140a96767436e2@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:70+ Resistance Band Strength Training
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260625T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260625T104500
-UID:ed3c4738c3e12effdf39d48f7bd5e36d@wellnesscollectivemoab.com
-DESCRIPTION:This 45-minute resistance band strength class is for adults 70
- + who want to build strength\, improve balance\, and stay active in a supp
- ortive\, small-group setting. Classes focus on simple\, low-impact movemen
- ts that support everyday mobility and confidence. Exercises are adaptable 
- and meet participants where they are. Resistance bands are provided or you
- ’re welcome to bring your own. Please wear comfortable clothing\, stable
-  shoes\, and bring a water bottle. Thursdays at 10:00 AM at Wellness Colle
- ctive $10 per class To sign up\, text Susette at 435-260-2523. Or show up!
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -2733,21 +1584,6 @@ UID:16527
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Community Yoga with Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260625T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260625T181500
-UID:27bec6f9c340d73ec4ad9aea6a8529dd@wellnesscollectivemoab.com
-DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
- d props provided. Class suitable for all bodies and skill levels. Class pr
- icing is by donation (recommended $10 per class). Sliding scale pricing av
- ailable options! No one is turned away.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab City Council": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"}
 X-SOURCE-ID:moab_city_council
 X-SOURCE:Moab City Council
@@ -2763,26 +1599,6 @@ UID:1380
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga with Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260626T083000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260626T093000
-UID:0266ac31bf98dc6fd172138ed1689cc8@wellnesscollectivemoab.com
-DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
- . Start your Friday with this all-levels yoga class designed to help you a
- waken the body\, center the mind\, and ease into your day with intention. 
- We’ll begin with slow\, fluid movement to energize and open\, followed b
- y longer-held stretches and restorative postures to help you release tensi
- on and reconnect with yourself. This class is inclusive\, beginner-friendl
- y\, and rooted in breath\, balance\, and compassionate movement. Whether y
- ou’re unwinding from your week or preparing for the weekend ahead\, Frid
- ay Flow is a chance to show up just as you are.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -2796,20 +1612,6 @@ SEQUENCE:0
 SUMMARY:Castle Valley Book Club
 UID:9056
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260626T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260626T104500
-UID:249fe89a68b80e12f1480b5400769d02@wellnesscollectivemoab.com
-DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -2900,31 +1702,6 @@ UID:1332
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260629T090000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260629T100000
-UID:beb573d5482396d4deab088cdff92e5f@wellnesscollectivemoab.com
-DESCRIPTION:Chair Yoga – Mondays at 9 AM Join us every Monday morning at
-  9:00 AM for a gentle and accessible Chair Yoga class\, led by Breann\, a 
- certified trauma-sensitive yoga teacher and experienced massage therapist.
-  Breann brings over 20 years of experience in guiding others toward greate
- r body awareness\, healing\, and relaxation. This class is designed for ev
- eryone – whether you are new to yoga\, have limited mobility\, or are lo
- oking for a mindful and soothing way to start your week. Chair Yoga allows
-  you to experience the benefits of yoga without needing to get down on a m
- at. What to Expect: • Seated and standing postures using the chair for s
- upport • Gentle stretches to enhance flexibility • Breathing exercises
-  to calm the mind and body • Movements to promote better circulation and
-  balance ✨ No experience necessary – come as you are! Where: Wellness 
- Collective When: Every Monday at 9:00 AM Cost: By donation Let this practi
- ce be a moment of self-care and grounding in your week.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -2969,49 +1746,6 @@ SUMMARY:City Rec. Baseball (Melissa Frandsen) Softball Field #1 7:00pm - 8:
  30pm
 UID:16917
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260630T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260630T074500
-UID:1ffdfc0422874d904b9e23f8ace8d967@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga @ the Grand Center-Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260630T143000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260630T153000
-UID:897a66e2cbbff62ec9db8eee9134cb2f@wellnesscollectivemoab.com
-DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
-  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
- ctive yoga instructors. Each teacher brings their own style and expertise\
- , while sharing a common focus on safety\, choice\, and ease in the body. 
- This class is especially supportive for older adults and anyone who prefer
- s to stay off the floor\, has limited mobility\, uses a chair for stabilit
- y\, or is simply looking for a calm\, nourishing way to move. All poses ar
- e done seated or standing with the support of a chair\, so you can experie
- nce the benefits of yoga without getting down on a mat.
-LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -3059,48 +1793,6 @@ UID:16529
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Relaxing Yoga and Meditation with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260630T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260630T181500
-UID:6377ce0e5fef620d1dfa435e378c72d2@wellnesscollectivemoab.com
-DESCRIPTION:This is a slow\, supportive yoga practice designed to help the
-  body and mind settle. Classes blend gentle movement\, yin and restorative
-  postures\, and mindful transitions that prioritize comfort\, choice\, and
-  ease. Each class includes a 10-minute meditation practice. You are always
-  invited — never required — to participate in any way that feels right
-  for you This class is open to all bodies and experience levels\, accessib
- le and adaptable\, and focused on relaxation\, presence\, and nervous syst
- em balance. Come as you are. Rest is welcome here.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260701T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260701T074500
-UID:d1d9f111d1b96c121d2a8907d9807037@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -3146,25 +1838,6 @@ UID:16530
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260701T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260701T181500
-UID:7262910a282710b76f214e3b4536d686@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -3180,29 +1853,6 @@ UID:15583
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260702T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260702T074500
-UID:7027f9a3101cffc0c2db86900a26c371@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
@@ -3216,25 +1866,6 @@ SEQUENCE:0
 SUMMARY:Grand County Board of Canvassers Meeting
 UID:16812
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:70+ Resistance Band Strength Training
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260702T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260702T104500
-UID:4c32cccc8cb6ec29ef5f6c4adb04ffa1@wellnesscollectivemoab.com
-DESCRIPTION:This 45-minute resistance band strength class is for adults 70
- + who want to build strength\, improve balance\, and stay active in a supp
- ortive\, small-group setting. Classes focus on simple\, low-impact movemen
- ts that support everyday mobility and confidence. Exercises are adaptable 
- and meet participants where they are. Resistance bands are provided or you
- ’re welcome to bring your own. Please wear comfortable clothing\, stable
-  shoes\, and bring a water bottle. Thursdays at 10:00 AM at Wellness Colle
- ctive $10 per class To sign up\, text Susette at 435-260-2523. Or show up!
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -3282,38 +1913,6 @@ UID:16531
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Community Yoga with Massey
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260702T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260702T181500
-UID:368b5c68cb1502d9560f81e7aa3ddcd0@wellnesscollectivemoab.com
-DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
- d props provided. Class suitable for all bodies and skill levels. Class pr
- icing is by donation (recommended $10 per class). Sliding scale pricing av
- ailable options! No one is turned away.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Dharma Recovery with Jan
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260702T183000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260702T193000
-UID:ab80646f86d999ff2d20b3005e442cb6@wellnesscollectivemoab.com
-DESCRIPTION:Join Tom for Dharma Recovery-a peer-led community space that i
- s unified by our trust in the potential of each of us to recover and find 
- freedom from the suffering of addiction. We believe that the traditional B
- uddhist teachings\, often referred to as the Dharma\, offer a powerful app
- roach to healing from addiction and living a life of true freedom. Class i
- s free.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -3345,40 +1944,6 @@ UID:16036
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga with Amanda
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260703T083000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260703T093000
-UID:f64cf0bd07eadc2ce197dd7ecd6eb6e9@wellnesscollectivemoab.com
-DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
- . Start your Friday with this all-levels yoga class designed to help you a
- waken the body\, center the mind\, and ease into your day with intention. 
- We’ll begin with slow\, fluid movement to energize and open\, followed b
- y longer-held stretches and restorative postures to help you release tensi
- on and reconnect with yourself. This class is inclusive\, beginner-friendl
- y\, and rooted in breath\, balance\, and compassionate movement. Whether y
- ou’re unwinding from your week or preparing for the weekend ahead\, Frid
- ay Flow is a chance to show up just as you are.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260703T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260703T104500
-UID:00e68e51794cb895fa518acd9787dafb@wellnesscollectivemoab.com
-DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -3394,31 +1959,6 @@ UID:16849
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Qi-Gong with Cody
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260704T080000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260704T090000
-UID:9c779c0b09140c3606eeaed9a218bec5@wellnesscollectivemoab.com
-DESCRIPTION:Zhineng Qigong is a powerful mind-body practice rooted in anci
- ent Chinese healing traditions and adapted for modern times. This gentle y
- et profound system blends slow movement\, sound\, visualization\, and medi
- tation to help individuals cultivate inner peace\, restore balance\, and e
- nhance vitality. By consciously connecting with the energy of life—what 
- some may call qi or universal life force—participants are invited into a
-  process of holistic healing: physically\, emotionally\, and spiritually. 
- One of the most accessible forms of Qigong\, Zhineng emphasizes connection
-  over complexity. Its principles can be embraced by people of all ages\, b
- ackgrounds\, and physical abilities. Cody teaches from a place of lived ex
- perience\, having found this practice deeply healing and transformative in
-  his own journey. His classes focus on cultivating shared energy through g
- roup practice\, empowering individuals to tap into their innate wisdom and
-  live with greater purpose and presence.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -3432,31 +1972,6 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16039
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260706T090000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260706T100000
-UID:c92a22c8c38089e678c6cd8b681f4641@wellnesscollectivemoab.com
-DESCRIPTION:Chair Yoga – Mondays at 9 AM Join us every Monday morning at
-  9:00 AM for a gentle and accessible Chair Yoga class\, led by Breann\, a 
- certified trauma-sensitive yoga teacher and experienced massage therapist.
-  Breann brings over 20 years of experience in guiding others toward greate
- r body awareness\, healing\, and relaxation. This class is designed for ev
- eryone – whether you are new to yoga\, have limited mobility\, or are lo
- oking for a mindful and soothing way to start your week. Chair Yoga allows
-  you to experience the benefits of yoga without needing to get down on a m
- at. What to Expect: • Seated and standing postures using the chair for s
- upport • Gentle stretches to enhance flexibility • Breathing exercises
-  to calm the mind and body • Movements to promote better circulation and
-  balance ✨ No experience necessary – come as you are! Where: Wellness 
- Collective When: Every Monday at 9:00 AM Cost: By donation Let this practi
- ce be a moment of self-care and grounding in your week.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -3505,54 +2020,6 @@ UID:16532
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Tai Chi with Drew
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260706T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260706T181500
-UID:79c893a4c76492c07a30246bd86e0447@wellnesscollectivemoab.com
-DESCRIPTION:Among all forms of physical activity\, Tai Chi Ch’uan is per
- haps the most accessible\, convenient\, and economical way to improve both
-  physical health and mental well-being. As Yang Style Tai Chi master Cheng
-  Man-Ching once said\, ‘Those who understand the importance of exercise 
- for health will find Tai Chi Ch’uan indispensable.’ While Tai Chi may 
- not be easy to master\, consistent practice will yield results. In this cl
- ass\, we will focus on cultivating chi\, building endurance and strength\,
-  and developing core alignment\, all while learning to release tension. Ta
- i Chi training offers many levels of progression. In Yang Style\, when pra
- cticed correctly\, it becomes an aerobic workout\, despite minimal movemen
- t. Additionally\, it serves as a form of meditation. Please wear comfortab
- le clothing. Flat shoes\, socks\, or bare feet are ideal. Students are enc
- ouraged to train at their own pace\, and progression will vary from person
-  to person.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260707T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260707T074500
-UID:237d872653d12ebc14e077dffbeaa21e@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -3566,26 +2033,6 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16040
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga @ the Grand Center-Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260707T143000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260707T153000
-UID:48cb5d31372e2cd689ed7b8e3f9e761b@wellnesscollectivemoab.com
-DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
-  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
- ctive yoga instructors. Each teacher brings their own style and expertise\
- , while sharing a common focus on safety\, choice\, and ease in the body. 
- This class is especially supportive for older adults and anyone who prefer
- s to stay off the floor\, has limited mobility\, uses a chair for stabilit
- y\, or is simply looking for a calm\, nourishing way to move. All poses ar
- e done seated or standing with the support of a chair\, so you can experie
- nce the benefits of yoga without getting down on a mat.
-LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -3633,25 +2080,6 @@ UID:16533
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Relaxing Yoga and Meditation
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260707T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260707T181500
-UID:e1f8260c5d5200cc9194798483649120@wellnesscollectivemoab.com
-DESCRIPTION:This is a slow\, supportive yoga practice designed to help the
-  body and mind settle. Classes blend gentle movement\, yin and restorative
-  postures\, and mindful transitions that prioritize comfort\, choice\, and
-  ease. Each class includes a 10-minute meditation practice. You are always
-  invited — never required — to participate in any way that feels right
-  for you This class is open to all bodies and experience levels\, accessib
- le and adaptable\, and focused on relaxation\, presence\, and nervous syst
- em balance. Come as you are. Rest is welcome here.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -3667,29 +2095,6 @@ SUMMARY:Canyonlands PRCA Rodeo Meeting  5:30pm-6:30pm- OSTA Conference Room
   
 UID:14157
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260708T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260708T074500
-UID:48c44141b2246d575115609db224df7c@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -3752,25 +2157,6 @@ UID:16534
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260708T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260708T181500
-UID:1badeda3254fbbf0f4cfa460eae9e349@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -3786,29 +2172,6 @@ UID:9004
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Intro to Mind series with Dana
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260709T070000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260709T074500
-UID:a36c917003d9edb8e055632b03e65fd5@wellnesscollectivemoab.com
-DESCRIPTION:Intro to Mind (ITM): A 9-Week Meditation Series with Dana This
-  nine-week mind science series invites you to slow down\, notice\, and ste
- ady your mind — especially in the face of uncertainty. Together\, we’l
- l explore meditation in a practical\, approachable way. Each week explores
-  simple tools you can use in daily life — when sitting\, moving\, and co
- nnecting with others. Over nine weeks\, we’ll also explore how water\, f
- ood\, sleep\, music\, movement\, stillness\, community\, and meditation sh
- ape how we live and how we experience the world — in a supportive commun
- ity of fellow practitioners. The series is divided into three parts: Weeks
-  1–3: Mind at Rest During these weeks\, we’ll focus on finding moments
-  of rest and steadiness in the space between thoughts and in the face of s
- ensations and emotions — especially when life feels busy or uncertain.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -3822,25 +2185,6 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16042
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:70+ Resistance Band Strength Training
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260709T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260709T104500
-UID:eb975028fabb7ae9efc459c6a80232c4@wellnesscollectivemoab.com
-DESCRIPTION:This 45-minute resistance band strength class is for adults 70
- + who want to build strength\, improve balance\, and stay active in a supp
- ortive\, small-group setting. Classes focus on simple\, low-impact movemen
- ts that support everyday mobility and confidence. Exercises are adaptable 
- and meet participants where they are. Resistance bands are provided or you
- ’re welcome to bring your own. Please wear comfortable clothing\, stable
-  shoes\, and bring a water bottle. Thursdays at 10:00 AM at Wellness Colle
- ctive $10 per class To sign up\, text Susette at 435-260-2523. Or show up!
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -3888,21 +2232,6 @@ UID:16535
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Community Yoga with Maja
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260709T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260709T181500
-UID:70d48b7e8b586ae8fe75a305abff3a74@wellnesscollectivemoab.com
-DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
- d props provided. Class suitable for all bodies and skill levels. Class pr
- icing is by donation (recommended $10 per class). Sliding scale pricing av
- ailable options! No one is turned away.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab City Council": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"}
 X-SOURCE-ID:moab_city_council
 X-SOURCE:Moab City Council
@@ -3931,40 +2260,6 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16043
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga with Massey
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260710T083000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260710T093000
-UID:98a27504efe253b1ab3dac684d9e8211@wellnesscollectivemoab.com
-DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
- . Start your Friday with this all-levels yoga class designed to help you a
- waken the body\, center the mind\, and ease into your day with intention. 
- We’ll begin with slow\, fluid movement to energize and open\, followed b
- y longer-held stretches and restorative postures to help you release tensi
- on and reconnect with yourself. This class is inclusive\, beginner-friendl
- y\, and rooted in breath\, balance\, and compassionate movement. Whether y
- ou’re unwinding from your week or preparing for the weekend ahead\, Frid
- ay Flow is a chance to show up just as you are.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260710T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260710T104500
-UID:b7342ebc9e05454fa849a6350954b6c5@wellnesscollectivemoab.com
-DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -4085,31 +2380,6 @@ UID:16046
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260713T090000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260713T100000
-UID:55a451e7691f6e825bfb585d9f362287@wellnesscollectivemoab.com
-DESCRIPTION:Chair Yoga – Mondays at 9 AM Join us every Monday morning at
-  9:00 AM for a gentle and accessible Chair Yoga class\, led by Breann\, a 
- certified trauma-sensitive yoga teacher and experienced massage therapist.
-  Breann brings over 20 years of experience in guiding others toward greate
- r body awareness\, healing\, and relaxation. This class is designed for ev
- eryone – whether you are new to yoga\, have limited mobility\, or are lo
- oking for a mindful and soothing way to start your week. Chair Yoga allows
-  you to experience the benefits of yoga without needing to get down on a m
- at. What to Expect: • Seated and standing postures using the chair for s
- upport • Gentle stretches to enhance flexibility • Breathing exercises
-  to calm the mind and body • Movements to promote better circulation and
-  balance ✨ No experience necessary – come as you are! Where: Wellness 
- Collective When: Every Monday at 9:00 AM Cost: By donation Let this practi
- ce be a moment of self-care and grounding in your week.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -4170,26 +2440,6 @@ UID:16047
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga @ the Grand Center-Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260714T143000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260714T153000
-UID:2a4da656a0ec4063a78772d5a588edf6@wellnesscollectivemoab.com
-DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
-  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
- ctive yoga instructors. Each teacher brings their own style and expertise\
- , while sharing a common focus on safety\, choice\, and ease in the body. 
- This class is especially supportive for older adults and anyone who prefer
- s to stay off the floor\, has limited mobility\, uses a chair for stabilit
- y\, or is simply looking for a calm\, nourishing way to move. All poses ar
- e done seated or standing with the support of a chair\, so you can experie
- nce the benefits of yoga without getting down on a mat.
-LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -4220,25 +2470,6 @@ UID:16537
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Relaxing Yoga and Meditation
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260714T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260714T181500
-UID:849988174d05af52e98843df5f4029f2@wellnesscollectivemoab.com
-DESCRIPTION:This is a slow\, supportive yoga practice designed to help the
-  body and mind settle. Classes blend gentle movement\, yin and restorative
-  postures\, and mindful transitions that prioritize comfort\, choice\, and
-  ease. Each class includes a 10-minute meditation practice. You are always
-  invited — never required — to participate in any way that feels right
-  for you This class is open to all bodies and experience levels\, accessib
- le and adaptable\, and focused on relaxation\, presence\, and nervous syst
- em balance. Come as you are. Rest is welcome here.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab City Council": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"}
 X-SOURCE-ID:moab_city_council
 X-SOURCE:Moab City Council
@@ -4252,28 +2483,6 @@ SEQUENCE:0
 SUMMARY:Moab City Council Regular Meeting
 UID:1345
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Acupuncture with Rob
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260714T183000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260714T193000
-UID:9c5806975e56afa0aa03cae7258f8804@wellnesscollectivemoab.com
-DESCRIPTION:Experience the healing benefits of acupuncture in a supportive
- \, community setting. Led by Rob\, a licensed acupuncturist and naturopath
- ic physician\, this group offering is designed to promote relaxation\, bal
- ance the nervous system\, and support whole-person wellness. During each s
- ession\, participants will receive gentle acupuncture while resting comfor
- tably in a reclined position. Treatments are tailored to common concerns s
- uch as stress\, anxiety\, fatigue\, sleep disturbances\, and emotional ove
- rwhelm. No prior experience is needed\, and Rob will walk you through the 
- process so you feel at ease. Group acupuncture makes this powerful healing
-  modality more accessible and affordable—while also allowing for shared 
- healing energy in community.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -4336,25 +2545,6 @@ UID:16538
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260715T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260715T181500
-UID:3ec20d4bf0531d4fef493abb958159cb@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -4384,25 +2574,6 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16049
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:70+ Resistance Band Strength Training
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260716T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260716T104500
-UID:a0a20978bb109083a829cb7fa5657ec8@wellnesscollectivemoab.com
-DESCRIPTION:This 45-minute resistance band strength class is for adults 70
- + who want to build strength\, improve balance\, and stay active in a supp
- ortive\, small-group setting. Classes focus on simple\, low-impact movemen
- ts that support everyday mobility and confidence. Exercises are adaptable 
- and meet participants where they are. Resistance bands are provided or you
- ’re welcome to bring your own. Please wear comfortable clothing\, stable
-  shoes\, and bring a water bottle. Thursdays at 10:00 AM at Wellness Colle
- ctive $10 per class To sign up\, text Susette at 435-260-2523. Or show up!
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -4450,38 +2621,6 @@ UID:16539
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Community Yoga with Massey
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260716T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260716T181500
-UID:df10677acaa0411e506ede66afc471eb@wellnesscollectivemoab.com
-DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
- d props provided. Class suitable for all bodies and skill levels. Class pr
- icing is by donation (recommended $10 per class). Sliding scale pricing av
- ailable options! No one is turned away.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Dharma Recovery with Jan
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260716T183000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260716T193000
-UID:3c694f220db7e5cf1a592690cbbe7b74@wellnesscollectivemoab.com
-DESCRIPTION:Join Tom for Dharma Recovery-a peer-led community space that i
- s unified by our trust in the potential of each of us to recover and find 
- freedom from the suffering of addiction. We believe that the traditional B
- uddhist teachings\, often referred to as the Dharma\, offer a powerful app
- roach to healing from addiction and living a life of true freedom. Class i
- s free.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -4511,40 +2650,6 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16050
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga with Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260717T083000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260717T093000
-UID:278ef72f65a5cac38845bb7d492bad24@wellnesscollectivemoab.com
-DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
- . Start your Friday with this all-levels yoga class designed to help you a
- waken the body\, center the mind\, and ease into your day with intention. 
- We’ll begin with slow\, fluid movement to energize and open\, followed b
- y longer-held stretches and restorative postures to help you release tensi
- on and reconnect with yourself. This class is inclusive\, beginner-friendl
- y\, and rooted in breath\, balance\, and compassionate movement. Whether y
- ou’re unwinding from your week or preparing for the weekend ahead\, Frid
- ay Flow is a chance to show up just as you are.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260717T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260717T104500
-UID:b67fecdbc1940356baec0707298c3064@wellnesscollectivemoab.com
-DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -4590,31 +2695,6 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16051
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Qi-Gong with Cody
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260718T080000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260718T090000
-UID:0f6e5dab4431c6cf0d5f936f0dc7993a@wellnesscollectivemoab.com
-DESCRIPTION:Zhineng Qigong is a powerful mind-body practice rooted in anci
- ent Chinese healing traditions and adapted for modern times. This gentle y
- et profound system blends slow movement\, sound\, visualization\, and medi
- tation to help individuals cultivate inner peace\, restore balance\, and e
- nhance vitality. By consciously connecting with the energy of life—what 
- some may call qi or universal life force—participants are invited into a
-  process of holistic healing: physically\, emotionally\, and spiritually. 
- One of the most accessible forms of Qigong\, Zhineng emphasizes connection
-  over complexity. Its principles can be embraced by people of all ages\, b
- ackgrounds\, and physical abilities. Cody teaches from a place of lived ex
- perience\, having found this practice deeply healing and transformative in
-  his own journey. His classes focus on cultivating shared energy through g
- roup practice\, empowering individuals to tap into their innate wisdom and
-  live with greater purpose and presence.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -4668,7 +2748,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260720
 DTEND;VALUE=DATE:20260808
-DTSTAMP:20260601T093450Z
+DTSTAMP:20260602T093217Z
 UID:29i5bmefogj8n3r53vsup449eg@google.com
 CREATED:20260129T215055Z
 LAST-MODIFIED:20260529T202113Z
@@ -4691,31 +2771,6 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16053
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260720T090000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260720T100000
-UID:8bb1bd10383c555cebf9f1351e96d648@wellnesscollectivemoab.com
-DESCRIPTION:Chair Yoga – Mondays at 9 AM Join us every Monday morning at
-  9:00 AM for a gentle and accessible Chair Yoga class\, led by Breann\, a 
- certified trauma-sensitive yoga teacher and experienced massage therapist.
-  Breann brings over 20 years of experience in guiding others toward greate
- r body awareness\, healing\, and relaxation. This class is designed for ev
- eryone – whether you are new to yoga\, have limited mobility\, or are lo
- oking for a mindful and soothing way to start your week. Chair Yoga allows
-  you to experience the benefits of yoga without needing to get down on a m
- at. What to Expect: • Seated and standing postures using the chair for s
- upport • Gentle stretches to enhance flexibility • Breathing exercises
-  to calm the mind and body • Movements to promote better circulation and
-  balance ✨ No experience necessary – come as you are! Where: Wellness 
- Collective When: Every Monday at 9:00 AM Cost: By donation Let this practi
- ce be a moment of self-care and grounding in your week.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -4748,31 +2803,6 @@ UID:16540
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Tai Chi with Drew
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260720T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260720T181500
-UID:aa6f6e6049d0debff6c794f117084ca6@wellnesscollectivemoab.com
-DESCRIPTION:Among all forms of physical activity\, Tai Chi Ch’uan is per
- haps the most accessible\, convenient\, and economical way to improve both
-  physical health and mental well-being. As Yang Style Tai Chi master Cheng
-  Man-Ching once said\, ‘Those who understand the importance of exercise 
- for health will find Tai Chi Ch’uan indispensable.’ While Tai Chi may 
- not be easy to master\, consistent practice will yield results. In this cl
- ass\, we will focus on cultivating chi\, building endurance and strength\,
-  and developing core alignment\, all while learning to release tension. Ta
- i Chi training offers many levels of progression. In Yang Style\, when pra
- cticed correctly\, it becomes an aerobic workout\, despite minimal movemen
- t. Additionally\, it serves as a form of meditation. Please wear comfortab
- le clothing. Flat shoes\, socks\, or bare feet are ideal. Students are enc
- ouraged to train at their own pace\, and progression will vary from person
-  to person.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -4786,26 +2816,6 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16054
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga @ the Grand Center-Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260721T143000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260721T153000
-UID:3bbc0c9eb4c4ccf27542661ee2a9802d@wellnesscollectivemoab.com
-DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
-  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
- ctive yoga instructors. Each teacher brings their own style and expertise\
- , while sharing a common focus on safety\, choice\, and ease in the body. 
- This class is especially supportive for older adults and anyone who prefer
- s to stay off the floor\, has limited mobility\, uses a chair for stabilit
- y\, or is simply looking for a calm\, nourishing way to move. All poses ar
- e done seated or standing with the support of a chair\, so you can experie
- nce the benefits of yoga without getting down on a mat.
-LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -4851,25 +2861,6 @@ SEQUENCE:0
 SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
 UID:16541
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Relaxing Yoga and Meditation
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260721T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260721T181500
-UID:777246a282415f9dd2897138a0a7d29f@wellnesscollectivemoab.com
-DESCRIPTION:This is a slow\, supportive yoga practice designed to help the
-  body and mind settle. Classes blend gentle movement\, yin and restorative
-  postures\, and mindful transitions that prioritize comfort\, choice\, and
-  ease. Each class includes a 10-minute meditation practice. You are always
-  invited — never required — to participate in any way that feels right
-  for you This class is open to all bodies and experience levels\, accessib
- le and adaptable\, and focused on relaxation\, presence\, and nervous syst
- em balance. Come as you are. Rest is welcome here.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -4932,25 +2923,6 @@ UID:16542
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260722T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260722T181500
-UID:7646119f7e0f3135ed1a304db34a8521@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -4964,25 +2936,6 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16056
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:70+ Resistance Band Strength Training
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260723T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260723T104500
-UID:f52dbafbd81448718fc38a3448f936a8@wellnesscollectivemoab.com
-DESCRIPTION:This 45-minute resistance band strength class is for adults 70
- + who want to build strength\, improve balance\, and stay active in a supp
- ortive\, small-group setting. Classes focus on simple\, low-impact movemen
- ts that support everyday mobility and confidence. Exercises are adaptable 
- and meet participants where they are. Resistance bands are provided or you
- ’re welcome to bring your own. Please wear comfortable clothing\, stable
-  shoes\, and bring a water bottle. Thursdays at 10:00 AM at Wellness Colle
- ctive $10 per class To sign up\, text Susette at 435-260-2523. Or show up!
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -5030,21 +2983,6 @@ UID:16543
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Community Yoga with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260723T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260723T181500
-UID:1814e9b39908586ada19b13f304f3e80@wellnesscollectivemoab.com
-DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
- d props provided. Class suitable for all bodies and skill levels. Class pr
- icing is by donation (recommended $10 per class). Sliding scale pricing av
- ailable options! No one is turned away.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab City Council": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"}
 X-SOURCE-ID:moab_city_council
 X-SOURCE:Moab City Council
@@ -5089,40 +3027,6 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16057
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga with Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260724T083000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260724T093000
-UID:dd0abcc6d894b36e5e84145d44307c8c@wellnesscollectivemoab.com
-DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
- . Start your Friday with this all-levels yoga class designed to help you a
- waken the body\, center the mind\, and ease into your day with intention. 
- We’ll begin with slow\, fluid movement to energize and open\, followed b
- y longer-held stretches and restorative postures to help you release tensi
- on and reconnect with yourself. This class is inclusive\, beginner-friendl
- y\, and rooted in breath\, balance\, and compassionate movement. Whether y
- ou’re unwinding from your week or preparing for the weekend ahead\, Frid
- ay Flow is a chance to show up just as you are.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260724T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260724T104500
-UID:e2abc957cd5e631eebe31fe138643365@wellnesscollectivemoab.com
-DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -5244,31 +3148,6 @@ UID:16060
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260727T090000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260727T100000
-UID:917029417cfbb95bf2c6daf79c537528@wellnesscollectivemoab.com
-DESCRIPTION:Chair Yoga – Mondays at 9 AM Join us every Monday morning at
-  9:00 AM for a gentle and accessible Chair Yoga class\, led by Breann\, a 
- certified trauma-sensitive yoga teacher and experienced massage therapist.
-  Breann brings over 20 years of experience in guiding others toward greate
- r body awareness\, healing\, and relaxation. This class is designed for ev
- eryone – whether you are new to yoga\, have limited mobility\, or are lo
- oking for a mindful and soothing way to start your week. Chair Yoga allows
-  you to experience the benefits of yoga without needing to get down on a m
- at. What to Expect: • Seated and standing postures using the chair for s
- upport • Gentle stretches to enhance flexibility • Breathing exercises
-  to calm the mind and body • Movements to promote better circulation and
-  balance ✨ No experience necessary – come as you are! Where: Wellness 
- Collective When: Every Monday at 9:00 AM Cost: By donation Let this practi
- ce be a moment of self-care and grounding in your week.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -5329,26 +3208,6 @@ UID:16061
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga @ the Grand Center–Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260728T143000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260728T153000
-UID:4dab2060cc275e6a6b7dbab6df2b712a@wellnesscollectivemoab.com
-DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
-  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
- ctive yoga instructors. Each teacher brings their own style and expertise\
- , while sharing a common focus on safety\, choice\, and ease in the body. 
- This class is especially supportive for older adults and anyone who prefer
- s to stay off the floor\, has limited mobility\, uses a chair for stabilit
- y\, or is simply looking for a calm\, nourishing way to move. All poses ar
- e done seated or standing with the support of a chair\, so you can experie
- nce the benefits of yoga without getting down on a mat.
-LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -5377,25 +3236,6 @@ SEQUENCE:0
 SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
 UID:16545
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Relaxing Yoga and Meditation
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260728T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260728T181500
-UID:fdffa130f35aa5331bbaedad8d74cb11@wellnesscollectivemoab.com
-DESCRIPTION:This is a slow\, supportive yoga practice designed to help the
-  body and mind settle. Classes blend gentle movement\, yin and restorative
-  postures\, and mindful transitions that prioritize comfort\, choice\, and
-  ease. Each class includes a 10-minute meditation practice. You are always
-  invited — never required — to participate in any way that feels right
-  for you This class is open to all bodies and experience levels\, accessib
- le and adaptable\, and focused on relaxation\, presence\, and nervous syst
- em balance. Come as you are. Rest is welcome here.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab City Council": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"}
@@ -6003,6 +3843,36 @@ UID:16078
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-14-2026/girls-soccer-26/grand-county-vs-south-summit.htm?c=XIp7lAJ6UkCLzTeDi17O6Q"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:South Summit Girls Varsity Soccer @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260814T160000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260814T174500
+UID:15cf9b4550ceec9f95a94432aa32f07f@maxpreps.com
+DESCRIPTION:Girls Varsity Soccer\nThe South Summit varsity soccer team has
+  an away non-conference match @  Grand County (Moab\, UT) on Friday\, Augu
+ st 14 @ 4p.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/games/08-14-2026/girls-soccer-26/grand-county
+ -vs-south-summit.htm?c=XIp7lAJ6UkCLzTeDi17O6Q
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-14-2026/girls-jv-soccer-26/grand-county-vs-south-summit.htm?c=5SkZRfJl4EWmwb7zYf5zxg"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:South Summit Girls JV Soccer @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260814T180000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260814T194500
+UID:b70876a3b016f479b8e695b57e0ef5a2@maxpreps.com
+DESCRIPTION:Girls JV Soccer\nThe South Summit JV soccer team has an away n
+ on-conference match @  Grand County (Moab\, UT) on Friday\, August 14 @ 6p
+ .
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/games/08-14-2026/girls-jv-soccer-26/grand-cou
+ nty-vs-south-summit.htm?c=5SkZRfJl4EWmwb7zYf5zxg
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -6016,6 +3886,35 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16079
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-15-2026/girls-soccer-26/grand-county-vs-manti.htm?c=LnBnfzjPEEuI4zF8xgc0pw"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Manti Girls Varsity Soccer @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260815T090000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260815T104500
+UID:f2f38db2324a07ec1ce00b4514375307@maxpreps.com
+DESCRIPTION:Girls Varsity Soccer\nThe Manti varsity soccer team has an awa
+ y non-conference match @  Grand County (Moab\, UT) on Saturday\, August 15
+  @ 9a.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/games/08-15-2026/girls-soccer-26/grand-county
+ -vs-manti.htm?c=LnBnfzjPEEuI4zF8xgc0pw
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-15-2026/girls-jv-soccer-26/grand-county-vs-manti.htm?c=ea7gLRFD502K0CZupIv-Wg"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Manti Girls JV Soccer @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260815T110000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260815T124500
+UID:7b89b5b8d7ac2dca127ee98e3065a6ab@maxpreps.com
+DESCRIPTION:Girls JV Soccer\nThe Manti JV soccer team has an away non-conf
+ erence match @  Grand County (Moab\, UT) on Saturday\, August 15 @ 11a.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/games/08-15-2026/girls-jv-soccer-26/grand-cou
+ nty-vs-manti.htm?c=ea7gLRFD502K0CZupIv-Wg
+X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -6076,36 +3975,6 @@ SEQUENCE:0
 SUMMARY:Grand County Commission
 UID:15684
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-18-2026/girls-soccer-26/grand-county-vs-gunnison-valley.htm?c=cxBXS_ZCuEqK7swR7F1XMA"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Grand County Girls Varsity Soccer @ Gunnison Valley
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260818T160000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260818T174500
-UID:28409e8938059bd0dea95f2f7b73867d@maxpreps.com
-DESCRIPTION:Girls Varsity Soccer\nThe Grand County varsity soccer team has
-  an away conference match @  Gunnison Valley (Gunnison\, UT) on Tuesday\, 
- August 18 @ 4p.
-LOCATION:Gunnison Valley High School
-URL:https://www.maxpreps.com/games/08-18-2026/girls-soccer-26/grand-county
- -vs-gunnison-valley.htm?c=cxBXS_ZCuEqK7swR7F1XMA
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-18-2026/girls-jv-soccer-26/grand-county-vs-gunnison-valley.htm?c=Put--6JW10OjO4CW6RZeFQ"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Grand County Girls JV Soccer @ Gunnison Valley
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260818T173000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260818T191500
-UID:2c74f16fe5195fd2bbef545c834edbdc@maxpreps.com
-DESCRIPTION:Girls JV Soccer\nThe Grand County JV soccer team has an away n
- on-conference match @  Gunnison Valley (Gunnison\, UT) on Tuesday\, August
-  18 @ 5:30p.
-LOCATION:Gunnison Valley High School
-URL:https://www.maxpreps.com/games/08-18-2026/girls-jv-soccer-26/grand-cou
- nty-vs-gunnison-valley.htm?c=Put--6JW10OjO4CW6RZeFQ
-X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -6185,50 +4054,6 @@ UID:16085
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-21-2026/freshman-volleyball-26/grand-county-vs-parowan.htm?c=DPIH2lsJWUqQCHOZZ-iRwA"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Grand County Girls Freshman Volleyball @ Parowan
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260821T150000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260821T160000
-UID:7274785bffe7a436bda84f4a3f1f0130@maxpreps.com
-DESCRIPTION:Girls Freshman Volleyball\nThe Grand County freshman volleybal
- l team has an away non-conference match @  Parowan (UT) on Friday\, August
-  21 @ 3p.
-LOCATION:Parowan High School
-URL:https://www.maxpreps.com/games/08-21-2026/freshman-volleyball-26/grand
- -county-vs-parowan.htm?c=DPIH2lsJWUqQCHOZZ-iRwA
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-21-2026/jv-volleyball-26/grand-county-vs-parowan.htm?c=hTSwEZzN5k-GsvjtMWzSgQ"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Grand County Girls JV Volleyball @ Parowan
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260821T161500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260821T171500
-UID:7c86fcfbbdeb1b7bfc5648bb16f9b2fa@maxpreps.com
-DESCRIPTION:Girls JV Volleyball\nThe Grand County JV volleyball team has a
- n away non-conference match @  Parowan (UT) on Friday\, August 21 @ 4:15p.
-LOCATION:Parowan High School
-URL:https://www.maxpreps.com/games/08-21-2026/jv-volleyball-26/grand-count
- y-vs-parowan.htm?c=hTSwEZzN5k-GsvjtMWzSgQ
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-21-2026/volleyball-26/grand-county-vs-parowan.htm?c=17r6XZse9E2NUppqntfkVw"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Grand County Girls Varsity Volleyball @ Parowan
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260821T173000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260821T183000
-UID:6769d4d551ac6b9d11f6334a9e3fbac6@maxpreps.com
-DESCRIPTION:Girls Varsity Volleyball\nThe Grand County varsity volleyball 
- team has an away conference match @  Parowan (UT) on Friday\, August 21 @ 
- 5:30p.
-LOCATION:Parowan High School
-URL:https://www.maxpreps.com/games/08-21-2026/volleyball-26/grand-county-v
- s-parowan.htm?c=17r6XZse9E2NUppqntfkVw
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -6242,66 +4067,6 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16086
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-22-2026/girls-soccer-26/enterprise-vs-grand-county.htm?c=dhnmBA-jaUarG0MJ_8EBoA"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Enterprise Girls Varsity Soccer @ Grand County
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260822T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260822T114500
-UID:c59b8c0cdc9fc5a2e583abed7457ea29@maxpreps.com
-DESCRIPTION:Girls Varsity Soccer\nThe Enterprise varsity soccer team has a
- n away conference match @  Grand County (Moab\, UT) on Saturday\, August 2
- 2 @ 10a.
-LOCATION:Grand County High School\, 608 S 400 E\, Moab\, UT 84532
-URL:https://www.maxpreps.com/games/08-22-2026/girls-soccer-26/enterprise-v
- s-grand-county.htm?c=dhnmBA-jaUarG0MJ_8EBoA
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-22-2026/freshman-volleyball-26/enterprise-vs-grand-county.htm?c=LOJWQ92Uek69FOg01cCyjQ"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Grand County Girls Freshman Volleyball @ Enterprise
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260822T160000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260822T170000
-UID:64548d2c669f43790f88673656c2014c@maxpreps.com
-DESCRIPTION:Girls Freshman Volleyball\nThe Grand County freshman volleybal
- l team has an away non-conference match @  Enterprise (UT) on Saturday\, A
- ugust 22 @ 4p.
-LOCATION:Enterprise High School
-URL:https://www.maxpreps.com/games/08-22-2026/freshman-volleyball-26/enter
- prise-vs-grand-county.htm?c=LOJWQ92Uek69FOg01cCyjQ
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-22-2026/jv-volleyball-26/enterprise-vs-grand-county.htm?c=eC6hmwaseEmu8AUqrq3WLQ"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Grand County Girls JV Volleyball @ Enterprise
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260822T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260822T181500
-UID:3bbc9c420388b5b1d6c8150b6684daab@maxpreps.com
-DESCRIPTION:Girls JV Volleyball\nThe Grand County JV volleyball team has a
- n away non-conference match @  Enterprise (UT) on Saturday\, August 22 @ 5
- :15p.
-LOCATION:Enterprise High School
-URL:https://www.maxpreps.com/games/08-22-2026/jv-volleyball-26/enterprise-
- vs-grand-county.htm?c=eC6hmwaseEmu8AUqrq3WLQ
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-22-2026/volleyball-26/enterprise-vs-grand-county.htm?c=dNvNNpKxNES4oEv0ceshRQ"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Grand County Girls Varsity Volleyball @ Enterprise
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260822T183000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260822T193000
-UID:ddbd3de1a32edfded0655afd29f2c38b@maxpreps.com
-DESCRIPTION:Girls Varsity Volleyball\nThe Grand County varsity volleyball 
- team has an away conference match @  Enterprise (UT) on Saturday\, August 
- 22 @ 6:30p.
-LOCATION:Enterprise High School
-URL:https://www.maxpreps.com/games/08-22-2026/volleyball-26/enterprise-vs-
- grand-county.htm?c=dNvNNpKxNES4oEv0ceshRQ
-X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -6325,7 +4090,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20261010
-DTSTAMP:20260601T093450Z
+DTSTAMP:20260602T093217Z
 UID:48rdqkjcg5r4rjec3qi8reeuev@google.com
 CREATED:20260120T150241Z
 LAST-MODIFIED:20260120T150241Z
@@ -7973,7 +5738,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260601T093450Z
+DTSTAMP:20260602T093217Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -9754,7 +7519,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260601T093450Z
+DTSTAMP:20260602T093217Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
