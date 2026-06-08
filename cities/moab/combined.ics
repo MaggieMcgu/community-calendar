@@ -13,7 +13,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260607T180000Z
 DTEND:20260608T040000Z
-DTSTAMP:20260607T093649Z
+DTSTAMP:20260608T093410Z
 UID:7l8r3d2hf2ujma6teasl8ifb8o@google.com
 CREATED:20260602T213908Z
 DESCRIPTION:Cy is having a volleyball tournment fees are waved because she 
@@ -90,7 +90,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;TZID=America/Denver:20260608T130000
 DTEND;TZID=America/Denver:20260608T160000
-DTSTAMP:20260607T093649Z
+DTSTAMP:20260608T093410Z
 UID:1oi8qi80ue7mbqd7djcmss59jf@google.com
 RECURRENCE-ID;TZID=America/Denver:20260608T120000
 CREATED:20250918T200058Z
@@ -709,7 +709,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;TZID=America/Denver:20260612T090000
 DTEND;TZID=America/Denver:20260612T113000
-DTSTAMP:20260607T093649Z
+DTSTAMP:20260608T093410Z
 UID:24k6c12mpt90qt418c3mhaing4@google.com
 RECURRENCE-ID;TZID=America/Denver:20260612T090000
 CREATED:20231219T004919Z
@@ -991,6 +991,51 @@ DESCRIPTION:Skip the Sitter! Drop your kids off at Climb Moab for pizza an
 LOCATION:Climb Moab LLC\, 11850 US191 Unit 8A\, Moab
 URL:https://climbmoabgym.com/events/parents-night-out-june
 X-SOURCE:Climb Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-breadwinner-2026"}
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-breadwinner-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:The Breadwinner — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260614T130000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260614T150000
+UID:c9026d0d0c33aee2eb339cb59edb00b0@cinemaclock.com
+DESCRIPTION:PG G G G G G G 2026 Comedy Nate Bargatze & Kumail Nanjiani 1st
+  week\n\nhttps://www.cinemaclock.com/movies/the-breadwinner-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/the-breadwinner-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/masters-of-the-universe-2026"}
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/masters-of-the-universe-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Masters of the Universe — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260614T130000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260614T150000
+UID:9abd8d28597d67b57e215f82ae8ab9ed@cinemaclock.com
+DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Nicholas
+  Galitzine & Camila Mendes 1st week\n\nhttps://www.cinemaclock.com/movies/
+ masters-of-the-universe-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/masters-of-the-universe-2026
+X-SOURCE:Slickrock Cinemas
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
+X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
+X-SOURCE-ID:slickrock_cinemas
+SUMMARY:Star Wars: The Mandalorian and Grogu — Slickrock Cinemas
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260614T130000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260614T150000
+UID:7af288b0fd987df8e831eb3e57659dfe@cinemaclock.com
+DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
+ scal & Martin Scorsese 3rd week\n\nhttps://www.cinemaclock.com/movies/star
+ -wars-the-mandalorian-and-grogu-2026
+LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
+URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
+ -2026
+X-SOURCE:Slickrock Cinemas
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
@@ -2219,10 +2264,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Community Yoga with Bre
+SUMMARY:Community Yoga with Rylin
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260625T171500
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260625T181500
-UID:27bec6f9c340d73ec4ad9aea6a8529dd@wellnesscollectivemoab.com
+UID:85d07eb439a611d6e29f46915e9a470c@wellnesscollectivemoab.com
 DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
  d props provided. Class suitable for all bodies and skill levels. Class pr
  icing is by donation (recommended $10 per class). Sliding scale pricing av
@@ -2605,10 +2650,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Take Care Tuesday - Relaxing Yoga
+SUMMARY:Take Care Tuesday - Relaxing Yoga with Rylin
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260630T171500
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260630T181500
-UID:b974bc53c03dc257b889a313b5dd9c80@wellnesscollectivemoab.com
+UID:cc8403e3add3b701314bc4f61218ee47@wellnesscollectivemoab.com
 DESCRIPTION:Make space to slow down with Take Care Tuesday\, a weekly rota
  ting class centered around rest and relaxation. Each facilitator brings th
  eir own style and gifts\, offering calming yoga along with special element
@@ -4362,7 +4407,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260720
 DTEND;VALUE=DATE:20260808
-DTSTAMP:20260607T093649Z
+DTSTAMP:20260608T093410Z
 UID:29i5bmefogj8n3r53vsup449eg@google.com
 CREATED:20260129T215055Z
 LAST-MODIFIED:20260529T202113Z
@@ -5713,6 +5758,26 @@ UID:16068
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Chair Yoga @ the Grand Center-Bre
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260804T143000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260804T153000
+UID:73e76d4ca6e9323e33f45db1e83a4aaf@wellnesscollectivemoab.com
+DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
+  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
+ ctive yoga instructors. Each teacher brings their own style and expertise\
+ , while sharing a common focus on safety\, choice\, and ease in the body. 
+ This class is especially supportive for older adults and anyone who prefer
+ s to stay off the floor\, has limited mobility\, uses a chair for stabilit
+ y\, or is simply looking for a calm\, nourishing way to move. All poses ar
+ e done seated or standing with the support of a chair\, so you can experie
+ nce the benefits of yoga without getting down on a mat.
+LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
@@ -6294,7 +6359,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20261010
-DTSTAMP:20260607T093649Z
+DTSTAMP:20260608T093410Z
 UID:48rdqkjcg5r4rjec3qi8reeuev@google.com
 CREATED:20260120T150241Z
 LAST-MODIFIED:20260120T150241Z
@@ -7972,7 +8037,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260607T093649Z
+DTSTAMP:20260608T093410Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -9763,7 +9828,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260607T093649Z
+DTSTAMP:20260608T093410Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
