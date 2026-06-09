@@ -417,7 +417,6 @@ SOURCE_NAMES = {
     'climb_moab': 'Climb Moab',
     'back_of_beyond': 'Back of Beyond Books',
     'wellness_collective': 'Wellness Collective Moab',
-    'slickrock_cinemas': 'Slickrock Cinemas',
     'moab_music_festival': 'Moab Music Festival',
     'moab_folk_festival': 'Moab Folk Festival',
 }
@@ -604,7 +603,6 @@ SOURCE_URLS = {
     'climb_moab': 'https://climbmoabgym.com/events',
     'back_of_beyond': 'https://backofbeyondbooks.com/happenings/',
     'wellness_collective': 'https://wellnesscollectivemoab.com/calendar',
-    'slickrock_cinemas': 'https://www.cinemaclock.com/movie-theaters/slickrock-cinemas-3',
     'moab_music_festival': 'https://moabmusicfest.org/calendar/',
     'moab_folk_festival': 'https://www.moabfolkfestival.com/',
 }

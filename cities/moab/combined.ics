@@ -7,23 +7,6 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
-X-SOURCE-ID:center_street
-X-SOURCE:Center Street Gym / Arena
-URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
-DTSTART;TZID=America/Denver:20260608T130000
-DTEND;TZID=America/Denver:20260608T160000
-DTSTAMP:20260609T093606Z
-UID:1oi8qi80ue7mbqd7djcmss59jf@google.com
-RECURRENCE-ID;TZID=America/Denver:20260608T120000
-CREATED:20250918T200058Z
-LAST-MODIFIED:20260529T203147Z
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Open Gym 
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -60,6 +43,23 @@ SEQUENCE:0
 SUMMARY:Teen Center Try it Tuesday
 UID:16939
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
+X-SOURCE-ID:center_street
+X-SOURCE:Center Street Gym / Arena
+URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
+DTSTART;TZID=America/Denver:20260609T130000
+DTEND;TZID=America/Denver:20260609T160000
+DTSTAMP:20260609T093606Z
+UID:1oi8qi80ue7mbqd7djcmss59jf@google.com
+RECURRENCE-ID;TZID=America/Denver:20260609T120000
+CREATED:20250918T200058Z
+LAST-MODIFIED:20260529T203147Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Open Gym 
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
@@ -478,48 +478,6 @@ UID:1368
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-breadwinner-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:The Breadwinner — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260611T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260611T210000
-UID:2fdc1fe45da14ccf0da42784af77ce9a@cinemaclock.com
-DESCRIPTION:PG G G G G G G 2026 Comedy Nate Bargatze & Kumail Nanjiani 1st
-  week\n\nhttps://www.cinemaclock.com/movies/the-breadwinner-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/the-breadwinner-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/masters-of-the-universe-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:Masters of the Universe — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260611T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260611T210000
-UID:1b1f38dde6af28d99e375cabab1019cd@cinemaclock.com
-DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Nicholas
-  Galitzine & Camila Mendes 1st week\n\nhttps://www.cinemaclock.com/movies/
- masters-of-the-universe-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/masters-of-the-universe-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:Star Wars: The Mandalorian and Grogu — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260611T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260611T210000
-UID:27ad67ea08cb1ebed1a70a19170216d9@cinemaclock.com
-DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
- scal & Martin Scorsese 3rd week\n\nhttps://www.cinemaclock.com/movies/star
- -wars-the-mandalorian-and-grogu-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
- -2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -636,48 +594,6 @@ UID:16791
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-breadwinner-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:The Breadwinner — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260612T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260612T210000
-UID:d55fc725090ef750909b646fbf7929f6@cinemaclock.com
-DESCRIPTION:PG G G G G G G 2026 Comedy Nate Bargatze & Kumail Nanjiani 1st
-  week\n\nhttps://www.cinemaclock.com/movies/the-breadwinner-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/the-breadwinner-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/masters-of-the-universe-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:Masters of the Universe — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260612T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260612T210000
-UID:efc3d712d671249355ea4db04627cd7c@cinemaclock.com
-DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Nicholas
-  Galitzine & Camila Mendes 1st week\n\nhttps://www.cinemaclock.com/movies/
- masters-of-the-universe-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/masters-of-the-universe-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:Star Wars: The Mandalorian and Grogu — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260612T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260612T210000
-UID:2f52dc8be384d98d88a47d997eeab9bf@cinemaclock.com
-DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
- scal & Martin Scorsese 3rd week\n\nhttps://www.cinemaclock.com/movies/star
- -wars-the-mandalorian-and-grogu-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
- -2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -733,51 +649,6 @@ UID:16889
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-breadwinner-2026"}
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-breadwinner-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:The Breadwinner — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260613T130000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260613T150000
-UID:8ba1836990fdf800199677756e798e3a@cinemaclock.com
-DESCRIPTION:PG G G G G G G 2026 Comedy Nate Bargatze & Kumail Nanjiani 1st
-  week\n\nhttps://www.cinemaclock.com/movies/the-breadwinner-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/the-breadwinner-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/masters-of-the-universe-2026"}
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/masters-of-the-universe-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:Masters of the Universe — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260613T130000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260613T150000
-UID:48d9c42db13619380638c211bb058cd1@cinemaclock.com
-DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Nicholas
-  Galitzine & Camila Mendes 1st week\n\nhttps://www.cinemaclock.com/movies/
- masters-of-the-universe-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/masters-of-the-universe-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:Star Wars: The Mandalorian and Grogu — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260613T130000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260613T150000
-UID:4a206836ceb17b3227cd1a18e181d15d@cinemaclock.com
-DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
- scal & Martin Scorsese 3rd week\n\nhttps://www.cinemaclock.com/movies/star
- -wars-the-mandalorian-and-grogu-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
- -2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -828,51 +699,6 @@ DESCRIPTION:Skip the Sitter! Drop your kids off at Climb Moab for pizza an
 LOCATION:Climb Moab LLC\, 11850 US191 Unit 8A\, Moab
 URL:https://climbmoabgym.com/events/parents-night-out-june
 X-SOURCE:Climb Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-breadwinner-2026"}
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/the-breadwinner-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:The Breadwinner — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260614T130000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260614T150000
-UID:c9026d0d0c33aee2eb339cb59edb00b0@cinemaclock.com
-DESCRIPTION:PG G G G G G G 2026 Comedy Nate Bargatze & Kumail Nanjiani 1st
-  week\n\nhttps://www.cinemaclock.com/movies/the-breadwinner-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/the-breadwinner-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/masters-of-the-universe-2026"}
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/masters-of-the-universe-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:Masters of the Universe — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260614T130000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260614T150000
-UID:9abd8d28597d67b57e215f82ae8ab9ed@cinemaclock.com
-DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Nicholas
-  Galitzine & Camila Mendes 1st week\n\nhttps://www.cinemaclock.com/movies/
- masters-of-the-universe-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/masters-of-the-universe-2026
-X-SOURCE:Slickrock Cinemas
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
-X-SOURCE-URLS:{"Slickrock Cinemas": "https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu-2026"}
-X-SOURCE-ID:slickrock_cinemas
-SUMMARY:Star Wars: The Mandalorian and Grogu — Slickrock Cinemas
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260614T130000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260614T150000
-UID:7af288b0fd987df8e831eb3e57659dfe@cinemaclock.com
-DESCRIPTION:PG-13 G PG PG PG PG PG 2h12m Fantasy action adventure Pedro Pa
- scal & Martin Scorsese 3rd week\n\nhttps://www.cinemaclock.com/movies/star
- -wars-the-mandalorian-and-grogu-2026
-LOCATION:Slickrock Cinemas\, 580 Kane Creek Blvd\, Moab\, UT 84532
-URL:https://www.cinemaclock.com/movies/star-wars-the-mandalorian-and-grogu
- -2026
-X-SOURCE:Slickrock Cinemas
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
