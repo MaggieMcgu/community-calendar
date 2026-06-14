@@ -10,52 +10,6 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16810
-DTEND;TZID=America/Denver:20260613T120000
-DTSTAMP;TZID=America/Denver:20260518T104120
-DTSTART;TZID=America/Denver:20260613T080000
-LAST-MODIFIED;TZID=America/Denver:20260518T104120
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
- 2
-SEQUENCE:0
-SUMMARY:Private Rental - Training - Conference Room - 8:00am - 12:00pm
-UID:16810
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16889
-DTEND;TZID=America/Denver:20260613T235900
-DTSTAMP;TZID=America/Denver:20260522T151618
-DTSTART;TZID=America/Denver:20260613T103000
-LAST-MODIFIED;TZID=America/Denver:20260522T151618
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Saturday Storytime
-UID:16889
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16829
-DTEND;TZID=America/Denver:20260613T150000
-DTSTAMP;TZID=America/Denver:20260522T145948
-DTSTART;TZID=America/Denver:20260613T140000
-LAST-MODIFIED;TZID=America/Denver:20260522T145948
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:16829
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15585
 DTEND;VALUE=DATE:20260625
 DTSTAMP;TZID=America/Denver:20260505T110852
@@ -66,28 +20,6 @@ SEQUENCE:0
 SUMMARY:Private Event - Indoor Arena - NO PUBLIC ACCESS
 UID:15585
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Climb Moab": "https://climbmoabgym.com/events/parents-night-out-june"}
-X-SOURCE-ID:climb_moab
-SUMMARY:Parents Night Out 
-DTSTART;TZID=UTC;VALUE=DATE-TIME:20260614T003000Z
-DTEND;TZID=UTC;VALUE=DATE-TIME:20260614T033000Z
-UID:aaef72b7927f6e1fa490aaf994cc4fe5@climbmoabgym.com
-DESCRIPTION:Skip the Sitter! Drop your kids off at Climb Moab for pizza an
- d climbing games and you get to enjoy a night off! Parents get 15% off at 
- the Desert Bistro! After your dinner date\, pick them up at 8:30pm\, just 
- in time to tuck them into bed. First child is $40\, and any others $30. Cl
- imb Moab youth club members get a $5 discount! #block-38899591a23c40132d8c
-  { } #block-38899591a23c40132d8c .sqs-html-content { } #block-38899591a23c
- 40132d8c { mix-blend-mode: var(--tweak-text-block-blend )\; border-radius:
-  var(--tweak-text-block-radius)\; } @media screen and (max-width: 767px) {
-  #block-38899591a23c40132d8c { } } @media screen and (max-width: 767px) { 
- #block-38899591a23c40132d8c .sqs-html-content { } } @media screen and (max
- -width: 767px) { }
-LOCATION:Climb Moab LLC\, 11850 US191 Unit 8A\, Moab
-URL:https://climbmoabgym.com/events/parents-night-out-june
-X-SOURCE:Climb Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
@@ -160,7 +92,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;TZID=America/Denver:20260615T130000
 DTEND;TZID=America/Denver:20260615T160000
-DTSTAMP:20260613T093512Z
+DTSTAMP:20260614T093507Z
 UID:1oi8qi80ue7mbqd7djcmss59jf@google.com
 RECURRENCE-ID;TZID=America/Denver:20260615T120000
 CREATED:20250918T200058Z
@@ -452,7 +384,7 @@ RRULE:FREQ=WEEKLY;BYDAY=TU
 EXDATE;TZID=America/Denver:20260721T200000
 EXDATE;TZID=America/Denver:20260728T200000
 EXDATE;TZID=America/Denver:20260804T200000
-DTSTAMP:20260613T093512Z
+DTSTAMP:20260614T093507Z
 UID:42q1864ip09mnhi5egh9tajo1t_R20260617T020000@google.com
 CREATED:20260226T173519Z
 LAST-MODIFIED:20260610T211334Z
@@ -775,7 +707,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;TZID=America/Denver:20260619T090000
 DTEND;TZID=America/Denver:20260619T113000
-DTSTAMP:20260613T093512Z
+DTSTAMP:20260614T093507Z
 UID:24k6c12mpt90qt418c3mhaing4@google.com
 RECURRENCE-ID;TZID=America/Denver:20260619T090000
 CREATED:20231219T004919Z
@@ -1071,7 +1003,7 @@ URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailp
 DTSTART;TZID=America/Denver:20260623T090000
 DTEND;TZID=America/Denver:20260623T100000
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20260814T055959Z;BYDAY=TU,TH
-DTSTAMP:20260613T093512Z
+DTSTAMP:20260614T093507Z
 UID:08mneoak2n62vmtt4l4jjor0jh@google.com
 CREATED:20260611T205028Z
 LAST-MODIFIED:20260611T205029Z
@@ -3552,7 +3484,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260720
 DTEND;VALUE=DATE:20260808
-DTSTAMP:20260613T093512Z
+DTSTAMP:20260614T093507Z
 UID:29i5bmefogj8n3r53vsup449eg@google.com
 CREATED:20260129T215055Z
 LAST-MODIFIED:20260529T202113Z
@@ -5374,6 +5306,25 @@ UID:16076
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Yoga with the 12 Steps of Recovery with Breann
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260812T171500
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260812T181500
+UID:24ecdf777b8a385ccdaaccd329561bc0@wellnesscollectivemoab.com
+DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
+  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
+ tice followed by a brief group discussion based on the 12-steps. Open to e
+ veryone and anyone dealing with their own addictive behavior or affected b
+ y the addictive behavior of others. This is an open and inclusive group. A
+ ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
+ or a part of the 12-step program. Free class provided in partnership with 
+ USARA.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -5402,6 +5353,25 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16077
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:70+ Resistance Band Strength Training
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260813T100000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260813T104500
+UID:6f4b658876a0efee1c1d71c1054408de@wellnesscollectivemoab.com
+DESCRIPTION:This 45-minute resistance band strength class is for adults 70
+ + who want to build strength\, improve balance\, and stay active in a supp
+ ortive\, small-group setting. Classes focus on simple\, low-impact movemen
+ ts that support everyday mobility and confidence. Exercises are adaptable 
+ and meet participants where they are. Resistance bands are provided or you
+ ’re welcome to bring your own. Please wear comfortable clothing\, stable
+  shoes\, and bring a water bottle. Thursdays at 10:00 AM at Wellness Colle
+ ctive $10 per class To sign up\, text Susette at 435-260-2523. Or show up!
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab City Council": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"}
@@ -5696,7 +5666,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20261010
-DTSTAMP:20260613T093512Z
+DTSTAMP:20260614T093507Z
 UID:48rdqkjcg5r4rjec3qi8reeuev@google.com
 CREATED:20260120T150241Z
 LAST-MODIFIED:20260120T150241Z
@@ -7389,7 +7359,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260613T093512Z
+DTSTAMP:20260614T093507Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -9195,7 +9165,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260613T093512Z
+DTSTAMP:20260614T093507Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
