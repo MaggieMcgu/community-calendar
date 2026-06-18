@@ -21,6 +21,21 @@ TZOFFSETTO:-0600
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
+DESCRIPTION:Join friends and authors Amy Irvine and Pam Houston in conversa
+ tion\, as Irvine presents her new book "Almost Animal: a Memoir of Motherh
+ ood\, Wildness\, and the American West."  https://grandcountyutah.net/cale
+ ndar.aspx?EID=16986
+DTEND;TZID=America/Denver:20261113T203000
+DTSTAMP;TZID=America/Denver:20260617T150637
+DTSTART;TZID=America/Denver:20261113T190000
+LAST-MODIFIED;TZID=America/Denver:20260617T150637
+LOCATION:<p>Star Hall</p> - 159 E Center St.  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Authors Amy Irvine and Pam Houston
+UID:16986
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=9008
 DTEND;TZID=America/Denver:20261111T200000
 DTSTAMP;TZID=America/Denver:20260616T152727
@@ -355,6 +370,20 @@ LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Kids Cafe
 UID:16869
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Heather Hansman presents her new book "Fierce Country: The Unto
+ ld Story of Three Women Who Ignited America's Love for the Wild."  https:/
+ /grandcountyutah.net/calendar.aspx?EID=16985
+DTEND;TZID=America/Denver:20260722T203000
+DTSTAMP;TZID=America/Denver:20260617T142159
+DTSTART;TZID=America/Denver:20260722T190000
+LAST-MODIFIED;TZID=America/Denver:20260617T142159
+LOCATION:<p>Moab Library</p> - 257 E Center St.   Moab UT 84532
+SEQUENCE:0
+SUMMARY:Author Heather Hansman
+UID:16985
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
@@ -1224,55 +1253,6 @@ LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Kids Cafe
 UID:16834
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16926
-DTEND;TZID=America/Denver:20260617T190000
-DTSTAMP;TZID=America/Denver:20260529T170244
-DTSTART;TZID=America/Denver:20260617T160000
-LAST-MODIFIED;TZID=America/Denver:20260529T170244
-LOCATION:<p>Library Teen Center</p> - 321 E Center St.  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Teen Center Dungeons & Dragons
-UID:16926
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16833
-DTEND;TZID=America/Denver:20260617T163000
-DTSTAMP;TZID=America/Denver:20260522T145631
-DTSTART;TZID=America/Denver:20260617T153000
-LAST-MODIFIED;TZID=America/Denver:20260522T145631
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:16833
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16899
-DTEND;TZID=America/Denver:20260617T150000
-DTSTAMP;TZID=America/Denver:20260522T152321
-DTSTART;TZID=America/Denver:20260617T140000
-LAST-MODIFIED;TZID=America/Denver:20260522T152321
-LOCATION:<p>Moab Arts &amp\; Recreation Center (MARC)</p> - 111 E 100 N  Mo
- ab UT 84532
-SEQUENCE:0
-SUMMARY:Summer Reading: Rapunzel Puppet Show
-UID:16899
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16965
-DTEND;TZID=America/Denver:20260617T235900
-DTSTAMP;TZID=America/Denver:20260603T114004
-DTSTART;TZID=America/Denver:20260617T103000
-LAST-MODIFIED;TZID=America/Denver:20260603T114004
-LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Bilingual Storytime 
-UID:16965
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 END:VCALENDAR
