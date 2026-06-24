@@ -2245,12 +2245,12 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=13581
 DTEND;VALUE=DATE:20260920
-DTSTAMP;TZID=America/Denver:20250307T151358
+DTSTAMP;TZID=America/Denver:20260623T084859
 DTSTART;VALUE=DATE:20260916
-LAST-MODIFIED;TZID=America/Denver:20250307T151358
+LAST-MODIFIED;TZID=America/Denver:20260623T084859
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Trail Fest
+SUMMARY:Trail Fest - CANCELED
 UID:13581
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -3587,18 +3587,6 @@ LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
 UID:16526
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16525
-DTEND;TZID=America/Denver:20260623T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260623T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16525
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
