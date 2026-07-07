@@ -7,146 +7,6 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16039
-DTEND;TZID=America/Denver:20260706T200000
-DTSTAMP;TZID=America/Denver:20260126T120508
-DTSTART;TZID=America/Denver:20260706T080000
-LAST-MODIFIED;TZID=America/Denver:20260126T120508
-LOCATION:Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
-UID:16039
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga with Jan
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260706T090000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260706T100000
-UID:b9550987c7f869c15a1f52c63aadbabb@wellnesscollectivemoab.com
-DESCRIPTION:Chair Yoga – Mondays at 9 AM Join us every Monday morning at
-  9:00 AM for a gentle and accessible Chair Yoga class\, led by Breann\, a 
- certified trauma-sensitive yoga teacher and experienced massage therapist.
-  Breann brings over 20 years of experience in guiding others toward greate
- r body awareness\, healing\, and relaxation. This class is designed for ev
- eryone – whether you are new to yoga\, have limited mobility\, or are lo
- oking for a mindful and soothing way to start your week. Chair Yoga allows
-  you to experience the benefits of yoga without needing to get down on a m
- at. What to Expect: • Seated and standing postures using the chair for s
- upport • Gentle stretches to enhance flexibility • Breathing exercises
-  to calm the mind and body • Movements to promote better circulation and
-  balance ✨ No experience necessary – come as you are! Where: Wellness 
- Collective When: Every Monday at 9:00 AM Cost: By donation Let this practi
- ce be a moment of self-care and grounding in your week.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16934
-DTEND;TZID=America/Denver:20260706T190000
-DTSTAMP;TZID=America/Denver:20260603T113234
-DTSTART;TZID=America/Denver:20260706T110000
-LAST-MODIFIED;TZID=America/Denver:20260603T113234
-LOCATION:<p>Library Teen Center</p> - 321 E. Center Street  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Teen Center Maker Monday
-UID:16934
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16957
-DTEND;TZID=America/Denver:20260706T170000
-DTSTAMP;TZID=America/Denver:20260616T155044
-DTSTART;TZID=America/Denver:20260706T140000
-LAST-MODIFIED;TZID=America/Denver:20260616T155044
-LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Makerspace
-UID:16957
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16852
-DTEND;TZID=America/Denver:20260706T163000
-DTSTAMP;TZID=America/Denver:20260522T145631
-DTSTART;TZID=America/Denver:20260706T153000
-LAST-MODIFIED;TZID=America/Denver:20260522T145631
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:16852
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-ID:grand_county
-X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16776
-DTEND;TZID=America/Denver:20260706T170000
-DTSTAMP;TZID=America/Denver:20260630T150152
-DTSTART;TZID=America/Denver:20260706T160000
-LAST-MODIFIED;TZID=America/Denver:20260630T150152
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Airport Board
-UID:16776
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16532
-DTEND;TZID=America/Denver:20260706T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260706T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16532
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Tai Chi with Drew
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260706T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260706T181500
-UID:79c893a4c76492c07a30246bd86e0447@wellnesscollectivemoab.com
-DESCRIPTION:Among all forms of physical activity\, Tai Chi Ch’uan is per
- haps the most accessible\, convenient\, and economical way to improve both
-  physical health and mental well-being. As Yang Style Tai Chi master Cheng
-  Man-Ching once said\, ‘Those who understand the importance of exercise 
- for health will find Tai Chi Ch’uan indispensable.’ While Tai Chi may 
- not be easy to master\, consistent practice will yield results. In this cl
- ass\, we will focus on cultivating chi\, building endurance and strength\,
-  and developing core alignment\, all while learning to release tension. Ta
- i Chi training offers many levels of progression. In Yang Style\, when pra
- cticed correctly\, it becomes an aerobic workout\, despite minimal movemen
- t. Additionally\, it serves as a form of meditation. Please wear comfortab
- le clothing. Flat shoes\, socks\, or bare feet are ideal. Students are enc
- ouraged to train at their own pace\, and progression will vary from person
-  to person.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -175,12 +35,12 @@ X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16040
 DTEND;TZID=America/Denver:20260707T200000
-DTSTAMP;TZID=America/Denver:20260112T142138
+DTSTAMP;TZID=America/Denver:20260706T172837
 DTSTART;TZID=America/Denver:20260707T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142138
+LAST-MODIFIED;TZID=America/Denver:20260706T172837
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
+SUMMARY:Indoor Arena Closed - Event clean up & maintenance 
 UID:16040
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -344,12 +204,12 @@ X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16041
 DTEND;TZID=America/Denver:20260708T200000
-DTSTAMP;TZID=America/Denver:20260112T142138
+DTSTAMP;TZID=America/Denver:20260706T172900
 DTSTART;TZID=America/Denver:20260708T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142138
+LAST-MODIFIED;TZID=America/Denver:20260706T172900
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
+SUMMARY:Indoor Arena Closed - Event clean up & maintenance 
 UID:16041
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -476,12 +336,12 @@ X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16042
 DTEND;TZID=America/Denver:20260709T200000
-DTSTAMP;TZID=America/Denver:20260112T142138
+DTSTAMP;TZID=America/Denver:20260706T172920
 DTSTART;TZID=America/Denver:20260709T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142138
+LAST-MODIFIED;TZID=America/Denver:20260706T172920
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
+SUMMARY:Indoor Arena Closed - Event clean up & maintenance 
 UID:16042
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -585,12 +445,12 @@ X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16043
 DTEND;TZID=America/Denver:20260710T200000
-DTSTAMP;TZID=America/Denver:20260112T142138
+DTSTAMP;TZID=America/Denver:20260706T172948
 DTSTART;TZID=America/Denver:20260710T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142138
+LAST-MODIFIED;TZID=America/Denver:20260706T172948
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
+SUMMARY:Indoor Arena Closed - Event clean up & maintenance 
 UID:16043
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -692,12 +552,12 @@ X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16044
 DTEND;TZID=America/Denver:20260711T200000
-DTSTAMP;TZID=America/Denver:20260112T142138
+DTSTAMP;TZID=America/Denver:20260706T173005
 DTSTART;TZID=America/Denver:20260711T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142138
+LAST-MODIFIED;TZID=America/Denver:20260706T173005
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
+SUMMARY:Indoor Arena Closed - Event clean up & maintenance 
 UID:16044
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -737,12 +597,12 @@ X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16045
 DTEND;TZID=America/Denver:20260712T200000
-DTSTAMP;TZID=America/Denver:20260112T142138
+DTSTAMP;TZID=America/Denver:20260706T173026
 DTSTART;TZID=America/Denver:20260712T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142138
+LAST-MODIFIED;TZID=America/Denver:20260706T173026
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
+SUMMARY:Indoor Arena Closed - Event clean up & maintenance 
 UID:16045
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -752,12 +612,12 @@ X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16046
 DTEND;TZID=America/Denver:20260713T200000
-DTSTAMP;TZID=America/Denver:20260112T142138
+DTSTAMP;TZID=America/Denver:20260706T173055
 DTSTART;TZID=America/Denver:20260713T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142138
+LAST-MODIFIED;TZID=America/Denver:20260706T173055
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
+SUMMARY:Indoor Arena Closed - Event clean up & maintenance 
 UID:16046
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -1476,7 +1336,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260720
 DTEND;VALUE=DATE:20260808
-DTSTAMP:20260706T093141Z
+DTSTAMP:20260707T093710Z
 UID:29i5bmefogj8n3r53vsup449eg@google.com
 CREATED:20260129T215055Z
 LAST-MODIFIED:20260529T202113Z
@@ -2591,10 +2451,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Dharma Recovery with  Bre
+SUMMARY:Dharma Recovery with Jan
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260730T183000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260730T193000
-UID:8d7b4ed3c799649ee1c922427f634cd2@wellnesscollectivemoab.com
+UID:19a361f46a791294d72f2246f405c0c5@wellnesscollectivemoab.com
 DESCRIPTION:Join Tom for Dharma Recovery-a peer-led community space that i
  s unified by our trust in the potential of each of us to recover and find 
  freedom from the suffering of addiction. We believe that the traditional B
@@ -3127,6 +2987,21 @@ UID:16072
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-08-2026/volleyball-26/grand-county-vs-union.htm?c=if1f7nbWIUCAQnQ-DbdSqA"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Union Girls Varsity Volleyball @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260808T130000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260808T140000
+UID:8528edd0a1a316ca6469f0357db8e247@maxpreps.com
+DESCRIPTION:Girls Varsity Volleyball\nThe Union varsity volleyball team ha
+ s an away non-conference match @  Grand County (Moab\, UT) on Saturday\, A
+ ugust 8 @ 1p.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/games/08-08-2026/volleyball-26/grand-county-v
+ s-union.htm?c=if1f7nbWIUCAQnQ-DbdSqA
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -3514,51 +3389,6 @@ LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-14-2026/girls-soccer-26/grand-county-vs-south-summit.htm?c=XIp7lAJ6UkCLzTeDi17O6Q"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:South Summit Girls Varsity Soccer @ Grand County
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260814T160000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260814T174500
-UID:15cf9b4550ceec9f95a94432aa32f07f@maxpreps.com
-DESCRIPTION:Girls Varsity Soccer\nThe South Summit varsity soccer team has
-  an away non-conference match @  Grand County (Moab\, UT) on Friday\, Augu
- st 14 @ 4p.
-LOCATION:Grand County High School
-URL:https://www.maxpreps.com/games/08-14-2026/girls-soccer-26/grand-county
- -vs-south-summit.htm?c=XIp7lAJ6UkCLzTeDi17O6Q
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-14-2026/girls-jv-soccer-26/grand-county-vs-south-summit.htm?c=5SkZRfJl4EWmwb7zYf5zxg"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:South Summit Girls JV Soccer @ Grand County
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260814T180000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260814T194500
-UID:b70876a3b016f479b8e695b57e0ef5a2@maxpreps.com
-DESCRIPTION:Girls JV Soccer\nThe South Summit JV soccer team has an away n
- on-conference match @  Grand County (Moab\, UT) on Friday\, August 14 @ 6p
- .
-LOCATION:Grand County High School
-URL:https://www.maxpreps.com/games/08-14-2026/girls-jv-soccer-26/grand-cou
- nty-vs-south-summit.htm?c=5SkZRfJl4EWmwb7zYf5zxg
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-14-2026/football-26/grand-county-vs-water-canyon.htm?c=EhzLCQrYmU6JbzS68efyDQ"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Water Canyon Varsity Football @ Grand County
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260814T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260814T210000
-UID:c134da3d1b61755bb46598458293e0fe@maxpreps.com
-DESCRIPTION:Boys Varsity Football\nThe Water Canyon varsity football team 
- has an away non-conference game @  Grand County (Moab\, UT) on Friday\, Au
- gust 14 @ 7p.
-LOCATION:Grand County High School\, 608 S 400 E\, Moab\, UT 84532
-URL:https://www.maxpreps.com/games/08-14-2026/football-26/grand-county-vs-
- water-canyon.htm?c=EhzLCQrYmU6JbzS68efyDQ
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -3597,35 +3427,6 @@ DESCRIPTION:Zhineng Qigong is a powerful mind-body practice rooted in anci
   live with greater purpose and presence.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-15-2026/girls-soccer-26/grand-county-vs-manti.htm?c=LnBnfzjPEEuI4zF8xgc0pw"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Manti Girls Varsity Soccer @ Grand County
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260815T090000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260815T104500
-UID:f2f38db2324a07ec1ce00b4514375307@maxpreps.com
-DESCRIPTION:Girls Varsity Soccer\nThe Manti varsity soccer team has an awa
- y non-conference match @  Grand County (Moab\, UT) on Saturday\, August 15
-  @ 9a.
-LOCATION:Grand County High School
-URL:https://www.maxpreps.com/games/08-15-2026/girls-soccer-26/grand-county
- -vs-manti.htm?c=LnBnfzjPEEuI4zF8xgc0pw
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/games/08-15-2026/girls-jv-soccer-26/grand-county-vs-manti.htm?c=ea7gLRFD502K0CZupIv-Wg"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Manti Girls JV Soccer @ Grand County
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260815T110000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260815T124500
-UID:7b89b5b8d7ac2dca127ee98e3065a6ab@maxpreps.com
-DESCRIPTION:Girls JV Soccer\nThe Manti JV soccer team has an away non-conf
- erence match @  Grand County (Moab\, UT) on Saturday\, August 15 @ 11a.
-LOCATION:Grand County High School
-URL:https://www.maxpreps.com/games/08-15-2026/girls-jv-soccer-26/grand-cou
- nty-vs-manti.htm?c=ea7gLRFD502K0CZupIv-Wg
-X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -4457,7 +4258,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20261108
-DTSTAMP:20260706T093141Z
+DTSTAMP:20260707T093710Z
 UID:48rdqkjcg5r4rjec3qi8reeuev@google.com
 CREATED:20260120T150241Z
 LAST-MODIFIED:20260625T151927Z
@@ -4648,7 +4449,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260902T003000Z
 DTEND:20260902T013000Z
-DTSTAMP:20260706T093141Z
+DTSTAMP:20260707T093710Z
 UID:3ou0646rkdvloaltgksh5o51m0@google.com
 CREATED:20260622T194605Z
 LAST-MODIFIED:20260622T194605Z
@@ -4664,7 +4465,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260902T013000Z
 DTEND:20260902T023000Z
-DTSTAMP:20260706T093141Z
+DTSTAMP:20260707T093710Z
 UID:7k7hgbli7603hd97mth9qnoam3@google.com
 CREATED:20260622T195520Z
 LAST-MODIFIED:20260622T195520Z
@@ -6334,7 +6135,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260706T093141Z
+DTSTAMP:20260707T093710Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -8158,7 +7959,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260706T093141Z
+DTSTAMP:20260707T093710Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
