@@ -1,118 +1,6 @@
 [
   {
     "title": "Indoor Arena Closed - Event clean up & maintenance",
-    "start_time": "2026-07-10T08:00:00",
-    "end_time": "2026-07-10T20:00:00",
-    "location": "OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532",
-    "description": "https://grandcountyutah.net/calendar.aspx?EID=16043",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30",
-    "city": "moab",
-    "source": "Old Spanish Trail Arena",
-    "source_id": "old_spanish_trail_arena",
-    "source_uid": "16043",
-    "source_urls": {
-      "Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"
-    },
-    "cluster_id": null
-  },
-  {
-    "title": "Flow into Friday Yoga with Breann",
-    "start_time": "2026-07-10T08:30:00",
-    "end_time": "2026-07-10T09:30:00",
-    "location": "Wellness Collective, 76 S 100 W, Moab, UT 84532",
-    "description": "A gentle and grounding way to move mindfully into your weekend. Start your Friday with this all-levels yoga class designed to help you awaken the body, center the mind, and ease into your day with intention. We’ll begin with slow, fluid movement to energize and open, followed by longer-held stretches and restorative postures to help you release tension and reconnect with yourself. This class is inclusive, beginner-friendly, and rooted in breath, balance, and compassionate movement. Whether you’re unwinding from your week or preparing for the weekend ahead, Friday Flow is a chance to show up just as you are.",
-    "url": "https://wellnesscollectivemoab.com/calendar",
-    "city": "moab",
-    "source": "Wellness Collective Moab",
-    "source_id": "wellness_collective",
-    "source_uid": "19a7c56c2d3d3b78af228b001ddacf11@wellnesscollectivemoab.com",
-    "source_urls": {
-      "Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"
-    },
-    "cluster_id": null
-  },
-  {
-    "title": "Yoga at USARA with Breann",
-    "start_time": "2026-07-10T10:00:00",
-    "end_time": "2026-07-10T10:45:00",
-    "location": "Wellness Collective, 76 S 100 W, Moab, UT 84532",
-    "description": "An All-Levels Yoga class for USARA participants and all community members. A free class held inside at USARA. Mats provided. Location: 23 S 100 W, Moab, UT 84532",
-    "url": "https://wellnesscollectivemoab.com/calendar",
-    "city": "moab",
-    "source": "Wellness Collective Moab",
-    "source_id": "wellness_collective",
-    "source_uid": "b7342ebc9e05454fa849a6350954b6c5@wellnesscollectivemoab.com",
-    "source_urls": {
-      "Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"
-    },
-    "cluster_id": null
-  },
-  {
-    "title": "Kids Makerspace",
-    "start_time": "2026-07-10T14:00:00",
-    "end_time": "2026-07-10T17:00:00",
-    "location": "<p>Moab Library</p> - 257 E Center St  Moab UT 84532",
-    "description": "https://grandcountyutah.net/calendar.aspx?EID=16958",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28",
-    "city": "moab",
-    "source": "Grand County Public Library",
-    "source_id": "grand_county_library",
-    "source_uid": "16958",
-    "source_urls": {
-      "Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"
-    },
-    "cluster_id": null
-  },
-  {
-    "title": "Kids Cafe",
-    "start_time": "2026-07-10T15:30:00",
-    "end_time": "2026-07-10T16:30:00",
-    "location": "<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532",
-    "description": "https://grandcountyutah.net/calendar.aspx?EID=16856",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28",
-    "city": "moab",
-    "source": "Grand County Public Library",
-    "source_id": "grand_county_library",
-    "source_uid": "16856",
-    "source_urls": {
-      "Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"
-    },
-    "cluster_id": null
-  },
-  {
-    "title": "Arts & Ag Market",
-    "start_time": "2026-07-10T17:00:00",
-    "end_time": "2026-07-10T20:00:00",
-    "location": "City Parks - Swanny City Park - 400 N. 100 W.  Moab UT 84532",
-    "description": "https://www.moabcity.gov/calendar.aspx?EID=1248",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29",
-    "city": "moab",
-    "source": "City of Moab Recreation",
-    "source_id": "city_of_moab_recreation",
-    "source_uid": "1248",
-    "source_urls": {
-      "City of Moab Recreation": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29"
-    },
-    "cluster_id": null
-  },
-  {
-    "title": "Moab Free Concert Series",
-    "start_time": "2026-07-10T18:00:00",
-    "end_time": "2026-07-10T21:00:00",
-    "location": "Swanny Park, 100 E 100 N, Moab, UT 84532",
-    "description": "Free community concert at Swanny Park. Part of the Moab Free Concert Series presented by Friends of the Moab Folk Festival.",
-    "url": "https://www.moabfreeconcerts.com/",
-    "city": "moab",
-    "source": "Moab Folk Festival",
-    "source_id": "moab_folk_festival",
-    "source_uid": "79ba0e2ca733ce8e5ff4ac7f004283fd@moabfolkfestival.com",
-    "source_urls": {
-      "Moab Folk Festival": "https://www.moabfreeconcerts.com/"
-    },
-    "cluster_id": null
-  },
-  {
-    "title": "Indoor Arena Closed - Event clean up & maintenance",
     "start_time": "2026-07-11T08:00:00",
     "end_time": "2026-07-11T20:00:00",
     "location": "OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532",
@@ -316,6 +204,22 @@
     "source_uid": "16944",
     "source_urls": {
       "Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"
+    },
+    "cluster_id": null
+  },
+  {
+    "title": "Children's Justice Center Advisory Board",
+    "start_time": "2026-07-14T12:00:00",
+    "end_time": "2026-07-14T13:00:00",
+    "location": "-",
+    "description": "https://grandcountyutah.net/calendar.aspx?EID=17003",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14",
+    "city": "moab",
+    "source": "Grand County",
+    "source_id": "grand_county",
+    "source_uid": "17003",
+    "source_urls": {
+      "Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"
     },
     "cluster_id": null
   },
@@ -780,6 +684,22 @@
     "source_uid": "02036661ef464bbb74e926bd5fab07d4@wellnesscollectivemoab.com",
     "source_urls": {
       "Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"
+    },
+    "cluster_id": null
+  },
+  {
+    "title": "Musical Story Hour <br> with Rachel Toups",
+    "start_time": "2026-07-18T00:00:00",
+    "end_time": "2026-07-18T00:00:00",
+    "location": "Grand County Public Library,",
+    "description": "",
+    "url": "https://moabmusicfest.org/events/musical-story-hour-2-517-149/",
+    "city": "moab",
+    "source": "Moab Music Festival",
+    "source_id": "moab_music_festival",
+    "source_uid": "ebb9dc78e02cf13e80a7450fcea3f85c@moabmusicfest.org",
+    "source_urls": {
+      "Moab Music Festival": "https://moabmusicfest.org/events/musical-story-hour-2-517-149/"
     },
     "cluster_id": null
   },
@@ -2764,6 +2684,22 @@
     "source_uid": "7892e72e1ee4ec72f9fb4cb309fb8565@wellnesscollectivemoab.com",
     "source_urls": {
       "Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"
+    },
+    "cluster_id": null
+  },
+  {
+    "title": "Stargazing at the Library",
+    "start_time": "2026-08-11T21:30:00",
+    "end_time": "2026-08-11T22:30:00",
+    "location": "<p>Moab Library</p> - 257 E Center St  Moab UT 84532",
+    "description": "Enjoy an out-of-this-world evening under the Perseid meteor shower with Devon Salasin, expert astronomy guide of Stargazing Moab.  https://grandcountyutah.net/calendar.aspx?EID=17001",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28",
+    "city": "moab",
+    "source": "Grand County Public Library",
+    "source_id": "grand_county_library",
+    "source_uid": "17001",
+    "source_urls": {
+      "Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"
     },
     "cluster_id": null
   },
@@ -4976,6 +4912,22 @@
     "cluster_id": null
   },
   {
+    "title": "Yoga with the 12 Steps of Recovery with Breann",
+    "start_time": "2026-09-16T17:15:00",
+    "end_time": "2026-09-16T18:15:00",
+    "location": "Wellness Collective, 76 S 100 W, Moab, UT 84532",
+    "description": "The yoga of 12-Step recovery. Combining the practical tools of the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga practice followed by a brief group discussion based on the 12-steps. Open to everyone and anyone dealing with their own addictive behavior or affected by the addictive behavior of others. This is an open and inclusive group. All A’s are welcome. Y12SR is NOT a replacement for meetings, sponsor, or a part of the 12-step program. Free class provided in partnership with USARA.",
+    "url": "https://wellnesscollectivemoab.com/calendar",
+    "city": "moab",
+    "source": "Wellness Collective Moab",
+    "source_id": "wellness_collective",
+    "source_uid": "67719df7185874cdf72410200a58399d@wellnesscollectivemoab.com",
+    "source_urls": {
+      "Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"
+    },
+    "cluster_id": null
+  },
+  {
     "title": "Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM",
     "start_time": "2026-09-16T19:00:00",
     "end_time": "2026-09-16T21:00:00",
@@ -4988,6 +4940,38 @@
     "source_uid": "15035",
     "source_urls": {
       "Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"
+    },
+    "cluster_id": null
+  },
+  {
+    "title": "70+ Resistance Band Strength Training",
+    "start_time": "2026-09-17T10:00:00",
+    "end_time": "2026-09-17T10:45:00",
+    "location": "Wellness Collective, 76 S 100 W, Moab, UT 84532",
+    "description": "This 45-minute resistance band strength class is for adults 70+ who want to build strength, improve balance, and stay active in a supportive, small-group setting. Classes focus on simple, low-impact movements that support everyday mobility and confidence. Exercises are adaptable and meet participants where they are. Resistance bands are provided or you’re welcome to bring your own. Please wear comfortable clothing, stable shoes, and bring a water bottle. Thursdays at 10:00 AM at Wellness Collective $10 per class To sign up, text Susette at 435-260-2523. Or show up!",
+    "url": "https://wellnesscollectivemoab.com/calendar",
+    "city": "moab",
+    "source": "Wellness Collective Moab",
+    "source_id": "wellness_collective",
+    "source_uid": "988e61465f5f000bb243d766170d0b69@wellnesscollectivemoab.com",
+    "source_urls": {
+      "Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"
+    },
+    "cluster_id": null
+  },
+  {
+    "title": "Community Yoga with Sam",
+    "start_time": "2026-09-17T17:15:00",
+    "end_time": "2026-09-17T18:15:00",
+    "location": "Wellness Collective, 76 S 100 W, Moab, UT 84532",
+    "description": "Join us for Community based yoga every Thursday night. Mats and props provided. Class suitable for all bodies and skill levels. Class pricing is by donation (recommended $10 per class). Sliding scale pricing available options! No one is turned away.",
+    "url": "https://wellnesscollectivemoab.com/calendar",
+    "city": "moab",
+    "source": "Wellness Collective Moab",
+    "source_id": "wellness_collective",
+    "source_uid": "7651356f263c11bf292db65c0c1e2fcb@wellnesscollectivemoab.com",
+    "source_urls": {
+      "Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"
     },
     "cluster_id": null
   },
@@ -5052,6 +5036,22 @@
     "source_uid": "1360",
     "source_urls": {
       "Moab City Council": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"
+    },
+    "cluster_id": null
+  },
+  {
+    "title": "Authors Betsy Gaines Quammen and Annette McGivney",
+    "start_time": "2026-09-22T19:00:00",
+    "end_time": "2026-09-22T20:30:00",
+    "location": "<p>Moab Library</p> - 257 E Center St  Moab UT 84532",
+    "description": "Betsy Gaines Quammen and Annette McGivney converse about their latest books \"This Haunted Land: Reckoning with Ghosts and the Stories that Shape America,\" and \"Plastic Shaman: The True Story of a Deadly Self-Help Retreat and America's Misguided Quest for Wellness\" respectively, published by Torrey House Press. https://grandcountyutah.net/calendar.aspx?EID=17002",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28",
+    "city": "moab",
+    "source": "Grand County Public Library",
+    "source_id": "grand_county_library",
+    "source_uid": "17002",
+    "source_urls": {
+      "Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"
     },
     "cluster_id": null
   },

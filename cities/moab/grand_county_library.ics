@@ -96,6 +96,23 @@ UID:9059
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Betsy Gaines Quammen and Annette McGivney converse about their 
+ latest books "This Haunted Land: Reckoning with Ghosts and the Stories tha
+ t Shape America\," and "Plastic Shaman: The True Story of a Deadly Self-He
+ lp Retreat and America's Misguided Quest for Wellness" respectively\, publ
+ ished by Torrey House Press. https://grandcountyutah.net/calendar.aspx?EID
+ =17002
+DTEND;TZID=America/Denver:20260922T203000
+DTSTAMP;TZID=America/Denver:20260710T121135
+DTSTART;TZID=America/Denver:20260922T190000
+LAST-MODIFIED;TZID=America/Denver:20260710T121135
+LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Authors Betsy Gaines Quammen and Annette McGivney
+UID:17002
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=9006
 DTEND;TZID=America/Denver:20260909T200000
 DTSTAMP;TZID=America/Denver:20260616T152727
@@ -231,6 +248,20 @@ LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
 SEQUENCE:0
 SUMMARY:2nd Wednesday Book Club
 UID:9005
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Enjoy an out-of-this-world evening under the Perseid meteor sho
+ wer with Devon Salasin\, expert astronomy guide of Stargazing Moab.  https
+ ://grandcountyutah.net/calendar.aspx?EID=17001
+DTEND;TZID=America/Denver:20260811T223000
+DTSTAMP;TZID=America/Denver:20260710T114450
+DTSTART;TZID=America/Denver:20260811T213000
+LAST-MODIFIED;TZID=America/Denver:20260710T114450
+LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Stargazing at the Library
+UID:17001
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
@@ -812,30 +843,6 @@ LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Saturday Storytime
 UID:16893
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16856
-DTEND;TZID=America/Denver:20260710T163000
-DTSTAMP;TZID=America/Denver:20260522T145631
-DTSTART;TZID=America/Denver:20260710T153000
-LAST-MODIFIED;TZID=America/Denver:20260522T145631
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:16856
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16958
-DTEND;TZID=America/Denver:20260710T170000
-DTSTAMP;TZID=America/Denver:20260616T155044
-DTSTART;TZID=America/Denver:20260710T140000
-LAST-MODIFIED;TZID=America/Denver:20260616T155044
-LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Makerspace
-UID:16958
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 END:VCALENDAR
