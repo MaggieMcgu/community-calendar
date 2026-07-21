@@ -680,12 +680,12 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16976
 DTEND;VALUE=DATE:20270606
-DTSTAMP;TZID=America/Denver:20260610T072342
-DTSTART;VALUE=DATE:20270605
-LAST-MODIFIED;TZID=America/Denver:20260610T072342
+DTSTAMP;TZID=America/Denver:20260720T105701
+DTSTART;VALUE=DATE:20270604
+LAST-MODIFIED;TZID=America/Denver:20260720T105701
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Crystal Festival - Indoor Arena
+SUMMARY:Canyonlands PRCA Rodeo - Indoor Arena
 UID:16976
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -701,6 +701,18 @@ SEQUENCE:0
 SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena 
  Conference Room
 UID:16440
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17007
+DTEND;VALUE=DATE:20270603
+DTSTAMP;TZID=America/Denver:20260720T110137
+DTSTART;VALUE=DATE:20270601
+LAST-MODIFIED;TZID=America/Denver:20260720T110137
+LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Arena Closed - Event Prep (Canyonlands PRCA)
+UID:17007
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
@@ -3125,30 +3137,6 @@ LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16054
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16540
-DTEND;TZID=America/Denver:20260720T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260720T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16540
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16053
-DTEND;TZID=America/Denver:20260720T200000
-DTSTAMP;TZID=America/Denver:20260112T142138
-DTSTART;TZID=America/Denver:20260720T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142138
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
-UID:16053
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 END:VCALENDAR
