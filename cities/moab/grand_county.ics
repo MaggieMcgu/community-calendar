@@ -525,6 +525,18 @@ UID:15696
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17009
+DTEND;TZID=America/Denver:20260803T183000
+DTSTAMP;TZID=America/Denver:20260723T093013
+DTSTART;TZID=America/Denver:20260803T173000
+LAST-MODIFIED;TZID=America/Denver:20260723T093013
+LOCATION: -     
+SEQUENCE:0
+SUMMARY:One Time Event
+UID:17009
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16777
 DTEND;TZID=America/Denver:20260803T170000
 DTSTAMP;TZID=America/Denver:20260505T145304
@@ -558,18 +570,6 @@ LOCATION: -
 SEQUENCE:0
 SUMMARY:Grand County Commission Special Meeting - Budget Work Session
 UID:17008
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17006
-DTEND;TZID=America/Denver:20260723T110000
-DTSTAMP;TZID=America/Denver:20260720T102342
-DTSTART;TZID=America/Denver:20260723T100000
-LAST-MODIFIED;TZID=America/Denver:20260720T102342
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Audit Committee Meeting
-UID:17006
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 END:VCALENDAR

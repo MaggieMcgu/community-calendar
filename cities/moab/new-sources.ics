@@ -7,75 +7,6 @@ X-WR-CALNAME:Moab New Sources
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/heather-hansman-wednesday-july-22nd-7pm-grand-county-public-library/"}
-X-SOURCE-ID:back_of_beyond
-SUMMARY:Heather Hansman
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260722T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260722T210000
-UID:a82ef4268c8e1547241b7c466f42ffce@backofbeyondbooks.com
-DESCRIPTION:
-LOCATION:Grand County Public Library\, 257 E Center St\, Moab\, UT 84532
-URL:https://backofbeyondbooks.com/happenings/heather-hansman-wednesday-jul
- y-22nd-7pm-grand-county-public-library/
-X-SOURCE:Back of Beyond Books
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:70+ Resistance Band Strength Training
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260723T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260723T104500
-UID:f52dbafbd81448718fc38a3448f936a8@wellnesscollectivemoab.com
-DESCRIPTION:This 45-minute resistance band strength class is for adults 70
- + who want to build strength\, improve balance\, and stay active in a supp
- ortive\, small-group setting. Classes focus on simple\, low-impact movemen
- ts that support everyday mobility and confidence. Exercises are adaptable 
- and meet participants where they are. Resistance bands are provided or you
- ’re welcome to bring your own. Please wear comfortable clothing\, stable
-  shoes\, and bring a water bottle. Thursdays at 10:00 AM at Wellness Colle
- ctive $10 per class To sign up\, text Susette at 435-260-2523. Or show up!
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Community Yoga with Massey
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260723T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260723T181500
-UID:7f37656e7007af6838397f5ee47b5847@wellnesscollectivemoab.com
-DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
- d props provided. Class suitable for all bodies and skill levels. Class pr
- icing is by donation (recommended $10 per class). Sliding scale pricing av
- ailable options! No one is turned away.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Community Ear Acupuncture & Sound Bath with Kylie
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260723T183000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260723T193000
-UID:6002ee1a5054b75450a6bc82188f189a@wellnesscollectivemoab.com
-DESCRIPTION:Through partnership with Recovery Center: Join us for a tranqu
- il evening of community Ear Acupuncture featuring the NADA Protocol—a tr
- eatment known for supporting recovery and overall wellness. 🌱 Why try E
- ar Acupuncture? It’s excellent for: ✔ Reducing cravings ✔ Easing wit
- hdrawal symptoms ✔ Lowering stress and anxiety ✔ Promoting emotional b
- alance during the session\, relax on a yoga mat and let the soothing sound
- s transport you to a state of deep relaxation and mindfulness. 🎶 This c
- lass is perfect for anyone on a recovery journey or looking to enjoy some 
- peaceful introspection in a supportive community setting. Your donation he
- lps us keep these essential wellness services accessible to all. ✨ Reser
- ve your spot and start your journey towards healing and inner peace. ✨
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -171,10 +102,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Take Care Tuesday - Relaxing Yoga with Rylin
+SUMMARY:Take Care Tuesday - Relaxing Yin Yoga and Yoga Nidra with Rylin
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260728T171500
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260728T181500
-UID:d7371b6ac6e10f2948e1482afa404956@wellnesscollectivemoab.com
+UID:0f7351a009f4e6ecaa2a29fb64027c31@wellnesscollectivemoab.com
 DESCRIPTION:Make space to slow down with Take Care Tuesday\, a weekly rota
  ting class centered around rest and relaxation. Each facilitator brings th
  eir own style and gifts\, offering calming yoga along with special element
@@ -255,6 +186,19 @@ DESCRIPTION:Join Tom for Dharma Recovery-a peer-led community space that i
  s free.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/music-in-the-bookstore-july-30th-9-pm-back-of-beyond-books/"}
+X-SOURCE-ID:back_of_beyond
+SUMMARY:Music in the Bookstore
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260730T210000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260730T230000
+UID:455a668f2732e7e93dcc16485c50f2e8@backofbeyondbooks.com
+DESCRIPTION:
+LOCATION:Back of Beyond Books\, 83 N Main St\, Moab\, UT 84532
+URL:https://backofbeyondbooks.com/happenings/music-in-the-bookstore-july-3
+ 0th-9-pm-back-of-beyond-books/
+X-SOURCE:Back of Beyond Books
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
@@ -468,10 +412,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Community Yoga with Jan
+SUMMARY:Community Yoga with Rylin
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260806T171500
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260806T181500
-UID:6fec33cb0ddfe57bc7827e41028ee16a@wellnesscollectivemoab.com
+UID:c043d9c87fa04880b307bcf95dd6a616@wellnesscollectivemoab.com
 DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
  d props provided. Class suitable for all bodies and skill levels. Class pr
  icing is by donation (recommended $10 per class). Sliding scale pricing av
@@ -2272,6 +2216,26 @@ DESCRIPTION:Among all forms of physical activity\, Tai Chi Ch’uan is per
  ouraged to train at their own pace\, and progression will vary from person
   to person.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Chair Yoga @ the Grand Center-bre
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260929T143000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260929T153000
+UID:263a735eca8d249b6e0edd51451ba56c@wellnesscollectivemoab.com
+DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
+  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
+ ctive yoga instructors. Each teacher brings their own style and expertise\
+ , while sharing a common focus on safety\, choice\, and ease in the body. 
+ This class is especially supportive for older adults and anyone who prefer
+ s to stay off the floor\, has limited mobility\, uses a chair for stabilit
+ y\, or is simply looking for a calm\, nourishing way to move. All poses ar
+ e done seated or standing with the support of a chair\, so you can experie
+ nce the benefits of yoga without getting down on a mat.
+LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 END:VCALENDAR
