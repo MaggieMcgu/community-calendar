@@ -10,31 +10,6 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260727T090000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260727T100000
-UID:917029417cfbb95bf2c6daf79c537528@wellnesscollectivemoab.com
-DESCRIPTION:Chair Yoga – Mondays at 9 AM Join us every Monday morning at
-  9:00 AM for a gentle and accessible Chair Yoga class\, led by Breann\, a 
- certified trauma-sensitive yoga teacher and experienced massage therapist.
-  Breann brings over 20 years of experience in guiding others toward greate
- r body awareness\, healing\, and relaxation. This class is designed for ev
- eryone – whether you are new to yoga\, have limited mobility\, or are lo
- oking for a mindful and soothing way to start your week. Chair Yoga allows
-  you to experience the benefits of yoga without needing to get down on a m
- at. What to Expect: • Seated and standing postures using the chair for s
- upport • Gentle stretches to enhance flexibility • Breathing exercises
-  to calm the mind and body • Movements to promote better circulation and
-  balance ✨ No experience necessary – come as you are! Where: Wellness 
- Collective When: Every Monday at 9:00 AM Cost: By donation Let this practi
- ce be a moment of self-care and grounding in your week.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
 SUMMARY:Chair Yoga @ the Grand Center–Bre
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260728T143000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260728T153000
@@ -2282,5 +2257,17 @@ DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
  ay Flow is a chance to show up just as you are.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-ID:moab_arts
+SUMMARY:2026 Holiday Craft Fair Vendor Registration
+DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20261204T150000
+DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20261205T160000
+UID:30fbbbebd711e32e3104aae923fd6c3f@moabarts.org
+DESCRIPTION:Vendor booths will go on sale on August 25 at 10am! Please ema
+ il us at marcadmin@moabcity.gov or call 435-259-6272 with any questions.
+LOCATION:Moab Arts and Recreation Center\, 111 E 100 N\, Moab\, UT 84532\,
+  USA
+X-SOURCE:Moab Arts & Recreation Center
 END:VEVENT
 END:VCALENDAR
