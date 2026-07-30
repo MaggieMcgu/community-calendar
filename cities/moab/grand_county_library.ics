@@ -696,18 +696,6 @@ UID:17063
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17022
-DTEND;TZID=America/Denver:20260810T163000
-DTSTAMP;TZID=America/Denver:20260728T144641
-DTSTART;TZID=America/Denver:20260810T153000
-LAST-MODIFIED;TZID=America/Denver:20260728T144641
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:17022
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17066
 DTEND;TZID=America/Denver:20260810T190000
 DTSTAMP;TZID=America/Denver:20260728T150414
@@ -717,6 +705,18 @@ LOCATION:<p>Library Teen Center</p> - 321 E. Center Street  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Teen Center Maker Monday
 UID:17066
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17068
+DTEND;TZID=America/Denver:20260810T200000
+DTSTAMP;TZID=America/Denver:20260729T094745
+DTSTART;TZID=America/Denver:20260810T090000
+LAST-MODIFIED;TZID=America/Denver:20260729T094745
+LOCATION: -   Moab UT 84532
+SEQUENCE:0
+SUMMARY:Moab Library Closed
+UID:17068
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
@@ -921,42 +921,6 @@ LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Summer Reading: End of Summer Party
 UID:16905
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16999
-DTEND;TZID=America/Denver:20260729T190000
-DTSTAMP;TZID=America/Denver:20260626T160922
-DTSTART;TZID=America/Denver:20260729T160000
-LAST-MODIFIED;TZID=America/Denver:20260626T160922
-LOCATION:<p>Library Teen Center</p> - 321 E Center St.  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Teen Center Dungeons & Dragons
-UID:16999
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16875
-DTEND;TZID=America/Denver:20260729T163000
-DTSTAMP;TZID=America/Denver:20260522T145631
-DTSTART;TZID=America/Denver:20260729T153000
-LAST-MODIFIED;TZID=America/Denver:20260522T145631
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:16875
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16887
-DTEND;TZID=America/Denver:20260729T235900
-DTSTAMP;TZID=America/Denver:20260522T150927
-DTSTART;TZID=America/Denver:20260729T103000
-LAST-MODIFIED;TZID=America/Denver:20260522T150927
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Toddler Time
-UID:16887
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 END:VCALENDAR
