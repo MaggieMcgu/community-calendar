@@ -84,6 +84,21 @@ UID:9007
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:“Ocean” with David Attenborough takes viewers on a breathta
+ king journey showing there is nowhere more vital for our survival\, more f
+ ull of life\, wonder\, or surprise\, than the  ocean. \n https://grandco
+ untyutah.net/calendar.aspx?EID=17069
+DTEND;TZID=America/Denver:20261008T210000
+DTSTAMP;TZID=America/Denver:20260730T121558
+DTSTART;TZID=America/Denver:20261008T190000
+LAST-MODIFIED;TZID=America/Denver:20260730T121558
+LOCATION:<p>Moab Library</p> - 257 E Center St.  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Free Movie: "Ocean" with David Attenborough
+UID:17069
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17052
 DTEND;TZID=America/Denver:20260930T235900
 DTSTAMP;TZID=America/Denver:20260728T145443
@@ -429,13 +444,15 @@ UID:16990
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Presented by Greg Nunn\, expert flintknapper and long-time Cast
- le Valley denizen. https://grandcountyutah.net/calendar.aspx?EID=16816
+DESCRIPTION:Greg Nunn\, local historian and expert flintknapper presents on
+  the history and artifacts of early inhabitants of Castle Valley.  https:/
+ /grandcountyutah.net/calendar.aspx?EID=16816
 DTEND;TZID=America/Denver:20260820T203000
-DTSTAMP;TZID=America/Denver:20260728T144521
+DTSTAMP;TZID=America/Denver:20260730T120502
 DTSTART;TZID=America/Denver:20260820T190000
-LAST-MODIFIED;TZID=America/Denver:20260728T144521
-LOCATION:<p>Castle Valley Library</p> - 2 Castle Valley Dr.  Moab UT 84532
+LAST-MODIFIED;TZID=America/Denver:20260730T120502
+LOCATION:<p>Castle Valley Library</p> - 2 Castle Valley Dr.  Castle Valley 
+ UT 84532
 SEQUENCE:0
 SUMMARY:Castle Valley Speaker Series: First Ones Here: The Prehistoric Pres
  ence of Humans in Castle Valley
@@ -897,30 +914,6 @@ LOCATION:<p>Castle Valley Library Branch</p> -   Moab UT 84532
 SEQUENCE:0
 SUMMARY:Castle Valley Book Club
 UID:9057
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16876
-DTEND;TZID=America/Denver:20260730T163000
-DTSTAMP;TZID=America/Denver:20260522T145631
-DTSTART;TZID=America/Denver:20260730T153000
-LAST-MODIFIED;TZID=America/Denver:20260522T145631
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:16876
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16905
-DTEND;TZID=America/Denver:20260730T150000
-DTSTAMP;TZID=America/Denver:20260522T152812
-DTSTART;TZID=America/Denver:20260730T140000
-LAST-MODIFIED;TZID=America/Denver:20260522T152812
-LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Summer Reading: End of Summer Party
-UID:16905
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 END:VCALENDAR

@@ -7,132 +7,6 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"City of Moab Recreation": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29"}
-X-SOURCE-ID:city_of_moab_recreation
-X-SOURCE:City of Moab Recreation
-DESCRIPTION: https://www.moabcity.gov/calendar.aspx?EID=1331
-DTEND;VALUE=DATE:20260730
-DTSTAMP;TZID=America/Denver:20251028T154059
-DTSTART;VALUE=DATE:20260730
-LAST-MODIFIED;TZID=America/Denver:20251028T154059
-LOCATION:<p>Online Registration</p> -   Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fall Sports Program Registration Closes
-UID:1331
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16063
-DTEND;TZID=America/Denver:20260730T200000
-DTSTAMP;TZID=America/Denver:20260112T142138
-DTSTART;TZID=America/Denver:20260730T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142138
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
-UID:16063
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:70+ Resistance Band Strength Training
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260730T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260730T104500
-UID:9fb8e2293c6c814727b87a3b11e928e7@wellnesscollectivemoab.com
-DESCRIPTION:This 45-minute resistance band strength class is for adults 70
- + who want to build strength\, improve balance\, and stay active in a supp
- ortive\, small-group setting. Classes focus on simple\, low-impact movemen
- ts that support everyday mobility and confidence. Exercises are adaptable 
- and meet participants where they are. Resistance bands are provided or you
- ’re welcome to bring your own. Please wear comfortable clothing\, stable
-  shoes\, and bring a water bottle. Thursdays at 10:00 AM at Wellness Colle
- ctive $10 per class To sign up\, text Susette at 435-260-2523. Or show up!
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16905
-DTEND;TZID=America/Denver:20260730T150000
-DTSTAMP;TZID=America/Denver:20260522T152812
-DTSTART;TZID=America/Denver:20260730T140000
-LAST-MODIFIED;TZID=America/Denver:20260522T152812
-LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Summer Reading: End of Summer Party
-UID:16905
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16876
-DTEND;TZID=America/Denver:20260730T163000
-DTSTAMP;TZID=America/Denver:20260522T145631
-DTSTART;TZID=America/Denver:20260730T153000
-LAST-MODIFIED;TZID=America/Denver:20260522T145631
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:16876
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16547
-DTEND;TZID=America/Denver:20260730T190000
-DTSTAMP;TZID=America/Denver:20260226T153124
-DTSTART;TZID=America/Denver:20260730T170000
-LAST-MODIFIED;TZID=America/Denver:20260226T153124
-LOCATION:OSTARC Facilities > Ballfields - 3641 S. Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Fastpitch Elite Moab practice - Ballfield #1 & #2 - 5:00pm - 7:00pm
-UID:16547
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Community Yoga with Rylin
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260730T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260730T181500
-UID:72de97a1eb82a7d2f6642b2f599f09f2@wellnesscollectivemoab.com
-DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
- d props provided. Class suitable for all bodies and skill levels. Class pr
- icing is by donation (recommended $10 per class). Sliding scale pricing av
- ailable options! No one is turned away.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Dharma Recovery with Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260730T183000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260730T193000
-UID:6ef924e1624b1d2a2cda06a91c0148be@wellnesscollectivemoab.com
-DESCRIPTION:Join Tom for Dharma Recovery-a peer-led community space that i
- s unified by our trust in the potential of each of us to recover and find 
- freedom from the suffering of addiction. We believe that the traditional B
- uddhist teachings\, often referred to as the Dharma\, offer a powerful app
- roach to healing from addiction and living a life of true freedom. Class i
- s free.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/music-in-the-bookstore-july-30th-9-pm-back-of-beyond-books/"}
 X-SOURCE-ID:back_of_beyond
 SUMMARY:Music in the Bookstore
@@ -968,7 +842,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260815
-DTSTAMP:20260730T093122Z
+DTSTAMP:20260731T093123Z
 UID:5b6eme0aic9t11g900n0eh9k25@google.com
 CREATED:20260708T201947Z
 DESCRIPTION:Fresh coat of paint on the gym !!
@@ -1447,6 +1321,22 @@ SEQUENCE:0
 SUMMARY:Kids Cafe
 UID:17026
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"City of Moab Recreation": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29"}
+X-SOURCE-ID:city_of_moab_recreation
+X-SOURCE:City of Moab Recreation
+DESCRIPTION: https://www.moabcity.gov/calendar.aspx?EID=1433
+DTEND;TZID=America/Denver:20260814T230000
+DTSTAMP;TZID=America/Denver:20260730T111922
+DTSTART;TZID=America/Denver:20260814T200000
+LAST-MODIFIED;TZID=America/Denver:20260730T111922
+LOCATION:<p>Moab Recreation &amp\; Aquatic Center (the Pool)</p> - 400 N. 1
+ 00 W.  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Free Movie Moab Summer Film Series Screening @ the Pool!
+UID:1433
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -1970,13 +1860,15 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
-DESCRIPTION:Presented by Greg Nunn\, expert flintknapper and long-time Cast
- le Valley denizen. https://grandcountyutah.net/calendar.aspx?EID=16816
+DESCRIPTION:Greg Nunn\, local historian and expert flintknapper presents on
+  the history and artifacts of early inhabitants of Castle Valley.  https:/
+ /grandcountyutah.net/calendar.aspx?EID=16816
 DTEND;TZID=America/Denver:20260820T203000
-DTSTAMP;TZID=America/Denver:20260728T144521
+DTSTAMP;TZID=America/Denver:20260730T120502
 DTSTART;TZID=America/Denver:20260820T190000
-LAST-MODIFIED;TZID=America/Denver:20260728T144521
-LOCATION:<p>Castle Valley Library</p> - 2 Castle Valley Dr.  Moab UT 84532
+LAST-MODIFIED;TZID=America/Denver:20260730T120502
+LOCATION:<p>Castle Valley Library</p> - 2 Castle Valley Dr.  Castle Valley 
+ UT 84532
 SEQUENCE:0
 SUMMARY:Castle Valley Speaker Series: First Ones Here: The Prehistoric Pres
  ence of Humans in Castle Valley
@@ -2688,7 +2580,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20261108
-DTSTAMP:20260730T093122Z
+DTSTAMP:20260731T093123Z
 UID:48rdqkjcg5r4rjec3qi8reeuev@google.com
 CREATED:20260120T150241Z
 LAST-MODIFIED:20260625T151927Z
@@ -2894,7 +2786,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260902T003000Z
 DTEND:20260902T013000Z
-DTSTAMP:20260730T093122Z
+DTSTAMP:20260731T093123Z
 UID:3ou0646rkdvloaltgksh5o51m0@google.com
 CREATED:20260622T194605Z
 LAST-MODIFIED:20260622T194605Z
@@ -2910,7 +2802,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260902T013000Z
 DTEND:20260902T023000Z
-DTSTAMP:20260730T093122Z
+DTSTAMP:20260731T093123Z
 UID:7k7hgbli7603hd97mth9qnoam3@google.com
 CREATED:20260622T195520Z
 LAST-MODIFIED:20260622T195520Z
@@ -4987,6 +4879,25 @@ UID:15698
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Take Care Tuesday - Relaxing Yoga
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20261006T171500
+DTEND;TZID=MDT;VALUE=DATE-TIME:20261006T181500
+UID:5a47aef357715baa8c9dd444fb4145f0@wellnesscollectivemoab.com
+DESCRIPTION:Make space to slow down with Take Care Tuesday\, a weekly rota
+ ting class centered around rest and relaxation. Each facilitator brings th
+ eir own style and gifts\, offering calming yoga along with special element
+ s such as sound baths\, Reiki\, massage\, meditation\, and other restorati
+ ve practices. Whether you come to stretch\, settle your nervous system\, o
+ r simply enjoy a peaceful evening in community\, each class offers somethi
+ ng a little different and supportive. Open to all levels. Come as you are.
+  Rest is welcome here.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -5047,6 +4958,24 @@ SEQUENCE:0
 SUMMARY:Moab City Planning Commission - Regular Meeting
 UID:1372
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
+DESCRIPTION:“Ocean” with David Attenborough takes viewers on a breathta
+ king journey showing there is nowhere more vital for our survival\, more f
+ ull of life\, wonder\, or surprise\, than the  ocean. \n https://grandco
+ untyutah.net/calendar.aspx?EID=17069
+DTEND;TZID=America/Denver:20261008T210000
+DTSTAMP;TZID=America/Denver:20260730T121558
+DTSTART;TZID=America/Denver:20261008T190000
+LAST-MODIFIED;TZID=America/Denver:20260730T121558
+LOCATION:<p>Moab Library</p> - 257 E Center St.  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Free Movie: "Ocean" with David Attenborough
+UID:17069
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -5419,7 +5348,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260730T093122Z
+DTSTAMP:20260731T093123Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -7256,7 +7185,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260730T093122Z
+DTSTAMP:20260731T093123Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
