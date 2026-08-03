@@ -10,21 +10,6 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16066
-DTEND;TZID=America/Denver:20260802T200000
-DTSTAMP;TZID=America/Denver:20260112T142138
-DTSTART;TZID=America/Denver:20260802T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142138
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
-UID:16066
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16067
 DTEND;TZID=America/Denver:20260803T200000
 DTSTAMP;TZID=America/Denver:20260112T142138
@@ -635,7 +620,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260815
-DTSTAMP:20260802T093119Z
+DTSTAMP:20260803T093120Z
 UID:5b6eme0aic9t11g900n0eh9k25@google.com
 CREATED:20260708T201947Z
 DESCRIPTION:Fresh coat of paint on the gym !!
@@ -2373,7 +2358,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20261108
-DTSTAMP:20260802T093119Z
+DTSTAMP:20260803T093120Z
 UID:48rdqkjcg5r4rjec3qi8reeuev@google.com
 CREATED:20260120T150241Z
 LAST-MODIFIED:20260625T151927Z
@@ -2579,7 +2564,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260902T003000Z
 DTEND:20260902T013000Z
-DTSTAMP:20260802T093119Z
+DTSTAMP:20260803T093120Z
 UID:3ou0646rkdvloaltgksh5o51m0@google.com
 CREATED:20260622T194605Z
 LAST-MODIFIED:20260622T194605Z
@@ -2595,7 +2580,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260902T013000Z
 DTEND:20260902T023000Z
-DTSTAMP:20260802T093119Z
+DTSTAMP:20260803T093120Z
 UID:7k7hgbli7603hd97mth9qnoam3@google.com
 CREATED:20260622T195520Z
 LAST-MODIFIED:20260622T195520Z
@@ -4878,6 +4863,26 @@ UID:16134
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Flow into Friday Yoga with Amanda
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20261009T083000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20261009T093000
+UID:37886939cb817b4aea31f5a01da6dfe1@wellnesscollectivemoab.com
+DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
+ . Start your Friday with this all-levels yoga class designed to help you a
+ waken the body\, center the mind\, and ease into your day with intention. 
+ We’ll begin with slow\, fluid movement to energize and open\, followed b
+ y longer-held stretches and restorative postures to help you release tensi
+ on and reconnect with yourself. This class is inclusive\, beginner-friendl
+ y\, and rooted in breath\, balance\, and compassionate movement. Whether y
+ ou’re unwinding from your week or preparing for the weekend ahead\, Frid
+ ay Flow is a chance to show up just as you are.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"City of Moab Recreation": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29"}
 X-SOURCE-ID:city_of_moab_recreation
 X-SOURCE:City of Moab Recreation
@@ -5233,7 +5238,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260802T093119Z
+DTSTAMP:20260803T093120Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -7070,7 +7075,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260802T093119Z
+DTSTAMP:20260803T093120Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
