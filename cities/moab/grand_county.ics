@@ -273,6 +273,18 @@ UID:15686
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16401
+DTEND;TZID=America/Denver:20261013T183000
+DTSTAMP;TZID=America/Denver:20260807T103321
+DTSTART;TZID=America/Denver:20261013T173000
+LAST-MODIFIED;TZID=America/Denver:20260807T103321
+LOCATION: -     
+SEQUENCE:0
+SUMMARY:Grand County Planning Commission Regular Meeting
+UID:16401
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16973
 DTEND;TZID=America/Denver:20261013T160000
 DTSTAMP;TZID=America/Denver:20260603T142529
@@ -282,18 +294,6 @@ LOCATION: -
 SEQUENCE:0
 SUMMARY:Moab Tourism Advisory Board
 UID:16973
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16401
-DTEND;TZID=America/Denver:20261012T183000
-DTSTAMP;TZID=America/Denver:20260206T084908
-DTSTART;TZID=America/Denver:20261012T173000
-LAST-MODIFIED;TZID=America/Denver:20260206T084908
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Grand County Planning Commission Regular Meeting
-UID:16401
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT

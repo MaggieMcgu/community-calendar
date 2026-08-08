@@ -7,53 +7,6 @@ X-WR-CALNAME:Moab New Sources
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga with Bre
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260807T083000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260807T093000
-UID:8777f64327e300917a9d055b6f125dc1@wellnesscollectivemoab.com
-DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
- . Start your Friday with this all-levels yoga class designed to help you a
- waken the body\, center the mind\, and ease into your day with intention. 
- We’ll begin with slow\, fluid movement to energize and open\, followed b
- y longer-held stretches and restorative postures to help you release tensi
- on and reconnect with yourself. This class is inclusive\, beginner-friendl
- y\, and rooted in breath\, balance\, and compassionate movement. Whether y
- ou’re unwinding from your week or preparing for the weekend ahead\, Frid
- ay Flow is a chance to show up just as you are.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA with Breann
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260807T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260807T104500
-UID:a6ea1560a77c060c4a7f8aab81c04371@wellnesscollectivemoab.com
-DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Moab Folk Festival": "https://www.moabfreeconcerts.com/"}
-X-SOURCE-ID:moab_folk_festival
-SUMMARY:Moab Free Concert Series
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260807T180000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260807T210000
-UID:db116156e64ab627a63324f984a3709e@moabfolkfestival.com
-DESCRIPTION:Free community concert at Swanny Park. Part of the Moab Free C
- oncert Series presented by Friends of the Moab Folk Festival.
-LOCATION:Swanny Park\, 100 E 100 N\, Moab\, UT 84532
-URL:https://www.moabfreeconcerts.com/
-X-SOURCE:Moab Folk Festival
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-union-roosevelt/freshman/8-8-2026/?c=23d1db52-40bd-4f9f-999b-5d3a55fec123"}
 X-SOURCE-ID:maxpreps_grand_county
 SUMMARY:Union Girls Freshman Volleyball @ Grand County
@@ -61,8 +14,7 @@ DTSTART;TZID=MDT;VALUE=DATE-TIME:20260808T100000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260808T110000
 UID:1e6c104839b05b54ba2cc41ecd906035@maxpreps.com
 DESCRIPTION:Girls Freshman Volleyball\nThe Union freshman volleyball team 
- has an away non-conference match @  Grand County (Moab\, UT) on Saturday\,
-  August 8 @ 10a.
+ has an away non-conference match @  Grand County (Moab\, UT) today @ 10a.
 LOCATION:Grand County High School
 URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-unio
  n-roosevelt/freshman/8-8-2026/?c=23d1db52-40bd-4f9f-999b-5d3a55fec123
@@ -76,8 +28,7 @@ DTSTART;TZID=MDT;VALUE=DATE-TIME:20260808T113000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260808T123000
 UID:7b34870fc4f6c86a6f7151a50d1756db@maxpreps.com
 DESCRIPTION:Girls JV Volleyball\nThe Union JV volleyball team has an away 
- non-conference match @  Grand County (Moab\, UT) on Saturday\, August 8 @ 
- 11:30a.
+ non-conference match @  Grand County (Moab\, UT) today @ 11:30a.
 LOCATION:Grand County High School
 URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-unio
  n-roosevelt/jv/8-8-2026/?c=08bec48f-7e7f-4469-aee9-f3572e5dd8a3
@@ -91,8 +42,7 @@ DTSTART;TZID=MDT;VALUE=DATE-TIME:20260808T130000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260808T140000
 UID:8528edd0a1a316ca6469f0357db8e247@maxpreps.com
 DESCRIPTION:Girls Varsity Volleyball\nThe Union varsity volleyball team ha
- s an away non-conference match @  Grand County (Moab\, UT) on Saturday\, A
- ugust 8 @ 1p.
+ s an away non-conference match @  Grand County (Moab\, UT) today @ 1p.
 LOCATION:Grand County High School
 URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-unio
  n-roosevelt/8-8-2026/?c=ee5ffd89-d676-4021-8042-743e0db752a8
@@ -234,6 +184,23 @@ DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
  d props provided. Class suitable for all bodies and skill levels. Class pr
  icing is by donation (recommended $10 per class). Sliding scale pricing av
  ailable options! No one is turned away.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Dharma Recovery with Jan
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260813T183000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260813T193000
+UID:3a29fc84f69c8a9f45692dea93994143@wellnesscollectivemoab.com
+DESCRIPTION:Join Tom for Dharma Recovery-a peer-led community space that i
+ s unified by our trust in the potential of each of us to recover and find 
+ freedom from the suffering of addiction. We believe that the traditional B
+ uddhist teachings\, often referred to as the Dharma\, offer a powerful app
+ roach to healing from addiction and living a life of true freedom. Class i
+ s free.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -2215,6 +2182,44 @@ DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
  e done seated or standing with the support of a chair\, so you can experie
  nce the benefits of yoga without getting down on a mat.
 LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Take Care Tuesday - Relaxing Yoga
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20261013T171500
+DTEND;TZID=MDT;VALUE=DATE-TIME:20261013T181500
+UID:d5685922a3c4680f355eae4e1a2bbe0f@wellnesscollectivemoab.com
+DESCRIPTION:Make space to slow down with Take Care Tuesday\, a weekly rota
+ ting class centered around rest and relaxation. Each facilitator brings th
+ eir own style and gifts\, offering calming yoga along with special element
+ s such as sound baths\, Reiki\, massage\, meditation\, and other restorati
+ ve practices. Whether you come to stretch\, settle your nervous system\, o
+ r simply enjoy a peaceful evening in community\, each class offers somethi
+ ng a little different and supportive. Open to all levels. Come as you are.
+  Rest is welcome here.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Yoga with the 12 Steps of Recovery with Breann
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20261014T171500
+DTEND;TZID=MDT;VALUE=DATE-TIME:20261014T181500
+UID:2b3d536d4d7d47894699a1c1dfc97fd4@wellnesscollectivemoab.com
+DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
+  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
+ tice followed by a brief group discussion based on the 12-steps. Open to e
+ veryone and anyone dealing with their own addictive behavior or affected b
+ y the addictive behavior of others. This is an open and inclusive group. A
+ ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
+ or a part of the 12-step program. Free class provided in partnership with 
+ USARA.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
