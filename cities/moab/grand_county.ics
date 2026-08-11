@@ -489,6 +489,18 @@ UID:16762
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17076
+DTEND;TZID=America/Denver:20260811T183000
+DTSTAMP;TZID=America/Denver:20260810T144000
+DTSTART;TZID=America/Denver:20260811T173000
+LAST-MODIFIED;TZID=America/Denver:20260810T144000
+LOCATION: -     
+SEQUENCE:0
+SUMMARY:OSTA Advisory Board Meeting
+UID:17076
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16971
 DTEND;TZID=America/Denver:20260811T160000
 DTSTAMP;TZID=America/Denver:20260603T142528
@@ -498,43 +510,6 @@ LOCATION: -
 SEQUENCE:0
 SUMMARY:Moab Tourism Advisory Board
 UID:16971
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16399
-DTEND;TZID=America/Denver:20260810T183000
-DTSTAMP;TZID=America/Denver:20260206T084746
-DTSTART;TZID=America/Denver:20260810T173000
-LAST-MODIFIED;TZID=America/Denver:20260206T084746
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Grand County Planning Commission Regular Meeting
-UID:16399
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17072
-DTEND;TZID=America/Denver:20260810T133000
-DTSTAMP;TZID=America/Denver:20260805T110506
-DTSTART;TZID=America/Denver:20260810T123000
-LAST-MODIFIED;TZID=America/Denver:20260805T110506
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Council on Aging Meeting - Cancelled
-UID:17072
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17073
-DTEND;TZID=America/Denver:20260810T113000
-DTSTAMP;TZID=America/Denver:20260805T173855
-DTSTART;TZID=America/Denver:20260810T103000
-LAST-MODIFIED;TZID=America/Denver:20260805T173855
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Moab Tourism Advisory Board Workshop: Phase II\, Brand Strategy and
-  Identity Development Deliverables
-UID:17073
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 END:VCALENDAR

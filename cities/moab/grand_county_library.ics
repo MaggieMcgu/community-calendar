@@ -712,28 +712,4 @@ SUMMARY:Teen Center Try it Tuesday
 UID:17063
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17066
-DTEND;TZID=America/Denver:20260810T190000
-DTSTAMP;TZID=America/Denver:20260728T150414
-DTSTART;TZID=America/Denver:20260810T110000
-LAST-MODIFIED;TZID=America/Denver:20260728T150414
-LOCATION:<p>Library Teen Center</p> - 321 E. Center Street  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Teen Center Maker Monday
-UID:17066
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17068
-DTEND;TZID=America/Denver:20260810T200000
-DTSTAMP;TZID=America/Denver:20260729T094745
-DTSTART;TZID=America/Denver:20260810T090000
-LAST-MODIFIED;TZID=America/Denver:20260729T094745
-LOCATION: -   Moab UT 84532
-SEQUENCE:0
-SUMMARY:Moab Library Closed
-UID:17068
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
 END:VCALENDAR
