@@ -7,51 +7,6 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17055
-DTEND;TZID=America/Denver:20260815T235900
-DTSTAMP;TZID=America/Denver:20260728T145735
-DTSTART;TZID=America/Denver:20260815T103000
-LAST-MODIFIED;TZID=America/Denver:20260728T145735
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Saturday Storytime
-UID:17055
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17027
-DTEND;TZID=America/Denver:20260815T150000
-DTSTAMP;TZID=America/Denver:20260728T145017
-DTSTART;TZID=America/Denver:20260815T140000
-LAST-MODIFIED;TZID=America/Denver:20260728T145017
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:17027
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16080
-DTEND;TZID=America/Denver:20260816T200000
-DTSTAMP;TZID=America/Denver:20260112T142328
-DTSTART;TZID=America/Denver:20260816T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142328
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
-UID:16080
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -212,6 +167,21 @@ UID:17030
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-monticello/freshman/8-18-2026/?c=972d462a-51eb-46e6-a38f-7a7479fcb73d"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls Freshman Volleyball @ Monticello
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260818T153000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260818T163000
+UID:b70891e5172503fbc7936c60cda90d21@maxpreps.com
+DESCRIPTION:Girls Freshman Volleyball\nThe Grand County freshman volleybal
+ l team has an away non-conference match @  Monticello (UT) on Tuesday\, Au
+ gust 18 @ 3:30p.
+LOCATION:Monticello High School
+URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-mont
+ icello/freshman/8-18-2026/?c=972d462a-51eb-46e6-a38f-7a7479fcb73d
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
@@ -225,6 +195,36 @@ SEQUENCE:0
 SUMMARY:Grand County Commission
 UID:15684
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/soccer/girls/match/grand-county-moab-vs-gunnison-valley/8-18-2026/?c=4b571073-42f6-4ab8-8aee-cc11ec5d5730"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls Varsity Soccer @ Gunnison Valley
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260818T160000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260818T174500
+UID:28409e8938059bd0dea95f2f7b73867d@maxpreps.com
+DESCRIPTION:Girls Varsity Soccer\nThe Grand County varsity soccer team has
+  an away conference match @  Gunnison Valley (Gunnison\, UT) on Tuesday\, 
+ August 18 @ 4p.
+LOCATION:Gunnison Valley High School
+URL:https://www.maxpreps.com/ut/soccer/girls/match/grand-county-moab-vs-gu
+ nnison-valley/8-18-2026/?c=4b571073-42f6-4ab8-8aee-cc11ec5d5730
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-monticello/jv/8-18-2026/?c=dcc0538c-2c63-405b-9908-2c5d830e1468"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls JV Volleyball @ Monticello
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260818T170000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260818T180000
+UID:9e4ea43a5cae25f2d3a34bfd69dcaeaf@maxpreps.com
+DESCRIPTION:Girls JV Volleyball\nThe Grand County JV volleyball team has a
+ n away non-conference match @  Monticello (UT) on Tuesday\, August 18 @ 5p
+ .
+LOCATION:Monticello High School
+URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-mont
+ icello/jv/8-18-2026/?c=dcc0538c-2c63-405b-9908-2c5d830e1468
+X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
@@ -244,6 +244,36 @@ DESCRIPTION:Make space to slow down with Take Care Tuesday\, a weekly rota
   Rest is welcome here.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/soccer/girls/match/grand-county-moab-vs-gunnison-valley/jv/8-18-2026/?c=fb7eeb3e-56a2-43d7-a33b-8096e9165e15"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls JV Soccer @ Gunnison Valley
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260818T173000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260818T191500
+UID:2c74f16fe5195fd2bbef545c834edbdc@maxpreps.com
+DESCRIPTION:Girls JV Soccer\nThe Grand County JV soccer team has an away c
+ onference match @  Gunnison Valley (Gunnison\, UT) on Tuesday\, August 18 
+ @ 5:30p.
+LOCATION:Gunnison Valley High School
+URL:https://www.maxpreps.com/ut/soccer/girls/match/grand-county-moab-vs-gu
+ nnison-valley/jv/8-18-2026/?c=fb7eeb3e-56a2-43d7-a33b-8096e9165e15
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-monticello/8-18-2026/?c=bd5072ac-9682-438a-8463-20653b889f94"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls Varsity Volleyball @ Monticello
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260818T183000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260818T193000
+UID:478c819839107aa32f8b728887b8a4fd@maxpreps.com
+DESCRIPTION:Girls Varsity Volleyball\nThe Grand County varsity volleyball 
+ team has an away non-conference match @  Monticello (UT) on Tuesday\, Augu
+ st 18 @ 6:30p.
+LOCATION:Monticello High School
+URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-mont
+ icello/8-18-2026/?c=bd5072ac-9682-438a-8463-20653b889f94
+X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
@@ -553,10 +583,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga with Amanda
+SUMMARY:Flow into Friday Yoga with Breann
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260821T083000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260821T093000
-UID:81fdce7ceeaaeb23f0b0624c353b53c8@wellnesscollectivemoab.com
+UID:8ee138a82391f3079548f535197ebf50@wellnesscollectivemoab.com
 DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
  . Start your Friday with this all-levels yoga class designed to help you a
  waken the body\, center the mind\, and ease into your day with intention. 
@@ -601,6 +631,35 @@ LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/soccer/girls/match/enterprise-vs-grand-county-moab/jv/8-21-2026/?c=30138803-087c-4959-9494-4e4053703eeb"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Enterprise Girls JV Soccer @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260821T120000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260821T134500
+UID:218291ea30ea477348e4649b1f1a80a1@maxpreps.com
+DESCRIPTION:Girls JV Soccer\nThe Enterprise JV soccer team has an away non
+ -conference match @  Grand County (Moab\, UT) on Friday\, August 21 @ 12p.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/ut/soccer/girls/match/enterprise-vs-grand-cou
+ nty-moab/jv/8-21-2026/?c=30138803-087c-4959-9494-4e4053703eeb
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-parowan/freshman/8-21-2026/?c=da07f20c-095b-4a59-9008-739967e891c0"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls Freshman Volleyball @ Parowan
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260821T150000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260821T160000
+UID:7274785bffe7a436bda84f4a3f1f0130@maxpreps.com
+DESCRIPTION:Girls Freshman Volleyball\nThe Grand County freshman volleybal
+ l team has an away conference match @  Parowan (UT) on Friday\, August 21 
+ @ 3p.
+LOCATION:Parowan High School
+URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-paro
+ wan/freshman/8-21-2026/?c=da07f20c-095b-4a59-9008-739967e891c0
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -614,6 +673,64 @@ SEQUENCE:0
 SUMMARY:Kids Cafe
 UID:17033
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/soccer/girls/match/grand-county-moab-vs-parowan/8-21-2026/?c=1931a897-b1a8-475e-aebb-26c97fc47052"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Parowan Girls Varsity Soccer @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260821T160000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260821T174500
+UID:4197b6dc2564758ef929e5d2a90dd096@maxpreps.com
+DESCRIPTION:Girls Varsity Soccer\nThe Parowan varsity soccer team has an a
+ way conference match @  Grand County (Moab\, UT) on Friday\, August 21 @ 4
+ p.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/ut/soccer/girls/match/grand-county-moab-vs-pa
+ rowan/8-21-2026/?c=1931a897-b1a8-475e-aebb-26c97fc47052
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-parowan/jv/8-21-2026/?c=11b03485-cd9c-4fe6-86b2-f8ed316cd281"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls JV Volleyball @ Parowan
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260821T161500
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260821T171500
+UID:7c86fcfbbdeb1b7bfc5648bb16f9b2fa@maxpreps.com
+DESCRIPTION:Girls JV Volleyball\nThe Grand County JV volleyball team has a
+ n away conference match @  Parowan (UT) on Friday\, August 21 @ 4:15p.
+LOCATION:Parowan High School
+URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-paro
+ wan/jv/8-21-2026/?c=11b03485-cd9c-4fe6-86b2-f8ed316cd281
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-parowan/8-21-2026/?c=5dfabad7-1e9b-4df4-8d52-9a6a9ed7e457"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls Varsity Volleyball @ Parowan
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260821T173000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260821T183000
+UID:6769d4d551ac6b9d11f6334a9e3fbac6@maxpreps.com
+DESCRIPTION:Girls Varsity Volleyball\nThe Grand County varsity volleyball 
+ team has an away conference match @  Parowan (UT) on Friday\, August 21 @ 
+ 5:30p.
+LOCATION:Parowan High School
+URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-paro
+ wan/8-21-2026/?c=5dfabad7-1e9b-4df4-8d52-9a6a9ed7e457
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/soccer/girls/match/grand-county-moab-vs-parowan/jv/8-21-2026/?c=8d2d80e5-e1a9-4ade-9011-fb88b9f0a6b3"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Parowan Girls JV Soccer @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260821T180000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260821T194500
+UID:2ff4bec3ce051c4d37679696ab810a9d@maxpreps.com
+DESCRIPTION:Girls JV Soccer\nThe Parowan JV soccer team has an away confer
+ ence match @  Grand County (Moab\, UT) on Friday\, August 21 @ 6p.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/ut/soccer/girls/match/grand-county-moab-vs-pa
+ rowan/jv/8-21-2026/?c=8d2d80e5-e1a9-4ade-9011-fb88b9f0a6b3
+X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -648,6 +765,36 @@ UID:16992
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-county-moab/freshman/8-22-2026/?c=4356e22c-94dd-4e7a-bd14-e834d5c0b28d"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls Freshman Volleyball @ Enterprise
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260822T100000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260822T110000
+UID:81efddbde50d2b9b202e8210311d077f@maxpreps.com
+DESCRIPTION:Girls Freshman Volleyball\nThe Grand County freshman volleybal
+ l team has an away conference match @  Enterprise (UT) on Saturday\, Augus
+ t 22 @ 10a.
+LOCATION:Enterprise High School
+URL:https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-count
+ y-moab/freshman/8-22-2026/?c=4356e22c-94dd-4e7a-bd14-e834d5c0b28d
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/soccer/girls/match/enterprise-vs-grand-county-moab/8-22-2026/?c=04e61976-a30f-4669-ab1b-4309ffc101a0"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Enterprise Girls Varsity Soccer @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260822T100000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260822T114500
+UID:c59b8c0cdc9fc5a2e583abed7457ea29@maxpreps.com
+DESCRIPTION:Girls Varsity Soccer\nThe Enterprise varsity soccer team has a
+ n away conference match @  Grand County (Moab\, UT) on Saturday\, August 2
+ 2 @ 10a.
+LOCATION:Grand County High School\, 608 S 400 E\, Moab\, UT 84532
+URL:https://www.maxpreps.com/ut/soccer/girls/match/enterprise-vs-grand-cou
+ nty-moab/8-22-2026/?c=04e61976-a30f-4669-ab1b-4309ffc101a0
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -661,6 +808,36 @@ SEQUENCE:0
 SUMMARY:Saturday Storytime
 UID:17056
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-county-moab/jv/8-22-2026/?c=9ba12e78-ac06-4978-aef0-052aaeadd62d"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls JV Volleyball @ Enterprise
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260822T111500
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260822T121500
+UID:6b0400bf0be19004fcbf2938a2e61f7c@maxpreps.com
+DESCRIPTION:Girls JV Volleyball\nThe Grand County JV volleyball team has a
+ n away conference match @  Enterprise (UT) on Saturday\, August 22 @ 11:15
+ a.
+LOCATION:Enterprise High School
+URL:https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-count
+ y-moab/jv/8-22-2026/?c=9ba12e78-ac06-4978-aef0-052aaeadd62d
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-county-moab/8-22-2026/?c=36cddb74-b192-4434-b8a0-4bf471eb2145"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls Varsity Volleyball @ Enterprise
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260822T123000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260822T133000
+UID:71c5c31d47ea4ba3027d42b4a5b64912@maxpreps.com
+DESCRIPTION:Girls Varsity Volleyball\nThe Grand County varsity volleyball 
+ team has an away conference match @  Enterprise (UT) on Saturday\, August 
+ 22 @ 12:30p.
+LOCATION:Enterprise High School
+URL:https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-count
+ y-moab/8-22-2026/?c=36cddb74-b192-4434-b8a0-4bf471eb2145
+X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -684,7 +861,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
-DTSTAMP:20260816T095453Z
+DTSTAMP:20260817T093113Z
 UID:5kslnm3u4ipiu2ppfs87k3st7c@google.com
 CREATED:20260805T213025Z
 LAST-MODIFIED:20260805T213025Z
@@ -1063,10 +1240,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga with Amanda
+SUMMARY:Flow into Friday Yoga with Breann
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260828T083000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260828T093000
-UID:1c9e67cd8f84926e7dcbf891ebe6dfb8@wellnesscollectivemoab.com
+UID:d47fd0a0918860757ebfa9bf732b63b1@wellnesscollectivemoab.com
 DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
  . Start your Friday with this all-levels yoga class designed to help you a
  waken the body\, center the mind\, and ease into your day with intention. 
@@ -1255,7 +1432,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20261108
-DTSTAMP:20260816T095453Z
+DTSTAMP:20260817T093113Z
 UID:48rdqkjcg5r4rjec3qi8reeuev@google.com
 CREATED:20260120T150241Z
 LAST-MODIFIED:20260625T151927Z
@@ -1343,6 +1520,18 @@ DESCRIPTION:Among all forms of physical activity\, Tai Chi Ch’uan is per
   to person.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/locals_night/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Sips & Sounds: Locals Night
+DTSTART;VALUE=DATE-TIME:20260901T000000
+DTEND;VALUE=DATE-TIME:20260901T000000
+UID:cd3b0aa6642fdf66ef1cde25cad43724@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Spanish Valley Winery\, 
+URL:https://moabmusicfest.org/events/locals_night/
+X-SOURCE:Moab Music Festival
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -1453,13 +1642,25 @@ LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/opening-night-2/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Opening Night Celebration
+DTSTART;VALUE=DATE-TIME:20260902T000000
+DTEND;VALUE=DATE-TIME:20260902T000000
+UID:18c3165d460c0281f4ccb5bb8e36162f@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Red Earth\, 
+URL:https://moabmusicfest.org/events/opening-night-2/
+X-SOURCE:Moab Music Festival
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
 X-SOURCE-ID:center_street
 X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260902T003000Z
 DTEND:20260902T013000Z
-DTSTAMP:20260816T095453Z
+DTSTAMP:20260817T093113Z
 UID:3ou0646rkdvloaltgksh5o51m0@google.com
 CREATED:20260622T194605Z
 LAST-MODIFIED:20260622T194605Z
@@ -1475,7 +1676,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260902T013000Z
 DTEND:20260902T023000Z
-DTSTAMP:20260816T095453Z
+DTSTAMP:20260817T093113Z
 UID:7k7hgbli7603hd97mth9qnoam3@google.com
 CREATED:20260622T195520Z
 LAST-MODIFIED:20260622T195520Z
@@ -1534,6 +1735,18 @@ LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/grottoi-fantasy/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Grotto I: Fantasy
+DTSTART;VALUE=DATE-TIME:20260903T000000
+DTEND;VALUE=DATE-TIME:20260903T000000
+UID:5c91561608867ebb38e6df6a0c6a9fa1@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Colorado River Wilderness Grotto\, 
+URL:https://moabmusicfest.org/events/grottoi-fantasy/
+X-SOURCE:Moab Music Festival
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -1581,6 +1794,30 @@ DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
  ailable options! No one is turned away.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/floating-concert-halfie/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Floating Concert I: Halfie
+DTSTART;VALUE=DATE-TIME:20260904T000000
+DTEND;VALUE=DATE-TIME:20260904T000000
+UID:a31023c1eb427b70d9a5b87085a91775@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Colorado River\, 
+URL:https://moabmusicfest.org/events/floating-concert-halfie/
+X-SOURCE:Moab Music Festival
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/star-hall-rhapsody/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Rhapsody in Blue
+DTSTART;VALUE=DATE-TIME:20260904T000000
+DTEND;VALUE=DATE-TIME:20260904T000000
+UID:c4087efede0e4ad81ca999c6bb689fbd@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Star Hall\, 
+URL:https://moabmusicfest.org/events/star-hall-rhapsody/
+X-SOURCE:Moab Music Festival
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -1632,6 +1869,30 @@ LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/music-hike-1-168/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Music Hike I: <br>The Cello Quintets
+DTSTART;VALUE=DATE-TIME:20260905T000000
+DTEND;VALUE=DATE-TIME:20260905T000000
+UID:9d8bc5107de13dbc78f627aa15e14956@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Moab Wilderness\, 
+URL:https://moabmusicfest.org/events/music-hike-1-168/
+X-SOURCE:Moab Music Festival
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/red-cliffs-american-collage/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:American Collage
+DTSTART;VALUE=DATE-TIME:20260905T000000
+DTEND;VALUE=DATE-TIME:20260905T000000
+UID:7eb5a8b57b6a103aac6e324c6b215b12@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Red Cliffs Lodge\, 
+URL:https://moabmusicfest.org/events/red-cliffs-american-collage/
+X-SOURCE:Moab Music Festival
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -1662,6 +1923,18 @@ UID:17058
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/red-cliffs-cecile-salvant/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Cécile McLorin Salvant
+DTSTART;VALUE=DATE-TIME:20260906T000000
+DTEND;VALUE=DATE-TIME:20260906T000000
+UID:caba0e83f8c7ef30fc88947acdfb1a30@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Red Cliffs Lodge\, 
+URL:https://moabmusicfest.org/events/red-cliffs-cecile-salvant/
+X-SOURCE:Moab Music Festival
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -1675,6 +1948,18 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16101
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/rmp-community-concert-2026/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Rocky Mountain Power<br>Community Concert
+DTSTART;VALUE=DATE-TIME:20260907T000000
+DTEND;VALUE=DATE-TIME:20260907T000000
+UID:ccd84bd74bd52de1bdde365c74884d49@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Old City Park\, 
+URL:https://moabmusicfest.org/events/rmp-community-concert-2026/
+X-SOURCE:Moab Music Festival
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -1731,6 +2016,18 @@ DESCRIPTION:Chair Yoga – Mondays at 9 AM Join us every Monday morning at
  ce be a moment of self-care and grounding in your week.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/sips-sounds-2026/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Sips & Sounds: Sam Reider <br>and the Human Hands
+DTSTART;VALUE=DATE-TIME:20260908T000000
+DTEND;VALUE=DATE-TIME:20260908T000000
+UID:38ea60cd884f95dcb029a4803d0fa8e8@moabmusicfest.org
+DESCRIPTION:
+LOCATION:The Press\, 
+URL:https://moabmusicfest.org/events/sips-sounds-2026/
+X-SOURCE:Moab Music Festival
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -1832,6 +2129,18 @@ UID:1347
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/easy-bee-wanderings/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Wanderings<br>
+DTSTART;VALUE=DATE-TIME:20260909T000000
+DTEND;VALUE=DATE-TIME:20260909T000000
+UID:55b09a8128ab7209e0a60aeb9c80a1c2@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Easy Bee Farm\, 
+URL:https://moabmusicfest.org/events/easy-bee-wanderings/
+X-SOURCE:Moab Music Festival
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -1894,6 +2203,18 @@ SEQUENCE:0
 SUMMARY:2nd Wednesday Book Club
 UID:9006
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/grottoii-echoes-of-time/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Grotto II:<br>Echoes of Time
+DTSTART;VALUE=DATE-TIME:20260910T000000
+DTEND;VALUE=DATE-TIME:20260910T000000
+UID:a93e27b6badbc9673e73e6bfcf87bfaa@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Colorado River Wilderness Grotto\, 
+URL:https://moabmusicfest.org/events/grottoii-echoes-of-time/
+X-SOURCE:Moab Music Festival
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -1992,6 +2313,30 @@ LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/floating-concert-ii-from-the-top/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Floating Concert II:<br>From the Top of the Colorado
+DTSTART;VALUE=DATE-TIME:20260911T000000
+DTEND;VALUE=DATE-TIME:20260911T000000
+UID:0f983a93622755e3796c482764c24f0b@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Colorado River\, 
+URL:https://moabmusicfest.org/events/floating-concert-ii-from-the-top/
+X-SOURCE:Moab Music Festival
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/ranch-benefit-concert-2026/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Ranch Benefit Concert:<br>Louis Cato
+DTSTART;VALUE=DATE-TIME:20260911T000000
+DTEND;VALUE=DATE-TIME:20260911T000000
+UID:1da94f3244cf65921bfd86edd418ba42@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Private Ranch\, 
+URL:https://moabmusicfest.org/events/ranch-benefit-concert-2026/
+X-SOURCE:Moab Music Festival
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -2010,10 +2355,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga with Amanda
+SUMMARY:Flow into Friday Yoga with Breann
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260911T083000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260911T093000
-UID:de8f54065da4ae3f3ded253d87e7ce0c@wellnesscollectivemoab.com
+UID:192163d2b1401136fecc6cc8da1ce33f@wellnesscollectivemoab.com
 DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
  . Start your Friday with this all-levels yoga class designed to help you a
  waken the body\, center the mind\, and ease into your day with intention. 
@@ -2054,6 +2399,30 @@ SEQUENCE:0
 SUMMARY:Arts & Ag Market
 UID:1250
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=29
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/music-hike-ii-musical-stars/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Music Hike II: <br>Musical Stars Today & Tomorrow
+DTSTART;VALUE=DATE-TIME:20260912T000000
+DTEND;VALUE=DATE-TIME:20260912T000000
+UID:147879f13233bcaa7a4b501dda4e99dc@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Moab Wilderness\, 
+URL:https://moabmusicfest.org/events/music-hike-ii-musical-stars/
+X-SOURCE:Moab Music Festival
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/sorrel-huntertones/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Huntertones
+DTSTART;VALUE=DATE-TIME:20260912T000000
+DTEND;VALUE=DATE-TIME:20260912T000000
+UID:7fae155af58bb7ea6ec1a668173f687b@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Sorrel River Ranch\, 
+URL:https://moabmusicfest.org/events/sorrel-huntertones/
+X-SOURCE:Moab Music Festival
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -2111,6 +2480,18 @@ UID:17059
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/house-benefit-concert-2026/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:House Benefit Concert:<br>Tessa Lark & Amy Yang
+DTSTART;VALUE=DATE-TIME:20260913T000000
+DTEND;VALUE=DATE-TIME:20260913T000000
+UID:526fa36fe7343f10d650a294fc90db50@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Private Home\, 
+URL:https://moabmusicfest.org/events/house-benefit-concert-2026/
+X-SOURCE:Moab Music Festival
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -2124,6 +2505,18 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16108
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/dark-sky-hike/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Dark Sky Hike: <br>Music Under the Stars
+DTSTART;VALUE=DATE-TIME:20260914T000000
+DTEND;VALUE=DATE-TIME:20260914T000000
+UID:cdd0e7d9a917fd9489d9c33e6314b807@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Moab Wilderness\, 
+URL:https://moabmusicfest.org/events/dark-sky-hike/
+X-SOURCE:Moab Music Festival
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -2219,6 +2612,30 @@ SEQUENCE:0
 SUMMARY:Grand County Planning Commission Regular Meeting
 UID:16400
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/grottoiii-origin-story/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Grotto III:<br>Origin Story
+DTSTART;VALUE=DATE-TIME:20260915T000000
+DTEND;VALUE=DATE-TIME:20260915T000000
+UID:6df7efa736bf1037587e5e39c6dad49e@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Colorado River Wilderness Grotto\, 
+URL:https://moabmusicfest.org/events/grottoiii-origin-story/
+X-SOURCE:Moab Music Festival
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/cat-trip-2026/"}
+X-SOURCE-ID:moab_music_festival
+SUMMARY:Cataract Canyon<br>Musical Raft Trip <br> + Kenji López Alt
+DTSTART;VALUE=DATE-TIME:20260915T000000
+DTEND;VALUE=DATE-TIME:20260918T000000
+UID:e7db808654a437f81dfab002fc7e7d6d@moabmusicfest.org
+DESCRIPTION:
+LOCATION:Cataract Canyon\, 
+URL:https://moabmusicfest.org/events/cat-trip-2026/
+X-SOURCE:Moab Music Festival
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -2765,10 +3182,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga with Amanda
+SUMMARY:Flow into Friday Yoga with Breann
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260925T083000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260925T093000
-UID:3109d608749c1767d2ca77d8ebdf8e98@wellnesscollectivemoab.com
+UID:b34a28d9ebf0a60c36ad035e70a7823a@wellnesscollectivemoab.com
 DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
  . Start your Friday with this all-levels yoga class designed to help you a
  waken the body\, center the mind\, and ease into your day with intention. 
@@ -3522,10 +3939,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga with Amanda
+SUMMARY:Flow into Friday Yoga with Breann
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20261009T083000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20261009T093000
-UID:37886939cb817b4aea31f5a01da6dfe1@wellnesscollectivemoab.com
+UID:ab40dee8c2bbca55270029513c41d2a9@wellnesscollectivemoab.com
 DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
  . Start your Friday with this all-levels yoga class designed to help you a
  waken the body\, center the mind\, and ease into your day with intention. 
@@ -4259,13 +4676,33 @@ UID:16148
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Flow into Friday Yoga with Breann
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20261023T083000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20261023T093000
+UID:d2c30808e58f458b9c06f4f4758c68d3@wellnesscollectivemoab.com
+DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
+ . Start your Friday with this all-levels yoga class designed to help you a
+ waken the body\, center the mind\, and ease into your day with intention. 
+ We’ll begin with slow\, fluid movement to energize and open\, followed b
+ y longer-held stretches and restorative postures to help you release tensi
+ on and reconnect with yourself. This class is inclusive\, beginner-friendl
+ y\, and rooted in breath\, balance\, and compassionate movement. Whether y
+ ou’re unwinding from your week or preparing for the weekend ahead\, Frid
+ ay Flow is a chance to show up just as you are.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
 X-SOURCE-ID:center_street
 X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260816T095453Z
+DTSTAMP:20260817T093113Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -6120,7 +6557,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260816T095453Z
+DTSTAMP:20260817T093113Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
