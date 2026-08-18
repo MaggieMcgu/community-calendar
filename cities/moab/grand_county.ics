@@ -767,14 +767,26 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15684
-DTEND;TZID=America/Denver:20260818T170000
-DTSTAMP;TZID=America/Denver:20251124T073804
-DTSTART;TZID=America/Denver:20260818T160000
-LAST-MODIFIED;TZID=America/Denver:20251124T073804
+DTEND;TZID=America/Denver:20260818T143000
+DTSTAMP;TZID=America/Denver:20260817T092114
+DTSTART;TZID=America/Denver:20260818T133000
+LAST-MODIFIED;TZID=America/Denver:20260817T092114
 LOCATION: -     
 SEQUENCE:0
 SUMMARY:Grand County Commission
 UID:15684
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17107
+DTEND;TZID=America/Denver:20260818T143000
+DTSTAMP;TZID=America/Denver:20260817T083832
+DTSTART;TZID=America/Denver:20260818T133000
+LAST-MODIFIED;TZID=America/Denver:20260817T083832
+LOCATION: -     
+SEQUENCE:0
+SUMMARY:Joint County/MTAB workshop
+UID:17107
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 END:VCALENDAR
