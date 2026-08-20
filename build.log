@@ -100781,3 +100781,380 @@ http.client.IncompleteRead: IncompleteRead(159869 bytes read)
 2026-08-19 09:31:14,058 - MoabArtsScraper - INFO - Total: 0 events
 2026-08-19 09:31:14,058 - MoabArtsScraper - INFO - Found 0 events
 2026-08-19 09:31:14,058 - MoabArtsScraper - INFO - Written to cities/moab/moab_arts.ics
+2026-08-20 09:30:47,741 - MoabMuseumScraper - INFO - Scraping Moab Museum
+2026-08-20 09:30:47,741 - MoabMuseumScraper - INFO - Fetching https://moabmuseum.org/calendar-of-events/
+2026-08-20 09:30:48,286 - MoabMuseumScraper - ERROR - Failed to fetch https://moabmuseum.org/calendar-of-events/: HTTP Error 403: Forbidden
+2026-08-20 09:30:48,287 - MoabMuseumScraper - INFO - Total: 0 events
+2026-08-20 09:30:48,288 - MoabMuseumScraper - INFO - Found 0 events
+2026-08-20 09:30:48,288 - MoabMuseumScraper - INFO - Written to cities/moab/moab_museum.ics
+2026-08-20 09:30:48,432 - ClimbMoabScraper - INFO - Scraping Climb Moab
+2026-08-20 09:30:48,432 - ClimbMoabScraper - INFO - Fetching https://climbmoabgym.com/events?format=json
+2026-08-20 09:30:49,331 - ClimbMoabScraper - INFO - Found 0 upcoming events
+2026-08-20 09:30:49,331 - ClimbMoabScraper - INFO - Found 0 events
+2026-08-20 09:30:49,331 - ClimbMoabScraper - INFO - Written to cities/moab/climb_moab.ics
+2026-08-20 09:30:49,637 - BackOfBeyondScraper - INFO - Scraping Back of Beyond Books
+2026-08-20 09:30:49,637 - BackOfBeyondScraper - INFO - Fetching REST API: https://backofbeyondbooks.com/wp-json/wp/v2/happening?after=2026-01-01T00:00:00&per_page=100&orderby=modified&order=desc
+2026-08-20 09:30:49,637 - lib.utils - INFO - Fetching: https://backofbeyondbooks.com/wp-json/wp/v2/happening?after=2026-01-01T00:00:00&per_page=100&orderby=modified&order=desc
+2026-08-20 09:30:49,826 - BackOfBeyondScraper - INFO - Found 10 events
+2026-08-20 09:30:49,826 - BackOfBeyondScraper - INFO - Filtered 6 events beyond 6 months out
+2026-08-20 09:30:49,826 - BackOfBeyondScraper - INFO - Found 4 events
+2026-08-20 09:30:49,828 - BackOfBeyondScraper - INFO - Written to cities/moab/back_of_beyond.ics
+2026-08-20 09:30:49,977 - WellnessCollectiveScraper - INFO - Scraping Wellness Collective Moab
+2026-08-20 09:30:49,977 - WellnessCollectiveScraper - INFO - Fetching https://calendar.apps.secureserver.net/v1/events/850abeb2-a96f-4bb3-941d-245ce2f0e203/9c296a07-7f6a-4f27-a79a-bc4c6982a216/f33a9bca-c60a-4de5-8fa4-b78b6fd1c4ba
+2026-08-20 09:30:51,548 - WellnessCollectiveScraper - INFO - API returned 100 events
+2026-08-20 09:30:51,552 - WellnessCollectiveScraper - INFO - Parsed 99 events
+2026-08-20 09:30:51,552 - WellnessCollectiveScraper - INFO - Found 99 events
+2026-08-20 09:30:51,574 - WellnessCollectiveScraper - INFO - Written to cities/moab/wellness_collective.ics
+2026-08-20 09:30:51,718 - MoabMusicFestivalScraper - INFO - Scraping Moab Music Festival
+2026-08-20 09:30:51,718 - MoabMusicFestivalScraper - INFO - Fetching https://moabmusicfest.org/calendar/
+2026-08-20 09:30:52,790 - MoabMusicFestivalScraper - INFO - Found 21 JSON-LD events on https://moabmusicfest.org/calendar/
+2026-08-20 09:30:52,790 - MoabMusicFestivalScraper - INFO - Total: 20 events
+2026-08-20 09:30:52,790 - MoabMusicFestivalScraper - INFO - Found 20 events
+2026-08-20 09:30:52,794 - MoabMusicFestivalScraper - INFO - Written to cities/moab/moab_music_festival.ics
+2026-08-20 09:30:52,985 - MoabFolkFestivalScraper - INFO - Scraping Moab Folk Festival
+2026-08-20 09:30:52,985 - MoabFolkFestivalScraper - INFO - Fetching https://www.moabfolkfestival.com/
+2026-08-20 09:30:53,237 - MoabFolkFestivalScraper - INFO - Found 0 JSON-LD events on festival site
+2026-08-20 09:30:53,237 - MoabFolkFestivalScraper - INFO - Fetching https://www.moabfreeconcerts.com/
+2026-08-20 09:30:53,483 - MoabFolkFestivalScraper - INFO - Found 0 free concert dates
+2026-08-20 09:30:53,483 - MoabFolkFestivalScraper - INFO - Found 0 events
+2026-08-20 09:30:53,483 - MoabFolkFestivalScraper - INFO - Written to cities/moab/moab_folk_festival.ics
+2026-08-20 09:30:53,633 - MoabArtsScraper - INFO - Scraping Moab Arts & Recreation Center
+2026-08-20 09:30:53,633 - __main__ - INFO - Fetching sitemap: https://www.moabarts.org/event-pages-sitemap.xml
+2026-08-20 09:30:54,194 - __main__ - INFO - Found 167 event URLs in sitemap
+2026-08-20 09:30:54,195 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/exploratory-calligraphy
+2026-08-20 09:30:56,884 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/exploratory-calligraphy
+2026-08-20 09:30:56,885 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/moab-coworking-space
+2026-08-20 09:30:57,047 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/moab-coworking-space: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:57,047 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paper-quilling
+2026-08-20 09:30:57,212 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/paper-quilling: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:57,213 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/the-vandyke-brown-print-the-magic-of-alternative-processes
+2026-08-20 09:30:57,377 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/the-vandyke-brown-print-the-magic-of-alternative-processes: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:57,378 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/traditional-mala-making-the-history-behind-them-2
+2026-08-20 09:30:57,536 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/traditional-mala-making-the-history-behind-them-2: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:57,537 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-08-18-17-00
+2026-08-20 09:30:57,701 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-08-18-17-00: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:57,701 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/cyano-play-day
+2026-08-20 09:30:57,858 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/cyano-play-day: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:57,859 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paint-your-pet-3
+2026-08-20 09:30:58,017 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/paint-your-pet-3: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:58,018 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paper-quilling-4
+2026-08-20 09:30:58,178 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/paper-quilling-4: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:58,179 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/phytograms-plants-and-films
+2026-08-20 09:30:58,341 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/phytograms-plants-and-films: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:58,341 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/dark-room-101
+2026-08-20 09:30:58,506 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/dark-room-101: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:58,507 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/tie-dye-for-beginners-low-water-immersion-dyeing
+2026-08-20 09:30:58,674 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/tie-dye-for-beginners-low-water-immersion-dyeing: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:58,675 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/social-media-for-small-businesses
+2026-08-20 09:30:58,833 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/social-media-for-small-businesses: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:58,833 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-10-06-17-00
+2026-08-20 09:30:58,997 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-10-06-17-00: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:58,998 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/mending-session-1
+2026-08-20 09:30:59,160 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/mending-session-1: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:59,161 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-basket-weaving-for-beginners
+2026-08-20 09:30:59,324 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/winter-class-basket-weaving-for-beginners: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:59,324 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/summer-art-rec-camp-week-4-inspector-gadget
+2026-08-20 09:30:59,487 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/summer-art-rec-camp-week-4-inspector-gadget: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:59,488 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paper-flowers
+2026-08-20 09:30:59,644 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/paper-flowers: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:59,645 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2025-holiday-craft-fair-vendor-registration-1
+2026-08-20 09:30:59,802 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/2025-holiday-craft-fair-vendor-registration-1: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:59,802 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2024-artwalk-membership
+2026-08-20 09:30:59,966 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/2024-artwalk-membership: HTTP Error 429: Too Many Requests
+2026-08-20 09:30:59,967 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/sip-and-paint-2
+2026-08-20 09:31:00,125 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/sip-and-paint-2: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:00,126 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-07-21-17-00
+2026-08-20 09:31:00,288 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-07-21-17-00: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:00,288 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/block-printing-for-beginners
+2026-08-20 09:31:00,453 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/block-printing-for-beginners: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:00,454 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/residency-workshop-sidewalk-joy-scavenger-hunt
+2026-08-20 09:31:00,613 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/residency-workshop-sidewalk-joy-scavenger-hunt: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:00,614 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/pine-needle-weaving-2
+2026-08-20 09:31:00,774 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/pine-needle-weaving-2: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:00,774 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/trashion-crafting-workshop
+2026-08-20 09:31:00,935 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/trashion-crafting-workshop: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:00,936 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paper-quilling-3
+2026-08-20 09:31:01,095 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/paper-quilling-3: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:01,096 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2022-summer-art-rec-camp
+2026-08-20 09:31:01,257 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/2022-summer-art-rec-camp: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:01,258 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/make-a-mosaic-planter-or-garden-paver
+2026-08-20 09:31:01,425 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/make-a-mosaic-planter-or-garden-paver: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:01,426 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/drawing-artistic-anatomy
+2026-08-20 09:31:01,590 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/drawing-artistic-anatomy: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:01,590 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/residency-workshop-papermaking-and-hollander-beater-demo
+2026-08-20 09:31:01,753 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/residency-workshop-papermaking-and-hollander-beater-demo: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:01,754 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/holiday-craft-fair-vendor-registration-2021
+2026-08-20 09:31:01,915 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/holiday-craft-fair-vendor-registration-2021: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:01,916 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paint-night
+2026-08-20 09:31:02,078 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/paint-night: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:02,079 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/sip-and-paint
+2026-08-20 09:31:02,239 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/sip-and-paint: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:02,240 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-09-15-17-00
+2026-08-20 09:31:02,398 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-09-15-17-00: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:02,399 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2024-red-rock-arts-festival-street-fest-vendor-registration
+2026-08-20 09:31:02,555 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/2024-red-rock-arts-festival-street-fest-vendor-registration: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:02,555 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2024-holiday-craft-fair-vendor-registration
+2026-08-20 09:31:02,719 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/2024-holiday-craft-fair-vendor-registration: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:02,720 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/picnic-theater
+2026-08-20 09:31:02,879 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/picnic-theater: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:02,880 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2023-artwalk-membership
+2026-08-20 09:31:03,039 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/2023-artwalk-membership: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:03,040 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-06-16-17-00
+2026-08-20 09:31:03,203 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-06-16-17-00: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:03,204 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/jewelry-for-beginners-wire-wrapped-tree-of-life-pendant
+2026-08-20 09:31:03,368 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/jewelry-for-beginners-wire-wrapped-tree-of-life-pendant: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:03,369 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/sew-fun-tote-bag
+2026-08-20 09:31:03,527 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/sew-fun-tote-bag: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:03,527 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/art-by-chance-paint-night-2026-01-04-15-30
+2026-08-20 09:31:03,685 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/art-by-chance-paint-night-2026-01-04-15-30: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:03,686 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/make-a-mosaic-planter-or-garden-paver-2024-02-12-18-00
+2026-08-20 09:31:03,851 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/make-a-mosaic-planter-or-garden-paver-2024-02-12-18-00: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:03,852 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/watercolor-mixed-media
+2026-08-20 09:31:04,013 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/watercolor-mixed-media: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:04,013 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/traditional-mala-making-the-history-behind-them-3
+2026-08-20 09:31:04,172 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/traditional-mala-making-the-history-behind-them-3: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:04,173 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/bollywood-dance-2
+2026-08-20 09:31:04,334 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/bollywood-dance-2: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:04,334 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/block-printing-with-pink-erasers
+2026-08-20 09:31:04,494 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/block-printing-with-pink-erasers: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:04,494 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/desert-beauty-in-watercolor
+2026-08-20 09:31:04,657 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/desert-beauty-in-watercolor: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:04,658 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2025-arts-rec-summer-camp
+2026-08-20 09:31:04,818 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/2025-arts-rec-summer-camp: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:04,819 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/syfy-movie-night-1-them
+2026-08-20 09:31:04,982 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/syfy-movie-night-1-them: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:04,983 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/fiber-to-fabric
+2026-08-20 09:31:05,143 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/fiber-to-fabric: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:05,143 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-06-02-17-00
+2026-08-20 09:31:05,302 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-06-02-17-00: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:05,302 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/make-a-mosaic-pot
+2026-08-20 09:31:05,461 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/make-a-mosaic-pot: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:05,462 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-embroidery-101-2
+2026-08-20 09:31:05,621 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/winter-class-embroidery-101-2: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:05,622 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-resin-jewelry-2-day-series
+2026-08-20 09:31:05,779 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/winter-class-resin-jewelry-2-day-series: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:05,780 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-beginning-oil-painting-5-week-series
+2026-08-20 09:31:05,941 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/winter-class-beginning-oil-painting-5-week-series: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:05,942 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/journeying-the-inner-landscape
+2026-08-20 09:31:06,100 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/journeying-the-inner-landscape: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:06,101 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2026-arts-ag-market-vendor-registration
+2026-08-20 09:31:06,260 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/2026-arts-ag-market-vendor-registration: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:06,261 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/cyanotypes-printing-with-the-sun
+2026-08-20 09:31:06,420 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/cyanotypes-printing-with-the-sun: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:06,421 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/organic-film-photography-processing
+2026-08-20 09:31:06,585 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/organic-film-photography-processing: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:06,586 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/navajo-language-101-2
+2026-08-20 09:31:06,747 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/navajo-language-101-2: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:06,748 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/zoo-doodles-for-kids-how-to-draw-a-watercolor-crab
+2026-08-20 09:31:06,905 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/zoo-doodles-for-kids-how-to-draw-a-watercolor-crab: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:06,906 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/scavenger-hunt-fundraiser
+2026-08-20 09:31:07,065 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/scavenger-hunt-fundraiser: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:07,066 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/make-a-mosaic-mirror
+2026-08-20 09:31:07,223 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/make-a-mosaic-mirror: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:07,224 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/postponed-paper-quilling
+2026-08-20 09:31:07,384 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/postponed-paper-quilling: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:07,385 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-recycled-papermaking
+2026-08-20 09:31:07,545 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/winter-class-recycled-papermaking: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:07,546 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/applying-for-public-art-calls
+2026-08-20 09:31:07,707 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/applying-for-public-art-calls: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:07,707 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-landscape-painting-basics-4-week-series
+2026-08-20 09:31:07,864 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/winter-class-landscape-painting-basics-4-week-series: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:07,865 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paint-your-pet
+2026-08-20 09:31:08,025 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/paint-your-pet: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:08,025 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/faux-raku-gourd-oil-lamp-workshop
+2026-08-20 09:31:08,182 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/faux-raku-gourd-oil-lamp-workshop: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:08,183 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/pinhole-camera-making-photography
+2026-08-20 09:31:08,343 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/pinhole-camera-making-photography: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:08,343 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/residency-workshop-miniature-art-making
+2026-08-20 09:31:08,508 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/residency-workshop-miniature-art-making: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:08,509 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/beginner-willow-basket-weaving
+2026-08-20 09:31:08,670 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/beginner-willow-basket-weaving: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:08,671 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/trashy-pinhole-camera
+2026-08-20 09:31:08,828 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/trashy-pinhole-camera: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:08,829 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/diy-custom-framing
+2026-08-20 09:31:08,990 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/diy-custom-framing: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:08,990 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/mending-session-2
+2026-08-20 09:31:09,153 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/mending-session-2: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:09,154 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-02-12-15-30
+2026-08-20 09:31:09,313 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-02-12-15-30: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:09,313 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/summer-art-rec-camp-week-3-scales-and-tails
+2026-08-20 09:31:09,474 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/summer-art-rec-camp-week-3-scales-and-tails: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:09,474 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/intro-to-landscape-painting-4-week-series
+2026-08-20 09:31:09,634 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/intro-to-landscape-painting-4-week-series: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:09,635 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/creative-writing-series-with-ian-buchsbaum
+2026-08-20 09:31:09,791 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/creative-writing-series-with-ian-buchsbaum: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:09,792 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-10-20-17-00
+2026-08-20 09:31:09,951 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-10-20-17-00: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:09,952 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-03-05-15-30
+2026-08-20 09:31:10,114 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-03-05-15-30: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:10,115 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/basics-of-manual-photography
+2026-08-20 09:31:10,276 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/basics-of-manual-photography: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:10,277 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-painting-with-alcohol-ink
+2026-08-20 09:31:10,438 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/winter-class-painting-with-alcohol-ink: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:10,439 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market
+2026-08-20 09:31:10,600 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/arts-ag-market: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:10,600 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/holiday-craft-fair-vendor-registration-2022-1-1
+2026-08-20 09:31:10,757 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/holiday-craft-fair-vendor-registration-2022-1-1: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:10,758 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2023-streets-fest-vendor-registration-red-rock-arts-festival
+2026-08-20 09:31:10,918 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/2023-streets-fest-vendor-registration-red-rock-arts-festival: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:10,919 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/syfy-movie-night-3-red-planet-mars
+2026-08-20 09:31:11,080 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/syfy-movie-night-3-red-planet-mars: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:11,081 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-basic-bookbinding-bind-your-own-sketchbook
+2026-08-20 09:31:11,240 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/winter-class-basic-bookbinding-bind-your-own-sketchbook: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:11,241 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-1-1
+2026-08-20 09:31:11,401 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-1-1: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:11,402 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/pine-needle-weaving
+2026-08-20 09:31:11,565 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/pine-needle-weaving: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:11,566 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/the-almighty-ballad-how-to-write-in-verses-most-versatile-form
+2026-08-20 09:31:11,727 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/the-almighty-ballad-how-to-write-in-verses-most-versatile-form: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:11,728 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/plein-air-work-shop-saturday-10-01-2022
+2026-08-20 09:31:11,905 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/plein-air-work-shop-saturday-10-01-2022: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:11,906 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/mosaic-flagstones
+2026-08-20 09:31:12,072 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/mosaic-flagstones: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:12,072 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/enormous-papier-mache-mask-making-series
+2026-08-20 09:31:12,233 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/enormous-papier-mache-mask-making-series: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:12,234 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2025-red-rock-arts-festival-street-fest-vendor-registration
+2026-08-20 09:31:12,397 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/2025-red-rock-arts-festival-street-fest-vendor-registration: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:12,398 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/cyanotypes-printing-with-the-sun-1
+2026-08-20 09:31:12,558 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/cyanotypes-printing-with-the-sun-1: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:12,559 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-09-01-17-00
+2026-08-20 09:31:12,725 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-09-01-17-00: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:12,726 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration
+2026-08-20 09:31:12,888 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/arts-ag-market-vendor-registration: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:12,889 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-rec-camp-summer-2024
+2026-08-20 09:31:13,046 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/arts-rec-camp-summer-2024: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:13,047 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-linocut-and-woodcut-printmaking
+2026-08-20 09:31:13,209 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/winter-class-linocut-and-woodcut-printmaking: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:13,210 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-exploring-indigo-vat-dyeing
+2026-08-20 09:31:13,368 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/winter-class-exploring-indigo-vat-dyeing: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:13,369 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/improv-your-acting
+2026-08-20 09:31:13,525 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/improv-your-acting: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:13,526 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/hand-printed-holiday-cards-1
+2026-08-20 09:31:13,686 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/hand-printed-holiday-cards-1: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:13,686 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/a-platform-for-your-voice-postcards-protest-signs
+2026-08-20 09:31:13,846 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/a-platform-for-your-voice-postcards-protest-signs: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:13,846 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-embroidery-101
+2026-08-20 09:31:14,005 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/winter-class-embroidery-101: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:14,005 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-rec-camp-summer-2023
+2026-08-20 09:31:14,164 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/arts-rec-camp-summer-2023: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:14,165 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/mending-session-feb
+2026-08-20 09:31:14,322 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/mending-session-feb: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:14,323 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-resin-fluid-art-2-day-series
+2026-08-20 09:31:14,482 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/winter-class-resin-fluid-art-2-day-series: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:14,483 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-08-04-17-00
+2026-08-20 09:31:14,645 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-08-04-17-00: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:14,646 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/the-almighty-ballad-how-to-write-in-verses-most-versatile-form-2
+2026-08-20 09:31:14,806 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/the-almighty-ballad-how-to-write-in-verses-most-versatile-form-2: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:14,807 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/bollywood-dance
+2026-08-20 09:31:14,966 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/bollywood-dance: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:14,967 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/plein-air-2022-competition
+2026-08-20 09:31:15,129 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/plein-air-2022-competition: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:15,130 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/summer-art-rec-camp
+2026-08-20 09:31:15,290 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/summer-art-rec-camp: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:15,291 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/sculpted-pet-animal-portraits
+2026-08-20 09:31:15,450 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/sculpted-pet-animal-portraits: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:15,451 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/holiday-craft-fair-vendor-registration-2022-1
+2026-08-20 09:31:15,610 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/holiday-craft-fair-vendor-registration-2022-1: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:15,610 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-01-22-15-30
+2026-08-20 09:31:15,772 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-01-22-15-30: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:15,773 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/summer-art-rec-camp-week-2-trash-to-treasure
+2026-08-20 09:31:15,936 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/summer-art-rec-camp-week-2-trash-to-treasure: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:15,937 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/chalk-drawing-competition-2022
+2026-08-20 09:31:16,096 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/chalk-drawing-competition-2022: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:16,097 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/fall-foliage-bowl-alcohol-dye-technique-with-a-seagrass-rim
+2026-08-20 09:31:16,256 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/fall-foliage-bowl-alcohol-dye-technique-with-a-seagrass-rim: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:16,256 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/a-moab-market-at-the-grand-county-fair
+2026-08-20 09:31:16,417 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/a-moab-market-at-the-grand-county-fair: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:16,418 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/make-decorative-papers-using-a-gelli-plate
+2026-08-20 09:31:16,579 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/make-decorative-papers-using-a-gelli-plate: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:16,580 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-05-19-17-00
+2026-08-20 09:31:16,744 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-05-19-17-00: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:16,745 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/beginning-figure-painting
+2026-08-20 09:31:16,908 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/beginning-figure-painting: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:16,909 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/spooky-art-studio-for-kids-2
+2026-08-20 09:31:17,073 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/spooky-art-studio-for-kids-2: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:17,073 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-02-05-15-30
+2026-08-20 09:31:17,233 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-02-05-15-30: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:17,234 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paper-flowers-chiyogami-cherry-blossoms
+2026-08-20 09:31:17,396 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/paper-flowers-chiyogami-cherry-blossoms: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:17,397 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-intro-to-landscape-painting
+2026-08-20 09:31:17,561 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/winter-class-intro-to-landscape-painting: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:17,561 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-cyanotypes-how-to-make-handmade-photographs-using-the-sun
+2026-08-20 09:31:17,723 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/winter-class-cyanotypes-how-to-make-handmade-photographs-using-the-sun: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:17,723 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2022-streets-fest-vendor-registration-red-rock-arts-festival
+2026-08-20 09:31:17,884 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/2022-streets-fest-vendor-registration-red-rock-arts-festival: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:17,885 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paper-pulp-shadow-box
+2026-08-20 09:31:18,047 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/paper-pulp-shadow-box: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:18,047 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paint-your-partner
+2026-08-20 09:31:18,212 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/paint-your-partner: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:18,213 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-01-29-15-30
+2026-08-20 09:31:18,372 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-01-29-15-30: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:18,373 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/mending-session-jan
+2026-08-20 09:31:18,533 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/mending-session-jan: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:18,533 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/professional-practices-for-artists-how-to-market-your-craft-and-refine-your-vision
+2026-08-20 09:31:18,695 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/professional-practices-for-artists-how-to-market-your-craft-and-refine-your-vision: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:18,695 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/holiday-craft-fair-vendor-registration-2022
+2026-08-20 09:31:18,856 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/holiday-craft-fair-vendor-registration-2022: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:18,856 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/introduction-to-drawing
+2026-08-20 09:31:19,019 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/introduction-to-drawing: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:19,019 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/textile-creation-series-i-cold-dyeing
+2026-08-20 09:31:19,181 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/textile-creation-series-i-cold-dyeing: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:19,181 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/catering-to-conversation
+2026-08-20 09:31:19,343 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/catering-to-conversation: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:19,344 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2025-holiday-craft-fair-vendor-registration
+2026-08-20 09:31:19,501 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/2025-holiday-craft-fair-vendor-registration: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:19,502 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/make-your-own-wooden-rolypoly
+2026-08-20 09:31:19,665 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/make-your-own-wooden-rolypoly: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:19,666 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/plein-air-work-shop-monday-09-26-2022
+2026-08-20 09:31:19,826 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/plein-air-work-shop-monday-09-26-2022: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:19,827 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-07-07-17-00
+2026-08-20 09:31:19,984 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-07-07-17-00: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:19,985 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2025-arts-ag-market-vendor-registration-1
+2026-08-20 09:31:20,146 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/2025-arts-ag-market-vendor-registration-1: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:20,147 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-beginning-oil-painting-2-day-series
+2026-08-20 09:31:20,311 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/winter-class-beginning-oil-painting-2-day-series: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:20,312 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/intro-to-intaglio-printmaking
+2026-08-20 09:31:20,474 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/intro-to-intaglio-printmaking: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:20,475 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2026-arts-rec-summer-camp
+2026-08-20 09:31:20,639 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/2026-arts-rec-summer-camp: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:20,640 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-intro-to-tea-blending
+2026-08-20 09:31:20,796 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/winter-class-intro-to-tea-blending: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:20,796 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/BreadPuppetWorkshopPerformance
+2026-08-20 09:31:20,956 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/BreadPuppetWorkshopPerformance: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:20,957 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paper-flower-art
+2026-08-20 09:31:21,117 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/paper-flower-art: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:21,118 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/poetry-workshop-bigger-dreams-minus-bigger-fears
+2026-08-20 09:31:21,281 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/poetry-workshop-bigger-dreams-minus-bigger-fears: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:21,281 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/jewelry-for-beginners-wire-wrapped-pendant
+2026-08-20 09:31:21,442 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/jewelry-for-beginners-wire-wrapped-pendant: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:21,442 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/block-printing-with-megan-and-diego
+2026-08-20 09:31:21,600 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/block-printing-with-megan-and-diego: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:21,601 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2023-arts-ag-market-vendor-registration-1
+2026-08-20 09:31:21,759 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/2023-arts-ag-market-vendor-registration-1: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:21,760 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/zoo-doodles-for-kids
+2026-08-20 09:31:21,920 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/zoo-doodles-for-kids: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:21,921 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/textile-creation-series-ii-iii-2-linocut-design-carving-linocut-printing
+2026-08-20 09:31:22,086 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/textile-creation-series-ii-iii-2-linocut-design-carving-linocut-printing: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:22,087 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/figure-drawing-workshop-with-molly
+2026-08-20 09:31:22,250 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/figure-drawing-workshop-with-molly: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:22,251 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/ceramic-jewelry-workshop-series-from-clay-to-adornment
+2026-08-20 09:31:22,412 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/ceramic-jewelry-workshop-series-from-clay-to-adornment: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:22,412 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/art-in-everyday-language-found-generated-created
+2026-08-20 09:31:22,568 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/art-in-everyday-language-found-generated-created: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:22,569 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/spooky-art-studio-for-kids
+2026-08-20 09:31:22,728 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/spooky-art-studio-for-kids: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:22,729 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/residency-workshop-roadside-fence-art
+2026-08-20 09:31:22,888 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/residency-workshop-roadside-fence-art: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:22,889 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/make-a-mosaic-planter-or-garden-paver-2024-02-15-19-00
+2026-08-20 09:31:23,051 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/make-a-mosaic-planter-or-garden-paver-2024-02-15-19-00: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:23,052 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/navajo-language-101
+2026-08-20 09:31:23,215 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/navajo-language-101: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:23,216 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/market-on-center
+2026-08-20 09:31:23,388 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/market-on-center: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:23,389 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/art-by-chance-paint-night-2025-12-16-17-30
+2026-08-20 09:31:23,548 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/art-by-chance-paint-night-2025-12-16-17-30: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:23,549 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/syfy-movie-night-2-world-without-end
+2026-08-20 09:31:23,705 - MoabArtsScraper - ERROR - Failed to fetch https://www.moabarts.org/event-details/syfy-movie-night-2-world-without-end: HTTP Error 429: Too Many Requests
+2026-08-20 09:31:23,705 - MoabArtsScraper - INFO - Total: 0 events
+2026-08-20 09:31:23,706 - MoabArtsScraper - INFO - Found 0 events
+2026-08-20 09:31:23,706 - MoabArtsScraper - INFO - Written to cities/moab/moab_arts.ics

@@ -729,6 +729,18 @@ UID:15697
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17110
+DTEND;TZID=America/Denver:20260825T120000
+DTSTAMP;TZID=America/Denver:20260819T102002
+DTSTART;TZID=America/Denver:20260825T110000
+LAST-MODIFIED;TZID=America/Denver:20260819T102002
+LOCATION: -     
+SEQUENCE:0
+SUMMARY:Grand County Local Emergency Planning Committee Q3 2026
+UID:17110
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16389
 DTEND;TZID=America/Denver:20260824T183000
 DTSTAMP;TZID=America/Denver:20260206T084833
@@ -738,18 +750,6 @@ LOCATION: -
 SEQUENCE:0
 SUMMARY:Grand County Planning Commission Regular Meeting
 UID:16389
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17077
-DTEND;TZID=America/Denver:20260819T120000
-DTSTAMP;TZID=America/Denver:20260811T094911
-DTSTART;TZID=America/Denver:20260819T110000
-LAST-MODIFIED;TZID=America/Denver:20260811T094911
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:One Time Event
-UID:17077
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 END:VCALENDAR
