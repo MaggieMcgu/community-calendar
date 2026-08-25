@@ -729,6 +729,42 @@ UID:15697
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17195
+DTEND;TZID=America/Denver:20260827T113000
+DTSTAMP;TZID=America/Denver:20260824T123757
+DTSTART;TZID=America/Denver:20260827T103000
+LAST-MODIFIED;TZID=America/Denver:20260824T123757
+LOCATION: -     
+SEQUENCE:0
+SUMMARY:Grand County Commission Special Meeting
+UID:17195
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17196
+DTEND;TZID=America/Denver:20260827T113000
+DTSTAMP;TZID=America/Denver:20260824T113516
+DTSTART;TZID=America/Denver:20260827T103000
+LAST-MODIFIED;TZID=America/Denver:20260824T113516
+LOCATION: -     
+SEQUENCE:0
+SUMMARY:MTAB Joint Workshop with the County Commission
+UID:17196
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17194
+DTEND;TZID=America/Denver:20260826T100000
+DTSTAMP;TZID=America/Denver:20260824T095221
+DTSTART;TZID=America/Denver:20260826T090000
+LAST-MODIFIED;TZID=America/Denver:20260824T095221
+LOCATION: -     
+SEQUENCE:0
+SUMMARY:Audit Committee Meeting
+UID:17194
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17110
 DTEND;TZID=America/Denver:20260825T120000
 DTSTAMP;TZID=America/Denver:20260819T102002
@@ -738,18 +774,6 @@ LOCATION: -
 SEQUENCE:0
 SUMMARY:Grand County Local Emergency Planning Committee Q3 2026
 UID:17110
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16389
-DTEND;TZID=America/Denver:20260824T183000
-DTSTAMP;TZID=America/Denver:20260206T084833
-DTSTART;TZID=America/Denver:20260824T173000
-LAST-MODIFIED;TZID=America/Denver:20260206T084833
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Grand County Planning Commission Regular Meeting
-UID:16389
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 END:VCALENDAR
