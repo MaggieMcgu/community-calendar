@@ -693,6 +693,18 @@ UID:16977
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17198
+DTEND;TZID=America/Denver:20260910T100000
+DTSTAMP;TZID=America/Denver:20260825T085732
+DTSTART;TZID=America/Denver:20260910T090000
+LAST-MODIFIED;TZID=America/Denver:20260825T085732
+LOCATION: -     
+SEQUENCE:0
+SUMMARY:Budget Advisory Board Regular Meeting
+UID:17198
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16972
 DTEND;TZID=America/Denver:20260908T160000
 DTSTAMP;TZID=America/Denver:20260603T142529
@@ -762,18 +774,6 @@ LOCATION: -
 SEQUENCE:0
 SUMMARY:Audit Committee Meeting
 UID:17194
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17110
-DTEND;TZID=America/Denver:20260825T120000
-DTSTAMP;TZID=America/Denver:20260819T102002
-DTSTART;TZID=America/Denver:20260825T110000
-LAST-MODIFIED;TZID=America/Denver:20260819T102002
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Grand County Local Emergency Planning Committee Q3 2026
-UID:17110
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 END:VCALENDAR
