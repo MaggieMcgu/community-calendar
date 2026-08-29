@@ -3174,41 +3174,4 @@ SUMMARY:SOCCER FIELD #2 CLOSED WHILE CONSTUCTION IS IN PROGRESS - AUTHORIZE
 UID:17254
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15906
-DTEND;TZID=America/Denver:20260828T210000
-DTSTAMP;TZID=America/Denver:20260824T154334
-DTSTART;TZID=America/Denver:20260828T190000
-LAST-MODIFIED;TZID=America/Denver:20260824T154334
-LOCATION:OSTARC Facilities > Pavilion - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Skate Moab - Free Community Night - All Ages 7pm-9pm - Pavilion 
-UID:15906
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16092
-DTEND;TZID=America/Denver:20260828T200000
-DTSTAMP;TZID=America/Denver:20260112T142328
-DTSTART;TZID=America/Denver:20260828T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142328
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
-UID:16092
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17253
-DTEND;VALUE=DATE:20260828
-DTSTAMP;TZID=America/Denver:20260827T175448
-DTSTART;VALUE=DATE:20260828
-LAST-MODIFIED;TZID=America/Denver:20260827T175448
-LOCATION:OSTARC Facilities > Soccer Field 2 - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:SOCCER FIELD #2 CLOSED WHILE CONSTUCTION IS IN PROGRESS - AUTHORIZE
- D PERSONNEL ONLY!
-UID:17253
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
 END:VCALENDAR
