@@ -7,155 +7,13 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17254
-DTEND;VALUE=DATE:20260829
-DTSTAMP;TZID=America/Denver:20260827T175448
-DTSTART;VALUE=DATE:20260829
-LAST-MODIFIED;TZID=America/Denver:20260827T175448
-LOCATION:OSTARC Facilities > Soccer Field 2 - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:SOCCER FIELD #2 CLOSED WHILE CONSTUCTION IS IN PROGRESS - AUTHORIZE
- D PERSONNEL ONLY!
-UID:17254
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16093
-DTEND;TZID=America/Denver:20260829T200000
-DTSTAMP;TZID=America/Denver:20260112T142328
-DTSTART;TZID=America/Denver:20260829T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142328
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
-UID:16093
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Qi-Gong with Cody
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260829T080000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260829T090000
-UID:8211ef71073f38e8b8841f7bc20d56fd@wellnesscollectivemoab.com
-DESCRIPTION:Zhineng Qigong is a powerful mind-body practice rooted in anci
- ent Chinese healing traditions and adapted for modern times. This gentle y
- et profound system blends slow movement\, sound\, visualization\, and medi
- tation to help individuals cultivate inner peace\, restore balance\, and e
- nhance vitality. By consciously connecting with the energy of life—what 
- some may call qi or universal life force—participants are invited into a
-  process of holistic healing: physically\, emotionally\, and spiritually. 
- One of the most accessible forms of Qigong\, Zhineng emphasizes connection
-  over complexity. Its principles can be embraced by people of all ages\, b
- ackgrounds\, and physical abilities. Cody teaches from a place of lived ex
- perience\, having found this practice deeply healing and transformative in
-  his own journey. His classes focus on cultivating shared energy through g
- roup practice\, empowering individuals to tap into their innate wisdom and
-  live with greater purpose and presence.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17057
-DTEND;TZID=America/Denver:20260829T235900
-DTSTAMP;TZID=America/Denver:20260728T145735
-DTSTART;TZID=America/Denver:20260829T103000
-LAST-MODIFIED;TZID=America/Denver:20260728T145735
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Saturday Storytime
-UID:17057
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/beaver-vs-grand-county-moab/freshman/8-29-2026/?c=65265ca0-22d1-4af5-ae6e-8490ec54e4e4"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Beaver Girls Freshman Volleyball @ Grand County
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260829T110000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260829T120000
-UID:13159f8635f7b2e0f10fdb4d27c013d7@maxpreps.com
-DESCRIPTION:Girls Freshman Volleyball\nThe Beaver freshman volleyball team
-  has an away conference match @  Grand County (Moab\, UT) today @ 11a.
-LOCATION:Grand County High School
-URL:https://www.maxpreps.com/ut/volleyball/match/beaver-vs-grand-county-mo
- ab/freshman/8-29-2026/?c=65265ca0-22d1-4af5-ae6e-8490ec54e4e4
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/soccer/girls/match/enterprise-vs-grand-county-moab/jv/8-29-2026/?c=4e163876-6b29-4669-935f-80cc78a96fe0"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Grand County Girls JV Soccer @ Enterprise
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260829T113000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260829T131500
-UID:b6b06f33381077aba8ec10dfe5abb77e@maxpreps.com
-DESCRIPTION:Girls JV Soccer\nThe Grand County JV soccer team has an away c
- onference match @  Enterprise (UT) today @ 11:30a.
-LOCATION:Enterprise City Park
-URL:https://www.maxpreps.com/ut/soccer/girls/match/enterprise-vs-grand-cou
- nty-moab/jv/8-29-2026/?c=4e163876-6b29-4669-935f-80cc78a96fe0
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/beaver-vs-grand-county-moab/jv/8-29-2026/?c=f0ae4598-5575-4e48-a73e-66417f6559e2"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Beaver Girls JV Volleyball @ Grand County
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260829T123000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260829T133000
-UID:e6d69d8de4e125a30b3df3a0f883741a@maxpreps.com
-DESCRIPTION:Girls JV Volleyball\nThe Beaver JV volleyball team has an away
-  conference match @  Grand County (Moab\, UT) today @ 12:30p.
-LOCATION:Grand County High School
-URL:https://www.maxpreps.com/ut/volleyball/match/beaver-vs-grand-county-mo
- ab/jv/8-29-2026/?c=f0ae4598-5575-4e48-a73e-66417f6559e2
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17041
-DTEND;TZID=America/Denver:20260829T160000
-DTSTAMP;TZID=America/Denver:20260827T144735
-DTSTART;TZID=America/Denver:20260829T140000
-LAST-MODIFIED;TZID=America/Denver:20260827T144735
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:17041
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/beaver-vs-grand-county-moab/8-29-2026/?c=ff5c08a1-4a9c-4487-b22d-1fd22ccd3e14"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Beaver Girls Varsity Volleyball @ Grand County
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260829T140000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260829T150000
-UID:21fc554e84619b6bc5575bb8dda000f2@maxpreps.com
-DESCRIPTION:Girls Varsity Volleyball\nThe Beaver varsity volleyball team h
- as an away conference match @  Grand County (Moab\, UT) today @ 2p.
-LOCATION:Grand County High School
-URL:https://www.maxpreps.com/ut/volleyball/match/beaver-vs-grand-county-mo
- ab/8-29-2026/?c=ff5c08a1-4a9c-4487-b22d-1fd22ccd3e14
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
 X-SOURCE-ID:center_street
 X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260829T193000Z
 DTEND:20260829T233000Z
-DTSTAMP:20260829T093143Z
+DTSTAMP:20260830T093116Z
 UID:0acan9hi48t2ilnkvceo6dqupp@google.com
 CREATED:20260827T175620Z
 LAST-MODIFIED:20260827T175621Z
@@ -202,7 +60,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20261108
-DTSTAMP:20260829T093143Z
+DTSTAMP:20260830T093116Z
 UID:48rdqkjcg5r4rjec3qi8reeuev@google.com
 CREATED:20260120T150241Z
 LAST-MODIFIED:20260625T151927Z
@@ -553,7 +411,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260902T003000Z
 DTEND:20260902T013000Z
-DTSTAMP:20260829T093143Z
+DTSTAMP:20260830T093116Z
 UID:3ou0646rkdvloaltgksh5o51m0@google.com
 CREATED:20260622T194605Z
 LAST-MODIFIED:20260622T194605Z
@@ -569,7 +427,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260902T013000Z
 DTEND:20260902T023000Z
-DTSTAMP:20260829T093143Z
+DTSTAMP:20260830T093116Z
 UID:7k7hgbli7603hd97mth9qnoam3@google.com
 CREATED:20260622T195520Z
 LAST-MODIFIED:20260622T195520Z
@@ -5714,7 +5572,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260829T093143Z
+DTSTAMP:20260830T093116Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -6402,6 +6260,26 @@ UID:16159
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Chair Yoga @ the Grand Center-bre
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261103T143000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261103T153000
+UID:9c5be948a4218fb087f13a75e0b76cd2@wellnesscollectivemoab.com
+DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
+  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
+ ctive yoga instructors. Each teacher brings their own style and expertise\
+ , while sharing a common focus on safety\, choice\, and ease in the body. 
+ This class is especially supportive for older adults and anyone who prefer
+ s to stay off the floor\, has limited mobility\, uses a chair for stabilit
+ y\, or is simply looking for a calm\, nourishing way to move. All poses ar
+ e done seated or standing with the support of a chair\, so you can experie
+ nce the benefits of yoga without getting down on a mat.
+LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
@@ -6415,6 +6293,25 @@ SEQUENCE:0
 SUMMARY:Grand County Commission Regular Meeting
 UID:15699
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Take Care Tuesday - Relaxing Yoga
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261103T171500
+DTEND;TZID=MST;VALUE=DATE-TIME:20261103T181500
+UID:65f4c14632f718f81dc3bd096e17e791@wellnesscollectivemoab.com
+DESCRIPTION:Make space to slow down with Take Care Tuesday\, a weekly rota
+ ting class centered around rest and relaxation. Each facilitator brings th
+ eir own style and gifts\, offering calming yoga along with special element
+ s such as sound baths\, Reiki\, massage\, meditation\, and other restorati
+ ve practices. Whether you come to stretch\, settle your nervous system\, o
+ r simply enjoy a peaceful evening in community\, each class offers somethi
+ ng a little different and supportive. Open to all levels. Come as you are.
+  Rest is welcome here.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -6432,6 +6329,28 @@ SUMMARY:Canyonlands PRCA Rodeo Meeting  5:30pm-6:30pm- OSTA Conference Room
   
 UID:14161
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Acupuncture with Rob
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261103T183000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261103T193000
+UID:6a1e365726c04dbacbdf6ff1805d1487@wellnesscollectivemoab.com
+DESCRIPTION:Experience the healing benefits of acupuncture in a supportive
+ \, community setting. Led by Rob\, a licensed acupuncturist and naturopath
+ ic physician\, this group offering is designed to promote relaxation\, bal
+ ance the nervous system\, and support whole-person wellness. During each s
+ ession\, participants will receive gentle acupuncture while resting comfor
+ tably in a reclined position. Treatments are tailored to common concerns s
+ uch as stress\, anxiety\, fatigue\, sleep disturbances\, and emotional ove
+ rwhelm. No prior experience is needed\, and Rob will walk you through the 
+ process so you feel at ease. Group acupuncture makes this powerful healing
+  modality more accessible and affordable—while also allowing for shared 
+ healing energy in community.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -7891,6 +7810,20 @@ UID:16439
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/terry-tempest-williams-tuesday-march-3rd-sunrise-ceremony-afternoon-book-signing-castle-valley-back-of-beyond/"}
+X-SOURCE-ID:back_of_beyond
+SUMMARY:Terry Tempest Williams
+DTSTART;TZID=MST;VALUE=DATE-TIME:20270303T180000
+DTEND;TZID=MST;VALUE=DATE-TIME:20270303T200000
+UID:b7938b128626ab1dc274e2e3d1e80930@backofbeyondbooks.com
+DESCRIPTION:
+LOCATION:Castle Valley & Back of Beyond
+URL:https://backofbeyondbooks.com/happenings/terry-tempest-williams-tuesda
+ y-march-3rd-sunrise-ceremony-afternoon-book-signing-castle-valley-back-of-
+ beyond/
+X-SOURCE:Back of Beyond Books
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -7975,7 +7908,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260829T093143Z
+DTSTAMP:20260830T093116Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
