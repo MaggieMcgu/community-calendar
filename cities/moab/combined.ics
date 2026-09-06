@@ -10,64 +10,6 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17261
-DTEND;VALUE=DATE:20260905
-DTSTAMP;TZID=America/Denver:20260827T175448
-DTSTART;VALUE=DATE:20260905
-LAST-MODIFIED;TZID=America/Denver:20260827T175448
-LOCATION:OSTARC Facilities > Soccer Field 2 - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:SOCCER FIELD #2 CLOSED WHILE CONSTUCTION IS IN PROGRESS - AUTHORIZE
- D PERSONNEL ONLY!
-UID:17261
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16100
-DTEND;TZID=America/Denver:20260905T200000
-DTSTAMP;TZID=America/Denver:20260112T142328
-DTSTART;TZID=America/Denver:20260905T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142328
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
-UID:16100
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17228
-DTEND;TZID=America/Denver:20260905T170000
-DTSTAMP;TZID=America/Denver:20260827T141347
-DTSTART;TZID=America/Denver:20260905T090000
-LAST-MODIFIED;TZID=America/Denver:20260827T141347
-LOCATION: - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Library Closed
-UID:17228
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/red-cliffs-cecile-salvant/"}
-X-SOURCE-ID:moab_music_festival
-SUMMARY:Cécile McLorin Salvant
-DTSTART;VALUE=DATE-TIME:20260906T000000
-DTEND;VALUE=DATE-TIME:20260906T000000
-UID:caba0e83f8c7ef30fc88947acdfb1a30@moabmusicfest.org
-DESCRIPTION:
-LOCATION:Red Cliffs Lodge\, 
-URL:https://moabmusicfest.org/events/red-cliffs-cecile-salvant/
-X-SOURCE:Moab Music Festival
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17262
 DTEND;VALUE=DATE:20260906
 DTSTAMP;TZID=America/Denver:20260827T175448
@@ -286,10 +228,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga @ the Grand Center-bre
+SUMMARY:Chair Yoga @ the Grand Center-Sam
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260908T143000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260908T153000
-UID:2dec3d8f3b720268a64132370edcc803@wellnesscollectivemoab.com
+UID:86123b31db32c95acd0886f1a99188f3@wellnesscollectivemoab.com
 DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
   for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
  ctive yoga instructors. Each teacher brings their own style and expertise\
@@ -310,7 +252,7 @@ URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailp
 DTSTART;TZID=America/Denver:20260908T150000
 DTEND;TZID=America/Denver:20260908T200000
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261107T065959Z;BYDAY=TU,WE,TH,FR
-DTSTAMP:20260905T093119Z
+DTSTAMP:20260906T093113Z
 UID:4s4oo1fdianjov78j6p3def4pg@google.com
 CREATED:20260903T193153Z
 LAST-MODIFIED:20260903T193154Z
@@ -368,10 +310,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Take Care Tuesday - Relaxing Yoga with Sam
+SUMMARY:Take Care Tuesday - Relaxing Yoga with Bre
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260908T171500
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260908T181500
-UID:7834660206baa229621b199ae4201f07@wellnesscollectivemoab.com
+UID:1bcc6af7d0856b7dd7636feaec1b2076@wellnesscollectivemoab.com
 DESCRIPTION:Make space to slow down with Take Care Tuesday\, a weekly rota
  ting class centered around rest and relaxation. Each facilitator brings th
  eir own style and gifts\, offering calming yoga along with special element
@@ -402,6 +344,24 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Yoga for Grand County EMS
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260908T183000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260908T193000
+UID:dd6a2900605a744ba7fd35f9bf1a5a3f@wellnesscollectivemoab.com
+DESCRIPTION:Classes are specifically tailored to address the needs of firs
+ t responders\, focusing on stress injury prevention\, mindfulness promotio
+ n\, and stress relief. Open to everyone and all skill levels. You don’t 
+ need to be flexible! Bring a family member or friend if you want! Want to 
+ participate at home? Sign up for the free zoom option here https://www.wel
+ lnessliving.com/schedule/wellness_collective-4615bh?id_class_tab=1&k_class
+ =951231&k_class_tab=76330
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
 SUMMARY:Acupuncture with Rob
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260908T183000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260908T193000
@@ -417,24 +377,6 @@ DESCRIPTION:Experience the healing benefits of acupuncture in a supportive
  process so you feel at ease. Group acupuncture makes this powerful healing
   modality more accessible and affordable—while also allowing for shared 
  healing energy in community.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga for Grand County EMS
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260908T183000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260908T193000
-UID:dd6a2900605a744ba7fd35f9bf1a5a3f@wellnesscollectivemoab.com
-DESCRIPTION:Classes are specifically tailored to address the needs of firs
- t responders\, focusing on stress injury prevention\, mindfulness promotio
- n\, and stress relief. Open to everyone and all skill levels. You don’t 
- need to be flexible! Bring a family member or friend if you want! Want to 
- participate at home? Sign up for the free zoom option here https://www.wel
- lnessliving.com/schedule/wellness_collective-4615bh?id_class_tab=1&k_class
- =951231&k_class_tab=76330
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -1069,7 +1011,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260913T180000Z
 DTEND:20260913T220000Z
-DTSTAMP:20260905T093119Z
+DTSTAMP:20260906T093113Z
 UID:6ehd5d7crhlk7n4e5jc2bhjrm9@google.com
 CREATED:20260831T222825Z
 LAST-MODIFIED:20260831T222826Z
@@ -4958,7 +4900,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260905T093119Z
+DTSTAMP:20260906T093113Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -6083,6 +6025,26 @@ UID:16166
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Chair Yoga @ the Grand Center-bre
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261110T143000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261110T153000
+UID:81abf0d67006c06a76f7669593f74209@wellnesscollectivemoab.com
+DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
+  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
+ ctive yoga instructors. Each teacher brings their own style and expertise\
+ , while sharing a common focus on safety\, choice\, and ease in the body. 
+ This class is especially supportive for older adults and anyone who prefer
+ s to stay off the floor\, has limited mobility\, uses a chair for stabilit
+ y\, or is simply looking for a calm\, nourishing way to move. All poses ar
+ e done seated or standing with the support of a chair\, so you can experie
+ nce the benefits of yoga without getting down on a mat.
+LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
@@ -6096,6 +6058,25 @@ SEQUENCE:0
 SUMMARY:Moab Tourism Advisory Board
 UID:16974
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Take Care Tuesday - Relaxing Yoga
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261110T171500
+DTEND;TZID=MST;VALUE=DATE-TIME:20261110T181500
+UID:8f3d34bfedc2e434bcf372d0b39748d7@wellnesscollectivemoab.com
+DESCRIPTION:Make space to slow down with Take Care Tuesday\, a weekly rota
+ ting class centered around rest and relaxation. Each facilitator brings th
+ eir own style and gifts\, offering calming yoga along with special element
+ s such as sound baths\, Reiki\, massage\, meditation\, and other restorati
+ ve practices. Whether you come to stretch\, settle your nervous system\, o
+ r simply enjoy a peaceful evening in community\, each class offers somethi
+ ng a little different and supportive. Open to all levels. Come as you are.
+  Rest is welcome here.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -7488,7 +7469,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260905T093119Z
+DTSTAMP:20260906T093113Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st

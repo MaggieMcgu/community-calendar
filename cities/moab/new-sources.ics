@@ -7,18 +7,6 @@ X-WR-CALNAME:Moab New Sources
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/red-cliffs-cecile-salvant/"}
-X-SOURCE-ID:moab_music_festival
-SUMMARY:Cécile McLorin Salvant
-DTSTART;VALUE=DATE-TIME:20260906T000000
-DTEND;VALUE=DATE-TIME:20260906T000000
-UID:caba0e83f8c7ef30fc88947acdfb1a30@moabmusicfest.org
-DESCRIPTION:
-LOCATION:Red Cliffs Lodge\, 
-URL:https://moabmusicfest.org/events/red-cliffs-cecile-salvant/
-X-SOURCE:Moab Music Festival
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/rmp-community-concert-2026/"}
 X-SOURCE-ID:moab_music_festival
 SUMMARY:Rocky Mountain Power<br>Community Concert
@@ -71,10 +59,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Chair Yoga @ the Grand Center-bre
+SUMMARY:Chair Yoga @ the Grand Center-Sam
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260908T143000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260908T153000
-UID:2dec3d8f3b720268a64132370edcc803@wellnesscollectivemoab.com
+UID:86123b31db32c95acd0886f1a99188f3@wellnesscollectivemoab.com
 DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
   for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
  ctive yoga instructors. Each teacher brings their own style and expertise\
@@ -91,10 +79,10 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Take Care Tuesday - Relaxing Yoga with Sam
+SUMMARY:Take Care Tuesday - Relaxing Yoga with Bre
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260908T171500
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260908T181500
-UID:7834660206baa229621b199ae4201f07@wellnesscollectivemoab.com
+UID:1bcc6af7d0856b7dd7636feaec1b2076@wellnesscollectivemoab.com
 DESCRIPTION:Make space to slow down with Take Care Tuesday\, a weekly rota
  ting class centered around rest and relaxation. Each facilitator brings th
  eir own style and gifts\, offering calming yoga along with special element
@@ -103,6 +91,24 @@ DESCRIPTION:Make space to slow down with Take Care Tuesday\, a weekly rota
  r simply enjoy a peaceful evening in community\, each class offers somethi
  ng a little different and supportive. Open to all levels. Come as you are.
   Rest is welcome here.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Yoga for Grand County EMS
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260908T183000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260908T193000
+UID:dd6a2900605a744ba7fd35f9bf1a5a3f@wellnesscollectivemoab.com
+DESCRIPTION:Classes are specifically tailored to address the needs of firs
+ t responders\, focusing on stress injury prevention\, mindfulness promotio
+ n\, and stress relief. Open to everyone and all skill levels. You don’t 
+ need to be flexible! Bring a family member or friend if you want! Want to 
+ participate at home? Sign up for the free zoom option here https://www.wel
+ lnessliving.com/schedule/wellness_collective-4615bh?id_class_tab=1&k_class
+ =951231&k_class_tab=76330
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -125,24 +131,6 @@ DESCRIPTION:Experience the healing benefits of acupuncture in a supportive
  process so you feel at ease. Group acupuncture makes this powerful healing
   modality more accessible and affordable—while also allowing for shared 
  healing energy in community.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga for Grand County EMS
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260908T183000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260908T193000
-UID:dd6a2900605a744ba7fd35f9bf1a5a3f@wellnesscollectivemoab.com
-DESCRIPTION:Classes are specifically tailored to address the needs of firs
- t responders\, focusing on stress injury prevention\, mindfulness promotio
- n\, and stress relief. Open to everyone and all skill levels. You don’t 
- need to be flexible! Bring a family member or friend if you want! Want to 
- participate at home? Sign up for the free zoom option here https://www.wel
- lnessliving.com/schedule/wellness_collective-4615bh?id_class_tab=1&k_class
- =951231&k_class_tab=76330
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -2079,6 +2067,45 @@ DESCRIPTION:Among all forms of physical activity\, Tai Chi Ch’uan is per
  le clothing. Flat shoes\, socks\, or bare feet are ideal. Students are enc
  ouraged to train at their own pace\, and progression will vary from person
   to person.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Chair Yoga @ the Grand Center-bre
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261110T143000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261110T153000
+UID:81abf0d67006c06a76f7669593f74209@wellnesscollectivemoab.com
+DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
+  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
+ ctive yoga instructors. Each teacher brings their own style and expertise\
+ , while sharing a common focus on safety\, choice\, and ease in the body. 
+ This class is especially supportive for older adults and anyone who prefer
+ s to stay off the floor\, has limited mobility\, uses a chair for stabilit
+ y\, or is simply looking for a calm\, nourishing way to move. All poses ar
+ e done seated or standing with the support of a chair\, so you can experie
+ nce the benefits of yoga without getting down on a mat.
+LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Take Care Tuesday - Relaxing Yoga
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261110T171500
+DTEND;TZID=MST;VALUE=DATE-TIME:20261110T181500
+UID:8f3d34bfedc2e434bcf372d0b39748d7@wellnesscollectivemoab.com
+DESCRIPTION:Make space to slow down with Take Care Tuesday\, a weekly rota
+ ting class centered around rest and relaxation. Each facilitator brings th
+ eir own style and gifts\, offering calming yoga along with special element
+ s such as sound baths\, Reiki\, massage\, meditation\, and other restorati
+ ve practices. Whether you come to stretch\, settle your nervous system\, o
+ r simply enjoy a peaceful evening in community\, each class offers somethi
+ ng a little different and supportive. Open to all levels. Come as you are.
+  Rest is welcome here.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
