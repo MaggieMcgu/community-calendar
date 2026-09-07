@@ -10,49 +10,6 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17262
-DTEND;VALUE=DATE:20260906
-DTSTAMP;TZID=America/Denver:20260827T175448
-DTSTART;VALUE=DATE:20260906
-LAST-MODIFIED;TZID=America/Denver:20260827T175448
-LOCATION:OSTARC Facilities > Soccer Field 2 - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:SOCCER FIELD #2 CLOSED WHILE CONSTUCTION IS IN PROGRESS - AUTHORIZE
- D PERSONNEL ONLY!
-UID:17262
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16101
-DTEND;TZID=America/Denver:20260906T200000
-DTSTAMP;TZID=America/Denver:20260112T142328
-DTSTART;TZID=America/Denver:20260906T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142328
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
-UID:16101
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Moab Music Festival": "https://moabmusicfest.org/events/rmp-community-concert-2026/"}
-X-SOURCE-ID:moab_music_festival
-SUMMARY:Rocky Mountain Power<br>Community Concert
-DTSTART;VALUE=DATE-TIME:20260907T000000
-DTEND;VALUE=DATE-TIME:20260907T000000
-UID:ccd84bd74bd52de1bdde365c74884d49@moabmusicfest.org
-DESCRIPTION:
-LOCATION:Old City Park\, 
-URL:https://moabmusicfest.org/events/rmp-community-concert-2026/
-X-SOURCE:Moab Music Festival
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17263
 DTEND;VALUE=DATE:20260907
 DTSTAMP;TZID=America/Denver:20260827T175448
@@ -252,7 +209,7 @@ URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailp
 DTSTART;TZID=America/Denver:20260908T150000
 DTEND;TZID=America/Denver:20260908T200000
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20261107T065959Z;BYDAY=TU,WE,TH,FR
-DTSTAMP:20260906T093113Z
+DTSTAMP:20260907T093145Z
 UID:4s4oo1fdianjov78j6p3def4pg@google.com
 CREATED:20260903T193153Z
 LAST-MODIFIED:20260903T193154Z
@@ -307,6 +264,20 @@ UID:17200
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/soccer/girls/match/beaver-vs-grand-county-moab/9-8-2026/?c=bc227386-fbed-4546-9149-b27451e33845"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls Varsity Soccer @ Beaver
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260908T160000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260908T174500
+UID:099b4b4c1ad329a7e5df492ba668123d@maxpreps.com
+DESCRIPTION:Girls Varsity Soccer\nThe Grand County varsity soccer team has
+  an away conference match @  Beaver (UT) on Tuesday\, September 8 @ 4p.
+LOCATION:Beaver High School
+URL:https://www.maxpreps.com/ut/soccer/girls/match/beaver-vs-grand-county-
+ moab/9-8-2026/?c=bc227386-fbed-4546-9149-b27451e33845
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -324,6 +295,20 @@ DESCRIPTION:Make space to slow down with Take Care Tuesday\, a weekly rota
   Rest is welcome here.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/soccer/girls/match/beaver-vs-grand-county-moab/jv/9-8-2026/?c=95c22d63-f401-410e-b150-d858e346ff7a"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls JV Soccer @ Beaver
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260908T173000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260908T191500
+UID:35017a5e9852b99c7e6dcc956693b301@maxpreps.com
+DESCRIPTION:Girls JV Soccer\nThe Grand County JV soccer team has an away c
+ onference match @  Beaver (UT) on Tuesday\, September 8 @ 5:30p.
+LOCATION:Beaver High School
+URL:https://www.maxpreps.com/ut/soccer/girls/match/beaver-vs-grand-county-
+ moab/jv/9-8-2026/?c=95c22d63-f401-410e-b150-d858e346ff7a
+X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab City Council": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"}
@@ -344,24 +329,6 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga for Grand County EMS
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260908T183000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260908T193000
-UID:dd6a2900605a744ba7fd35f9bf1a5a3f@wellnesscollectivemoab.com
-DESCRIPTION:Classes are specifically tailored to address the needs of firs
- t responders\, focusing on stress injury prevention\, mindfulness promotio
- n\, and stress relief. Open to everyone and all skill levels. You don’t 
- need to be flexible! Bring a family member or friend if you want! Want to 
- participate at home? Sign up for the free zoom option here https://www.wel
- lnessliving.com/schedule/wellness_collective-4615bh?id_class_tab=1&k_class
- =951231&k_class_tab=76330
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
 SUMMARY:Acupuncture with Rob
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20260908T183000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20260908T193000
@@ -377,6 +344,24 @@ DESCRIPTION:Experience the healing benefits of acupuncture in a supportive
  process so you feel at ease. Group acupuncture makes this powerful healing
   modality more accessible and affordable—while also allowing for shared 
  healing energy in community.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Yoga for Grand County EMS
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260908T183000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260908T193000
+UID:dd6a2900605a744ba7fd35f9bf1a5a3f@wellnesscollectivemoab.com
+DESCRIPTION:Classes are specifically tailored to address the needs of firs
+ t responders\, focusing on stress injury prevention\, mindfulness promotio
+ n\, and stress relief. Open to everyone and all skill levels. You don’t 
+ need to be flexible! Bring a family member or friend if you want! Want to 
+ participate at home? Sign up for the free zoom option here https://www.wel
+ lnessliving.com/schedule/wellness_collective-4615bh?id_class_tab=1&k_class
+ =951231&k_class_tab=76330
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -625,6 +610,50 @@ UID:17141
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/soccer/girls/match/grand-county-moab-vs-san-juan-blanding/9-10-2026/?c=538dc773-7270-42a0-85f7-a8c85a13c532"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:San Juan Girls Varsity Soccer @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260910T160000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260910T174500
+UID:e935a6a0af486ad04fb742a65aad39e3@maxpreps.com
+DESCRIPTION:Girls Varsity Soccer\nThe San Juan varsity soccer team has an 
+ away conference match @  Grand County (Moab\, UT) on Thursday\, September 
+ 10 @ 4p.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/ut/soccer/girls/match/grand-county-moab-vs-sa
+ n-juan-blanding/9-10-2026/?c=538dc773-7270-42a0-85f7-a8c85a13c532
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-kanab/freshman/9-10-2026/?c=e76c8953-3da0-4f89-90cd-f0f4fbdbdc58"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls Freshman Volleyball @ Kanab
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260910T160000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260910T170000
+UID:289ca6879e0da1f9762c3d13b988c01a@maxpreps.com
+DESCRIPTION:Girls Freshman Volleyball\nThe Grand County freshman volleybal
+ l team has an away conference match @  Kanab (UT) on Thursday\, September 
+ 10 @ 4p.
+LOCATION:Kanab High School
+URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-kana
+ b/freshman/9-10-2026/?c=e76c8953-3da0-4f89-90cd-f0f4fbdbdc58
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-kanab/jv/9-10-2026/?c=2df2406d-9186-4576-bb20-866884f14a4d"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls JV Volleyball @ Kanab
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260910T171500
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260910T181500
+UID:432546db5dcf88052cf895b04a9fb586@maxpreps.com
+DESCRIPTION:Girls JV Volleyball\nThe Grand County JV volleyball team has a
+ n away conference match @  Kanab (UT) on Thursday\, September 10 @ 5:15p.
+LOCATION:Kanab High School
+URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-kana
+ b/jv/9-10-2026/?c=2df2406d-9186-4576-bb20-866884f14a4d
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -655,6 +684,20 @@ UID:17322
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/soccer/girls/match/grand-county-moab-vs-san-juan-blanding/jv/9-10-2026/?c=b5e85337-a52b-447d-8505-84af73af929e"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:San Juan Girls JV Soccer @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260910T180000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260910T194500
+UID:23da240dcc1bf06c8720df8ba37106df@maxpreps.com
+DESCRIPTION:Girls JV Soccer\nThe San Juan JV soccer team has an away confe
+ rence match @  Grand County (Moab\, UT) on Thursday\, September 10 @ 6p.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/ut/soccer/girls/match/grand-county-moab-vs-sa
+ n-juan-blanding/jv/9-10-2026/?c=b5e85337-a52b-447d-8505-84af73af929e
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab City Council": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"}
 X-SOURCE-ID:moab_city_council
 X-SOURCE:Moab City Council
@@ -683,6 +726,21 @@ SEQUENCE:0
 SUMMARY:Soccer Practice Field 1 6pm-7:30pm U14
 UID:17234
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-kanab/9-10-2026/?c=18c8c2d5-8c1f-4ff5-b80e-0ebfa85282f0"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls Varsity Volleyball @ Kanab
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260910T183000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260910T193000
+UID:bcdd9f66cf4be91c9024a6c029557e3e@maxpreps.com
+DESCRIPTION:Girls Varsity Volleyball\nThe Grand County varsity volleyball 
+ team has an away conference match @  Kanab (UT) on Thursday\, September 10
+  @ 6:30p.
+LOCATION:Kanab High School
+URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-kana
+ b/9-10-2026/?c=18c8c2d5-8c1f-4ff5-b80e-0ebfa85282f0
+X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
@@ -1011,7 +1069,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260913T180000Z
 DTEND:20260913T220000Z
-DTSTAMP:20260906T093113Z
+DTSTAMP:20260907T093145Z
 UID:6ehd5d7crhlk7n4e5jc2bhjrm9@google.com
 CREATED:20260831T222825Z
 LAST-MODIFIED:20260831T222826Z
@@ -4900,7 +4958,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260906T093113Z
+DTSTAMP:20260907T093145Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -7469,7 +7527,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260906T093113Z
+DTSTAMP:20260907T093145Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
