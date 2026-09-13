@@ -2687,42 +2687,4 @@ SUMMARY:SOCCER FIELD #2 CLOSED WHILE CONSTUCTION IS IN PROGRESS - AUTHORIZE
 UID:17269
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17197
-DTEND;TZID=America/Denver:20260912T220000
-DTSTAMP;TZID=America/Denver:20260825T081940
-DTSTART;TZID=America/Denver:20260912T160000
-LAST-MODIFIED;TZID=America/Denver:20260825T081940
-LOCATION:OSTARC Facilities > Softball Field 1 - 3641 S Hwy 191  Moab UT 845
- 32
-SEQUENCE:0
-SUMMARY:Moab Heat vs. Monticello Scrimmage Field #1 4pm-10pm
-UID:17197
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16107
-DTEND;TZID=America/Denver:20260912T200000
-DTSTAMP;TZID=America/Denver:20260112T142328
-DTSTART;TZID=America/Denver:20260912T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142328
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
-UID:16107
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17268
-DTEND;VALUE=DATE:20260912
-DTSTAMP;TZID=America/Denver:20260827T175448
-DTSTART;VALUE=DATE:20260912
-LAST-MODIFIED;TZID=America/Denver:20260827T175448
-LOCATION:OSTARC Facilities > Soccer Field 2 - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:SOCCER FIELD #2 CLOSED WHILE CONSTUCTION IS IN PROGRESS - AUTHORIZE
- D PERSONNEL ONLY!
-UID:17268
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
 END:VCALENDAR
