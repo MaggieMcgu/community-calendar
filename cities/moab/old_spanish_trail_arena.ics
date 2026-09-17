@@ -2551,31 +2551,6 @@ UID:17273
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15035
-DTEND;TZID=America/Denver:20260916T210000
-DTSTAMP;TZID=America/Denver:20250619T120325
-DTSTART;TZID=America/Denver:20260916T190000
-LAST-MODIFIED;TZID=America/Denver:20250619T120325
-LOCATION:OSTARC Facilities > Conference Rm 1 - 3641 S Hwy 191  Moab UT 8453
- 2
-SEQUENCE:0
-SUMMARY:Recreation Board (GCRSSD) Meeting - OSTA Conference Room 7PM-9PM
-UID:15035
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17236
-DTEND;TZID=America/Denver:20260916T193000
-DTSTAMP;TZID=America/Denver:20260827T174929
-DTSTART;TZID=America/Denver:20260916T180000
-LAST-MODIFIED;TZID=America/Denver:20260827T174929
-LOCATION:OSTARC Facilities > Soccer Field 1 - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Soccer Practice Field 1 6pm-7:30pm U14
-UID:17236
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=13581
 DTEND;VALUE=DATE:20260920
 DTSTAMP;TZID=America/Denver:20260623T084859
@@ -2585,19 +2560,6 @@ LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Trail Fest - CANCELED
 UID:13581
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17272
-DTEND;VALUE=DATE:20260916
-DTSTAMP;TZID=America/Denver:20260827T175448
-DTSTART;VALUE=DATE:20260916
-LAST-MODIFIED;TZID=America/Denver:20260827T175448
-LOCATION:OSTARC Facilities > Soccer Field 2 - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:SOCCER FIELD #2 CLOSED WHILE CONSTUCTION IS IN PROGRESS - AUTHORIZE
- D PERSONNEL ONLY!
-UID:17272
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 END:VCALENDAR
