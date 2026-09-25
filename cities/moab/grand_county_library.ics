@@ -614,9 +614,9 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16474
 DTEND;TZID=America/Denver:20261107T235900
-DTSTAMP;TZID=America/Denver:20260225T092456
+DTSTAMP;TZID=America/Denver:20260924T114219
 DTSTART;TZID=America/Denver:20261107T103000
-LAST-MODIFIED;TZID=America/Denver:20260225T092456
+LAST-MODIFIED;TZID=America/Denver:20260924T114219
 LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Musical Story Hour
@@ -837,6 +837,18 @@ LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Toddler Time
 UID:17353
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17418
+DTEND;TZID=America/Denver:20261027T190000
+DTSTAMP;TZID=America/Denver:20260924T114336
+DTSTART;TZID=America/Denver:20261027T180000
+LAST-MODIFIED;TZID=America/Denver:20260924T114336
+LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Bats with Miss Linda
+UID:17418
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
@@ -1677,47 +1689,6 @@ LOCATION:<p>Castle Valley Library Branch</p> -   Moab UT 84532
 SEQUENCE:0
 SUMMARY:Castle Valley Book Club
 UID:9059
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:The Beaver Believers is an award-winning feature documentary sh
- aring the urgent yet whimsical story of an unlikely cadre of activists - f
- ive scientists and a sassy\, spicy hairdresser - who share a common vision
- .  They’re all working to restore the North American Beaver\, that most 
- industrious\, ingenious\, bucktoothed engineer\, to the watersheds of the 
- American West.   https://grandcountyutah.net/calendar.aspx?EID=17109
-DTEND;TZID=America/Denver:20260924T210000
-DTSTAMP;TZID=America/Denver:20260915T112341
-DTSTART;TZID=America/Denver:20260924T190000
-LAST-MODIFIED;TZID=America/Denver:20260915T112341
-LOCATION:<p>Star Hall</p> - 159 E Center St.   Moab UT 84532
-SEQUENCE:0
-SUMMARY:Moab Festival of Science Movie Night: "The Beaver Believers"
-UID:17109
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17155
-DTEND;TZID=America/Denver:20260924T170000
-DTSTAMP;TZID=America/Denver:20260828T090922
-DTSTART;TZID=America/Denver:20260924T150000
-LAST-MODIFIED;TZID=America/Denver:20260828T090922
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:17155
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17214
-DTEND;TZID=America/Denver:20260924T170000
-DTSTAMP;TZID=America/Denver:20260826T114559
-DTSTART;TZID=America/Denver:20260924T140000
-LAST-MODIFIED;TZID=America/Denver:20260826T114559
-LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Makerspace
-UID:17214
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 END:VCALENDAR
