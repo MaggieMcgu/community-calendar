@@ -7,31 +7,6 @@ X-WR-CALNAME:Moab New Sources
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Qi-Gong with Cody
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260926T080000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260926T090000
-UID:941f99c7f02a8d1058946cb5415feac4@wellnesscollectivemoab.com
-DESCRIPTION:Zhineng Qigong is a powerful mind-body practice rooted in anci
- ent Chinese healing traditions and adapted for modern times. This gentle y
- et profound system blends slow movement\, sound\, visualization\, and medi
- tation to help individuals cultivate inner peace\, restore balance\, and e
- nhance vitality. By consciously connecting with the energy of life—what 
- some may call qi or universal life force—participants are invited into a
-  process of holistic healing: physically\, emotionally\, and spiritually. 
- One of the most accessible forms of Qigong\, Zhineng emphasizes connection
-  over complexity. Its principles can be embraced by people of all ages\, b
- ackgrounds\, and physical abilities. Cody teaches from a place of lived ex
- perience\, having found this practice deeply healing and transformative in
-  his own journey. His classes focus on cultivating shared energy through g
- roup practice\, empowering individuals to tap into their innate wisdom and
-  live with greater purpose and presence.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-ID:moab_arts
 SUMMARY:Picnic Theater
 DTSTART;TZID="UTC-06:00";VALUE=DATE-TIME:20260927T143000
@@ -1930,6 +1905,43 @@ DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
  d props provided. Class suitable for all bodies and skill levels. Class pr
  icing is by donation (recommended $10 per class). Sliding scale pricing av
  ailable options! No one is turned away.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Dharma Recovery
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261203T183000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261203T193000
+UID:3f2e893feb1e697e6eeeb84b8b324b12@wellnesscollectivemoab.com
+DESCRIPTION:Join Tom for Dharma Recovery-a peer-led community space that i
+ s unified by our trust in the potential of each of us to recover and find 
+ freedom from the suffering of addiction. We believe that the traditional B
+ uddhist teachings\, often referred to as the Dharma\, offer a powerful app
+ roach to healing from addiction and living a life of true freedom. Class i
+ s free.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Flow into Friday Yoga
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261204T083000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261204T093000
+UID:c7a3efbf38942a62f957dd52eb307948@wellnesscollectivemoab.com
+DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
+ . Start your Friday with this all-levels yoga class designed to help you a
+ waken the body\, center the mind\, and ease into your day with intention. 
+ We’ll begin with slow\, fluid movement to energize and open\, followed b
+ y longer-held stretches and restorative postures to help you release tensi
+ on and reconnect with yourself. This class is inclusive\, beginner-friendl
+ y\, and rooted in breath\, balance\, and compassionate movement. Whether y
+ ou’re unwinding from your week or preparing for the weekend ahead\, Frid
+ ay Flow is a chance to show up just as you are.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT

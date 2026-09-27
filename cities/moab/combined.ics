@@ -7,76 +7,6 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15475
-DTEND;VALUE=DATE:20260927
-DTSTAMP;TZID=America/Denver:20251002T072902
-DTSTART;VALUE=DATE:20260926
-LAST-MODIFIED;TZID=America/Denver:20251002T072902
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Barrels 4 Bucks Barrel Racing - Indoor Arena
-UID:15475
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Qi-Gong with Cody
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20260926T080000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20260926T090000
-UID:941f99c7f02a8d1058946cb5415feac4@wellnesscollectivemoab.com
-DESCRIPTION:Zhineng Qigong is a powerful mind-body practice rooted in anci
- ent Chinese healing traditions and adapted for modern times. This gentle y
- et profound system blends slow movement\, sound\, visualization\, and medi
- tation to help individuals cultivate inner peace\, restore balance\, and e
- nhance vitality. By consciously connecting with the energy of life—what 
- some may call qi or universal life force—participants are invited into a
-  process of holistic healing: physically\, emotionally\, and spiritually. 
- One of the most accessible forms of Qigong\, Zhineng emphasizes connection
-  over complexity. Its principles can be embraced by people of all ages\, b
- ackgrounds\, and physical abilities. Cody teaches from a place of lived ex
- perience\, having found this practice deeply healing and transformative in
-  his own journey. His classes focus on cultivating shared energy through g
- roup practice\, empowering individuals to tap into their innate wisdom and
-  live with greater purpose and presence.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17061
-DTEND;TZID=America/Denver:20260926T235900
-DTSTAMP;TZID=America/Denver:20260828T095636
-DTSTART;TZID=America/Denver:20260926T103000
-LAST-MODIFIED;TZID=America/Denver:20260828T095636
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:STEAM Storytime: The Water Cycle
-UID:17061
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17157
-DTEND;TZID=America/Denver:20260926T160000
-DTSTAMP;TZID=America/Denver:20260828T091010
-DTSTART;TZID=America/Denver:20260926T140000
-LAST-MODIFIED;TZID=America/Denver:20260828T091010
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:17157
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-ID:moab_arts
 SUMMARY:Picnic Theater
 DTSTART;TZID="UTC-06:00";VALUE=DATE-TIME:20260927T143000
@@ -96,7 +26,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260927T190000Z
 DTEND:20260927T210000Z
-DTSTAMP:20260926T093643Z
+DTSTAMP:20260927T093128Z
 UID:232ec5qp2nvk48aup96lerorsl@google.com
 CREATED:20260909T215334Z
 DESCRIPTION:Reina Stewart
@@ -253,7 +183,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260928T210000Z
 DTEND:20260928T230000Z
-DTSTAMP:20260926T093643Z
+DTSTAMP:20260927T093128Z
 UID:6ii4t5t6kmeiocpfc6hkj2ic2r@google.com
 CREATED:20260915T160649Z
 DESCRIPTION:<b><i><u>PAID</u></i></b>
@@ -748,7 +678,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261004T190000Z
 DTEND:20261004T210000Z
-DTSTAMP:20260926T093643Z
+DTSTAMP:20260927T093128Z
 UID:1g7csmsbeq4ilfmpenbve1dcb9@google.com
 CREATED:20260909T215400Z
 DESCRIPTION:Reina Stewart
@@ -1414,7 +1344,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261011T190000Z
 DTEND:20261011T210000Z
-DTSTAMP:20260926T093643Z
+DTSTAMP:20260927T093128Z
 UID:5klglgo56h4hput4mllukje32o@google.com
 CREATED:20260909T215419Z
 DESCRIPTION:Reina Stewart
@@ -2031,7 +1961,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261018T190000Z
 DTEND:20261018T210000Z
-DTSTAMP:20260926T093643Z
+DTSTAMP:20260927T093128Z
 UID:692s469ovj8f2ead99rvf3eelf@google.com
 CREATED:20260909T215452Z
 DESCRIPTION:Reina Stewart
@@ -2663,7 +2593,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261023T220000Z
 DTEND:20261024T020000Z
-DTSTAMP:20260926T093643Z
+DTSTAMP:20260927T093128Z
 UID:5tbjq53m6k5b7lrti6gc6doqpm@google.com
 CREATED:20260916T181824Z
 DESCRIPTION:Miranda Custar - Rental for spooky aerobics class from the pool
@@ -2680,7 +2610,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260926T093643Z
+DTSTAMP:20260927T093128Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -3302,7 +3232,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261030T214500Z
 DTEND:20261031T040000Z
-DTSTAMP:20260926T093643Z
+DTSTAMP:20260927T093128Z
 UID:0bek9tiisnl9mft61htoj631lk@google.com
 CREATED:20260923T201722Z
 LAST-MODIFIED:20260923T201722Z
@@ -5747,6 +5677,23 @@ LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Dharma Recovery
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261203T183000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261203T193000
+UID:3f2e893feb1e697e6eeeb84b8b324b12@wellnesscollectivemoab.com
+DESCRIPTION:Join Tom for Dharma Recovery-a peer-led community space that i
+ s unified by our trust in the potential of each of us to recover and find 
+ freedom from the suffering of addiction. We believe that the traditional B
+ uddhist teachings\, often referred to as the Dharma\, offer a powerful app
+ roach to healing from addiction and living a life of true freedom. Class i
+ s free.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -5760,6 +5707,26 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm  Indoor Arena (Access Code Required)
 UID:16190
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Flow into Friday Yoga
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261204T083000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261204T093000
+UID:c7a3efbf38942a62f957dd52eb307948@wellnesscollectivemoab.com
+DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
+ . Start your Friday with this all-levels yoga class designed to help you a
+ waken the body\, center the mind\, and ease into your day with intention. 
+ We’ll begin with slow\, fluid movement to energize and open\, followed b
+ y longer-held stretches and restorative postures to help you release tensi
+ on and reconnect with yourself. This class is inclusive\, beginner-friendl
+ y\, and rooted in breath\, balance\, and compassionate movement. Whether y
+ ou’re unwinding from your week or preparing for the weekend ahead\, Frid
+ ay Flow is a chance to show up just as you are.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
@@ -6794,7 +6761,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260926T093643Z
+DTSTAMP:20260927T093128Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
