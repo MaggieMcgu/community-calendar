@@ -7,18 +7,6 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-ID:moab_arts
-SUMMARY:Picnic Theater
-DTSTART;TZID="UTC-06:00";VALUE=DATE-TIME:20260927T143000
-DTEND;TZID="UTC-06:00";VALUE=DATE-TIME:20260927T143000
-UID:09d33b87b2a57a1467042bfaa4ff824d@moabarts.org
-DESCRIPTION:Join us for a showing of "When We Were Boats" a play written a
- nd directed by Sam Van Wetter paired with themed bits from Confluence Cuis
- ine
-LOCATION:Rotary Park Amphitheater\, 680 S Mill Creek Dr\, Moab\, UT 84532
-X-SOURCE:Moab Arts & Recreation Center
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
 X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
 X-SOURCE-ID:center_street
@@ -26,7 +14,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260927T190000Z
 DTEND:20260927T210000Z
-DTSTAMP:20260927T093128Z
+DTSTAMP:20260928T093538Z
 UID:232ec5qp2nvk48aup96lerorsl@google.com
 CREATED:20260909T215334Z
 DESCRIPTION:Reina Stewart
@@ -183,7 +171,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20260928T210000Z
 DTEND:20260928T230000Z
-DTSTAMP:20260927T093128Z
+DTSTAMP:20260928T093538Z
 UID:6ii4t5t6kmeiocpfc6hkj2ic2r@google.com
 CREATED:20260915T160649Z
 DESCRIPTION:<b><i><u>PAID</u></i></b>
@@ -274,6 +262,36 @@ UID:17203
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/soccer/girls/match/grand-county-moab-vs-south-sevier-monroe/9-29-2026/?c=d68ead9c-f83d-4d98-afaa-d503afd0ffcf"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls Varsity Soccer @ South Sevier
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260929T160000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260929T174500
+UID:140b29e45d58effa4708ccd4ab040c08@maxpreps.com
+DESCRIPTION:Girls Varsity Soccer\nThe Grand County varsity soccer team has
+  an away conference match @  South Sevier (Monroe\, UT) on Tuesday\, Septe
+ mber 29 @ 4p.
+LOCATION:South Sevier High School
+URL:https://www.maxpreps.com/ut/soccer/girls/match/grand-county-moab-vs-so
+ uth-sevier-monroe/9-29-2026/?c=d68ead9c-f83d-4d98-afaa-d503afd0ffcf
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/football/game/grand-county-moab-vs-monticello/jv/9-29-2026/?c=0ec552de-766e-4af7-b107-6682e8af7a29"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Monticello JV Football @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260929T170000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260929T190000
+UID:e360a4a5a34af2f8835b1ac856a5975f@maxpreps.com
+DESCRIPTION:Boys JV Football\nThe Monticello JV football team has an away 
+ non-conference game @  Grand County (Moab\, UT) on Tuesday\, September 29 
+ @ 5p.
+LOCATION:Grand County High School\, 608 S 400 E\, Moab\, UT 84532
+URL:https://www.maxpreps.com/ut/football/game/grand-county-moab-vs-montice
+ llo/jv/9-29-2026/?c=0ec552de-766e-4af7-b107-6682e8af7a29
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -291,6 +309,21 @@ DESCRIPTION:Make space to slow down with Take Care Tuesday\, a weekly rota
   Rest is welcome here.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/soccer/girls/match/grand-county-moab-vs-south-sevier-monroe/jv/9-29-2026/?c=65c1ed4a-b4ae-4700-8b7c-4a8b9775b3e6"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls JV Soccer @ South Sevier
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260929T173000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260929T191500
+UID:1f3700d6b214f22a08d1f74ae4174211@maxpreps.com
+DESCRIPTION:Girls JV Soccer\nThe Grand County JV soccer team has an away c
+ onference match @  South Sevier (Monroe\, UT) on Tuesday\, September 29 @ 
+ 5:30p.
+LOCATION:South Sevier High School
+URL:https://www.maxpreps.com/ut/soccer/girls/match/grand-county-moab-vs-so
+ uth-sevier-monroe/jv/9-29-2026/?c=65c1ed4a-b4ae-4700-8b7c-4a8b9775b3e6
+X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -375,6 +408,36 @@ UID:17161
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-south-sevier-monroe/freshman/9-30-2026/?c=6858b70e-f6fe-4ad6-9435-ba55813571ed"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls Freshman Volleyball @ South Sevier
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260930T160000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260930T170000
+UID:1b95f20e1b86a804d7607606d158b0cb@maxpreps.com
+DESCRIPTION:Girls Freshman Volleyball\nThe Grand County freshman volleybal
+ l team has an away conference match @  South Sevier (Monroe\, UT) on Wedne
+ sday\, September 30 @ 4p.
+LOCATION:South Sevier High School
+URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-sout
+ h-sevier-monroe/freshman/9-30-2026/?c=6858b70e-f6fe-4ad6-9435-ba55813571ed
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-south-sevier-monroe/jv/9-30-2026/?c=f303f98e-1e20-4445-9669-cebf96d71d04"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls JV Volleyball @ South Sevier
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260930T171500
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260930T181500
+UID:f7dbc80357492760349a6fdd3873d068@maxpreps.com
+DESCRIPTION:Girls JV Volleyball\nThe Grand County JV volleyball team has a
+ n away conference match @  South Sevier (Monroe\, UT) on Wednesday\, Septe
+ mber 30 @ 5:15p.
+LOCATION:South Sevier High School
+URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-sout
+ h-sevier-monroe/jv/9-30-2026/?c=f303f98e-1e20-4445-9669-cebf96d71d04
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -407,6 +470,21 @@ SEQUENCE:0
 SUMMARY:Soccer Practice Field 1 6pm-7:30pm U14
 UID:17242
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-south-sevier-monroe/9-30-2026/?c=130d722d-d683-4e23-9431-56219fdb996f"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Girls Varsity Volleyball @ South Sevier
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20260930T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20260930T200000
+UID:ceb2f8b73e68cb3ff3daf2d121cd9535@maxpreps.com
+DESCRIPTION:Girls Varsity Volleyball\nThe Grand County varsity volleyball 
+ team has an away conference match @  South Sevier (Monroe\, UT) on Wednesd
+ ay\, September 30 @ 7p.
+LOCATION:South Sevier High School
+URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-sout
+ h-sevier-monroe/9-30-2026/?c=130d722d-d683-4e23-9431-56219fdb996f
+X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -488,6 +566,36 @@ UID:17162
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-parowan/freshman/10-1-2026/?c=aa0d9e26-0602-44e7-bc31-55a5ee15829b"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Parowan Girls Freshman Volleyball @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20261001T160000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20261001T170000
+UID:8bf9402a76fdbc211595be0e67d964fb@maxpreps.com
+DESCRIPTION:Girls Freshman Volleyball\nThe Parowan freshman volleyball tea
+ m has an away conference match @  Grand County (Moab\, UT) on Thursday\, O
+ ctober 1 @ 4p.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-paro
+ wan/freshman/10-1-2026/?c=aa0d9e26-0602-44e7-bc31-55a5ee15829b
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/soccer/girls/match/beaver-vs-grand-county-moab/10-1-2026/?c=eaace8da-57c4-4147-a246-63a443944c2f"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Beaver Girls Varsity Soccer @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20261001T160000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20261001T174500
+UID:0d3e92de03baf4feeae1975f7f30563b@maxpreps.com
+DESCRIPTION:Girls Varsity Soccer\nThe Beaver varsity soccer team has an aw
+ ay conference match @  Grand County (Moab\, UT) on Thursday\, October 1 @ 
+ 4p.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/ut/soccer/girls/match/beaver-vs-grand-county-
+ moab/10-1-2026/?c=eaace8da-57c4-4147-a246-63a443944c2f
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -503,6 +611,35 @@ LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-parowan/jv/10-1-2026/?c=8e2bf7a8-39de-4250-a4e7-00144f3cdf6a"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Parowan Girls JV Volleyball @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20261001T173000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20261001T183000
+UID:0e418bd2b1093cf0820969e8e57b50fa@maxpreps.com
+DESCRIPTION:Girls JV Volleyball\nThe Parowan JV volleyball team has an awa
+ y conference match @  Grand County (Moab\, UT) on Thursday\, October 1 @ 5
+ :30p.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-paro
+ wan/jv/10-1-2026/?c=8e2bf7a8-39de-4250-a4e7-00144f3cdf6a
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/soccer/girls/match/beaver-vs-grand-county-moab/jv/10-1-2026/?c=670cbf0f-f1bf-4b3b-a9ed-5d9baf88c504"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Beaver Girls JV Soccer @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20261001T180000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20261001T194500
+UID:749d03af5e4413c302682604856934e6@maxpreps.com
+DESCRIPTION:Girls JV Soccer\nThe Beaver JV soccer team has an away confere
+ nce match @  Grand County (Moab\, UT) on Thursday\, October 1 @ 6p.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/ut/soccer/girls/match/beaver-vs-grand-county-
+ moab/jv/10-1-2026/?c=670cbf0f-f1bf-4b3b-a9ed-5d9baf88c504
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -516,6 +653,21 @@ SEQUENCE:0
 SUMMARY:Soccer Practice Field 1 6pm-7:30pm U14
 UID:17243
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-parowan/10-1-2026/?c=5ca8892e-53df-45f0-82bd-996bd67dea01"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Parowan Girls Varsity Volleyball @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20261001T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20261001T200000
+UID:ad5fbfca22a8b4dc7c688213c2ca94a7@maxpreps.com
+DESCRIPTION:Girls Varsity Volleyball\nThe Parowan varsity volleyball team 
+ has an away conference match @  Grand County (Moab\, UT) on Thursday\, Oct
+ ober 1 @ 7p.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/ut/volleyball/match/grand-county-moab-vs-paro
+ wan/10-1-2026/?c=5ca8892e-53df-45f0-82bd-996bd67dea01
+X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -556,13 +708,13 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20261002T100000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20261002T104500
-UID:66e99fb618a8b03bbc109b9a0abaf53d@wellnesscollectivemoab.com
+UID:d0417b7c90ff8775cd67173f6f9a8dec@wellnesscollectivemoab.com
 DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
+ ity members. A free class held inside at USARA. Mats provided. Location: 1
+ 25 west 200 south #113\, Moab\, UT 84532
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -582,6 +734,21 @@ UID:17217
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-county-moab/freshman/10-2-2026/?c=bd4637a3-a6c0-460e-ae58-4fd36b624a75"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Enterprise Girls Freshman Volleyball @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20261002T140000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20261002T150000
+UID:554afcc13220129a1a34fc6a30ba616d@maxpreps.com
+DESCRIPTION:Girls Freshman Volleyball\nThe Enterprise freshman volleyball 
+ team has an away conference match @  Grand County (Moab\, UT) on Friday\, 
+ October 2 @ 2p.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-count
+ y-moab/freshman/10-2-2026/?c=bd4637a3-a6c0-460e-ae58-4fd36b624a75
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -597,6 +764,36 @@ UID:17163
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-county-moab/jv/10-2-2026/?c=73a3e50e-314c-4606-9ef9-8c36e651a5c3"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Enterprise Girls JV Volleyball @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20261002T151500
+DTEND;TZID=MDT;VALUE=DATE-TIME:20261002T161500
+UID:86053c9ac005093b1516ff49969802c1@maxpreps.com
+DESCRIPTION:Girls JV Volleyball\nThe Enterprise JV volleyball team has an 
+ away conference match @  Grand County (Moab\, UT) on Friday\, October 2 @ 
+ 3:15p.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-count
+ y-moab/jv/10-2-2026/?c=73a3e50e-314c-4606-9ef9-8c36e651a5c3
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-county-moab/10-2-2026/?c=6a94b3c1-b317-4c80-bd12-28adf16cb072"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Enterprise Girls Varsity Volleyball @ Grand County
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20261002T163000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20261002T173000
+UID:70b7832955d61c38db35c3f7cbd3e2fc@maxpreps.com
+DESCRIPTION:Girls Varsity Volleyball\nThe Enterprise varsity volleyball te
+ am has an away conference match @  Grand County (Moab\, UT) on Friday\, Oc
+ tober 2 @ 4:30p.
+LOCATION:Grand County High School
+URL:https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-count
+ y-moab/10-2-2026/?c=6a94b3c1-b317-4c80-bd12-28adf16cb072
+X-SOURCE:Grand County High School
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -610,6 +807,21 @@ SEQUENCE:0
 SUMMARY:Mid-Autumn Festival
 UID:17345
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/football/game/altamont-vs-grand-county-moab/10-2-2026/?c=488f5d33-749f-4159-8eba-6d3443306ae5"}
+X-SOURCE-ID:maxpreps_grand_county
+SUMMARY:Grand County Varsity Football @ Altamont
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20261002T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20261002T210000
+UID:7051aa03279d68c93ff571a116787f1f@maxpreps.com
+DESCRIPTION:Boys Varsity Football\nThe Grand County varsity football team 
+ has an away non-conference game @  Altamont (UT) on Friday\, October 2 @ 7
+ p.
+LOCATION:Grand County High School\, 608 S 400 E\, Moab\, UT 84532
+URL:https://www.maxpreps.com/ut/football/game/altamont-vs-grand-county-moa
+ b/10-2-2026/?c=488f5d33-749f-4159-8eba-6d3443306ae5
+X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -678,7 +890,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261004T190000Z
 DTEND:20261004T210000Z
-DTSTAMP:20260927T093128Z
+DTSTAMP:20260928T093538Z
 UID:1g7csmsbeq4ilfmpenbve1dcb9@google.com
 CREATED:20260909T215400Z
 DESCRIPTION:Reina Stewart
@@ -1197,13 +1409,13 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20261009T100000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20261009T104500
-UID:c0b86955ba8212ec11863e5599378766@wellnesscollectivemoab.com
+UID:c8a35a4314b4d33d7d3d3d6c48d295c3@wellnesscollectivemoab.com
 DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
+ ity members. A free class held inside at USARA. Mats provided. Location: 1
+ 25 west 200 south #113\, Moab\, UT 84532
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -1344,7 +1556,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261011T190000Z
 DTEND:20261011T210000Z
-DTSTAMP:20260927T093128Z
+DTSTAMP:20260928T093538Z
 UID:5klglgo56h4hput4mllukje32o@google.com
 CREATED:20260909T215419Z
 DESCRIPTION:Reina Stewart
@@ -1884,13 +2096,13 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20261016T100000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20261016T104500
-UID:2d2ea6ab96fcdcbb215fd6cde7030f14@wellnesscollectivemoab.com
+UID:f9eea5997e30b5ca7924d728d0bc1a2a@wellnesscollectivemoab.com
 DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
+ ity members. A free class held inside at USARA. Mats provided. Location: 1
+ 25 west 200 south #113\, Moab\, UT 84532
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -1961,7 +2173,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261018T190000Z
 DTEND:20261018T210000Z
-DTSTAMP:20260927T093128Z
+DTSTAMP:20260928T093538Z
 UID:692s469ovj8f2ead99rvf3eelf@google.com
 CREATED:20260909T215452Z
 DESCRIPTION:Reina Stewart
@@ -2529,13 +2741,13 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20261023T100000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20261023T104500
-UID:29600994d81e0d1ff7aa494ff25f5e38@wellnesscollectivemoab.com
+UID:4f4b3dec88c1d0b2e582e53977968386@wellnesscollectivemoab.com
 DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
+ ity members. A free class held inside at USARA. Mats provided. Location: 1
+ 25 west 200 south #113\, Moab\, UT 84532
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -2593,7 +2805,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261023T220000Z
 DTEND:20261024T020000Z
-DTSTAMP:20260927T093128Z
+DTSTAMP:20260928T093538Z
 UID:5tbjq53m6k5b7lrti6gc6doqpm@google.com
 CREATED:20260916T181824Z
 DESCRIPTION:Miranda Custar - Rental for spooky aerobics class from the pool
@@ -2610,7 +2822,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260927T093128Z
+DTSTAMP:20260928T093538Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -3170,13 +3382,13 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20261030T100000
 DTEND;TZID=MDT;VALUE=DATE-TIME:20261030T104500
-UID:07d97c3805287d311ac80492330caf42@wellnesscollectivemoab.com
+UID:f4ebf482aa72c87ce1df215c99e7007a@wellnesscollectivemoab.com
 DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
+ ity members. A free class held inside at USARA. Mats provided. Location: 1
+ 25 west 200 south #113\, Moab\, UT 84532
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -3232,7 +3444,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261030T214500Z
 DTEND:20261031T040000Z
-DTSTAMP:20260927T093128Z
+DTSTAMP:20260928T093538Z
 UID:0bek9tiisnl9mft61htoj631lk@google.com
 CREATED:20260923T201722Z
 LAST-MODIFIED:20260923T201722Z
@@ -3725,13 +3937,13 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MST;VALUE=DATE-TIME:20261106T100000
 DTEND;TZID=MST;VALUE=DATE-TIME:20261106T104500
-UID:f0a0dcb0887e2aeb645206cb8f74bef8@wellnesscollectivemoab.com
+UID:30c38bc8e6cfc957f714f36cb20d2c50@wellnesscollectivemoab.com
 DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
+ ity members. A free class held inside at USARA. Mats provided. Location: 1
+ 25 west 200 south #113\, Moab\, UT 84532
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -4319,13 +4531,13 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MST;VALUE=DATE-TIME:20261113T100000
 DTEND;TZID=MST;VALUE=DATE-TIME:20261113T104500
-UID:78181a82d1c19ca40dbf1af12eda14ed@wellnesscollectivemoab.com
+UID:59cee3eb10e8e797e967eb0d14aad45c@wellnesscollectivemoab.com
 DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
+ ity members. A free class held inside at USARA. Mats provided. Location: 1
+ 25 west 200 south #113\, Moab\, UT 84532
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -4843,13 +5055,13 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MST;VALUE=DATE-TIME:20261120T100000
 DTEND;TZID=MST;VALUE=DATE-TIME:20261120T104500
-UID:911f0fa6e0790ad9a01ec766d6a722fd@wellnesscollectivemoab.com
+UID:9d7461a3bc167f4a8323954f8e9acb3c@wellnesscollectivemoab.com
 DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
+ ity members. A free class held inside at USARA. Mats provided. Location: 1
+ 25 west 200 south #113\, Moab\, UT 84532
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -5360,13 +5572,13 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga at USARA
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MST;VALUE=DATE-TIME:20261127T100000
 DTEND;TZID=MST;VALUE=DATE-TIME:20261127T104500
-UID:6cb76bcc00d74bc2e76bc5dcb8bb6407@wellnesscollectivemoab.com
+UID:b83b3d11d1d607a2df340c714577e89e@wellnesscollectivemoab.com
 DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 2
- 3 S 100 W\, Moab\, UT 84532
+ ity members. A free class held inside at USARA. Mats provided. Location: 1
+ 25 west 200 south #113\, Moab\, UT 84532
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -5744,6 +5956,20 @@ UID:15764
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Yoga for Recovery at USARA
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261204T100000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261204T104500
+UID:66cebb3112f7a7251217eaba71cc9ddd@wellnesscollectivemoab.com
+DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
+ ity members. A free class held inside at USARA. Mats provided. Location: 1
+ 25 west 200 south #113\, Moab\, UT 84532
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-ID:moab_arts
 SUMMARY:2026 Holiday Craft Fair Vendor Registration
 DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20261204T150000
@@ -5784,6 +6010,31 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm  Indoor Arena (Access Code Required)
 UID:16191
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Qi-Gong with Cody
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261205T080000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261205T090000
+UID:80d62627c6496d077d66c81611c2290e@wellnesscollectivemoab.com
+DESCRIPTION:Zhineng Qigong is a powerful mind-body practice rooted in anci
+ ent Chinese healing traditions and adapted for modern times. This gentle y
+ et profound system blends slow movement\, sound\, visualization\, and medi
+ tation to help individuals cultivate inner peace\, restore balance\, and e
+ nhance vitality. By consciously connecting with the energy of life—what 
+ some may call qi or universal life force—participants are invited into a
+  process of holistic healing: physically\, emotionally\, and spiritually. 
+ One of the most accessible forms of Qigong\, Zhineng emphasizes connection
+  over complexity. Its principles can be embraced by people of all ages\, b
+ ackgrounds\, and physical abilities. Cody teaches from a place of lived ex
+ perience\, having found this practice deeply healing and transformative in
+  his own journey. His classes focus on cultivating shared energy through g
+ roup practice\, empowering individuals to tap into their innate wisdom and
+  live with greater purpose and presence.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -6761,7 +7012,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20260927T093128Z
+DTSTAMP:20260928T093538Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
