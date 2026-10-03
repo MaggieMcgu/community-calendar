@@ -7,55 +7,6 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16127
-DTEND;TZID=America/Denver:20261002T200000
-DTSTAMP;TZID=America/Denver:20260126T135812
-DTSTART;TZID=America/Denver:20261002T080000
-LAST-MODIFIED;TZID=America/Denver:20260126T135812
-LOCATION:Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
-UID:16127
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20261002T083000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20261002T093000
-UID:e24575eaf408e65cc85c49a01b69eb84@wellnesscollectivemoab.com
-DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
- . Start your Friday with this all-levels yoga class designed to help you a
- waken the body\, center the mind\, and ease into your day with intention. 
- We’ll begin with slow\, fluid movement to energize and open\, followed b
- y longer-held stretches and restorative postures to help you release tensi
- on and reconnect with yourself. This class is inclusive\, beginner-friendl
- y\, and rooted in breath\, balance\, and compassionate movement. Whether y
- ou’re unwinding from your week or preparing for the weekend ahead\, Frid
- ay Flow is a chance to show up just as you are.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga for Recovery at USARA
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20261002T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20261002T104500
-UID:d0417b7c90ff8775cd67173f6f9a8dec@wellnesscollectivemoab.com
-DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 1
- 25 west 200 south #113\, Moab\, UT 84532
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/used-rare-book-sale-october-2nd-3rd-11am-7pm-alley-behind-bookstore/"}
 X-SOURCE-ID:back_of_beyond
 SUMMARY:Used & Rare Book Sale
@@ -67,122 +18,6 @@ LOCATION:Alley behind Bookstore
 URL:https://backofbeyondbooks.com/happenings/used-rare-book-sale-october-2
  nd-3rd-11am-7pm-alley-behind-bookstore/
 X-SOURCE:Back of Beyond Books
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17217
-DTEND;TZID=America/Denver:20261002T170000
-DTSTAMP;TZID=America/Denver:20260826T114559
-DTSTART;TZID=America/Denver:20261002T140000
-LAST-MODIFIED;TZID=America/Denver:20260826T114559
-LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Makerspace
-UID:17217
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-county-moab/freshman/10-2-2026/?c=bd4637a3-a6c0-460e-ae58-4fd36b624a75"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Enterprise Girls Freshman Volleyball @ Grand County
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20261002T140000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20261002T150000
-UID:554afcc13220129a1a34fc6a30ba616d@maxpreps.com
-DESCRIPTION:Girls Freshman Volleyball\nThe Enterprise freshman volleyball 
- team has an away conference match @  Grand County (Moab\, UT) today @ 2p.
-LOCATION:Grand County High School
-URL:https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-count
- y-moab/freshman/10-2-2026/?c=bd4637a3-a6c0-460e-ae58-4fd36b624a75
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17163
-DTEND;TZID=America/Denver:20261002T170000
-DTSTAMP;TZID=America/Denver:20260828T091208
-DTSTART;TZID=America/Denver:20261002T150000
-LAST-MODIFIED;TZID=America/Denver:20260828T091208
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:17163
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-county-moab/jv/10-2-2026/?c=73a3e50e-314c-4606-9ef9-8c36e651a5c3"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Enterprise Girls JV Volleyball @ Grand County
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20261002T151500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20261002T161500
-UID:86053c9ac005093b1516ff49969802c1@maxpreps.com
-DESCRIPTION:Girls JV Volleyball\nThe Enterprise JV volleyball team has an 
- away conference match @  Grand County (Moab\, UT) today @ 3:15p.
-LOCATION:Grand County High School
-URL:https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-count
- y-moab/jv/10-2-2026/?c=73a3e50e-314c-4606-9ef9-8c36e651a5c3
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-county-moab/10-2-2026/?c=6a94b3c1-b317-4c80-bd12-28adf16cb072"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Enterprise Girls Varsity Volleyball @ Grand County
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20261002T163000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20261002T173000
-UID:70b7832955d61c38db35c3f7cbd3e2fc@maxpreps.com
-DESCRIPTION:Girls Varsity Volleyball\nThe Enterprise varsity volleyball te
- am has an away conference match @  Grand County (Moab\, UT) today @ 4:30p.
-LOCATION:Grand County High School
-URL:https://www.maxpreps.com/ut/volleyball/match/enterprise-vs-grand-count
- y-moab/10-2-2026/?c=6a94b3c1-b317-4c80-bd12-28adf16cb072
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17429
-DTEND;TZID=America/Denver:20261002T180000
-DTSTAMP;TZID=America/Denver:20261001T135010
-DTSTART;TZID=America/Denver:20261002T163000
-LAST-MODIFIED;TZID=America/Denver:20261001T135010
-LOCATION:OSTARC Facilities > Soccer Field 1 - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Baseball Practice - Field #1\, Moab Devils 4:30pm-6:00pm
-UID:17429
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17345
-DTEND;TZID=America/Denver:20261002T235900
-DTSTAMP;TZID=America/Denver:20260921T103714
-DTSTART;TZID=America/Denver:20261002T180000
-LAST-MODIFIED;TZID=America/Denver:20260921T103714
-LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Mid-Autumn Festival
-UID:17345
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/football/game/altamont-vs-grand-county-moab/10-2-2026/?c=488f5d33-749f-4159-8eba-6d3443306ae5"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:Grand County Varsity Football @ Altamont
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20261002T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20261002T210000
-UID:7051aa03279d68c93ff571a116787f1f@maxpreps.com
-DESCRIPTION:Boys Varsity Football\nThe Grand County varsity football team 
- has an away non-conference game @  Altamont (UT) today @ 7p.
-LOCATION:Grand County High School\, 608 S 400 E\, Moab\, UT 84532
-URL:https://www.maxpreps.com/ut/football/game/altamont-vs-grand-county-moa
- b/10-2-2026/?c=488f5d33-749f-4159-8eba-6d3443306ae5
-X-SOURCE:Grand County High School
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -251,7 +86,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261004T190000Z
 DTEND:20261004T210000Z
-DTSTAMP:20261002T093538Z
+DTSTAMP:20261003T093136Z
 UID:1g7csmsbeq4ilfmpenbve1dcb9@google.com
 CREATED:20260909T215400Z
 DESCRIPTION:Reina Stewart
@@ -596,18 +431,18 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20261007T171500
 DTEND;TZID=MDT;VALUE=DATE-TIME:20261007T181500
-UID:0aa6c31ffc3cce142ce8388bfd17645b@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
+UID:9bfde72d73f182596a7d5ce26c600c6b@wellnesscollectivemoab.com
+DESCRIPTION:Yoga for Recovery is a supportive\, accessible yoga class for 
+ anyone impacted by addiction or recovery\, including people in recovery an
+ d those affected by the substance use of others. Through gentle movement\,
+  breath\, and grounding practices\, this class offers space to reconnect w
+ ith the body\, reduce stress\, and support well-being in recovery. No yoga
+  experience is needed\, and all recovery pathways are welcome. Free and op
+ en to the community. Provided in partnership with USARA. Wednesdays | USAR
+ A 125 W 200 S\, #113
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -971,7 +806,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261011T190000Z
 DTEND:20261011T210000Z
-DTSTAMP:20261002T093538Z
+DTSTAMP:20261003T093136Z
 UID:5klglgo56h4hput4mllukje32o@google.com
 CREATED:20260909T215419Z
 DESCRIPTION:Reina Stewart
@@ -1332,18 +1167,18 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20261014T171500
 DTEND;TZID=MDT;VALUE=DATE-TIME:20261014T181500
-UID:c804cad49ad39e4951e67b9312eaa447@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
+UID:19c191f0aa722d6c8d9d6c771ac1347b@wellnesscollectivemoab.com
+DESCRIPTION:Yoga for Recovery is a supportive\, accessible yoga class for 
+ anyone impacted by addiction or recovery\, including people in recovery an
+ d those affected by the substance use of others. Through gentle movement\,
+  breath\, and grounding practices\, this class offers space to reconnect w
+ ith the body\, reduce stress\, and support well-being in recovery. No yoga
+  experience is needed\, and all recovery pathways are welcome. Free and op
+ en to the community. Provided in partnership with USARA. Wednesdays | USAR
+ A 125 W 200 S\, #113
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -1636,7 +1471,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261018T190000Z
 DTEND:20261018T210000Z
-DTSTAMP:20261002T093538Z
+DTSTAMP:20261003T093136Z
 UID:692s469ovj8f2ead99rvf3eelf@google.com
 CREATED:20260909T215452Z
 DESCRIPTION:Reina Stewart
@@ -1975,18 +1810,18 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20261021T171500
 DTEND;TZID=MDT;VALUE=DATE-TIME:20261021T181500
-UID:195de2097f8056a29094d7275b4d1a1b@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
+UID:68644aa147d189c426657f6382aa15fa@wellnesscollectivemoab.com
+DESCRIPTION:Yoga for Recovery is a supportive\, accessible yoga class for 
+ anyone impacted by addiction or recovery\, including people in recovery an
+ d those affected by the substance use of others. Through gentle movement\,
+  breath\, and grounding practices\, this class offers space to reconnect w
+ ith the body\, reduce stress\, and support well-being in recovery. No yoga
+  experience is needed\, and all recovery pathways are welcome. Free and op
+ en to the community. Provided in partnership with USARA. Wednesdays | USAR
+ A 125 W 200 S\, #113
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -2284,9 +2119,9 @@ DESCRIPTION:Author R. E. Burrillo presents: American Archaeology: Living Hi
  story\, Stolen Pasts\, and Defending the Future https://grandcountyutah.ne
  t/calendar.aspx?EID=17417
 DTEND;TZID=America/Denver:20261023T203000
-DTSTAMP;TZID=America/Denver:20261001T102904
+DTSTAMP;TZID=America/Denver:20261002T121558
 DTSTART;TZID=America/Denver:20261023T190000
-LAST-MODIFIED;TZID=America/Denver:20261001T102904
+LAST-MODIFIED;TZID=America/Denver:20261002T121558
 LOCATION:<p>Star Hall</p> - 159 E. Center St.  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Utah Humanities Book Festival: Author R. E. Burrillo 
@@ -2300,7 +2135,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261023T220000Z
 DTEND:20261024T020000Z
-DTSTAMP:20261002T093538Z
+DTSTAMP:20261003T093136Z
 UID:5tbjq53m6k5b7lrti6gc6doqpm@google.com
 CREATED:20260916T181824Z
 DESCRIPTION:Miranda Custar - Rental for spooky aerobics class from the pool
@@ -2317,7 +2152,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20261002T093538Z
+DTSTAMP:20261003T093136Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20260316T160929Z
@@ -2684,18 +2519,18 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MDT;VALUE=DATE-TIME:20261028T171500
 DTEND;TZID=MDT;VALUE=DATE-TIME:20261028T181500
-UID:3bbe3d93906f56e89a59cf4e9fcb9696@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
+UID:bea3c02f2b94caf53630039240cebd6c@wellnesscollectivemoab.com
+DESCRIPTION:Yoga for Recovery is a supportive\, accessible yoga class for 
+ anyone impacted by addiction or recovery\, including people in recovery an
+ d those affected by the substance use of others. Through gentle movement\,
+  breath\, and grounding practices\, this class offers space to reconnect w
+ ith the body\, reduce stress\, and support well-being in recovery. No yoga
+  experience is needed\, and all recovery pathways are welcome. Free and op
+ en to the community. Provided in partnership with USARA. Wednesdays | USAR
+ A 125 W 200 S\, #113
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -2957,7 +2792,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261030T214500Z
 DTEND:20261031T040000Z
-DTSTAMP:20261002T093538Z
+DTSTAMP:20261003T093136Z
 UID:0bek9tiisnl9mft61htoj631lk@google.com
 CREATED:20260923T201722Z
 LAST-MODIFIED:20261001T140608Z
@@ -3300,18 +3135,18 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MST;VALUE=DATE-TIME:20261104T171500
 DTEND;TZID=MST;VALUE=DATE-TIME:20261104T181500
-UID:aece1f0afd2e33a369d6695b62af9bd4@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
+UID:2a2898272ba9c231213d69b45b459048@wellnesscollectivemoab.com
+DESCRIPTION:Yoga for Recovery is a supportive\, accessible yoga class for 
+ anyone impacted by addiction or recovery\, including people in recovery an
+ d those affected by the substance use of others. Through gentle movement\,
+  breath\, and grounding practices\, this class offers space to reconnect w
+ ith the body\, reduce stress\, and support well-being in recovery. No yoga
+  experience is needed\, and all recovery pathways are welcome. Free and op
+ en to the community. Provided in partnership with USARA. Wednesdays | USAR
+ A 125 W 200 S\, #113
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -3881,18 +3716,18 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MST;VALUE=DATE-TIME:20261111T171500
 DTEND;TZID=MST;VALUE=DATE-TIME:20261111T181500
-UID:b1e390e4476d0cc1b68bbac4ce653c62@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
+UID:dc77040464a963d5aa66d2aedd9b5712@wellnesscollectivemoab.com
+DESCRIPTION:Yoga for Recovery is a supportive\, accessible yoga class for 
+ anyone impacted by addiction or recovery\, including people in recovery an
+ d those affected by the substance use of others. Through gentle movement\,
+  breath\, and grounding practices\, this class offers space to reconnect w
+ ith the body\, reduce stress\, and support well-being in recovery. No yoga
+  experience is needed\, and all recovery pathways are welcome. Free and op
+ en to the community. Provided in partnership with USARA. Wednesdays | USAR
+ A 125 W 200 S\, #113
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -4402,18 +4237,18 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MST;VALUE=DATE-TIME:20261118T171500
 DTEND;TZID=MST;VALUE=DATE-TIME:20261118T181500
-UID:45d043581b9cb0bafec2fe184a01a60b@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
+UID:5b25588fdbba87def82c93f52eac20e9@wellnesscollectivemoab.com
+DESCRIPTION:Yoga for Recovery is a supportive\, accessible yoga class for 
+ anyone impacted by addiction or recovery\, including people in recovery an
+ d those affected by the substance use of others. Through gentle movement\,
+  breath\, and grounding practices\, this class offers space to reconnect w
+ ith the body\, reduce stress\, and support well-being in recovery. No yoga
+  experience is needed\, and all recovery pathways are welcome. Free and op
+ en to the community. Provided in partnership with USARA. Wednesdays | USAR
+ A 125 W 200 S\, #113
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -4952,18 +4787,18 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MST;VALUE=DATE-TIME:20261125T171500
 DTEND;TZID=MST;VALUE=DATE-TIME:20261125T181500
-UID:721a5d7447f3c2070df5d7ec8d492a20@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
+UID:10318ee6c1b434c184608de6fb748676@wellnesscollectivemoab.com
+DESCRIPTION:Yoga for Recovery is a supportive\, accessible yoga class for 
+ anyone impacted by addiction or recovery\, including people in recovery an
+ d those affected by the substance use of others. Through gentle movement\,
+  breath\, and grounding practices\, this class offers space to reconnect w
+ ith the body\, reduce stress\, and support well-being in recovery. No yoga
+  experience is needed\, and all recovery pathways are welcome. Free and op
+ en to the community. Provided in partnership with USARA. Wednesdays | USAR
+ A 125 W 200 S\, #113
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -5337,18 +5172,18 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MST;VALUE=DATE-TIME:20261202T171500
 DTEND;TZID=MST;VALUE=DATE-TIME:20261202T181500
-UID:58632ad4a09190572ef3d9212dd360ad@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
+UID:aba62d5a4d70718fadedc10264b5d3e5@wellnesscollectivemoab.com
+DESCRIPTION:Yoga for Recovery is a supportive\, accessible yoga class for 
+ anyone impacted by addiction or recovery\, including people in recovery an
+ d those affected by the substance use of others. Through gentle movement\,
+  breath\, and grounding practices\, this class offers space to reconnect w
+ ith the body\, reduce stress\, and support well-being in recovery. No yoga
+  experience is needed\, and all recovery pathways are welcome. Free and op
+ en to the community. Provided in partnership with USARA. Wednesdays | USAR
+ A 125 W 200 S\, #113
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -5778,18 +5613,18 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga with the 12 Steps of Recovery
+SUMMARY:Yoga for Recovery at USARA
 DTSTART;TZID=MST;VALUE=DATE-TIME:20261209T171500
 DTEND;TZID=MST;VALUE=DATE-TIME:20261209T181500
-UID:51b6dd411bcd983b8251d4215e87f4bf@wellnesscollectivemoab.com
-DESCRIPTION:The yoga of 12-Step recovery. Combining the practical tools of
-  the 12-Step program with the ancient wisdom of yoga. Y12SR is a yoga prac
- tice followed by a brief group discussion based on the 12-steps. Open to e
- veryone and anyone dealing with their own addictive behavior or affected b
- y the addictive behavior of others. This is an open and inclusive group. A
- ll A’s are welcome. Y12SR is NOT a replacement for meetings\, sponsor\, 
- or a part of the 12-step program. Free class provided in partnership with 
- USARA.
+UID:7ef552621751e3c3b7fecef46efd98bd@wellnesscollectivemoab.com
+DESCRIPTION:Yoga for Recovery is a supportive\, accessible yoga class for 
+ anyone impacted by addiction or recovery\, including people in recovery an
+ d those affected by the substance use of others. Through gentle movement\,
+  breath\, and grounding practices\, this class offers space to reconnect w
+ ith the body\, reduce stress\, and support well-being in recovery. No yoga
+  experience is needed\, and all recovery pathways are welcome. Free and op
+ en to the community. Provided in partnership with USARA. Wednesdays | USAR
+ A 125 W 200 S\, #113
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -5809,6 +5644,25 @@ UID:16196
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:70+ Resistance Band Strength Training
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261210T100000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261210T104500
+UID:a3f7e3c41ca37cacb50c2849e62a21d7@wellnesscollectivemoab.com
+DESCRIPTION:This 45-minute resistance band strength class is for adults 70
+ + who want to build strength\, improve balance\, and stay active in a supp
+ ortive\, small-group setting. Classes focus on simple\, low-impact movemen
+ ts that support everyday mobility and confidence. Exercises are adaptable 
+ and meet participants where they are. Resistance bands are provided or you
+ ’re welcome to bring your own. Please wear comfortable clothing\, stable
+  shoes\, and bring a water bottle. Thursdays at 10:00 AM at Wellness Colle
+ ctive $10 per class To sign up\, text Susette at 435-260-2523. Or show up!
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
@@ -5822,6 +5676,21 @@ SEQUENCE:0
 SUMMARY:Sand Flats Stewardship Committee
 UID:16978
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Community Yoga
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261210T171500
+DTEND;TZID=MST;VALUE=DATE-TIME:20261210T181500
+UID:b3fb7cb176034fa30ba3f07bd783190b@wellnesscollectivemoab.com
+DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
+ d props provided. Class suitable for all bodies and skill levels. Class pr
+ icing is by donation (recommended $10 per class). Sliding scale pricing av
+ ailable options! No one is turned away.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab City Council": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"}
@@ -6633,7 +6502,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20261002T093538Z
+DTSTAMP:20261003T093136Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
