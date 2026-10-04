@@ -7,19 +7,6 @@ X-WR-CALNAME:Moab New Sources
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/used-rare-book-sale-october-2nd-3rd-11am-7pm-alley-behind-bookstore/"}
-X-SOURCE-ID:back_of_beyond
-SUMMARY:Used & Rare Book Sale
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20261002T110000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20261002T130000
-UID:44d358abc10a75d1ec807f158b4864d8@backofbeyondbooks.com
-DESCRIPTION:
-LOCATION:Alley behind Bookstore
-URL:https://backofbeyondbooks.com/happenings/used-rare-book-sale-october-2
- nd-3rd-11am-7pm-alley-behind-bookstore/
-X-SOURCE:Back of Beyond Books
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -1960,6 +1947,40 @@ DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
  d props provided. Class suitable for all bodies and skill levels. Class pr
  icing is by donation (recommended $10 per class). Sliding scale pricing av
  ailable options! No one is turned away.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Flow into Friday Yoga
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261211T083000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261211T093000
+UID:dd506ece1ee0b639ef27bc7786555cf6@wellnesscollectivemoab.com
+DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
+ . Start your Friday with this all-levels yoga class designed to help you a
+ waken the body\, center the mind\, and ease into your day with intention. 
+ We’ll begin with slow\, fluid movement to energize and open\, followed b
+ y longer-held stretches and restorative postures to help you release tensi
+ on and reconnect with yourself. This class is inclusive\, beginner-friendl
+ y\, and rooted in breath\, balance\, and compassionate movement. Whether y
+ ou’re unwinding from your week or preparing for the weekend ahead\, Frid
+ ay Flow is a chance to show up just as you are.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Yoga for Recovery at USARA
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261211T100000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261211T104500
+UID:a9987fc06e0ac89f01940060c59d8636@wellnesscollectivemoab.com
+DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
+ ity members. A free class held inside at USARA. Mats provided. Location: 1
+ 25 west 200 south #113\, Moab\, UT 84532
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
