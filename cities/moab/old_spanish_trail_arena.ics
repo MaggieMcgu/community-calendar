@@ -729,6 +729,18 @@ UID:15043
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17433
+DTEND;VALUE=DATE:20270515
+DTSTAMP;TZID=America/Denver:20261007T082038
+DTSTART;VALUE=DATE:20270515
+LAST-MODIFIED;TZID=America/Denver:20261007T082038
+LOCATION:OSTARC Facilities > Pavilion - 3641 S Hwy 191  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Come Fly A Kite - Pavilion & Soccer Field #1
+UID:17433
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15042
 DTEND;TZID=America/Denver:20270421T210000
 DTSTAMP;TZID=America/Denver:20250619T120325
@@ -2157,56 +2169,6 @@ LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16133
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17245
-DTEND;TZID=America/Denver:20261007T193000
-DTSTAMP;TZID=America/Denver:20260827T174929
-DTSTART;TZID=America/Denver:20261007T180000
-LAST-MODIFIED;TZID=America/Denver:20260827T174929
-LOCATION:OSTARC Facilities > Soccer Field 1 - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Soccer Practice Field 1 6pm-7:30pm U14
-UID:17245
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17424
-DTEND;TZID=America/Denver:20261007T190000
-DTSTAMP;TZID=America/Denver:20261001T134600
-DTSTART;TZID=America/Denver:20261007T170000
-LAST-MODIFIED;TZID=America/Denver:20261001T134600
-LOCATION:OSTARC Facilities > Softball Field 2 - 3641 S Hwy 191  Moab UT 845
- 32
-SEQUENCE:0
-SUMMARY:Softball Practice Field #2 - Bullets 12U 5-7pm
-UID:17424
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17432
-DTEND;TZID=America/Denver:20261007T183000
-DTSTAMP;TZID=America/Denver:20261006T114054
-DTSTART;TZID=America/Denver:20261007T163000
-LAST-MODIFIED;TZID=America/Denver:20261006T114054
-LOCATION:OSTARC Facilities > Softball Field 1 - 3641 S Hwy 191  Moab UT 845
- 32
-SEQUENCE:0
-SUMMARY:Baseball Practice - Field #1\, Moab Devils 4:30pm-6:00pm
-UID:17432
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16132
-DTEND;TZID=America/Denver:20261007T200000
-DTSTAMP;TZID=America/Denver:20261006T152430
-DTSTART;TZID=America/Denver:20261007T080000
-LAST-MODIFIED;TZID=America/Denver:20261006T152430
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Arena Closed - Event Clean up
-UID:16132
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 END:VCALENDAR
