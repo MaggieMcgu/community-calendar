@@ -2298,9 +2298,9 @@ END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16135
 DTEND;TZID=America/Denver:20261010T200000
-DTSTAMP;TZID=America/Denver:20260112T142517
+DTSTAMP;TZID=America/Denver:20261009T122258
 DTSTART;TZID=America/Denver:20261010T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142517
+LAST-MODIFIED;TZID=America/Denver:20261009T122258
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
@@ -2318,31 +2318,6 @@ SEQUENCE:0
 SUMMARY:Playground & Pickleball Court Construction Zone Closed to the Publi
  c - DO NOT ENTER THIS AREA
 UID:17437
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16134
-DTEND;TZID=America/Denver:20261009T200000
-DTSTAMP;TZID=America/Denver:20261008T170032
-DTSTART;TZID=America/Denver:20261009T080000
-LAST-MODIFIED;TZID=America/Denver:20261008T170032
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Indoor Arena Closed - Maintenance 
-UID:16134
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17436
-DTEND;VALUE=DATE:20261009
-DTSTAMP;TZID=America/Denver:20261008T131806
-DTSTART;VALUE=DATE:20261009
-LAST-MODIFIED;TZID=America/Denver:20261008T131806
-LOCATION: -   Moab UT 84532
-SEQUENCE:0
-SUMMARY:Playground & Pickleball Court Construction Zone Closed to the Publi
- c - DO NOT ENTER THIS AREA
-UID:17436
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 END:VCALENDAR
