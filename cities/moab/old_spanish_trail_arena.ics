@@ -2072,13 +2072,14 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16814
-DTEND;VALUE=DATE:20261018
-DTSTAMP;TZID=America/Denver:20260522T083827
-DTSTART;VALUE=DATE:20261016
-LAST-MODIFIED;TZID=America/Denver:20260522T083827
+DTEND;TZID=America/Denver:20261016T210000
+DTSTAMP;TZID=America/Denver:20261013T164602
+DTSTART;TZID=America/Denver:20261016T190000
+LAST-MODIFIED;TZID=America/Denver:20261013T164602
 LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
 SEQUENCE:0
-SUMMARY:Barlow Training - Indoor Arena 
+SUMMARY:The Toolbox with Ben & James\, FREE Community Event Horsemanship Le
+ cture- Indoor Arena 7pm-9pm  
 UID:16814
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
@@ -2180,31 +2181,6 @@ SEQUENCE:0
 SUMMARY:Playground & Pickleball Court Construction Zone Closed to the Publi
  c - DO NOT ENTER THIS AREA
 UID:17441
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16138
-DTEND;TZID=America/Denver:20261013T200000
-DTSTAMP;TZID=America/Denver:20260112T142517
-DTSTART;TZID=America/Denver:20261013T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142517
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
-UID:16138
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17440
-DTEND;VALUE=DATE:20261013
-DTSTAMP;TZID=America/Denver:20261008T131806
-DTSTART;VALUE=DATE:20261013
-LAST-MODIFIED;TZID=America/Denver:20261008T131806
-LOCATION: -   Moab UT 84532
-SEQUENCE:0
-SUMMARY:Playground & Pickleball Court Construction Zone Closed to the Publi
- c - DO NOT ENTER THIS AREA
-UID:17440
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 END:VCALENDAR
