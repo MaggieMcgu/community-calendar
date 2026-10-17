@@ -7,115 +7,6 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/music-in-the-bookstore-thursday-october-15th-9-pm-back-of-beyond-books/"}
-X-SOURCE-ID:back_of_beyond
-SUMMARY:Music in the Bookstore
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20261015T210000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20261015T230000
-UID:323b882fe5619dabdb6b8dfe9d67a56f@backofbeyondbooks.com
-DESCRIPTION:
-LOCATION:Back of Beyond Books\, 83 N Main St\, Moab\, UT 84532
-URL:https://backofbeyondbooks.com/happenings/music-in-the-bookstore-thursd
- ay-october-15th-9-pm-back-of-beyond-books/
-X-SOURCE:Back of Beyond Books
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17443
-DTEND;VALUE=DATE:20261016
-DTSTAMP;TZID=America/Denver:20261008T131806
-DTSTART;VALUE=DATE:20261016
-LAST-MODIFIED;TZID=America/Denver:20261008T131806
-LOCATION: -   Moab UT 84532
-SEQUENCE:0
-SUMMARY:Playground & Pickleball Court Construction Zone Closed to the Publi
- c - DO NOT ENTER THIS AREA
-UID:17443
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Flow into Friday Yoga
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20261016T083000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20261016T093000
-UID:b92bca777c81ce50ffd33ceceed34444@wellnesscollectivemoab.com
-DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
- . Start your Friday with this all-levels yoga class designed to help you a
- waken the body\, center the mind\, and ease into your day with intention. 
- We’ll begin with slow\, fluid movement to energize and open\, followed b
- y longer-held stretches and restorative postures to help you release tensi
- on and reconnect with yourself. This class is inclusive\, beginner-friendl
- y\, and rooted in breath\, balance\, and compassionate movement. Whether y
- ou’re unwinding from your week or preparing for the weekend ahead\, Frid
- ay Flow is a chance to show up just as you are.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.com/calendar
-SUMMARY:Yoga for Recovery at USARA
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20261016T100000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20261016T104500
-UID:f9eea5997e30b5ca7924d728d0bc1a2a@wellnesscollectivemoab.com
-DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
- ity members. A free class held inside at USARA. Mats provided. Location: 1
- 25 west 200 south #113\, Moab\, UT 84532
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17221
-DTEND;TZID=America/Denver:20261016T170000
-DTSTAMP;TZID=America/Denver:20260826T114559
-DTSTART;TZID=America/Denver:20261016T140000
-LAST-MODIFIED;TZID=America/Denver:20260826T114559
-LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Makerspace
-UID:17221
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17177
-DTEND;TZID=America/Denver:20261016T170000
-DTSTAMP;TZID=America/Denver:20260828T092802
-DTSTART;TZID=America/Denver:20261016T150000
-LAST-MODIFIED;TZID=America/Denver:20260828T092802
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:17177
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16814
-DTEND;TZID=America/Denver:20261016T210000
-DTSTAMP;TZID=America/Denver:20261013T164602
-DTSTART;TZID=America/Denver:20261016T190000
-LAST-MODIFIED;TZID=America/Denver:20261013T164602
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:The Toolbox with Ben & James\, FREE Community Event Horsemanship Le
- cture- Indoor Arena 7pm-9pm  
-UID:16814
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -155,8 +46,7 @@ DTEND;TZID=MDT;VALUE=DATE-TIME:20261017T144500
 UID:5819ac081637b278eccfa21a17834d68@maxpreps.com
 DESCRIPTION:Girls Varsity Soccer\nTournament: 2026 • UHSAA Girls Soccer 
  State Championships\nThe American Leadership Academy varsity soccer team h
- as an away playoff match @  Grand County (Moab\, UT) on Saturday\, October
-  17 @ 1p.
+ as an away playoff match @  Grand County (Moab\, UT) today @ 1p.
 LOCATION:Grand County High School\, 608 S 400 E\, Moab\, UT 84532
 URL:https://www.maxpreps.com/ut/soccer/girls/match/american-leadership-aca
  demy-spanish-fork-vs-grand-county-moab/10-17-2026/?c=efa02eb5-5e04-46a5-b9
@@ -185,7 +75,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261017T150000Z
 DTEND:20261017T160000Z
-DTSTAMP:20261016T093607Z
+DTSTAMP:20261017T093546Z
 UID:67p8gqrc8rdj4dta1dt5qa7n0m@google.com
 CREATED:20261014T164130Z
 LAST-MODIFIED:20261014T164130Z
@@ -217,7 +107,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261018T190000Z
 DTEND:20261018T210000Z
-DTSTAMP:20261016T093607Z
+DTSTAMP:20261017T093546Z
 UID:692s469ovj8f2ead99rvf3eelf@google.com
 CREATED:20260909T215452Z
 DESCRIPTION:Reina Stewart
@@ -964,7 +854,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261023T220000Z
 DTEND:20261024T020000Z
-DTSTAMP:20261016T093607Z
+DTSTAMP:20261017T093546Z
 UID:5tbjq53m6k5b7lrti6gc6doqpm@google.com
 CREATED:20260916T181824Z
 DESCRIPTION:Miranda Custar - Rental for spooky aerobics class from the pool
@@ -981,7 +871,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20261016T093607Z
+DTSTAMP:20261017T093546Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20261012T135212Z
@@ -1645,7 +1535,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261030T214500Z
 DTEND:20261031T040000Z
-DTSTAMP:20261016T093607Z
+DTSTAMP:20261017T093546Z
 UID:0bek9tiisnl9mft61htoj631lk@google.com
 CREATED:20260923T201722Z
 LAST-MODIFIED:20261001T140608Z
@@ -1787,18 +1677,17 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16780
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17093
 DTEND;TZID=America/Denver:20261102T170000
-DTSTAMP;TZID=America/Denver:20260505T145308
+DTSTAMP;TZID=America/Denver:20260811T133755
 DTSTART;TZID=America/Denver:20261102T160000
-LAST-MODIFIED;TZID=America/Denver:20260505T145308
+LAST-MODIFIED;TZID=America/Denver:20260811T133755
 LOCATION: -     
 SEQUENCE:0
 SUMMARY:Airport Board
-UID:16780
+UID:17093
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
@@ -2526,14 +2415,15 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
-DESCRIPTION:Trimble presents the 35th anniversary edition of his award-winn
- ing book "The  Sagebrush Ocean: A Natural History of the Great Basin\," re
- vised and updated to reflect the discoveries and changes in the past three
-  decades.  https://grandcountyutah.net/calendar.aspx?EID=17452
+DESCRIPTION:In the gorgeous\, new 35th anniversary edition of his award-win
+ ning book The Sagebrush Ocean: A Natural History of the Great Basin\, Step
+ hen Trimble celebrates the region’s remarkable landscapes and wildlife w
+ hile exploring the environmental challenges shaping its future.  https://g
+ randcountyutah.net/calendar.aspx?EID=17452
 DTEND;TZID=America/Denver:20261110T203000
-DTSTAMP;TZID=America/Denver:20261015T123926
+DTSTAMP;TZID=America/Denver:20261016T103536
 DTSTART;TZID=America/Denver:20261110T190000
-LAST-MODIFIED;TZID=America/Denver:20261015T123926
+LAST-MODIFIED;TZID=America/Denver:20261016T103536
 LOCATION:<p>Moab Library</p> - 257 E Center St.  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Author Visit with Stephen Trimble
@@ -2816,7 +2706,7 @@ URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailp
 DTSTART;TZID=America/Denver:20261113T170000
 DTEND;TZID=America/Denver:20261113T180000
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20270130T065959Z;BYDAY=FR
-DTSTAMP:20261016T093607Z
+DTSTAMP:20261017T093546Z
 UID:0hs060q4uei50gifcpsvarr5ro@google.com
 CREATED:20261012T191300Z
 DESCRIPTION:POC: Jennifer Wenzel 781.718.8264\nUnofficial 1st/2nd grade bas
@@ -2835,12 +2725,13 @@ X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
 DESCRIPTION:Join friends and authors Amy Irvine and Pam Houston in conversa
  tion\, as Irvine presents her new book "Almost Animal: a Memoir of Motherh
- ood\, Wildness\, and the American West."  https://grandcountyutah.net/cale
- ndar.aspx?EID=16986
+ ood\, Wildness\, and the American West"\, along with Houston's latest "Ani
+ mals Taught Me Everything."  https://grandcountyutah.net/calendar.aspx?EID
+ =16986
 DTEND;TZID=America/Denver:20261113T203000
-DTSTAMP;TZID=America/Denver:20260617T150637
+DTSTAMP;TZID=America/Denver:20261016T103838
 DTSTART;TZID=America/Denver:20261113T190000
-LAST-MODIFIED;TZID=America/Denver:20260617T150637
+LAST-MODIFIED;TZID=America/Denver:20261016T103838
 LOCATION:<p>Star Hall</p> - 159 E Center St.  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Authors Amy Irvine and Pam Houston
@@ -3293,6 +3184,23 @@ DESCRIPTION:Join Tom for Dharma Recovery-a peer-led community space that i
  s free.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
+DESCRIPTION:Celebrate Native American Heritage with this film honoring Indi
+ genous resilience and healing. https://grandcountyutah.net/calendar.aspx?E
+ ID=17453
+DTEND;TZID=America/Denver:20261119T203000
+DTSTAMP;TZID=America/Denver:20261016T104950
+DTSTART;TZID=America/Denver:20261119T190000
+LAST-MODIFIED;TZID=America/Denver:20261016T104950
+LOCATION:<p>Moab Library</p> - 257 E Center St.   Moab UT 84532
+SEQUENCE:0
+SUMMARY:Free Movie: Little Singer
+UID:17453
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
@@ -4408,18 +4316,17 @@ X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16800
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17310
 DTEND;TZID=America/Denver:20261207T170000
-DTSTAMP;TZID=America/Denver:20260511T134206
+DTSTAMP;TZID=America/Denver:20260901T135106
 DTSTART;TZID=America/Denver:20261207T160000
-LAST-MODIFIED;TZID=America/Denver:20260511T134206
+LAST-MODIFIED;TZID=America/Denver:20260901T135106
 LOCATION: -     
 SEQUENCE:0
 SUMMARY:Airport Board
-UID:16800
+UID:17310
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
@@ -5205,6 +5112,31 @@ LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Tai Chi with Drew
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261221T171500
+DTEND;TZID=MST;VALUE=DATE-TIME:20261221T181500
+UID:fda082b898127bb6af0ca384231bde58@wellnesscollectivemoab.com
+DESCRIPTION:Among all forms of physical activity\, Tai Chi Ch’uan is per
+ haps the most accessible\, convenient\, and economical way to improve both
+  physical health and mental well-being. As Yang Style Tai Chi master Cheng
+  Man-Ching once said\, ‘Those who understand the importance of exercise 
+ for health will find Tai Chi Ch’uan indispensable.’ While Tai Chi may 
+ not be easy to master\, consistent practice will yield results. In this cl
+ ass\, we will focus on cultivating chi\, building endurance and strength\,
+  and developing core alignment\, all while learning to release tension. Ta
+ i Chi training offers many levels of progression. In Yang Style\, when pra
+ cticed correctly\, it becomes an aerobic workout\, despite minimal movemen
+ t. Additionally\, it serves as a form of meditation. Please wear comfortab
+ le clothing. Flat shoes\, socks\, or bare feet are ideal. Students are enc
+ ouraged to train at their own pace\, and progression will vary from person
+  to person.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -5218,6 +5150,26 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm  Indoor Arena (Access Code Required)
 UID:16208
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Chair Yoga @ the Grand Center
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261222T143000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261222T153000
+UID:26fea82b9c4ed00e305630b816959361@wellnesscollectivemoab.com
+DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
+  for a gentle\, accessible Chair Yoga class led by rotating Wellness Colle
+ ctive yoga instructors. Each teacher brings their own style and expertise\
+ , while sharing a common focus on safety\, choice\, and ease in the body. 
+ This class is especially supportive for older adults and anyone who prefer
+ s to stay off the floor\, has limited mobility\, uses a chair for stabilit
+ y\, or is simply looking for a calm\, nourishing way to move. All poses ar
+ e done seated or standing with the support of a chair\, so you can experie
+ nce the benefits of yoga without getting down on a mat.
+LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
@@ -5508,18 +5460,17 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16770
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17311
 DTEND;TZID=America/Denver:20270104T170000
-DTSTAMP;TZID=America/Denver:20260505T144948
+DTSTAMP;TZID=America/Denver:20261016T110559
 DTSTART;TZID=America/Denver:20270104T160000
-LAST-MODIFIED;TZID=America/Denver:20260505T144948
+LAST-MODIFIED;TZID=America/Denver:20261016T110559
 LOCATION: -     
 SEQUENCE:0
 SUMMARY:Airport Board
-UID:16770
+UID:17311
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
@@ -5553,18 +5504,17 @@ X-SOURCE:Back of Beyond Books
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16783
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17300
 DTEND;TZID=America/Denver:20270201T170000
-DTSTAMP;TZID=America/Denver:20260505T145311
+DTSTAMP;TZID=America/Denver:20260901T134945
 DTSTART;TZID=America/Denver:20270201T160000
-LAST-MODIFIED;TZID=America/Denver:20260505T145311
+LAST-MODIFIED;TZID=America/Denver:20260901T134945
 LOCATION: -     
 SEQUENCE:0
 SUMMARY:Airport Board
-UID:16783
+UID:17300
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
@@ -5598,18 +5548,17 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16772
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17313
 DTEND;TZID=America/Denver:20270301T170000
-DTSTAMP;TZID=America/Denver:20260505T144950
+DTSTAMP;TZID=America/Denver:20260901T135108
 DTSTART;TZID=America/Denver:20270301T160000
-LAST-MODIFIED;TZID=America/Denver:20260505T144950
+LAST-MODIFIED;TZID=America/Denver:20260901T135108
 LOCATION: -     
 SEQUENCE:0
 SUMMARY:Airport Board
-UID:16772
+UID:17313
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
@@ -5676,18 +5625,17 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16785
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17302
 DTEND;TZID=America/Denver:20270405T170000
-DTSTAMP;TZID=America/Denver:20260505T145313
+DTSTAMP;TZID=America/Denver:20260901T134946
 DTSTART;TZID=America/Denver:20270405T160000
-LAST-MODIFIED;TZID=America/Denver:20260505T145313
+LAST-MODIFIED;TZID=America/Denver:20260901T134946
 LOCATION: -     
 SEQUENCE:0
 SUMMARY:Airport Board
-UID:16785
+UID:17302
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
@@ -5756,7 +5704,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20261016T093607Z
+DTSTAMP:20261017T093546Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
@@ -5769,18 +5717,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16805
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17315
 DTEND;TZID=America/Denver:20270503T170000
-DTSTAMP;TZID=America/Denver:20260511T134211
+DTSTAMP;TZID=America/Denver:20261016T111248
 DTSTART;TZID=America/Denver:20270503T160000
-LAST-MODIFIED;TZID=America/Denver:20260511T134211
+LAST-MODIFIED;TZID=America/Denver:20261016T111248
 LOCATION: -     
 SEQUENCE:0
 SUMMARY:Airport Board
-UID:16805
+UID:17315
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
@@ -5863,18 +5810,17 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17088
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17100
 DTEND;TZID=America/Denver:20270607T170000
-DTSTAMP;TZID=America/Denver:20260811T133635
+DTSTAMP;TZID=America/Denver:20260811T133758
 DTSTART;TZID=America/Denver:20270607T160000
-LAST-MODIFIED;TZID=America/Denver:20260811T133635
+LAST-MODIFIED;TZID=America/Denver:20260811T133758
 LOCATION: -     
 SEQUENCE:0
 SUMMARY:Airport Board
-UID:17088
+UID:17100
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
@@ -5895,18 +5841,17 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17089
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17293
 DTEND;TZID=America/Denver:20270705T170000
-DTSTAMP;TZID=America/Denver:20260811T133636
+DTSTAMP;TZID=America/Denver:20260901T134246
 DTSTART;TZID=America/Denver:20270705T160000
-LAST-MODIFIED;TZID=America/Denver:20260811T133636
+LAST-MODIFIED;TZID=America/Denver:20260901T134246
 LOCATION: -     
 SEQUENCE:0
 SUMMARY:Airport Board
-UID:17089
+UID:17293
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
@@ -5926,7 +5871,6 @@ UID:15045
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
@@ -5959,18 +5903,17 @@ URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17091
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17295
 DTEND;TZID=America/Denver:20270906T170000
-DTSTAMP;TZID=America/Denver:20260811T133638
+DTSTAMP;TZID=America/Denver:20260901T134247
 DTSTART;TZID=America/Denver:20270906T160000
-LAST-MODIFIED;TZID=America/Denver:20260811T133638
+LAST-MODIFIED;TZID=America/Denver:20260901T134247
 LOCATION: -     
 SEQUENCE:0
 SUMMARY:Airport Board
-UID:17091
+UID:17295
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
