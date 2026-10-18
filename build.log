@@ -123040,3 +123040,386 @@ TimeoutError: The read operation timed out
 2026-10-17 09:35:43,322 - MoabArtsScraper - INFO - Total: 4 events
 2026-10-17 09:35:43,322 - MoabArtsScraper - INFO - Found 4 events
 2026-10-17 09:35:43,324 - MoabArtsScraper - INFO - Written to cities/moab/moab_arts.ics
+2026-10-18 09:30:37,266 - MoabMuseumScraper - INFO - Scraping Moab Museum
+2026-10-18 09:30:37,266 - MoabMuseumScraper - INFO - Fetching https://moabmuseum.org/calendar-of-events/
+2026-10-18 09:30:37,706 - MoabMuseumScraper - INFO - Found 0 JSON-LD events on https://moabmuseum.org/calendar-of-events/
+2026-10-18 09:30:37,706 - MoabMuseumScraper - INFO - Total: 0 events
+2026-10-18 09:30:37,706 - MoabMuseumScraper - INFO - Found 0 events
+2026-10-18 09:30:37,707 - MoabMuseumScraper - INFO - Written to cities/moab/moab_museum.ics
+2026-10-18 09:30:37,850 - ClimbMoabScraper - INFO - Scraping Climb Moab
+2026-10-18 09:30:37,850 - ClimbMoabScraper - INFO - Fetching https://climbmoabgym.com/events?format=json
+2026-10-18 09:30:38,308 - ClimbMoabScraper - ERROR - Failed to fetch: HTTP Error 404: Not Found
+2026-10-18 09:30:38,309 - ClimbMoabScraper - INFO - Found 0 events
+2026-10-18 09:30:38,310 - ClimbMoabScraper - INFO - Written to cities/moab/climb_moab.ics
+2026-10-18 09:30:38,740 - BackOfBeyondScraper - INFO - Scraping Back of Beyond Books
+2026-10-18 09:30:38,741 - BackOfBeyondScraper - INFO - Fetching REST API: https://backofbeyondbooks.com/wp-json/wp/v2/happening?after=2026-01-01T00:00:00&per_page=100&orderby=modified&order=desc
+2026-10-18 09:30:38,741 - lib.utils - INFO - Fetching: https://backofbeyondbooks.com/wp-json/wp/v2/happening?after=2026-01-01T00:00:00&per_page=100&orderby=modified&order=desc
+2026-10-18 09:30:39,722 - BackOfBeyondScraper - INFO - Found 14 events
+2026-10-18 09:30:39,722 - BackOfBeyondScraper - INFO - Filtered 5 events beyond 6 months out
+2026-10-18 09:30:39,722 - BackOfBeyondScraper - INFO - Found 9 events
+2026-10-18 09:30:39,724 - BackOfBeyondScraper - INFO - Written to cities/moab/back_of_beyond.ics
+2026-10-18 09:30:39,872 - WellnessCollectiveScraper - INFO - Scraping Wellness Collective Moab
+2026-10-18 09:30:39,872 - WellnessCollectiveScraper - INFO - Fetching https://calendar.apps.secureserver.net/v1/events/850abeb2-a96f-4bb3-941d-245ce2f0e203/9c296a07-7f6a-4f27-a79a-bc4c6982a216/f33a9bca-c60a-4de5-8fa4-b78b6fd1c4ba
+2026-10-18 09:30:41,159 - WellnessCollectiveScraper - INFO - API returned 100 events
+2026-10-18 09:30:41,162 - WellnessCollectiveScraper - INFO - Parsed 100 events
+2026-10-18 09:30:41,163 - WellnessCollectiveScraper - INFO - Found 100 events
+2026-10-18 09:30:41,184 - WellnessCollectiveScraper - INFO - Written to cities/moab/wellness_collective.ics
+2026-10-18 09:30:41,327 - MoabMusicFestivalScraper - INFO - Scraping Moab Music Festival
+2026-10-18 09:30:41,327 - MoabMusicFestivalScraper - INFO - Fetching https://moabmusicfest.org/calendar/
+2026-10-18 09:30:42,281 - MoabMusicFestivalScraper - INFO - Found 0 JSON-LD events on https://moabmusicfest.org/calendar/
+2026-10-18 09:30:42,281 - MoabMusicFestivalScraper - INFO - Total: 0 events
+2026-10-18 09:30:42,281 - MoabMusicFestivalScraper - INFO - Found 0 events
+2026-10-18 09:30:42,282 - MoabMusicFestivalScraper - INFO - Written to cities/moab/moab_music_festival.ics
+2026-10-18 09:30:42,472 - MoabFolkFestivalScraper - INFO - Scraping Moab Folk Festival
+2026-10-18 09:30:42,472 - MoabFolkFestivalScraper - INFO - Fetching https://www.moabfolkfestival.com/
+2026-10-18 09:30:42,623 - MoabFolkFestivalScraper - INFO - Found 0 JSON-LD events on festival site
+2026-10-18 09:30:42,623 - MoabFolkFestivalScraper - INFO - Fetching https://www.moabfreeconcerts.com/
+2026-10-18 09:30:42,748 - MoabFolkFestivalScraper - INFO - Found 0 free concert dates
+2026-10-18 09:30:42,748 - MoabFolkFestivalScraper - INFO - Found 0 events
+2026-10-18 09:30:42,748 - MoabFolkFestivalScraper - INFO - Written to cities/moab/moab_folk_festival.ics
+2026-10-18 09:30:42,897 - MoabArtsScraper - INFO - Scraping Moab Arts & Recreation Center
+2026-10-18 09:30:42,897 - __main__ - INFO - Fetching sitemap: https://www.moabarts.org/event-pages-sitemap.xml
+2026-10-18 09:30:43,153 - __main__ - INFO - Found 170 event URLs in sitemap
+2026-10-18 09:30:43,153 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2024-artwalk-membership
+2026-10-18 09:30:45,481 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/2024-artwalk-membership
+2026-10-18 09:30:45,481 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/phytograms-plants-and-films
+2026-10-18 09:30:50,398 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/phytograms-plants-and-films
+2026-10-18 09:30:50,398 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/make-a-mosaic-pot
+2026-10-18 09:30:52,177 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/make-a-mosaic-pot
+2026-10-18 09:30:52,178 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/summer-art-rec-camp-week-4-inspector-gadget
+2026-10-18 09:30:53,498 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/summer-art-rec-camp-week-4-inspector-gadget
+2026-10-18 09:30:53,498 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/holiday-craft-fair-vendor-registration-2022-1-1
+2026-10-18 09:30:58,524 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/holiday-craft-fair-vendor-registration-2022-1-1
+2026-10-18 09:30:58,524 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-embroidery-101-2
+2026-10-18 09:31:00,681 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/winter-class-embroidery-101-2
+2026-10-18 09:31:00,681 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/residency-workshop-miniature-art-making
+2026-10-18 09:31:05,398 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/residency-workshop-miniature-art-making
+2026-10-18 09:31:05,398 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/bollywood-dance-2
+2026-10-18 09:31:07,005 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/bollywood-dance-2
+2026-10-18 09:31:07,005 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/the-vandyke-brown-print-the-magic-of-alternative-processes
+2026-10-18 09:31:11,646 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/the-vandyke-brown-print-the-magic-of-alternative-processes
+2026-10-18 09:31:11,646 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-painting-with-alcohol-ink
+2026-10-18 09:31:13,895 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/winter-class-painting-with-alcohol-ink
+2026-10-18 09:31:13,895 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/diy-custom-framing
+2026-10-18 09:31:15,367 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/diy-custom-framing
+2026-10-18 09:31:15,368 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-resin-jewelry-2-day-series
+2026-10-18 09:31:20,058 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/winter-class-resin-jewelry-2-day-series
+2026-10-18 09:31:20,058 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/organic-film-photography-processing
+2026-10-18 09:31:24,583 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/organic-film-photography-processing
+2026-10-18 09:31:24,583 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/pine-needle-weaving-2
+2026-10-18 09:31:26,039 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/pine-needle-weaving-2
+2026-10-18 09:31:26,039 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/journeying-the-inner-landscape
+2026-10-18 09:31:27,490 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/journeying-the-inner-landscape
+2026-10-18 09:31:27,490 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/intro-to-landscape-painting-4-week-series
+2026-10-18 09:31:29,959 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/intro-to-landscape-painting-4-week-series
+2026-10-18 09:31:29,959 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/creative-writing-series-with-ian-buchsbaum
+2026-10-18 09:31:32,147 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/creative-writing-series-with-ian-buchsbaum
+2026-10-18 09:31:32,148 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/picnic-theater
+2026-10-18 09:31:33,906 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/picnic-theater
+2026-10-18 09:31:33,906 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-10-06-17-00
+2026-10-18 09:31:36,971 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-10-06-17-00
+2026-10-18 09:31:36,971 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/desert-beauty-in-watercolor
+2026-10-18 09:31:38,567 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/desert-beauty-in-watercolor
+2026-10-18 09:31:38,567 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/make-a-mosaic-planter-or-garden-paver-2024-02-12-18-00
+2026-10-18 09:31:41,735 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/make-a-mosaic-planter-or-garden-paver-2024-02-12-18-00
+2026-10-18 09:31:41,736 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/spooky-art-studio-for-kids-3
+2026-10-18 09:31:41,840 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/spooky-art-studio-for-kids-3
+2026-10-18 09:31:41,841 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-07-21-17-00
+2026-10-18 09:31:43,473 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-07-21-17-00
+2026-10-18 09:31:43,473 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/applying-for-public-art-calls
+2026-10-18 09:31:45,850 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/applying-for-public-art-calls
+2026-10-18 09:31:45,850 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paper-quilling-3
+2026-10-18 09:31:47,447 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/paper-quilling-3
+2026-10-18 09:31:47,447 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/block-printing-for-beginners
+2026-10-18 09:31:49,171 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/block-printing-for-beginners
+2026-10-18 09:31:49,171 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/pine-needle-weaving
+2026-10-18 09:31:50,658 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/pine-needle-weaving
+2026-10-18 09:31:50,658 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-03-05-15-30
+2026-10-18 09:31:53,097 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-03-05-15-30
+2026-10-18 09:31:53,097 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration
+2026-10-18 09:31:54,858 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/arts-ag-market-vendor-registration
+2026-10-18 09:31:54,858 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/postponed-paper-quilling
+2026-10-18 09:31:56,635 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/postponed-paper-quilling
+2026-10-18 09:31:56,635 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/jewelry-for-beginners-wire-wrapped-tree-of-life-pendant
+2026-10-18 09:31:58,048 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/jewelry-for-beginners-wire-wrapped-tree-of-life-pendant
+2026-10-18 09:31:58,048 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/make-a-mosaic-mirror
+2026-10-18 09:31:59,838 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/make-a-mosaic-mirror
+2026-10-18 09:31:59,838 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/moab-coworking-space
+2026-10-18 09:31:59,965 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/moab-coworking-space
+2026-10-18 09:31:59,965 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/faux-raku-gourd-oil-lamp-workshop
+2026-10-18 09:32:00,065 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/faux-raku-gourd-oil-lamp-workshop
+2026-10-18 09:32:00,065 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/dark-room-101
+2026-10-18 09:32:01,446 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/dark-room-101
+2026-10-18 09:32:01,446 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/drawing-artistic-anatomy
+2026-10-18 09:32:02,939 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/drawing-artistic-anatomy
+2026-10-18 09:32:02,939 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/syfy-movie-night-3-red-planet-mars
+2026-10-18 09:32:04,249 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/syfy-movie-night-3-red-planet-mars
+2026-10-18 09:32:04,249 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2025-holiday-craft-fair-vendor-registration-1
+2026-10-18 09:32:07,172 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/2025-holiday-craft-fair-vendor-registration-1
+2026-10-18 09:32:07,172 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2026-arts-ag-market-vendor-registration
+2026-10-18 09:32:07,304 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/2026-arts-ag-market-vendor-registration
+2026-10-18 09:32:07,304 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paint-your-pet-3
+2026-10-18 09:32:10,137 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/paint-your-pet-3
+2026-10-18 09:32:10,137 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2025-arts-rec-summer-camp
+2026-10-18 09:32:11,570 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/2025-arts-rec-summer-camp
+2026-10-18 09:32:11,570 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/scavenger-hunt-fundraiser
+2026-10-18 09:32:13,546 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/scavenger-hunt-fundraiser
+2026-10-18 09:32:13,546 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/tie-dye-for-beginners-low-water-immersion-dyeing
+2026-10-18 09:32:15,488 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/tie-dye-for-beginners-low-water-immersion-dyeing
+2026-10-18 09:32:15,488 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/plein-air-work-shop-saturday-10-01-2022
+2026-10-18 09:32:17,040 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/plein-air-work-shop-saturday-10-01-2022
+2026-10-18 09:32:17,041 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/syfy-movie-night-1-them
+2026-10-18 09:32:18,828 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/syfy-movie-night-1-them
+2026-10-18 09:32:18,828 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paper-quilling
+2026-10-18 09:32:20,387 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/paper-quilling
+2026-10-18 09:32:20,387 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/art-by-chance-paint-night-2026-01-04-15-30
+2026-10-18 09:32:25,127 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/art-by-chance-paint-night-2026-01-04-15-30
+2026-10-18 09:32:25,127 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-landscape-painting-basics-4-week-series
+2026-10-18 09:32:29,743 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/winter-class-landscape-painting-basics-4-week-series
+2026-10-18 09:32:29,744 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2023-artwalk-membership
+2026-10-18 09:32:33,851 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/2023-artwalk-membership
+2026-10-18 09:32:33,851 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-1-1
+2026-10-18 09:32:33,957 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-1-1
+2026-10-18 09:32:33,957 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/trashion-crafting-workshop
+2026-10-18 09:32:35,877 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/trashion-crafting-workshop
+2026-10-18 09:32:35,877 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-recycled-papermaking
+2026-10-18 09:32:37,855 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/winter-class-recycled-papermaking
+2026-10-18 09:32:37,855 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/block-printing-with-pink-erasers
+2026-10-18 09:32:39,442 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/block-printing-with-pink-erasers
+2026-10-18 09:32:39,442 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/residency-workshop-sidewalk-joy-scavenger-hunt
+2026-10-18 09:32:44,186 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/residency-workshop-sidewalk-joy-scavenger-hunt
+2026-10-18 09:32:44,186 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/traditional-mala-making-the-history-behind-them-3
+2026-10-18 09:32:46,505 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/traditional-mala-making-the-history-behind-them-3
+2026-10-18 09:32:46,506 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/holiday-craft-fair-vendor-registration-2021
+2026-10-18 09:32:48,009 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/holiday-craft-fair-vendor-registration-2021
+2026-10-18 09:32:48,009 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/beginner-willow-basket-weaving
+2026-10-18 09:32:52,588 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/beginner-willow-basket-weaving
+2026-10-18 09:32:52,588 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/cyanotypes-printing-with-the-sun
+2026-10-18 09:32:53,967 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/cyanotypes-printing-with-the-sun
+2026-10-18 09:32:53,967 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/the-almighty-ballad-how-to-write-in-verses-most-versatile-form
+2026-10-18 09:32:58,391 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/the-almighty-ballad-how-to-write-in-verses-most-versatile-form
+2026-10-18 09:32:58,391 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-06-16-17-00
+2026-10-18 09:32:59,817 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-06-16-17-00
+2026-10-18 09:32:59,817 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2022-summer-art-rec-camp
+2026-10-18 09:33:01,270 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/2022-summer-art-rec-camp
+2026-10-18 09:33:01,270 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2024-red-rock-arts-festival-street-fest-vendor-registration
+2026-10-18 09:33:05,434 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/2024-red-rock-arts-festival-street-fest-vendor-registration
+2026-10-18 09:33:05,434 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/mending-session-1
+2026-10-18 09:33:07,452 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/mending-session-1
+2026-10-18 09:33:07,453 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/cyanotypes-printing-with-the-sun-1
+2026-10-18 09:33:08,823 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/cyanotypes-printing-with-the-sun-1
+2026-10-18 09:33:08,823 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/trashy-pinhole-camera
+2026-10-18 09:33:10,507 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/trashy-pinhole-camera
+2026-10-18 09:33:10,507 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-10-20-17-00
+2026-10-18 09:33:11,921 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-10-20-17-00
+2026-10-18 09:33:11,921 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paper-flowers
+2026-10-18 09:33:13,361 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/paper-flowers
+2026-10-18 09:33:13,361 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/fiber-to-fabric
+2026-10-18 09:33:15,120 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/fiber-to-fabric
+2026-10-18 09:33:15,120 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2024-holiday-craft-fair-vendor-registration
+2026-10-18 09:33:16,434 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/2024-holiday-craft-fair-vendor-registration
+2026-10-18 09:33:16,434 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-basket-weaving-for-beginners
+2026-10-18 09:33:17,866 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/winter-class-basket-weaving-for-beginners
+2026-10-18 09:33:17,866 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paint-your-pet
+2026-10-18 09:33:19,157 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/paint-your-pet
+2026-10-18 09:33:19,157 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2023-streets-fest-vendor-registration-red-rock-arts-festival
+2026-10-18 09:33:24,042 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/2023-streets-fest-vendor-registration-red-rock-arts-festival
+2026-10-18 09:33:24,042 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market
+2026-10-18 09:33:28,796 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/arts-ag-market
+2026-10-18 09:33:28,796 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-08-18-17-00
+2026-10-18 09:33:30,017 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-08-18-17-00
+2026-10-18 09:33:30,017 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/residency-workshop-papermaking-and-hollander-beater-demo
+2026-10-18 09:33:31,221 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/residency-workshop-papermaking-and-hollander-beater-demo
+2026-10-18 09:33:31,221 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/pinhole-camera-making-photography
+2026-10-18 09:33:32,630 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/pinhole-camera-making-photography
+2026-10-18 09:33:32,630 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/sip-and-paint-2
+2026-10-18 09:33:35,335 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/sip-and-paint-2
+2026-10-18 09:33:35,335 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/cyano-play-day
+2026-10-18 09:33:39,839 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/cyano-play-day
+2026-10-18 09:33:39,839 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-basic-bookbinding-bind-your-own-sketchbook
+2026-10-18 09:33:45,312 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/winter-class-basic-bookbinding-bind-your-own-sketchbook
+2026-10-18 09:33:45,312 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paper-quilling-4
+2026-10-18 09:33:46,845 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/paper-quilling-4
+2026-10-18 09:33:46,845 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/exploratory-calligraphy
+2026-10-18 09:33:51,528 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/exploratory-calligraphy
+2026-10-18 09:33:51,528 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/mending-session-2
+2026-10-18 09:33:53,023 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/mending-session-2
+2026-10-18 09:33:53,023 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/enormous-papier-mache-mask-making-series
+2026-10-18 09:33:54,760 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/enormous-papier-mache-mask-making-series
+2026-10-18 09:33:54,760 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/sew-fun-tote-bag
+2026-10-18 09:33:58,903 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/sew-fun-tote-bag
+2026-10-18 09:33:58,903 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-beginning-oil-painting-5-week-series
+2026-10-18 09:33:59,741 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/winter-class-beginning-oil-painting-5-week-series
+2026-10-18 09:33:59,741 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/summer-art-rec-camp-week-3-scales-and-tails
+2026-10-18 09:34:04,467 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/summer-art-rec-camp-week-3-scales-and-tails
+2026-10-18 09:34:04,467 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/zoo-doodles-for-kids-how-to-draw-a-watercolor-crab
+2026-10-18 09:34:05,278 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/zoo-doodles-for-kids-how-to-draw-a-watercolor-crab
+2026-10-18 09:34:05,278 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2025-red-rock-arts-festival-street-fest-vendor-registration
+2026-10-18 09:34:05,932 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/2025-red-rock-arts-festival-street-fest-vendor-registration
+2026-10-18 09:34:05,932 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/traditional-mala-making-the-history-behind-them-2
+2026-10-18 09:34:10,569 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/traditional-mala-making-the-history-behind-them-2
+2026-10-18 09:34:10,569 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/mosaic-flagstones
+2026-10-18 09:34:10,690 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/mosaic-flagstones
+2026-10-18 09:34:10,691 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-02-12-15-30
+2026-10-18 09:34:15,670 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-02-12-15-30
+2026-10-18 09:34:15,670 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/watercolor-mixed-media
+2026-10-18 09:34:19,742 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/watercolor-mixed-media
+2026-10-18 09:34:19,742 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/make-a-mosaic-planter-or-garden-paver
+2026-10-18 09:34:21,025 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/make-a-mosaic-planter-or-garden-paver
+2026-10-18 09:34:21,025 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/sip-and-paint
+2026-10-18 09:34:25,104 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/sip-and-paint
+2026-10-18 09:34:25,104 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-09-15-17-00
+2026-10-18 09:34:29,441 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-09-15-17-00
+2026-10-18 09:34:29,441 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/social-media-for-small-businesses
+2026-10-18 09:34:31,620 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/social-media-for-small-businesses
+2026-10-18 09:34:31,620 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paint-night
+2026-10-18 09:34:33,301 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/paint-night
+2026-10-18 09:34:33,301 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/basics-of-manual-photography
+2026-10-18 09:34:38,590 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/basics-of-manual-photography
+2026-10-18 09:34:38,590 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-09-01-17-00
+2026-10-18 09:34:43,122 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-09-01-17-00
+2026-10-18 09:34:43,122 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-06-02-17-00
+2026-10-18 09:34:44,532 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-06-02-17-00
+2026-10-18 09:34:44,532 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/make-a-mosaic-planter-or-garden-paver-2024-02-15-19-00
+2026-10-18 09:34:45,960 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/make-a-mosaic-planter-or-garden-paver-2024-02-15-19-00
+2026-10-18 09:34:45,960 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/holiday-craft-fair-vendor-registration-2022-1
+2026-10-18 09:34:48,014 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/holiday-craft-fair-vendor-registration-2022-1
+2026-10-18 09:34:48,014 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2022-streets-fest-vendor-registration-red-rock-arts-festival
+2026-10-18 09:34:49,706 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/2022-streets-fest-vendor-registration-red-rock-arts-festival
+2026-10-18 09:34:49,706 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/zoo-doodles-for-kids
+2026-10-18 09:34:51,361 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/zoo-doodles-for-kids
+2026-10-18 09:34:51,362 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/mosaic-planter-pot
+2026-10-18 09:34:51,464 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/mosaic-planter-pot
+2026-10-18 09:34:51,465 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/spooky-art-studio-for-kids-2
+2026-10-18 09:34:51,593 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/spooky-art-studio-for-kids-2
+2026-10-18 09:34:51,593 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/mending-session-jan
+2026-10-18 09:34:52,990 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/mending-session-jan
+2026-10-18 09:34:52,990 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-cyanotypes-how-to-make-handmade-photographs-using-the-sun
+2026-10-18 09:34:54,551 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/winter-class-cyanotypes-how-to-make-handmade-photographs-using-the-sun
+2026-10-18 09:34:54,551 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/a-platform-for-your-voice-postcards-protest-signs
+2026-10-18 09:34:54,650 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/a-platform-for-your-voice-postcards-protest-signs
+2026-10-18 09:34:54,651 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paper-flower-art
+2026-10-18 09:34:56,089 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/paper-flower-art
+2026-10-18 09:34:56,089 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/textile-creation-series-i-cold-dyeing
+2026-10-18 09:34:57,782 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/textile-creation-series-i-cold-dyeing
+2026-10-18 09:34:57,782 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/introduction-to-drawing
+2026-10-18 09:34:59,423 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/introduction-to-drawing
+2026-10-18 09:34:59,423 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/the-almighty-ballad-how-to-write-in-verses-most-versatile-form-2
+2026-10-18 09:35:04,047 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/the-almighty-ballad-how-to-write-in-verses-most-versatile-form-2
+2026-10-18 09:35:04,047 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/intro-to-intaglio-printmaking
+2026-10-18 09:35:08,249 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/intro-to-intaglio-printmaking
+2026-10-18 09:35:08,249 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/syfy-movie-night-2-world-without-end
+2026-10-18 09:35:09,671 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/syfy-movie-night-2-world-without-end
+2026-10-18 09:35:09,671 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/hand-printed-holiday-cards-1
+2026-10-18 09:35:14,322 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/hand-printed-holiday-cards-1
+2026-10-18 09:35:14,322 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/poetry-workshop-bigger-dreams-minus-bigger-fears
+2026-10-18 09:35:15,671 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/poetry-workshop-bigger-dreams-minus-bigger-fears
+2026-10-18 09:35:15,671 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/bollywood-dance
+2026-10-18 09:35:20,329 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/bollywood-dance
+2026-10-18 09:35:20,329 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/fall-foliage-bowl-alcohol-dye-technique-with-a-seagrass-rim
+2026-10-18 09:35:20,442 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/fall-foliage-bowl-alcohol-dye-technique-with-a-seagrass-rim
+2026-10-18 09:35:20,442 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/spooky-art-studio-for-kids
+2026-10-18 09:35:24,472 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/spooky-art-studio-for-kids
+2026-10-18 09:35:24,472 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/textile-creation-series-ii-iii-2-linocut-design-carving-linocut-printing
+2026-10-18 09:35:25,739 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/textile-creation-series-ii-iii-2-linocut-design-carving-linocut-printing
+2026-10-18 09:35:25,739 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2023-arts-ag-market-vendor-registration-1
+2026-10-18 09:35:27,828 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/2023-arts-ag-market-vendor-registration-1
+2026-10-18 09:35:27,828 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/ceramic-jewelry-workshop-series-from-clay-to-adornment
+2026-10-18 09:35:29,383 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/ceramic-jewelry-workshop-series-from-clay-to-adornment
+2026-10-18 09:35:29,383 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2025-arts-ag-market-vendor-registration-1
+2026-10-18 09:35:30,829 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/2025-arts-ag-market-vendor-registration-1
+2026-10-18 09:35:30,829 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-01-29-15-30
+2026-10-18 09:35:33,263 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-01-29-15-30
+2026-10-18 09:35:33,263 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-exploring-indigo-vat-dyeing
+2026-10-18 09:35:35,191 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/winter-class-exploring-indigo-vat-dyeing
+2026-10-18 09:35:35,191 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/block-printing-with-megan-and-diego
+2026-10-18 09:35:36,871 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/block-printing-with-megan-and-diego
+2026-10-18 09:35:36,871 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/plein-air-work-shop-monday-09-26-2022
+2026-10-18 09:35:40,937 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/plein-air-work-shop-monday-09-26-2022
+2026-10-18 09:35:40,937 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-beginning-oil-painting-2-day-series
+2026-10-18 09:35:42,328 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/winter-class-beginning-oil-painting-2-day-series
+2026-10-18 09:35:42,328 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-rec-camp-summer-2023
+2026-10-18 09:35:43,782 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/arts-rec-camp-summer-2023
+2026-10-18 09:35:43,783 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/professional-practices-for-artists-how-to-market-your-craft-and-refine-your-vision
+2026-10-18 09:35:44,020 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/professional-practices-for-artists-how-to-market-your-craft-and-refine-your-vision
+2026-10-18 09:35:44,020 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2026-arts-rec-summer-camp
+2026-10-18 09:35:44,143 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/2026-arts-rec-summer-camp
+2026-10-18 09:35:44,143 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-intro-to-tea-blending
+2026-10-18 09:35:46,049 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/winter-class-intro-to-tea-blending
+2026-10-18 09:35:46,049 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/make-your-own-wooden-rolypoly
+2026-10-18 09:35:50,645 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/make-your-own-wooden-rolypoly
+2026-10-18 09:35:50,645 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-05-19-17-00
+2026-10-18 09:35:52,607 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-05-19-17-00
+2026-10-18 09:35:52,607 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/make-decorative-papers-using-a-gelli-plate
+2026-10-18 09:35:55,143 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/make-decorative-papers-using-a-gelli-plate
+2026-10-18 09:35:55,143 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-rec-camp-summer-2024
+2026-10-18 09:35:56,580 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/arts-rec-camp-summer-2024
+2026-10-18 09:35:56,580 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/improv-your-acting
+2026-10-18 09:35:58,297 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/improv-your-acting
+2026-10-18 09:35:58,297 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-01-22-15-30
+2026-10-18 09:35:59,772 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-01-22-15-30
+2026-10-18 09:35:59,772 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-embroidery-101
+2026-10-18 09:36:01,787 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/winter-class-embroidery-101
+2026-10-18 09:36:01,787 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/mending-session-feb
+2026-10-18 09:36:03,473 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/mending-session-feb
+2026-10-18 09:36:03,473 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-intro-to-landscape-painting
+2026-10-18 09:36:06,849 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/winter-class-intro-to-landscape-painting
+2026-10-18 09:36:06,849 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/residency-workshop-roadside-fence-art
+2026-10-18 09:36:09,658 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/residency-workshop-roadside-fence-art
+2026-10-18 09:36:09,658 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paper-pulp-shadow-box
+2026-10-18 09:36:14,738 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/paper-pulp-shadow-box
+2026-10-18 09:36:14,738 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/sculpted-pet-animal-portraits
+2026-10-18 09:36:15,476 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/sculpted-pet-animal-portraits
+2026-10-18 09:36:15,476 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/summer-art-rec-camp-week-2-trash-to-treasure
+2026-10-18 09:36:20,062 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/summer-art-rec-camp-week-2-trash-to-treasure
+2026-10-18 09:36:20,062 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paper-flowers-chiyogami-cherry-blossoms
+2026-10-18 09:36:20,180 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/paper-flowers-chiyogami-cherry-blossoms
+2026-10-18 09:36:20,180 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/paint-your-partner
+2026-10-18 09:36:21,121 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/paint-your-partner
+2026-10-18 09:36:21,121 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/spooky-art-studio-for-kids-4
+2026-10-18 09:36:25,685 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/spooky-art-studio-for-kids-4
+2026-10-18 09:36:25,685 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/a-moab-market-at-the-grand-county-fair
+2026-10-18 09:36:29,883 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/a-moab-market-at-the-grand-county-fair
+2026-10-18 09:36:29,883 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/art-in-everyday-language-found-generated-created
+2026-10-18 09:36:33,960 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/art-in-everyday-language-found-generated-created
+2026-10-18 09:36:33,960 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-02-05-15-30
+2026-10-18 09:36:36,221 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/zoo-doodles-with-anneloes-2025-02-05-15-30
+2026-10-18 09:36:36,221 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-resin-fluid-art-2-day-series
+2026-10-18 09:36:37,014 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/winter-class-resin-fluid-art-2-day-series
+2026-10-18 09:36:37,015 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/navajo-language-101-2
+2026-10-18 09:36:38,061 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/navajo-language-101-2
+2026-10-18 09:36:38,061 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/catering-to-conversation
+2026-10-18 09:36:40,112 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/catering-to-conversation
+2026-10-18 09:36:40,112 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/jewelry-for-beginners-wire-wrapped-pendant
+2026-10-18 09:36:41,637 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/jewelry-for-beginners-wire-wrapped-pendant
+2026-10-18 09:36:41,637 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/BreadPuppetWorkshopPerformance
+2026-10-18 09:36:46,556 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/BreadPuppetWorkshopPerformance
+2026-10-18 09:36:46,556 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/2025-holiday-craft-fair-vendor-registration
+2026-10-18 09:36:47,970 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/2025-holiday-craft-fair-vendor-registration
+2026-10-18 09:36:47,970 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/market-on-center
+2026-10-18 09:36:48,066 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/market-on-center
+2026-10-18 09:36:48,066 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/navajo-language-101
+2026-10-18 09:36:49,434 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/navajo-language-101
+2026-10-18 09:36:49,434 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/holiday-craft-fair-vendor-registration-2022
+2026-10-18 09:36:51,468 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/holiday-craft-fair-vendor-registration-2022
+2026-10-18 09:36:51,468 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/beginning-figure-painting
+2026-10-18 09:36:52,889 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/beginning-figure-painting
+2026-10-18 09:36:52,890 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/art-by-chance-paint-night-2025-12-16-17-30
+2026-10-18 09:36:54,976 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/art-by-chance-paint-night-2025-12-16-17-30
+2026-10-18 09:36:54,977 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/figure-drawing-workshop-with-molly
+2026-10-18 09:36:56,648 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/figure-drawing-workshop-with-molly
+2026-10-18 09:36:56,648 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-08-04-17-00
+2026-10-18 09:37:01,317 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-08-04-17-00
+2026-10-18 09:37:01,317 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-07-07-17-00
+2026-10-18 09:37:06,142 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/arts-ag-market-vendor-registration-2022-07-07-17-00
+2026-10-18 09:37:06,143 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/summer-art-rec-camp
+2026-10-18 09:37:07,158 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/summer-art-rec-camp
+2026-10-18 09:37:07,158 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/chalk-drawing-competition-2022
+2026-10-18 09:37:08,656 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/chalk-drawing-competition-2022
+2026-10-18 09:37:08,656 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/plein-air-2022-competition
+2026-10-18 09:37:10,306 - MoabArtsScraper - INFO - Found 1 JSON-LD events on https://www.moabarts.org/event-details/plein-air-2022-competition
+2026-10-18 09:37:10,306 - MoabArtsScraper - INFO - Fetching https://www.moabarts.org/event-details/winter-class-linocut-and-woodcut-printmaking
+2026-10-18 09:37:14,372 - MoabArtsScraper - INFO - Found 0 JSON-LD events on https://www.moabarts.org/event-details/winter-class-linocut-and-woodcut-printmaking
+2026-10-18 09:37:14,372 - MoabArtsScraper - INFO - Total: 3 events
+2026-10-18 09:37:14,372 - MoabArtsScraper - INFO - Found 3 events
+2026-10-18 09:37:14,374 - MoabArtsScraper - INFO - Written to cities/moab/moab_arts.ics

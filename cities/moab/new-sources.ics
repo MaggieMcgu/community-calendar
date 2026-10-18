@@ -7,22 +7,6 @@ X-WR-CALNAME:Moab New Sources
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County High School Athletics": "https://www.maxpreps.com/ut/soccer/girls/match/american-leadership-academy-spanish-fork-vs-grand-county-moab/10-17-2026/?c=efa02eb5-5e04-46a5-b964-589be522a288"}
-X-SOURCE-ID:maxpreps_grand_county
-SUMMARY:ALA Girls Varsity Soccer @ Grand County
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20261017T130000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20261017T144500
-UID:5819ac081637b278eccfa21a17834d68@maxpreps.com
-DESCRIPTION:Girls Varsity Soccer\nTournament: 2026 • UHSAA Girls Soccer 
- State Championships\nThe American Leadership Academy varsity soccer team h
- as an away playoff match @  Grand County (Moab\, UT) today @ 1p.
-LOCATION:Grand County High School\, 608 S 400 E\, Moab\, UT 84532
-URL:https://www.maxpreps.com/ut/soccer/girls/match/american-leadership-aca
- demy-spanish-fork-vs-grand-county-moab/10-17-2026/?c=efa02eb5-5e04-46a5-b9
- 64-589be522a288
-X-SOURCE:Grand County High School
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -224,6 +208,19 @@ LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/r-e-burrillo-friday-october-23rd-7pm-star-hall/"}
+X-SOURCE-ID:back_of_beyond
+SUMMARY:R. E. Burrillo
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20261023T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20261023T210000
+UID:bce7bb472499af473e8432456bda3806@backofbeyondbooks.com
+DESCRIPTION:
+LOCATION:Star Hall\, 159 E Center St\, Moab\, UT 84532
+URL:https://backofbeyondbooks.com/happenings/r-e-burrillo-friday-october-2
+ 3rd-7pm-star-hall/
+X-SOURCE:Back of Beyond Books
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.com/calendar
@@ -317,18 +314,6 @@ DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
  nce the benefits of yoga without getting down on a mat.
 LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
 X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-ID:moab_arts
-SUMMARY:Spooky Art Studio for Kids
-DTSTART;TZID="UTC-06:00";VALUE=DATE-TIME:20261027T153000
-DTEND;TZID="UTC-06:00";VALUE=DATE-TIME:20261027T170000
-UID:138c3894ce64acd4745dfead3655bd1f@moabarts.org
-DESCRIPTION:Halloween themed Crafternoon with Moab Arts Staff! A Kinetic B
- ird Costume and Spooky Carnival Games!
-LOCATION:Moab Arts & Recreation Center\, 111 E 100 N\, Moab\, UT 84532\, U
- SA
-X-SOURCE:Moab Arts & Recreation Center
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
@@ -1956,6 +1941,44 @@ DESCRIPTION:Join us every Tuesday afternoon at 2:30 PM at the Grand Center
  e done seated or standing with the support of a chair\, so you can experie
  nce the benefits of yoga without getting down on a mat.
 LOCATION:Grand Center\, 182 N 500 W\, Moab\, UT 84532\, USA
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Take Care Tuesday - Relaxing Yoga
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261222T171500
+DTEND;TZID=MST;VALUE=DATE-TIME:20261222T181500
+UID:839c6d20cd683cb21771e25c0fb144c7@wellnesscollectivemoab.com
+DESCRIPTION:Make space to slow down with Take Care Tuesday\, a weekly rota
+ ting class centered around rest and relaxation. Each facilitator brings th
+ eir own style and gifts\, offering calming yoga along with special element
+ s such as sound baths\, Reiki\, massage\, meditation\, and other restorati
+ ve practices. Whether you come to stretch\, settle your nervous system\, o
+ r simply enjoy a peaceful evening in community\, each class offers somethi
+ ng a little different and supportive. Open to all levels. Come as you are.
+  Rest is welcome here.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.com/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.com/calendar
+SUMMARY:Yoga for Recovery at USARA
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261223T171500
+DTEND;TZID=MST;VALUE=DATE-TIME:20261223T181500
+UID:65c5852cd5c076937bad784283c8be33@wellnesscollectivemoab.com
+DESCRIPTION:Yoga for Recovery is a supportive\, accessible yoga class for 
+ anyone impacted by addiction or recovery\, including people in recovery an
+ d those affected by the substance use of others. Through gentle movement\,
+  breath\, and grounding practices\, this class offers space to reconnect w
+ ith the body\, reduce stress\, and support well-being in recovery. No yoga
+  experience is needed\, and all recovery pathways are welcome. Free and op
+ en to the community. Provided in partnership with USARA. Wednesdays | USAR
+ A 125 W 200 S\, #113
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
