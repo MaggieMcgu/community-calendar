@@ -261,6 +261,18 @@ UID:16402
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17476
+DTEND;TZID=America/Denver:20261109T235959
+DTSTAMP;TZID=America/Denver:20261020T131756
+DTSTART;TZID=America/Denver:20261109T160000
+LAST-MODIFIED;TZID=America/Denver:20261020T131756
+LOCATION: -     
+SEQUENCE:0
+SUMMARY:One Time Event
+UID:17476
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15699
 DTEND;TZID=America/Denver:20261103T170000
 DTSTAMP;TZID=America/Denver:20251124T074241
@@ -318,18 +330,6 @@ LOCATION: -
 SEQUENCE:0
 SUMMARY:Budget Advisory Board
 UID:17337
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15686
-DTEND;TZID=America/Denver:20261020T170000
-DTSTAMP;TZID=America/Denver:20251124T073805
-DTSTART;TZID=America/Denver:20261020T160000
-LAST-MODIFIED;TZID=America/Denver:20251124T073805
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Grand County Commission
-UID:15686
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 END:VCALENDAR
