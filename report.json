@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T21:20:06.187001",
+  "generated": "2026-10-21T21:32:52.520845",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -23383,7 +23383,7 @@
             },
             {
               "date": "2026-10-21",
-              "count": 2
+              "count": 5
             }
           ]
         },
@@ -31399,7 +31399,7 @@
             },
             {
               "date": "2026-10-21",
-              "count": 98
+              "count": 101
             }
           ]
         },
@@ -33401,9 +33401,9 @@
         }
       },
       "url_quality": {
-        "total_with_url": 400,
-        "total_events": 403,
-        "unique_urls": 10,
+        "total_with_url": 403,
+        "total_events": 406,
+        "unique_urls": 13,
         "generic_count": 388,
         "generic_domains": [
           {
@@ -33466,6 +33466,12 @@
             "specificity_pct": 17
           },
           {
+            "source": "Back of Beyond Books",
+            "events": 5,
+            "unique_urls": 5,
+            "specificity_pct": 100
+          },
+          {
             "source": "Center Street Gym / Arena",
             "events": 5,
             "unique_urls": 1,
@@ -33476,12 +33482,6 @@
             "events": 4,
             "unique_urls": 1,
             "specificity_pct": 25
-          },
-          {
-            "source": "Back of Beyond Books",
-            "events": 2,
-            "unique_urls": 2,
-            "specificity_pct": 100
           },
           {
             "source": "Grand County High School",
@@ -97763,6 +97763,16 @@
     {
       "date": "2026-10-21",
       "line": "2026-10-21 21:14:57,307 - ClimbMoabScraper - ERROR - Failed to fetch: HTTP Error 404: Not Found",
+      "source": null
+    },
+    {
+      "date": "2026-10-21",
+      "line": "2026-10-21 21:27:01,416 - MoabMuseumScraper - ERROR - Failed to fetch https://moabmuseum.org/calendar-of-events/: HTTP Error 403: Forbidden",
+      "source": null
+    },
+    {
+      "date": "2026-10-21",
+      "line": "2026-10-21 21:27:02,105 - ClimbMoabScraper - ERROR - Failed to fetch: HTTP Error 404: Not Found",
       "source": null
     }
   ]
