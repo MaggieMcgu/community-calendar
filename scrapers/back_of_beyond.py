@@ -18,7 +18,7 @@ sys.path.insert(0, str(__file__).rsplit('/', 1)[0])
 
 import re
 import json
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from typing import Any, Optional
 from zoneinfo import ZoneInfo
 
@@ -30,15 +30,19 @@ from lib.utils import DEFAULT_HEADERS, fetch_with_retry, MONTH_MAP
 MOUNTAIN = ZoneInfo('America/Denver')
 API_BASE = "https://backofbeyondbooks.com/wp-json/wp/v2/happening"
 
-# Pattern: "Thursday, April 16th" or "Tuesday, March 3rd" or "April, 23rd"
-# Weekday prefix is optional since some BoBB posts omit it (e.g. "Music in the
-# Bookstore ~ April, 23rd ~ 6-9 pm").
+# Pattern: "Thursday, April 16th" or "Tuesday, March 3rd" or "April, 23rd" or
+# "Wednesday, Oct. 21, 2026". Weekday prefix is optional since some BoBB posts
+# omit it (e.g. "Music in the Bookstore ~ April, 23rd ~ 6-9 pm"); months may be
+# abbreviated with an optional period; a year is used when present.
 DATE_PATTERN = re.compile(
-    r'(?:(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s+)?'
-    r'(January|February|March|April|May|June|July|August|September|October|November|December),?\s+'
-    r'(\d{1,2})(?:st|nd|rd|th)?',
+    r'(?:\b(Mon|Tue|Tues|Wed|Thu|Thur|Thurs|Fri|Sat|Sun)(?:day|nesday|sday|rsday|urday)?\.?,?\s+)?'
+    r'\b(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|'
+    r'Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?,?\s+'
+    r'(\d{1,2})(?:st|nd|rd|th)?\b(?:,?\s+(\d{4})\b)?',
     re.IGNORECASE
 )
+
+WEEKDAY_INDEX = {'mon': 0, 'tue': 1, 'wed': 2, 'thu': 3, 'fri': 4, 'sat': 5, 'sun': 6}
 
 # Pattern: "4-6 pm" or "6:30am" or "3-5pm" or "6 pm"
 TIME_PATTERN = re.compile(
@@ -87,14 +91,50 @@ class BackOfBeyondScraper(BaseScraper):
 
             post_url = post.get('link', '')
 
-            parsed = self._parse_heading(title_text, description=description, url=post_url)
+            # BoBB's `date` is when the draft was created, always before the event
+            posted = None
+            try:
+                posted = datetime.fromisoformat(post.get('date', '')).date()
+            except ValueError:
+                pass
+
+            parsed = self._parse_heading(title_text, description=description, url=post_url,
+                                         posted=posted)
             if parsed:
                 events.append(parsed)
 
         self.logger.info(f"Found {len(events)} events")
         return events
 
-    def _parse_heading(self, heading: str, description: str = '', url: str = '') -> Optional[dict[str, Any]]:
+    def _resolve_year(self, heading: str, month: int, day: int, weekday: Optional[str],
+                      explicit_year: Optional[str], posted: Optional[date]) -> Optional[int]:
+        """Pick the event year. Titles rarely carry one, and a past post must
+        never be re-dated into next year (2026-10 bug: six spring events
+        reappeared as 2027).
+
+        - Explicit year in the title wins.
+        - Otherwise the event is the first occurrence of month/day on or after
+          the post's publish date (30 days of slack for posts made just after).
+        - If the title names a weekday, that year's date must fall on it; a
+          mismatch means we can't trust the date, so skip.
+        """
+        if explicit_year:
+            return int(explicit_year)
+
+        anchor = posted or datetime.now(MOUNTAIN).date()
+        year = anchor.year
+        try:
+            if date(year, month, day) < anchor - timedelta(days=30):
+                year += 1
+            if weekday and date(year, month, day).weekday() != WEEKDAY_INDEX[weekday[:3].lower()]:
+                self.logger.warning(f"Weekday mismatch for {year}, skipping: {heading}")
+                return None
+        except ValueError:
+            return None
+        return year
+
+    def _parse_heading(self, heading: str, description: str = '', url: str = '',
+                       posted: Optional[date] = None) -> Optional[dict[str, Any]]:
         """Parse an event from the post title (format: title ~ date ~ time ~ location)."""
         parts = [p.strip() for p in heading.split('~')]
         if len(parts) < 2:
@@ -108,18 +148,15 @@ class BackOfBeyondScraper(BaseScraper):
         if not date_match:
             return None
 
-        month_name = date_match.group(1).lower()
-        day = int(date_match.group(2))
-        month = MONTH_MAP.get(month_name)
+        weekday, month_name, day_str, explicit_year = date_match.groups()
+        day = int(day_str)
+        month = MONTH_MAP.get(month_name.lower()[:3])
         if not month:
             return None
 
-        # Determine year — assume current year, bump to next if date is well past
-        now = datetime.now(MOUNTAIN)
-        year = now.year
-        candidate = datetime(year, month, day, tzinfo=MOUNTAIN)
-        if candidate.date() < now.date() - timedelta(days=60):
-            year += 1
+        year = self._resolve_year(heading, month, day, weekday, explicit_year, posted)
+        if year is None:
+            return None
 
         # Find time in heading
         time_match = TIME_PATTERN.search(heading)
