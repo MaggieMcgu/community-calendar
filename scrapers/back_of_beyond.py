@@ -59,7 +59,10 @@ class BackOfBeyondScraper(BaseScraper):
     def fetch_events(self) -> list[dict[str, Any]]:
         now = datetime.now(MOUNTAIN)
         after = f"{now.year}-01-01T00:00:00"
-        url = f"{API_BASE}?after={after}&per_page=100&orderby=modified&order=desc"
+        # _cb busts BoBB's edge cache (WordPress.com), which served GitHub Actions a
+        # copy missing posts published hours earlier (2026-10-21).
+        url = (f"{API_BASE}?after={after}&per_page=100&orderby=modified&order=desc"
+               f"&_cb={int(now.timestamp())}")
         self.logger.info(f"Fetching REST API: {url}")
 
         raw = fetch_with_retry(url, headers=DEFAULT_HEADERS)
