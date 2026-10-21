@@ -136,6 +136,19 @@ UID:17251
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/suzanne-roberts-getting-unstuck-and-making-inspiration-wednesday-oct-21-2026-7pm-moab-library/"}
+X-SOURCE-ID:back_of_beyond
+SUMMARY:Suzanne Roberts: Getting Unstuck and Making Inspiration
+DTSTART;TZID=MDT;VALUE=DATE-TIME:20261021T190000
+DTEND;TZID=MDT;VALUE=DATE-TIME:20261021T210000
+UID:8df92d287e54a5fee0cd0566423056d1@backofbeyondbooks.com
+DESCRIPTION:
+LOCATION:Moab Library
+URL:https://backofbeyondbooks.com/happenings/suzanne-roberts-getting-unstu
+ ck-and-making-inspiration-wednesday-oct-21-2026-7pm-moab-library/
+X-SOURCE:Back of Beyond Books
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -478,7 +491,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261023T220000Z
 DTEND:20261024T020000Z
-DTSTAMP:20261021T093535Z
+DTSTAMP:20261021T212005Z
 UID:5tbjq53m6k5b7lrti6gc6doqpm@google.com
 CREATED:20260916T181824Z
 DESCRIPTION:Miranda Custar - Rental for spooky aerobics class from the pool
@@ -495,7 +508,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20261021T093535Z
+DTSTAMP:20261021T212005Z
 UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
 CREATED:20260316T155626Z
 LAST-MODIFIED:20261012T135212Z
@@ -1150,7 +1163,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261030T214500Z
 DTEND:20261031T040000Z
-DTSTAMP:20261021T093535Z
+DTSTAMP:20261021T212005Z
 UID:0bek9tiisnl9mft61htoj631lk@google.com
 CREATED:20260923T201722Z
 LAST-MODIFIED:20261001T140608Z
@@ -2396,7 +2409,7 @@ URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailp
 DTSTART;TZID=America/Denver:20261113T170000
 DTEND;TZID=America/Denver:20261113T180000
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20270130T065959Z;BYDAY=FR
-DTSTAMP:20261021T093535Z
+DTSTAMP:20261021T212005Z
 UID:0hs060q4uei50gifcpsvarr5ro@google.com
 CREATED:20261012T191300Z
 DESCRIPTION:POC: Jennifer Wenzel 781.718.8264\nUnofficial 1st/2nd grade bas
@@ -2913,9 +2926,9 @@ DESCRIPTION:Celebrate Native American Heritage with this film honoring Indi
  genous resilience and healing. https://grandcountyutah.net/calendar.aspx?E
  ID=17453
 DTEND;TZID=America/Denver:20261119T203000
-DTSTAMP;TZID=America/Denver:20261016T104950
+DTSTAMP;TZID=America/Denver:20261021T084428
 DTSTART;TZID=America/Denver:20261119T190000
-LAST-MODIFIED;TZID=America/Denver:20261016T104950
+LAST-MODIFIED;TZID=America/Denver:20261021T084428
 LOCATION:<p>Moab Library</p> - 257 E Center St.   Moab UT 84532
 SEQUENCE:0
 SUMMARY:Free Movie: Little Singer
@@ -5462,19 +5475,6 @@ UID:15039
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/leeya-katrina-saturday-january-31st-11am-4pm-back-of-beyond-books/"}
-X-SOURCE-ID:back_of_beyond
-SUMMARY:Leeya Katrina
-DTSTART;TZID=MST;VALUE=DATE-TIME:20270131T110000
-DTEND;TZID=MST;VALUE=DATE-TIME:20270131T130000
-UID:b42ff339ac38fd835e1db03cd07d1c3e@backofbeyondbooks.com
-DESCRIPTION:
-LOCATION:Back of Beyond Books\, 83 N Main St\, Moab\, UT 84532
-URL:https://backofbeyondbooks.com/happenings/leeya-katrina-saturday-januar
- y-31st-11am-4pm-back-of-beyond-books/
-X-SOURCE:Back of Beyond Books
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
@@ -5488,19 +5488,6 @@ SEQUENCE:0
 SUMMARY:Airport Board
 UID:17300
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/local-author-steve-allen-presentation-tuesday-february-10th-6-pm-star-hall/"}
-X-SOURCE-ID:back_of_beyond
-SUMMARY:Local Author Steve Allen Presentation
-DTSTART;TZID=MST;VALUE=DATE-TIME:20270210T180000
-DTEND;TZID=MST;VALUE=DATE-TIME:20270210T200000
-UID:e7658400a8cf61e02f9025615954d6e3@backofbeyondbooks.com
-DESCRIPTION:
-LOCATION:Star Hall\, 159 E Center St\, Moab\, UT 84532
-URL:https://backofbeyondbooks.com/happenings/local-author-steve-allen-pres
- entation-tuesday-february-10th-6-pm-star-hall/
-X-SOURCE:Back of Beyond Books
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -5549,20 +5536,6 @@ SUMMARY:Old Spanish Trail Advisory Board Meeting - 5:30pm - 6:30pm - Arena
  Conference Room
 UID:16439
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/terry-tempest-williams-tuesday-march-3rd-sunrise-ceremony-afternoon-book-signing-castle-valley-back-of-beyond/"}
-X-SOURCE-ID:back_of_beyond
-SUMMARY:Terry Tempest Williams
-DTSTART;TZID=MST;VALUE=DATE-TIME:20270303T180000
-DTEND;TZID=MST;VALUE=DATE-TIME:20270303T200000
-UID:b7938b128626ab1dc274e2e3d1e80930@backofbeyondbooks.com
-DESCRIPTION:
-LOCATION:Castle Valley & Back of Beyond
-URL:https://backofbeyondbooks.com/happenings/terry-tempest-williams-tuesda
- y-march-3rd-sunrise-ceremony-afternoon-book-signing-castle-valley-back-of-
- beyond/
-X-SOURCE:Back of Beyond Books
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -5626,34 +5599,6 @@ UID:7266
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/jeremy-collins-wednesday-april-15th-7-pm-grand-county-public-library/"}
-X-SOURCE-ID:back_of_beyond
-SUMMARY:Jeremy Collins
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20270415T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20270415T210000
-UID:4102db7657a479d710fc117c94ae4583@backofbeyondbooks.com
-DESCRIPTION:
-LOCATION:Moab Arts and Recreation Center (MARC)\, 111 E 100 N\, Moab\, UT 
- 84532
-URL:https://backofbeyondbooks.com/happenings/jeremy-collins-wednesday-apri
- l-15th-7-pm-grand-county-public-library/
-X-SOURCE:Back of Beyond Books
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/brianna-madia-thursday-april-16th-4-6-pm-back-of-beyond-books/"}
-X-SOURCE-ID:back_of_beyond
-SUMMARY:Brianna Madia
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20270416T160000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20270416T180000
-UID:5a11e221f3d42b22af03b7b08d9e92d4@backofbeyondbooks.com
-DESCRIPTION:
-LOCATION:Spanish Valley Vineyard & Winery\, 4710 Zimmerman Ln\, Moab\, UT 
- 84532
-URL:https://backofbeyondbooks.com/happenings/brianna-madia-thursday-april-
- 16th-4-6-pm-back-of-beyond-books/
-X-SOURCE:Back of Beyond Books
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -5670,26 +5615,13 @@ UID:15042
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/music-in-the-bookstore-april-23rd-6-9-pm-back-of-beyond-books/"}
-X-SOURCE-ID:back_of_beyond
-SUMMARY:Music in the Bookstore
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20270423T180000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20270423T200000
-UID:34eaf18bc26013ec7fcc44e67bb166a5@backofbeyondbooks.com
-DESCRIPTION:
-LOCATION:Back of Beyond Books\, 83 N Main St\, Moab\, UT 84532
-URL:https://backofbeyondbooks.com/happenings/music-in-the-bookstore-april-
- 23rd-6-9-pm-back-of-beyond-books/
-X-SOURCE:Back of Beyond Books
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
 X-SOURCE-ID:center_street
 X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20261021T093535Z
+DTSTAMP:20261021T212005Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st

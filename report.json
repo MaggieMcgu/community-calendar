@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T09:35:36.442303",
+  "generated": "2026-10-21T21:20:06.187001",
   "cities": {
     "santarosa": {
       "feeds": {
@@ -23383,7 +23383,7 @@
             },
             {
               "date": "2026-10-21",
-              "count": 7
+              "count": 2
             }
           ]
         },
@@ -31399,7 +31399,7 @@
             },
             {
               "date": "2026-10-21",
-              "count": 103
+              "count": 98
             }
           ]
         },
@@ -33401,9 +33401,9 @@
         }
       },
       "url_quality": {
-        "total_with_url": 405,
-        "total_events": 408,
-        "unique_urls": 15,
+        "total_with_url": 400,
+        "total_events": 403,
+        "unique_urls": 10,
         "generic_count": 388,
         "generic_domains": [
           {
@@ -33460,12 +33460,6 @@
             "specificity_pct": 4
           },
           {
-            "source": "Back of Beyond Books",
-            "events": 7,
-            "unique_urls": 7,
-            "specificity_pct": 100
-          },
-          {
             "source": "Moab City Council",
             "events": 6,
             "unique_urls": 1,
@@ -33482,6 +33476,12 @@
             "events": 4,
             "unique_urls": 1,
             "specificity_pct": 25
+          },
+          {
+            "source": "Back of Beyond Books",
+            "events": 2,
+            "unique_urls": 2,
+            "specificity_pct": 100
           },
           {
             "source": "Grand County High School",
@@ -34669,6 +34669,14 @@
       "date": "2026-10-18",
       "city": "moab",
       "feed": "maxpreps_grand_county"
+    },
+    {
+      "type": "significant_drop",
+      "message": "Events dropped 71% (7 \u2192 2)",
+      "severity": "medium",
+      "date": "2026-10-21",
+      "city": "moab",
+      "feed": "back_of_beyond"
     }
   ],
   "errors": [
@@ -97745,6 +97753,16 @@
     {
       "date": "2026-10-21",
       "line": "2026-10-21 09:30:47,278 - ClimbMoabScraper - ERROR - Failed to fetch: HTTP Error 404: Not Found",
+      "source": null
+    },
+    {
+      "date": "2026-10-21",
+      "line": "2026-10-21 21:14:56,467 - MoabMuseumScraper - ERROR - Failed to fetch https://moabmuseum.org/calendar-of-events/: HTTP Error 403: Forbidden",
+      "source": null
+    },
+    {
+      "date": "2026-10-21",
+      "line": "2026-10-21 21:14:57,307 - ClimbMoabScraper - ERROR - Failed to fetch: HTTP Error 404: Not Found",
       "source": null
     }
   ]
