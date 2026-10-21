@@ -602,7 +602,7 @@ SOURCE_URLS = {
     'moab_museum': 'https://moabmuseum.org/calendar-of-events/',
     'climb_moab': 'https://climbmoabgym.com/events',
     'back_of_beyond': 'https://backofbeyondbooks.com/happenings/',
-    'wellness_collective': 'https://wellnesscollectivemoab.com/calendar',
+    'wellness_collective': 'https://wellnesscollectivemoab.org/calendar',
     'moab_music_festival': 'https://moabmusicfest.org/calendar/',
     'moab_folk_festival': 'https://www.moabfolkfestival.com/',
 }
