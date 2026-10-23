@@ -580,6 +580,18 @@ UID:17455
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17477
+DTEND;TZID=America/Denver:20261117T190000
+DTSTAMP;TZID=America/Denver:20261022T104239
+DTSTART;TZID=America/Denver:20261117T180000
+LAST-MODIFIED;TZID=America/Denver:20261022T104239
+LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Cold Climate Critters 
+UID:17477
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17389
 DTEND;TZID=America/Denver:20261117T163000
 DTSTAMP;TZID=America/Denver:20260923T102658
@@ -670,9 +682,9 @@ DESCRIPTION:Join friends and authors Amy Irvine and Pam Houston in conversa
  mals Taught Me Everything."  https://grandcountyutah.net/calendar.aspx?EID
  =16986
 DTEND;TZID=America/Denver:20261113T203000
-DTSTAMP;TZID=America/Denver:20261016T103838
+DTSTAMP;TZID=America/Denver:20261022T140137
 DTSTART;TZID=America/Denver:20261113T190000
-LAST-MODIFIED;TZID=America/Denver:20261016T103838
+LAST-MODIFIED;TZID=America/Denver:20261022T140137
 LOCATION:<p>Star Hall</p> - 159 E Center St.  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Authors Amy Irvine and Pam Houston
@@ -1250,30 +1262,6 @@ LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
 SEQUENCE:0
 SUMMARY:Kids Makerspace
 UID:17223
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17183
-DTEND;TZID=America/Denver:20261022T170000
-DTSTAMP;TZID=America/Denver:20260828T092941
-DTSTART;TZID=America/Denver:20261022T150000
-LAST-MODIFIED;TZID=America/Denver:20260828T092941
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:17183
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17222
-DTEND;TZID=America/Denver:20261022T170000
-DTSTAMP;TZID=America/Denver:20260826T114559
-DTSTART;TZID=America/Denver:20261022T140000
-LAST-MODIFIED;TZID=America/Denver:20260826T114559
-LOCATION:<p>Moab Library</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Makerspace
-UID:17222
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 END:VCALENDAR
