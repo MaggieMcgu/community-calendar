@@ -7,122 +7,6 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/r-e-burrillo-friday-october-23rd-7pm-star-hall/"}
-X-SOURCE-ID:back_of_beyond
-SUMMARY:R. E. Burrillo
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20261023T190000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20261023T210000
-UID:bce7bb472499af473e8432456bda3806@backofbeyondbooks.com
-DESCRIPTION:
-LOCATION:Star Hall\, 159 E Center St\, Moab\, UT 84532
-URL:https://backofbeyondbooks.com/happenings/r-e-burrillo-friday-october-2
- 3rd-7pm-star-hall/
-X-SOURCE:Back of Beyond Books
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
-X-SOURCE-ID:center_street
-X-SOURCE:Center Street Gym / Arena
-URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
-DTSTART:20261023T220000Z
-DTEND:20261024T020000Z
-DTSTAMP:20261024T093106Z
-UID:5tbjq53m6k5b7lrti6gc6doqpm@google.com
-CREATED:20260916T181824Z
-DESCRIPTION:Miranda Custar - Rental for spooky aerobics class from the pool
-LAST-MODIFIED:20261012T135212Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Private Rental
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
-X-SOURCE-ID:center_street
-X-SOURCE:Center Street Gym / Arena
-URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261026
-DTSTAMP:20261024T093106Z
-UID:1u8ee6keduhkaub7tr4o2dcqr9@google.com
-CREATED:20260316T155626Z
-LAST-MODIFIED:20261012T135212Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:NOLS Hybrid Recert Course 1 FAll 26'
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=15476
-DTEND;VALUE=DATE:20261025
-DTSTAMP;TZID=America/Denver:20251001T073456
-DTSTART;VALUE=DATE:20261024
-LAST-MODIFIED;TZID=America/Denver:20251001T073456
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Barrels 4 Bucks Barrel Racing - Indoor Arena
-UID:15476
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.org/calendar
-SUMMARY:Qi-Gong with Cody
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20261024T080000
-DTEND;TZID=MDT;VALUE=DATE-TIME:20261024T090000
-UID:3ecc1522a1cd6092b6b643ba152300f9@wellnesscollectivemoab.com
-DESCRIPTION:Zhineng Qigong is a powerful mind-body practice rooted in anci
- ent Chinese healing traditions and adapted for modern times. This gentle y
- et profound system blends slow movement\, sound\, visualization\, and medi
- tation to help individuals cultivate inner peace\, restore balance\, and e
- nhance vitality. By consciously connecting with the energy of life—what 
- some may call qi or universal life force—participants are invited into a
-  process of holistic healing: physically\, emotionally\, and spiritually. 
- One of the most accessible forms of Qigong\, Zhineng emphasizes connection
-  over complexity. Its principles can be embraced by people of all ages\, b
- ackgrounds\, and physical abilities. Cody teaches from a place of lived ex
- perience\, having found this practice deeply healing and transformative in
-  his own journey. His classes focus on cultivating shared energy through g
- roup practice\, empowering individuals to tap into their innate wisdom and
-  live with greater purpose and presence.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17372
-DTEND;TZID=America/Denver:20261024T235900
-DTSTAMP;TZID=America/Denver:20260923T101544
-DTSTART;TZID=America/Denver:20261024T103000
-LAST-MODIFIED;TZID=America/Denver:20260923T101544
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Saturday Storytime
-UID:17372
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17185
-DTEND;TZID=America/Denver:20261024T160000
-DTSTAMP;TZID=America/Denver:20260828T093021
-DTSTART;TZID=America/Denver:20261024T140000
-LAST-MODIFIED;TZID=America/Denver:20260828T093021
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:17185
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -724,7 +608,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261030T214500Z
 DTEND:20261031T040000Z
-DTSTAMP:20261024T093106Z
+DTSTAMP:20261025T093115Z
 UID:0bek9tiisnl9mft61htoj631lk@google.com
 CREATED:20260923T201722Z
 LAST-MODIFIED:20261001T140608Z
@@ -1676,6 +1560,19 @@ UID:1349
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/stephen-trimble-tuesday-november-10th-7pm-moab-library/"}
+X-SOURCE-ID:back_of_beyond
+SUMMARY:Stephen Trimble
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261110T190000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261110T210000
+UID:a97b348176f59206509a758c8643d31d@backofbeyondbooks.com
+DESCRIPTION:
+LOCATION:Moab Library
+URL:https://backofbeyondbooks.com/happenings/stephen-trimble-tuesday-novem
+ ber-10th-7pm-moab-library/
+X-SOURCE:Back of Beyond Books
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -1970,7 +1867,7 @@ URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailp
 DTSTART;TZID=America/Denver:20261113T170000
 DTEND;TZID=America/Denver:20261113T180000
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20270130T065959Z;BYDAY=FR
-DTSTAMP:20261024T093106Z
+DTSTAMP:20261025T093115Z
 UID:0hs060q4uei50gifcpsvarr5ro@google.com
 CREATED:20261012T191300Z
 DESCRIPTION:POC: Jennifer Wenzel 781.718.8264\nUnofficial 1st/2nd grade bas
@@ -5156,6 +5053,40 @@ UID:16217
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.org/calendar
+SUMMARY:70+ Resistance Band Strength Training
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261231T100000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261231T104500
+UID:fa3b6fc668b09ad2a17e9b6084bbbc5f@wellnesscollectivemoab.com
+DESCRIPTION:This 45-minute resistance band strength class is for adults 70
+ + who want to build strength\, improve balance\, and stay active in a supp
+ ortive\, small-group setting. Classes focus on simple\, low-impact movemen
+ ts that support everyday mobility and confidence. Exercises are adaptable 
+ and meet participants where they are. Resistance bands are provided or you
+ ’re welcome to bring your own. Please wear comfortable clothing\, stable
+  shoes\, and bring a water bottle. Thursdays at 10:00 AM at Wellness Colle
+ ctive $10 per class To sign up\, text Susette at 435-260-2523. Or show up!
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.org/calendar
+SUMMARY:Community Yoga
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261231T171500
+DTEND;TZID=MST;VALUE=DATE-TIME:20261231T181500
+UID:bcf063793dbe6166fe296d21133594e9@wellnesscollectivemoab.com
+DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
+ d props provided. Class suitable for all bodies and skill levels. Class pr
+ icing is by donation (recommended $10 per class). Sliding scale pricing av
+ ailable options! No one is turned away.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -5349,7 +5280,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20261024T093106Z
+DTSTAMP:20261025T093115Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
