@@ -608,7 +608,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261030T214500Z
 DTEND:20261031T040000Z
-DTSTAMP:20261025T093115Z
+DTSTAMP:20261026T093109Z
 UID:0bek9tiisnl9mft61htoj631lk@google.com
 CREATED:20260923T201722Z
 LAST-MODIFIED:20261001T140608Z
@@ -1845,6 +1845,31 @@ UID:17384
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.org/calendar
+SUMMARY:Junk Journal Workshop
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261113T140000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261113T153000
+UID:789f9508e195739e78971ffd5f42abfe@wellnesscollectivemoab.com
+DESCRIPTION:A little scrapbooking\, a little collage\, and a whole lot of 
+ creative possibility! Join us for our Gratitude Junk Journal Workshop\, wh
+ ere we’ll turn ordinary journals into something wonderfully personal. We
+ ’ll have a whole bar of colorful papers\, images\, ribbons\, and curious
+  little treasures for you to explore. Cut\, layer\, glue\, and give your j
+ ournal some personality while considering what gratitude looks and feels l
+ ike for you right now. We’ll leave room for a few writing prompts\, a li
+ ttle reflection\, and an optional opportunity to share what you’ve creat
+ ed. No art experience needed. No rules about what your journal should look
+  like. Just 90 minutes to play\, create\, and see where your curiosity tak
+ es you. And yes\, there will be tea and treats! All supplies are included.
+  Friday\, November 13 | 3:00–4:30 PM Wellness Collective\, Moab $10–$2
+ 5 sliding scale Come curious. Leave with a journal that’s entirely your 
+ own. Register at wellnesscollectivemoab.org
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532\, USA
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -1867,7 +1892,7 @@ URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailp
 DTSTART;TZID=America/Denver:20261113T170000
 DTEND;TZID=America/Denver:20261113T180000
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20270130T065959Z;BYDAY=FR
-DTSTAMP:20261025T093115Z
+DTSTAMP:20261026T093109Z
 UID:0hs060q4uei50gifcpsvarr5ro@google.com
 CREATED:20261012T191300Z
 DESCRIPTION:POC: Jennifer Wenzel 781.718.8264\nUnofficial 1st/2nd grade bas
@@ -2927,6 +2952,27 @@ UID:16182
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.org/calendar
+SUMMARY:Gratitude and Grounding-Thanksgiving Morning Yoga
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261126T080000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261126T090000
+UID:4e2560d9321574f700199881ca9cfa1e@wellnesscollectivemoab.com
+DESCRIPTION:Before the day gets underway\, join us for a gentle morning of
+  movement\, breath\, and reflection. This all-levels yoga class offers an 
+ opportunity to slow down\, reconnect with yourself\, and make a little spa
+ ce for gratitude\, whatever that might look like for you right now. Throug
+ h accessible movement\, mindful breathing\, and a brief guided writing ref
+ lection\, we'll explore what it means to appreciate the present moment wit
+ hout needing it to be perfect. Come as you are\, move at your own pace\, a
+ nd enjoy an hour of quiet connection before the day unfolds. All levels we
+ lcome. No experience necessary. Free and open to everyone. Please register
+  at www.wellnesscollectivemoab.org
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -2957,21 +3003,6 @@ DESCRIPTION:This 45-minute resistance band strength class is for adults 70
  ’re welcome to bring your own. Please wear comfortable clothing\, stable
   shoes\, and bring a water bottle. Thursdays at 10:00 AM at Wellness Colle
  ctive $10 per class To sign up\, text Susette at 435-260-2523. Or show up!
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.org/calendar
-SUMMARY:Community Yoga
-DTSTART;TZID=MST;VALUE=DATE-TIME:20261126T171500
-DTEND;TZID=MST;VALUE=DATE-TIME:20261126T181500
-UID:ffb3b05668f5fd2e33f271eea35db8af@wellnesscollectivemoab.com
-DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
- d props provided. Class suitable for all bodies and skill levels. Class pr
- icing is by donation (recommended $10 per class). Sliding scale pricing av
- ailable options! No one is turned away.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
@@ -5280,7 +5311,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20261025T093115Z
+DTSTAMP:20261026T093109Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
