@@ -7,31 +7,6 @@ X-WR-CALNAME:Moab New Sources
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.org/calendar
-SUMMARY:Tai Chi with Drew
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20261026T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20261026T181500
-UID:83404265098b87a08f7b99a64503e684@wellnesscollectivemoab.com
-DESCRIPTION:Among all forms of physical activity\, Tai Chi Ch’uan is per
- haps the most accessible\, convenient\, and economical way to improve both
-  physical health and mental well-being. As Yang Style Tai Chi master Cheng
-  Man-Ching once said\, ‘Those who understand the importance of exercise 
- for health will find Tai Chi Ch’uan indispensable.’ While Tai Chi may 
- not be easy to master\, consistent practice will yield results. In this cl
- ass\, we will focus on cultivating chi\, building endurance and strength\,
-  and developing core alignment\, all while learning to release tension. Ta
- i Chi training offers many levels of progression. In Yang Style\, when pra
- cticed correctly\, it becomes an aerobic workout\, despite minimal movemen
- t. Additionally\, it serves as a form of meditation. Please wear comfortab
- le clothing. Flat shoes\, socks\, or bare feet are ideal. Students are enc
- ouraged to train at their own pace\, and progression will vary from person
-  to person.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/midnight-release-party-monday-october-26th-9pm-midnight-back-of-beyond-books/"}
 X-SOURCE-ID:back_of_beyond
 SUMMARY:Midnight Release Party
@@ -362,6 +337,25 @@ DESCRIPTION:Join Tom for Dharma Recovery-a peer-led community space that i
  s free.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Museum": "https://moabmuseum.org/events/april-art-walk-769-708/"}
+X-SOURCE-ID:moab_museum
+SUMMARY:November Art Walk: Reception with the Delicate Stitcher’s Quilt 
+ Guild
+DTSTART;VALUE=DATE-TIME:20261106T000000
+DTEND;VALUE=DATE-TIME:20261106T000000
+UID:24eb188d8c8023c8748e695871fc9f04@moabmuseum.org
+DESCRIPTION:Celebrate the opening of our newest exhibition with the Delica
+ te Stitchers Quilt Guild! This year\, in conjunction with the fourth exhib
+ it of our semiquincentennial series\, How Did We Get Here? Stories of Migr
+ ation and Home\, the Guild presents their annual quilt show on the same th
+ eme. Join members of the Guild for a reception at this month’s ArtWalk a
+ nd enjoy an incredible selection of quilts and stories of finding home her
+ e in Moab. Refreshments provided.
+LOCATION:Moab Museum\, 118 E. Center St.\, Moab\, UT 84532
+URL:https://moabmuseum.org/events/april-art-walk-769-708/
+X-SOURCE:Moab Museum
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}

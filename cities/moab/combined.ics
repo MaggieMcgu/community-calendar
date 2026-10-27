@@ -7,91 +7,6 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16151
-DTEND;TZID=America/Denver:20261026T200000
-DTSTAMP;TZID=America/Denver:20260112T142517
-DTSTART;TZID=America/Denver:20261026T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142517
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
-UID:16151
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17121
-DTEND;TZID=America/Denver:20261026T200000
-DTSTAMP;TZID=America/Denver:20260820T120932
-DTSTART;TZID=America/Denver:20261026T140000
-LAST-MODIFIED;TZID=America/Denver:20260820T120932
-LOCATION:<p>Library Teen Center</p> - 321 E. Center Street  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Teen Center Maker Monday
-UID:17121
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17187
-DTEND;TZID=America/Denver:20261026T170000
-DTSTAMP;TZID=America/Denver:20260828T093042
-DTSTART;TZID=America/Denver:20261026T150000
-LAST-MODIFIED;TZID=America/Denver:20260828T093042
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:17187
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.org/calendar
-SUMMARY:Tai Chi with Drew
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20261026T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20261026T181500
-UID:83404265098b87a08f7b99a64503e684@wellnesscollectivemoab.com
-DESCRIPTION:Among all forms of physical activity\, Tai Chi Ch’uan is per
- haps the most accessible\, convenient\, and economical way to improve both
-  physical health and mental well-being. As Yang Style Tai Chi master Cheng
-  Man-Ching once said\, ‘Those who understand the importance of exercise 
- for health will find Tai Chi Ch’uan indispensable.’ While Tai Chi may 
- not be easy to master\, consistent practice will yield results. In this cl
- ass\, we will focus on cultivating chi\, building endurance and strength\,
-  and developing core alignment\, all while learning to release tension. Ta
- i Chi training offers many levels of progression. In Yang Style\, when pra
- cticed correctly\, it becomes an aerobic workout\, despite minimal movemen
- t. Additionally\, it serves as a form of meditation. Please wear comfortab
- le clothing. Flat shoes\, socks\, or bare feet are ideal. Students are enc
- ouraged to train at their own pace\, and progression will vary from person
-  to person.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-ID:grand_county
-X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16391
-DTEND;TZID=America/Denver:20261026T183000
-DTSTAMP;TZID=America/Denver:20260206T084923
-DTSTART;TZID=America/Denver:20261026T173000
-LAST-MODIFIED;TZID=America/Denver:20260206T084923
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Grand County Planning Commission Regular Meeting
-UID:16391
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Back of Beyond Books": "https://backofbeyondbooks.com/happenings/midnight-release-party-monday-october-26th-9pm-midnight-back-of-beyond-books/"}
 X-SOURCE-ID:back_of_beyond
 SUMMARY:Midnight Release Party
@@ -608,7 +523,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261030T214500Z
 DTEND:20261031T040000Z
-DTSTAMP:20261026T093109Z
+DTSTAMP:20261027T093602Z
 UID:0bek9tiisnl9mft61htoj631lk@google.com
 CREATED:20260923T201722Z
 LAST-MODIFIED:20261001T140608Z
@@ -932,6 +847,70 @@ LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
+X-SOURCE-ID:center_street
+X-SOURCE:Center Street Gym / Arena
+URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
+DTSTART:20261104T003000Z
+DTEND:20261104T013000Z
+DTSTAMP:20261027T093602Z
+UID:0jocjv4lp83fifunrq7fr4mtud@google.com
+CREATED:20261026T140907Z
+LAST-MODIFIED:20261026T140907Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Jr Jazz Basketball Assessments Boys 3/4
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
+X-SOURCE-ID:center_street
+X-SOURCE:Center Street Gym / Arena
+URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
+DTSTART:20261104T013000Z
+DTEND:20261104T023000Z
+DTSTAMP:20261027T093602Z
+UID:3f8pubv67hgc3pp7hh5l825bg8@google.com
+CREATED:20261026T141212Z
+LAST-MODIFIED:20261026T141213Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Jr Jazz Basketball Assessments Boys 3/4 - Coach Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
+X-SOURCE-ID:center_street
+X-SOURCE:Center Street Gym / Arena
+URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
+DTSTART:20261104T014500Z
+DTEND:20261104T024500Z
+DTSTAMP:20261027T093602Z
+UID:0i81j2rb15ps3jntet89967avd@google.com
+CREATED:20261026T140958Z
+LAST-MODIFIED:20261026T140959Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Jr Jazz Basketball Assessments Boys 5/6
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
+X-SOURCE-ID:center_street
+X-SOURCE:Center Street Gym / Arena
+URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
+DTSTART:20261104T024500Z
+DTEND:20261104T034500Z
+DTSTAMP:20261027T093602Z
+UID:06aoiaeefqqv961tpgbm9789vh@google.com
+CREATED:20261026T141246Z
+LAST-MODIFIED:20261026T141246Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Jr Jazz Basketball Assessments Boys 5/6 - Coach Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -1090,6 +1069,89 @@ DESCRIPTION:Join Tom for Dharma Recovery-a peer-led community space that i
  s free.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Moab Museum": "https://moabmuseum.org/events/april-art-walk-769-708/"}
+X-SOURCE-ID:moab_museum
+SUMMARY:November Art Walk: Reception with the Delicate Stitcher’s Quilt 
+ Guild
+DTSTART;VALUE=DATE-TIME:20261106T000000
+DTEND;VALUE=DATE-TIME:20261106T000000
+UID:24eb188d8c8023c8748e695871fc9f04@moabmuseum.org
+DESCRIPTION:Celebrate the opening of our newest exhibition with the Delica
+ te Stitchers Quilt Guild! This year\, in conjunction with the fourth exhib
+ it of our semiquincentennial series\, How Did We Get Here? Stories of Migr
+ ation and Home\, the Guild presents their annual quilt show on the same th
+ eme. Join members of the Guild for a reception at this month’s ArtWalk a
+ nd enjoy an incredible selection of quilts and stories of finding home her
+ e in Moab. Refreshments provided.
+LOCATION:Moab Museum\, 118 E. Center St.\, Moab\, UT 84532
+URL:https://moabmuseum.org/events/april-art-walk-769-708/
+X-SOURCE:Moab Museum
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
+X-SOURCE-ID:center_street
+X-SOURCE:Center Street Gym / Arena
+URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
+DTSTART:20261106T003000Z
+DTEND:20261106T013000Z
+DTSTAMP:20261027T093602Z
+UID:7otrvq9ci3prahrk4eotjv6k0c@google.com
+CREATED:20261026T141046Z
+LAST-MODIFIED:20261026T141047Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Jr Jazz Basketball Assessments Girls 3/4
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
+X-SOURCE-ID:center_street
+X-SOURCE:Center Street Gym / Arena
+URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
+DTSTART:20261106T013000Z
+DTEND:20261106T023000Z
+DTSTAMP:20261027T093602Z
+UID:4qrem9qu7uartr4qthie1letai@google.com
+CREATED:20261026T141316Z
+LAST-MODIFIED:20261026T141317Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Jr Jazz Basketball Assessments Girls 3/4 - Coach Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
+X-SOURCE-ID:center_street
+X-SOURCE:Center Street Gym / Arena
+URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
+DTSTART:20261106T014500Z
+DTEND:20261106T024500Z
+DTSTAMP:20261027T093602Z
+UID:58i7v12gn2o7lh80nf0ene5r6b@google.com
+CREATED:20261026T141109Z
+LAST-MODIFIED:20261026T141110Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Jr Jazz Basketball Assessments Girls 5/6
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
+X-SOURCE-ID:center_street
+X-SOURCE:Center Street Gym / Arena
+URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
+DTSTART:20261106T024500Z
+DTEND:20261106T034500Z
+DTSTAMP:20261027T093602Z
+UID:56fegqljfui6gudggcr8d0sp7m@google.com
+CREATED:20261026T141342Z
+LAST-MODIFIED:20261026T141406Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Jr Jazz Basketball Assessments Girls 5/6 - Coach Meeting
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
@@ -1892,7 +1954,7 @@ URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailp
 DTSTART;TZID=America/Denver:20261113T170000
 DTEND;TZID=America/Denver:20261113T180000
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20270130T065959Z;BYDAY=FR
-DTSTAMP:20261026T093109Z
+DTSTAMP:20261027T093602Z
 UID:0hs060q4uei50gifcpsvarr5ro@google.com
 CREATED:20261012T191300Z
 DESCRIPTION:POC: Jennifer Wenzel 781.718.8264\nUnofficial 1st/2nd grade bas
@@ -5311,7 +5373,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20261026T093109Z
+DTSTAMP:20261027T093602Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
