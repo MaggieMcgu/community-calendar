@@ -7,89 +7,13 @@ X-WR-CALNAME:Moab Community Calendar
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
-X-SOURCE-ID:old_spanish_trail_arena
-X-SOURCE:Old Spanish Trail Arena
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16153
-DTEND;TZID=America/Denver:20261028T200000
-DTSTAMP;TZID=America/Denver:20260112T142517
-DTSTART;TZID=America/Denver:20261028T080000
-LAST-MODIFIED;TZID=America/Denver:20260112T142517
-LOCATION:OSTARC Facilities > Indoor Arena - 3641 S Hwy 191  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
-UID:16153
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17353
-DTEND;TZID=America/Denver:20261028T235900
-DTSTAMP;TZID=America/Denver:20260923T094712
-DTSTART;TZID=America/Denver:20261028T103000
-LAST-MODIFIED;TZID=America/Denver:20260923T094712
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Toddler Time
-UID:17353
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17189
-DTEND;TZID=America/Denver:20261028T170000
-DTSTAMP;TZID=America/Denver:20260828T093121
-DTSTART;TZID=America/Denver:20261028T150000
-LAST-MODIFIED;TZID=America/Denver:20260828T093121
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:17189
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-ID:moab_arts
-SUMMARY:Spooky Art Studio for Kids
-DTSTART;TZID="UTC-06:00";VALUE=DATE-TIME:20261028T153000
-DTEND;TZID="UTC-06:00";VALUE=DATE-TIME:20261028T170000
-UID:bb9770716220a9fa1888d88f9c246842@moabarts.org
-DESCRIPTION:Halloween themed Crafternoon with Moab Arts Staff! Get ready f
- or spiders\, pumpkins\, ghosts\, and bats- and exciting spooky games!
-LOCATION:Moab Arts & Recreation Center\, 111 E 100 N\, Moab\, UT 84532\, U
- SA
-X-SOURCE:Moab Arts & Recreation Center
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.org/calendar
-SUMMARY:Yoga for Recovery at USARA
-DTSTART;TZID=MDT;VALUE=DATE-TIME:20261028T171500
-DTEND;TZID=MDT;VALUE=DATE-TIME:20261028T181500
-UID:bea3c02f2b94caf53630039240cebd6c@wellnesscollectivemoab.com
-DESCRIPTION:Yoga for Recovery is a supportive\, accessible yoga class for 
- anyone impacted by addiction or recovery\, including people in recovery an
- d those affected by the substance use of others. Through gentle movement\,
-  breath\, and grounding practices\, this class offers space to reconnect w
- ith the body\, reduce stress\, and support well-being in recovery. No yoga
-  experience is needed\, and all recovery pathways are welcome. Free and op
- en to the community. Provided in partnership with USARA. Wednesdays | USAR
- A 125 W 200 S\, #113
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
 X-SOURCE-ID:center_street
 X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;TZID=America/Denver:20261028T200000
 DTEND;TZID=America/Denver:20261028T220000
-DTSTAMP:20261028T093704Z
+DTSTAMP:20261029T093632Z
 UID:49h866p336ig83ibjrfb1puc44_R20260611T020000@google.com
 RECURRENCE-ID;TZID=America/Denver:20261028T200000
 CREATED:20241113T154737Z
@@ -370,7 +294,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261030T214500Z
 DTEND:20261031T040000Z
-DTSTAMP:20261028T093704Z
+DTSTAMP:20261029T093632Z
 UID:0bek9tiisnl9mft61htoj631lk@google.com
 CREATED:20260923T201722Z
 LAST-MODIFIED:20261001T140608Z
@@ -685,7 +609,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261104T003000Z
 DTEND:20261104T013000Z
-DTSTAMP:20261028T093704Z
+DTSTAMP:20261029T093632Z
 UID:0jocjv4lp83fifunrq7fr4mtud@google.com
 CREATED:20261026T140907Z
 LAST-MODIFIED:20261027T144126Z
@@ -701,7 +625,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261104T013000Z
 DTEND:20261104T023000Z
-DTSTAMP:20261028T093704Z
+DTSTAMP:20261029T093632Z
 UID:3f8pubv67hgc3pp7hh5l825bg8@google.com
 CREATED:20261026T141212Z
 LAST-MODIFIED:20261027T143445Z
@@ -717,7 +641,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261104T014500Z
 DTEND:20261104T024500Z
-DTSTAMP:20261028T093704Z
+DTSTAMP:20261029T093632Z
 UID:0i81j2rb15ps3jntet89967avd@google.com
 CREATED:20261026T140958Z
 LAST-MODIFIED:20261027T143505Z
@@ -733,7 +657,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261104T024500Z
 DTEND:20261104T034500Z
-DTSTAMP:20261028T093704Z
+DTSTAMP:20261029T093632Z
 UID:06aoiaeefqqv961tpgbm9789vh@google.com
 CREATED:20261026T141246Z
 LAST-MODIFIED:20261027T143440Z
@@ -943,7 +867,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261106T003000Z
 DTEND:20261106T013000Z
-DTSTAMP:20261028T093704Z
+DTSTAMP:20261029T093632Z
 UID:7otrvq9ci3prahrk4eotjv6k0c@google.com
 CREATED:20261026T141046Z
 LAST-MODIFIED:20261027T143500Z
@@ -959,7 +883,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261106T013000Z
 DTEND:20261106T023000Z
-DTSTAMP:20261028T093704Z
+DTSTAMP:20261029T093632Z
 UID:4qrem9qu7uartr4qthie1letai@google.com
 CREATED:20261026T141316Z
 LAST-MODIFIED:20261027T143419Z
@@ -975,7 +899,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261106T014500Z
 DTEND:20261106T024500Z
-DTSTAMP:20261028T093704Z
+DTSTAMP:20261029T093632Z
 UID:58i7v12gn2o7lh80nf0ene5r6b@google.com
 CREATED:20261026T141109Z
 LAST-MODIFIED:20261027T143454Z
@@ -991,7 +915,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART:20261106T024500Z
 DTEND:20261106T034500Z
-DTSTAMP:20261028T093704Z
+DTSTAMP:20261029T093632Z
 UID:56fegqljfui6gudggcr8d0sp7m@google.com
 CREATED:20261026T141342Z
 LAST-MODIFIED:20261027T143411Z
@@ -999,26 +923,6 @@ SEQUENCE:1
 STATUS:CONFIRMED
 SUMMARY:Jr Jazz Basketball Assessments Girls 5/6 - Coach Meeting
 TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.org/calendar
-SUMMARY:Flow into Friday Yoga
-DTSTART;TZID=MST;VALUE=DATE-TIME:20261106T073000
-DTEND;TZID=MST;VALUE=DATE-TIME:20261106T083000
-UID:39e6336e7a78af4dce17d4840ec174c1@wellnesscollectivemoab.com
-DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
- . Start your Friday with this all-levels yoga class designed to help you a
- waken the body\, center the mind\, and ease into your day with intention. 
- We’ll begin with slow\, fluid movement to energize and open\, followed b
- y longer-held stretches and restorative postures to help you release tensi
- on and reconnect with yourself. This class is inclusive\, beginner-friendl
- y\, and rooted in breath\, balance\, and compassionate movement. Whether y
- ou’re unwinding from your week or preparing for the weekend ahead\, Frid
- ay Flow is a chance to show up just as you are.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -1034,6 +938,26 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm Indoor Arena (Access Code Required)
 UID:16162
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.org/calendar
+SUMMARY:Flow into Friday Yoga
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261106T083000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261106T093000
+UID:59fe4920c0f8dfc39794f65e6de570ea@wellnesscollectivemoab.com
+DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
+ . Start your Friday with this all-levels yoga class designed to help you a
+ waken the body\, center the mind\, and ease into your day with intention. 
+ We’ll begin with slow\, fluid movement to energize and open\, followed b
+ y longer-held stretches and restorative postures to help you release tensi
+ on and reconnect with yourself. This class is inclusive\, beginner-friendl
+ y\, and rooted in breath\, balance\, and compassionate movement. Whether y
+ ou’re unwinding from your week or preparing for the weekend ahead\, Frid
+ ay Flow is a chance to show up just as you are.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
@@ -1184,9 +1108,9 @@ X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/c
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.org/calendar
 SUMMARY:Soup Bowl Fundraiser
-DTSTART;TZID=MST;VALUE=DATE-TIME:20261107T150000
-DTEND;TZID=MST;VALUE=DATE-TIME:20261107T180000
-UID:c2985ff4813889e692ac0aec26cef703@wellnesscollectivemoab.com
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261107T160000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261107T190000
+UID:73652e5600219662b40307ceba7a23ed@wellnesscollectivemoab.com
 DESCRIPTION:Join the Clay Artisans of Moab for the annual Soup Bowl Fundra
  iser benefiting the Wellness Collective! Choose a one-of-a-kind handmade c
  eramic bowl\, enjoy soup\, bread\, and dessert from local restaurants and 
@@ -1283,13 +1207,28 @@ UID:17401
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
+X-SOURCE-ID:grand_county
+X-SOURCE:Grand County
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16402
+DTEND;TZID=America/Denver:20261109T183000
+DTSTAMP;TZID=America/Denver:20260206T084945
+DTSTART;TZID=America/Denver:20261109T173000
+LAST-MODIFIED;TZID=America/Denver:20260206T084945
+LOCATION: -     
+SEQUENCE:0
+SUMMARY:Grand County Planning Commission Regular Meeting
+UID:16402
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.org/calendar
 SUMMARY:Tai Chi with Drew
-DTSTART;TZID=MST;VALUE=DATE-TIME:20261109T171500
-DTEND;TZID=MST;VALUE=DATE-TIME:20261109T181500
-UID:c631894c5cd86dfd562f05a400ddc9e2@wellnesscollectivemoab.com
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261109T181500
+DTEND;TZID=MST;VALUE=DATE-TIME:20261109T191500
+UID:21de468da51a770686e315d354d9cfb9@wellnesscollectivemoab.com
 DESCRIPTION:Among all forms of physical activity\, Tai Chi Ch’uan is per
  haps the most accessible\, convenient\, and economical way to improve both
   physical health and mental well-being. As Yang Style Tai Chi master Cheng
@@ -1306,21 +1245,6 @@ DESCRIPTION:Among all forms of physical activity\, Tai Chi Ch’uan is per
   to person.
 LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
 X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
-X-SOURCE-ID:grand_county
-X-SOURCE:Grand County
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=16402
-DTEND;TZID=America/Denver:20261109T183000
-DTSTAMP;TZID=America/Denver:20260206T084945
-DTSTART;TZID=America/Denver:20261109T173000
-LAST-MODIFIED;TZID=America/Denver:20260206T084945
-LOCATION: -     
-SEQUENCE:0
-SUMMARY:Grand County Planning Commission Regular Meeting
-UID:16402
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -1660,21 +1584,6 @@ UID:17404
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.org/calendar
-SUMMARY:Community Yoga
-DTSTART;TZID=MST;VALUE=DATE-TIME:20261112T171500
-DTEND;TZID=MST;VALUE=DATE-TIME:20261112T181500
-UID:525da26b2b41e7d0e12e2eda189fea3a@wellnesscollectivemoab.com
-DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
- d props provided. Class suitable for all bodies and skill levels. Class pr
- icing is by donation (recommended $10 per class). Sliding scale pricing av
- ailable options! No one is turned away.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Moab City Council": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23"}
 X-SOURCE-ID:moab_city_council
 X-SOURCE:Moab City Council
@@ -1688,6 +1597,21 @@ SEQUENCE:0
 SUMMARY:Moab City Planning Commission - Regular Meeting
 UID:1373
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=23
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.org/calendar
+SUMMARY:Community Yoga
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261112T181500
+DTEND;TZID=MST;VALUE=DATE-TIME:20261112T191500
+UID:be5044e2849ef8075070f9d0128cea4f@wellnesscollectivemoab.com
+DESCRIPTION:Join us for Community based yoga every Thursday night. Mats an
+ d props provided. Class suitable for all bodies and skill levels. Class pr
+ icing is by donation (recommended $10 per class). Sliding scale pricing av
+ ailable options! No one is turned away.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
@@ -1754,13 +1678,28 @@ UID:17384
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
+DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17405
+DTEND;TZID=America/Denver:20261113T170000
+DTSTAMP;TZID=America/Denver:20260923T103028
+DTSTART;TZID=America/Denver:20261113T150000
+LAST-MODIFIED;TZID=America/Denver:20260923T103028
+LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
+SEQUENCE:0
+SUMMARY:Kids Cafe
+UID:17405
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.org/calendar
 SUMMARY:Junk Journal Workshop
-DTSTART;TZID=MST;VALUE=DATE-TIME:20261113T140000
-DTEND;TZID=MST;VALUE=DATE-TIME:20261113T153000
-UID:789f9508e195739e78971ffd5f42abfe@wellnesscollectivemoab.com
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261113T150000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261113T163000
+UID:2ab0c32d511716bbd628dcb29b83c3e7@wellnesscollectivemoab.com
 DESCRIPTION:A little scrapbooking\, a little collage\, and a whole lot of 
  creative possibility! Join us for our Gratitude Junk Journal Workshop\, wh
  ere we’ll turn ordinary journals into something wonderfully personal. We
@@ -1779,21 +1718,6 @@ LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532\, USA
 X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
-X-SOURCE-ID:grand_county_library
-X-SOURCE:Grand County Public Library
-DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17405
-DTEND;TZID=America/Denver:20261113T170000
-DTSTAMP;TZID=America/Denver:20260923T103028
-DTSTART;TZID=America/Denver:20261113T150000
-LAST-MODIFIED;TZID=America/Denver:20260923T103028
-LOCATION:<p>Moab Library Branch</p> - 257 E Center St  Moab UT 84532
-SEQUENCE:0
-SUMMARY:Kids Cafe
-UID:17405
-URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Center Street Gym / Arena": "https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com"}
 X-SOURCE-ID:center_street
 X-SOURCE:Center Street Gym / Arena
@@ -1801,7 +1725,7 @@ URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailp
 DTSTART;TZID=America/Denver:20261113T170000
 DTEND;TZID=America/Denver:20261113T180000
 RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20270130T065959Z;BYDAY=FR
-DTSTAMP:20261028T093704Z
+DTSTAMP:20261029T093632Z
 UID:0hs060q4uei50gifcpsvarr5ro@google.com
 CREATED:20261012T191300Z
 DESCRIPTION:POC: Jennifer Wenzel 781.718.8264\nUnofficial 1st/2nd grade bas
@@ -2188,6 +2112,17 @@ UID:17408
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-ID:moab_arts
+SUMMARY:Paint n' Sip @ The Press
+DTSTART;TZID="UTC-07:00";VALUE=DATE-TIME:20261118T170000
+DTEND;TZID="UTC-07:00";VALUE=DATE-TIME:20261118T190000
+UID:3d52387cd883a9d67bc3dfa53fa4c7ea@moabarts.org
+DESCRIPTION:Join Elly Bauer in a creative endeavor to paint La Sal mountai
+ n goats at The Press!
+LOCATION:The Press\, 35 E Center Street\, Moab\, UT 84532
+X-SOURCE:Moab Arts & Recreation Center
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.org/calendar
@@ -2356,26 +2291,6 @@ UID:17453
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.org/calendar
-SUMMARY:Flow into Friday Yoga
-DTSTART;TZID=MST;VALUE=DATE-TIME:20261120T073000
-DTEND;TZID=MST;VALUE=DATE-TIME:20261120T083000
-UID:aa3d59b9fb6e3365590b4c36c86fcc20@wellnesscollectivemoab.com
-DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
- . Start your Friday with this all-levels yoga class designed to help you a
- waken the body\, center the mind\, and ease into your day with intention. 
- We’ll begin with slow\, fluid movement to energize and open\, followed b
- y longer-held stretches and restorative postures to help you release tensi
- on and reconnect with yourself. This class is inclusive\, beginner-friendl
- y\, and rooted in breath\, balance\, and compassionate movement. Whether y
- ou’re unwinding from your week or preparing for the weekend ahead\, Frid
- ay Flow is a chance to show up just as you are.
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Old Spanish Trail Arena": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30"}
 X-SOURCE-ID:old_spanish_trail_arena
 X-SOURCE:Old Spanish Trail Arena
@@ -2389,6 +2304,26 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm  Indoor Arena (Access Code Required)
 UID:16176
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.org/calendar
+SUMMARY:Flow into Friday Yoga
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261120T083000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261120T093000
+UID:6d4bafd66d118046a4a63f62bd469a98@wellnesscollectivemoab.com
+DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
+ . Start your Friday with this all-levels yoga class designed to help you a
+ waken the body\, center the mind\, and ease into your day with intention. 
+ We’ll begin with slow\, fluid movement to energize and open\, followed b
+ y longer-held stretches and restorative postures to help you release tensi
+ on and reconnect with yourself. This class is inclusive\, beginner-friendl
+ y\, and rooted in breath\, balance\, and compassionate movement. Whether y
+ ou’re unwinding from your week or preparing for the weekend ahead\, Frid
+ ay Flow is a chance to show up just as you are.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
@@ -2539,9 +2474,9 @@ X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/c
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.org/calendar
 SUMMARY:Radical Rest
-DTSTART;TZID=MST;VALUE=DATE-TIME:20261122T140000
-DTEND;TZID=MST;VALUE=DATE-TIME:20261122T160000
-UID:df9c5524276d6971ca0f25560cd17d90@wellnesscollectivemoab.com
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261122T150000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261122T170000
+UID:8141694d33cb7633e9b87b20d525ada8@wellnesscollectivemoab.com
 DESCRIPTION:Radical Rest is a 2 hour experience of practicing beyond the p
  hysical asana of yoga. Sam (she/her) will guide you through breathwork\, g
  entle asana (a balance of movement and restorative yoga)\, yoga nidra\, an
@@ -2861,27 +2796,6 @@ UID:16182
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
-X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
-X-SOURCE-ID:wellness_collective
-URL:https://wellnesscollectivemoab.org/calendar
-SUMMARY:Gratitude and Grounding-Thanksgiving Morning Yoga
-DTSTART;TZID=MST;VALUE=DATE-TIME:20261126T080000
-DTEND;TZID=MST;VALUE=DATE-TIME:20261126T090000
-UID:4e2560d9321574f700199881ca9cfa1e@wellnesscollectivemoab.com
-DESCRIPTION:Before the day gets underway\, join us for a gentle morning of
-  movement\, breath\, and reflection. This all-levels yoga class offers an 
- opportunity to slow down\, reconnect with yourself\, and make a little spa
- ce for gratitude\, whatever that might look like for you right now. Throug
- h accessible movement\, mindful breathing\, and a brief guided writing ref
- lection\, we'll explore what it means to appreciate the present moment wit
- hout needing it to be perfect. Come as you are\, move at your own pace\, a
- nd enjoy an hour of quiet connection before the day unfolds. All levels we
- lcome. No experience necessary. Free and open to everyone. Please register
-  at www.wellnesscollectivemoab.org
-LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
-X-SOURCE:Wellness Collective Moab
-END:VEVENT
-BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
@@ -2895,6 +2809,27 @@ SEQUENCE:0
 SUMMARY:Library Closed
 UID:17363
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.org/calendar
+SUMMARY:Gratitude and Grounding-Thanksgiving Morning Yoga
+DTSTART;TZID=MST;VALUE=DATE-TIME:20261126T090000
+DTEND;TZID=MST;VALUE=DATE-TIME:20261126T100000
+UID:f4715dcb2940451c328bc280f7c66798@wellnesscollectivemoab.com
+DESCRIPTION:Before the day gets underway\, join us for a gentle morning of
+  movement\, breath\, and reflection. This all-levels yoga class offers an 
+ opportunity to slow down\, reconnect with yourself\, and make a little spa
+ ce for gratitude\, whatever that might look like for you right now. Throug
+ h accessible movement\, mindful breathing\, and a brief guided writing ref
+ lection\, we'll explore what it means to appreciate the present moment wit
+ hout needing it to be perfect. Come as you are\, move at your own pace\, a
+ nd enjoy an hour of quiet connection before the day unfolds. All levels we
+ lcome. No experience necessary. Free and open to everyone. Please register
+  at www.wellnesscollectivemoab.org
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
@@ -3248,6 +3183,23 @@ UID:17358
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
+DESCRIPTION:Bring a bag (any size) and fill it with books for only $2.  htt
+ ps://grandcountyutah.net/calendar.aspx?EID=17480
+DTEND;TZID=America/Denver:20261202T200000
+DTSTAMP;TZID=America/Denver:20261028T150704
+DTSTART;TZID=America/Denver:20261202T150000
+LAST-MODIFIED;TZID=America/Denver:20261028T150704
+LOCATION:<p>Moab Library Large Meeting Room</p> - 257 E Center St.  Moab UT
+  84532
+SEQUENCE:0
+SUMMARY:Friends of the Library $2/Bag Book Sale
+UID:17480
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.org/calendar
@@ -3280,6 +3232,23 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm  Indoor Arena (Access Code Required)
 UID:16189
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
+DESCRIPTION:Bring a bag (any size) and fill it with books for only $2.  htt
+ ps://grandcountyutah.net/calendar.aspx?EID=17481
+DTEND;TZID=America/Denver:20261203T200000
+DTSTAMP;TZID=America/Denver:20261028T150927
+DTSTART;TZID=America/Denver:20261203T090000
+LAST-MODIFIED;TZID=America/Denver:20261028T150927
+LOCATION:<p>Moab Library Large Meeting Room</p> - 257 E Center St.  Moab UT
+  84532
+SEQUENCE:0
+SUMMARY:Friends of the Library $2/Bag Book Sale
+UID:17481
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
@@ -3383,6 +3352,23 @@ UID:15764
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
+DESCRIPTION:Bring a bag (any size) and fill it with books for only $2.  htt
+ ps://grandcountyutah.net/calendar.aspx?EID=17482
+DTEND;TZID=America/Denver:20261204T200000
+DTSTAMP;TZID=America/Denver:20261028T151508
+DTSTART;TZID=America/Denver:20261204T090000
+LAST-MODIFIED;TZID=America/Denver:20261028T151508
+LOCATION:<p>Moab Library Large Meeting Room</p> - 257 E Center St.  Moab UT
+  84532
+SEQUENCE:0
+SUMMARY:Friends of the Library $2/Bag Book Sale
+UID:17482
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
 X-SOURCE-ID:wellness_collective
 URL:https://wellnesscollectivemoab.org/calendar
@@ -3467,6 +3453,23 @@ BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
 X-SOURCE-ID:grand_county_library
 X-SOURCE:Grand County Public Library
+DESCRIPTION:Bring a bag (any size) and fill it with books for only $2.  htt
+ ps://grandcountyutah.net/calendar.aspx?EID=17483
+DTEND;TZID=America/Denver:20261205T170000
+DTSTAMP;TZID=America/Denver:20261028T151625
+DTSTART;TZID=America/Denver:20261205T090000
+LAST-MODIFIED;TZID=America/Denver:20261028T151625
+LOCATION:<p>Moab Library Large Meeting Room</p> - 257 E Center St.  Moab UT
+  84532
+SEQUENCE:0
+SUMMARY:Friends of the Library $2/Bag Book Sale
+UID:17483
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
 DESCRIPTION: https://grandcountyutah.net/calendar.aspx?EID=17378
 DTEND;TZID=America/Denver:20261205T235900
 DTSTAMP;TZID=America/Denver:20260923T101544
@@ -3507,6 +3510,23 @@ SEQUENCE:0
 SUMMARY:Local Open Ride 8am - 8pm  Indoor Arena (Access Code Required)
 UID:16193
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Grand County Public Library": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28"}
+X-SOURCE-ID:grand_county_library
+X-SOURCE:Grand County Public Library
+DESCRIPTION:Bring a bag (any size) and fill it with books for only $2.  htt
+ ps://grandcountyutah.net/calendar.aspx?EID=17484
+DTEND;TZID=America/Denver:20261207T200000
+DTSTAMP;TZID=America/Denver:20261028T151719
+DTSTART;TZID=America/Denver:20261207T090000
+LAST-MODIFIED;TZID=America/Denver:20261028T151719
+LOCATION:<p>Moab Library Large Meeting Room</p> - 257 E Center St.  Moab UT
+  84532
+SEQUENCE:0
+SUMMARY:Friends of the Library $2/Bag Book Sale
+UID:17484
+URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=28
 END:VEVENT
 BEGIN:VEVENT
 X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
@@ -5060,6 +5080,90 @@ UID:15878
 URL:/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=30
 END:VEVENT
 BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.org/calendar
+SUMMARY:Flow into Friday Yoga
+DTSTART;TZID=MST;VALUE=DATE-TIME:20270101T083000
+DTEND;TZID=MST;VALUE=DATE-TIME:20270101T093000
+UID:d85a265686db7bc13bde7c357217afd8@wellnesscollectivemoab.com
+DESCRIPTION:A gentle and grounding way to move mindfully into your weekend
+ . Start your Friday with this all-levels yoga class designed to help you a
+ waken the body\, center the mind\, and ease into your day with intention. 
+ We’ll begin with slow\, fluid movement to energize and open\, followed b
+ y longer-held stretches and restorative postures to help you release tensi
+ on and reconnect with yourself. This class is inclusive\, beginner-friendl
+ y\, and rooted in breath\, balance\, and compassionate movement. Whether y
+ ou’re unwinding from your week or preparing for the weekend ahead\, Frid
+ ay Flow is a chance to show up just as you are.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.org/calendar
+SUMMARY:Yoga for Recovery at USARA
+DTSTART;TZID=MST;VALUE=DATE-TIME:20270101T100000
+DTEND;TZID=MST;VALUE=DATE-TIME:20270101T104500
+UID:46e50dcd48d91d1c8c51d8acf70ada1f@wellnesscollectivemoab.com
+DESCRIPTION:An All-Levels Yoga class for USARA participants and all commun
+ ity members. A free class held inside at USARA. Mats provided. Location: 1
+ 25 west 200 south #113\, Moab\, UT 84532
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.org/calendar
+SUMMARY:Qi-Gong with Cody
+DTSTART;TZID=MST;VALUE=DATE-TIME:20270102T080000
+DTEND;TZID=MST;VALUE=DATE-TIME:20270102T090000
+UID:18dd5b8aa4ac0a53b8cdad2037abc8f8@wellnesscollectivemoab.com
+DESCRIPTION:Zhineng Qigong is a powerful mind-body practice rooted in anci
+ ent Chinese healing traditions and adapted for modern times. This gentle y
+ et profound system blends slow movement\, sound\, visualization\, and medi
+ tation to help individuals cultivate inner peace\, restore balance\, and e
+ nhance vitality. By consciously connecting with the energy of life—what 
+ some may call qi or universal life force—participants are invited into a
+  process of holistic healing: physically\, emotionally\, and spiritually. 
+ One of the most accessible forms of Qigong\, Zhineng emphasizes connection
+  over complexity. Its principles can be embraced by people of all ages\, b
+ ackgrounds\, and physical abilities. Cody teaches from a place of lived ex
+ perience\, having found this practice deeply healing and transformative in
+  his own journey. His classes focus on cultivating shared energy through g
+ roup practice\, empowering individuals to tap into their innate wisdom and
+  live with greater purpose and presence.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
+X-SOURCE-URLS:{"Wellness Collective Moab": "https://wellnesscollectivemoab.org/calendar"}
+X-SOURCE-ID:wellness_collective
+URL:https://wellnesscollectivemoab.org/calendar
+SUMMARY:Chair Yoga with Breann
+DTSTART;TZID=MST;VALUE=DATE-TIME:20270104T090000
+DTEND;TZID=MST;VALUE=DATE-TIME:20270104T100000
+UID:695fa25ac23f92e2af2ddca295e64bfe@wellnesscollectivemoab.com
+DESCRIPTION:Chair Yoga – Mondays at 9 AM Join us every Monday morning at
+  9:00 AM for a gentle and accessible Chair Yoga class\, led by Breann\, a 
+ certified trauma-sensitive yoga teacher and experienced massage therapist.
+  Breann brings over 20 years of experience in guiding others toward greate
+ r body awareness\, healing\, and relaxation. This class is designed for ev
+ eryone – whether you are new to yoga\, have limited mobility\, or are lo
+ oking for a mindful and soothing way to start your week. Chair Yoga allows
+  you to experience the benefits of yoga without needing to get down on a m
+ at. What to Expect: • Seated and standing postures using the chair for s
+ upport • Gentle stretches to enhance flexibility • Breathing exercises
+  to calm the mind and body • Movements to promote better circulation and
+  balance ✨ No experience necessary – come as you are! Where: Wellness 
+ Collective When: Every Monday at 9:00 AM Cost: By donation Let this practi
+ ce be a moment of self-care and grounding in your week.
+LOCATION:Wellness Collective\, 76 S 100 W\, Moab\, UT 84532
+X-SOURCE:Wellness Collective Moab
+END:VEVENT
+BEGIN:VEVENT
 X-SOURCE-URLS:{"Grand County": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=14"}
 X-SOURCE-ID:grand_county
 X-SOURCE:Grand County
@@ -5237,7 +5341,7 @@ X-SOURCE:Center Street Gym / Arena
 URL:https://calendar.google.com/calendar/embed?src=moabcity.org_dmbn5sbro83qailpru9tfbijpo%40group.calendar.google.com
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270502
-DTSTAMP:20261028T093704Z
+DTSTAMP:20261029T093632Z
 UID:1o9vn735gs5d72fes5gvp6c9l1@google.com
 CREATED:20260316T161455Z
 DESCRIPTION:Nols WRF and Recert april 24-25 are recert\napril 27th- may 1st
